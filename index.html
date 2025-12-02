@@ -14,25 +14,25 @@
     <style>
         :root {
             color-scheme: dark;
-            --bg-primary: #0a0e27;
-            --bg-secondary: #111628;
-            --bg-tertiary: #1a1f3a;
-            --panel: rgba(20, 25, 45, 0.75);
-            --panel-hover: rgba(25, 30, 55, 0.85);
-            --card: rgba(26, 31, 58, 0.6);
-            --card-hover: rgba(30, 37, 68, 0.8);
-            --primary: #00d4ff;
-            --primary-glow: rgba(0, 212, 255, 0.3);
-            --secondary: #7c3aed;
-            --accent: #ff6b35;
+            --bg-primary: #1a1506;
+            --bg-secondary: #221a08;
+            --bg-tertiary: #2d2410;
+            --panel: rgba(45, 36, 16, 0.85);
+            --panel-hover: rgba(55, 44, 20, 0.95);
+            --card: rgba(60, 48, 24, 0.7);
+            --card-hover: rgba(75, 60, 30, 0.9);
+            --primary: #ffd700;
+            --primary-glow: rgba(255, 215, 0, 0.4);
+            --secondary: #ffb700;
+            --accent: #ff8c00;
             --success: #10b981;
-            --warning: #f59e0b;
+            --warning: #ffa500;
             --danger: #ef4444;
-            --text: #e2e8f0;
+            --text: #f5e6d3;
             --text-bright: #ffffff;
-            --text-muted: #94a3b8;
-            --border: rgba(148, 163, 184, 0.1);
-            --glow: rgba(124, 58, 237, 0.15);
+            --text-muted: #c9b896;
+            --border: rgba(255, 215, 0, 0.15);
+            --glow: rgba(255, 215, 0, 0.2);
         }
         * { box-sizing: border-box; margin: 0; padding: 0; }
         html { scroll-behavior: smooth; }
@@ -53,7 +53,7 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            opacity: 0.15;
+            opacity: 0.35;
             pointer-events: none;
             z-index: 0;
             mix-blend-mode: screen;
@@ -63,11 +63,11 @@
             position: fixed;
             inset: 0;
             background-image: 
-                repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(124, 58, 237, 0.03) 2px, rgba(124, 58, 237, 0.03) 4px),
-                repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(0, 212, 255, 0.03) 2px, rgba(0, 212, 255, 0.03) 4px);
+                repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255, 215, 0, 0.04) 2px, rgba(255, 215, 0, 0.04) 4px),
+                repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(255, 183, 0, 0.04) 2px, rgba(255, 183, 0, 0.04) 4px);
             pointer-events: none;
             z-index: 0;
-            opacity: 0.4;
+            opacity: 0.5;
         }
         .wrapper { 
             position: relative; 
@@ -1570,7 +1570,22 @@
         
         function renderNews(news) {
             const list = document.getElementById('newsList');
-            const items = news || [];
+            let items = news || [];
+            
+            // Use sample data if no news available
+            if (!items.length) {
+                items = [
+                    {
+                        type: 'game_update',
+                        title: 'Welcome to Crumbl Crafts!',
+                        description: 'Your premium Bloxburg builder dashboard is ready',
+                        source: 'Dashboard',
+                        timestamp: Date.now() / 1000,
+                        url: '#',
+                        icon: 'fa-home'
+                    }
+                ];
+            }
             
             // Only re-render if data changed
             const newsHash = items.map(i => `${i.title}-${i.timestamp}`).join('|');
