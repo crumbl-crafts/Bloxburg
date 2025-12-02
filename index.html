@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crumbl Crafts · Live Dashboard</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🍪</text></svg>" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
@@ -850,14 +851,7 @@
                     <div class="pipeline-list" id="pipelineList"></div>
                 </section>
 
-                <section class="glass">
-                    <h2 class="section-title">
-                        <i class="fas fa-lightbulb"></i>
-                        System Health
-                    </h2>
-                    <p class="section-subtitle">Operational insights</p>
-                    <div class="insights-list" id="insightsList"></div>
-                </section>
+
             </div>
 
             <footer>
@@ -1240,7 +1234,9 @@
             
             grid.innerHTML = topBuilders.map((builder, i) => {
                 // Use full URL from backend (from builders dict)
-                const url = builder.url || '#';
+                // Fallback to constructing URL if not provided
+                const url = builder.url || 
+                           (builder.thread_id && builder.server_id ? `${FORUM_CHANNEL_BASE}${builder.server_id}/${builder.thread_id}` : '#');
                 const avatar = builder.avatar_url 
                     ? `<img src="${builder.avatar_url}" alt="${builder.shop_name}" />` 
                     : `<i class="fas fa-home" style="font-size: 28px; color: var(--primary);"></i>`;
@@ -1275,11 +1271,13 @@
             // Merge with cache
             mergeActivities(activities);
             
-            // Update activity count
+            // Update activity count - always update display
             const newCount = activityCache.length;
+            if (count) {
+                count.textContent = newCount;
+            }
             if (lastActivityCount !== newCount) {
                 lastActivityCount = newCount;
-                count.textContent = newCount;
             }
             
             if (!activityCache.length) {
@@ -1412,7 +1410,6 @@
                     renderBuilders(data.topBuilders);
                     renderActivityFeed(data.activityLog);
                     renderPipeline(data.pipeline);
-                    renderInsights(data.insights);
                 });
                 
                 if (statusText) statusText.textContent = 'LIVE';
