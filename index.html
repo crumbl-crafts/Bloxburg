@@ -39,15 +39,24 @@
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             background: var(--bg-primary);
-            background-image: 
-                radial-gradient(ellipse at top left, rgba(124, 58, 237, 0.15), transparent 50%),
-                radial-gradient(ellipse at top right, rgba(0, 212, 255, 0.1), transparent 50%),
-                radial-gradient(ellipse at bottom center, rgba(255, 107, 53, 0.08), transparent 60%);
             color: var(--text);
             min-height: 100vh;
             padding: 0;
             overflow-x: hidden;
             position: relative;
+        }
+        body::after {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url('happy.gif');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0.15;
+            pointer-events: none;
+            z-index: 0;
+            mix-blend-mode: screen;
         }
         body::before {
             content: '';
@@ -60,23 +69,6 @@
             z-index: 0;
             opacity: 0.4;
         }
-        body::after {
-            content: '';
-            position: fixed;
-            width: 500px;
-            height: 500px;
-            border-radius: 50%;
-            background: radial-gradient(circle, var(--primary-glow), transparent 70%);
-            pointer-events: none;
-            z-index: 0;
-            animation: floatingOrb 20s ease-in-out infinite;
-            top: -250px;
-            right: -250px;
-        }
-        @keyframes floatingOrb {
-            0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.3; }
-            50% { transform: translate(-100px, 100px) scale(1.2); opacity: 0.5; }
-        }
         .wrapper { 
             position: relative; 
             z-index: 1; 
@@ -86,7 +78,7 @@
             display: grid;
             grid-template-columns: 1fr 420px;
             gap: 24px;
-            min-height: 100vh;
+            min-height: calc(100vh - 80px);
         }
         .main-content {
             display: flex;
@@ -318,6 +310,7 @@
             height: calc(100vh - 48px);
             display: flex;
             flex-direction: column;
+            overflow: hidden;
         }
         .section-title {
             font-size: 1.25rem;
@@ -523,6 +516,7 @@
             display: flex; 
             flex-direction: column;
             min-height: 0;
+            overflow: hidden;
         }
         .feed-header {
             display: flex;
@@ -564,6 +558,7 @@
             flex-direction: column; 
             gap: 10px; 
             padding-right: 4px;
+            max-height: 100%;
         }
         .activity-list::-webkit-scrollbar { 
             width: 6px; 
@@ -806,6 +801,87 @@
             border-color: rgba(239, 68, 68, 0.3); 
             color: var(--danger); 
         }
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .news-card {
+            display: flex;
+            gap: 12px;
+            padding: 14px;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 12px;
+            border: 1px solid transparent;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+        .news-card:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: var(--border);
+            transform: translateX(4px);
+        }
+        .news-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 10px;
+            display: grid;
+            place-items: center;
+            font-size: 20px;
+            flex-shrink: 0;
+            position: relative;
+        }
+        .news-icon::after {
+            content: '';
+            position: absolute;
+            inset: -4px;
+            border-radius: 10px;
+            background: inherit;
+            filter: blur(8px);
+            opacity: 0.4;
+            z-index: -1;
+        }
+        .news-icon.type-game_update { background: rgba(0, 212, 255, 0.15); color: var(--primary); }
+        .news-icon.type-trend { background: rgba(255, 107, 53, 0.15); color: var(--accent); }
+        .news-icon.type-tip { background: rgba(245, 158, 11, 0.15); color: var(--warning); }
+        .news-icon.type-community { background: rgba(124, 58, 237, 0.15); color: var(--secondary); }
+        .news-content {
+            flex: 1;
+            min-width: 0;
+        }
+        .news-title {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--text-bright);
+            margin-bottom: 4px;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .news-description {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+            margin-bottom: 6px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .news-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+        .news-source {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
         footer { 
             text-align: center; 
             padding: 32px 24px 24px; 
@@ -824,11 +900,13 @@
         @media (max-width: 1400px) {
             .wrapper { 
                 grid-template-columns: 1fr; 
+                min-height: auto;
             }
             .sidebar-panel {
                 position: relative;
                 height: auto;
                 max-height: 600px;
+                top: 0;
             }
         }
         @media (max-width: 768px) {
@@ -844,6 +922,26 @@
             header.hero {
                 flex-direction: column;
                 align-items: flex-start;
+                padding: 20px;
+            }
+            .podium-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .podium-card {
+                width: 100%;
+                max-width: 300px;
+            }
+            .podium-card.rank-1,
+            .podium-card.rank-2,
+            .podium-card.rank-3 {
+                order: initial;
+            }
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+            .sidebar-panel {
+                max-height: 500px;
             }
         }
         @media (max-width: 480px) { 
@@ -851,11 +949,23 @@
                 grid-template-columns: 1fr; 
             } 
             .wrapper {
-                padding: 16px;
-                gap: 16px;
+                padding: 12px;
+                gap: 12px;
             }
             .glass {
-                padding: 16px;
+                padding: 12px;
+                border-radius: 12px;
+            }
+            .logo-text h1 {
+                font-size: 1.5rem;
+            }
+            .logo-icon {
+                width: 48px;
+                height: 48px;
+                font-size: 24px;
+            }
+            .section-title {
+                font-size: 1rem;
             }
         }
         .skeleton { 
@@ -888,7 +998,7 @@
             <header class="glass hero">
                 <div class="logo-container">
                     <div class="logo-icon">
-                        <i class="fas fa-home"></i>
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23D2691E'/%3E%3Ccircle cx='30' cy='35' r='6' fill='%23654321'/%3E%3Ccircle cx='65' cy='40' r='5' fill='%23654321'/%3E%3Ccircle cx='45' cy='55' r='7' fill='%23654321'/%3E%3Ccircle cx='70' cy='65' r='5' fill='%23654321'/%3E%3Ccircle cx='30' cy='65' r='4' fill='%23654321'/%3E%3C/svg%3E" alt="Cookie" style="width: 40px; height: 40px;" />
                     </div>
                     <div class="logo-text">
                         <h1>Crumbl Crafts</h1>
@@ -922,18 +1032,28 @@
             <div class="content-grid">
                 <section class="glass">
                     <h2 class="section-title">
+                        <i class="fas fa-newspaper"></i>
+                        Bloxburg News & Trends
+                    </h2>
+                    <p class="section-subtitle">Latest updates, trends & community highlights</p>
+                    <div class="news-list" id="newsList"></div>
+                </section>
+
+                <section class="glass">
+                    <h2 class="section-title">
                         <i class="fas fa-chart-line"></i>
                         Pipeline Overview
                     </h2>
                     <p class="section-subtitle">Request flow metrics</p>
                     <div class="pipeline-list" id="pipelineList"></div>
                 </section>
-
-
             </div>
 
             <footer>
-                <p><i class="fas fa-home"></i> Powered by <strong>Crumbl Crafts</strong> · Synced with Discord</p>
+                <p>
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23D2691E'/%3E%3Ccircle cx='30' cy='35' r='6' fill='%23654321'/%3E%3Ccircle cx='65' cy='40' r='5' fill='%23654321'/%3E%3Ccircle cx='45' cy='55' r='7' fill='%23654321'/%3E%3Ccircle cx='70' cy='65' r='5' fill='%23654321'/%3E%3Ccircle cx='30' cy='65' r='4' fill='%23654321'/%3E%3C/svg%3E" alt="Cookie" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px;" />
+                    Powered by <strong>Crumbl Crafts</strong> · Synced with Discord
+                </p>
             </footer>
         </div>
 
@@ -1100,11 +1220,13 @@
             newActivities.forEach(item => {
                 if (!item.timestamp) return; // Skip invalid items
                 
-                const exists = activityCache.some(cached => 
-                    cached.timestamp === item.timestamp && 
-                    cached.message === item.message &&
-                    cached.type === item.type
-                );
+                // Create unique ID for better duplicate detection
+                const itemId = `${item.timestamp}-${item.type}-${item.shop_name || ''}-${item.message?.substring(0, 50) || ''}`;
+                
+                const exists = activityCache.some(cached => {
+                    const cachedId = `${cached.timestamp}-${cached.type}-${cached.shop_name || ''}-${cached.message?.substring(0, 50) || ''}`;
+                    return cachedId === itemId;
+                });
                 
                 if (!exists) {
                     activityCache.unshift(item);
@@ -1444,6 +1566,51 @@
             // Auto-scroll to top on new items
             list.scrollTop = 0;
         }
+        let lastNewsHash = '';
+        
+        function renderNews(news) {
+            const list = document.getElementById('newsList');
+            const items = news || [];
+            
+            // Only re-render if data changed
+            const newsHash = items.map(i => `${i.title}-${i.timestamp}`).join('|');
+            if (newsHash === lastNewsHash) return;
+            lastNewsHash = newsHash;
+            
+            if (!items.length) {
+                list.innerHTML = '<p style="color: var(--text-muted); text-align: center; padding: 40px 0;">No news available</p>';
+                return;
+            }
+            
+            list.innerHTML = items.map((item, i) => {
+                const typeClass = `type-${item.type || 'community'}`;
+                const icon = item.icon || 'fa-bullhorn';
+                
+                return `
+                    <a href="${item.url || '#'}" target="_blank" class="news-card">
+                        <div class="news-icon ${typeClass}">
+                            <i class="fas ${icon}"></i>
+                        </div>
+                        <div class="news-content">
+                            <div class="news-title">${item.title}</div>
+                            <div class="news-description">${item.description}</div>
+                            <div class="news-meta">
+                                <span class="news-source">
+                                    <i class="fas fa-tag"></i>
+                                    ${item.source || 'Unknown'}
+                                </span>
+                                <span>·</span>
+                                <span>
+                                    <i class="far fa-clock"></i>
+                                    ${timeAgo(item.timestamp)}
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                `;
+            }).join('');
+        }
+        
         let lastPipelineHash = '';
         
         function renderPipeline(pipeline) {
@@ -1532,6 +1699,7 @@
                     renderStats(data);
                     renderBuilders(data.topBuilders);
                     renderActivityFeed(data.activityLog);
+                    renderNews(data.news);
                     renderPipeline(data.pipeline);
                 });
                 
