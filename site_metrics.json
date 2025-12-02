@@ -1,1 +1,44 @@
-
+{
+  "summary": {
+    "builder_count": 0,
+    "total_completed": 0,
+    "total_requests": 2,
+    "total_ratings": 0,
+    "request_completion_ratio": 0.0
+  },
+  "topBuilders": [],
+  "pipeline": [
+    {
+      "label": "Queued Requests",
+      "value": 2,
+      "trend": "0 new today"
+    },
+    {
+      "label": "Active Shops",
+      "value": 5,
+      "trend": "5 open \u00b7 0 limited"
+    },
+    {
+      "label": "Requests (7d)",
+      "value": 0,
+      "trend": "rolling week"
+    }
+  ],
+  "insights": [
+    {
+      "title": "Completion Rate",
+      "detail": "0.00% of requests fulfilled",
+      "score": "Needs attention"
+    },
+    {
+      "title": "Request Velocity",
+      "detail": "0 new requests in the past 24h",
+      "score": "Stable"
+    },
+    {
+      "title": "Live Shops",
+      "detail": "5 shops currently accepting commissions",
+      "score": "\u2705 Healthy"
+    }
+  ]
+}
