@@ -794,9 +794,24 @@
                         <p class="tagline">Premium Bloxburg Builder Network</p>
                     </div>
                 </div>
-                <div class="status-badge">
-                    <span class="status-dot"></span>
-                    <span>LIVE</span>
+                <div style="display: flex; align-items: center; gap: 12px;">
+                    <div class="status-badge">
+                        <span class="status-dot"></span>
+                        <span id="statusText">LIVE</span>
+                    </div>
+                    <button id="refreshBtn" style="
+                        padding: 10px 20px;
+                        background: rgba(0, 212, 255, 0.1);
+                        border: 1px solid rgba(0, 212, 255, 0.3);
+                        border-radius: 50px;
+                        color: var(--primary);
+                        font-weight: 600;
+                        font-size: 0.85rem;
+                        cursor: pointer;
+                        transition: all 0.3s ease;
+                    " onmouseover="this.style.background='rgba(0, 212, 255, 0.2)'" onmouseout="this.style.background='rgba(0, 212, 255, 0.1)'">
+                        <i class="fas fa-sync-alt"></i> Refresh
+                    </button>
                 </div>
             </header>
 
@@ -934,55 +949,75 @@
             }
         };
         
+        const cleanOldActivities = () => {
+            const cutoff = Date.now() / 1000 - (ACTIVITY_RETENTION_DAYS * 86400);
+            const originalLength = activityCache.length;
+            activityCache = activityCache.filter(item => item.timestamp && item.timestamp > cutoff);
+            
+            if (activityCache.length !== originalLength) {
+                console.log(`Cleaned ${originalLength - activityCache.length} old activity entries`);
+                saveActivityCache();
+            }
+        };
+        
         const mergeActivities = (newActivities) => {
-            if (!Array.isArray(newActivities)) return;
+            if (!Array.isArray(newActivities) || newActivities.length === 0) return;
+            
+            let addedCount = 0;
             
             // Add new activities that don't exist in cache
             newActivities.forEach(item => {
-                if (!activityCache.some(cached => 
+                if (!item.timestamp) return; // Skip invalid items
+                
+                const exists = activityCache.some(cached => 
                     cached.timestamp === item.timestamp && 
-                    cached.message === item.message
-                )) {
+                    cached.message === item.message &&
+                    cached.type === item.type
+                );
+                
+                if (!exists) {
                     activityCache.unshift(item);
+                    addedCount++;
                 }
             });
             
-            // Limit to MAX_ACTIVITY_ITEMS
-            activityCache = activityCache.slice(0, MAX_ACTIVITY_ITEMS);
-            
-            // Remove old items
-            const cutoff = Date.now() / 1000 - (ACTIVITY_RETENTION_DAYS * 86400);
-            activityCache = activityCache.filter(item => item.timestamp > cutoff);
-            
-            saveActivityCache();
+            if (addedCount > 0) {
+                console.log(`Added ${addedCount} new activity entries`);
+                
+                // Limit to MAX_ACTIVITY_ITEMS
+                if (activityCache.length > MAX_ACTIVITY_ITEMS) {
+                    activityCache = activityCache.slice(0, MAX_ACTIVITY_ITEMS);
+                }
+                
+                // Clean old items
+                cleanOldActivities();
+                
+                saveActivityCache();
+            }
         };
         
         const placeholderData = {
             summary: { 
-                builder_count: 24, 
-                total_completed: 156, 
-                total_requests: 312, 
-                total_ratings: 89, 
-                active_shops: 12,
-                avg_response_time: 7200,
-                request_completion_ratio: 0.5 
+                builder_count: 0, 
+                total_completed: 0, 
+                total_requests: 0, 
+                total_ratings: 0, 
+                active_shops: 0,
+                avg_response_time: 0,
+                request_completion_ratio: 0 
             },
-            topBuilders: [
-                { shop_name: 'Sunset Builds', completed_projects: 48, average_rating: 4.9, avatar_url: null, thread_id: null },
-                { shop_name: 'Crystal Designs', completed_projects: 41, average_rating: 4.8, avatar_url: null, thread_id: null },
-                { shop_name: 'Urban Studios', completed_projects: 35, average_rating: 4.7, avatar_url: null, thread_id: null },
-            ],
+            topBuilders: [],
             activityLog: [],
             pipeline: [
-                { label: 'Queued Requests', value: 24, trend: '6 new today', max: 50 },
-                { label: 'Active Builds', value: 12, trend: '3 shops working', max: 30 },
-                { label: 'Completed (7d)', value: 31, trend: '+12% vs last week', max: 50 },
+                { label: 'Queued Requests', value: 0, trend: 'No data yet', max: 50 },
+                { label: 'Active Builds', value: 0, trend: 'No data yet', max: 30 },
+                { label: 'Completed (7d)', value: 0, trend: 'No data yet', max: 50 },
             ],
             insights: [
-                { title: 'Completion Rate', detail: '50% of requests fulfilled', score: 'On track', status: 'good' },
-                { title: 'Request Velocity', detail: '6 new requests today', score: 'Stable', status: 'good' },
-                { title: 'Builder Availability', detail: '12 shops accepting work', score: 'Healthy', status: 'good' },
-                { title: 'Queue Health', detail: '24 requests pending', score: 'Monitor', status: 'warning' },
+                { title: 'Completion Rate', detail: 'Waiting for data', score: 'N/A', status: 'good' },
+                { title: 'Request Velocity', detail: 'Waiting for data', score: 'N/A', status: 'good' },
+                { title: 'Builder Availability', detail: 'Waiting for data', score: 'N/A', status: 'good' },
+                { title: 'Queue Health', detail: 'Waiting for data', score: 'N/A', status: 'good' },
             ],
         };
         const withCacheBust = (url) => url.includes('?') ? `${url}&v=${Date.now()}` : `${url}?v=${Date.now()}`;
@@ -1160,31 +1195,56 @@
         
         async function updateDashboard() {
             try {
+                const statusText = document.getElementById('statusText');
+                if (statusText) statusText.textContent = 'SYNCING...';
+                
                 const data = await fetchMetrics();
+                
+                // Log the data source for debugging
+                console.log('Data source:', data.meta?.mode || 'unknown', 'Generated:', new Date((data.meta?.generated_at || 0) * 1000).toLocaleString());
+                console.log('Active shops:', data.summary?.active_shops || data.server?.active_shops || 0);
                 
                 renderStats(data);
                 renderBuilders(data.topBuilders);
                 renderActivityFeed(data.activityLog);
                 renderPipeline(data.pipeline);
                 renderInsights(data.insights);
+                
+                if (statusText) statusText.textContent = 'LIVE';
             } catch (error) {
                 console.error('Dashboard update failed:', error);
+                const statusText = document.getElementById('statusText');
+                if (statusText) statusText.textContent = 'ERROR';
             }
         }
         
         // Initialize
         loadActivityCache();
+        cleanOldActivities(); // Clean on startup
         updateDashboard();
+        
+        // Manual refresh button
+        document.getElementById('refreshBtn')?.addEventListener('click', () => {
+            console.log('Manual refresh triggered');
+            updateDashboard();
+        });
         
         // Auto-refresh every 5 seconds
         setInterval(updateDashboard, 5000);
         
-        // Clean old activity data daily
+        // Clean old activity data every hour (more frequent than daily)
         setInterval(() => {
-            const cutoff = Date.now() / 1000 - (ACTIVITY_RETENTION_DAYS * 86400);
-            activityCache = activityCache.filter(item => item.timestamp > cutoff);
-            saveActivityCache();
-        }, 86400000); // 24 hours
+            console.log('Running scheduled activity cache cleanup...');
+            cleanOldActivities();
+        }, 3600000); // 1 hour
+        
+        // Also clean when page becomes visible again
+        document.addEventListener('visibilitychange', () => {
+            if (!document.hidden) {
+                cleanOldActivities();
+                updateDashboard();
+            }
+        });
     </script>
 </body>
 </html>
