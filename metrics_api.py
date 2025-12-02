@@ -47,6 +47,10 @@ except ImportError:
 _metrics_payload_callback: Optional[Callable[[], Dict[str, Any]]] = None
 
 
+_metrics_cache: Optional[Dict[str, Any]] = None
+_metrics_cache_time: float = 0
+_CACHE_TTL = 1.0  # Cache for 1 second to reduce callback overhead
+
 def set_metrics_payload_callback(callback: Callable[[], Dict[str, Any]]) -> None:
     """Set the callback function that returns the metrics payload from bot memory."""
     global _metrics_payload_callback
@@ -171,10 +175,25 @@ class MetricsService:
         except Exception as exc:
             LOGGER.exception("Failed to build metrics payload: %s", exc)
             raise web.HTTPInternalServerError(text="failed to collect metrics") from exc
-        return web.json_response(payload)
+        
+        # Enable HTTP keep-alive and add cache control headers
+        response = web.json_response(payload)
+        response.headers['Connection'] = 'keep-alive'
+        response.headers['Keep-Alive'] = 'timeout=5, max=1000'
+        response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+        response.headers['X-Response-Time'] = str(int((time.time() - payload["meta"]["generated_at"]) * 1000))
+        return response
 
     def _get_memory_payload(self) -> Dict[str, Any]:
-        """Get metrics from the bot's in-memory data via callback."""
+        """Get metrics from the bot's in-memory data via callback with caching."""
+        global _metrics_cache, _metrics_cache_time
+        
+        current_time = time.time()
+        
+        # Return cached payload if fresh (reduces callback overhead)
+        if _metrics_cache and (current_time - _metrics_cache_time) < _CACHE_TTL:
+            return _metrics_cache
+        
         payload: Optional[Dict[str, Any]] = None
 
         if _metrics_payload_callback is None:
@@ -194,8 +213,13 @@ class MetricsService:
         else:
             payload = _ensure_payload_defaults(payload)
 
-        payload["meta"]["generated_at"] = time.time()
+        payload["meta"]["generated_at"] = current_time
         payload["meta"]["mode"] = "memory"
+        
+        # Update cache
+        _metrics_cache = payload
+        _metrics_cache_time = current_time
+        
         return payload
 
     async def _collect_snapshot(self, conn: Any) -> Dict[str, Any]:
