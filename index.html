@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rakka Builders · Live Stats</title>
+    <title>Crumbl Crafts · Live Ops</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <style>
         :root {
             color-scheme: dark;
-            --bg: #05060d;
-            --panel: rgba(12, 14, 24, 0.85);
-            --card: rgba(21, 24, 42, 0.8);
-            --accent: #7c3aed;
-            --accent-soft: rgba(124, 58, 237, 0.18);
-            --accent-2: #38bdf8;
-            --text: #f4f4fb;
-            --muted: #9ba1c0;
-            --success: #34d399;
-            --warning: #fbbf24;
-            --danger: #fb7185;
+            --bg: #120902;
+            --bg-secondary: #1f1204;
+            --glass: rgba(25, 15, 5, 0.82);
+            --border: rgba(255, 216, 168, 0.18);
+            --accent: #ffb347;
+            --accent-2: #ffd56f;
+            --caramel: #c97c37;
+            --caramel-deep: #8a4a17;
+            --cream: #fff4dc;
+            --text: #fff6eb;
+            --muted: rgba(255, 244, 220, 0.7);
+            --success: #6bffb0;
+            --warning: #ffc145;
+            --danger: #ff6b6b;
+            --shadow: rgba(0, 0, 0, 0.45);
         }
 
         * {
@@ -31,82 +35,166 @@
 
         body {
             font-family: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: radial-gradient(circle at top, rgba(124, 58, 237, 0.18), transparent 45%),
-                        radial-gradient(circle at bottom, rgba(56, 189, 248, 0.15), transparent 50%),
-                        var(--bg);
-            color: var(--text);
             min-height: 100vh;
-            padding: 40px 16px 80px;
+            background:
+                radial-gradient(circle at 20% 20%, rgba(255, 179, 71, 0.18), transparent 45%),
+                radial-gradient(circle at 80% 0%, rgba(255, 213, 111, 0.15), transparent 50%),
+                radial-gradient(circle at 50% 80%, rgba(201, 124, 55, 0.18), transparent 55%),
+                var(--bg);
+            color: var(--text);
+            padding: 40px 20px 80px;
             display: flex;
             justify-content: center;
         }
 
+        body::before,
+        body::after {
+            content: '';
+            position: fixed;
+            width: 180px;
+            height: 180px;
+            background: radial-gradient(circle, rgba(255, 227, 169, 0.12), transparent 70%);
+            filter: blur(3px);
+            z-index: 0;
+        }
+
+        body::before { top: 60px; left: 5%; }
+        body::after { bottom: 40px; right: 10%; }
+
         .wrapper {
-            width: min(1200px, 100%);
+            width: min(1300px, 100%);
             display: flex;
             flex-direction: column;
             gap: 32px;
+            position: relative;
+            z-index: 1;
         }
 
         .glass {
-            background: var(--panel);
-            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: var(--glass);
+            border: 1px solid var(--border);
             border-radius: 28px;
             padding: 32px;
-            box-shadow: 0 30px 80px rgba(4, 5, 12, 0.85);
-            backdrop-filter: blur(22px);
+            box-shadow: 0 20px 60px var(--shadow);
+            backdrop-filter: blur(24px);
         }
 
         header.hero {
-            display: grid;
-            gap: 20px;
-        }
-
-        .hero h1 {
-            font-size: clamp(2rem, 5vw, 3.6rem);
-            letter-spacing: -0.04em;
-            font-weight: 700;
-        }
-
-        .hero p {
-            max-width: 60ch;
-            color: var(--muted);
-            font-size: 1.1rem;
-            line-height: 1.65;
-        }
-
-        .pill-row {
             display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-            margin-top: 10px;
+            flex-direction: column;
+            gap: 24px;
+            position: relative;
+            overflow: hidden;
         }
 
-        .pill {
-            padding: 10px 18px;
-            border-radius: 999px;
-            background: rgba(255, 255, 255, 0.08);
-            color: var(--muted);
-            font-size: 0.95rem;
+        header.hero::after {
+            content: '';
+            position: absolute;
+            inset: 2px;
+            border-radius: 26px;
+            border: 1px dashed rgba(255, 227, 169, 0.15);
+            pointer-events: none;
+        }
+
+        .crumb-pill {
             display: inline-flex;
             align-items: center;
             gap: 8px;
+            padding: 10px 18px;
+            border-radius: 999px;
+            background: rgba(255, 213, 111, 0.12);
+            border: 1px solid rgba(255, 213, 111, 0.2);
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        .hero-flex {
+            display: flex;
+            gap: 26px;
+        }
+
+        .guild-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 28px;
+            background: linear-gradient(145deg, rgba(255, 179, 71, 0.15), rgba(255, 213, 111, 0.05));
+            border: 1px solid rgba(255, 213, 111, 0.25);
+            display: grid;
+            place-items: center;
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--text);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .guild-icon img,
+        .guild-icon span {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .hero h1 {
+            font-size: clamp(2rem, 4.6vw, 3.7rem);
+            letter-spacing: -0.03em;
+        }
+
+        .hero p {
+            color: var(--muted);
+            max-width: 60ch;
+            line-height: 1.65;
+            font-size: 1.05rem;
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 14px;
+            margin-top: 18px;
+        }
+
+        .hero-stat {
+            padding: 14px 18px;
+            border-radius: 18px;
+            background: rgba(255, 244, 220, 0.05);
+            border: 1px solid rgba(255, 213, 111, 0.15);
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .hero-stat span.value {
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+
+        .grid-main {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 360px;
+            gap: 26px;
+        }
+
+        .primary-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 26px;
         }
 
         .metrics-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 18px;
         }
 
         .metric-card {
-            background: var(--card);
-            border: 1px solid rgba(255, 255, 255, 0.05);
+            background: linear-gradient(145deg, rgba(255, 179, 71, 0.07), rgba(25, 15, 5, 0.7));
             border-radius: 22px;
             padding: 22px;
+            border: 1px solid rgba(255, 213, 111, 0.15);
             position: relative;
             overflow: hidden;
-            min-height: 160px;
         }
 
         .metric-card::after {
@@ -114,160 +202,107 @@
             position: absolute;
             inset: 0;
             border-radius: inherit;
-            background: radial-gradient(circle at top, rgba(255, 255, 255, 0.08), transparent 60%);
+            background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.12), transparent 60%);
             opacity: 0;
             transition: opacity 0.4s ease;
         }
 
-        .metric-card:hover::after {
-            opacity: 1;
-        }
+        .metric-card:hover::after { opacity: 1; }
 
         .metric-card span.label {
-            color: var(--muted);
             text-transform: uppercase;
-            font-size: 0.85rem;
-            letter-spacing: 0.22em;
+            letter-spacing: 0.18em;
+            font-size: 0.8rem;
+            color: var(--muted);
         }
 
         .metric-card span.value {
-            display: block;
-            margin-top: 18px;
-            font-size: 3rem;
+            font-size: 2.7rem;
             font-weight: 600;
-            letter-spacing: -0.04em;
+            margin-top: 14px;
         }
 
         .metric-card small.delta {
-            margin-top: 8px;
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            font-weight: 500;
-        }
-
-        .sparkline {
-            position: absolute;
-            bottom: 12px;
-            right: 12px;
-            width: 120px;
-            height: 52px;
-            opacity: 0.8;
-        }
-
-        .leaderboard {
-            display: grid;
-            gap: 20px;
-        }
-
-        .leaderboard h2 {
-            font-size: 1.6rem;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .leaderboard-list {
-            display: flex;
-            flex-direction: column;
-            gap: 14px;
-        }
-
-        .leader-card {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            border-radius: 18px;
-            padding: 18px 20px;
-            display: grid;
-            grid-template-columns: 60px 1fr auto;
-            gap: 18px;
-            align-items: center;
-            transition: transform 0.35s ease;
-        }
-
-        .leader-card:hover {
-            transform: translateY(-4px);
-        }
-
-        .leader-card .rank {
-            width: 48px;
-            height: 48px;
-            border-radius: 14px;
-            background: var(--accent-soft);
+            margin-top: 6px;
             color: var(--accent);
             font-weight: 600;
-            font-size: 1.4rem;
+        }
+
+        .builder-panel .builder-grid {
             display: grid;
-            place-items: center;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 18px;
         }
 
-        .leader-card .info h3 {
-            font-size: 1.2rem;
-        }
-
-        .leader-card .info p {
-            color: var(--muted);
-            font-size: 0.95rem;
-        }
-
-        .leader-card .score {
-            text-align: right;
-        }
-
-        .leader-card .score span {
-            display: block;
-            font-size: 1.4rem;
-            font-weight: 600;
-        }
-
-        .leader-card .score small {
-            color: var(--muted);
-        }
-
-        .gradient-border {
-            position: relative;
-            border-radius: inherit;
-            padding: 1px;
-            background: linear-gradient(135deg, rgba(124, 58, 237, 0.8), rgba(56, 189, 248, 0.7));
-        }
-
-        .gradient-border > .glass {
-            background: rgba(2, 6, 23, 0.85);
-        }
-
-        .grid-two {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 24px;
-        }
-
-        .request-history {
-            list-style: none;
+        .builder-card {
+            border-radius: 24px;
+            border: 1px solid rgba(255, 213, 111, 0.18);
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.02);
             display: flex;
             flex-direction: column;
             gap: 16px;
+            text-decoration: none;
+            color: inherit;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease, border-color 0.3s ease;
         }
 
-        .request-history li {
+        .builder-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(255, 213, 111, 0.45);
+        }
+
+        .builder-avatar {
+            width: 56px;
+            height: 56px;
+            border-radius: 18px;
+            overflow: hidden;
+            border: 2px solid rgba(255, 213, 111, 0.35);
+            background: rgba(255, 213, 111, 0.1);
+            display: grid;
+            place-items: center;
+            font-weight: 600;
+        }
+
+        .builder-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .section-head {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            align-items: baseline;
+            margin-bottom: 18px;
+        }
+
+        .section-head h2 { font-size: 1.4rem; }
+        .section-head p { color: var(--muted); font-size: 0.95rem; }
+
+        .pipeline-card, .insights-card { overflow: hidden; }
+
+        .pipeline-list { list-style: none; display: flex; flex-direction: column; gap: 16px; }
+
+        .pipeline-item {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-size: 0.95rem;
-            color: var(--muted);
+            gap: 20px;
         }
 
-        .request-history strong {
-            color: var(--text);
-            font-size: 1.05rem;
-        }
+        .pipeline-item strong { font-size: 1.05rem; }
 
         .progress-bar {
-            width: 100%;
+            width: 220px;
+            max-width: 100%;
             height: 8px;
             border-radius: 999px;
             background: rgba(255, 255, 255, 0.08);
             overflow: hidden;
-            margin-top: 8px;
         }
 
         .progress-fill {
@@ -276,141 +311,212 @@
             background: linear-gradient(90deg, var(--accent), var(--accent-2));
             transform-origin: left;
             transform: scaleX(0);
-            transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: transform 0.6s ease;
         }
 
-        footer {
-            text-align: center;
-            color: var(--muted);
-            font-size: 0.9rem;
+        .insights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+        }
+
+        .insight-card {
+            border-radius: 20px;
+            border: 1px solid rgba(255, 213, 111, 0.15);
+            padding: 18px;
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .insight-card span.badge {
+            display: inline-flex;
+            padding: 6px 12px;
+            border-radius: 999px;
+            border: 1px solid rgba(255, 213, 111, 0.25);
+            margin-top: 10px;
+            font-size: 0.85rem;
+        }
+
+        .activity-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            position: sticky;
+            top: 40px;
+            max-height: calc(100vh - 120px);
+        }
+
+        .activity-feed {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+
+        .activity-feed::-webkit-scrollbar { width: 6px; }
+        .activity-feed::-webkit-scrollbar-thumb {
+            background: rgba(255, 213, 111, 0.3);
+            border-radius: 999px;
+        }
+
+        .activity-item {
+            border-radius: 18px;
+            border: 1px solid rgba(255, 213, 111, 0.15);
+            padding: 14px 16px;
+            background: rgba(255, 255, 255, 0.02);
+            display: grid;
+            gap: 6px;
+        }
+
+        .activity-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .activity-head span.badge {
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+        }
+
+        .activity-link {
+            text-decoration: none;
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        @media (max-width: 1100px) {
+            .grid-main { grid-template-columns: 1fr; }
+            .activity-panel { position: relative; top: 0; max-height: none; }
         }
 
         @media (max-width: 640px) {
-            .glass {
-                padding: 24px;
-            }
-
-            .leader-card {
-                grid-template-columns: 40px 1fr;
-            }
-
-            .leader-card .score {
-                grid-column: span 2;
-                text-align: left;
-            }
+            .glass { padding: 24px; }
+            .hero-flex { flex-direction: column; }
         }
 
-        @keyframes glowPulse {
-            0%, 100% { box-shadow: 0 0 20px rgba(124, 58, 237, 0.25); }
-            50% { box-shadow: 0 0 35px rgba(56, 189, 248, 0.35); }
+        @keyframes floatCard {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-6px); }
         }
 
-        .status-chip {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 10px 16px;
-            border-radius: 14px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            background: rgba(255, 255, 255, 0.03);
-            animation: glowPulse 4s ease infinite;
-        }
-
-        .status-dot {
-            width: 10px;
-            height: 10px;
-            border-radius: 999px;
-            background: var(--success);
-        }
+        .builder-card:nth-child(odd) { animation: floatCard 8s ease-in-out infinite; }
     </style>
 </head>
 <body>
     <div class="wrapper">
-        <header class="glass hero">
-            <div class="status-chip">
-                <span class="status-dot"></span>
-                LIVE SYNC · Discord Builder Network
-            </div>
-            <h1>Builder Intelligence Reimagined</h1>
-            <p>
-                A real-time command center that keeps your Discord network, commissions, and website perfectly in sync. Track every builder, request, and rating with cinema-grade visuals and buttery smooth performance.
-            </p>
-            <div class="pill-row">
-                <span class="pill">⚡ Serverless API</span>
-                <span class="pill">🛡️ MySQL on Bot-Hosting.net</span>
-                <span class="pill">🌐 Vercel Edge Ready</span>
+        <header class="glass hero" id="serverHero">
+            <span class="crumb-pill">🍪 Crumbl Crafts • Live Sync</span>
+            <div class="hero-flex">
+                <div class="guild-icon" id="guildIcon"><span>CC</span></div>
+                <div>
+                    <p class="eyebrow" style="text-transform: uppercase; letter-spacing: 0.3em; font-size: 0.85rem; color: var(--muted);">Premium Discord Builder Collective</p>
+                    <h1 id="heroName">Crumbl Crafts Command Deck</h1>
+                    <p>Cookie-coded intelligence for commission leads, builders, and leadership. Every stat below syncs straight from the Crumbl Crafts server in real-time.</p>
+                    <div class="hero-stats" id="heroStats"></div>
+                </div>
             </div>
         </header>
 
-        <section class="glass metrics-grid" id="summaryMetrics">
-            <!-- Cards injected by JS -->
-        </section>
+        <section class="grid-main">
+            <div class="primary-stack">
+                <section class="glass metrics-grid" id="summaryMetrics"></section>
 
-        <section class="leaderboard glass">
-            <div class="leaderboard-head">
-                <h2>🏆 Builder Leaderboard</h2>
-                <p style="color: var(--muted);">Sorted by completed projects, then rating. Updated live from your bot.</p>
-            </div>
-            <div class="leaderboard-list" id="leaderList"></div>
-        </section>
+                <section class="glass builder-panel">
+                    <div class="section-head">
+                        <h2>Signature Builders</h2>
+                        <p>Tap a card to jump straight into their forum shop.</p>
+                    </div>
+                    <div class="builder-grid" id="builderCards"></div>
+                </section>
 
-        <section class="grid-two">
-            <div class="glass">
-                <h2>📈 Pipeline Pulse</h2>
-                <p style="color: var(--muted); margin-top: 6px;">Where requests become delivery. Watch inflow vs completion in near-real-time.</p>
-                <ul class="request-history" id="pipelineList"></ul>
-            </div>
-            <div class="glass gradient-card">
-                <h2>🧠 System Insights</h2>
-                <p style="color: var(--muted); margin-top: 6px;">Operational health and snapshots ready for your staff hub.</p>
-                <div style="display: grid; gap: 18px; margin-top: 18px;" id="insights"></div>
-            </div>
-        </section>
+                <section class="glass pipeline-card">
+                    <div class="section-head">
+                        <h2>Pipeline Pulse</h2>
+                        <p>Where each request sits this very moment.</p>
+                    </div>
+                    <ul class="pipeline-list" id="pipelineList"></ul>
+                </section>
 
-        <footer>
-            Synced by Rakka · Powered by Discord + MySQL + Vercel
-        </footer>
+                <section class="glass insights-card">
+                    <div class="section-head">
+                        <h2>System Insights</h2>
+                        <p>Auto-derived guardrails for the ops team.</p>
+                    </div>
+                    <div class="insights-grid" id="insights"></div>
+                </section>
+            </div>
+
+            <aside class="glass activity-panel">
+                <div class="section-head">
+                    <h2>Request Activity</h2>
+                    <p>Latest sends, acceptances, and rejections.</p>
+                </div>
+                <ul class="activity-feed" id="activityFeed"></ul>
+            </aside>
+        </section>
     </div>
 
     <script>
         const summaryEl = document.getElementById('summaryMetrics');
-        const leaderListEl = document.getElementById('leaderList');
+        const builderCardsEl = document.getElementById('builderCards');
         const pipelineListEl = document.getElementById('pipelineList');
         const insightsEl = document.getElementById('insights');
+        const activityFeedEl = document.getElementById('activityFeed');
+        const heroStatsEl = document.getElementById('heroStats');
+        const guildIconEl = document.getElementById('guildIcon');
+        const heroNameEl = document.getElementById('heroName');
 
         const REMOTE_METRICS_ENDPOINT = window.METRICS_ENDPOINT || 'https://your-bot-host.example.com/api/metrics';
         const LOCAL_METRICS_FALLBACK = 'site_metrics.json';
         const formatNumber = (value) => Intl.NumberFormat('en-US').format(value);
+
         const metricsConfig = [
-            { key: 'builder_count', label: 'Builders Live', accent: 'var(--accent)' },
-            { key: 'total_completed', label: 'Completed Builds', accent: 'var(--success)' },
-            { key: 'total_requests', label: 'Requests Logged', accent: 'var(--accent-2)' },
-            { key: 'total_ratings', label: 'Ratings Submitted', accent: 'var(--warning)' },
+            { key: 'total_requests', label: 'Requests Logged', accent: 'var(--accent)' },
+            { key: 'total_completed', label: 'Orders Delivered', accent: 'var(--success)' },
+            { key: 'builder_count', label: 'Builders Live', accent: 'var(--caramel)' },
+            { key: 'queued_requests', label: 'Queue Depth', accent: 'var(--warning)' },
         ];
 
         const placeholderData = {
+            server: {
+                name: 'Crumbl Crafts',
+                member_total: 4820,
+                joined_today: 14,
+                icon: null,
+            },
             summary: {
-                builder_count: 58,
-                total_completed: 342,
-                total_requests: 1275,
+                builder_count: 28,
+                total_completed: 612,
+                total_requests: 910,
                 total_ratings: 812,
-                request_completion_ratio: 0.72,
+                queued_requests: 42,
+                active_shops: 18,
+                member_total: 4820,
+                joined_today: 14,
             },
             topBuilders: [
-                { shop_name: 'Aurora Atelier', completed_projects: 128, average_rating: 4.9 },
-                { shop_name: 'Neon Forge', completed_projects: 111, average_rating: 4.8 },
-                { shop_name: 'Zenith Studio', completed_projects: 102, average_rating: 4.7 },
-                { shop_name: 'Horizon Homes', completed_projects: 94, average_rating: 4.6 },
+                { shop_name: 'Aurora Atelier', completed_projects: 188, average_rating: 4.93, link: '#', avatar: null },
+                { shop_name: 'Neon Forge', completed_projects: 162, average_rating: 4.87, link: '#', avatar: null },
+                { shop_name: 'Zenith Studio', completed_projects: 151, average_rating: 4.81, link: '#', avatar: null },
             ],
             pipeline: [
-                { label: 'Queued Requests', value: 83, trend: '+14% vs last week' },
-                { label: 'Active Builds', value: 41, trend: '+8% vs last week' },
-                { label: 'Delivered Last 7d', value: 29, trend: '+5% vs last week' },
+                { label: 'Queued Requests', value: 42, trend: 'steady inflow +6 today' },
+                { label: 'Active Builds', value: 19, trend: 'builders in-flight' },
+                { label: 'Delivered Last 7d', value: 33, trend: '+5 week over week' },
             ],
             insights: [
-                { title: 'Customer Response', detail: 'Average pickup time 11m', score: 'Green' },
-                { title: 'Builder Utilization', detail: '82% · Balanced', score: 'Optimal' },
-                { title: 'Queue Health', detail: '0 escalations', score: '✅ Stable' },
+                { title: 'Queue Pressure', detail: '42 waiting across 18 shops', score: 'Balanced', trend: '2.3 req/shop' },
+                { title: 'Member Momentum', detail: '14 joined last 24h', score: 'Stable', trend: '4,820 total' },
+                { title: 'Delivery Pace', detail: '6.7 avg completions/builder', score: 'On track', trend: '612 total' },
+            ],
+            activity: [
+                { event: 'request_sent', shop_name: 'Aurora Atelier', actor_name: 'Nova', timestamp: Date.now() / 1000, jump_url: '#', target_name: 'Aurora' },
+                { event: 'request_accepted', shop_name: 'Neon Forge', actor_name: 'ForgeMaster', timestamp: Date.now() / 1000 - 1800, jump_url: '#', target_name: 'Eli' },
+                { event: 'request_rejected', shop_name: 'Zenith Studio', actor_name: 'Zenith', timestamp: Date.now() / 1000 - 3600, jump_url: '#', target_name: 'Kai' },
             ],
         };
 
@@ -438,12 +544,37 @@
             }
         }
 
+        function renderHero(server, summary) {
+            const guildName = server?.name || 'Crumbl Crafts';
+            heroNameEl.textContent = `${guildName} Command Deck`;
+            document.title = `${guildName} · Live Ops`;
+
+            if (server?.icon) {
+                guildIconEl.innerHTML = `<img src="${server.icon}" alt="${guildName} icon" />`;
+            } else {
+                const initials = guildName.split(' ').map(part => part[0]).join('').slice(0, 2).toUpperCase();
+                guildIconEl.innerHTML = `<span>${initials}</span>`;
+            }
+
+            const heroStats = [
+                { label: 'Members', value: formatNumber(server?.member_total ?? 0) },
+                { label: 'Joined Today', value: formatNumber(server?.joined_today ?? 0) },
+                { label: 'Live Shops', value: formatNumber(summary?.active_shops ?? 0) },
+            ];
+
+            heroStatsEl.innerHTML = heroStats.map(stat => `
+                <div class="hero-stat">
+                    <span class="value">${stat.value}</span>
+                    <span class="label" style="color: var(--muted);">${stat.label}</span>
+                </div>
+            `).join('');
+        }
+
         function renderSummary(summary) {
             summaryEl.innerHTML = metricsConfig.map((metric, index) => {
-                const value = summary[metric.key] ?? 0;
-                const delay = index * 80;
+                const value = summary?.[metric.key] ?? 0;
                 return `
-                    <article class="metric-card" style="--accent-this:${metric.accent}; animation-delay:${delay}ms;">
+                    <article class="metric-card" style="animation-delay:${index * 60}ms;">
                         <span class="label">${metric.label}</span>
                         <span class="value">${formatNumber(value)}</span>
                         <small class="delta" style="color:${metric.accent};">Live</small>
@@ -452,56 +583,125 @@
             }).join('');
         }
 
-        function renderLeaderboard(topBuilders) {
-            leaderListEl.innerHTML = topBuilders.map((entry, idx) => {
-                const ratio = Math.min(1, entry.average_rating / 5);
+        function renderBuilders(topBuilders = []) {
+            const cards = (topBuilders.slice(0, 3)).map((entry, idx) => {
+                const name = entry.shop_name || `Builder ${idx + 1}`;
+                const rating = entry.average_rating ? entry.average_rating.toFixed(2) : '0.00';
+                const completed = formatNumber(entry.completed_projects ?? 0);
+                const linkAttr = entry.link ? `href="${entry.link}" target="_blank" rel="noopener"` : '';
+                const avatar = entry.avatar
+                    ? `<img src="${entry.avatar}" alt="${name} avatar" />`
+                    : `<span>${name.substring(0, 1).toUpperCase()}</span>`;
+
                 return `
-                    <div class="leader-card">
-                        <div class="rank">${idx + 1}</div>
-                        <div class="info">
-                            <h3>${entry.shop_name}</h3>
-                            <p>${entry.completed_projects} completed · ${entry.average_rating.toFixed(2)} ★</p>
+                    <a class="builder-card" ${linkAttr} aria-label="Open ${name} shop thread">
+                        <div style="display:flex; gap:14px; align-items:center;">
+                            <div class="builder-avatar">${avatar}</div>
+                            <div>
+                                <p style="text-transform:uppercase; letter-spacing:0.2em; font-size:0.75rem; color:var(--muted);">TOP ${idx + 1}</p>
+                                <h3 style="font-size:1.2rem;">${name}</h3>
+                            </div>
                         </div>
-                        <div class="score">
-                            <span>${entry.average_rating.toFixed(2)} ★</span>
-                            <small>Rating quality</small>
-                            <div class="progress-bar"><div class="progress-fill" style="transform:scaleX(${ratio});"></div></div>
+                        <div style="display:flex; justify-content:space-between; align-items:center;">
+                            <div>
+                                <small style="color:var(--muted); text-transform:uppercase; letter-spacing:0.2em;">Rating</small>
+                                <p style="font-size:1.4rem; font-weight:600;">${rating} ★</p>
+                            </div>
+                            <div>
+                                <small style="color:var(--muted); text-transform:uppercase; letter-spacing:0.2em;">Completed</small>
+                                <p style="font-size:1.2rem; font-weight:600; text-align:right;">${completed}</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 `;
             }).join('');
+
+            builderCardsEl.innerHTML = cards || '<p style="color:var(--muted);">No builders have been ranked yet.</p>';
         }
 
-        function renderPipeline(pipeline) {
-            pipelineListEl.innerHTML = pipeline.map(item => `
-                <li>
+        function renderPipeline(pipeline = []) {
+            pipelineListEl.innerHTML = pipeline.map((item) => `
+                <li class="pipeline-item">
                     <div>
                         <strong>${item.label}</strong>
                         <div class="progress-bar">
-                            <div class="progress-fill" style="transform:scaleX(${Math.min(1, item.value / 100)});"></div>
+                            <div class="progress-fill" style="transform:scaleX(${Math.min(1, (item.value || 0) / 100)});"></div>
                         </div>
                     </div>
-                    <span style="color: var(--muted);">${item.value} · ${item.trend}</span>
+                    <div style="text-align:right;">
+                        <span style="display:block; font-weight:600;">${formatNumber(item.value ?? 0)}</span>
+                        <small style="color:var(--muted);">${item.trend || ''}</small>
+                    </div>
                 </li>
             `).join('');
         }
 
-        function renderInsights(insights) {
-            insightsEl.innerHTML = insights.map(insight => `
-                <article style="background: rgba(255,255,255,0.03); padding:18px 20px; border-radius:16px; border:1px solid rgba(255,255,255,0.06);">
-                    <strong style="display:block; font-size:1.05rem;">${insight.title}</strong>
-                    <p style="color: var(--muted); margin-top:4px;">${insight.detail}</p>
-                    <span style="margin-top:8px; display:inline-flex; padding:6px 12px; border-radius:999px; border:1px solid rgba(255,255,255,0.08); color:var(--accent);">${insight.score}</span>
+        function renderInsights(insights = []) {
+            insightsEl.innerHTML = insights.map((insight) => `
+                <article class="insight-card">
+                    <h3>${insight.title}</h3>
+                    <p style="margin-top:6px; color:var(--muted);">${insight.detail}</p>
+                    <span class="badge">${insight.score}${insight.trend ? ` • ${insight.trend}` : ''}</span>
                 </article>
             `).join('');
         }
 
+        const ACTIVITY_STYLES = {
+            request_sent: { label: 'Request Sent', emoji: '📤', color: 'var(--accent)' },
+            request_accepted: { label: 'Request Accepted', emoji: '✅', color: 'var(--success)' },
+            request_rejected: { label: 'Request Rejected', emoji: '⚠️', color: 'var(--danger)' },
+        };
+
+        function formatRelativeTime(timestamp) {
+            if (!timestamp) return 'just now';
+            const diff = Math.max(1, Date.now() / 1000 - timestamp);
+            const minutes = Math.floor(diff / 60);
+            const hours = Math.floor(minutes / 60);
+            if (hours > 24) {
+                return `${Math.floor(hours / 24)}d ago`;
+            }
+            if (hours >= 1) {
+                return `${hours}h ago`;
+            }
+            if (minutes >= 1) {
+                return `${minutes}m ago`;
+            }
+            return 'just now';
+        }
+
+        function renderActivity(activity = []) {
+            activityFeedEl.innerHTML = activity.map((entry) => {
+                const visual = ACTIVITY_STYLES[entry.event] || { label: entry.event, emoji: '🍪', color: 'var(--accent-2)' };
+                const shop = entry.shop_name || 'Shop';
+                const actor = entry.actor_name || 'Someone';
+                const target = entry.target_name ? `↔️ ${entry.target_name}` : '';
+                const link = entry.jump_url
+                    ? `<a class="activity-link" href="${entry.jump_url}" target="_blank" rel="noopener">Open shop</a>`
+                    : '';
+
+                return `
+                    <li class="activity-item">
+                        <div class="activity-head">
+                            <strong>${visual.emoji} ${visual.label}</strong>
+                            <span class="badge" style="color:${visual.color};">${formatRelativeTime(entry.timestamp)}</span>
+                        </div>
+                        <p style="color:var(--muted);">${actor} → ${shop} ${target}</p>
+                        ${link}
+                    </li>
+                `;
+            }).join('');
+        }
+
         async function hydrateDashboard() {
             const data = await fetchMetrics();
-            renderSummary(data.summary ?? placeholderData.summary);
-            renderLeaderboard(data.topBuilders ?? placeholderData.topBuilders);
+            const summary = data.summary ?? placeholderData.summary;
+            const server = data.server ?? placeholderData.server;
+            renderHero(server, summary);
+            renderSummary(summary);
+            renderBuilders(data.topBuilders ?? placeholderData.topBuilders);
             renderPipeline(data.pipeline ?? placeholderData.pipeline);
             renderInsights(data.insights ?? placeholderData.insights);
+            renderActivity(data.activity ?? placeholderData.activity);
         }
 
         hydrateDashboard();
