@@ -384,19 +384,19 @@
             font-size: 0.75rem; 
             text-transform: uppercase; 
             letter-spacing: 0.1em; 
-            font-weight: 600; 
+            font-weight: 700;
+            text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
         }
         .stat-card .value { 
             display: block; 
             font-size: 2.25rem; 
-            font-weight: 800; 
+            font-weight: 900; 
             color: var(--text-bright); 
             margin-top: 8px; 
             letter-spacing: -0.03em;
-            background: linear-gradient(135deg, var(--text-bright), var(--primary));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.8),
+                         -1px -1px 0 rgba(255, 23, 68, 0.3),
+                         0 0 20px rgba(255, 23, 68, 0.5);
         }
         .stat-card .trend { 
             display: inline-flex; 
@@ -437,12 +437,14 @@
         }
         .section-title {
             font-size: 1.25rem;
-            font-weight: 700;
+            font-weight: 800;
             color: var(--text-bright);
             margin-bottom: 6px;
             display: flex;
             align-items: center;
             gap: 10px;
+            text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8),
+                         -1px -1px 0 rgba(255, 255, 255, 0.1);
         }
         .section-subtitle {
             color: var(--text-muted);
@@ -580,9 +582,9 @@
             padding: 1px;
             background: linear-gradient(135deg, 
                 var(--primary) 0%, 
-                var(--accent) 25%,
+                #ffffff 25%,
                 var(--secondary) 50%,
-                var(--accent) 75%,
+                #ffffff 75%,
                 var(--primary) 100%);
             background-size: 200% 200%;
             -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -678,16 +680,22 @@
         }
         .builder-name { 
             font-size: 0.95rem; 
-            font-weight: 700; 
+            font-weight: 800; 
             color: var(--text-bright); 
             margin-bottom: 6px; 
             white-space: nowrap; 
             overflow: hidden; 
-            text-overflow: ellipsis; 
+            text-overflow: ellipsis;
+            text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.7),
+                         -1px -1px 0 rgba(255, 255, 255, 0.1);
         }
         .podium-card .builder-name {
             font-size: 1.1rem;
             margin-bottom: 12px;
+            font-weight: 900;
+            text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8),
+                         -1px -1px 0 rgba(255, 215, 0, 0.3),
+                         0 0 20px rgba(255, 215, 0, 0.4);
         }
         .builder-meta { 
             display: flex;
@@ -905,7 +913,11 @@
         .activity-time {
             display: flex;
             align-items: center;
-            gap: 4px;
+            gap: 6px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
         }
         .activity-type-badge {
             padding: 2px 8px;
@@ -1156,9 +1168,11 @@
         }
         .news-title {
             font-size: 0.9rem;
-            font-weight: 700;
+            font-weight: 800;
             color: var(--text-bright);
             margin-bottom: 4px;
+            text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.7),
+                         -1px -1px 0 rgba(255, 255, 255, 0.1);
             display: -webkit-box;
             -webkit-line-clamp: 1;
             line-clamp: 1;
