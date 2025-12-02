@@ -13,7 +13,17 @@
     "avg_response_time": 0
   },
   "topBuilders": [],
-  "activityLog": [],
+  "activityLog": [
+    {
+      "type": "new_request_thread",
+      "shop_name": "Build-Request-Board",
+      "message": "tobolchi posted a new request: test1",
+      "timestamp": 1764691835,
+      "thread_id": 1445447063239266428,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/channels/1301988304279048275/1445447063239266428"
+    }
+  ],
   "pipeline": [
     {
       "label": "Queued Requests",
