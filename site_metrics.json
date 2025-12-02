@@ -2,9 +2,9 @@
   "summary": {
     "builder_count": 1,
     "total_completed": 0,
-    "total_requests": 0,
+    "total_requests": 1,
     "total_ratings": 0,
-    "request_completion_ratio": 0
+    "request_completion_ratio": 0.0
   },
   "server": {
     "total_members": 324,
@@ -24,6 +24,15 @@
   ],
   "activityLog": [
     {
+      "type": "sent",
+      "shop_name": "test1",
+      "message": "Request sent by tobolchi",
+      "timestamp": 1764691963,
+      "thread_id": 1445447294122987632,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/channels/1301988304279048275/1445447294122987632"
+    },
+    {
       "type": "new_request_thread",
       "shop_name": "Build-Request-Board",
       "message": "tobolchi posted a new request: test1",
@@ -36,8 +45,8 @@
   "pipeline": [
     {
       "label": "Queued Requests",
-      "value": 0,
-      "trend": "0 new today",
+      "value": 1,
+      "trend": "1 new today",
       "max": 50
     },
     {
@@ -48,7 +57,7 @@
     },
     {
       "label": "Requests (7d)",
-      "value": 0,
+      "value": 1,
       "trend": "rolling week",
       "max": 100
     }
@@ -62,7 +71,7 @@
     },
     {
       "title": "Request Velocity",
-      "detail": "0 new requests in the past 24h",
+      "detail": "1 new requests in the past 24h",
       "score": "Stable",
       "status": "good"
     },
@@ -74,7 +83,7 @@
     },
     {
       "title": "Queue Health",
-      "detail": "0 requests pending",
+      "detail": "1 requests pending",
       "score": "Manageable",
       "status": "good"
     }
