@@ -378,7 +378,8 @@
         const pipelineListEl = document.getElementById('pipelineList');
         const insightsEl = document.getElementById('insights');
 
-        const METRICS_ENDPOINT = 'site_metrics.json';
+        const REMOTE_METRICS_ENDPOINT = window.METRICS_ENDPOINT || 'https://your-bot-host.example.com/api/metrics';
+        const LOCAL_METRICS_FALLBACK = 'site_metrics.json';
         const formatNumber = (value) => Intl.NumberFormat('en-US').format(value);
         const metricsConfig = [
             { key: 'builder_count', label: 'Builders Live', accent: 'var(--accent)' },
@@ -413,17 +414,27 @@
             ],
         };
 
+        const withCacheBust = (url) => url.includes('?') ? `${url}&v=${Date.now()}` : `${url}?v=${Date.now()}`;
+
+        async function fetchFrom(url) {
+            const res = await fetch(withCacheBust(url), { cache: 'no-store' });
+            if (!res.ok) throw new Error(`Endpoint unavailable (${res.status})`);
+            const payload = await res.json();
+            if (!payload.summary) throw new Error('Incomplete metrics payload');
+            return payload;
+        }
+
         async function fetchMetrics() {
             try {
-                const url = `${METRICS_ENDPOINT}?v=${Date.now()}`;
-                const res = await fetch(url, { cache: 'no-store' });
-                if (!res.ok) throw new Error(`Endpoint unavailable (${res.status})`);
-                const payload = await res.json();
-                if (!payload.summary) throw new Error('Incomplete metrics payload');
-                return payload;
-            } catch (error) {
-                console.warn('Falling back to placeholder data:', error.message);
-                return placeholderData;
+                return await fetchFrom(REMOTE_METRICS_ENDPOINT);
+            } catch (remoteError) {
+                console.warn('Remote metrics failed, trying local fallback:', remoteError.message);
+                try {
+                    return await fetchFrom(LOCAL_METRICS_FALLBACK);
+                } catch (localError) {
+                    console.warn('Local metrics fallback failed, using placeholders:', localError.message);
+                    return placeholderData;
+                }
             }
         }
 
