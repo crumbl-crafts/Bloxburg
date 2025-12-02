@@ -19,7 +19,8 @@
       "average_rating": 0.0,
       "thread_id": 1445447294122987632,
       "avatar_url": "https://cdn.discordapp.com/avatars/1188381798925873172/701188d5cb6b52a4bef2890e211d4843.png?size=1024",
-      "server_id": 1301988304279048275
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/channels/1301988304279048275/1445447294122987632"
     }
   ],
   "activityLog": [
@@ -35,9 +36,9 @@
   ],
   "pipeline": [
     {
-      "label": "Queued Requests",
-      "value": 1,
-      "trend": "1 new today",
+      "label": "Pending Requests",
+      "value": 0,
+      "trend": "1 new today \u00b7 1 responded",
       "max": 50
     },
     {
@@ -49,22 +50,22 @@
     {
       "label": "Requests (7d)",
       "value": 1,
-      "trend": "rolling week",
+      "trend": "0 accepted \u00b7 1 rejected",
       "max": 100
     }
   ],
   "insights": [
     {
       "title": "Completion Rate",
-      "detail": "0.00% of requests fulfilled",
+      "detail": "0.00% of requests fulfilled (0 completed)",
       "score": "Needs attention",
       "status": "warning"
     },
     {
-      "title": "Request Velocity",
-      "detail": "1 new requests in the past 24h",
-      "score": "Stable",
-      "status": "good"
+      "title": "Acceptance Rate",
+      "detail": "0.0% of requests accepted (0 accepted, 1 rejected)",
+      "score": "Monitor",
+      "status": "warning"
     },
     {
       "title": "Live Shops",
@@ -74,7 +75,7 @@
     },
     {
       "title": "Queue Health",
-      "detail": "1 requests pending",
+      "detail": "0 requests awaiting response",
       "score": "Manageable",
       "status": "good"
     }
