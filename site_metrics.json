@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 324,
-    "joined_today": 0,
+    "total_members": 325,
+    "joined_today": 1,
     "active_shops": 5,
     "avg_response_time": 111.0
   },
@@ -24,6 +24,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "michaelgray_02951 joined the server",
+      "timestamp": 1764702642,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1440678062239912086"
+    },
     {
       "type": "sent",
       "message": "Request sent by tobolchi",
