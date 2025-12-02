@@ -17,10 +17,11 @@ Environment variables (all optional, see .env.example):
 from __future__ import annotations
 
 import asyncio
+import json
 import logging
 import os
 import time
-from typing import Any, Callable, Dict, Iterable, List, Optional, Sequence
+from typing import Any, Callable, Dict, List, Optional, Sequence
 
 from aiohttp import web
 from dotenv import load_dotenv
@@ -29,6 +30,9 @@ load_dotenv()
 
 LOGGER = logging.getLogger("MetricsAPI")
 logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s | %(message)s")
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+SITE_METRICS_SNAPSHOT = os.getenv("SITE_METRICS_FILE", os.path.join(BASE_DIR, "site_metrics.json"))
 
 # Optional MySQL import - only needed if using MySQL mode
 try:
@@ -57,13 +61,68 @@ def _parse_csv_env(key: str, default: Sequence[str]) -> List[str]:
     return [token.strip() for token in raw.split(",") if token.strip()]
 
 
+def _empty_payload() -> Dict[str, Any]:
+    return {
+        "summary": {
+            "builder_count": 0,
+            "total_completed": 0,
+            "total_requests": 0,
+            "total_ratings": 0,
+            "request_completion_ratio": 0,
+        },
+        "server": {
+            "total_members": 0,
+            "joined_today": 0,
+            "active_shops": 0,
+            "avg_response_time": 0,
+        },
+        "topBuilders": [],
+        "activityLog": [],
+        "pipeline": [],
+        "insights": [],
+        "meta": {"generated_at": time.time(), "mode": "memory"},
+    }
+
+
+def _load_snapshot_from_disk() -> Optional[Dict[str, Any]]:
+    if not SITE_METRICS_SNAPSHOT or not os.path.exists(SITE_METRICS_SNAPSHOT):
+        return None
+    try:
+        with open(SITE_METRICS_SNAPSHOT, "r", encoding="utf-8") as snapshot_file:
+            return json.load(snapshot_file)
+    except Exception as exc:  # pylint: disable=broad-except
+        LOGGER.warning("Failed to load metrics snapshot from %s: %s", SITE_METRICS_SNAPSHOT, exc)
+        return None
+
+
+def _ensure_payload_defaults(payload: Optional[Dict[str, Any]]) -> Dict[str, Any]:
+    base = _empty_payload()
+    if payload is None:
+        return base
+
+    for key, default_value in base.items():
+        if key not in payload:
+            payload[key] = default_value
+            continue
+        current_value = payload[key]
+        if isinstance(default_value, dict) and isinstance(current_value, dict):
+            for nested_key, nested_default in default_value.items():
+                current_value.setdefault(nested_key, nested_default)
+
+    payload.setdefault("meta", {})
+    if "generated_at" not in payload["meta"]:
+        payload["meta"]["generated_at"] = time.time()
+    payload["meta"].setdefault("mode", "memory")
+    return payload
+
+
 class MetricsService:
     def __init__(self) -> None:
         self.pool: Optional[Any] = None  # aiomysql.Pool when using MySQL
         self.mode = os.getenv("METRICS_MODE", "memory").lower()
         self.queue_statuses = _parse_csv_env("REQ_STATUS_QUEUED", ["queued", "pending", "waiting"])
         self.active_statuses = _parse_csv_env("REQ_STATUS_ACTIVE", ["active", "building", "in_progress"])
-        self.accepting_statuses = _parse_csv_env("SHOP_ACCEPTING_STATUSES", ["Open", "Limited"])
+        self.accepting_statuses = _parse_csv_env("SHOP_ACCEPTING_STATUSES", ["Open", "Limited", "24/7 Open"])
         self.top_builder_limit = int(os.getenv("TOP_BUILDERS_LIMIT", "4"))
 
     async def startup(self, app: web.Application) -> None:
@@ -116,36 +175,28 @@ class MetricsService:
 
     def _get_memory_payload(self) -> Dict[str, Any]:
         """Get metrics from the bot's in-memory data via callback."""
+        payload: Optional[Dict[str, Any]] = None
+
         if _metrics_payload_callback is None:
-            LOGGER.warning("No metrics callback registered, returning empty payload")
-            return {
-                "summary": {
-                    "builder_count": 0,
-                    "total_completed": 0,
-                    "total_requests": 0,
-                    "total_ratings": 0,
-                    "request_completion_ratio": 0,
-                },
-                "server": {
-                    "total_members": 0,
-                    "joined_today": 0,
-                    "active_shops": 0,
-                    "avg_response_time": 0,
-                },
-                "topBuilders": [],
-                "activityLog": [],
-                "pipeline": [],
-                "insights": [],
-                "meta": {"generated_at": time.time(), "mode": "memory"},
-            }
-        
-        try:
-            payload = _metrics_payload_callback()
-            payload["meta"] = {"generated_at": time.time(), "mode": "memory"}
-            return payload
-        except Exception as exc:
-            LOGGER.error("Error calling metrics callback: %s", exc)
-            raise
+            LOGGER.warning("No metrics callback registered, attempting to load snapshot from disk")
+        else:
+            try:
+                payload = _metrics_payload_callback()
+            except Exception as exc:  # pylint: disable=broad-except
+                LOGGER.error("Error calling metrics callback: %s", exc)
+                LOGGER.info("Falling back to cached site_metrics.json snapshot")
+
+        if payload is None:
+            payload = _load_snapshot_from_disk()
+
+        if payload is None:
+            payload = _empty_payload()
+        else:
+            payload = _ensure_payload_defaults(payload)
+
+        payload["meta"]["generated_at"] = time.time()
+        payload["meta"]["mode"] = "memory"
+        return payload
 
     async def _collect_snapshot(self, conn: Any) -> Dict[str, Any]:
         builder_count = await self._fetch_scalar(conn, "SELECT COUNT(*) AS total FROM builders", fallback=0)
@@ -219,7 +270,7 @@ class MetricsService:
             },
         ]
 
-        return {
+        payload = {
             "summary": summary,
             "server": {
                 "total_members": 0,
@@ -233,6 +284,7 @@ class MetricsService:
             "insights": insights,
             "meta": {"generated_at": asyncio.get_event_loop().time()},
         }
+        return _ensure_payload_defaults(payload)
 
     async def _fetch_top_builders(self, conn: Any) -> List[Dict[str, Any]]:
         query = (
