@@ -6,39 +6,58 @@
     "total_ratings": 0,
     "request_completion_ratio": 0
   },
+  "server": {
+    "total_members": 324,
+    "joined_today": 0,
+    "active_shops": 5,
+    "avg_response_time": 600
+  },
   "topBuilders": [],
+  "activityLog": [],
   "pipeline": [
     {
       "label": "Queued Requests",
       "value": 0,
-      "trend": "0 new today"
+      "trend": "0 new today",
+      "max": 50
     },
     {
       "label": "Active Shops",
       "value": 5,
-      "trend": "5 open \u00b7 0 limited"
+      "trend": "5 open \u00b7 0 limited",
+      "max": 20
     },
     {
       "label": "Requests (7d)",
       "value": 0,
-      "trend": "rolling week"
+      "trend": "rolling week",
+      "max": 100
     }
   ],
   "insights": [
     {
       "title": "Completion Rate",
       "detail": "0.00% of requests fulfilled",
-      "score": "Needs attention"
+      "score": "Needs attention",
+      "status": "warning"
     },
     {
       "title": "Request Velocity",
       "detail": "0 new requests in the past 24h",
-      "score": "Stable"
+      "score": "Stable",
+      "status": "good"
     },
     {
       "title": "Live Shops",
       "detail": "5 shops currently accepting commissions",
-      "score": "\u2705 Healthy"
+      "score": "Healthy",
+      "status": "good"
+    },
+    {
+      "title": "Queue Health",
+      "detail": "0 requests pending",
+      "score": "Manageable",
+      "status": "good"
     }
   ]
 }
