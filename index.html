@@ -334,11 +334,18 @@
             margin-bottom: 20px;
         }
         .builders-grid { 
-            display: grid; 
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
-            gap: 16px; 
+            display: flex;
+            flex-direction: column;
+            gap: 24px; 
         }
-        .builder-card {
+        .podium-container {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .podium-card {
             background: var(--card);
             border: 1px solid var(--border);
             border-radius: 16px;
@@ -348,14 +355,39 @@
             cursor: pointer;
             text-decoration: none;
             display: flex;
+            flex-direction: column;
             align-items: center;
-            gap: 16px;
+            gap: 12px;
+            width: 200px;
         }
-        .builder-card::before {
+        .podium-card.rank-1 {
+            order: 2;
+            padding-top: 32px;
+        }
+        .podium-card.rank-2 {
+            order: 1;
+        }
+        .podium-card.rank-3 {
+            order: 3;
+        }
+        .builder-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 12px 16px;
+            position: relative;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .builder-card::before, .podium-card::before {
             content: '';
             position: absolute;
             inset: 0;
-            border-radius: 16px;
+            border-radius: inherit;
             padding: 1px;
             background: linear-gradient(135deg, var(--primary), var(--secondary));
             -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -364,45 +396,64 @@
             opacity: 0;
             transition: opacity 0.3s ease;
         }
-        .builder-card:hover::before { 
+        .builder-card:hover::before, .podium-card:hover::before { 
             opacity: 1; 
         }
-        .builder-card:hover { 
+        .builder-card:hover, .podium-card:hover { 
             transform: translateY(-4px); 
             background: var(--card-hover); 
             box-shadow: 0 12px 40px rgba(0, 212, 255, 0.15); 
         }
-        .builder-card.rank-1 .rank-badge { background: linear-gradient(135deg, #ffd700, #ffa500); color: #000; }
-        .builder-card.rank-2 .rank-badge { background: linear-gradient(135deg, #c0c0c0, #a0a0a0); color: #000; }
-        .builder-card.rank-3 .rank-badge { background: linear-gradient(135deg, #cd7f32, #8b4513); color: #fff; }
+        .podium-card.rank-1 .rank-badge { background: linear-gradient(135deg, #ffd700, #ffa500); color: #000; }
+        .podium-card.rank-2 .rank-badge { background: linear-gradient(135deg, #c0c0c0, #a0a0a0); color: #000; }
+        .podium-card.rank-3 .rank-badge { background: linear-gradient(135deg, #cd7f32, #8b4513); color: #fff; }
         .rank-badge { 
             position: absolute; 
             top: -8px; 
             left: -8px; 
-            width: 32px; 
-            height: 32px; 
+            width: 36px; 
+            height: 36px; 
             border-radius: 50%; 
             display: grid; 
             place-items: center; 
             font-weight: 800; 
-            font-size: 0.85rem; 
+            font-size: 0.9rem; 
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); 
             z-index: 2;
         }
+        .rank-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            border-radius: 6px;
+            background: var(--glow);
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 0.8rem;
+            flex-shrink: 0;
+        }
         .builder-avatar { 
-            width: 64px; 
-            height: 64px; 
-            border-radius: 12px; 
+            width: 48px; 
+            height: 48px; 
+            border-radius: 10px; 
             background: var(--glow); 
             border: 2px solid var(--border); 
             display: grid; 
             place-items: center; 
-            font-size: 28px; 
+            font-size: 20px; 
             overflow: hidden; 
             transition: transform 0.3s ease; 
             flex-shrink: 0;
         }
-        .builder-card:hover .builder-avatar { 
+        .podium-card .builder-avatar {
+            width: 80px;
+            height: 80px;
+            font-size: 32px;
+            border-radius: 16px;
+        }
+        .builder-card:hover .builder-avatar, .podium-card:hover .builder-avatar { 
             transform: scale(1.05); 
             border-color: var(--primary);
         }
@@ -415,8 +466,12 @@
             flex: 1;
             min-width: 0;
         }
+        .podium-card .builder-info {
+            text-align: center;
+            width: 100%;
+        }
         .builder-name { 
-            font-size: 1.05rem; 
+            font-size: 0.95rem; 
             font-weight: 700; 
             color: var(--text-bright); 
             margin-bottom: 6px; 
@@ -424,21 +479,44 @@
             overflow: hidden; 
             text-overflow: ellipsis; 
         }
+        .podium-card .builder-name {
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+        }
         .builder-meta { 
             display: flex;
             align-items: center;
-            gap: 12px;
-            font-size: 0.8rem; 
+            gap: 16px;
+            font-size: 0.75rem; 
             color: var(--text-muted); 
+        }
+        .podium-card .builder-meta {
+            flex-direction: column;
+            gap: 8px;
+            width: 100%;
         }
         .builder-meta .stat {
             display: flex;
             align-items: center;
-            gap: 4px;
+            gap: 6px;
         }
-        .builder-meta .rating { 
+        .podium-card .builder-meta .stat {
+            justify-content: center;
+            width: 100%;
+        }
+        .builder-meta .stat-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+        }
+        .builder-meta .stat-value {
+            font-weight: 700;
+            color: var(--text-bright);
+            font-size: 0.85rem;
+        }
+        .builder-meta .rating .stat-value { 
             color: var(--warning); 
-            font-weight: 600; 
         }
         .activity-feed-container { 
             flex: 1;
@@ -1232,36 +1310,81 @@
             }
             lastBuildersHash = buildersHash;
             
-            grid.innerHTML = topBuilders.map((builder, i) => {
-                // Use full URL from backend (from builders dict)
-                // Fallback to constructing URL if not provided
-                const url = builder.url || 
-                           (builder.thread_id && builder.server_id ? `${FORUM_CHANNEL_BASE}${builder.server_id}/${builder.thread_id}` : '#');
-                const avatar = builder.avatar_url 
-                    ? `<img src="${builder.avatar_url}" alt="${builder.shop_name}" />` 
-                    : `<i class="fas fa-home" style="font-size: 28px; color: var(--primary);"></i>`;
-                const rankBadge = i < 3 ? `<div class="rank-badge">#${i + 1}</div>` : '';
-                
-                return `
-                    <a href="${url}" target="_blank" class="builder-card rank-${i + 1}" title="Visit ${builder.shop_name}">
-                        ${rankBadge}
-                        <div class="builder-avatar">${avatar}</div>
-                        <div class="builder-info">
-                            <div class="builder-name">${builder.shop_name}</div>
-                            <div class="builder-meta">
-                                <span class="stat">
-                                    <i class="fas fa-check-circle"></i>
-                                    ${builder.completed_projects || 0}
-                                </span>
-                                <span class="stat rating">
-                                    <i class="fas fa-star"></i>
-                                    ${(builder.average_rating || 0).toFixed(1)}
-                                </span>
+            // Separate top 3 (podium) from the rest
+            const top3 = topBuilders.slice(0, 3);
+            const rest = topBuilders.slice(3);
+            
+            let html = '';
+            
+            // Render podium for top 3
+            if (top3.length > 0) {
+                html += '<div class="podium-container">';
+                top3.forEach((builder, i) => {
+                    const url = builder.url || 
+                               (builder.thread_id && builder.server_id ? `${FORUM_CHANNEL_BASE}${builder.server_id}/${builder.thread_id}` : '#');
+                    const avatar = builder.avatar_url 
+                        ? `<img src="${builder.avatar_url}" alt="${builder.shop_name}" />` 
+                        : `<i class="fas fa-home" style="font-size: 32px; color: var(--primary);"></i>`;
+                    const rankBadge = `<div class="rank-badge">#${i + 1}</div>`;
+                    
+                    html += `
+                        <a href="${url}" target="_blank" class="podium-card rank-${i + 1}" title="Visit ${builder.shop_name}">
+                            ${rankBadge}
+                            <div class="builder-avatar">${avatar}</div>
+                            <div class="builder-info">
+                                <div class="builder-name">${builder.shop_name}</div>
+                                <div class="builder-meta">
+                                    <span class="stat">
+                                        <span class="stat-label">Completed</span>
+                                        <span class="stat-value">${builder.completed_projects || 0}</span>
+                                    </span>
+                                    <span class="stat rating">
+                                        <span class="stat-label">Rating</span>
+                                        <span class="stat-value">${(builder.average_rating || 0).toFixed(1)} <i class="fas fa-star" style="font-size: 0.7rem;"></i></span>
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                `;
-            }).join('');
+                        </a>
+                    `;
+                });
+                html += '</div>';
+            }
+            
+            // Render compact list for rest
+            if (rest.length > 0) {
+                html += '<div style="display: flex; flex-direction: column; gap: 8px;">';
+                rest.forEach((builder, i) => {
+                    const rank = i + 4;
+                    const url = builder.url || 
+                               (builder.thread_id && builder.server_id ? `${FORUM_CHANNEL_BASE}${builder.server_id}/${builder.thread_id}` : '#');
+                    const avatar = builder.avatar_url 
+                        ? `<img src="${builder.avatar_url}" alt="${builder.shop_name}" />` 
+                        : `<i class="fas fa-home" style="font-size: 20px; color: var(--primary);"></i>`;
+                    
+                    html += `
+                        <a href="${url}" target="_blank" class="builder-card" title="Visit ${builder.shop_name}">
+                            <span class="rank-number">${rank}</span>
+                            <div class="builder-avatar">${avatar}</div>
+                            <div class="builder-info">
+                                <div class="builder-name">${builder.shop_name}</div>
+                                <div class="builder-meta">
+                                    <span class="stat">
+                                        <span class="stat-label">Completed:</span>
+                                        <span class="stat-value">${builder.completed_projects || 0}</span>
+                                    </span>
+                                    <span class="stat rating">
+                                        <span class="stat-label">Rating:</span>
+                                        <span class="stat-value">${(builder.average_rating || 0).toFixed(1)} <i class="fas fa-star" style="font-size: 0.65rem;"></i></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    `;
+                });
+                html += '</div>';
+            }
+            
+            grid.innerHTML = html;
         }
         
         function renderActivityFeed(activities) {
