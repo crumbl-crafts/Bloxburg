@@ -6,6 +6,8 @@
     <title>Crumbl Crafts · Live Dashboard</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <style>
@@ -890,8 +892,8 @@
         const FORUM_CHANNEL_BASE = 'https://discord.com/channels/';
         const ACTIVITY_RETENTION_DAYS = 7;
         const MAX_ACTIVITY_ITEMS = 100;
-        const REFRESH_INTERVAL = 2000; // 2 seconds for ultra-low latency
-        const FETCH_TIMEOUT = 3000; // 3 second timeout
+        const REFRESH_INTERVAL = 1000; // 1 second for maximum responsiveness
+        const FETCH_TIMEOUT = 5000; // 5 second timeout for reliability
         
         const formatNumber = (v) => new Intl.NumberFormat('en-US').format(v ?? 0);
         const formatTime = (s) => { 
@@ -1093,9 +1095,11 @@
                     signal: controller.signal,
                     cache: 'no-store',
                     keepalive: true,
+                    priority: 'high',
                     headers: {
                         'Cache-Control': 'no-cache',
-                        'Pragma': 'no-cache'
+                        'Pragma': 'no-cache',
+                        'Accept-Encoding': 'gzip, deflate, br'
                     }
                 });
                 clearTimeout(timeoutId);
@@ -1214,6 +1218,8 @@
                 previousStats[stat.key] = value;
             });
         }
+        let lastBuildersHash = '';
+        
         function renderBuilders(builders) {
             const grid = document.getElementById('buildersGrid');
             const topBuilders = (builders || []).slice(0, 6);
@@ -1225,16 +1231,12 @@
                 return;
             }
             
-            // Use document fragment for better performance
-            const fragment = document.createDocumentFragment();
-            const existingCards = grid.querySelectorAll('.builder-card');
-            
-            // Check if we need to rebuild
-            if (existingCards.length !== topBuilders.length) {
-                grid.innerHTML = '';
-            } else {
-                return; // Data hasn't changed, skip re-render
+            // Hash builder data to detect changes
+            const buildersHash = topBuilders.map(b => `${b.shop_name}-${b.completed_projects}-${b.average_rating}`).join('|');
+            if (buildersHash === lastBuildersHash) {
+                return; // No changes, skip render
             }
+            lastBuildersHash = buildersHash;
             
             grid.innerHTML = topBuilders.map((builder, i) => {
                 // Use proper Discord channel URL with server_id and thread_id
@@ -1276,11 +1278,16 @@
             mergeActivities(activities);
             
             // Update activity count
-            lastActivityCount = activityCache.length;
-            count.textContent = activityCache.length;
+            const newCount = activityCache.length;
+            if (lastActivityCount !== newCount) {
+                lastActivityCount = newCount;
+                count.textContent = newCount;
+            }
             
             if (!activityCache.length) {
-                list.innerHTML = '<p style="color: var(--text-muted); text-align: center; padding: 60px 20px;">No recent activity</p>';
+                if (list.children.length !== 1 || !list.querySelector('p')) {
+                    list.innerHTML = '<p style="color: var(--text-muted); text-align: center; padding: 60px 20px;">No recent activity</p>';
+                }
                 return;
             }
             
@@ -1315,9 +1322,16 @@
             // Auto-scroll to top on new items
             list.scrollTop = 0;
         }
+        let lastPipelineHash = '';
+        
         function renderPipeline(pipeline) {
             const list = document.getElementById('pipelineList');
             const items = pipeline || placeholderData.pipeline;
+            
+            // Only re-render if data changed
+            const pipelineHash = items.map(i => `${i.label}-${i.value}`).join('|');
+            if (pipelineHash === lastPipelineHash) return;
+            lastPipelineHash = pipelineHash;
             
             list.innerHTML = items.map((item, i) => {
                 const ratio = Math.min(1, (item.value || 0) / (item.max || 100));
@@ -1337,9 +1351,16 @@
             }).join('');
         }
         
+        let lastInsightsHash = '';
+        
         function renderInsights(insights) {
             const list = document.getElementById('insightsList');
             const items = insights || placeholderData.insights;
+            
+            // Only re-render if data changed
+            const insightsHash = items.map(i => `${i.title}-${i.score}`).join('|');
+            if (insightsHash === lastInsightsHash) return;
+            lastInsightsHash = insightsHash;
             
             const getStatus = (item) => {
                 if (item.status) return item.status;
@@ -1424,11 +1445,11 @@
         // Aggressive refresh - every 2 seconds
         let refreshInterval = setInterval(updateDashboard, REFRESH_INTERVAL);
         
-        // Clean old activity data every hour
+        // Clean old activity data every 6 hours to reduce overhead
         setInterval(() => {
             console.log('Running scheduled activity cache cleanup...');
             cleanOldActivities();
-        }, 3600000);
+        }, 21600000);
         
         // Pause updates when page is hidden, resume immediately when visible
         document.addEventListener('visibilitychange', () => {
