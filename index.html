@@ -1239,10 +1239,8 @@
             lastBuildersHash = buildersHash;
             
             grid.innerHTML = topBuilders.map((builder, i) => {
-                // Use proper Discord channel URL with server_id and thread_id
-                const url = (builder.thread_id && builder.server_id) 
-                    ? `${FORUM_CHANNEL_BASE}${builder.server_id}/${builder.thread_id}` 
-                    : '#';
+                // Use full URL from backend (from builders dict)
+                const url = builder.url || '#';
                 const avatar = builder.avatar_url 
                     ? `<img src="${builder.avatar_url}" alt="${builder.shop_name}" />` 
                     : `<i class="fas fa-home" style="font-size: 28px; color: var(--primary);"></i>`;
@@ -1296,17 +1294,20 @@
                 const typeClass = `type-${item.type}`;
                 // Use the URL from backend if available, otherwise construct from thread_id/server_id
                 const activityUrl = item.url || (item.thread_id && item.server_id ? `${FORUM_CHANNEL_BASE}${item.server_id}/${item.thread_id}` : null);
-                const link = activityUrl
-                    ? `<a href="${activityUrl}" target="_blank">${item.shop_name || 'Unknown'}</a>`
-                    : `<strong>${item.shop_name || 'Unknown'}</strong>`;
+                
+                // If we have a URL, make the entire activity item a clickable link
+                const itemWrapper = activityUrl 
+                    ? `<a href="${activityUrl}" target="_blank" class="activity-item" style="text-decoration: none; color: inherit; display: flex; cursor: pointer;">` 
+                    : `<div class="activity-item">`;
+                const itemWrapperClose = activityUrl ? `</a>` : `</div>`;
                 
                 return `
-                    <div class="activity-item">
+                    ${itemWrapper}
                         <div class="activity-icon ${typeClass}">
                             <i class="fas ${icon}"></i>
                         </div>
                         <div class="activity-content">
-                            <div class="activity-message">${item.message || `Activity at ${link}`}</div>
+                            <div class="activity-message">${item.message || `Activity at ${item.shop_name || 'Unknown'}`}</div>
                             <div class="activity-meta">
                                 <span class="activity-time">
                                     <i class="far fa-clock"></i>
@@ -1315,7 +1316,7 @@
                                 <span class="activity-type-badge">${item.type || 'event'}</span>
                             </div>
                         </div>
-                    </div>
+                    ${itemWrapperClose}
                 `;
             }).join('');
             
