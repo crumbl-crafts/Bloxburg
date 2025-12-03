@@ -73,6 +73,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "siapa yang udah cobain misinya nih gimana pendapat kalian? #bloxburg #robloxevent #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764754619.0,
+      "url": "https://www.youtube.com/watch?v=LrW94cyca24",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Weirdest Roblox game.. \ud83d\ude02\ud83d\ude02#bloxburg #lunchly #prime #ksi #loganpaul #horror",
       "description": "Weirdest Roblox game.. #bloxburg #lunchly #prime #ksi #loganpaul #horror....",
       "source": "YouTube",
@@ -96,15 +105,6 @@
       "source": "YouTube",
       "timestamp": 1764748958.0,
       "url": "https://www.youtube.com/watch?v=g6ucSBju4EQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Weirdest Roblox game.. \ud83d\ude02\ud83d\ude02#bloxburg #lunchly #prime #ksi #loganpaul #horror",
-      "description": "roblox #hamoodhabibi #brainrot #cartoon #spongebob #rumi Weirdest Roblox game.. #bloxburg #lunchly #...",
-      "source": "YouTube",
-      "timestamp": 1764745256.0,
-      "url": "https://www.youtube.com/watch?v=vIfuitfCwCM",
       "icon": "fa-youtube"
     },
     {
@@ -154,7 +154,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764756518.2737207,
+    "generated_at": 1764756721.7925236,
     "mode": "memory",
     "refresh_interval": 2000
   }
