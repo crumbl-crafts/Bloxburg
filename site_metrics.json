@@ -73,6 +73,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "Stranger Things Bloxburg | Official Trailer |",
+      "description": "For last 4 and a half weeks I have been working on a trailer Here it is... Join the discord If you l...",
+      "source": "YouTube",
+      "timestamp": 1764800356.0,
+      "url": "https://www.youtube.com/watch?v=8bWAAy81MjA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "DECORATING FOR CHRISTMAS  #bloxburg #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764799205.0,
+      "url": "https://www.youtube.com/watch?v=3ZKkypVhd3I",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "gotta lock in for vlogmas \ud83d\udde3\ufe0f\ud83d\ude23 #roblox #bloxburg #viral #real #fyp",
       "description": "...",
       "source": "YouTube",
@@ -117,24 +135,6 @@
       "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "2 different styles\ud83e\udd20 #roblox #welcometobloxburg #bloxburg #robloxshorts #bloxburgroblox #robloxdti",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764791141.0,
-      "url": "https://www.youtube.com/watch?v=l3ohj8NJBM0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "VLOGMAS DAY 3 !!!! come spend a morning with me! #vlogmas #roblox #bloxburg #bloxburgrp #december",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764790849.0,
-      "url": "https://www.youtube.com/watch?v=Z44kfYlUJG4",
-      "icon": "fa-youtube"
-    },
-    {
       "type": "tip",
       "title": "Money Making Guide 2024",
       "description": "Best jobs and strategies to earn cash quickly",
@@ -154,7 +154,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764801335.167753,
+    "generated_at": 1764802535.1668894,
     "mode": "memory",
     "refresh_interval": 2000
   }
