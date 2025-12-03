@@ -62,6 +62,15 @@
   ],
   "news": [
     {
+      "type": "trend",
+      "title": "Weirdest Roblox game.. \ud83d\ude02\ud83d\ude02#bloxburg #lunchly #prime #ksi #loganpaul #horror",
+      "description": "Weirdest Roblox game.. #bloxburg #lunchly #prime #ksi #loganpaul #horror....",
+      "source": "YouTube",
+      "timestamp": 1764742501.0,
+      "url": "https://www.youtube.com/watch?v=J7qfd079EMU",
+      "icon": "fa-youtube"
+    },
+    {
       "type": "game_update",
       "title": "New Winter Update Available!",
       "description": "Explore new winter-themed furniture and decorations",
@@ -117,11 +126,11 @@
     },
     {
       "type": "trend",
-      "title": "vlogmas day 2! .+* \u2603\ufe0f #vlogmas #bloxburg #bloxburgchristmas #roblox #fyp",
+      "title": "Bloxburg is not the same.. /cloud1ty #bloxburg #roblox #sad #relatable #viral",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1764715560.0,
-      "url": "https://www.youtube.com/watch?v=wXPbDjXs3Fw",
+      "timestamp": 1764714564.0,
+      "url": "https://www.youtube.com/watch?v=R6w4xskYgr0",
       "icon": "fa-youtube"
     },
     {
@@ -132,19 +141,10 @@
       "timestamp": 1764714535.0,
       "url": "https://www.youtube.com/watch?v=sG0HEXno90E",
       "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "BLOXBURG ATE WITH THIS UPDATEE #roblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764714025.0,
-      "url": "https://www.youtube.com/watch?v=lGcR6K0ZLVw",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1764742920.9384,
+    "generated_at": 1764744120.9424953,
     "mode": "memory",
     "refresh_interval": 2000
   }
