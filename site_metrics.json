@@ -60,9 +60,91 @@
       "status": "good"
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1764736914.8730714,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
+    },
+    {
+      "type": "trend",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
+      "source": "YouTube",
+      "timestamp": 1764733314.8730726,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
+    },
+    {
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1764729714.873073,
+      "url": "#",
+      "icon": "fa-lightbulb"
+    },
+    {
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1764726114.8730736,
+      "url": "#",
+      "icon": "fa-trophy"
+    },
+    {
+      "type": "trend",
+      "title": "D\u00eda 3 del Calendario de Adviento de Bloxburg \ud83d\udcc5\ud83c\udf84  #shorts #bloxburg #robloxshorts #roblox",
+      "description": "D\u00eda 3 del Calendario de Adviento de Bloxburg ------------------------------------------------- \u2b50 Mis...",
+      "source": "YouTube",
+      "timestamp": 1764722216.0,
+      "url": "https://www.youtube.com/watch?v=Lkx7HPDP10k",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "I like this car #roblox #rblx #bloxburg #shorts #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764717067.0,
+      "url": "https://www.youtube.com/watch?v=lhh0W9jSVOs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "When Your Sister Is Stupid! \ud83d\ude2d\ud83e\udd28 #bloxburg #bloxburgfamily #roblox #shorts",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764714535.0,
+      "url": "https://www.youtube.com/watch?v=sG0HEXno90E",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "BLOXBURG ATE WITH THIS UPDATEE #roblox #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764714025.0,
+      "url": "https://www.youtube.com/watch?v=lGcR6K0ZLVw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Custom TWINKIES Bloxburg Hack Tutorial!",
+      "description": "A Bloxburg hack tutorial on how to make a twinkie in Welcome to Bloxburg on Roblox! #shorts #bloxbur...",
+      "source": "YouTube",
+      "timestamp": 1764713666.0,
+      "url": "https://www.youtube.com/watch?v=gVsLUl9g-xE",
+      "icon": "fa-youtube"
+    }
+  ],
   "meta": {
-    "generated_at": 1764740518.4403439,
+    "generated_at": 1764740521.307531,
     "mode": "memory",
     "refresh_interval": 2000
   }
