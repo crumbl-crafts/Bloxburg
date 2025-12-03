@@ -73,6 +73,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #pubg #\u0631\u0648\u0628\u0644\u0648\u0643\u0633 #towerofhellrace #\u0627\u0644\u0646\u0638\u0627\u0641\u0647 #\u0627\u0643\u0633\u0628\u0644\u0648\u0631 #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764804921.0,
+      "url": "https://www.youtube.com/watch?v=OKCzT4jy8bY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "i love breaking into bloxburg houses",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764804086.0,
+      "url": "https://www.youtube.com/watch?v=4VYx2JCWTlk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "the base of my new cozy bedroom build! \u2603\ufe0f #bloxburg #bloxburgchristmas #fyp #bloxburgbuild #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -109,24 +127,6 @@
     },
     {
       "type": "trend",
-      "title": "\ud83d\udd34I&#39;M DELETING MY BLOXBURG HOUSE...",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
-      "source": "YouTube",
-      "timestamp": 1764794999.0,
-      "url": "https://www.youtube.com/watch?v=6HyPXBpTOiU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "RATE HOUSES WITH ME! #bloxburg #fyp: #blowup#viral#unflopme#goviral#relatable#shorts#trending#roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764793839.0,
-      "url": "https://www.youtube.com/watch?v=U_rDlhxqbCw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Modern Mansion Builds Trending",
       "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
@@ -154,7 +154,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764804935.1648676,
+    "generated_at": 1764806135.1643143,
     "mode": "memory",
     "refresh_interval": 2000
   }
