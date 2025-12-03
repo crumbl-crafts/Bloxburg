@@ -97,27 +97,25 @@
         }
         .glass {
             background: 
-                radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
-                radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
-                radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.04) 0.8px, transparent 0.8px),
-                var(--panel);
+                radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+                radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+                radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.05) 0.8px, transparent 0.8px),
+                rgba(30, 40, 60, 0.6);
             background-size: 8px 8px, 8px 8px, 4px 4px, 100% 100%;
             background-position: 0 0, 4px 4px, 2px 2px, 0 0;
-            border: 3px solid var(--border);
-            border-radius: 24px;
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
             padding: 24px;
-            box-shadow: 0 12px 40px rgba(255, 23, 68, 0.2), 
-                        0 0 0 1px rgba(41, 121, 255, 0.3),
-                        inset 0 1px 0 rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
+            box-shadow: 0 12px 40px rgba(255, 23, 68, 0.25), 
+                        0 0 0 1px rgba(255, 255, 255, 0.1),
+                        inset 0 2px 0 rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(20px) saturate(1.2);
+            -webkit-backdrop-filter: blur(20px) saturate(1.2);
             position: relative;
             overflow: hidden;
-            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
-                        border-color 0.3s ease;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             contain: layout style paint;
             transform: translateZ(0);
-            will-change: transform;
             backface-visibility: hidden;
         }
         .glass::before {
@@ -159,28 +157,24 @@
             opacity: 0;
         }
         .glass:hover {
-            border-color: rgba(255, 23, 68, 0.6);
-            box-shadow: 0 20px 60px rgba(255, 23, 68, 0.4), 
-                        0 0 80px rgba(41, 121, 255, 0.3),
-                        inset 0 1px 0 rgba(255, 255, 255, 0.15),
-                        inset 0 0 80px rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 23, 68, 0.5);
+            box-shadow: 0 16px 48px rgba(255, 23, 68, 0.35), 
+                        0 0 0 2px rgba(255, 255, 255, 0.2),
+                        inset 0 3px 0 rgba(255, 255, 255, 0.2);
             background: 
-                linear-gradient(135deg, transparent 40%, rgba(255, 255, 255, 0.2) 50%, transparent 60%),
-                repeating-linear-gradient(90deg, transparent 0px, transparent 2px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.03) 4px),
-                radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.1) 1.5px, transparent 1.5px),
-                radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.1) 1.5px, transparent 1.5px),
-                rgba(50, 60, 80, 0.7);
-            background-size: 200% 200%, 8px 8px, 8px 8px, 8px 8px, 100% 100%;
-            animation: glassyShine 0.8s ease-out;
-            transform: translateY(-2px) scale(1.01);
+                radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+                radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+                rgba(35, 45, 65, 0.7);
+            background-size: 8px 8px, 8px 8px, 100% 100%;
+            transform: translateY(-2px);
         }
         header.hero { 
-            padding: 32px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 20px;
+            border-radius: 20px !important;
+            border-width: 3px !important;
+            box-shadow: 0 20px 60px rgba(255, 23, 68, 0.35),
+                        0 0 0 1px rgba(255, 255, 255, 0.15),
+                        inset 0 2px 0 rgba(255, 255, 255, 0.2) !important;
+            backdrop-filter: blur(20px) saturate(1.3) !important;
         }
         .logo-container { 
             display: flex; 
@@ -188,57 +182,66 @@
             gap: 16px;
         }
         .logo-icon {
-            width: 64px; 
-            height: 64px;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            border-radius: 16px;
-            display: grid; 
-            place-items: center;
-            font-size: 32px;
-            box-shadow: 0 8px 32px var(--primary-glow);
+            width: 50px !important; 
+            height: 50px !important;
+            background: linear-gradient(135deg, rgba(255, 23, 68, 0.2), rgba(41, 121, 255, 0.2)) !important;
+            border-radius: 10px !important;
+            display: flex !important; 
+            align-items: center !important;
+            justify-content: center !important;
+            border: 2px solid rgba(255, 255, 255, 0.3) !important;
+            box-shadow: 0 8px 32px rgba(255, 23, 68, 0.35),
+                        0 0 0 1px rgba(255, 255, 255, 0.1),
+                        inset 0 2px 0 rgba(255, 255, 255, 0.3) !important;
             position: relative;
             transition: transform 0.3s ease;
         }
         .logo-icon:hover {
-            transform: translateY(-8px);
+            transform: translateY(-4px);
         }
-        .logo-icon::after {
-            content: '';
-            position: absolute;
-            inset: -2px;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            border-radius: 16px;
-            z-index: -1;
-            filter: blur(12px);
-            opacity: 0.5;
+        .logo-icon img {
+            image-rendering: crisp-edges;
+            image-rendering: -webkit-optimize-contrast;
         }
         .logo-text h1 {
-            font-size: 2rem;
-            font-weight: 900;
-            background: linear-gradient(135deg, var(--primary), var(--text-bright));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            letter-spacing: -0.03em;
+            font-size: 2rem !important;
+            font-weight: 900 !important;
+            background: linear-gradient(135deg, #ffffff, #e0e8ff) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
+            letter-spacing: -0.5px !important;
             margin-bottom: 4px;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.8)) 
+                    drop-shadow(0 0 12px rgba(255, 23, 68, 0.4)) !important;
+            text-rendering: optimizeLegibility;
         }
         .logo-text .tagline { 
-            color: var(--text-muted); 
-            font-size: 0.9rem;
-            font-weight: 500;
+            color: #c0c8e0 !important; 
+            font-size: 0.8rem !important;
+            font-weight: 600 !important;
+            letter-spacing: 0.5px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+            margin-top: 2px;
         }
         .status-badge {
-            display: inline-flex; 
-            align-items: center; 
-            gap: 10px;
-            padding: 10px 20px; 
-            border-radius: 50px;
-            background: rgba(16, 185, 129, 0.1);
-            border: 1px solid rgba(16, 185, 129, 0.3);
-            font-size: 0.85rem; 
-            font-weight: 600; 
-            color: var(--success);
-            box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);
+            display: flex !important; 
+            align-items: center !important; 
+            gap: 8px !important;
+            padding: 8px 16px !important; 
+            border-radius: 10px !important;
+            background: rgba(0, 230, 118, 0.15) !important;
+            border: 2px solid rgba(0, 230, 118, 0.5) !important;
+            font-size: 0.75rem !important; 
+            font-weight: 800 !important; 
+            letter-spacing: 1.5px !important;
+            color: var(--success) !important;
+            box-shadow: 0 4px 20px rgba(0, 230, 118, 0.3),
+                        0 0 0 1px rgba(255, 255, 255, 0.1),
+                        inset 0 2px 0 rgba(255, 255, 255, 0.2) !important;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8),
+                         0 0 12px rgba(0, 230, 118, 0.5) !important;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
         }
         @keyframes pulseGlow {
             0%, 100% { box-shadow: 0 0 20px rgba(16, 185, 129, 0.2); }
@@ -304,15 +307,15 @@
         .stat-card::before {
             content: '';
             position: absolute;
-            top: -8px;
+            top: -6px;
             left: 14px;
             width: 0;
             height: 0;
-            border-left: 10px solid transparent;
-            border-right: 10px solid transparent;
-            border-bottom: 8px solid var(--primary);
-            filter: drop-shadow(0 -3px 6px rgba(255, 23, 68, 0.5));
-            transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 6px solid var(--primary);
+            filter: drop-shadow(0 -2px 4px rgba(255, 23, 68, 0.6));
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
         .stat-card:hover::before {
             animation: tailWag 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -340,11 +343,11 @@
             border-radius: 16px 16px 0 0;
         }
         .stat-card:hover { 
-            transform: translateY(-8px) scale(1.03); 
+            transform: translateY(-4px); 
             border-color: rgba(255, 23, 68, 0.8); 
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7), 
-                        0 0 0 6px rgba(255, 23, 68, 0.6),
-                        inset 0 2px 0 rgba(255, 255, 255, 0.25); 
+            box-shadow: 0 16px 48px rgba(255, 23, 68, 0.4), 
+                        0 0 0 3px rgba(255, 255, 255, 0.2),
+                        inset 0 3px 0 rgba(255, 255, 255, 0.3); 
         }
         .stat-card:hover::after {
             animation: glassyShine 0.6s ease-out;
@@ -1261,16 +1264,20 @@
             to { transform: rotate(360deg); }
         }
         
-        /* Ad carousel hover effects */
-        .ad-carousel:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 16px 48px rgba(255, 23, 68, 0.3), 
-                        0 0 0 1px rgba(41, 121, 255, 0.4),
-                        inset 0 1px 0 rgba(255, 255, 255, 0.15);
+        /* Header ad carousel effects */
+        .header-ad-carousel {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .header-ad-carousel:hover {
+            box-shadow: 0 12px 48px rgba(255, 23, 68, 0.7), 
+                        0 0 0 3px rgba(255, 255, 255, 0.3),
+                        inset 0 2px 0 rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+            border-color: rgba(255, 23, 68, 1);
         }
         
-        .ad-dot:hover {
-            transform: scale(1.3);
+        .header-ad-dot:hover {
+            transform: scale(1.2);
             filter: brightness(1.2);
         }
         
@@ -1289,8 +1296,8 @@
 <body>
     <div class="wrapper">
         <div class="main-content">
-            <header class="glass hero">
-                <div class="logo-container">
+            <header class="glass hero" style="display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 20px 32px; min-height: 140px;">
+                <div class="logo-container" style="flex-shrink: 0;">
                     <div class="logo-icon">
                         <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23D2691E'/%3E%3Ccircle cx='30' cy='35' r='6' fill='%23654321'/%3E%3Ccircle cx='65' cy='40' r='5' fill='%23654321'/%3E%3Ccircle cx='45' cy='55' r='7' fill='%23654321'/%3E%3Ccircle cx='70' cy='65' r='5' fill='%23654321'/%3E%3Ccircle cx='30' cy='65' r='4' fill='%23654321'/%3E%3C/svg%3E" alt="Cookie" style="width: 40px; height: 40px;" />
                     </div>
@@ -1299,12 +1306,46 @@
                         <p class="tagline">Premium Bloxburg Builder Network</p>
                     </div>
                 </div>
-                <div style="display: flex; align-items: center; gap: 12px;">
+                
+                <!-- Premium Ad Carousel Integrated -->
+                <div class="header-ad-carousel" id="headerAdCarousel" style="flex: 1; max-width: 650px; height: 100px; position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 32px rgba(255, 23, 68, 0.5), 0 0 0 2px rgba(255, 255, 255, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2); border: 3px solid rgba(255, 23, 68, 0.8); background: rgba(20, 25, 35, 0.8); backdrop-filter: blur(10px);">
+                    <div class="header-ad-slide active" style="position: absolute; width: 100%; height: 100%; opacity: 1; transform: translateX(0) scale(1); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);">
+                        <img src="https://raw.githubusercontent.com/crumbl-crafts/crumbl_crafts/main/ad-banner.jpg" 
+                             alt="Advertisement 1" 
+                             loading="eager"
+                             style="width: 100%; height: 100%; object-fit: cover; image-rendering: crisp-edges;"
+                             onerror="this.parentElement.innerHTML='<div style=&quot;padding:20px;text-align:center;background:linear-gradient(135deg, rgba(255,23,68,0.15), rgba(41,121,255,0.15));height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;&quot;><i class=&quot;fas fa-ad fa-3x&quot; style=&quot;color:var(--primary);text-shadow: 2px 2px 0 rgba(0,0,0,0.7), -1px -1px 0 rgba(255,255,255,0.1);&quot;></i><p style=&quot;margin-top:12px;font-weight:800;font-size:1rem;color:var(--text-bright);text-shadow: 2px 2px 0 rgba(0,0,0,0.7);&quot;>🎨 PREMIUM AD #1<br><small style=&quot;font-weight:400;font-size:0.75rem;color:var(--text-muted);&quot;>Your ad here</small></p></div>'" />
+                    </div>
+                    <div class="header-ad-slide" style="position: absolute; width: 100%; height: 100%; opacity: 0; transform: translateX(100%) scale(0.95); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);">
+                        <img src="https://raw.githubusercontent.com/crumbl-crafts/crumbl_crafts/main/ad-banner-2.jpg" 
+                             alt="Advertisement 2" 
+                             loading="lazy"
+                             style="width: 100%; height: 100%; object-fit: cover; image-rendering: crisp-edges;"
+                             onerror="this.parentElement.innerHTML='<div style=&quot;padding:20px;text-align:center;background:linear-gradient(135deg, rgba(41,121,255,0.15), rgba(0,230,118,0.15));height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;&quot;><i class=&quot;fas fa-image fa-3x&quot; style=&quot;color:var(--secondary);text-shadow: 2px 2px 0 rgba(0,0,0,0.7), -1px -1px 0 rgba(255,255,255,0.1);&quot;></i><p style=&quot;margin-top:12px;font-weight:800;font-size:1rem;color:var(--text-bright);text-shadow: 2px 2px 0 rgba(0,0,0,0.7);&quot;>💼 PREMIUM AD #2<br><small style=&quot;font-weight:400;font-size:0.75rem;color:var(--text-muted);&quot;>Your ad here</small></p></div>'" />
+                    </div>
+                    <div class="header-ad-slide" style="position: absolute; width: 100%; height: 100%; opacity: 0; transform: translateX(100%) scale(0.95); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);">
+                        <img src="https://raw.githubusercontent.com/crumbl-crafts/crumbl_crafts/main/ad-banner-3.jpg" 
+                             alt="Advertisement 3" 
+                             loading="lazy"
+                             style="width: 100%; height: 100%; object-fit: cover; image-rendering: crisp-edges;"
+                             onerror="this.parentElement.innerHTML='<div style=&quot;padding:20px;text-align:center;background:linear-gradient(135deg, rgba(0,230,118,0.15), rgba(255,23,68,0.15));height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;&quot;><i class=&quot;fas fa-bullhorn fa-3x&quot; style=&quot;color:var(--success);text-shadow: 2px 2px 0 rgba(0,0,0,0.7), -1px -1px 0 rgba(255,255,255,0.1);&quot;></i><p style=&quot;margin-top:12px;font-weight:800;font-size:1rem;color:var(--text-bright);text-shadow: 2px 2px 0 rgba(0,0,0,0.7);&quot;>⭐ PREMIUM AD #3<br><small style=&quot;font-weight:400;font-size:0.75rem;color:var(--text-muted);&quot;>Your ad here</small></p></div>'" />
+                    </div>
+                    <!-- Premium Ad Dots -->
+                    <div style="position: absolute; bottom: 6px; left: 50%; transform: translateX(-50%); display: flex; gap: 6px; z-index: 10;">
+                        <div class="header-ad-dot active" data-index="0" style="width: 12px; height: 8px; border-radius: 4px; background: var(--primary); cursor: pointer; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 0 12px var(--primary-glow), 0 0 0 2px rgba(255,23,68,0.4);"></div>
+                        <div class="header-ad-dot" data-index="1" style="width: 8px; height: 8px; border-radius: 4px; background: rgba(255,255,255,0.3); cursor: pointer; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);"></div>
+                        <div class="header-ad-dot" data-index="2" style="width: 8px; height: 8px; border-radius: 4px; background: rgba(255,255,255,0.3); cursor: pointer; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);"></div>
+                    </div>
+                    <!-- Premium Badge -->
+                    <div style="position: absolute; top: 6px; right: 6px; background: linear-gradient(135deg, #ff1744, #ff5252); color: white; padding: 3px 8px; border-radius: 4px; font-weight: 900; font-size: 8px; letter-spacing: 1.2px; z-index: 10; box-shadow: 0 2px 8px rgba(255,23,68,0.8), inset 0 1px 0 rgba(255,255,255,0.4); text-shadow: 0 1px 2px rgba(0,0,0,0.6); border: 1px solid rgba(255,255,255,0.2);">AD</div>
+                </div>
+                
+                <div style="display: flex; align-items: center; gap: 12px; flex-shrink: 0;">
                     <div class="status-badge" id="statusBadge">
                         <span class="status-dot" id="statusDot"></span>
                         <span id="statusText">LIVE</span>
                     </div>
-                    <div style="font-size: 0.75rem; color: var(--text-muted); font-weight: 500;">
+                    <div style="font-size: 0.75rem; color: var(--text-muted); font-weight: 600; min-width: 60px; text-align: right;">
                         <span id="latencyDisplay">—</span>
                     </div>
                 </div>
@@ -1321,41 +1362,6 @@
                 </h2>
                 <p class="section-subtitle">Our highest-rated builders this month</p>
                 <div class="builders-grid" id="buildersGrid"></div>
-            </section>
-
-            <!-- Advertisement Carousel -->
-            <section class="glass ad-carousel" style="margin-bottom: 24px; padding: 0; overflow: hidden; position: relative;">
-                <div id="adCarousel" style="width: 100%; height: 240px; position: relative;">
-                    <div class="ad-slide active" style="position: absolute; width: 100%; height: 100%; opacity: 1; transform: translateX(0) scale(1); transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);">
-                        <img src="https://raw.githubusercontent.com/crumbl-crafts/crumbl_crafts/main/ad-banner.jpg" 
-                             alt="Advertisement 1" 
-                             loading="lazy"
-                             style="width: 100%; height: 100%; object-fit: cover; border-radius: 22px;"
-                             onerror="this.parentElement.innerHTML='<div style=&quot;padding:60px;text-align:center;color:var(--text-muted);background:rgba(255,23,68,0.1);height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;&quot;><i class=&quot;fas fa-ad fa-4x&quot; style=&quot;text-shadow: 2px 2px 0 rgba(0,0,0,0.7), -1px -1px 0 rgba(255,255,255,0.1);&quot;></i><p style=&quot;margin-top:20px;font-weight:800;font-size:1.2rem;text-shadow: 2px 2px 0 rgba(0,0,0,0.7);&quot;>🎨 AD SLOT #1<br><small style=&quot;font-weight:400;font-size:0.85rem;&quot;>Place ad-banner.jpg in GitHub</small></p></div>'" />
-                    </div>
-                    <div class="ad-slide" style="position: absolute; width: 100%; height: 100%; opacity: 0; transform: translateX(100%) scale(0.8); transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);">
-                        <img src="https://raw.githubusercontent.com/crumbl-crafts/crumbl_crafts/main/ad-banner-2.jpg" 
-                             alt="Advertisement 2" 
-                             loading="lazy"
-                             style="width: 100%; height: 100%; object-fit: cover; border-radius: 22px;"
-                             onerror="this.parentElement.innerHTML='<div style=&quot;padding:60px;text-align:center;color:var(--text-muted);background:rgba(41,121,255,0.1);height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;&quot;><i class=&quot;fas fa-image fa-4x&quot; style=&quot;text-shadow: 2px 2px 0 rgba(0,0,0,0.7), -1px -1px 0 rgba(255,255,255,0.1);&quot;></i><p style=&quot;margin-top:20px;font-weight:800;font-size:1.2rem;text-shadow: 2px 2px 0 rgba(0,0,0,0.7);&quot;>💼 AD SLOT #2<br><small style=&quot;font-weight:400;font-size:0.85rem;&quot;>Place ad-banner-2.jpg in GitHub</small></p></div>'" />
-                    </div>
-                    <div class="ad-slide" style="position: absolute; width: 100%; height: 100%; opacity: 0; transform: translateX(100%) scale(0.8); transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);">
-                        <img src="https://raw.githubusercontent.com/crumbl-crafts/crumbl_crafts/main/ad-banner-3.jpg" 
-                             alt="Advertisement 3" 
-                             loading="lazy"
-                             style="width: 100%; height: 100%; object-fit: cover; border-radius: 22px;"
-                             onerror="this.parentElement.innerHTML='<div style=&quot;padding:60px;text-align:center;color:var(--text-muted);background:rgba(0,230,118,0.1);height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;&quot;><i class=&quot;fas fa-bullhorn fa-4x&quot; style=&quot;text-shadow: 2px 2px 0 rgba(0,0,0,0.7), -1px -1px 0 rgba(255,255,255,0.1);&quot;></i><p style=&quot;margin-top:20px;font-weight:800;font-size:1.2rem;text-shadow: 2px 2px 0 rgba(0,0,0,0.7);&quot;>⭐ AD SLOT #3<br><small style=&quot;font-weight:400;font-size:0.85rem;&quot;>Place ad-banner-3.jpg in GitHub</small></p></div>'" />
-                    </div>
-                </div>
-                <!-- Ad Indicator Dots -->
-                <div style="position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); display: flex; gap: 10px; z-index: 10;">
-                    <div class="ad-dot active" data-index="0" style="width: 12px; height: 12px; border-radius: 50%; background: var(--primary); cursor: pointer; transition: all 0.3s ease; box-shadow: 0 0 12px var(--primary-glow), 0 0 0 3px rgba(255,23,68,0.3);"></div>
-                    <div class="ad-dot" data-index="1" style="width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.4); cursor: pointer; transition: all 0.3s ease; border: 2px solid rgba(255,255,255,0.6);"></div>
-                    <div class="ad-dot" data-index="2" style="width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.4); cursor: pointer; transition: all 0.3s ease; border: 2px solid rgba(255,255,255,0.6);"></div>
-                </div>
-                <!-- Comic-style "AD" badge -->
-                <div style="position: absolute; top: 12px; right: 12px; background: linear-gradient(135deg, #ff1744, #ff5252); color: white; padding: 6px 14px; border-radius: 8px; font-weight: 900; font-size: 11px; letter-spacing: 2px; z-index: 10; box-shadow: 0 4px 16px rgba(255,23,68,0.7), inset 0 1px 0 rgba(255,255,255,0.3); text-shadow: 2px 2px 0 rgba(0,0,0,0.5);">AD</div>
             </section>
 
             <div class="content-grid">
@@ -1407,10 +1413,14 @@
                     </div>
                     <div class="feed-stats">
                         <div class="feed-stat">
-                            <span class="dot"></span>
-                            <span id="feedCount">0</span>
+                    <div class="news-list-wrapper" id="newsListWrapper" style="max-height: 0; overflow: hidden; transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, margin-top 0.3s ease; opacity: 0; margin-top: 0;">
+                        <div style="padding: 40px; text-align: center;">
+                            <i class="fas fa-newspaper" style="font-size: 3rem; color: var(--primary); text-shadow: 2px 2px 0 rgba(0,0,0,0.7), -1px -1px 0 rgba(255,255,255,0.1); margin-bottom: 16px;"></i>
+                            <h3 style="font-weight: 800; font-size: 1.5rem; color: var(--text-bright); text-shadow: 2px 2px 0 rgba(0,0,0,0.7), -1px -1px 0 rgba(255,255,255,0.1); margin-bottom: 12px;">Coming Soon! 🚀</h3>
+                            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">We're working on bringing you the latest Bloxburg news, trends, and community highlights.<br>Stay tuned for exciting updates!</p>
                         </div>
                     </div>
+                </section>
                 </div>
                 <div class="activity-list" id="activityList"></div>
             </div>
@@ -2362,74 +2372,78 @@
                 });
             }
             
-            // Ad Carousel Rotation with manga-style transitions
-            let currentAdIndex = 0;
-            const adSlides = document.querySelectorAll('.ad-slide');
-            const adDots = document.querySelectorAll('.ad-dot');
+            // Header Ad Carousel Rotation
+            let currentHeaderAdIndex = 0;
+            const headerAdSlides = document.querySelectorAll('.header-ad-slide');
+            const headerAdDots = document.querySelectorAll('.header-ad-dot');
             
-            function rotateAd() {
-                if (adSlides.length === 0) return;
+            function rotateHeaderAd() {
+                if (headerAdSlides.length === 0) return;
                 
-                // Hide current with comic swoosh
-                adSlides[currentAdIndex].style.opacity = '0';
-                adSlides[currentAdIndex].style.transform = 'translateX(-100%) scale(0.8) rotate(-5deg)';
-                adSlides[currentAdIndex].classList.remove('active');
-                adDots[currentAdIndex].style.background = 'rgba(255,255,255,0.4)';
-                adDots[currentAdIndex].style.boxShadow = 'none';
-                adDots[currentAdIndex].style.border = '2px solid rgba(255,255,255,0.6)';
-                adDots[currentAdIndex].classList.remove('active');
+                // Hide current with smooth fade
+                headerAdSlides[currentHeaderAdIndex].style.opacity = '0';
+                headerAdSlides[currentHeaderAdIndex].style.transform = 'translateX(-50px) scale(0.98)';
+                headerAdSlides[currentHeaderAdIndex].classList.remove('active');
+                headerAdDots[currentHeaderAdIndex].style.background = 'rgba(255,255,255,0.3)';
+                headerAdDots[currentHeaderAdIndex].style.boxShadow = 'none';
+                headerAdDots[currentHeaderAdIndex].style.width = '8px';
+                headerAdDots[currentHeaderAdIndex].classList.remove('active');
                 
                 // Next index
-                currentAdIndex = (currentAdIndex + 1) % adSlides.length;
+                currentHeaderAdIndex = (currentHeaderAdIndex + 1) % headerAdSlides.length;
                 
-                // Show next with bouncy entrance
-                setTimeout(() => {
-                    adSlides[currentAdIndex].style.transform = 'translateX(0) scale(1) rotate(0deg)';
-                    adSlides[currentAdIndex].style.opacity = '1';
-                    adSlides[currentAdIndex].classList.add('active');
-                    adDots[currentAdIndex].style.background = 'var(--primary)';
-                    adDots[currentAdIndex].style.boxShadow = '0 0 12px var(--primary-glow), 0 0 0 3px rgba(255,23,68,0.3)';
-                    adDots[currentAdIndex].style.border = 'none';
-                    adDots[currentAdIndex].classList.add('active');
-                }, 100);
+                // Show next with smooth entrance
+                requestAnimationFrame(() => {
+                    setTimeout(() => {
+                        headerAdSlides[currentHeaderAdIndex].style.transform = 'translateX(0) scale(1)';
+                        headerAdSlides[currentHeaderAdIndex].style.opacity = '1';
+                        headerAdSlides[currentHeaderAdIndex].classList.add('active');
+                        headerAdDots[currentHeaderAdIndex].style.background = 'var(--primary)';
+                        headerAdDots[currentHeaderAdIndex].style.boxShadow = '0 0 12px var(--primary-glow), 0 0 0 2px rgba(255,23,68,0.4)';
+                        headerAdDots[currentHeaderAdIndex].style.width = '12px';
+                        headerAdDots[currentHeaderAdIndex].classList.add('active');
+                    }, 50);
+                });
                 
-                // Reset non-active slides position
-                adSlides.forEach((slide, idx) => {
-                    if (idx !== currentAdIndex && !slide.classList.contains('active')) {
-                        slide.style.transform = 'translateX(100%) scale(0.8) rotate(5deg)';
+                // Reset non-active slides
+                headerAdSlides.forEach((slide, idx) => {
+                    if (idx !== currentHeaderAdIndex && !slide.classList.contains('active')) {
+                        slide.style.transform = 'translateX(50px) scale(0.98)';
                     }
                 });
             }
             
             // Auto-rotate every 5 seconds
-            setInterval(rotateAd, 5000);
+            setInterval(rotateHeaderAd, 5000);
             
-            // Manual dot click navigation
-            adDots.forEach((dot, idx) => {
+            // Manual dot click
+            headerAdDots.forEach((dot, idx) => {
                 dot.addEventListener('click', () => {
-                    if (idx === currentAdIndex) return;
+                    if (idx === currentHeaderAdIndex) return;
                     
-                    // Hide current
-                    adSlides[currentAdIndex].style.opacity = '0';
-                    adSlides[currentAdIndex].style.transform = idx > currentAdIndex ? 'translateX(-100%) scale(0.8)' : 'translateX(100%) scale(0.8)';
-                    adSlides[currentAdIndex].classList.remove('active');
-                    adDots[currentAdIndex].style.background = 'rgba(255,255,255,0.4)';
-                    adDots[currentAdIndex].style.boxShadow = 'none';
-                    adDots[currentAdIndex].style.border = '2px solid rgba(255,255,255,0.6)';
-                    adDots[currentAdIndex].classList.remove('active');
+                    const direction = idx > currentHeaderAdIndex ? -1 : 1;
                     
-                    currentAdIndex = idx;
+                    headerAdSlides[currentHeaderAdIndex].style.opacity = '0';
+                    headerAdSlides[currentHeaderAdIndex].style.transform = `translateX(${direction * 50}px) scale(0.98)`;
+                    headerAdSlides[currentHeaderAdIndex].classList.remove('active');
+                    headerAdDots[currentHeaderAdIndex].style.background = 'rgba(255,255,255,0.3)';
+                    headerAdDots[currentHeaderAdIndex].style.boxShadow = 'none';
+                    headerAdDots[currentHeaderAdIndex].style.width = '8px';
+                    headerAdDots[currentHeaderAdIndex].classList.remove('active');
                     
-                    // Show selected
-                    setTimeout(() => {
-                        adSlides[currentAdIndex].style.transform = 'translateX(0) scale(1)';
-                        adSlides[currentAdIndex].style.opacity = '1';
-                        adSlides[currentAdIndex].classList.add('active');
-                        adDots[currentAdIndex].style.background = 'var(--primary)';
-                        adDots[currentAdIndex].style.boxShadow = '0 0 12px var(--primary-glow), 0 0 0 3px rgba(255,23,68,0.3)';
-                        adDots[currentAdIndex].style.border = 'none';
-                        adDots[currentAdIndex].classList.add('active');
-                    }, 100);
+                    currentHeaderAdIndex = idx;
+                    
+                    requestAnimationFrame(() => {
+                        setTimeout(() => {
+                            headerAdSlides[currentHeaderAdIndex].style.transform = 'translateX(0) scale(1)';
+                            headerAdSlides[currentHeaderAdIndex].style.opacity = '1';
+                            headerAdSlides[currentHeaderAdIndex].classList.add('active');
+                            headerAdDots[currentHeaderAdIndex].style.background = 'var(--primary)';
+                            headerAdDots[currentHeaderAdIndex].style.boxShadow = '0 0 12px var(--primary-glow), 0 0 0 2px rgba(255,23,68,0.4)';
+                            headerAdDots[currentHeaderAdIndex].style.width = '12px';
+                            headerAdDots[currentHeaderAdIndex].classList.add('active');
+                        }, 50);
+                    });
                 });
             });
             
