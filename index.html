@@ -1370,49 +1370,7 @@
 <body>
     <div class="wrapper">
         <div class="main-content">
-            <header class="glass hero" style="position: relative; overflow: hidden; border-radius: 24px; border: 3px solid rgba(255,23,68,0.5); box-shadow: 0 0 60px rgba(255,23,68,0.4), inset 0 0 120px rgba(255,23,68,0.08);">
-                <!-- Premium Ad Background Carousel -->
-                <div class="premium-ad-carousel" id="premiumAdCarousel" style="position: absolute; inset: 0; z-index: 0;">
-                    <div class="premium-ad-slide active" style="position: absolute; width: 100%; height: 100%; opacity: 0.35; transform: translate3d(0, 0, 0); transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.4, 0, 0.2, 1); will-change: opacity, transform; filter: blur(3px) brightness(0.8);">
-                        <img src="https://raw.githubusercontent.com/crumbl-crafts/crumbl_crafts/main/ad-banner.jpg" 
-                             alt="Premium Advertisement 1" 
-                             loading="eager"
-                             style="width: 100%; height: 100%; object-fit: cover; image-rendering: -webkit-optimize-contrast; transform: translateZ(0) scale(1.1);"
-                             onerror="this.parentElement.style.background='linear-gradient(135deg, rgba(255,23,68,0.25), rgba(41,121,255,0.25), rgba(0,230,118,0.25))'" />
-                    </div>
-                    <div class="premium-ad-slide" style="position: absolute; width: 100%; height: 100%; opacity: 0; transform: translate3d(100%, 0, 0); transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.4, 0, 0.2, 1); will-change: opacity, transform; filter: blur(3px) brightness(0.8);">
-                        <img src="https://raw.githubusercontent.com/crumbl-crafts/crumbl_crafts/main/ad-banner-2.jpg" 
-                             alt="Premium Advertisement 2" 
-                             loading="lazy"
-                             style="width: 100%; height: 100%; object-fit: cover; image-rendering: -webkit-optimize-contrast; transform: translateZ(0) scale(1.1);"
-                             onerror="this.parentElement.style.background='linear-gradient(135deg, rgba(41,121,255,0.25), rgba(0,230,118,0.25), rgba(255,23,68,0.25))'" />
-                    </div>
-                    <div class="premium-ad-slide" style="position: absolute; width: 100%; height: 100%; opacity: 0; transform: translate3d(100%, 0, 0); transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.4, 0, 0.2, 1); will-change: opacity, transform; filter: blur(3px) brightness(0.8);">
-                        <img src="https://raw.githubusercontent.com/crumbl-crafts/crumbl_crafts/main/ad-banner-3.jpg" 
-                             alt="Premium Advertisement 3" 
-                             loading="lazy"
-                             style="width: 100%; height: 100%; object-fit: cover; image-rendering: -webkit-optimize-contrast; transform: translateZ(0) scale(1.1);"
-                             onerror="this.parentElement.style.background='linear-gradient(135deg, rgba(0,230,118,0.25), rgba(255,23,68,0.25), rgba(41,121,255,0.25))'" />
-                    </div>
-                    
-                    <!-- Gradient Overlay for readability -->
-                    <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(10,15,26,0.85) 0%, rgba(26,32,48,0.75) 50%, rgba(10,15,26,0.85) 100%), repeating-linear-gradient(0deg, transparent 0px, rgba(255,23,68,0.03) 1px, transparent 2px, transparent 40px); backdrop-filter: blur(8px);"></div>
-                    
-                    <!-- Premium Badge & Dots (Bottom Corner) -->
-                    <div style="position: absolute; bottom: 12px; right: 12px; z-index: 5; display: flex; align-items: center; gap: 10px;">
-                        <div style="display: flex; gap: 6px; background: rgba(0,0,0,0.6); padding: 6px 12px; border-radius: 16px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.15);">
-                            <div class="premium-ad-dot active" data-index="0" style="width: 10px; height: 10px; border-radius: 50%; background: linear-gradient(135deg, var(--primary), #ff5252); cursor: pointer; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 0 12px var(--primary-glow), 0 0 0 2px rgba(255,23,68,0.4);"></div>
-                            <div class="premium-ad-dot" data-index="1" style="width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,0.3); cursor: pointer; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);"></div>
-                            <div class="premium-ad-dot" data-index="2" style="width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,0.3); cursor: pointer; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);"></div>
-                        </div>
-                        <div style="background: linear-gradient(135deg, rgba(0,0,0,0.8), rgba(20,20,30,0.9)); color: white; padding: 6px 12px; border-radius: 8px; font-weight: 900; font-size: 0.6rem; letter-spacing: 1.5px; box-shadow: 0 4px 16px rgba(255,23,68,0.5), inset 0 1px 0 rgba(255,255,255,0.2); text-shadow: 0 2px 4px rgba(0,0,0,0.8); border: 2px solid rgba(255,23,68,0.5); display: flex; align-items: center; gap: 6px; backdrop-filter: blur(8px);">
-                            <i class="fas fa-ad" style="color: var(--primary); text-shadow: 0 0 8px var(--primary-glow); font-size: 0.75rem;"></i> AD
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Header Content (Above Background) -->
-                <div style="position: relative; z-index: 1; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 28px; min-height: 120px;">
+            <header class="glass hero">
                     <div class="logo-container" style="flex-shrink: 0;">
                         <div class="logo-icon">
                             <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23D2691E'/%3E%3Ccircle cx='30' cy='35' r='6' fill='%23654321'/%3E%3Ccircle cx='65' cy='40' r='5' fill='%23654321'/%3E%3Ccircle cx='45' cy='55' r='7' fill='%23654321'/%3E%3Ccircle cx='70' cy='65' r='5' fill='%23654321'/%3E%3Ccircle cx='30' cy='65' r='4' fill='%23654321'/%3E%3C/svg%3E" alt="Cookie" style="width: 40px; height: 40px; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.6));" />
@@ -1434,6 +1392,57 @@
                     </div>
                 </div>
             </header>
+
+            <!-- Premium Ad Carousel Section - Manga/Cartoony Style -->
+            <section class="glass" style="padding: 0; overflow: hidden; border-radius: 20px; border: 4px solid rgba(255,23,68,0.6); box-shadow: 0 0 40px rgba(255,23,68,0.5), 0 8px 30px rgba(0,0,0,0.4), inset 0 2px 0 rgba(255,255,255,0.1); position: relative; min-height: 280px; background: linear-gradient(135deg, rgba(10,15,26,0.98) 0%, rgba(26,32,48,0.95) 100%);">
+                <div style="position: relative; width: 100%; height: 280px; overflow: hidden;">
+                    <!-- Manga-style comic panel border effect -->
+                    <div style="position: absolute; inset: 0; background: repeating-linear-gradient(45deg, transparent 0px, transparent 10px, rgba(255,23,68,0.05) 10px, rgba(255,23,68,0.05) 11px), repeating-linear-gradient(-45deg, transparent 0px, transparent 10px, rgba(41,121,255,0.05) 10px, rgba(41,121,255,0.05) 11px); z-index: 1; pointer-events: none;"></div>
+                    
+                    <!-- Ad Slides -->
+                    <div class="premium-ad-slide active" style="position: absolute; width: 100%; height: 100%; opacity: 1; transform: translate3d(0, 0, 0); transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1); will-change: opacity, transform;">
+                        <img src="https://raw.githubusercontent.com/crumbl-crafts/crumbl_crafts/main/ad-banner.jpg" 
+                             alt="Premium Advertisement 1" 
+                             loading="eager"
+                             style="width: 100%; height: 100%; object-fit: cover; image-rendering: crisp-edges; transform: translateZ(0); filter: contrast(1.15) saturate(1.2);"
+                             onerror="this.parentElement.innerHTML='<div style=&quot;padding:80px 40px;text-align:center;background:linear-gradient(135deg, rgba(255,23,68,0.2), rgba(41,121,255,0.2));height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;border:4px dashed rgba(255,23,68,0.4);&quot;><i class=&quot;fas fa-ad fa-5x&quot; style=&quot;color:var(--primary);text-shadow: 4px 4px 0 rgba(0,0,0,0.8), -2px -2px 0 rgba(255,255,255,0.2);margin-bottom:24px;filter:drop-shadow(0 0 20px var(--primary-glow));&quot;></i><h3 style=&quot;font-weight:900;font-size:2.2rem;color:var(--text-bright);text-shadow: 4px 4px 0 rgba(0,0,0,0.8), -2px -2px 0 rgba(255,23,68,0.6);margin-bottom:16px;letter-spacing:2px;&quot;>🎨 ADVERTISE HERE!</h3><p style=&quot;color:var(--text-muted);font-size:1.15rem;line-height:1.8;font-weight:600;&quot;>Premium manga-style showcase<br><small style=&quot;font-size:0.9rem;text-shadow: 2px 2px 4px rgba(0,0,0,0.6);&quot;>Reach thousands of Bloxburg builders</small></p></div>'" />
+                    </div>
+                    <div class="premium-ad-slide" style="position: absolute; width: 100%; height: 100%; opacity: 0; transform: translate3d(100%, 0, 0); transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1); will-change: opacity, transform;">
+                        <img src="https://raw.githubusercontent.com/crumbl-crafts/crumbl_crafts/main/ad-banner-2.jpg" 
+                             alt="Premium Advertisement 2" 
+                             loading="lazy"
+                             style="width: 100%; height: 100%; object-fit: cover; image-rendering: crisp-edges; transform: translateZ(0); filter: contrast(1.15) saturate(1.2);"
+                             onerror="this.parentElement.innerHTML='<div style=&quot;padding:80px 40px;text-align:center;background:linear-gradient(135deg, rgba(41,121,255,0.2), rgba(0,230,118,0.2));height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;border:4px dashed rgba(41,121,255,0.4);&quot;><i class=&quot;fas fa-image fa-5x&quot; style=&quot;color:var(--secondary);text-shadow: 4px 4px 0 rgba(0,0,0,0.8), -2px -2px 0 rgba(255,255,255,0.2);margin-bottom:24px;filter:drop-shadow(0 0 20px var(--secondary-glow));&quot;></i><h3 style=&quot;font-weight:900;font-size:2.2rem;color:var(--text-bright);text-shadow: 4px 4px 0 rgba(0,0,0,0.8), -2px -2px 0 rgba(41,121,255,0.6);margin-bottom:16px;letter-spacing:2px;&quot;>💼 YOUR AD HERE!</h3><p style=&quot;color:var(--text-muted);font-size:1.15rem;line-height:1.8;font-weight:600;&quot;>Premium manga-style showcase<br><small style=&quot;font-size:0.9rem;text-shadow: 2px 2px 4px rgba(0,0,0,0.6);&quot;>Reach thousands of Bloxburg builders</small></p></div>'" />
+                    </div>
+                    <div class="premium-ad-slide" style="position: absolute; width: 100%; height: 100%; opacity: 0; transform: translate3d(100%, 0, 0); transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1); will-change: opacity, transform;">
+                        <img src="https://raw.githubusercontent.com/crumbl-crafts/crumbl_crafts/main/ad-banner-3.jpg" 
+                             alt="Premium Advertisement 3" 
+                             loading="lazy"
+                             style="width: 100%; height: 100%; object-fit: cover; image-rendering: crisp-edges; transform: translateZ(0); filter: contrast(1.15) saturate(1.2);"
+                             onerror="this.parentElement.innerHTML='<div style=&quot;padding:80px 40px;text-align:center;background:linear-gradient(135deg, rgba(0,230,118,0.2), rgba(255,23,68,0.2));height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;border:4px dashed rgba(0,230,118,0.4);&quot;><i class=&quot;fas fa-bullhorn fa-5x&quot; style=&quot;color:var(--success);text-shadow: 4px 4px 0 rgba(0,0,0,0.8), -2px -2px 0 rgba(255,255,255,0.2);margin-bottom:24px;filter:drop-shadow(0 0 20px var(--success-glow));&quot;></i><h3 style=&quot;font-weight:900;font-size:2.2rem;color:var(--text-bright);text-shadow: 4px 4px 0 rgba(0,0,0,0.8), -2px -2px 0 rgba(0,230,118,0.6);margin-bottom:16px;letter-spacing:2px;&quot;>⭐ BE FEATURED!</h3><p style=&quot;color:var(--text-muted);font-size:1.15rem;line-height:1.8;font-weight:600;&quot;>Premium manga-style showcase<br><small style=&quot;font-size:0.9rem;text-shadow: 2px 2px 4px rgba(0,0,0,0.6);&quot;>Reach thousands of Bloxburg builders</small></p></div>'" />
+                    </div>
+                    
+                    <!-- Manga-style Navigation Arrows -->
+                    <button onclick="navigatePremiumAd(-1)" style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); background: linear-gradient(135deg, rgba(0,0,0,0.9), rgba(20,20,30,0.95)); backdrop-filter: blur(8px); border: 3px solid rgba(255,23,68,0.8); color: white; width: 50px; height: 50px; border-radius: 12px; cursor: pointer; font-size: 1.4rem; display: flex; align-items: center; justify-content: center; z-index: 10; transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); box-shadow: 0 6px 20px rgba(255,23,68,0.6), 0 0 0 2px rgba(0,0,0,0.8), inset 0 2px 0 rgba(255,255,255,0.15), 4px 4px 0 rgba(0,0,0,0.4);" onmouseover="this.style.background='linear-gradient(135deg, rgba(255,23,68,0.95), rgba(255,52,82,1))'; this.style.transform='translateY(-50%) scale(1.12) rotate(-5deg)'; this.style.boxShadow='0 10px 30px rgba(255,23,68,0.8), 0 0 0 3px rgba(255,255,255,0.3), inset 0 2px 0 rgba(255,255,255,0.3), 6px 6px 0 rgba(0,0,0,0.5)';" onmouseout="this.style.background='linear-gradient(135deg, rgba(0,0,0,0.9), rgba(20,20,30,0.95))'; this.style.transform='translateY(-50%) scale(1) rotate(0deg)'; this.style.boxShadow='0 6px 20px rgba(255,23,68,0.6), 0 0 0 2px rgba(0,0,0,0.8), inset 0 2px 0 rgba(255,255,255,0.15), 4px 4px 0 rgba(0,0,0,0.4)';">
+                        <i class="fas fa-chevron-left" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8);"></i>
+                    </button>
+                    <button onclick="navigatePremiumAd(1)" style="position: absolute; right: 20px; top: 50%; transform: translateY(-50%); background: linear-gradient(135deg, rgba(0,0,0,0.9), rgba(20,20,30,0.95)); backdrop-filter: blur(8px); border: 3px solid rgba(255,23,68,0.8); color: white; width: 50px; height: 50px; border-radius: 12px; cursor: pointer; font-size: 1.4rem; display: flex; align-items: center; justify-content: center; z-index: 10; transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); box-shadow: 0 6px 20px rgba(255,23,68,0.6), 0 0 0 2px rgba(0,0,0,0.8), inset 0 2px 0 rgba(255,255,255,0.15), 4px 4px 0 rgba(0,0,0,0.4);" onmouseover="this.style.background='linear-gradient(135deg, rgba(255,23,68,0.95), rgba(255,52,82,1))'; this.style.transform='translateY(-50%) scale(1.12) rotate(5deg)'; this.style.boxShadow='0 10px 30px rgba(255,23,68,0.8), 0 0 0 3px rgba(255,255,255,0.3), inset 0 2px 0 rgba(255,255,255,0.3), 6px 6px 0 rgba(0,0,0,0.5)';" onmouseout="this.style.background='linear-gradient(135deg, rgba(0,0,0,0.9), rgba(20,20,30,0.95))'; this.style.transform='translateY(-50%) scale(1) rotate(0deg)'; this.style.boxShadow='0 6px 20px rgba(255,23,68,0.6), 0 0 0 2px rgba(0,0,0,0.8), inset 0 2px 0 rgba(255,255,255,0.15), 4px 4px 0 rgba(0,0,0,0.4)';">
+                        <i class="fas fa-chevron-right" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8);"></i>
+                    </button>
+                    
+                    <!-- Manga-style Comic Dots & Premium Badge -->
+                    <div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 12px; z-index: 10;">
+                        <div style="display: flex; gap: 10px; background: linear-gradient(135deg, rgba(0,0,0,0.9), rgba(20,20,30,0.95)); padding: 10px 18px; border-radius: 16px; backdrop-filter: blur(10px); border: 3px solid rgba(255,23,68,0.7); box-shadow: 0 6px 24px rgba(255,23,68,0.6), inset 0 2px 0 rgba(255,255,255,0.15), 4px 4px 0 rgba(0,0,0,0.5);">
+                            <div class="premium-ad-dot active" data-index="0" style="width: 14px; height: 14px; border-radius: 50%; background: linear-gradient(135deg, var(--primary), #ff5252); cursor: pointer; transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); box-shadow: 0 0 16px var(--primary-glow), 0 0 0 3px rgba(255,23,68,0.5), inset 0 2px 0 rgba(255,255,255,0.3), 2px 2px 0 rgba(0,0,0,0.4); border: 2px solid rgba(255,255,255,0.8);"></div>
+                            <div class="premium-ad-dot" data-index="1" style="width: 14px; height: 14px; border-radius: 50%; background: rgba(255,255,255,0.4); cursor: pointer; transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); border: 2px solid rgba(255,255,255,0.6); box-shadow: inset 0 2px 4px rgba(0,0,0,0.5), 2px 2px 0 rgba(0,0,0,0.3);"></div>
+                            <div class="premium-ad-dot" data-index="2" style="width: 14px; height: 14px; border-radius: 50%; background: rgba(255,255,255,0.4); cursor: pointer; transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); border: 2px solid rgba(255,255,255,0.6); box-shadow: inset 0 2px 4px rgba(0,0,0,0.5), 2px 2px 0 rgba(0,0,0,0.3);"></div>
+                        </div>
+                        <div style="background: linear-gradient(135deg, rgba(255,23,68,0.95), rgba(255,52,82,1)); color: white; padding: 8px 16px; border-radius: 12px; font-weight: 900; font-size: 0.7rem; letter-spacing: 2px; box-shadow: 0 6px 20px rgba(255,23,68,0.7), inset 0 2px 0 rgba(255,255,255,0.3), 4px 4px 0 rgba(0,0,0,0.5); text-shadow: 2px 2px 4px rgba(0,0,0,0.9), -1px -1px 0 rgba(255,255,255,0.3); border: 3px solid rgba(255,255,255,0.9); display: flex; align-items: center; gap: 8px; transform: rotate(-2deg);">
+                            <i class="fas fa-star" style="color: #FFD700; text-shadow: 0 0 10px rgba(255,215,0,0.8), 2px 2px 4px rgba(0,0,0,0.8); font-size: 0.85rem;"></i> PREMIUM AD
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section class="glass">
                 <div class="stats-grid" id="statsGrid"></div>
