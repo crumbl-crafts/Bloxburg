@@ -1,28 +1,18 @@
 {
   "summary": {
-    "builder_count": 1,
+    "builder_count": 0,
     "total_completed": 0,
-    "total_requests": 1,
+    "total_requests": 0,
     "total_ratings": 0,
-    "request_completion_ratio": 0.0
+    "request_completion_ratio": 0
   },
   "server": {
     "total_members": 325,
     "joined_today": 0,
     "active_shops": 5,
-    "avg_response_time": 111.0
+    "avg_response_time": 0
   },
-  "topBuilders": [
-    {
-      "shop_name": "test1",
-      "completed_projects": 0,
-      "average_rating": 0.0,
-      "thread_id": 1445447294122987632,
-      "avatar_url": "https://cdn.discordapp.com/avatars/1188381798925873172/701188d5cb6b52a4bef2890e211d4843.png?size=1024",
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/channels/1301988304279048275/1445447294122987632"
-    }
-  ],
+  "topBuilders": [],
   "activityLog": [
     {
       "type": "member_join",
@@ -32,22 +22,13 @@
       "thread_id": null,
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1440678062239912086"
-    },
-    {
-      "type": "sent",
-      "message": "Request sent by tobolchi",
-      "shop_name": "test1",
-      "timestamp": 1764691963,
-      "thread_id": 1445447294122987632,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/channels/1301988304279048275/1445447294122987632"
     }
   ],
   "pipeline": [
     {
       "label": "Pending Requests",
       "value": 0,
-      "trend": "1 new today \u00b7 1 responded",
+      "trend": "0 new today \u00b7 0 responded",
       "max": 50
     },
     {
@@ -58,8 +39,8 @@
     },
     {
       "label": "Requests (7d)",
-      "value": 1,
-      "trend": "0 accepted \u00b7 1 rejected",
+      "value": 0,
+      "trend": "0 accepted \u00b7 0 rejected",
       "max": 100
     }
   ],
@@ -72,7 +53,7 @@
     },
     {
       "title": "Acceptance Rate",
-      "detail": "0.0% of requests accepted (0 accepted, 1 rejected)",
+      "detail": "0.0% of requests accepted (0 accepted, 0 rejected)",
       "score": "Monitor",
       "status": "warning"
     },
