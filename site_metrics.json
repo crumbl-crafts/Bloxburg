@@ -18,7 +18,7 @@
       "completed_projects": 0,
       "average_rating": 0.0,
       "thread_id": 1445854733121097728,
-      "avatar_url": null,
+      "avatar_url": "https://cdn.discordapp.com/avatars/1188381798925873172/701188d5cb6b52a4bef2890e211d4843.png?size=1024",
       "server_id": 1301988304279048275,
       "url": "https://discord.com/channels/1301988304279048275/1445854733121097728"
     }
@@ -34,7 +34,7 @@
     {
       "label": "Active Shops",
       "value": 0,
-      "trend": "0 open \u00b7 0 limited",
+      "trend": "0 open \u00b7 0 limited \u00b7 0 24/7",
       "max": 20
     },
     {
@@ -70,46 +70,9 @@
       "status": "good"
     }
   ],
-  "news": [
-    {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1764785415.3940947,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
-    },
-    {
-      "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
-      "source": "YouTube",
-      "timestamp": 1764781815.3940947,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
-    },
-    {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1764778215.3940947,
-      "url": "#",
-      "icon": "fa-lightbulb"
-    },
-    {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1764774615.3940947,
-      "url": "#",
-      "icon": "fa-trophy"
-    }
-  ],
+  "news": [],
   "meta": {
-    "generated_at": 1764789035.683403,
+    "generated_at": 1764789321.3631866,
     "mode": "memory",
     "refresh_interval": 2000
   }
