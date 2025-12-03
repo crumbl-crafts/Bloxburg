@@ -73,6 +73,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "the base of my new cozy bedroom build! \u2603\ufe0f #bloxburg #bloxburgchristmas #fyp #bloxburgbuild #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764802352.0,
+      "url": "https://www.youtube.com/watch?v=cnQzhuinM3c",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Stranger Things Bloxburg | Official Trailer |",
       "description": "For last 4 and a half weeks I have been working on a trailer Here it is... Join the discord If you l...",
       "source": "YouTube",
@@ -87,24 +96,6 @@
       "source": "YouTube",
       "timestamp": 1764799205.0,
       "url": "https://www.youtube.com/watch?v=3ZKkypVhd3I",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "gotta lock in for vlogmas \ud83d\udde3\ufe0f\ud83d\ude23 #roblox #bloxburg #viral #real #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764795735.0,
-      "url": "https://www.youtube.com/watch?v=ROR7uYJ0T44",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Being Santa in Bloxburg PT1 \ud83c\udf85 #christmas #roblox #bloxburg #shorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764795616.0,
-      "url": "https://www.youtube.com/watch?v=BwCYifBnbxQ",
       "icon": "fa-youtube"
     },
     {
@@ -123,6 +114,15 @@
       "source": "YouTube",
       "timestamp": 1764794999.0,
       "url": "https://www.youtube.com/watch?v=6HyPXBpTOiU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "RATE HOUSES WITH ME! #bloxburg #fyp: #blowup#viral#unflopme#goviral#relatable#shorts#trending#roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764793839.0,
+      "url": "https://www.youtube.com/watch?v=U_rDlhxqbCw",
       "icon": "fa-youtube"
     },
     {
@@ -154,7 +154,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764803735.1693964,
+    "generated_at": 1764804335.4846509,
     "mode": "memory",
     "refresh_interval": 2000
   }
