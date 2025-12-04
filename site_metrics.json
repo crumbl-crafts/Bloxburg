@@ -91,6 +91,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "WOOW LET&#39;S GOOO #memes #brookhave #roblox #automobile #smartphone #games #funny #bloxburg #tiktok",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764837282.0,
+      "url": "https://www.youtube.com/watch?v=XS_BiDHCAxA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Time flies \ud83e\udd79",
       "description": "You cant even see the new town #bloxburg #bloxburgcontentcreator #robloxbloxburg #roblox....",
       "source": "YouTube",
@@ -172,7 +181,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764843900.3478498,
+    "generated_at": 1764844500.6292663,
     "mode": "memory",
     "refresh_interval": 2000
   }
