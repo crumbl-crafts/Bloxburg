@@ -4912,20 +4912,13 @@
                 return;
             }
             
-            console.log(`mergeActivities called: ${newActivities.length} new, ${activityCache.length} cached`);
-            
             // If backend sends empty array and we have cached items, clean old ones
             if (newActivities.length === 0 && activityCache.length > 0) {
                 cleanOldActivities();
-                // If after cleaning we still have items, they might be stale - log warning
-                if (activityCache.length > 0) {
-                    console.log(`Cache has ${activityCache.length} items but backend sent none - keeping cached items`);
-                }
                 return;
             }
             
             if (newActivities.length === 0) {
-                console.log('No new activities from backend');
                 return;
             }
             
@@ -5079,7 +5072,10 @@
                         isOnline = false;
                     }
                     
-                    debug.warn(`✗ Remote failed (attempt ${consecutiveFailures}):`, e.message);
+                    // Only log non-connection errors to reduce console spam
+                    if (!e.message?.includes('Failed to fetch') && e.name !== 'TypeError') {
+                        debug.warn(`✗ Remote failed (attempt ${consecutiveFailures}):`, e.message);
+                    }
                     
                     // Try local fallback file first
                     try { 
@@ -5157,15 +5153,10 @@
         }
         
         function renderBuilders(builders) {
-            debug.log('👷 renderBuilders called with:', builders);
             const grid = document.getElementById('buildersGrid');
             const topBuilders = (builders || []).slice(0, 10);
             
-            console.log(`  Found ${topBuilders.length} builders to display`);
-            console.log('  Builder avatar URLs:', topBuilders.map(b => ({ name: b.shop_name, avatar: b.avatar_url })));
-            
             if (!topBuilders.length) {
-                console.warn('  No builders data available!');
                 if (!grid.querySelector('p')) {
                     grid.innerHTML = '<p style="color: var(--text-muted); text-align: center; padding: 40px 0;">No builders data available</p>';
                 }
@@ -5254,8 +5245,6 @@
             const count = getElement('activityCount');
             if (!list) return;
             
-            console.log('renderActivityFeed called with', activities?.length || 0, 'activities');
-            
             // Merge with cache
             mergeActivities(activities);
             
@@ -5275,10 +5264,7 @@
                 return;
             }
             
-            console.log('Activity cache data:', activityCache);
-            
             const activityHTML = activityCache.map((item, index) => {
-                console.log('Rendering activity item:', item);
                 const icon = activityIcons[item.type] || activityIcons.sent;
                 const typeClass = `type-${item.type}`;
                 // Use the URL from backend if available, otherwise construct from thread_id/server_id
