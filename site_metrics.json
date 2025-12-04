@@ -91,6 +91,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "Roblox Bloxburg Breaking News\ud83d\ude31\u2620\ufe0f",
+      "description": "roblox #jandel #bloxburg #bloxb Use Code \"BLOXB\" To Get 6% OFF at BLOXB.com....",
+      "source": "YouTube",
+      "timestamp": 1764846595.0,
+      "url": "https://www.youtube.com/watch?v=HFKmZXaIofE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "playing Roblox \ud83e\udd23 #roblox #funny #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764846261.0,
+      "url": "https://www.youtube.com/watch?v=5vgD4mA_lf4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Weirdest Roblox game.. \ud83d\ude02\ud83d\ude02#bloxburg #lunchly #prime #ksi #loganpaul #horror",
       "description": "Weirdest Roblox game.. #bloxburg #lunchly #prime #ksi #loganpaul #horror....",
       "source": "YouTube",
@@ -135,24 +153,6 @@
       "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "Weirdest Roblox game.. \ud83d\ude02\ud83d\ude02#bloxburg #lunchly #prime #ksi #loganpaul #horror",
-      "description": "Weirdest Roblox game.. #bloxburg #lunchly #prime #ksi #loganpaul #horror....",
-      "source": "YouTube",
-      "timestamp": 1764830701.0,
-      "url": "https://www.youtube.com/watch?v=HwP398rQCmY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Weirdest Roblox game.. \ud83d\ude02\ud83d\ude02#bloxburg #lunchly #prime #ksi #loganpaul #horror",
-      "description": "Weirdest Roblox game.. #bloxburg #lunchly #prime #ksi #loganpaul #horror....",
-      "source": "YouTube",
-      "timestamp": 1764828901.0,
-      "url": "https://www.youtube.com/watch?v=63uGWGc3swg",
-      "icon": "fa-youtube"
-    },
-    {
       "type": "tip",
       "title": "Money Making Guide 2024",
       "description": "Best jobs and strategies to earn cash quickly",
@@ -172,7 +172,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764847500.3448532,
+    "generated_at": 1764848700.3503819,
     "mode": "memory",
     "refresh_interval": 2000
   }
