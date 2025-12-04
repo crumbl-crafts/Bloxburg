@@ -82,18 +82,18 @@
         .wrapper { 
             position: relative; 
             z-index: 1; 
-            max-width: 1920px; 
+            max-width: 100%; 
             margin: 0 auto; 
-            padding: 24px;
+            padding: 16px;
             display: grid;
-            grid-template-columns: 1fr 420px;
-            gap: 24px;
-            min-height: calc(100vh - 80px);
+            grid-template-columns: 1fr 360px;
+            gap: 16px;
+            min-height: calc(100vh - 60px);
         }
         .main-content {
             display: flex;
             flex-direction: column;
-            gap: 24px;
+            gap: 16px;
         }
         .glass {
             background: 
@@ -104,8 +104,8 @@
             background-size: 8px 8px, 8px 8px, 4px 4px, 100% 100%;
             background-position: 0 0, 4px 4px, 2px 2px, 0 0;
             border: 2px solid rgba(255, 255, 255, 0.15);
-            border-radius: 20px;
-            padding: 24px;
+            border-radius: 16px;
+            padding: 16px;
             box-shadow: 0 12px 40px rgba(255, 23, 68, 0.25), 
                         0 0 0 1px rgba(255, 255, 255, 0.1),
                         inset 0 2px 0 rgba(255, 255, 255, 0.15);
@@ -776,11 +776,11 @@
             color: var(--warning); 
         }
         .activity-feed-container { 
-            flex: 0 0 50%;
+            flex: 0 0 40%;
             display: flex; 
             flex-direction: column;
             min-height: 0;
-            max-height: 50%;
+            max-height: 40%;
             overflow: visible;
             position: relative;
             margin-bottom: 16px;
@@ -789,14 +789,15 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 8px;
-            padding-bottom: 8px;
-            border-bottom: 1px solid var(--border);
+            margin-bottom: 6px;
+            padding-bottom: 4px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
             flex-shrink: 0;
         }
         .feed-header .section-title {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             margin-bottom: 0;
+            font-weight: 800;
         }
         .feed-header .section-subtitle {
             font-size: 0.85rem;
@@ -870,30 +871,47 @@
 
         /* Chat System Styles */
         .chat-container {
-            flex: 0 0 50%;
+            flex: 0 0 60%;
             display: flex;
             flex-direction: column;
             min-height: 0;
-            max-height: 50%;
+            max-height: 60%;
             overflow: visible;
             position: relative;
+            background: linear-gradient(135deg, rgba(41, 121, 255, 0.12), rgba(124, 58, 237, 0.08));
+            border: 2px solid rgba(41, 121, 255, 0.4);
+            border-radius: 16px;
+            padding: 14px;
+            box-shadow: 0 0 40px rgba(41, 121, 255, 0.3), 
+                        0 0 80px rgba(41, 121, 255, 0.15),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
         }
         .chat-header {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 8px;
-            padding-bottom: 8px;
-            border-bottom: 1px solid var(--border);
+            margin-bottom: 10px;
+            padding: 10px 12px;
+            border-bottom: 3px solid rgba(41, 121, 255, 0.4);
             flex-shrink: 0;
+            background: linear-gradient(90deg, rgba(41, 121, 255, 0.15), rgba(124, 58, 237, 0.1));
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(41, 121, 255, 0.2);
         }
         .chat-header .section-title {
-            font-size: 1.3rem;
+            font-size: 1.15rem;
             margin-bottom: 0;
+            font-weight: 900;
+            color: #2979FF;
+            text-shadow: 0 0 20px rgba(41, 121, 255, 0.6),
+                         0 2px 4px rgba(0, 0, 0, 0.5);
+            filter: drop-shadow(0 0 10px rgba(41, 121, 255, 0.8));
         }
         .chat-header .section-subtitle {
-            font-size: 0.85rem;
-            margin-top: 2px;
+            font-size: 0.75rem;
+            margin-top: 0;
+            opacity: 0.8;
         }
         .chat-channels {
             display: flex;
@@ -967,93 +985,109 @@
         .chat-message {
             display: flex;
             align-items: flex-start;
-            gap: 10px;
-            padding: 10px 12px;
-            background: rgba(40, 50, 70, 0.4);
-            border-radius: 12px;
-            border: 2px solid rgba(255, 255, 255, 0.1);
-            transition: all 0.3s ease;
+            gap: 8px;
+            padding: 4px 8px;
+            background: transparent;
+            border-radius: 6px;
+            border: none;
+            transition: all 0.15s ease;
             position: relative;
-            overflow: visible;
-            margin-bottom: 8px;
+            margin-bottom: 1px;
         }
         .chat-message:hover {
-            background: rgba(50, 60, 80, 0.6);
-            border-color: rgba(41, 121, 255, 0.4);
-            transform: translateX(2px);
+            background: rgba(41, 121, 255, 0.06);
+            border-left: 2px solid rgba(41, 121, 255, 0.5);
+            padding-left: 6px;
         }
         .chat-message-avatar {
-            width: 32px;
-            height: 32px;
+            width: 28px;
+            height: 28px;
             border-radius: 8px;
-            background: linear-gradient(135deg, rgba(41, 121, 255, 0.6), rgba(124, 58, 237, 0.6));
+            background: linear-gradient(135deg, #2979FF 0%, #7C3AED 100%);
             display: flex;
             align-items: center;
             justify-content: center;
             flex-shrink: 0;
             font-weight: 800;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             color: white;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
-            border: 2px solid rgba(255, 255, 255, 0.2);
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.15s ease;
+        }
+        .chat-message:hover .chat-message-avatar {
+            transform: scale(1.05);
         }
         .chat-message-content {
             flex: 1;
             min-width: 0;
             display: flex;
             flex-direction: column;
-            gap: 4px;
+            gap: 2px;
         }
         .chat-message-author {
             font-weight: 800;
-            color: #FF1744;
-            font-size: 1rem;
+            background: linear-gradient(135deg, #FF1744 0%, #FF5252 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 0.9rem;
             flex-shrink: 0;
-            text-shadow: 
-                -1px -1px 0 rgba(0, 0, 0, 0.8),
-                1px -1px 0 rgba(0, 0, 0, 0.8),
-                -1px 1px 0 rgba(0, 0, 0, 0.8),
-                1px 1px 0 rgba(0, 0, 0, 0.8),
-                0 0 8px rgba(255, 23, 68, 0.6);
+            filter: drop-shadow(0 1px 2px rgba(255, 23, 68, 0.3));
+            letter-spacing: 0.2px;
         }
         .chat-message-text {
             color: var(--text);
-            font-size: 1.05rem;
-            line-height: 1.6;
+            font-size: 0.9rem;
+            line-height: 1.4;
             word-wrap: break-word;
             word-break: break-word;
-            margin-top: 4px;
+            margin-top: 1px;
         }
         .chat-message-header {
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 6px;
             flex-wrap: wrap;
         }
         .chat-message-time {
-            font-size: 0.85rem;
+            font-size: 0.7rem;
             color: var(--text-muted);
             flex-shrink: 0;
-            opacity: 0.85;
-            font-weight: 600;
+            opacity: 0.7;
+            font-weight: 500;
         }
         .chat-message.reply {
-            margin-left: 20px;
-            border-left: 3px solid var(--primary);
+            margin-left: 24px;
+            border-left: 2px solid #2979FF;
+            padding-left: 8px;
+            background: rgba(41, 121, 255, 0.05);
         }
         .chat-message-reply-info {
-            font-size: 0.85rem;
-            color: var(--text-muted);
+            font-size: 0.75rem;
+            color: #2979FF;
             font-style: italic;
-            margin-bottom: 4px;
+            margin-bottom: 2px;
+            font-weight: 600;
+            background: rgba(41, 121, 255, 0.1);
+            padding: 3px 6px;
+            border-radius: 4px;
+            border-left: 2px solid #2979FF;
         }
         .chat-mention {
             color: #FF5252;
-            font-weight: 800;
-            background: rgba(255, 23, 68, 0.15);
-            padding: 2px 6px;
-            border-radius: 4px;
-            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+            font-weight: 900;
+            background: rgba(255, 23, 68, 0.25);
+            padding: 2px 8px;
+            border-radius: 6px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(255, 23, 68, 0.4);
+            box-shadow: 0 0 12px rgba(255, 23, 68, 0.3);
+            animation: mentionGlow 2s ease-in-out infinite;
+        }
+        @keyframes mentionGlow {
+            0%, 100% { box-shadow: 0 0 12px rgba(255, 23, 68, 0.3); }
+            50% { box-shadow: 0 0 20px rgba(255, 23, 68, 0.5); }
         }
         .chat-input-container {
             display: flex;
@@ -1062,20 +1096,22 @@
         }
         .chat-input {
             flex: 1;
-            padding: 10px 14px;
-            background: rgba(40, 50, 70, 0.6);
-            border: 2px solid rgba(255, 255, 255, 0.1);
+            padding: 8px 12px;
+            background: rgba(40, 50, 70, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.15);
             border-radius: 10px;
             color: var(--text);
-            font-size: 1rem;
+            font-size: 0.9rem;
             font-family: 'Fredoka', sans-serif;
-            transition: all 0.3s ease;
+            transition: all 0.2s ease;
             outline: none;
+            backdrop-filter: blur(4px);
         }
         .chat-input:focus {
-            background: rgba(50, 60, 80, 0.8);
-            border-color: var(--primary);
-            box-shadow: 0 0 0 3px rgba(255, 23, 68, 0.2);
+            background: linear-gradient(135deg, rgba(50, 60, 80, 0.8), rgba(40, 50, 70, 0.8));
+            border-color: #FF1744;
+            box-shadow: 0 0 0 3px rgba(255, 23, 68, 0.3), inset 0 2px 8px rgba(0, 0, 0, 0.3);
+            transform: translateY(-1px);
         }
         .chat-input::placeholder {
             color: var(--text-muted);
@@ -1083,22 +1119,35 @@
         .chat-send-btn {
             width: 40px;
             height: 40px;
-            border-radius: 10px;
-            background: linear-gradient(135deg, var(--primary), #ff5252);
-            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+            background: linear-gradient(135deg, #FF1744 0%, #FF5252 100%);
+            border: none;
             color: white;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 1.1rem;
-            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-            box-shadow: 0 4px 12px rgba(255, 23, 68, 0.4);
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 12px rgba(255, 23, 68, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.3);
             flex-shrink: 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .chat-send-btn::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, transparent 0%, rgba(255, 255, 255, 0.2) 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .chat-send-btn:hover::before {
+            opacity: 1;
         }
         .chat-send-btn:hover {
-            transform: scale(1.1);
-            box-shadow: 0 6px 20px rgba(255, 23, 68, 0.6);
+            transform: scale(1.1) rotate(5deg);
+            box-shadow: 0 6px 24px rgba(255, 23, 68, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.4);
         }
         .chat-send-btn:active {
             transform: scale(0.95);
@@ -1107,47 +1156,64 @@
         /* Advanced Chat Features */
         .chat-actions {
             display: flex;
-            gap: 8px;
-            margin-bottom: 10px;
+            gap: 6px;
+            margin-bottom: 6px;
             flex-wrap: wrap;
-            padding: 0 4px;
+            padding: 0 2px;
         }
         .chat-action-btn {
             padding: 6px 12px;
-            background: rgba(40, 50, 70, 0.5);
-            border: 2px solid rgba(255, 255, 255, 0.1);
-            border-radius: 8px;
+            background: linear-gradient(135deg, rgba(40, 50, 70, 0.6), rgba(30, 40, 60, 0.6));
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
             color: var(--text);
             font-size: 0.85rem;
             font-weight: 700;
             cursor: pointer;
-            transition: all 0.2s ease;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
             display: flex;
             align-items: center;
             gap: 6px;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
         }
         .chat-action-btn:hover {
-            background: rgba(60, 70, 90, 0.7);
-            border-color: rgba(255, 255, 255, 0.2);
+            background: linear-gradient(135deg, rgba(60, 80, 100, 0.7), rgba(50, 60, 80, 0.7));
+            border-color: rgba(41, 121, 255, 0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(41, 121, 255, 0.3);
         }
         .chat-action-btn.active {
-            background: rgba(41, 121, 255, 0.4);
-            border-color: rgba(41, 121, 255, 0.6);
+            background: linear-gradient(135deg, rgba(41, 121, 255, 0.5), rgba(124, 58, 237, 0.5));
+            border-color: rgba(41, 121, 255, 0.8);
+            box-shadow: 0 0 16px rgba(41, 121, 255, 0.4);
         }
         .emoji-picker, .gif-picker {
             position: absolute;
-            bottom: 90px;
+            bottom: 85px;
             left: 0;
             right: 0;
-            background: rgba(20, 30, 50, 0.98);
-            border: 2px solid rgba(255, 255, 255, 0.2);
+            background: linear-gradient(135deg, rgba(20, 30, 50, 0.98), rgba(30, 40, 60, 0.98));
+            border: 1px solid rgba(255, 255, 255, 0.2);
             border-radius: 12px;
             padding: 12px;
-            max-height: 300px;
+            max-height: 280px;
             overflow-y: auto;
             display: none;
             z-index: 100;
-            backdrop-filter: blur(12px);
+            backdrop-filter: blur(16px);
+            box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(41, 121, 255, 0.2);
+            animation: slideUp 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
         .emoji-picker.show, .gif-picker.show {
             display: block;
@@ -1158,16 +1224,18 @@
             gap: 8px;
         }
         .emoji-item {
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             cursor: pointer;
-            padding: 8px;
+            padding: 6px;
             text-align: center;
             border-radius: 8px;
-            transition: all 0.2s ease;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
         }
         .emoji-item:hover {
-            background: rgba(41, 121, 255, 0.3);
-            transform: scale(1.2);
+            background: linear-gradient(135deg, rgba(41, 121, 255, 0.4), rgba(124, 58, 237, 0.4));
+            transform: scale(1.25) rotate(-5deg);
+            box-shadow: 0 4px 12px rgba(41, 121, 255, 0.4);
         }
         .gif-search {
             width: 100%;
@@ -1183,7 +1251,7 @@
         .gif-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 8px;
+            gap: 6px;
         }
         .gif-item {
             cursor: pointer;
@@ -1200,15 +1268,42 @@
             height: 100px;
             object-fit: cover;
         }
+        .chat-message-text img {
+            max-width: 250px;
+            max-height: 250px;
+            border-radius: 8px;
+            margin-top: 4px;
+            display: block;
+        }
+        .chat-message-text img {
+            max-width: 300px;
+            max-height: 300px;
+            border-radius: 8px;
+            margin-top: 4px;
+            display: block;
+        }
         .reply-preview {
             padding: 8px 12px;
-            background: rgba(41, 121, 255, 0.15);
-            border-left: 3px solid var(--primary);
-            border-radius: 4px;
+            background: linear-gradient(90deg, rgba(41, 121, 255, 0.2), rgba(41, 121, 255, 0.1));
+            border-left: 4px solid #2979FF;
+            border-radius: 8px;
             margin-bottom: 8px;
             display: none;
             align-items: center;
             justify-content: space-between;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 2px 8px rgba(41, 121, 255, 0.2);
+            animation: slideIn 0.3s ease;
+        }
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
         }
         .reply-preview.show {
             display: flex;
@@ -1245,6 +1340,390 @@
         .message-action-btn:hover {
             background: rgba(41, 121, 255, 0.5);
         }
+        .new-messages-divider {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 12px 0;
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: #FF1744;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            animation: dividerPulse 2s ease-in-out infinite;
+        }
+        @keyframes dividerPulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.8; transform: scale(0.98); }
+        }
+        .new-messages-divider::before,
+        .new-messages-divider::after {
+            content: '';
+            flex: 1;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #FF1744, transparent);
+            box-shadow: 0 0 8px rgba(255, 23, 68, 0.6);
+        }
+        .new-messages-counter {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: linear-gradient(135deg, #FF1744 0%, #FF5252 100%);
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 900;
+            box-shadow: 0 4px 16px rgba(255, 23, 68, 0.6),
+                        0 0 30px rgba(255, 23, 68, 0.4),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 100;
+            animation: counterBounce 1s ease-in-out infinite;
+            border: 2px solid rgba(255, 255, 255, 0.4);
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        @keyframes counterBounce {
+            0%, 100% { transform: translateY(0) scale(1); }
+            50% { transform: translateY(-6px) scale(1.05); }
+        }
+        .new-messages-counter:hover {
+            transform: scale(1.15) translateY(-2px) !important;
+            box-shadow: 0 6px 24px rgba(255, 23, 68, 0.8),
+                        0 0 40px rgba(255, 23, 68, 0.6);
+            animation: none;
+        }
+        .new-messages-counter::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            right: -2px;
+            width: 8px;
+            height: 8px;
+            background: #00ff00;
+            border-radius: 50%;
+            box-shadow: 0 0 12px #00ff00;
+            animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+        }
+        @keyframes ping {
+            75%, 100% {
+                transform: scale(2);
+                opacity: 0;
+            }
+        }
+        .new-messages-divider {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 12px 0;
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: #FF1744;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .new-messages-divider::before,
+        .new-messages-divider::after {
+            content: '';
+            flex: 1;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #FF1744, transparent);
+        }
+        .new-messages-counter {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: linear-gradient(135deg, #FF1744, #FF5252);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            box-shadow: 0 2px 8px rgba(255, 23, 68, 0.4);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            z-index: 10;
+            animation: bounce 2s ease-in-out infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-4px); }
+        }
+        .new-messages-counter:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 16px rgba(255, 23, 68, 0.6);
+        }
+        .mention-autocomplete {
+            position: absolute;
+            bottom: 85px;
+            left: 0;
+            right: 0;
+            background: linear-gradient(135deg, rgba(20, 30, 50, 0.98), rgba(30, 40, 60, 0.98));
+            border: 2px solid rgba(255, 23, 68, 0.4);
+            border-radius: 12px;
+            padding: 8px;
+            max-height: 200px;
+            overflow-y: auto;
+            display: none;
+            z-index: 100;
+            backdrop-filter: blur(16px);
+            box-shadow: 0 -4px 24px rgba(255, 23, 68, 0.3);
+        }
+        .mention-autocomplete.show {
+            display: block;
+        }
+        .mention-item {
+            padding: 8px 12px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            color: var(--text);
+            font-weight: 700;
+        }
+        .mention-item:hover,
+        .mention-item.selected {
+            background: linear-gradient(135deg, rgba(255, 23, 68, 0.3), rgba(255, 82, 82, 0.3));
+            transform: translateX(4px);
+        }
+
+        /* Build Museum Styles */
+        .build-museum-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
+        }
+        .build-card {
+            background: linear-gradient(135deg, rgba(40, 50, 70, 0.6), rgba(30, 40, 60, 0.6));
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 14px;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            position: relative;
+        }
+        .build-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(255, 23, 68, 0.5);
+            box-shadow: 0 12px 32px rgba(255, 23, 68, 0.3);
+        }
+        .build-card-media {
+            width: 100%;
+            height: 200px;
+            background: rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        .build-card-media img,
+        .build-card-media video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .build-card:hover .build-card-media img,
+        .build-card:hover .build-card-media video {
+            transform: scale(1.05);
+        }
+        .build-card-type {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            backdrop-filter: blur(8px);
+        }
+        .build-card-content {
+            padding: 12px;
+        }
+        .build-card-title {
+            font-size: 0.95rem;
+            font-weight: 800;
+            color: var(--text-bright);
+            margin-bottom: 6px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .build-card-author {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .build-card-stats {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .build-card-rating {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #FFD700;
+        }
+        .build-card-actions {
+            display: flex;
+            gap: 8px;
+        }
+        .build-action-btn {
+            background: rgba(41, 121, 255, 0.2);
+            border: 1px solid rgba(41, 121, 255, 0.4);
+            color: #2979FF;
+            padding: 4px 10px;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .build-action-btn:hover {
+            background: rgba(41, 121, 255, 0.4);
+            transform: scale(1.05);
+        }
+        .build-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 10000;
+            backdrop-filter: blur(10px);
+            animation: fadeIn 0.3s ease;
+        }
+        .build-modal.show {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .build-modal-content {
+            background: linear-gradient(135deg, rgba(30, 40, 60, 0.98), rgba(20, 30, 50, 0.98));
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            max-width: 800px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+        }
+        .build-modal-close {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background: rgba(255, 23, 68, 0.8);
+            border: none;
+            color: white;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            cursor: pointer;
+            z-index: 10;
+            transition: all 0.2s ease;
+        }
+        .build-modal-close:hover {
+            background: #FF1744;
+            transform: rotate(90deg);
+        }
+        .build-modal-media {
+            width: 100%;
+            max-height: 400px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .build-modal-media img,
+        .build-modal-media video {
+            width: 100%;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .build-modal-body {
+            padding: 24px;
+        }
+        .build-modal-title {
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: var(--text-bright);
+            margin-bottom: 12px;
+        }
+        .build-modal-description {
+            color: var(--text);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .build-comments {
+            border-top: 2px solid rgba(255, 255, 255, 0.1);
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+        .build-comment-input {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        .build-comment-input input {
+            flex: 1;
+            background: rgba(40, 50, 70, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+            padding: 10px 14px;
+            color: var(--text);
+            font-size: 0.9rem;
+            outline: none;
+        }
+        .build-comment-input button {
+            background: linear-gradient(135deg, #2979FF, #7C3AED);
+            border: none;
+            color: white;
+            padding: 10px 16px;
+            border-radius: 10px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .build-comment-input button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 16px rgba(41, 121, 255, 0.4);
+        }
+        .build-comment {
+            background: rgba(40, 50, 70, 0.4);
+            border-left: 3px solid #2979FF;
+            padding: 10px 12px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .build-comment-author {
+            font-weight: 700;
+            color: #2979FF;
+            font-size: 0.85rem;
+            margin-bottom: 4px;
+        }
+        .build-comment-text {
+            color: var(--text);
+            font-size: 0.85rem;
+            line-height: 1.4;
+        }
+        #uploadBuildBtn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 23, 68, 0.6);
+        }
 
         .activity-item { 
             display: flex; 
@@ -1275,15 +1754,23 @@
             bottom: 0;
             width: 4px;
             background: linear-gradient(180deg, 
-                var(--primary) 0%, 
-                var(--accent) 50%, 
-                var(--secondary) 100%);
+                #FF1744 0%, 
+                #2979FF 25%,
+                #7C3AED 50%,
+                #2979FF 75%,
+                #FF1744 100%);
             background-size: 100% 200%;
-            transform: scaleY(0);
-            transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            border-radius: 14px 0 0 14px;
+            opacity: 0;
+            transition: opacity 0.3s ease, background-position 0.5s ease;
+            animation: rainbowSlide 3s linear infinite;
+        }
+        @keyframes rainbowSlide {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 0% 200%; }
         }
         .activity-item:hover::before {
-            transform: scaleY(1);
+            opacity: 1;
         }
         .activity-item:hover { 
             background: 
@@ -2141,6 +2628,15 @@
             transform: translateY(0);
             box-shadow: 0 2px 0 #c41c3a, 0 4px 12px rgba(255,23,68,0.5), inset 0 2px 0 rgba(255,255,255,0.3);
         }
+        .auth-social-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            filter: brightness(1.1);
+        }
+        .auth-social-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
     </style>
 </head>
 <body>
@@ -2196,7 +2692,22 @@
                     <i class="fas fa-user-plus"></i> Create Account
                 </button>
                 
-                <div class="auth-divider">
+                <div style="display: flex; align-items: center; gap: 12px; margin: 16px 0;">
+                    <div style="flex: 1; height: 1px; background: rgba(255, 255, 255, 0.1);"></div>
+                    <span style="font-size: 0.75rem; color: var(--text-muted);">OR</span>
+                    <div style="flex: 1; height: 1px; background: rgba(255, 255, 255, 0.1);"></div>
+                </div>
+                
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <button class="auth-social-btn" onclick="handleGoogleSignIn()" style="background: linear-gradient(135deg, #4285F4, #357AE8); border: none; color: white; padding: 10px 16px; border-radius: 10px; cursor: pointer; font-weight: 700; font-size: 0.85rem; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                        <i class="fab fa-google"></i> Continue with Google
+                    </button>
+                    <button class="auth-social-btn" onclick="handleAnonymousSignIn()" style="background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05)); border: 1px solid rgba(255, 255, 255, 0.2); color: var(--text); padding: 10px 16px; border-radius: 10px; cursor: pointer; font-weight: 700; font-size: 0.85rem; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                        <i class="fas fa-user-secret"></i> Continue as Guest
+                    </button>
+                </div>
+                
+                <div class="auth-divider" style="margin-top: 16px;">
                     Already have an account? <span class="auth-link" onclick="showSignIn()">Sign In</span>
                 </div>
             </div>
@@ -2222,7 +2733,25 @@
                     <i class="fas fa-sign-in-alt"></i> Sign In
                 </button>
                 
-                <div class="auth-divider">
+                <div style="display: flex; align-items: center; gap: 12px; margin: 16px 0;">
+                    <div style="flex: 1; height: 1px; background: rgba(255, 255, 255, 0.1);"></div>
+                    <span style="font-size: 0.75rem; color: var(--text-muted);">OR</span>
+                    <div style="flex: 1; height: 1px; background: rgba(255, 255, 255, 0.1);"></div>
+                </div>
+                
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <button class="auth-social-btn" onclick="handleGoogleSignIn()" style="background: linear-gradient(135deg, #4285F4, #357AE8); border: none; color: white; padding: 10px 16px; border-radius: 10px; cursor: pointer; font-weight: 700; font-size: 0.85rem; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                        <i class="fab fa-google"></i> Continue with Google
+                    </button>
+                    <button class="auth-social-btn" onclick="handleEmailLinkSignIn()" style="background: linear-gradient(135deg, #7C3AED, #6D28D9); border: none; color: white; padding: 10px 16px; border-radius: 10px; cursor: pointer; font-weight: 700; font-size: 0.85rem; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                        <i class="fas fa-envelope"></i> Sign In with Email Link
+                    </button>
+                    <button class="auth-social-btn" onclick="handleAnonymousSignIn()" style="background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05)); border: 1px solid rgba(255, 255, 255, 0.2); color: var(--text); padding: 10px 16px; border-radius: 10px; cursor: pointer; font-weight: 700; font-size: 0.85rem; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                        <i class="fas fa-user-secret"></i> Continue as Guest
+                    </button>
+                </div>
+                
+                <div class="auth-divider" style="margin-top: 16px;">
                     <span class="auth-link" onclick="showForgotPassword()">Forgot Password?</span> · 
                     <span class="auth-link" onclick="showSignUp()">Create Account</span>
                 </div>
@@ -2390,12 +2919,19 @@
                 </section>
 
                 <section class="glass">
-                    <h2 class="section-title">
-                        <i class="fas fa-chart-line"></i>
-                        Pipeline Overview
-                    </h2>
-                    <p class="section-subtitle">Request flow metrics</p>
-                    <div class="pipeline-list" id="pipelineList"></div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0;">
+                        <div>
+                            <h2 class="section-title">
+                                <i class="fas fa-landmark"></i>
+                                Build Museum
+                            </h2>
+                            <p class="section-subtitle">Showcase your amazing Bloxburg builds</p>
+                        </div>
+                        <button id="uploadBuildBtn" style="background: linear-gradient(135deg, #FF1744, #FF5252); border: none; color: white; padding: 10px 18px; border-radius: 12px; cursor: pointer; font-weight: 800; font-size: 0.85rem; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(255, 23, 68, 0.4); display: flex; align-items: center; gap: 8px;">
+                            <i class="fas fa-upload"></i> Share Build
+                        </button>
+                    </div>
+                    <div class="build-museum-grid" id="buildMuseumGrid"></div>
                 </section>
             </div>
 
@@ -2455,6 +2991,7 @@
                         <input type="text" class="gif-search" id="gifSearch" placeholder="Search GIFs...">
                         <div class="gif-grid" id="gifGrid"></div>
                     </div>
+                    <div class="mention-autocomplete" id="mentionAutocomplete"></div>
                     <div class="chat-actions">
                         <button class="chat-action-btn" onclick="toggleEmojiPicker()">
                             <i class="fas fa-smile"></i> Emoji
@@ -2480,7 +3017,7 @@
         import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-analytics.js";
         import { getDatabase, ref, push, onChildAdded, onValue, off, serverTimestamp, limitToLast, query, get, set, update, child } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
-        import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, sendPasswordResetEmail, updateProfile } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-auth.js";
+        import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, sendPasswordResetEmail, updateProfile, signInAnonymously, GoogleAuthProvider, signInWithPopup, sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-auth.js";
         import { getStorage, ref as storageRef, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-storage.js";
 
         // Firebase configuration
@@ -2564,28 +3101,97 @@
             cancelReply();
         }
 
-        // Display message in chat
-        function displayMessage(message) {
+        // New message tracking with optimization
+        let lastSeenMessageTime = Date.now();
+        let newMessageCount = 0;
+        let hasScrolledToBottom = true;
+        let messageCache = [];
+        let lastRenderedMessageCount = 0;
+        
+        // Throttle scroll event for performance
+        let scrollTimeout;
+        chatMessages.addEventListener('scroll', () => {
+            if (scrollTimeout) clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(() => {
+                const isAtBottom = chatMessages.scrollHeight - chatMessages.scrollTop <= chatMessages.clientHeight + 50;
+                if (isAtBottom && newMessageCount > 0) {
+                    resetNewMessageCounter();
+                }
+                hasScrolledToBottom = isAtBottom;
+            }, 100);
+        });
+        
+        function showNewMessageCounter() {
+            let counter = document.getElementById('newMessageCounter');
+            if (!counter) {
+                counter = document.createElement('div');
+                counter.id = 'newMessageCounter';
+                counter.className = 'new-messages-counter';
+                counter.onclick = scrollToBottom;
+                document.querySelector('.chat-container').appendChild(counter);
+            }
+            counter.textContent = `${newMessageCount} New Message${newMessageCount > 1 ? 's' : ''}`;
+            counter.style.display = 'block';
+        }
+        
+        function resetNewMessageCounter() {
+            newMessageCount = 0;
+            lastSeenMessageTime = Date.now();
+            const counter = document.getElementById('newMessageCounter');
+            if (counter) counter.style.display = 'none';
+        }
+        
+        function scrollToBottom() {
+            chatMessages.scrollTo({ top: chatMessages.scrollHeight, behavior: 'smooth' });
+            resetNewMessageCounter();
+        }
+        
+        // Optimized message display with DocumentFragment
+        function displayMessage(message, isNew = false) {
+            if (!message || !message.author) return;
+            
+            // Track active users for mentions
+            if (!window.activeUsers) window.activeUsers = new Set();
+            window.activeUsers.add(message.author);
+            
+            // Track new messages
+            if (isNew && !hasScrolledToBottom && message.author !== userId) {
+                newMessageCount++;
+                showNewMessageCounter();
+            }
+            
+            const fragment = document.createDocumentFragment();
+            
+            // Add new message divider if needed
+            if (isNew && !hasScrolledToBottom && newMessageCount === 1) {
+                const divider = document.createElement('div');
+                divider.className = 'new-messages-divider';
+                divider.innerHTML = '<span>New Messages</span>';
+                fragment.appendChild(divider);
+            }
+            
             const messageDiv = document.createElement('div');
             messageDiv.className = 'chat-message';
             if (message.replyTo) messageDiv.classList.add('reply');
             
+            // Avatar
             const avatar = document.createElement('div');
             avatar.className = 'chat-message-avatar';
             avatar.textContent = message.author.charAt(0).toUpperCase();
             
+            // Content container
             const content = document.createElement('div');
             content.className = 'chat-message-content';
             
-            // Add reply info if exists
+            // Reply info (if exists)
             if (message.replyTo) {
                 const replyInfo = document.createElement('div');
                 replyInfo.className = 'chat-message-reply-info';
-                replyInfo.textContent = `↳ Replying to ${message.replyTo.author}: ${message.replyTo.text}`;
+                replyInfo.textContent = `↳ ${message.replyTo.author}: ${message.replyTo.text}`;
                 content.appendChild(replyInfo);
             }
             
-            // Header with author and time
+            // Header (author + time + actions)
             const header = document.createElement('div');
             header.className = 'chat-message-header';
             
@@ -2598,44 +3204,35 @@
             const timestamp = message.timestamp ? new Date(message.timestamp) : new Date();
             time.textContent = timestamp.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
             
-            // Add message actions
             const actions = document.createElement('div');
             actions.className = 'message-actions';
-            const replyBtn = document.createElement('span');
-            replyBtn.className = 'message-action-btn';
-            replyBtn.textContent = '↩ Reply';
-            replyBtn.onclick = () => setReply(message);
-            actions.appendChild(replyBtn);
+            actions.innerHTML = '<span class="message-action-btn">↩ Reply</span>';
+            actions.firstChild.onclick = () => setReply(message);
             
-            header.appendChild(author);
-            header.appendChild(time);
-            header.appendChild(actions);
+            header.append(author, time, actions);
             
+            // Message text/content
             const text = document.createElement('div');
             text.className = 'chat-message-text';
             
-            // Check if message is a GIF (Giphy or Tenor URLs)
-            if (message.text && (message.text.includes('giphy.com') || message.text.includes('media.tenor.com') || message.text.includes('media1.tenor.com'))) {
-                const img = document.createElement('img');
-                img.src = message.text;
-                img.style.maxWidth = '250px';
-                img.style.borderRadius = '8px';
-                img.style.marginTop = '4px';
-                text.appendChild(img);
+            const isGif = message.text && (message.text.includes('giphy.com') || message.text.includes('tenor.com'));
+            if (isGif) {
+                text.innerHTML = `<img src="${message.text}" style="max-width:250px;max-height:250px;border-radius:8px;margin-top:4px" loading="lazy">`;
             } else {
-                // Process mentions (@username)
-                const processedText = (message.text || '').replace(/@(\w+)/g, '<span class="chat-mention">@$1</span>');
-                text.innerHTML = processedText;
+                text.innerHTML = (message.text || '').replace(/@(\w+)/g, '<span class="chat-mention">@$1</span>');
             }
             
-            content.appendChild(header);
-            content.appendChild(text);
+            content.append(header, text);
+            messageDiv.append(avatar, content);
+            fragment.appendChild(messageDiv);
             
-            messageDiv.appendChild(avatar);
-            messageDiv.appendChild(content);
-            
-            chatMessages.appendChild(messageDiv);
-            chatMessages.scrollTop = chatMessages.scrollHeight;
+            // Batch DOM update with requestAnimationFrame for performance
+            requestAnimationFrame(() => {
+                chatMessages.appendChild(fragment);
+                if (hasScrolledToBottom) {
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                }
+            });
         }
 
         // Event listeners
@@ -2748,14 +3345,78 @@
             document.getElementById('replyPreview').classList.remove('show');
         }
         
-        // Mention autocomplete in input
+        // Mention autocomplete system
+        let activeUsers = new Set();
+        let selectedMentionIndex = 0;
+        
+        // Track active users from messages
+        function updateActiveUsers(message) {
+            if (message && message.author) {
+                activeUsers.add(message.author);
+            }
+        }
+        
         chatInput.addEventListener('input', (e) => {
             const text = e.target.value;
             const lastWord = text.split(' ').pop();
+            const mentionAutocomplete = document.getElementById('mentionAutocomplete');
+            
             if (lastWord.startsWith('@') && lastWord.length > 1) {
-                // Could add autocomplete dropdown here for active users
+                const searchTerm = lastWord.substring(1).toLowerCase();
+                const matches = Array.from(activeUsers).filter(user => 
+                    user.toLowerCase().includes(searchTerm)
+                );
+                
+                if (matches.length > 0) {
+                    mentionAutocomplete.innerHTML = '';
+                    matches.forEach((user, index) => {
+                        const item = document.createElement('div');
+                        item.className = 'mention-item';
+                        if (index === selectedMentionIndex) item.classList.add('selected');
+                        item.textContent = '@' + user;
+                        item.onclick = () => completeMention(user);
+                        mentionAutocomplete.appendChild(item);
+                    });
+                    mentionAutocomplete.classList.add('show');
+                    selectedMentionIndex = 0;
+                } else {
+                    mentionAutocomplete.classList.remove('show');
+                }
+            } else {
+                mentionAutocomplete.classList.remove('show');
             }
         });
+        
+        chatInput.addEventListener('keydown', (e) => {
+            const mentionAutocomplete = document.getElementById('mentionAutocomplete');
+            if (mentionAutocomplete.classList.contains('show')) {
+                const items = mentionAutocomplete.querySelectorAll('.mention-item');
+                if (e.key === 'ArrowDown') {
+                    e.preventDefault();
+                    selectedMentionIndex = (selectedMentionIndex + 1) % items.length;
+                    items.forEach((item, i) => item.classList.toggle('selected', i === selectedMentionIndex));
+                } else if (e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    selectedMentionIndex = (selectedMentionIndex - 1 + items.length) % items.length;
+                    items.forEach((item, i) => item.classList.toggle('selected', i === selectedMentionIndex));
+                } else if (e.key === 'Tab' || e.key === 'Enter') {
+                    if (items[selectedMentionIndex]) {
+                        e.preventDefault();
+                        const username = items[selectedMentionIndex].textContent.substring(1);
+                        completeMention(username);
+                    }
+                }
+            }
+        });
+        
+        function completeMention(username) {
+            const text = chatInput.value;
+            const words = text.split(' ');
+            words[words.length - 1] = '@' + username;
+            chatInput.value = words.join(' ') + ' ';
+            document.getElementById('mentionAutocomplete').classList.remove('show');
+            chatInput.focus();
+        }
 
         // ==================== CHAT CHANNEL SYSTEM ====================
         
@@ -2796,19 +3457,46 @@
             // Subscribe to new channel
             chatMessagesRef = ref(database, `chat/${channel}/messages`);
             const messagesQuery = query(chatMessagesRef, limitToLast(50));
+            
+            let isInitialLoad = true;
             chatMessagesListener = onValue(messagesQuery, (snapshot) => {
-                chatMessages.innerHTML = '';
-                const messages = [];
-                snapshot.forEach((childSnapshot) => {
-                    messages.push({
-                        id: childSnapshot.key,
-                        ...childSnapshot.val()
+                if (isInitialLoad) {
+                    chatMessages.innerHTML = '';
+                    const messages = [];
+                    snapshot.forEach((childSnapshot) => {
+                        messages.push({
+                            id: childSnapshot.key,
+                            ...childSnapshot.val()
+                        });
                     });
-                });
-                
-                messages.sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
-                messages.forEach(msg => displayMessage(msg));
-                chatMessages.scrollTop = chatMessages.scrollHeight;
+                    
+                    messages.sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
+                    messages.forEach(msg => displayMessage(msg, false));
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                    resetNewMessageCounter();
+                    isInitialLoad = false;
+                } else {
+                    // New message arrived
+                    const messages = [];
+                    snapshot.forEach((childSnapshot) => {
+                        messages.push({
+                            id: childSnapshot.key,
+                            ...childSnapshot.val()
+                        });
+                    });
+                    
+                    // Find and display only the newest message
+                    if (messages.length > 0) {
+                        const sortedMessages = messages.sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
+                        const newestMessage = sortedMessages[sortedMessages.length - 1];
+                        
+                        // Check if it's actually new
+                        const messageTime = newestMessage.timestamp || Date.now();
+                        if (messageTime > lastSeenMessageTime) {
+                            displayMessage(newestMessage, true);
+                        }
+                    }
+                }
             });
         }
         
@@ -3008,6 +3696,143 @@
             } finally {
                 btn.disabled = false;
                 btn.innerHTML = '<i class="fas fa-user-plus"></i> Create Account';
+            }
+        }
+
+        // Handle Anonymous Sign In
+        window.handleAnonymousSignIn = async function() {
+            try {
+                const userCredential = await signInAnonymously(auth);
+                console.log('Anonymous user signed in:', userCredential.user.uid);
+                
+                // Generate random guest username
+                const guestUsername = 'Guest_' + Math.random().toString(36).substr(2, 6);
+                
+                // Store guest user info
+                await set(ref(database, `users/${userCredential.user.uid}`), {
+                    username: guestUsername,
+                    isAnonymous: true,
+                    createdAt: serverTimestamp(),
+                    lastLogin: serverTimestamp()
+                });
+                
+                closeAuthModal();
+                alert(`Welcome ${guestUsername}! You're browsing as a guest. Sign up to save your data.`);
+                
+            } catch (error) {
+                console.error('Anonymous sign in error:', error);
+                alert('Failed to sign in anonymously: ' + error.message);
+            }
+        }
+
+        // Handle Google Sign In
+        window.handleGoogleSignIn = async function() {
+            const provider = new GoogleAuthProvider();
+            
+            try {
+                const result = await signInWithPopup(auth, provider);
+                const user = result.user;
+                
+                // Check if user exists in database
+                const userSnapshot = await get(ref(database, `users/${user.uid}`));
+                
+                if (!userSnapshot.exists()) {
+                    // New Google user - create profile
+                    await set(ref(database, `users/${user.uid}`), {
+                        username: user.displayName || user.email.split('@')[0],
+                        email: user.email,
+                        photoURL: user.photoURL,
+                        provider: 'google',
+                        createdAt: serverTimestamp(),
+                        lastLogin: serverTimestamp()
+                    });
+                } else {
+                    // Update last login
+                    await update(ref(database, `users/${user.uid}`), {
+                        lastLogin: serverTimestamp()
+                    });
+                }
+                
+                closeAuthModal();
+                
+            } catch (error) {
+                console.error('Google sign in error:', error);
+                if (error.code === 'auth/popup-closed-by-user') {
+                    // User closed popup, no error needed
+                } else if (error.code === 'auth/popup-blocked') {
+                    alert('Pop-up blocked. Please allow pop-ups for this site.');
+                } else {
+                    alert('Failed to sign in with Google: ' + error.message);
+                }
+            }
+        }
+
+        // Handle Email Link Sign In
+        window.handleEmailLinkSignIn = async function() {
+            const email = prompt('Enter your email address to receive a sign-in link:');
+            
+            if (!email || !email.includes('@')) {
+                alert('Please enter a valid email address');
+                return;
+            }
+            
+            const actionCodeSettings = {
+                url: window.location.href,
+                handleCodeInApp: true
+            };
+            
+            try {
+                await sendSignInLinkToEmail(auth, email, actionCodeSettings);
+                
+                // Save email to localStorage for sign-in completion
+                window.localStorage.setItem('emailForSignIn', email);
+                
+                alert('Sign-in link sent! Check your email and click the link to sign in.');
+                
+            } catch (error) {
+                console.error('Email link sign in error:', error);
+                alert('Failed to send sign-in link: ' + error.message);
+            }
+        }
+
+        // Check if URL is from email link sign in
+        if (isSignInWithEmailLink(auth, window.location.href)) {
+            let email = window.localStorage.getItem('emailForSignIn');
+            if (!email) {
+                email = prompt('Please provide your email for confirmation:');
+            }
+            
+            if (email) {
+                signInWithEmailLink(auth, email, window.location.href)
+                    .then(async (result) => {
+                        window.localStorage.removeItem('emailForSignIn');
+                        
+                        // Check if user exists
+                        const userSnapshot = await get(ref(database, `users/${result.user.uid}`));
+                        
+                        if (!userSnapshot.exists()) {
+                            // New user via email link
+                            await set(ref(database, `users/${result.user.uid}`), {
+                                username: email.split('@')[0],
+                                email: email,
+                                provider: 'email-link',
+                                createdAt: serverTimestamp(),
+                                lastLogin: serverTimestamp()
+                            });
+                        } else {
+                            await update(ref(database, `users/${result.user.uid}`), {
+                                lastLogin: serverTimestamp()
+                            });
+                        }
+                        
+                        alert('Successfully signed in!');
+                        window.history.replaceState({}, document.title, window.location.pathname);
+                        
+                    })
+                    .catch((error) => {
+                        console.error('Email link sign in completion error:', error);
+                        alert('Failed to complete sign in: ' + error.message);
+                    });
             }
         }
 
@@ -4472,30 +5297,194 @@
             list.innerHTML = newsHTML;
         }
         
-        function renderPipeline(pipeline) {
-            const list = getElement('pipelineList');
-            if (!list) return;
-            const items = pipeline || placeholderData.pipeline;
+        // Build Museum Functions
+        let buildMuseumBuilds = [];
+        
+        function initBuildMuseum() {
+            // Sample builds for demonstration
+            buildMuseumBuilds = [
+                {
+                    id: 1,
+                    title: "Modern Luxury Villa",
+                    author: "BuildMaster_Pro",
+                    type: "image",
+                    mediaUrl: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2320304a' width='400' height='300'/%3E%3Ctext x='200' y='150' font-family='Arial' font-size='24' fill='%23fff' text-anchor='middle'%3EModern Villa%3C/text%3E%3C/svg%3E",
+                    description: "A stunning 3-story modern villa with a pool and beautiful landscaping. Took 5 hours to build!",
+                    rating: 4.8,
+                    ratingCount: 24,
+                    comments: []
+                },
+                {
+                    id: 2,
+                    title: "Cozy Cottage Home",
+                    author: "CozyBuilder123",
+                    type: "image",
+                    mediaUrl: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23304a20' width='400' height='300'/%3E%3Ctext x='200' y='150' font-family='Arial' font-size='24' fill='%23fff' text-anchor='middle'%3ECozy Cottage%3C/text%3E%3C/svg%3E",
+                    description: "Small but charming cottage with rustic interior design. Perfect for beginners!",
+                    rating: 4.5,
+                    ratingCount: 18,
+                    comments: []
+                },
+                {
+                    id: 3,
+                    title: "Futuristic Mansion",
+                    author: "FutureArch",
+                    type: "video",
+                    mediaUrl: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%234a2030' width='400' height='300'/%3E%3Ctext x='200' y='150' font-family='Arial' font-size='24' fill='%23fff' text-anchor='middle'%3EFuturistic Build%3C/text%3E%3C/svg%3E",
+                    description: "Cutting-edge design with smart home features and sleek aesthetics.",
+                    rating: 4.9,
+                    ratingCount: 35,
+                    comments: []
+                }
+            ];
             
-            const pipelineHTML = items.map((item, i) => {
-                const ratio = Math.min(1, (item.value || 0) / (item.max || 100));
-                
-                return `
-                    <div class="pipeline-item">
-                        <div class="pipeline-info">
-                            <div class="pipeline-label">${item.label}</div>
-                            <div class="pipeline-trend">${item.trend || ''}</div>
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="transform: scaleX(${ratio})"></div>
+            renderBuildMuseum();
+        }
+        
+        function renderBuildMuseum() {
+            const grid = getElement('buildMuseumGrid');
+            if (!grid) return;
+            
+            const buildsHTML = buildMuseumBuilds.map(build => `
+                <div class="build-card" onclick="openBuildModal(${build.id})">
+                    <div class="build-card-media">
+                        ${build.type === 'video' 
+                            ? `<video src="${build.mediaUrl}" loop muted></video>` 
+                            : `<img src="${build.mediaUrl}" alt="${build.title}" />`
+                        }
+                        <div class="build-card-type">${build.type === 'video' ? '📹 Video' : '🖼️ Image'}</div>
+                    </div>
+                    <div class="build-card-content">
+                        <div class="build-card-title">${build.title}</div>
+                        <div class="build-card-author">
+                            <i class="fas fa-user"></i> ${build.author}
+                        </div>
+                        <div class="build-card-stats">
+                            <div class="build-card-rating">
+                                <i class="fas fa-star"></i> ${build.rating.toFixed(1)} (${build.ratingCount})
+                            </div>
+                            <div class="build-card-actions">
+                                <button class="build-action-btn" onclick="event.stopPropagation(); rateBuild(${build.id}, 5)">
+                                    <i class="fas fa-thumbs-up"></i> ${build.ratingCount}
+                                </button>
+                                <button class="build-action-btn" onclick="event.stopPropagation(); openBuildModal(${build.id})">
+                                    <i class="fas fa-comment"></i> ${build.comments.length}
+                                </button>
                             </div>
                         </div>
-                        <div class="pipeline-value">${formatNumber(item.value)}</div>
                     </div>
-                `;
-            }).join('');
+                </div>
+            `).join('');
             
-            list.innerHTML = pipelineHTML;
+            grid.innerHTML = buildsHTML || '<p style="text-align: center; color: var(--text-muted); padding: 40px;">No builds yet. Be the first to share!</p>';
         }
+        
+        function openBuildModal(buildId) {
+            const build = buildMuseumBuilds.find(b => b.id === buildId);
+            if (!build) return;
+            
+            const modal = document.createElement('div');
+            modal.className = 'build-modal show';
+            modal.innerHTML = `
+                <div class="build-modal-content">
+                    <button class="build-modal-close" onclick="this.closest('.build-modal').remove()">×</button>
+                    <div class="build-modal-media">
+                        ${build.type === 'video' 
+                            ? `<video src="${build.mediaUrl}" controls autoplay loop></video>` 
+                            : `<img src="${build.mediaUrl}" alt="${build.title}" />`
+                        }
+                    </div>
+                    <div class="build-modal-body">
+                        <h2 class="build-modal-title">${build.title}</h2>
+                        <div style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 12px;">
+                            <i class="fas fa-user"></i> ${build.author} · 
+                            <i class="fas fa-star" style="color: #FFD700;"></i> ${build.rating.toFixed(1)} (${build.ratingCount} ratings)
+                        </div>
+                        <p class="build-modal-description">${build.description}</p>
+                        
+                        <div style="display: flex; gap: 8px; margin-bottom: 20px;">
+                            ${[1,2,3,4,5].map(star => `
+                                <button onclick="rateBuild(${buildId}, ${star})" style="background: ${star <= Math.round(build.rating) ? '#FFD700' : 'rgba(255, 255, 255, 0.1)'}; border: none; color: white; padding: 8px 12px; border-radius: 8px; cursor: pointer; transition: all 0.2s;">
+                                    <i class="fas fa-star"></i>
+                                </button>
+                            `).join('')}
+                        </div>
+                        
+                        <div class="build-comments">
+                            <h3 style="font-size: 1.1rem; font-weight: 800; margin-bottom: 12px;">
+                                <i class="fas fa-comments"></i> Comments (${build.comments.length})
+                            </h3>
+                            <div class="build-comment-input">
+                                <input type="text" id="commentInput${buildId}" placeholder="Add a comment..." />
+                                <button onclick="addComment(${buildId})">Post</button>
+                            </div>
+                            <div id="commentsContainer${buildId}">
+                                ${build.comments.map(c => `
+                                    <div class="build-comment">
+                                        <div class="build-comment-author">${c.author}</div>
+                                        <div class="build-comment-text">${c.text}</div>
+                                    </div>
+                                `).join('') || '<p style="text-align: center; color: var(--text-muted); padding: 20px;">No comments yet. Be the first!</p>'}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            document.body.appendChild(modal);
+            modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+        }
+        
+        function rateBuild(buildId, stars) {
+            const build = buildMuseumBuilds.find(b => b.id === buildId);
+            if (!build) return;
+            
+            // Simple rating update (in production, would save to Firebase)
+            build.rating = ((build.rating * build.ratingCount) + stars) / (build.ratingCount + 1);
+            build.ratingCount++;
+            
+            renderBuildMuseum();
+            alert(`Rated ${stars} stars! Thank you for your feedback.`);
+        }
+        
+        function addComment(buildId) {
+            const input = document.getElementById(`commentInput${buildId}`);
+            const text = input.value.trim();
+            if (!text) return;
+            
+            const build = buildMuseumBuilds.find(b => b.id === buildId);
+            if (!build) return;
+            
+            build.comments.push({
+                author: userId || 'Anonymous',
+                text: text,
+                timestamp: Date.now()
+            });
+            
+            input.value = '';
+            
+            // Refresh comments display
+            const container = document.getElementById(`commentsContainer${buildId}`);
+            container.innerHTML = build.comments.map(c => `
+                <div class="build-comment">
+                    <div class="build-comment-author">${c.author}</div>
+                    <div class="build-comment-text">${c.text}</div>
+                </div>
+            `).join('');
+            
+            renderBuildMuseum();
+        }
+        
+        // Upload build button handler
+        document.addEventListener('DOMContentLoaded', () => {
+            const uploadBtn = document.getElementById('uploadBuildBtn');
+            if (uploadBtn) {
+                uploadBtn.onclick = () => {
+                    alert('Build upload feature coming soon! You will be able to upload images (max 5MB) and short videos (max 50MB, 30 seconds).');
+                };
+            }
+            initBuildMuseum();
+        });
         
         function renderInsights(insights) {
             const list = getElement('insightsList');
@@ -4554,7 +5543,7 @@
                     renderBuilders(data.topBuilders);
                     renderActivityFeed(data.activityLog);
                     renderNews(data.news);
-                    renderPipeline(data.pipeline);
+                    // Build Museum is initialized on page load, not from API data
                 });
                 
                 if (statusText) statusText.textContent = 'LIVE';
