@@ -1723,8 +1723,341 @@
         #toggleNews:active {
             transform: scale(0.95) !important;
         }
+
+        /* Authentication Modal Styles */
+        .auth-modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(10px);
+            z-index: 10000;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.3s ease;
+        }
+        .auth-modal.show {
+            display: flex;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .auth-modal-content {
+            background: linear-gradient(135deg, rgba(20, 30, 50, 0.95), rgba(30, 40, 60, 0.95));
+            border-radius: 20px;
+            padding: 32px;
+            width: 90%;
+            max-width: 450px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.9), 0 0 40px rgba(255, 23, 68, 0.3);
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            animation: slideUp 0.4s ease;
+            position: relative;
+        }
+        .auth-modal-close {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        .auth-modal-close:hover {
+            background: rgba(255, 23, 68, 0.8);
+            transform: rotate(90deg);
+        }
+        .auth-modal-title {
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: var(--text-bright);
+            margin-bottom: 8px;
+            text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
+        }
+        .auth-modal-subtitle {
+            color: var(--text-muted);
+            margin-bottom: 24px;
+            font-size: 0.9rem;
+        }
+        .auth-form-group {
+            margin-bottom: 16px;
+        }
+        .auth-form-label {
+            display: block;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 8px;
+            font-size: 0.875rem;
+        }
+        .auth-form-input {
+            width: 100%;
+            padding: 12px 16px;
+            background: rgba(40, 50, 70, 0.6);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            color: var(--text);
+            font-size: 0.9rem;
+            font-family: 'Fredoka', sans-serif;
+            transition: all 0.3s ease;
+            outline: none;
+            box-sizing: border-box;
+        }
+        .auth-form-input:focus {
+            background: rgba(50, 60, 80, 0.8);
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(255, 23, 68, 0.2);
+        }
+        .auth-form-input.error {
+            border-color: var(--danger);
+            box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2);
+        }
+        .auth-error-msg {
+            color: var(--danger);
+            font-size: 0.8rem;
+            margin-top: 4px;
+            display: none;
+        }
+        .auth-error-msg.show {
+            display: block;
+        }
+        .auth-submit-btn {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #FF1744, #ff5252);
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+            color: white;
+            font-weight: 800;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            box-shadow: 0 4px 0 #c41c3a, 0 6px 16px rgba(255,23,68,0.5), inset 0 2px 0 rgba(255,255,255,0.3);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .auth-submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 0 #c41c3a, 0 8px 20px rgba(255,23,68,0.6), inset 0 2px 0 rgba(255,255,255,0.3);
+        }
+        .auth-submit-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 0 #c41c3a, 0 4px 12px rgba(255,23,68,0.5), inset 0 2px 0 rgba(255,255,255,0.3);
+        }
+        .auth-submit-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .auth-divider {
+            text-align: center;
+            margin: 20px 0;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+        .auth-link {
+            color: var(--primary);
+            cursor: pointer;
+            text-decoration: underline;
+            font-weight: 600;
+        }
+        .auth-link:hover {
+            color: var(--text-bright);
+        }
+        .profile-pic-upload {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+        .profile-pic-preview {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 4px solid var(--primary);
+            object-fit: cover;
+            box-shadow: 0 0 20px rgba(255, 23, 68, 0.4);
+        }
+        .profile-pic-btn {
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            color: white;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .profile-pic-btn:hover {
+            background: rgba(255, 23, 68, 0.6);
+        }
+        .username-check {
+            font-size: 0.8rem;
+            margin-top: 4px;
+        }
+        .username-check.available {
+            color: var(--success);
+        }
+        .username-check.taken {
+            color: var(--danger);
+        }
+        .auth-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 0 #c41c3a, 0 8px 20px rgba(255,23,68,0.6), inset 0 2px 0 rgba(255,255,255,0.3);
+        }
+        .auth-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 0 #c41c3a, 0 4px 12px rgba(255,23,68,0.5), inset 0 2px 0 rgba(255,255,255,0.3);
+        }
     </style>
 </head>
+<body>
+    <!-- Authentication Modal -->
+    <div id="authModal" class="auth-modal">
+        <div class="auth-modal-content">
+            <button class="auth-modal-close" onclick="closeAuthModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <!-- Sign Up Form -->
+            <div id="signupForm" style="display: none;">
+                <h2 class="auth-modal-title">Create Account</h2>
+                <p class="auth-modal-subtitle">Join the Crumbl Crafts community</p>
+                
+                <div class="auth-form-group">
+                    <label class="auth-form-label">Username</label>
+                    <input type="text" id="signupUsername" class="auth-form-input" placeholder="Choose a unique username" maxlength="20">
+                    <div id="usernameCheck" class="username-check"></div>
+                    <div id="signupUsernameError" class="auth-error-msg"></div>
+                </div>
+                
+                <div class="auth-form-group">
+                    <label class="auth-form-label">Email</label>
+                    <input type="email" id="signupEmail" class="auth-form-input" placeholder="your@email.com">
+                    <div id="signupEmailError" class="auth-error-msg"></div>
+                </div>
+                
+                <div class="auth-form-group">
+                    <label class="auth-form-label">Password</label>
+                    <input type="password" id="signupPassword" class="auth-form-input" placeholder="Minimum 6 characters">
+                    <div id="signupPasswordError" class="auth-error-msg"></div>
+                </div>
+                
+                <div class="auth-form-group">
+                    <label class="auth-form-label">Confirm Password</label>
+                    <input type="password" id="signupConfirmPassword" class="auth-form-input" placeholder="Re-enter password">
+                    <div id="signupConfirmError" class="auth-error-msg"></div>
+                </div>
+                
+                <div class="auth-form-group">
+                    <label class="auth-form-label">Profile Picture (Optional)</label>
+                    <div class="profile-pic-upload">
+                        <img id="signupProfilePreview" class="profile-pic-preview" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23333'/%3E%3Ctext x='50' y='50' text-anchor='middle' dy='.3em' fill='%23fff' font-size='40' font-family='Arial'%3E%3F%3C/text%3E%3C/svg%3E" alt="Profile">
+                        <input type="file" id="signupProfilePic" accept="image/*" style="display: none;">
+                        <button type="button" class="profile-pic-btn" onclick="document.getElementById('signupProfilePic').click()">
+                            <i class="fas fa-upload"></i> Upload Photo
+                        </button>
+                    </div>
+                </div>
+                
+                <button id="signupSubmitBtn" class="auth-submit-btn" onclick="handleSignup()">
+                    <i class="fas fa-user-plus"></i> Create Account
+                </button>
+                
+                <div class="auth-divider">
+                    Already have an account? <span class="auth-link" onclick="showSignIn()">Sign In</span>
+                </div>
+            </div>
+            
+            <!-- Sign In Form -->
+            <div id="signinForm" style="display: none;">
+                <h2 class="auth-modal-title">Welcome Back</h2>
+                <p class="auth-modal-subtitle">Sign in to your account</p>
+                
+                <div class="auth-form-group">
+                    <label class="auth-form-label">Email</label>
+                    <input type="email" id="signinEmail" class="auth-form-input" placeholder="your@email.com">
+                    <div id="signinEmailError" class="auth-error-msg"></div>
+                </div>
+                
+                <div class="auth-form-group">
+                    <label class="auth-form-label">Password</label>
+                    <input type="password" id="signinPassword" class="auth-form-input" placeholder="Enter your password">
+                    <div id="signinPasswordError" class="auth-error-msg"></div>
+                </div>
+                
+                <button id="signinSubmitBtn" class="auth-submit-btn" onclick="handleSignIn()">
+                    <i class="fas fa-sign-in-alt"></i> Sign In
+                </button>
+                
+                <div class="auth-divider">
+                    <span class="auth-link" onclick="showForgotPassword()">Forgot Password?</span> · 
+                    <span class="auth-link" onclick="showSignUp()">Create Account</span>
+                </div>
+            </div>
+            
+            <!-- Forgot Password Form -->
+            <div id="forgotPasswordForm" style="display: none;">
+                <h2 class="auth-modal-title">Reset Password</h2>
+                <p class="auth-modal-subtitle">We'll send you a reset link</p>
+                
+                <div class="auth-form-group">
+                    <label class="auth-form-label">Email</label>
+                    <input type="email" id="resetEmail" class="auth-form-input" placeholder="your@email.com">
+                    <div id="resetEmailError" class="auth-error-msg"></div>
+                </div>
+                
+                <button id="resetSubmitBtn" class="auth-submit-btn" onclick="handlePasswordReset()">
+                    <i class="fas fa-envelope"></i> Send Reset Link
+                </button>
+                
+                <div class="auth-divider">
+                    <span class="auth-link" onclick="showSignIn()">Back to Sign In</span>
+                </div>
+            </div>
+
+            <!-- Profile Edit Form -->
+            <div id="profileEditForm" style="display: none;">
+                <h2 class="auth-modal-title">Edit Profile</h2>
+                <p class="auth-modal-subtitle">Update your information</p>
+                
+                <div class="auth-form-group">
+                    <label class="auth-form-label">Profile Picture</label>
+                    <div class="profile-pic-upload">
+                        <img id="editProfilePreview" class="profile-pic-preview" src="" alt="Profile">
+                        <input type="file" id="editProfilePic" accept="image/*" style="display: none;">
+                        <button type="button" class="profile-pic-btn" onclick="document.getElementById('editProfilePic').click()">
+                            <i class="fas fa-camera"></i> Change Photo
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="auth-form-group">
+                    <label class="auth-form-label">Username</label>
+                    <input type="text" id="editUsername" class="auth-form-input" placeholder="New username" maxlength="20">
+                    <div id="editUsernameCheck" class="username-check"></div>
+                    <div id="editUsernameError" class="auth-error-msg"></div>
+                </div>
+                
+                <button id="profileSaveBtn" class="auth-submit-btn" onclick="handleProfileUpdate()">
+                    <i class="fas fa-save"></i> Save Changes
+                </button>
+                
+                <div class="auth-divider">
+                    <span class="auth-link" onclick="handleSignOut()">Sign Out</span>
+                </div>
+            </div>
+        </div>
+    </div>
 <body>
     <div class="wrapper">
         <div class="main-content">
@@ -1745,12 +2078,22 @@
                         <span style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5); letter-spacing: 0.5px;">JOIN SERVER</span>
                         <div class="discord-pulse" style="position: absolute; inset: -3px; background: radial-gradient(circle, rgba(255,255,255,0.4) 0%, transparent 70%); border-radius: 14px; opacity: 0; animation: discordPulse 2s ease-in-out infinite;"></div>
                     </a>
-                    <div class="status-badge" id="statusBadge">
-                        <span class="status-dot" id="statusDot"></span>
-                        <span id="statusText">LIVE</span>
+                    <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 4px;">
+                        <div class="status-badge" id="statusBadge">
+                            <span class="status-dot" id="statusDot"></span>
+                            <span id="statusText">LIVE</span>
+                        </div>
+                        <div style="font-size: 0.7rem; color: var(--text-muted); font-weight: 600; margin-left: 4px;">
+                            <span id="latencyDisplay">—</span>
+                        </div>
                     </div>
-                    <div style="font-size: 0.75rem; color: var(--text-muted); font-weight: 600; min-width: 60px; text-align: right;">
-                        <span id="latencyDisplay">—</span>
+                    <button id="authButton" class="auth-btn" style="display: flex; align-items: center; gap: 8px; padding: 10px 18px; background: linear-gradient(135deg, #FF1744, #ff5252); border: 3px solid rgba(255,255,255,0.3); border-radius: 12px; color: white; font-weight: 800; font-size: 0.85rem; cursor: pointer; transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); box-shadow: 0 4px 0 #c41c3a, 0 6px 16px rgba(255,23,68,0.5), inset 0 2px 0 rgba(255,255,255,0.3);">
+                        <i class="fas fa-user-plus"></i>
+                        <span>SIGN UP</span>
+                    </button>
+                    <div id="userProfile" style="display: none; align-items: center; gap: 10px; cursor: pointer;">
+                        <img id="userAvatar" src="" alt="Avatar" style="width: 40px; height: 40px; border-radius: 50%; border: 3px solid var(--primary); box-shadow: 0 0 12px rgba(255,23,68,0.5);">
+                        <span id="userName" style="font-weight: 700; color: var(--text-bright);"></span>
                     </div>
                 </div>
             </header>
@@ -1889,7 +2232,9 @@
         // Import Firebase SDKs
         import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-analytics.js";
-        import { getDatabase, ref, push, onChildAdded, serverTimestamp, limitToLast, query } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
+        import { getDatabase, ref, push, onChildAdded, serverTimestamp, limitToLast, query, get, set, update, child } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
+        import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, sendPasswordResetEmail, updateProfile } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-auth.js";
+        import { getStorage, ref as storageRef, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-storage.js";
 
         // Firebase configuration
         const firebaseConfig = {
@@ -1907,11 +2252,18 @@
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
         const database = getDatabase(app);
+        const auth = getAuth(app);
+        const storage = getStorage(app);
 
         // Make Firebase available globally
         window.firebaseApp = app;
         window.firebaseDb = database;
+        window.firebaseAuth = auth;
+        window.firebaseStorage = storage;
         window.firebaseAnalytics = analytics;
+
+        // Current user state
+        let currentUser = null;
 
         // Chat System with Firebase
         const chatMessagesRef = ref(database, 'chat/messages');
@@ -1987,6 +2339,477 @@
         chatInput.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') sendMessage();
         });
+
+        // ==================== AUTHENTICATION SYSTEM ====================
+        
+        const usersRef = ref(database, 'users');
+        let usernameCheckTimeout = null;
+
+        // Check if username is available
+        async function checkUsernameAvailability(username) {
+            if (!username || username.length < 3) return false;
+            const snapshot = await get(child(ref(database), `usernames/${username.toLowerCase()}`));
+            return !snapshot.exists();
+        }
+
+        // Username input with debounced checking
+        document.getElementById('signupUsername')?.addEventListener('input', async (e) => {
+            clearTimeout(usernameCheckTimeout);
+            const username = e.target.value.trim();
+            const checkEl = document.getElementById('usernameCheck');
+            
+            if (username.length < 3) {
+                checkEl.textContent = '';
+                return;
+            }
+            
+            checkEl.textContent = 'Checking...';
+            checkEl.className = 'username-check';
+            
+            usernameCheckTimeout = setTimeout(async () => {
+                const available = await checkUsernameAvailability(username);
+                if (available) {
+                    checkEl.textContent = '✓ Username available';
+                    checkEl.className = 'username-check available';
+                } else {
+                    checkEl.textContent = '✗ Username taken';
+                    checkEl.className = 'username-check taken';
+                }
+            }, 500);
+        });
+
+        // Profile picture preview
+        document.getElementById('signupProfilePic')?.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    document.getElementById('signupProfilePreview').src = e.target.result;
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+
+        document.getElementById('editProfilePic')?.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    document.getElementById('editProfilePreview').src = e.target.result;
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+
+        // Handle Sign Up
+        async function handleSignup() {
+            const username = document.getElementById('signupUsername').value.trim();
+            const email = document.getElementById('signupEmail').value.trim();
+            const password = document.getElementById('signupPassword').value;
+            const confirmPassword = document.getElementById('signupConfirmPassword').value;
+            const profilePicFile = document.getElementById('signupProfilePic').files[0];
+            
+            // Clear previous errors
+            document.querySelectorAll('.auth-error-msg').forEach(el => el.classList.remove('show'));
+            document.querySelectorAll('.auth-form-input').forEach(el => el.classList.remove('error'));
+            
+            // Validation
+            let hasError = false;
+            
+            if (username.length < 3) {
+                showError('signupUsername', 'signupUsernameError', 'Username must be at least 3 characters');
+                hasError = true;
+            }
+            
+            if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                showError('signupEmail', 'signupEmailError', 'Please enter a valid email');
+                hasError = true;
+            }
+            
+            if (password.length < 6) {
+                showError('signupPassword', 'signupPasswordError', 'Password must be at least 6 characters');
+                hasError = true;
+            }
+            
+            if (password !== confirmPassword) {
+                showError('signupConfirmPassword', 'signupConfirmError', 'Passwords do not match');
+                hasError = true;
+            }
+            
+            if (hasError) return;
+            
+            // Check username availability
+            const usernameAvailable = await checkUsernameAvailability(username);
+            if (!usernameAvailable) {
+                showError('signupUsername', 'signupUsernameError', 'Username is already taken');
+                return;
+            }
+            
+            const btn = document.getElementById('signupSubmitBtn');
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Creating...';
+            
+            try {
+                // Create user account
+                const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+                const user = userCredential.user;
+                
+                let photoURL = `https://ui-avatars.com/api/?name=${encodeURIComponent(username)}&background=FF1744&color=fff&size=200`;
+                
+                // Upload profile picture if provided
+                if (profilePicFile) {
+                    const profileRef = storageRef(storage, `profiles/${user.uid}/${Date.now()}_${profilePicFile.name}`);
+                    await uploadBytes(profileRef, profilePicFile);
+                    photoURL = await getDownloadURL(profileRef);
+                }
+                
+                // Update Firebase Auth profile
+                await updateProfile(user, {
+                    displayName: username,
+                    photoURL: photoURL
+                });
+                
+                // Store user data in Realtime Database
+                await set(ref(database, `users/${user.uid}`), {
+                    username: username,
+                    email: email,
+                    photoURL: photoURL,
+                    createdAt: serverTimestamp(),
+                    lastLogin: serverTimestamp()
+                });
+                
+                // Reserve username
+                await set(ref(database, `usernames/${username.toLowerCase()}`), user.uid);
+                
+                closeAuthModal();
+                alert('Account created successfully! Welcome to Crumbl Crafts! 🎉');
+                
+            } catch (error) {
+                console.error('Sign up error:', error);
+                let errorMsg = 'Failed to create account';
+                if (error.code === 'auth/email-already-in-use') {
+                    errorMsg = 'Email is already registered';
+                    showError('signupEmail', 'signupEmailError', errorMsg);
+                } else {
+                    alert(errorMsg + ': ' + error.message);
+                }
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-user-plus"></i> Create Account';
+            }
+        }
+
+        // Handle Sign In
+        async function handleSignIn() {
+            const email = document.getElementById('signinEmail').value.trim();
+            const password = document.getElementById('signinPassword').value;
+            
+            document.querySelectorAll('.auth-error-msg').forEach(el => el.classList.remove('show'));
+            document.querySelectorAll('.auth-form-input').forEach(el => el.classList.remove('error'));
+            
+            let hasError = false;
+            
+            if (!email) {
+                showError('signinEmail', 'signinEmailError', 'Email is required');
+                hasError = true;
+            }
+            
+            if (!password) {
+                showError('signinPassword', 'signinPasswordError', 'Password is required');
+                hasError = true;
+            }
+            
+            if (hasError) return;
+            
+            const btn = document.getElementById('signinSubmitBtn');
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Signing in...';
+            
+            try {
+                await signInWithEmailAndPassword(auth, email, password);
+                
+                // Update last login
+                if (auth.currentUser) {
+                    await update(ref(database, `users/${auth.currentUser.uid}`), {
+                        lastLogin: serverTimestamp()
+                    });
+                }
+                
+                closeAuthModal();
+                
+            } catch (error) {
+                console.error('Sign in error:', error);
+                let errorMsg = 'Invalid email or password';
+                if (error.code === 'auth/user-not-found') {
+                    errorMsg = 'No account found with this email';
+                } else if (error.code === 'auth/wrong-password') {
+                    errorMsg = 'Incorrect password';
+                }
+                showError('signinPassword', 'signinPasswordError', errorMsg);
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-sign-in-alt"></i> Sign In';
+            }
+        }
+
+        // Handle Password Reset
+        async function handlePasswordReset() {
+            const email = document.getElementById('resetEmail').value.trim();
+            
+            document.querySelectorAll('.auth-error-msg').forEach(el => el.classList.remove('show'));
+            document.querySelectorAll('.auth-form-input').forEach(el => el.classList.remove('error'));
+            
+            if (!email) {
+                showError('resetEmail', 'resetEmailError', 'Email is required');
+                return;
+            }
+            
+            const btn = document.getElementById('resetSubmitBtn');
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+            
+            try {
+                await sendPasswordResetEmail(auth, email);
+                alert('Password reset link sent! Check your email.');
+                showSignIn();
+            } catch (error) {
+                console.error('Password reset error:', error);
+                showError('resetEmail', 'resetEmailError', 'Failed to send reset link');
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-envelope"></i> Send Reset Link';
+            }
+        }
+
+        // Handle Profile Update
+        async function handleProfileUpdate() {
+            const newUsername = document.getElementById('editUsername').value.trim();
+            const profilePicFile = document.getElementById('editProfilePic').files[0];
+            
+            if (!currentUser) return;
+            
+            document.querySelectorAll('.auth-error-msg').forEach(el => el.classList.remove('show'));
+            document.querySelectorAll('.auth-form-input').forEach(el => el.classList.remove('error'));
+            
+            const btn = document.getElementById('profileSaveBtn');
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Saving...';
+            
+            try {
+                let updates = {};
+                let authUpdates = {};
+                
+                // Handle username change
+                if (newUsername && newUsername !== currentUser.displayName) {
+                    if (newUsername.length < 3) {
+                        showError('editUsername', 'editUsernameError', 'Username must be at least 3 characters');
+                        return;
+                    }
+                    
+                    const available = await checkUsernameAvailability(newUsername);
+                    if (!available) {
+                        showError('editUsername', 'editUsernameError', 'Username is already taken');
+                        return;
+                    }
+                    
+                    // Remove old username reservation
+                    await set(ref(database, `usernames/${currentUser.displayName.toLowerCase()}`), null);
+                    // Reserve new username
+                    await set(ref(database, `usernames/${newUsername.toLowerCase()}`), currentUser.uid);
+                    
+                    updates.username = newUsername;
+                    authUpdates.displayName = newUsername;
+                }
+                
+                // Handle profile picture change
+                if (profilePicFile) {
+                    const profileRef = storageRef(storage, `profiles/${currentUser.uid}/${Date.now()}_${profilePicFile.name}`);
+                    await uploadBytes(profileRef, profilePicFile);
+                    const photoURL = await getDownloadURL(profileRef);
+                    
+                    updates.photoURL = photoURL;
+                    authUpdates.photoURL = photoURL;
+                }
+                
+                // Update Firebase Auth profile
+                if (Object.keys(authUpdates).length > 0) {
+                    await updateProfile(currentUser, authUpdates);
+                }
+                
+                // Update database
+                if (Object.keys(updates).length > 0) {
+                    await update(ref(database, `users/${currentUser.uid}`), updates);
+                }
+                
+                closeAuthModal();
+                alert('Profile updated successfully!');
+                
+                // Refresh UI
+                updateUserUI(currentUser);
+                
+            } catch (error) {
+                console.error('Profile update error:', error);
+                alert('Failed to update profile: ' + error.message);
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-save"></i> Save Changes';
+            }
+        }
+
+        // Handle Sign Out
+        async function handleSignOut() {
+            try {
+                await signOut(auth);
+                closeAuthModal();
+                alert('Signed out successfully');
+            } catch (error) {
+                console.error('Sign out error:', error);
+                alert('Failed to sign out');
+            }
+        }
+
+        // Auth state observer
+        onAuthStateChanged(auth, async (user) => {
+            if (user) {
+                currentUser = user;
+                
+                // Update chat to use real user
+                const userData = (await get(ref(database, `users/${user.uid}`))).val();
+                if (userData) {
+                    userId = userData.username || user.displayName || user.email;
+                    localStorage.setItem('chatUserId', userId);
+                }
+                
+                updateUserUI(user);
+            } else {
+                currentUser = null;
+                updateUserUI(null);
+            }
+        });
+
+        // Update UI based on auth state
+        function updateUserUI(user) {
+            const authBtn = document.getElementById('authButton');
+            const userProfile = document.getElementById('userProfile');
+            
+            if (user) {
+                authBtn.style.display = 'none';
+                userProfile.style.display = 'flex';
+                document.getElementById('userAvatar').src = user.photoURL || `https://ui-avatars.com/api/?name=${encodeURIComponent(user.displayName || 'User')}&background=FF1744&color=fff&size=80`;
+                document.getElementById('userName').textContent = user.displayName || 'User';
+                
+                // Make profile clickable
+                userProfile.onclick = () => {
+                    showProfileEdit();
+                };
+            } else {
+                authBtn.style.display = 'flex';
+                userProfile.style.display = 'none';
+            }
+        }
+
+        // Modal control functions
+        function openAuthModal() {
+            document.getElementById('authModal').classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeAuthModal() {
+            document.getElementById('authModal').classList.remove('show');
+            document.body.style.overflow = '';
+            
+            // Clear all forms
+            document.querySelectorAll('.auth-form-input').forEach(input => {
+                input.value = '';
+                input.classList.remove('error');
+            });
+            document.querySelectorAll('.auth-error-msg').forEach(el => el.classList.remove('show'));
+        }
+
+        function showSignUp() {
+            document.getElementById('signupForm').style.display = 'block';
+            document.getElementById('signinForm').style.display = 'none';
+            document.getElementById('forgotPasswordForm').style.display = 'none';
+            document.getElementById('profileEditForm').style.display = 'none';
+            openAuthModal();
+        }
+
+        function showSignIn() {
+            document.getElementById('signupForm').style.display = 'none';
+            document.getElementById('signinForm').style.display = 'block';
+            document.getElementById('forgotPasswordForm').style.display = 'none';
+            document.getElementById('profileEditForm').style.display = 'none';
+            openAuthModal();
+        }
+
+        function showForgotPassword() {
+            document.getElementById('signupForm').style.display = 'none';
+            document.getElementById('signinForm').style.display = 'none';
+            document.getElementById('forgotPasswordForm').style.display = 'block';
+            document.getElementById('profileEditForm').style.display = 'none';
+        }
+
+        function showProfileEdit() {
+            if (!currentUser) return;
+            
+            document.getElementById('signupForm').style.display = 'none';
+            document.getElementById('signinForm').style.display = 'none';
+            document.getElementById('forgotPasswordForm').style.display = 'none';
+            document.getElementById('profileEditForm').style.display = 'block';
+            
+            // Pre-fill current values
+            document.getElementById('editProfilePreview').src = currentUser.photoURL || '';
+            document.getElementById('editUsername').placeholder = currentUser.displayName || 'Enter new username';
+            
+            openAuthModal();
+        }
+
+        function showError(inputId, errorId, message) {
+            const input = document.getElementById(inputId);
+            const error = document.getElementById(errorId);
+            
+            if (input) input.classList.add('error');
+            if (error) {
+                error.textContent = message;
+                error.classList.add('show');
+            }
+        }
+
+        // Auth button click handler
+        document.getElementById('authButton')?.addEventListener('click', showSignUp);
+
+        // Username check for profile edit
+        document.getElementById('editUsername')?.addEventListener('input', async (e) => {
+            clearTimeout(usernameCheckTimeout);
+            const username = e.target.value.trim();
+            const checkEl = document.getElementById('editUsernameCheck');
+            
+            if (!username || username === currentUser.displayName) {
+                checkEl.textContent = '';
+                return;
+            }
+            
+            if (username.length < 3) {
+                checkEl.textContent = '';
+                return;
+            }
+            
+            checkEl.textContent = 'Checking...';
+            checkEl.className = 'username-check';
+            
+            usernameCheckTimeout = setTimeout(async () => {
+                const available = await checkUsernameAvailability(username);
+                if (available) {
+                    checkEl.textContent = '✓ Username available';
+                    checkEl.className = 'username-check available';
+                } else {
+                    checkEl.textContent = '✗ Username taken';
+                    checkEl.className = 'username-check taken';
+                }
+            }, 500);
+        });
+
+        // ==================== END AUTHENTICATION SYSTEM ====================
     </script>
 
     <script>
