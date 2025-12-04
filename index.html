@@ -449,6 +449,32 @@
             0% { background-position: 0% 50%; }
             100% { background-position: 200% 50%; }
         }
+        @keyframes ctaPulse {
+            0%, 100% { 
+                opacity: 1;
+                transform: scale(1);
+                box-shadow: 0 8px 24px rgba(255, 23, 68, 0.6), 
+                            0 0 40px rgba(255, 23, 68, 0.4), 
+                            inset 0 2px 0 rgba(255, 255, 255, 0.3);
+            }
+            50% { 
+                opacity: 1;
+                transform: scale(1.05);
+                box-shadow: 0 12px 32px rgba(255, 23, 68, 0.8), 
+                            0 0 60px rgba(255, 23, 68, 0.6), 
+                            inset 0 3px 0 rgba(255, 255, 255, 0.4);
+            }
+        }
+        @keyframes fadeInButton {
+            0% { 
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            100% { 
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
         .stat-card .trend { 
             display: inline-flex; 
             align-items: center; 
@@ -1616,6 +1642,8 @@
         let adAutoAdvanceInterval = null;
         let currentAdIndex = 0;
         let totalAds = 0;
+        let adsDataGlobal = [];
+        let videoCompletionTimeout = null;
 
         // Load and Initialize Ads from GitHub
         async function loadPremiumAds() {
@@ -1640,6 +1668,7 @@
                 
                 const ads = adsData.ads || [];
                 totalAds = ads.length;
+                adsDataGlobal = ads;
                 
                 // No ads, hide section completely
                 if (totalAds === 0) {
@@ -1657,22 +1686,126 @@
                     slide.className = 'premium-ad-slide' + (index === 0 ? ' active' : '');
                     slide.style.cssText = `position: absolute; width: 100%; height: 100%; opacity: ${index === 0 ? 1 : 0}; transform: translate3d(${index === 0 ? 0 : 100}%, 0, 0); transition: opacity 0.6s ease, transform 0.6s ease; will-change: opacity, transform; z-index: 1;`;
                     
-                    const img = document.createElement('img');
-                    img.src = ad.url;
-                    img.alt = ad.alt || `Premium Advertisement ${index + 1}`;
-                    img.loading = index === 0 ? 'eager' : 'lazy';
-                    img.style.cssText = 'width: 100%; height: 100%; object-fit: cover; image-rendering: auto; transform: translateZ(0);';
-                    img.onerror = function() {
-                        const fallbackColors = [
-                            ['rgba(255,23,68,0.2)', 'rgba(41,121,255,0.2)', '#FF1744', 'fa-ad', '🎨 ADVERTISE HERE'],
-                            ['rgba(41,121,255,0.2)', 'rgba(0,230,118,0.2)', '#2979FF', 'fa-image', '💼 YOUR AD HERE'],
-                            ['rgba(0,230,118,0.2)', 'rgba(255,23,68,0.2)', '#00E676', 'fa-bullhorn', '⭐ BE FEATURED']
-                        ];
-                        const colors = fallbackColors[index % fallbackColors.length];
-                        this.parentElement.innerHTML = `<div style="padding:40px;text-align:center;background:linear-gradient(135deg, ${colors[0]}, ${colors[1]});height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;"><i class="fas ${colors[3]} fa-3x" style="color:${colors[2]};text-shadow: 3px 3px 0 rgba(0,0,0,0.8);margin-bottom:12px;"></i><h3 style="font-weight:900;font-size:1.3rem;color:#fff;text-shadow: 3px 3px 0 rgba(0,0,0,0.8);letter-spacing:2px;">${colors[4]}</h3></div>`;
-                    };
+                    // Detect file type from URL
+                    const url = ad.url.toLowerCase();
+                    const isVideo = url.endsWith('.mp4') || url.endsWith('.webm') || url.endsWith('.ogg');
+                    const isGif = url.endsWith('.gif');
                     
-                    slide.appendChild(img);
+                    let mediaElement;
+                    
+                    if (isVideo) {
+                        // Create video element
+                        mediaElement = document.createElement('video');
+                        mediaElement.src = ad.url;
+                        mediaElement.autoplay = index === 0;
+                        mediaElement.loop = totalAds === 1; // Loop if single ad
+                        mediaElement.muted = true;
+                        mediaElement.playsInline = true;
+                        mediaElement.setAttribute('data-ad-index', index);
+                        mediaElement.style.cssText = 'width: 100%; height: 100%; object-fit: cover; transform: translateZ(0);';
+                        
+                        // Advance to next ad when video ends (only if multiple ads)
+                        if (totalAds > 1) {
+                            mediaElement.addEventListener('ended', function() {
+                                if (this.closest('.premium-ad-slide').classList.contains('active')) {
+                                    navigatePremiumAd(1);
+                                }
+                            });
+                        }
+                        
+                        // Handle video load errors
+                        mediaElement.onerror = function() {
+                            const fallbackColors = [
+                                ['rgba(255,23,68,0.2)', 'rgba(41,121,255,0.2)', '#FF1744', 'fa-video', '🎬 VIDEO AD HERE'],
+                                ['rgba(41,121,255,0.2)', 'rgba(0,230,118,0.2)', '#2979FF', 'fa-film', '🎥 YOUR VIDEO'],
+                                ['rgba(0,230,118,0.2)', 'rgba(255,23,68,0.2)', '#00E676', 'fa-play-circle', '▶️ PLAY AD']
+                            ];
+                            const colors = fallbackColors[index % fallbackColors.length];
+                            this.parentElement.innerHTML = `<div style="padding:40px;text-align:center;background:linear-gradient(135deg, ${colors[0]}, ${colors[1]});height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;"><i class="fas ${colors[3]} fa-3x" style="color:${colors[2]};text-shadow: 3px 3px 0 rgba(0,0,0,0.8);margin-bottom:12px;"></i><h3 style="font-weight:900;font-size:1.3rem;color:#fff;text-shadow: 3px 3px 0 rgba(0,0,0,0.8);letter-spacing:2px;">${colors[4]}</h3></div>`;
+                        };
+                    } else {
+                        // Create image element (works for both JPG/PNG and GIF)
+                        mediaElement = document.createElement('img');
+                        mediaElement.src = ad.url;
+                        mediaElement.alt = ad.alt || `Premium Advertisement ${index + 1}`;
+                        mediaElement.loading = index === 0 ? 'eager' : 'lazy';
+                        mediaElement.style.cssText = 'width: 100%; height: 100%; object-fit: cover; image-rendering: auto; transform: translateZ(0);';
+                        
+                        // Handle image load errors
+                        mediaElement.onerror = function() {
+                            const fallbackColors = [
+                                ['rgba(255,23,68,0.2)', 'rgba(41,121,255,0.2)', '#FF1744', 'fa-ad', '🎨 ADVERTISE HERE'],
+                                ['rgba(41,121,255,0.2)', 'rgba(0,230,118,0.2)', '#2979FF', 'fa-image', '💼 YOUR AD HERE'],
+                                ['rgba(0,230,118,0.2)', 'rgba(255,23,68,0.2)', '#00E676', 'fa-bullhorn', '⭐ BE FEATURED']
+                            ];
+                            const colors = fallbackColors[index % fallbackColors.length];
+                            this.parentElement.innerHTML = `<div style="padding:40px;text-align:center;background:linear-gradient(135deg, ${colors[0]}, ${colors[1]});height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;"><i class="fas ${colors[3]} fa-3x" style="color:${colors[2]};text-shadow: 3px 3px 0 rgba(0,0,0,0.8);margin-bottom:12px;"></i><h3 style="font-weight:900;font-size:1.3rem;color:#fff;text-shadow: 3px 3px 0 rgba(0,0,0,0.8);letter-spacing:2px;">${colors[4]}</h3></div>`;
+                        };
+                    }
+                    
+                    slide.appendChild(mediaElement);
+                    
+                    // Add mute/unmute button for videos
+                    if (isVideo) {
+                        const muteButton = document.createElement('button');
+                        muteButton.className = 'ad-mute-button';
+                        muteButton.innerHTML = '<i class="fas fa-volume-mute"></i>';
+                        muteButton.setAttribute('data-muted', 'true');
+                        muteButton.style.cssText = 'position: absolute; bottom: 16px; left: 16px; background: rgba(0, 0, 0, 0.7); backdrop-filter: blur(10px); color: white; width: 48px; height: 48px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 23, 68, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2); border: 2px solid rgba(255, 255, 255, 0.3); transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); z-index: 10; opacity: 0; animation: fadeInButton 0.5s ease 0.8s forwards;';
+                        
+                        muteButton.onclick = function(e) {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            const video = this.closest('.premium-ad-slide').querySelector('video');
+                            if (video) {
+                                const isMuted = this.getAttribute('data-muted') === 'true';
+                                video.muted = !isMuted;
+                                this.setAttribute('data-muted', !isMuted);
+                                this.innerHTML = isMuted ? '<i class="fas fa-volume-up"></i>' : '<i class="fas fa-volume-mute"></i>';
+                                this.style.background = isMuted ? 'rgba(255, 23, 68, 0.9)' : 'rgba(0, 0, 0, 0.7)';
+                                this.style.transform = 'scale(1.2)';
+                                setTimeout(() => { this.style.transform = 'scale(1)'; }, 200);
+                            }
+                        };
+                        
+                        muteButton.onmouseenter = function() {
+                            this.style.transform = 'scale(1.15)';
+                            this.style.boxShadow = '0 6px 16px rgba(0, 0, 0, 0.6), 0 0 30px rgba(255, 23, 68, 0.5), inset 0 2px 0 rgba(255, 255, 255, 0.3)';
+                        };
+                        muteButton.onmouseleave = function() {
+                            this.style.transform = 'scale(1)';
+                            this.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 23, 68, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2)';
+                        };
+                        
+                        slide.appendChild(muteButton);
+                    }
+                    
+                    // Add CTA button if link is provided
+                    if (ad.link && ad.link.trim() !== '') {
+                        const ctaButton = document.createElement('a');
+                        ctaButton.href = ad.link;
+                        ctaButton.target = '_blank';
+                        ctaButton.rel = 'noopener noreferrer';
+                        ctaButton.className = 'ad-cta-button';
+                        ctaButton.innerHTML = `<i class="fas fa-external-link-alt"></i> ${ad.buttonText || 'Learn More'}`;
+                        // Position beside mute button if video, otherwise right side
+                        const leftPosition = isVideo ? '76px' : '16px';
+                        ctaButton.style.cssText = `position: absolute; bottom: 16px; left: ${leftPosition}; background: linear-gradient(135deg, #FF1744, #ff5252); color: white; padding: 12px 24px; border-radius: 50px; font-weight: 800; font-size: 0.9rem; text-decoration: none; display: flex; align-items: center; gap: 8px; box-shadow: 0 8px 24px rgba(255, 23, 68, 0.6), 0 0 40px rgba(255, 23, 68, 0.4), inset 0 2px 0 rgba(255, 255, 255, 0.3); border: 3px solid rgba(255, 255, 255, 0.9); transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); z-index: 10; text-transform: uppercase; letter-spacing: 0.08em; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); animation: ctaPulse 2s ease-in-out infinite; opacity: 0; animation-delay: 0.6s; animation-fill-mode: forwards;`;
+                        
+                        ctaButton.onmouseenter = function() {
+                            this.style.transform = 'scale(1.1) translateY(-2px)';
+                            this.style.boxShadow = '0 12px 32px rgba(255, 23, 68, 0.8), 0 0 60px rgba(255, 23, 68, 0.6), inset 0 3px 0 rgba(255, 255, 255, 0.4)';
+                            this.style.animation = 'none';
+                        };
+                        ctaButton.onmouseleave = function() {
+                            this.style.transform = 'scale(1) translateY(0)';
+                            this.style.boxShadow = '0 8px 24px rgba(255, 23, 68, 0.6), 0 0 40px rgba(255, 23, 68, 0.4), inset 0 2px 0 rgba(255, 255, 255, 0.3)';
+                            this.style.animation = 'ctaPulse 2s ease-in-out infinite';
+                        };
+                        
+                        slide.appendChild(ctaButton);
+                    }
+                    
                     adSlidesContainer.appendChild(slide);
                 });
                 
@@ -1718,6 +1851,13 @@
             const slides = document.querySelectorAll('.premium-ad-slide');
             const dots = document.querySelectorAll('.premium-ad-dot');
             
+            // Pause current video if exists
+            const currentVideo = slides[currentAdIndex].querySelector('video');
+            if (currentVideo) {
+                currentVideo.pause();
+                currentVideo.currentTime = 0;
+            }
+            
             // Hide current
             slides[currentAdIndex].style.opacity = '0';
             slides[currentAdIndex].style.transform = 'translate3d(-50px, 0, 0) scale(0.95)';
@@ -1742,12 +1882,36 @@
                         dots[currentAdIndex].style.transform = 'scale(1.1)';
                         dots[currentAdIndex].classList.add('active');
                     }
+                    
+                    // Play new video if exists
+                    const newVideo = slides[currentAdIndex].querySelector('video');
+                    if (newVideo) {
+                        newVideo.play().catch(e => console.log('Video autoplay prevented:', e));
+                    }
+                    
+                    // Restart CTA button animation
+                    const ctaButton = slides[currentAdIndex].querySelector('.ad-cta-button');
+                    if (ctaButton) {
+                        ctaButton.style.animation = 'none';
+                        ctaButton.offsetHeight; // Trigger reflow
+                        ctaButton.style.animation = 'ctaPulse 2s ease-in-out infinite';
+                    }
                 });
             });
             
-            // Reset auto-advance timer
+            // Reset auto-advance timer (only for non-video ads)
             if (totalAds > 1) {
-                startAdAutoAdvance();
+                const currentAd = adsDataGlobal[currentAdIndex];
+                const isVideo = currentAd && currentAd.url.toLowerCase().match(/\.(mp4|webm|ogg)$/);
+                if (!isVideo) {
+                    startAdAutoAdvance();
+                } else {
+                    // Clear timer for video ads (they advance on 'ended' event)
+                    if (adAutoAdvanceInterval) {
+                        clearInterval(adAutoAdvanceInterval);
+                        adAutoAdvanceInterval = null;
+                    }
+                }
             }
         }
 
@@ -1769,9 +1933,16 @@
             }
             
             if (totalAds > 1) {
-                adAutoAdvanceInterval = setInterval(() => {
-                    navigatePremiumAd(1);
-                }, 5000); // 5 seconds per ad
+                // Check if current ad is a video
+                const currentAd = adsDataGlobal[currentAdIndex];
+                const isVideo = currentAd && currentAd.url.toLowerCase().match(/\.(mp4|webm|ogg)$/);
+                
+                // Only set interval for images/gifs (videos advance on 'ended' event)
+                if (!isVideo) {
+                    adAutoAdvanceInterval = setInterval(() => {
+                        navigatePremiumAd(1);
+                    }, 5000); // 5 seconds per image/gif
+                }
             }
         }
 
