@@ -86,7 +86,7 @@
             margin: 0 auto; 
             padding: 16px;
             display: grid;
-            grid-template-columns: 1fr 360px;
+            grid-template-columns: 1fr 520px;
             gap: 16px;
             min-height: calc(100vh - 60px);
         }
@@ -776,11 +776,11 @@
             color: var(--warning); 
         }
         .activity-feed-container { 
-            flex: 0 0 50%;
+            flex: 0 0 40%;
             display: flex; 
             flex-direction: column;
             min-height: 0;
-            max-height: 50%;
+            max-height: 40%;
             overflow: visible;
             position: relative;
             margin-bottom: 16px;
@@ -2291,7 +2291,7 @@
         /* Responsive Design */
         @media (max-width: 1400px) {
             .wrapper {
-                grid-template-columns: 1fr 360px;
+                grid-template-columns: 1fr 520px;
                 gap: 20px;
             }
             .premium-ad-carousel {
@@ -2638,6 +2638,47 @@
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
         }
     </style>
+    <script>
+        // Make upload modal function available immediately
+        window.openUploadModal = function() {
+            // Check if user is signed in
+            if (!window.firebaseAuth || !window.firebaseAuth.currentUser) {
+                alert('Please sign in to upload builds!');
+                return;
+            }
+            
+            // Create and show modal
+            const modal = document.createElement('div');
+            modal.className = 'build-modal show';
+            modal.innerHTML = `
+                <div class="build-modal-content" style="max-width: 500px;">
+                    <button class="build-modal-close" onclick="this.closest('.build-modal').remove()">×</button>
+                    <h2 style="margin-bottom: 20px; color: var(--primary);">
+                        <i class="fas fa-upload"></i> Share Your Build
+                    </h2>
+                    <div style="display: flex; flex-direction: column; gap: 16px;">
+                        <div>
+                            <label style="display: block; margin-bottom: 8px; font-weight: 700; color: var(--text-bright);">Title</label>
+                            <input id="buildTitle" type="text" placeholder="My Amazing Build" style="width: 100%; padding: 12px; border-radius: 8px; border: 2px solid var(--border); background: rgba(0,0,0,0.3); color: var(--text); font-size: 0.9rem;" maxlength="60">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 8px; font-weight: 700; color: var(--text-bright);">Description</label>
+                            <textarea id="buildDescription" placeholder="Tell us about your build..." style="width: 100%; padding: 12px; border-radius: 8px; border: 2px solid var(--border); background: rgba(0,0,0,0.3); color: var(--text); font-size: 0.9rem; min-height: 80px; resize: vertical;" maxlength="500"></textarea>
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 8px; font-weight: 700; color: var(--text-bright);">Media File</label>
+                            <input id="buildFile" type="file" accept="image/*,video/*" style="width: 100%; padding: 12px; border-radius: 8px; border: 2px solid var(--border); background: rgba(0,0,0,0.3); color: var(--text); font-size: 0.9rem;">
+                            <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 8px;">Max: 5MB for images, 50MB for videos (30s)</p>
+                        </div>
+                        <button onclick="handleBuildUpload()" style="background: linear-gradient(135deg, #FF1744, #FF5252); border: none; color: white; padding: 14px; border-radius: 12px; cursor: pointer; font-weight: 800; font-size: 0.95rem; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(255, 23, 68, 0.4);">
+                            <i class="fas fa-cloud-upload-alt"></i> Upload Build
+                        </button>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
+    </script>
 </head>
 <body>
     <!-- Authentication Modal -->
@@ -2654,7 +2695,8 @@
                 
                 <div class="auth-form-group">
                     <label class="auth-form-label">Username</label>
-                    <input type="text" id="signupUsername" class="auth-form-input" placeholder="alphanumeric and _ only" maxlength="20" oninput="validateUsernameInput(this)">
+                    <input type="text" id="signupUsername" class="auth-form-input" placeholder="Username (no spaces)" maxlength="20" oninput="validateUsernameInput(this)">
+                    <p style="font-size: 0.7rem; color: var(--text-muted); margin-top: 4px;">3-20 characters, no spaces allowed</p>
                     <div id="usernameCheck" class="username-check"></div>
                     <div id="signupUsernameError" class="auth-error-msg"></div>
                 </div>
@@ -2927,7 +2969,7 @@
                             </h2>
                             <p class="section-subtitle">Showcase your amazing Bloxburg builds</p>
                         </div>
-                        <button id="uploadBuildBtn" style="background: linear-gradient(135deg, #FF1744, #FF5252); border: none; color: white; padding: 10px 18px; border-radius: 12px; cursor: pointer; font-weight: 800; font-size: 0.85rem; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(255, 23, 68, 0.4); display: flex; align-items: center; gap: 8px;">
+                        <button id="uploadBuildBtn" onclick="openUploadModal()" style="background: linear-gradient(135deg, #FF1744, #FF5252); border: none; color: white; padding: 10px 18px; border-radius: 12px; cursor: pointer; font-weight: 800; font-size: 0.85rem; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(255, 23, 68, 0.4); display: flex; align-items: center; gap: 8px;">
                             <i class="fas fa-upload"></i> Share Build
                         </button>
                     </div>
@@ -3019,7 +3061,7 @@
         import { getDatabase, ref, push, onChildAdded, onValue, off, serverTimestamp, limitToLast, query, get, set, update, child } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
         import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, sendPasswordResetEmail, updateProfile, signInAnonymously, GoogleAuthProvider, signInWithPopup, sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-auth.js";
         import { getStorage, ref as storageRef, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-storage.js";
-        import { getFirestore, collection, addDoc, getDocs, doc, updateDoc, deleteDoc, orderBy, query as firestoreQuery, limit, onSnapshot, increment, arrayUnion, Timestamp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
+        import { getFirestore, collection, addDoc, getDocs, doc, updateDoc, arrayUnion, serverTimestamp as firestoreTimestamp, query as firestoreQuery, orderBy, limit } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
 
         // Firebase configuration
         const firebaseConfig = {
@@ -3051,6 +3093,18 @@
 
         // Current user state
         let currentUser = null;
+        
+        // Username validation
+        function validateUsername(username) {
+            // Remove spaces
+            username = username.replace(/\s+/g, '');
+            // Only allow alphanumeric, underscore, and hyphen
+            username = username.replace(/[^a-zA-Z0-9_-]/g, '');
+            // Limit length to 3-20 characters
+            if (username.length < 3) username = username.padEnd(3, '0');
+            if (username.length > 20) username = username.substring(0, 20);
+            return username;
+        }
 
         // Chat System with Firebase
         let chatMessagesRef = ref(database, 'chat/general/messages');
@@ -3540,7 +3594,8 @@
 
         // Validate username input - only alphanumeric and underscore
         window.validateUsernameInput = function(input) {
-            input.value = input.value.replace(/[^a-zA-Z0-9_]/g, '');
+            // Remove spaces and invalid characters in real-time
+            input.value = input.value.replace(/\s+/g, '').replace(/[^a-zA-Z0-9_-]/g, '');
         }
 
         // Check if username is available
@@ -3616,11 +3671,11 @@
             // Validation
             let hasError = false;
             
-            if (username.length < 3) {
-                showError('signupUsername', 'signupUsernameError', 'Username must be at least 3 characters');
-                hasError = true;
-            } else if (!/^[a-zA-Z0-9_]+$/.test(username)) {
-                showError('signupUsername', 'signupUsernameError', 'Username can only contain letters, numbers, and underscores');
+            // Validate and clean username (remove spaces automatically)
+            const cleanUsername = validateUsername(username);
+            
+            if (cleanUsername.length < 3) {
+                showError('signupUsername', 'signupUsernameError', 'Username must be at least 3 characters (spaces not allowed)');
                 hasError = true;
             }
             
@@ -3666,15 +3721,16 @@
                     photoURL = await getDownloadURL(profileRef);
                 }
                 
-                // Update Firebase Auth profile
+                // Update Firebase Auth profile with cleaned username
+                const cleanUsername = validateUsername(username);
                 await updateProfile(user, {
-                    displayName: username,
+                    displayName: cleanUsername,
                     photoURL: photoURL
                 });
                 
-                // Store user data in Realtime Database
+                // Store user data in Realtime Database with cleaned username
                 await set(ref(database, `users/${user.uid}`), {
-                    username: username,
+                    username: cleanUsername,
                     email: email,
                     photoURL: photoURL,
                     createdAt: serverTimestamp(),
@@ -3682,7 +3738,7 @@
                 });
                 
                 // Reserve username
-                await set(ref(database, `usernames/${username.toLowerCase()}`), user.uid);
+                await set(ref(database, `usernames/${cleanUsername.toLowerCase()}`), user.uid);
                 
                 closeAuthModal();
                 alert('Account created successfully! Welcome to Crumbl Crafts! 🎉');
@@ -3709,7 +3765,8 @@
                 console.log('Anonymous user signed in:', userCredential.user.uid);
                 
                 // Generate random guest username
-                const guestUsername = 'Guest_' + Math.random().toString(36).substr(2, 6);
+                let guestUsername = 'Guest_' + Math.random().toString(36).substr(2, 6);
+                guestUsername = validateUsername(guestUsername);
                 
                 // Store guest user info
                 await set(ref(database, `users/${userCredential.user.uid}`), {
@@ -3740,9 +3797,11 @@
                 const userSnapshot = await get(ref(database, `users/${user.uid}`));
                 
                 if (!userSnapshot.exists()) {
-                    // New Google user - create profile
+                    // New Google user - create profile with validated username
+                    let username = user.displayName || user.email.split('@')[0];
+                    username = validateUsername(username);
                     await set(ref(database, `users/${user.uid}`), {
-                        username: user.displayName || user.email.split('@')[0],
+                        username: username,
                         email: user.email,
                         photoURL: user.photoURL,
                         provider: 'google',
@@ -5108,9 +5167,9 @@
                 html += '</div>';
             }
             
-            // Render compact list for rest
+            // Render compact list for rest (2 per row)
             if (rest.length > 0) {
-                html += '<div style="display: flex; flex-direction: column; gap: 8px;">';
+                html += '<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px;">';
                 rest.forEach((builder, i) => {
                     const rank = i + 4;
                     const url = builder.url || 
@@ -5300,26 +5359,52 @@
             list.innerHTML = newsHTML;
         }
         
-        // Build Museum Functions with Firestore
+        // ==========================================
+        // Build Museum - Firebase Firestore Integration
+        // ==========================================
+        // Features:
+        // - Upload images (max 5MB) and videos (max 50MB, 30s)
+        // - Real-time loading from Firestore
+        // - User ratings (1-5 stars) with average calculation
+        // - Comment system with user authentication
+        // - Firebase Storage for media files
+        // ==========================================
+        
         let buildMuseumBuilds = [];
-        let buildsUnsubscribe = null;
         
         async function initBuildMuseum() {
             try {
-                // Real-time listener for builds from Firestore
-                const buildsCollection = collection(firestore, 'builds');
+                // Load builds from Firestore
+                await loadBuildsFromFirestore();
+                renderBuildMuseum();
+            } catch (error) {
+                console.error('Error initializing Build Museum:', error);
+                // Show error message in grid
+                const grid = getElement('buildMuseumGrid');
+                if (grid) {
+                    grid.innerHTML = '<p style="color: var(--text-muted); text-align: center; padding: 40px 0;">Error loading builds. Please try again later.</p>';
+                }
+            }
+        }
+        
+        async function loadBuildsFromFirestore() {
+            try {
+                const buildsCollection = collection(window.firestore, 'builds');
                 const buildsQuery = firestoreQuery(buildsCollection, orderBy('createdAt', 'desc'), limit(50));
+                const snapshot = await getDocs(buildsQuery);
                 
-                buildsUnsubscribe = onSnapshot(buildsQuery, (snapshot) => {
-                    buildMuseumBuilds = snapshot.docs.map(doc => ({
+                buildMuseumBuilds = [];
+                snapshot.forEach((doc) => {
+                    buildMuseumBuilds.push({
                         id: doc.id,
                         ...doc.data()
-                    }));
-                    renderBuildMuseum();
+                    });
                 });
+                
+                console.log(`Loaded ${buildMuseumBuilds.length} builds from Firestore`);
             } catch (error) {
                 console.error('Error loading builds:', error);
-                getElement('buildMuseumGrid').innerHTML = '<p style="text-align: center; color: var(--text-muted); padding: 40px;">Error loading builds. Please refresh.</p>';
+                buildMuseumBuilds = [];
             }
         }
         
@@ -5328,7 +5413,7 @@
             if (!grid) return;
             
             if (buildMuseumBuilds.length === 0) {
-                grid.innerHTML = '<p style="text-align: center; color: var(--text-muted); padding: 40px;">No builds yet. Be the first to share! 🏗️</p>';
+                grid.innerHTML = '<p style="text-align: center; color: var(--text-muted); padding: 40px;">No builds yet. Be the first to share your amazing Bloxburg build!</p>';
                 return;
             }
             
@@ -5336,7 +5421,7 @@
                 <div class="build-card" onclick="openBuildModal('${build.id}')">
                     <div class="build-card-media">
                         ${build.type === 'video' 
-                            ? `<video src="${build.mediaUrl}" loop muted></video>` 
+                            ? `<video src="${build.mediaUrl}" loop muted loading="lazy"></video>` 
                             : `<img src="${build.mediaUrl}" alt="${build.title}" loading="lazy" />`
                         }
                         <div class="build-card-type">${build.type === 'video' ? '📹 Video' : '🖼️ Image'}</div>
@@ -5370,27 +5455,11 @@
             const build = buildMuseumBuilds.find(b => b.id === buildId);
             if (!build) return;
             
-            const formatTime = (timestamp) => {
-                if (!timestamp) return 'Just now';
-                const date = timestamp.toDate ? timestamp.toDate() : new Date(timestamp);
-                const now = new Date();
-                const diff = Math.floor((now - date) / 1000);
-                
-                if (diff < 60) return 'Just now';
-                if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
-                if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
-                if (diff < 604800) return `${Math.floor(diff / 86400)}d ago`;
-                return date.toLocaleDateString();
-            };
-            
-            const canDelete = currentUser && build.authorId === currentUser.uid;
-            
             const modal = document.createElement('div');
             modal.className = 'build-modal show';
             modal.innerHTML = `
                 <div class="build-modal-content">
                     <button class="build-modal-close" onclick="this.closest('.build-modal').remove()">×</button>
-                    ${canDelete ? `<button onclick="deleteBuild('${buildId}')" style="position: absolute; top: 16px; right: 60px; background: #FF1744; color: white; border: none; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 0.85rem; transition: all 0.2s;" onmouseover="this.style.background='#D50000'" onmouseout="this.style.background='#FF1744'"><i class="fas fa-trash"></i> Delete</button>` : ''}
                     <div class="build-modal-media">
                         ${build.type === 'video' 
                             ? `<video src="${build.mediaUrl}" controls autoplay loop></video>` 
@@ -5401,14 +5470,13 @@
                         <h2 class="build-modal-title">${build.title}</h2>
                         <div style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 12px;">
                             <i class="fas fa-user"></i> ${build.author} · 
-                            <i class="fas fa-star" style="color: #FFD700;"></i> ${(build.rating || 0).toFixed(1)} (${build.ratingCount || 0} ratings) · 
-                            ${formatTime(build.createdAt)}
+                            <i class="fas fa-star" style="color: #FFD700;"></i> ${build.rating.toFixed(1)} (${build.ratingCount} ratings)
                         </div>
-                        <p class="build-modal-description">${build.description || ''}</p>
+                        <p class="build-modal-description">${build.description}</p>
                         
                         <div style="display: flex; gap: 8px; margin-bottom: 20px;">
                             ${[1,2,3,4,5].map(star => `
-                                <button onclick="rateBuild('${buildId}', ${star})" style="background: ${star <= Math.round(build.rating || 0) ? '#FFD700' : 'rgba(255, 255, 255, 0.1)'}; border: none; color: white; padding: 8px 12px; border-radius: 8px; cursor: pointer; transition: all 0.2s;">
+                                <button onclick="rateBuild(${buildId}, ${star})" style="background: ${star <= Math.round(build.rating) ? '#FFD700' : 'rgba(255, 255, 255, 0.1)'}; border: none; color: white; padding: 8px 12px; border-radius: 8px; cursor: pointer; transition: all 0.2s;">
                                     <i class="fas fa-star"></i>
                                 </button>
                             `).join('')}
@@ -5416,16 +5484,16 @@
                         
                         <div class="build-comments">
                             <h3 style="font-size: 1.1rem; font-weight: 800; margin-bottom: 12px;">
-                                <i class="fas fa-comments"></i> Comments (${(build.comments || []).length})
+                                <i class="fas fa-comments"></i> Comments (${build.comments.length})
                             </h3>
                             <div class="build-comment-input">
                                 <input type="text" id="commentInput${buildId}" placeholder="Add a comment..." />
-                                <button onclick="addComment('${buildId}')">Post</button>
+                                <button onclick="addComment(${buildId})">Post</button>
                             </div>
                             <div id="commentsContainer${buildId}">
-                                ${(build.comments || []).map(c => `
+                                ${build.comments.map(c => `
                                     <div class="build-comment">
-                                        <div class="build-comment-author">${c.author} · <span style="font-size: 0.75rem; opacity: 0.7;">${formatTime(c.timestamp)}</span></div>
+                                        <div class="build-comment-author">${c.author}</div>
                                         <div class="build-comment-text">${c.text}</div>
                                     </div>
                                 `).join('') || '<p style="text-align: center; color: var(--text-muted); padding: 20px;">No comments yet. Be the first!</p>'}
@@ -5446,21 +5514,33 @@
             }
             
             try {
-                const buildRef = doc(firestore, 'builds', buildId);
                 const build = buildMuseumBuilds.find(b => b.id === buildId);
                 if (!build) return;
                 
-                const newRating = ((build.rating * build.ratingCount) + stars) / (build.ratingCount + 1);
+                // Update rating in Firestore
+                const buildRef = doc(window.firestore, 'builds', buildId);
+                const ratings = build.ratings || {};
+                ratings[currentUser.uid] = stars;
+                
+                // Calculate new average
+                const ratingValues = Object.values(ratings);
+                const newRating = ratingValues.reduce((a, b) => a + b, 0) / ratingValues.length;
                 
                 await updateDoc(buildRef, {
+                    ratings: ratings,
                     rating: newRating,
-                    ratingCount: increment(1),
-                    ratings: arrayUnion({ userId: currentUser.uid, stars: stars, timestamp: Timestamp.now() })
+                    ratingCount: ratingValues.length
                 });
                 
+                // Update local data
+                build.ratings = ratings;
+                build.rating = newRating;
+                build.ratingCount = ratingValues.length;
+                
+                renderBuildMuseum();
                 alert(`Rated ${stars} stars! Thank you for your feedback.`);
             } catch (error) {
-                console.error('Error rating build:', error);
+                console.error('Rating error:', error);
                 alert('Failed to rate build. Please try again.');
             }
         }
@@ -5476,115 +5556,184 @@
             if (!text) return;
             
             try {
-                const buildRef = doc(firestore, 'builds', buildId);
+                const build = buildMuseumBuilds.find(b => b.id === buildId);
+                if (!build) return;
                 
+                const newComment = {
+                    author: currentUser.displayName || currentUser.email || 'Anonymous',
+                    authorId: currentUser.uid,
+                    text: text,
+                    timestamp: Date.now()
+                };
+                
+                // Update Firestore
+                const buildRef = doc(window.firestore, 'builds', buildId);
                 await updateDoc(buildRef, {
-                    comments: arrayUnion({
-                        author: userId || currentUser.displayName || 'Anonymous',
-                        text: text,
-                        timestamp: Timestamp.now()
-                    })
+                    comments: arrayUnion(newComment)
                 });
+                
+                // Update local data
+                if (!build.comments) build.comments = [];
+                build.comments.push(newComment);
                 
                 input.value = '';
                 
-                // Modal will auto-refresh via Firestore listener
-                document.querySelector('.build-modal')?.remove();
-                setTimeout(() => openBuildModal(buildId), 100);
+                // Refresh comments display
+                const container = document.getElementById(`commentsContainer${buildId}`);
+                container.innerHTML = build.comments.map(c => `
+                    <div class="build-comment">
+                        <div class="build-comment-author">${c.author}</div>
+                        <div class="build-comment-text">${c.text}</div>
+                    </div>
+                `).join('');
+                
+                renderBuildMuseum();
             } catch (error) {
-                console.error('Error adding comment:', error);
+                console.error('Comment error:', error);
                 alert('Failed to add comment. Please try again.');
             }
         }
         
-        // Upload build function
-        async function uploadBuild() {
+        // Upload build functionality
+        async function uploadBuild(file, title, description) {
             if (!currentUser) {
-                alert('Please sign in to share your build!');
+                alert('Please sign in to upload builds!');
                 return;
             }
             
-            const title = prompt('Enter build title:');
-            if (!title) return;
-            
-            const description = prompt('Enter build description:');
-            if (!description) return;
-            
-            const fileInput = document.createElement('input');
-            fileInput.type = 'file';
-            fileInput.accept = 'image/*,video/*';
-            
-            fileInput.onchange = async (e) => {
-                const file = e.target.files[0];
-                if (!file) return;
-                
+            try {
+                // Validate file
+                const maxImageSize = 5 * 1024 * 1024; // 5MB
+                const maxVideoSize = 50 * 1024 * 1024; // 50MB
                 const isVideo = file.type.startsWith('video/');
-                const maxSize = isVideo ? 50 * 1024 * 1024 : 5 * 1024 * 1024;
+                const isImage = file.type.startsWith('image/');
                 
-                if (file.size > maxSize) {
-                    alert(`File too large! Max size: ${isVideo ? '50MB for videos' : '5MB for images'}`);
+                if (!isVideo && !isImage) {
+                    alert('Please upload an image or video file.');
                     return;
                 }
                 
-                try {
-                    // Upload to Firebase Storage
-                    const fileRef = storageRef(storage, `builds/${currentUser.uid}/${Date.now()}_${file.name}`);
-                    await uploadBytes(fileRef, file);
-                    const mediaUrl = await getDownloadURL(fileRef);
-                    
-                    // Save to Firestore
-                    await addDoc(collection(firestore, 'builds'), {
-                        title: title,
-                        description: description,
-                        author: userId || currentUser.displayName || 'Anonymous',
-                        authorId: currentUser.uid,
-                        type: isVideo ? 'video' : 'image',
-                        mediaUrl: mediaUrl,
-                        rating: 0,
-                        ratingCount: 0,
-                        ratings: [],
-                        comments: [],
-                        createdAt: Timestamp.now()
-                    });
-                    
-                    alert('Build uploaded successfully! 🎉');
-                } catch (error) {
-                    console.error('Error uploading build:', error);
-                    alert('Failed to upload build. Please try again.');
+                if (isImage && file.size > maxImageSize) {
+                    alert('Image size must be less than 5MB.');
+                    return;
                 }
-            };
-            
-            fileInput.click();
+                
+                if (isVideo && file.size > maxVideoSize) {
+                    alert('Video size must be less than 50MB.');
+                    return;
+                }
+                
+                // Show uploading message
+                const uploadBtn = document.getElementById('uploadBuildBtn');
+                const originalText = uploadBtn.innerHTML;
+                uploadBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Uploading...';
+                uploadBtn.disabled = true;
+                
+                // Upload file to Firebase Storage
+                const timestamp = Date.now();
+                const fileExtension = file.name.split('.').pop();
+                const fileName = `builds/${currentUser.uid}/${timestamp}.${fileExtension}`;
+                const fileRef = storageRef(window.firebaseStorage, fileName);
+                
+                await uploadBytes(fileRef, file);
+                const mediaUrl = await getDownloadURL(fileRef);
+                
+                // Add build to Firestore
+                const buildsCollection = collection(window.firestore, 'builds');
+                await addDoc(buildsCollection, {
+                    title: title,
+                    description: description,
+                    author: currentUser.displayName || currentUser.email || 'Anonymous',
+                    authorId: currentUser.uid,
+                    type: isVideo ? 'video' : 'image',
+                    mediaUrl: mediaUrl,
+                    rating: 0,
+                    ratingCount: 0,
+                    ratings: {},
+                    comments: [],
+                    createdAt: firestoreTimestamp()
+                });
+                
+                // Refresh builds
+                await loadBuildsFromFirestore();
+                renderBuildMuseum();
+                
+                uploadBtn.innerHTML = originalText;
+                uploadBtn.disabled = false;
+                alert('Build uploaded successfully!');
+                
+            } catch (error) {
+                console.error('Upload error:', error);
+                alert('Failed to upload build. Please try again.');
+                const uploadBtn = document.getElementById('uploadBuildBtn');
+                uploadBtn.innerHTML = '<i class="fas fa-upload"></i> Share Build';
+                uploadBtn.disabled = false;
+            }
         }
         
-        // Delete build function
-        async function deleteBuild(buildId) {
-            const build = buildMuseumBuilds.find(b => b.id === buildId);
-            if (!build) return;
-            
-            if (!currentUser || build.authorId !== currentUser.uid) {
-                alert('You can only delete your own builds!');
+        // Show upload modal
+        window.showUploadModal = function() {
+            if (!currentUser) {
+                alert('Please sign in to upload builds!');
                 return;
             }
             
-            if (!confirm('Are you sure you want to delete this build?')) return;
-            
-            try {
-                await deleteDoc(doc(firestore, 'builds', buildId));
-                document.querySelector('.build-modal')?.remove();
-                alert('Build deleted successfully!');
-            } catch (error) {
-                console.error('Error deleting build:', error);
-                alert('Failed to delete build. Please try again.');
-            }
+            const modal = document.createElement('div');
+            modal.className = 'build-modal show';
+            modal.innerHTML = `
+                <div class="build-modal-content" style="max-width: 500px;">
+                    <button class="build-modal-close" onclick="this.closest('.build-modal').remove()">×</button>
+                    <h2 style="margin-bottom: 20px; color: var(--primary);">
+                        <i class="fas fa-upload"></i> Share Your Build
+                    </h2>
+                    <div style="display: flex; flex-direction: column; gap: 16px;">
+                        <div>
+                            <label style="display: block; margin-bottom: 8px; font-weight: 700; color: var(--text-bright);">Title</label>
+                            <input id="buildTitle" type="text" placeholder="My Amazing Build" style="width: 100%; padding: 12px; border-radius: 8px; border: 2px solid var(--border); background: rgba(0,0,0,0.3); color: var(--text); font-size: 0.9rem;" maxlength="60">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 8px; font-weight: 700; color: var(--text-bright);">Description</label>
+                            <textarea id="buildDescription" placeholder="Tell us about your build..." style="width: 100%; padding: 12px; border-radius: 8px; border: 2px solid var(--border); background: rgba(0,0,0,0.3); color: var(--text); font-size: 0.9rem; min-height: 80px; resize: vertical;" maxlength="500"></textarea>
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 8px; font-weight: 700; color: var(--text-bright);">Media File</label>
+                            <input id="buildFile" type="file" accept="image/*,video/*" style="width: 100%; padding: 12px; border-radius: 8px; border: 2px solid var(--border); background: rgba(0,0,0,0.3); color: var(--text); font-size: 0.9rem;">
+                            <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 8px;">Max: 5MB for images, 50MB for videos (30s)</p>
+                        </div>
+                        <button onclick="handleBuildUpload()" style="background: linear-gradient(135deg, #FF1744, #FF5252); border: none; color: white; padding: 14px; border-radius: 12px; cursor: pointer; font-weight: 800; font-size: 0.95rem; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(255, 23, 68, 0.4);">
+                            <i class="fas fa-cloud-upload-alt"></i> Upload Build
+                        </button>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
         }
         
-        // Upload build button handler
-        document.addEventListener('DOMContentLoaded', () => {
-            const uploadBtn = document.getElementById('uploadBuildBtn');
-            if (uploadBtn) {
-                uploadBtn.onclick = uploadBuild;
+        window.handleBuildUpload = async function() {
+            const title = document.getElementById('buildTitle').value.trim();
+            const description = document.getElementById('buildDescription').value.trim();
+            const fileInput = document.getElementById('buildFile');
+            const file = fileInput.files[0];
+            
+            if (!title) {
+                alert('Please enter a title for your build.');
+                return;
             }
+            
+            if (!file) {
+                alert('Please select an image or video file.');
+                return;
+            }
+            
+            // Close modal
+            document.querySelector('.build-modal').remove();
+            
+            // Upload
+            await uploadBuild(file, title, description);
+        }
+        
+        // Initialize Build Museum on page load
+        document.addEventListener('DOMContentLoaded', () => {
             initBuildMuseum();
         });
         
