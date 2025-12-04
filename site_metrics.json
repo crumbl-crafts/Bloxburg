@@ -73,6 +73,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "Grocery Shopping prep! \ud83d\uded2\ud83d\udecd\ufe0f #berryave #berryavenue #robloxrp #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764818238.0,
+      "url": "https://www.youtube.com/watch?v=9ExYPWbZRds",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "ASMR morning routine in Bloxburg #roblox #bloxburg #morningroutine #asmr #fyp\u30b7\u309aviral #robloxedit",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764813515.0,
+      "url": "https://www.youtube.com/watch?v=V2xxzsqbuI0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "D\u00eda 4 del Calendario de Adviento de Bloxburg \ud83d\uddd3\ufe0f\ud83c\udf84 #shorts #bloxburg #roblox #christmas",
       "description": "D\u00eda 4 del Calendario de Adviento de Bloxburg ------------------------------------------------- \u2b50 Mis...",
       "source": "YouTube",
@@ -96,24 +114,6 @@
       "source": "YouTube",
       "timestamp": 1764804086.0,
       "url": "https://www.youtube.com/watch?v=4VYx2JCWTlk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "the base of my new cozy bedroom build! \u2603\ufe0f #bloxburg #bloxburgchristmas #fyp #bloxburgbuild #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764802352.0,
-      "url": "https://www.youtube.com/watch?v=cnQzhuinM3c",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Stranger Things Bloxburg | Official Trailer |",
-      "description": "For last 4 and a half weeks I have been working on a trailer Here it is... Join the discord If you l...",
-      "source": "YouTube",
-      "timestamp": 1764800356.0,
-      "url": "https://www.youtube.com/watch?v=8bWAAy81MjA",
       "icon": "fa-youtube"
     },
     {
@@ -154,7 +154,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764820535.4388194,
+    "generated_at": 1764821735.161282,
     "mode": "memory",
     "refresh_interval": 2000
   }
