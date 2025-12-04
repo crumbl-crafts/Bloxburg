@@ -91,6 +91,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "&quot;Don&#39;t Push Me on the Swing! \ud83d\ude02 Instant Karma&quot;#shorts",
+      "description": "A funny Roblox animation where a bully pushes a noob too hard, but gets launched into space by a cra...",
+      "source": "YouTube",
+      "timestamp": 1764869862.0,
+      "url": "https://www.youtube.com/watch?v=Xw_jiwoHpro",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#bloxburg #roblox #\u0634\u0644\u062a\u0646\u0627",
       "description": "...",
       "source": "YouTube",
@@ -123,15 +132,6 @@
       "source": "YouTube",
       "timestamp": 1764863445.0,
       "url": "https://www.youtube.com/watch?v=ANPdwNszR8k",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#roblox #bloxburg #funny #robloxedit #kids #typicallykatie #robloxmemes #rblx #videogamememes",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764858920.0,
-      "url": "https://www.youtube.com/watch?v=SjQ5XackXPo",
       "icon": "fa-youtube"
     },
     {
@@ -172,7 +172,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764869906.3798018,
+    "generated_at": 1764871106.365669,
     "mode": "memory",
     "refresh_interval": 2000
   }
