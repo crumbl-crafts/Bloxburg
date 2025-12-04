@@ -813,24 +813,32 @@
         }
         .activity-list { 
             overflow-y: auto; 
+            overflow-x: hidden;
             display: flex; 
             flex-direction: column; 
             gap: 10px; 
             padding-right: 4px;
+            max-height: calc(100vh - 300px);
+            flex: 1;
+            min-height: 0;
+            overscroll-behavior: contain;
         }
         .activity-list::-webkit-scrollbar { 
-            width: 6px; 
+            width: 8px; 
         }
         .activity-list::-webkit-scrollbar-track { 
-            background: transparent; 
+            background: rgba(0, 0, 0, 0.3); 
+            border-radius: 10px;
         }
         .activity-list::-webkit-scrollbar-thumb { 
             background: var(--border); 
             border-radius: 10px;
             transition: background 0.2s ease;
+            border: 2px solid rgba(0, 0, 0, 0.3);
         }
         .activity-list::-webkit-scrollbar-thumb:hover { 
-            background: var(--text-muted); 
+            background: var(--primary); 
+            box-shadow: 0 0 8px var(--primary-glow);
         }
         .activity-item { 
             display: flex; 
