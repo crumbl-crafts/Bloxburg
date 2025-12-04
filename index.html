@@ -789,10 +789,18 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 12px;
-            padding-bottom: 12px;
+            margin-bottom: 8px;
+            padding-bottom: 8px;
             border-bottom: 1px solid var(--border);
             flex-shrink: 0;
+        }
+        .feed-header .section-title {
+            font-size: 1.1rem;
+            margin-bottom: 0;
+        }
+        .feed-header .section-subtitle {
+            font-size: 0.7rem;
+            margin-top: 2px;
         }
         .feed-stats {
             display: flex;
@@ -874,10 +882,46 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 12px;
-            padding-bottom: 12px;
+            margin-bottom: 8px;
+            padding-bottom: 8px;
             border-bottom: 1px solid var(--border);
             flex-shrink: 0;
+        }
+        .chat-header .section-title {
+            font-size: 1.1rem;
+            margin-bottom: 0;
+        }
+        .chat-header .section-subtitle {
+            font-size: 0.7rem;
+            margin-top: 2px;
+        }
+        .chat-channels {
+            display: flex;
+            gap: 4px;
+            flex-wrap: wrap;
+        }
+        .chat-channel-btn {
+            padding: 4px 10px;
+            background: rgba(40, 50, 70, 0.5);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .chat-channel-btn:hover {
+            background: rgba(60, 70, 90, 0.7);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+        .chat-channel-btn.active {
+            background: linear-gradient(135deg, rgba(41, 121, 255, 0.6), rgba(41, 121, 255, 0.4));
+            border-color: rgba(41, 121, 255, 0.8);
+            color: white;
+            box-shadow: 0 0 12px rgba(41, 121, 255, 0.4);
         }
         .chat-messages {
             overflow-y: scroll !important;
@@ -922,71 +966,75 @@
         }
         .chat-message {
             display: flex;
-            gap: 10px;
-            padding: 10px;
-            background: rgba(40, 50, 70, 0.4);
-            border-radius: 12px;
-            border: 2px solid rgba(255, 255, 255, 0.1);
-            transition: all 0.3s ease;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 8px;
+            background: rgba(40, 50, 70, 0.3);
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.2s ease;
             position: relative;
             overflow: visible;
-            backdrop-filter: blur(12px);
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
         }
         .chat-message:hover {
-            background: rgba(50, 60, 80, 0.6);
-            border-color: rgba(41, 121, 255, 0.4);
-            transform: translateX(2px);
+            background: rgba(50, 60, 80, 0.5);
+            border-color: rgba(41, 121, 255, 0.3);
         }
         .chat-message-avatar {
-            width: 32px;
-            height: 32px;
-            border-radius: 8px;
-            background: linear-gradient(135deg, rgba(41, 121, 255, 0.3), rgba(124, 58, 237, 0.3));
+            width: 24px;
+            height: 24px;
+            border-radius: 6px;
+            background: linear-gradient(135deg, rgba(41, 121, 255, 0.4), rgba(124, 58, 237, 0.4));
             display: flex;
             align-items: center;
             justify-content: center;
             flex-shrink: 0;
             font-weight: 800;
-            font-size: 0.9rem;
+            font-size: 0.7rem;
             color: white;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
         }
         .chat-message-content {
             flex: 1;
             min-width: 0;
+            display: flex;
+            align-items: baseline;
+            gap: 6px;
+            flex-wrap: wrap;
         }
         .chat-message-author {
             font-weight: 700;
             color: var(--primary);
-            font-size: 0.85rem;
-            margin-bottom: 4px;
+            font-size: 0.75rem;
+            flex-shrink: 0;
         }
         .chat-message-text {
             color: var(--text);
-            font-size: 0.875rem;
-            line-height: 1.5;
+            font-size: 0.8rem;
+            line-height: 1.3;
             word-wrap: break-word;
             word-break: break-word;
+            flex: 1;
         }
         .chat-message-time {
-            font-size: 0.7rem;
+            font-size: 0.65rem;
             color: var(--text-muted);
-            margin-top: 4px;
+            flex-shrink: 0;
+            opacity: 0.7;
         }
         .chat-input-container {
             display: flex;
-            gap: 8px;
+            gap: 6px;
             flex-shrink: 0;
         }
         .chat-input {
             flex: 1;
-            padding: 12px 16px;
+            padding: 8px 12px;
             background: rgba(40, 50, 70, 0.6);
             border: 2px solid rgba(255, 255, 255, 0.1);
-            border-radius: 12px;
+            border-radius: 10px;
             color: var(--text);
-            font-size: 0.875rem;
+            font-size: 0.8rem;
             font-family: 'Fredoka', sans-serif;
             transition: all 0.3s ease;
             outline: none;
@@ -1000,9 +1048,9 @@
             color: var(--text-muted);
         }
         .chat-send-btn {
-            width: 48px;
-            height: 48px;
-            border-radius: 12px;
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
             background: linear-gradient(135deg, var(--primary), #ff5252);
             border: 2px solid rgba(255, 255, 255, 0.3);
             color: white;
@@ -2188,18 +2236,13 @@
         <aside class="sidebar-panel glass">
             <div class="activity-feed-container">
                 <div class="feed-header">
-                    <div>
-                        <h2 class="section-title">
-                            <i class="fas fa-rss"></i>
-                            Activity Feed
+                    <div style="flex: 1;">
+                        <h2 class="section-title" style="display: flex; align-items: center; gap: 8px;">
+                            <i class="fas fa-rss" style="font-size: 1rem;"></i>
+                            <span>Activity</span>
+                            <span style="font-size: 0.9rem; font-weight: 700; color: var(--primary);" id="activityCount">0</span>
                         </h2>
-                        <p class="section-subtitle">Live updates · 7 day history</p>
-                    </div>
-                    <div class="feed-stats">
-                        <div class="feed-stat">
-                            <span style="font-size: 1.5rem; font-weight: 800; color: var(--primary);" id="activityCount">0</span>
-                            <span style="font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700;">Events</span>
-                        </div>
+                        <p class="section-subtitle">Live · 7d history</p>
                     </div>
                 </div>
                 <div class="activity-list" id="activityList"></div>
@@ -2208,12 +2251,17 @@
             <!-- Chat System Container -->
             <div class="chat-container">
                 <div class="chat-header">
-                    <div>
-                        <h2 class="section-title">
-                            <i class="fas fa-comments"></i>
-                            Live Chat
+                    <div style="flex: 1;">
+                        <h2 class="section-title" style="display: flex; align-items: center; gap: 8px;">
+                            <i class="fas fa-comments" style="font-size: 1rem;"></i>
+                            <span>Chat</span>
                         </h2>
-                        <p class="section-subtitle">Connect with builders</p>
+                        <div class="chat-channels">
+                            <button class="chat-channel-btn active" data-channel="general" onclick="switchChatChannel('general')">General</button>
+                            <button class="chat-channel-btn" data-channel="builders" onclick="switchChatChannel('builders')">Builders</button>
+                            <button class="chat-channel-btn" data-channel="help" onclick="switchChatChannel('help')">Help</button>
+                            <button class="chat-channel-btn" data-channel="showcase" onclick="switchChatChannel('showcase')">Showcase</button>
+                        </div>
                     </div>
                 </div>
                 <div class="chat-messages" id="chatMessages"></div>
@@ -2266,7 +2314,7 @@
         let currentUser = null;
 
         // Chat System with Firebase
-        const chatMessagesRef = ref(database, 'chat/messages');
+        let chatMessagesRef = ref(database, 'chat/general/messages');
         const chatMessages = document.getElementById('chatMessages');
         const chatInput = document.getElementById('chatInput');
         const chatSendBtn = document.getElementById('chatSendBtn');
@@ -2278,8 +2326,8 @@
             localStorage.setItem('chatUserId', userId);
         }
 
-        // Listen for new messages
-        const messagesQuery = query(chatMessagesRef, limitToLast(50));
+        // Listen for new messages (will be initialized after channel system is set up)
+        let messagesQuery = query(chatMessagesRef, limitToLast(50));
         onChildAdded(messagesQuery, (snapshot) => {
             const message = snapshot.val();
             displayMessage(message);
@@ -2311,17 +2359,18 @@
             const content = document.createElement('div');
             content.className = 'chat-message-content';
             
-            const author = document.createElement('div');
+            const author = document.createElement('span');
             author.className = 'chat-message-author';
-            author.textContent = message.author;
+            author.textContent = message.author + ':';
             
-            const text = document.createElement('div');
+            const text = document.createElement('span');
             text.className = 'chat-message-text';
             text.textContent = message.text;
             
-            const time = document.createElement('div');
+            const time = document.createElement('span');
             time.className = 'chat-message-time';
-            time.textContent = message.timestamp ? new Date(message.timestamp).toLocaleTimeString() : 'Just now';
+            const timestamp = message.timestamp ? new Date(message.timestamp) : new Date();
+            time.textContent = timestamp.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
             
             content.appendChild(author);
             content.appendChild(text);
@@ -2339,6 +2388,47 @@
         chatInput.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') sendMessage();
         });
+
+        // ==================== CHAT CHANNEL SYSTEM ====================
+        
+        let currentChannel = 'general';
+        let chatMessagesListener = null;
+        
+        function switchChatChannel(channel) {
+            if (currentChannel === channel) return;
+            
+            // Update UI
+            document.querySelectorAll('.chat-channel-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.channel === channel);
+            });
+            
+            // Unsubscribe from old channel
+            if (chatMessagesListener) {
+                off(chatMessagesRef);
+            }
+            
+            // Update current channel
+            currentChannel = channel;
+            
+            // Clear messages
+            chatMessages.innerHTML = '';
+            
+            // Subscribe to new channel
+            chatMessagesRef = ref(database, `chat/${channel}/messages`);
+            chatMessagesListener = onValue(chatMessagesRef, (snapshot) => {
+                chatMessages.innerHTML = '';
+                const messages = [];
+                snapshot.forEach((childSnapshot) => {
+                    messages.push({
+                        id: childSnapshot.key,
+                        ...childSnapshot.val()
+                    });
+                });
+                
+                messages.sort((a, b) => a.timestamp - b.timestamp);
+                messages.slice(-50).forEach(msg => displayMessage(msg));
+            });
+        }
 
         // ==================== AUTHENTICATION SYSTEM ====================
         
