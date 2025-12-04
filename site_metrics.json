@@ -91,6 +91,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "I still play adopt me though! more of bloxburg..",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764872156.0,
+      "url": "https://www.youtube.com/watch?v=HjdealS6m6U",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "vlogmas day 4!! \ud83c\udf80\u2728\ud83c\udf84 #vlogmas #bloxburg #bloxburgchristmas #roblox #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764871422.0,
+      "url": "https://www.youtube.com/watch?v=GoqYkToeuRs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "&quot;Don&#39;t Push Me on the Swing! \ud83d\ude02 Instant Karma&quot;#shorts",
       "description": "A funny Roblox animation where a bully pushes a noob too hard, but gets launched into space by a cra...",
       "source": "YouTube",
@@ -114,24 +132,6 @@
       "source": "YouTube",
       "timestamp": 1764864014.0,
       "url": "https://www.youtube.com/watch?v=9Y__OyxVCu0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Who does it best? \ud83d\ude02 #berryave #berryavenue #roblox #robloxrp #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764863766.0,
-      "url": "https://www.youtube.com/watch?v=wdJ3bIUEGoc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#roblox #robloxshorts #realrosa #shorts #bloxburg #robloxedit",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764863445.0,
-      "url": "https://www.youtube.com/watch?v=ANPdwNszR8k",
       "icon": "fa-youtube"
     },
     {
@@ -172,7 +172,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764873506.369592,
+    "generated_at": 1764874706.3659277,
     "mode": "memory",
     "refresh_interval": 2000
   }
