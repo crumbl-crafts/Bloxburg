@@ -91,24 +91,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "WOOW LET&#39;S GOOO #memes #brookhave #roblox #automobile #smartphone #games #funny #bloxburg #tiktok",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764837282.0,
-      "url": "https://www.youtube.com/watch?v=XS_BiDHCAxA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "BloxBurg Breaking News Jandel Impostor?\ud83d\ude31\ud83d\udea8",
-      "description": "roblox #jandel #bloxburgnews #kreekcraft #bloxburgnewleaks disclaimer : this video is for entertainm...",
-      "source": "YouTube",
-      "timestamp": 1764837145.0,
-      "url": "https://www.youtube.com/watch?v=w5mnwawecPE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Time flies \ud83e\udd79",
       "description": "You cant even see the new town #bloxburg #bloxburgcontentcreator #robloxbloxburg #roblox....",
       "source": "YouTube",
@@ -162,6 +144,15 @@
       "icon": "fa-lightbulb"
     },
     {
+      "type": "trend",
+      "title": "RUMI in the MILITARY?! #adoptme #roblox #adoptmeroblox #robloxedit #art #edit #bloxburg #dance #dank",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764827481.0,
+      "url": "https://www.youtube.com/watch?v=o--v32EELEA",
+      "icon": "fa-youtube"
+    },
+    {
       "type": "community",
       "title": "Weekly Build Contest",
       "description": "Submit your best holiday-themed builds to win prizes!",
@@ -169,10 +160,19 @@
       "timestamp": 1764824694.357217,
       "url": "#",
       "icon": "fa-trophy"
+    },
+    {
+      "type": "trend",
+      "title": "BIBI TIDAK MAU MAKAN KARNA KANGEN DEDEK UCUP | BLOXBURG RP",
+      "description": "Terimakasiih adik-adik udah nonton video ini sampai akhirr, lup yu all -----------   -Tags  - #roblo...",
+      "source": "YouTube",
+      "timestamp": 1764821849.0,
+      "url": "https://www.youtube.com/watch?v=Lb5yzNYjf3w",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1764841500.3454826,
+    "generated_at": 1764842700.3522124,
     "mode": "memory",
     "refresh_interval": 2000
   }
