@@ -2235,13 +2235,18 @@
         <aside class="sidebar-panel glass">
             <div class="activity-feed-container">
                 <div class="feed-header">
-                    <div style="flex: 1;">
+                    <div>
                         <h2 class="section-title" style="display: flex; align-items: center; gap: 8px;">
                             <i class="fas fa-rss" style="font-size: 1rem;"></i>
-                            <span>Activity</span>
-                            <span style="font-size: 0.9rem; font-weight: 700; color: var(--primary);" id="activityCount">0</span>
+                            <span>Activity Feed</span>
                         </h2>
                         <p class="section-subtitle">Live · 7d history</p>
+                    </div>
+                    <div class="feed-stats">
+                        <div class="feed-stat">
+                            <span style="font-size: 1.5rem; font-weight: 800; color: var(--primary);" id="activityCount">0</span>
+                            <span style="font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700;">Events</span>
+                        </div>
                     </div>
                 </div>
                 <div class="activity-list" id="activityList"></div>
@@ -2250,16 +2255,15 @@
             <!-- Chat System Container -->
             <div class="chat-container">
                 <div class="chat-header">
-                    <div style="flex: 1;">
-                        <h2 class="section-title" style="display: flex; align-items: center; gap: 8px;">
-                            <i class="fas fa-comments" style="font-size: 1rem;"></i>
-                            <span>Chat</span>
+                    <div>
+                        <h2 class="section-title" style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+                            <i class="fas fa-comments" style="font-size: 1.2rem;"></i>
+                            <span>Live Chat</span>
                         </h2>
                         <div class="chat-channels">
                             <button class="chat-channel-btn active" data-channel="general" onclick="switchChatChannel('general')">General</button>
                             <button class="chat-channel-btn" data-channel="builders" onclick="switchChatChannel('builders')">Builders</button>
                             <button class="chat-channel-btn" data-channel="help" onclick="switchChatChannel('help')">Help</button>
-                            <button class="chat-channel-btn" data-channel="showcase" onclick="switchChatChannel('showcase')">Showcase</button>
                         </div>
                     </div>
                 </div>
@@ -2336,12 +2340,22 @@
         function sendMessage() {
             const text = chatInput.value.trim();
             if (!text) return;
+            
+            // Check cooldown
+            const cooldownCheck = canSendMessage();
+            if (!cooldownCheck.allowed) {
+                alert(`Please wait ${cooldownCheck.secondsLeft} seconds before sending another message in this channel.`);
+                return;
+            }
 
             push(chatMessagesRef, {
                 author: userId,
                 text: text,
                 timestamp: serverTimestamp()
             });
+            
+            // Update last message time
+            lastMessageTime[currentChannel] = Date.now();
 
             chatInput.value = '';
         }
@@ -2392,6 +2406,12 @@
         
         let currentChannel = 'general';
         let chatMessagesListener = null;
+        let lastMessageTime = {};
+        const channelCooldowns = {
+            'general': 0,
+            'builders': 60000,  // 1 minute
+            'help': 60000       // 1 minute
+        };
         
         function switchChatChannel(channel) {
             if (currentChannel === channel) return;
@@ -2412,6 +2432,9 @@
             // Clear messages
             chatMessages.innerHTML = '';
             
+            // Update input placeholder with cooldown info
+            updateChatInputPlaceholder();
+            
             // Subscribe to new channel
             chatMessagesRef = ref(database, `chat/${channel}/messages`);
             chatMessagesListener = onValue(chatMessagesRef, (snapshot) => {
@@ -2427,6 +2450,31 @@
                 messages.sort((a, b) => a.timestamp - b.timestamp);
                 messages.slice(-50).forEach(msg => displayMessage(msg));
             });
+        }
+        
+        function updateChatInputPlaceholder() {
+            const cooldown = channelCooldowns[currentChannel];
+            if (cooldown > 0) {
+                chatInput.placeholder = `Type a message... (1 min cooldown)`;
+            } else {
+                chatInput.placeholder = 'Type a message...';
+            }
+        }
+        
+        function canSendMessage() {
+            const cooldown = channelCooldowns[currentChannel];
+            if (cooldown === 0) return { allowed: true };
+            
+            const lastTime = lastMessageTime[currentChannel] || 0;
+            const now = Date.now();
+            const timePassed = now - lastTime;
+            
+            if (timePassed < cooldown) {
+                const secondsLeft = Math.ceil((cooldown - timePassed) / 1000);
+                return { allowed: false, secondsLeft };
+            }
+            
+            return { allowed: true };
         }
 
         // ==================== AUTHENTICATION SYSTEM ====================
