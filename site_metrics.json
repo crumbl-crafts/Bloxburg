@@ -199,11 +199,20 @@
   "news": [
     {
       "type": "trend",
-      "title": "Sem d\u00favidas a melhor \u00e9poca do ano! \u2603\ufe0f #bloxburg #bloxburgupdate #bloxburgchristmas #roblox",
+      "title": "If only the employees showed up\ud83d\ude44 #roblox #bloxburg #welcometobloxburg #robloxshorts #dresstoimpress",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1764885332.0,
-      "url": "https://www.youtube.com/watch?v=r6W-Qxrbat0",
+      "timestamp": 1764887442.0,
+      "url": "https://www.youtube.com/watch?v=ZR-IRF08tVY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "free tickets day 4! \ud83c\udf80\ud83c\udf84\u2728 #roblox #bloxburg #bloxburgupdate #bloxburgadventcalendar #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764886820.0,
+      "url": "https://www.youtube.com/watch?v=-C1zogOA_Ok",
       "icon": "fa-youtube"
     },
     {
@@ -226,20 +235,11 @@
     },
     {
       "type": "trend",
-      "title": "FAMILY WINTER NIGHT ROUTINE IN OUR NEW HOME! *DRAMA!!* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "title": "BLOXBURG TINGS \ud83d\ude2d#bloxburg",
+      "description": "subscribe #thxforwatching #roblox #gaming #gamingvideos #viral #blowup #amazing #gorgeous #house #ar...",
       "source": "YouTube",
-      "timestamp": 1764882006.0,
-      "url": "https://www.youtube.com/watch?v=-TYW75MVkRU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "ITS TIME!!! #roblox #trending #shorts #bloxburg #robloxrp #trendingshorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764880369.0,
-      "url": "https://www.youtube.com/watch?v=7Oyal_Yviv4",
+      "timestamp": 1764884534.0,
+      "url": "https://www.youtube.com/watch?v=MaJj-9TP_GQ",
       "icon": "fa-youtube"
     },
     {
@@ -280,7 +280,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764888506.6434696,
+    "generated_at": 1764889106.3719847,
     "mode": "memory",
     "refresh_interval": 2000
   }
