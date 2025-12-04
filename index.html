@@ -1250,6 +1250,28 @@
             to { transform: rotate(360deg); }
         }
         
+        /* Discord Join Button Animation */
+        @keyframes discordPulse {
+            0%, 100% { 
+                opacity: 0; 
+                transform: scale(0.95); 
+            }
+            50% { 
+                opacity: 1; 
+                transform: scale(1.05); 
+            }
+        }
+        
+        .discord-join-btn:hover {
+            transform: translateY(-4px) scale(1.05);
+            box-shadow: 0 8px 0 #3c44a8, 0 12px 30px rgba(88,101,242,0.7), inset 0 3px 0 rgba(255,255,255,0.4);
+        }
+        
+        .discord-join-btn:active {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 4px 0 #3c44a8, 0 6px 15px rgba(88,101,242,0.6), inset 0 2px 0 rgba(255,255,255,0.3);
+        }
+        
         /* Premium ad carousel effects */
         .premium-ad-carousel {
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -1315,6 +1337,22 @@
             }
             .logo-text .tagline {
                 font-size: 0.7rem !important;
+            }
+            .discord-join-btn {
+                padding: 10px 16px !important;
+                font-size: 0.85rem !important;
+                gap: 8px !important;
+            }
+            .discord-join-btn i {
+                font-size: 1.1rem !important;
+            }
+            .discord-join-btn span {
+                display: none;
+            }
+            .discord-join-btn::after {
+                content: 'JOIN';
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+                letter-spacing: 0.5px;
             }
             .logo-icon img {
                 width: 28px !important;
@@ -1390,6 +1428,11 @@
                 </div>
                 
                 <div style="display: flex; align-items: center; gap: 12px; flex-shrink: 0;">
+                    <a href="https://discord.gg/fqQfmSwfMj" target="_blank" class="discord-join-btn" style="text-decoration: none; display: flex; align-items: center; gap: 10px; padding: 12px 20px; background: linear-gradient(135deg, #5865F2 0%, #4752C4 100%); border: 3px solid rgba(255,255,255,0.3); border-radius: 14px; color: white; font-weight: 800; font-size: 0.9rem; cursor: pointer; transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); box-shadow: 0 6px 0 #3c44a8, 0 8px 20px rgba(88,101,242,0.5), inset 0 2px 0 rgba(255,255,255,0.3); position: relative; overflow: hidden; will-change: transform;">
+                        <i class="fab fa-discord" style="font-size: 1.3rem; filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.5));"></i>
+                        <span style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5); letter-spacing: 0.5px;">JOIN SERVER</span>
+                        <div class="discord-pulse" style="position: absolute; inset: -3px; background: radial-gradient(circle, rgba(255,255,255,0.4) 0%, transparent 70%); border-radius: 14px; opacity: 0; animation: discordPulse 2s ease-in-out infinite;"></div>
+                    </a>
                     <div class="status-badge" id="statusBadge">
                         <span class="status-dot" id="statusDot"></span>
                         <span id="statusText">LIVE</span>
@@ -1828,12 +1871,29 @@
         
         const loadActivityCache = () => {
             try {
+                // Check cache version
+                const cacheVersion = localStorage.getItem('crumbl_activity_cache_version');
+                const CACHE_VERSION = '2'; // Increment to invalidate old cache
+                
+                if (cacheVersion !== CACHE_VERSION) {
+                    console.log('Activity cache version mismatch, clearing old cache');
+                    localStorage.removeItem('crumbl_activity_feed');
+                    localStorage.setItem('crumbl_activity_cache_version', CACHE_VERSION);
+                    activityCache = [];
+                    return;
+                }
+                
                 const cached = localStorage.getItem('crumbl_activity_feed');
                 if (cached) {
                     activityCache = JSON.parse(cached);
                     // Remove entries older than 7 days
                     const cutoff = Date.now() / 1000 - (ACTIVITY_RETENTION_DAYS * 86400);
+                    const beforeClean = activityCache.length;
                     activityCache = activityCache.filter(item => item.timestamp > cutoff);
+                    if (beforeClean > activityCache.length) {
+                        console.log(`Cleaned ${beforeClean - activityCache.length} old activities from cache`);
+                        saveActivityCache();
+                    }
                 }
             } catch (e) {
                 console.warn('Failed to load activity cache:', e);
@@ -1861,7 +1921,19 @@
         };
         
         const mergeActivities = (newActivities) => {
-            if (!Array.isArray(newActivities) || newActivities.length === 0) return;
+            if (!Array.isArray(newActivities)) return;
+            
+            // If backend sends empty array and we have cached items, clean old ones
+            if (newActivities.length === 0 && activityCache.length > 0) {
+                cleanOldActivities();
+                // If after cleaning we still have items, they might be stale - log warning
+                if (activityCache.length > 0) {
+                    console.log(`Cache has ${activityCache.length} items but backend sent none - keeping cached items`);
+                }
+                return;
+            }
+            
+            if (newActivities.length === 0) return;
             
             let addedCount = 0;
             
