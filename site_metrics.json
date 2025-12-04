@@ -118,20 +118,20 @@
     },
     {
       "type": "trend",
+      "title": "bloxburg youtubers as baddies @DaPandaGirl @Robuilds_ @capdo_roblox  @SiimplyBubliie",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764867618.0,
+      "url": "https://www.youtube.com/watch?v=BCvlSHUuV3o",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#bloxburg #roblox #\u0634\u0644\u062a\u0646\u0627",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1764866103.0,
       "url": "https://www.youtube.com/watch?v=_ZEb25N19D8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "DAISY &amp; SOPHIE STEAL A CHEESECAKE! #shorts #roblox #bloxburgroleplay #roleplay #bloxburg #steal",
-      "description": "DAISY & SOPHIE STEAL A CHEESECAKE! Make sure to like and check out the full video in the link to fin...",
-      "source": "YouTube",
-      "timestamp": 1764864014.0,
-      "url": "https://www.youtube.com/watch?v=9Y__OyxVCu0",
       "icon": "fa-youtube"
     },
     {
@@ -172,7 +172,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764875906.365882,
+    "generated_at": 1764877106.3639638,
     "mode": "memory",
     "refresh_interval": 2000
   }
