@@ -199,6 +199,33 @@
   "news": [
     {
       "type": "trend",
+      "title": "Sem d\u00favidas a melhor \u00e9poca do ano! \u2603\ufe0f #bloxburg #bloxburgupdate #bloxburgchristmas #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764885332.0,
+      "url": "https://www.youtube.com/watch?v=r6W-Qxrbat0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "\ud83c\udf85\ud83c\udffb Nossa ROTINA no EVENTO de NATAL do BLOXBURG! Roblox",
+      "description": "Seja membro deste canal e ganhe benef\u00edcios: V\u00eddeos exclusivos do nosso dia a dia! Prioridade em resp...",
+      "source": "YouTube",
+      "timestamp": 1764884769.0,
+      "url": "https://www.youtube.com/watch?v=vlel9-xe-7Q",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "#fun #roblox #roleplay #music #chirstmas #kwanzaa #bloxburg #sza #michaeljackson",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764884597.0,
+      "url": "https://www.youtube.com/watch?v=HZyLDCmrUIQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "FAMILY WINTER NIGHT ROUTINE IN OUR NEW HOME! *DRAMA!!* Roblox Bloxburg Voiced RP Roleplay",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
       "source": "YouTube",
@@ -213,33 +240,6 @@
       "source": "YouTube",
       "timestamp": 1764880369.0,
       "url": "https://www.youtube.com/watch?v=7Oyal_Yviv4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I BUILT A MEGA ICE SKATING RINK IN BLOXBURG",
-      "description": "bloxburg #roblox #robloxbloxburg I built an ice skating rink that covered the whole plot in bloxburg...",
-      "source": "YouTube",
-      "timestamp": 1764878446.0,
-      "url": "https://www.youtube.com/watch?v=oewcS0U9thY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I still play adopt me though! more of bloxburg..",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764872156.0,
-      "url": "https://www.youtube.com/watch?v=HjdealS6m6U",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "vlogmas day 4!! \ud83c\udf80\u2728\ud83c\udf84 #vlogmas #bloxburg #bloxburgchristmas #roblox #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764871422.0,
-      "url": "https://www.youtube.com/watch?v=GoqYkToeuRs",
       "icon": "fa-youtube"
     },
     {
@@ -280,7 +280,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764886706.3660264,
+    "generated_at": 1764887906.3666687,
     "mode": "memory",
     "refresh_interval": 2000
   }
