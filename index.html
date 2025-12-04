@@ -776,11 +776,11 @@
             color: var(--warning); 
         }
         .activity-feed-container { 
-            flex: 0 0 40%;
+            flex: 0 0 50%;
             display: flex; 
             flex-direction: column;
             min-height: 0;
-            max-height: 40%;
+            max-height: 50%;
             overflow: visible;
             position: relative;
             margin-bottom: 16px;
@@ -3019,6 +3019,7 @@
         import { getDatabase, ref, push, onChildAdded, onValue, off, serverTimestamp, limitToLast, query, get, set, update, child } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
         import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, sendPasswordResetEmail, updateProfile, signInAnonymously, GoogleAuthProvider, signInWithPopup, sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-auth.js";
         import { getStorage, ref as storageRef, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-storage.js";
+        import { getFirestore, collection, addDoc, getDocs, doc, updateDoc, deleteDoc, orderBy, query as firestoreQuery, limit, onSnapshot, increment, arrayUnion, Timestamp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
 
         // Firebase configuration
         const firebaseConfig = {
@@ -3038,6 +3039,7 @@
         const database = getDatabase(app);
         const auth = getAuth(app);
         const storage = getStorage(app);
+        const firestore = getFirestore(app);
 
         // Make Firebase available globally
         window.firebaseApp = app;
@@ -3045,6 +3047,7 @@
         window.firebaseAuth = auth;
         window.firebaseStorage = storage;
         window.firebaseAnalytics = analytics;
+        window.firestore = firestore;
 
         // Current user state
         let currentUser = null;
@@ -5297,60 +5300,44 @@
             list.innerHTML = newsHTML;
         }
         
-        // Build Museum Functions
+        // Build Museum Functions with Firestore
         let buildMuseumBuilds = [];
+        let buildsUnsubscribe = null;
         
-        function initBuildMuseum() {
-            // Sample builds for demonstration
-            buildMuseumBuilds = [
-                {
-                    id: 1,
-                    title: "Modern Luxury Villa",
-                    author: "BuildMaster_Pro",
-                    type: "image",
-                    mediaUrl: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%2320304a' width='400' height='300'/%3E%3Ctext x='200' y='150' font-family='Arial' font-size='24' fill='%23fff' text-anchor='middle'%3EModern Villa%3C/text%3E%3C/svg%3E",
-                    description: "A stunning 3-story modern villa with a pool and beautiful landscaping. Took 5 hours to build!",
-                    rating: 4.8,
-                    ratingCount: 24,
-                    comments: []
-                },
-                {
-                    id: 2,
-                    title: "Cozy Cottage Home",
-                    author: "CozyBuilder123",
-                    type: "image",
-                    mediaUrl: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23304a20' width='400' height='300'/%3E%3Ctext x='200' y='150' font-family='Arial' font-size='24' fill='%23fff' text-anchor='middle'%3ECozy Cottage%3C/text%3E%3C/svg%3E",
-                    description: "Small but charming cottage with rustic interior design. Perfect for beginners!",
-                    rating: 4.5,
-                    ratingCount: 18,
-                    comments: []
-                },
-                {
-                    id: 3,
-                    title: "Futuristic Mansion",
-                    author: "FutureArch",
-                    type: "video",
-                    mediaUrl: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%234a2030' width='400' height='300'/%3E%3Ctext x='200' y='150' font-family='Arial' font-size='24' fill='%23fff' text-anchor='middle'%3EFuturistic Build%3C/text%3E%3C/svg%3E",
-                    description: "Cutting-edge design with smart home features and sleek aesthetics.",
-                    rating: 4.9,
-                    ratingCount: 35,
-                    comments: []
-                }
-            ];
-            
-            renderBuildMuseum();
+        async function initBuildMuseum() {
+            try {
+                // Real-time listener for builds from Firestore
+                const buildsCollection = collection(firestore, 'builds');
+                const buildsQuery = firestoreQuery(buildsCollection, orderBy('createdAt', 'desc'), limit(50));
+                
+                buildsUnsubscribe = onSnapshot(buildsQuery, (snapshot) => {
+                    buildMuseumBuilds = snapshot.docs.map(doc => ({
+                        id: doc.id,
+                        ...doc.data()
+                    }));
+                    renderBuildMuseum();
+                });
+            } catch (error) {
+                console.error('Error loading builds:', error);
+                getElement('buildMuseumGrid').innerHTML = '<p style="text-align: center; color: var(--text-muted); padding: 40px;">Error loading builds. Please refresh.</p>';
+            }
         }
         
         function renderBuildMuseum() {
             const grid = getElement('buildMuseumGrid');
             if (!grid) return;
             
+            if (buildMuseumBuilds.length === 0) {
+                grid.innerHTML = '<p style="text-align: center; color: var(--text-muted); padding: 40px;">No builds yet. Be the first to share! 🏗️</p>';
+                return;
+            }
+            
             const buildsHTML = buildMuseumBuilds.map(build => `
-                <div class="build-card" onclick="openBuildModal(${build.id})">
+                <div class="build-card" onclick="openBuildModal('${build.id}')">
                     <div class="build-card-media">
                         ${build.type === 'video' 
                             ? `<video src="${build.mediaUrl}" loop muted></video>` 
-                            : `<img src="${build.mediaUrl}" alt="${build.title}" />`
+                            : `<img src="${build.mediaUrl}" alt="${build.title}" loading="lazy" />`
                         }
                         <div class="build-card-type">${build.type === 'video' ? '📹 Video' : '🖼️ Image'}</div>
                     </div>
@@ -5361,14 +5348,14 @@
                         </div>
                         <div class="build-card-stats">
                             <div class="build-card-rating">
-                                <i class="fas fa-star"></i> ${build.rating.toFixed(1)} (${build.ratingCount})
+                                <i class="fas fa-star"></i> ${(build.rating || 0).toFixed(1)} (${build.ratingCount || 0})
                             </div>
                             <div class="build-card-actions">
-                                <button class="build-action-btn" onclick="event.stopPropagation(); rateBuild(${build.id}, 5)">
-                                    <i class="fas fa-thumbs-up"></i> ${build.ratingCount}
+                                <button class="build-action-btn" onclick="event.stopPropagation(); rateBuild('${build.id}', 5)">
+                                    <i class="fas fa-thumbs-up"></i> ${build.ratingCount || 0}
                                 </button>
-                                <button class="build-action-btn" onclick="event.stopPropagation(); openBuildModal(${build.id})">
-                                    <i class="fas fa-comment"></i> ${build.comments.length}
+                                <button class="build-action-btn" onclick="event.stopPropagation(); openBuildModal('${build.id}')">
+                                    <i class="fas fa-comment"></i> ${(build.comments || []).length}
                                 </button>
                             </div>
                         </div>
@@ -5376,18 +5363,34 @@
                 </div>
             `).join('');
             
-            grid.innerHTML = buildsHTML || '<p style="text-align: center; color: var(--text-muted); padding: 40px;">No builds yet. Be the first to share!</p>';
+            grid.innerHTML = buildsHTML;
         }
         
         function openBuildModal(buildId) {
             const build = buildMuseumBuilds.find(b => b.id === buildId);
             if (!build) return;
             
+            const formatTime = (timestamp) => {
+                if (!timestamp) return 'Just now';
+                const date = timestamp.toDate ? timestamp.toDate() : new Date(timestamp);
+                const now = new Date();
+                const diff = Math.floor((now - date) / 1000);
+                
+                if (diff < 60) return 'Just now';
+                if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
+                if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
+                if (diff < 604800) return `${Math.floor(diff / 86400)}d ago`;
+                return date.toLocaleDateString();
+            };
+            
+            const canDelete = currentUser && build.authorId === currentUser.uid;
+            
             const modal = document.createElement('div');
             modal.className = 'build-modal show';
             modal.innerHTML = `
                 <div class="build-modal-content">
                     <button class="build-modal-close" onclick="this.closest('.build-modal').remove()">×</button>
+                    ${canDelete ? `<button onclick="deleteBuild('${buildId}')" style="position: absolute; top: 16px; right: 60px; background: #FF1744; color: white; border: none; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-size: 0.85rem; transition: all 0.2s;" onmouseover="this.style.background='#D50000'" onmouseout="this.style.background='#FF1744'"><i class="fas fa-trash"></i> Delete</button>` : ''}
                     <div class="build-modal-media">
                         ${build.type === 'video' 
                             ? `<video src="${build.mediaUrl}" controls autoplay loop></video>` 
@@ -5398,13 +5401,14 @@
                         <h2 class="build-modal-title">${build.title}</h2>
                         <div style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 12px;">
                             <i class="fas fa-user"></i> ${build.author} · 
-                            <i class="fas fa-star" style="color: #FFD700;"></i> ${build.rating.toFixed(1)} (${build.ratingCount} ratings)
+                            <i class="fas fa-star" style="color: #FFD700;"></i> ${(build.rating || 0).toFixed(1)} (${build.ratingCount || 0} ratings) · 
+                            ${formatTime(build.createdAt)}
                         </div>
-                        <p class="build-modal-description">${build.description}</p>
+                        <p class="build-modal-description">${build.description || ''}</p>
                         
                         <div style="display: flex; gap: 8px; margin-bottom: 20px;">
                             ${[1,2,3,4,5].map(star => `
-                                <button onclick="rateBuild(${buildId}, ${star})" style="background: ${star <= Math.round(build.rating) ? '#FFD700' : 'rgba(255, 255, 255, 0.1)'}; border: none; color: white; padding: 8px 12px; border-radius: 8px; cursor: pointer; transition: all 0.2s;">
+                                <button onclick="rateBuild('${buildId}', ${star})" style="background: ${star <= Math.round(build.rating || 0) ? '#FFD700' : 'rgba(255, 255, 255, 0.1)'}; border: none; color: white; padding: 8px 12px; border-radius: 8px; cursor: pointer; transition: all 0.2s;">
                                     <i class="fas fa-star"></i>
                                 </button>
                             `).join('')}
@@ -5412,16 +5416,16 @@
                         
                         <div class="build-comments">
                             <h3 style="font-size: 1.1rem; font-weight: 800; margin-bottom: 12px;">
-                                <i class="fas fa-comments"></i> Comments (${build.comments.length})
+                                <i class="fas fa-comments"></i> Comments (${(build.comments || []).length})
                             </h3>
                             <div class="build-comment-input">
                                 <input type="text" id="commentInput${buildId}" placeholder="Add a comment..." />
-                                <button onclick="addComment(${buildId})">Post</button>
+                                <button onclick="addComment('${buildId}')">Post</button>
                             </div>
                             <div id="commentsContainer${buildId}">
-                                ${build.comments.map(c => `
+                                ${(build.comments || []).map(c => `
                                     <div class="build-comment">
-                                        <div class="build-comment-author">${c.author}</div>
+                                        <div class="build-comment-author">${c.author} · <span style="font-size: 0.75rem; opacity: 0.7;">${formatTime(c.timestamp)}</span></div>
                                         <div class="build-comment-text">${c.text}</div>
                                     </div>
                                 `).join('') || '<p style="text-align: center; color: var(--text-muted); padding: 20px;">No comments yet. Be the first!</p>'}
@@ -5435,53 +5439,151 @@
             modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
         }
         
-        function rateBuild(buildId, stars) {
-            const build = buildMuseumBuilds.find(b => b.id === buildId);
-            if (!build) return;
+        async function rateBuild(buildId, stars) {
+            if (!currentUser) {
+                alert('Please sign in to rate builds!');
+                return;
+            }
             
-            // Simple rating update (in production, would save to Firebase)
-            build.rating = ((build.rating * build.ratingCount) + stars) / (build.ratingCount + 1);
-            build.ratingCount++;
-            
-            renderBuildMuseum();
-            alert(`Rated ${stars} stars! Thank you for your feedback.`);
+            try {
+                const buildRef = doc(firestore, 'builds', buildId);
+                const build = buildMuseumBuilds.find(b => b.id === buildId);
+                if (!build) return;
+                
+                const newRating = ((build.rating * build.ratingCount) + stars) / (build.ratingCount + 1);
+                
+                await updateDoc(buildRef, {
+                    rating: newRating,
+                    ratingCount: increment(1),
+                    ratings: arrayUnion({ userId: currentUser.uid, stars: stars, timestamp: Timestamp.now() })
+                });
+                
+                alert(`Rated ${stars} stars! Thank you for your feedback.`);
+            } catch (error) {
+                console.error('Error rating build:', error);
+                alert('Failed to rate build. Please try again.');
+            }
         }
         
-        function addComment(buildId) {
+        async function addComment(buildId) {
+            if (!currentUser) {
+                alert('Please sign in to comment!');
+                return;
+            }
+            
             const input = document.getElementById(`commentInput${buildId}`);
             const text = input.value.trim();
             if (!text) return;
             
+            try {
+                const buildRef = doc(firestore, 'builds', buildId);
+                
+                await updateDoc(buildRef, {
+                    comments: arrayUnion({
+                        author: userId || currentUser.displayName || 'Anonymous',
+                        text: text,
+                        timestamp: Timestamp.now()
+                    })
+                });
+                
+                input.value = '';
+                
+                // Modal will auto-refresh via Firestore listener
+                document.querySelector('.build-modal')?.remove();
+                setTimeout(() => openBuildModal(buildId), 100);
+            } catch (error) {
+                console.error('Error adding comment:', error);
+                alert('Failed to add comment. Please try again.');
+            }
+        }
+        
+        // Upload build function
+        async function uploadBuild() {
+            if (!currentUser) {
+                alert('Please sign in to share your build!');
+                return;
+            }
+            
+            const title = prompt('Enter build title:');
+            if (!title) return;
+            
+            const description = prompt('Enter build description:');
+            if (!description) return;
+            
+            const fileInput = document.createElement('input');
+            fileInput.type = 'file';
+            fileInput.accept = 'image/*,video/*';
+            
+            fileInput.onchange = async (e) => {
+                const file = e.target.files[0];
+                if (!file) return;
+                
+                const isVideo = file.type.startsWith('video/');
+                const maxSize = isVideo ? 50 * 1024 * 1024 : 5 * 1024 * 1024;
+                
+                if (file.size > maxSize) {
+                    alert(`File too large! Max size: ${isVideo ? '50MB for videos' : '5MB for images'}`);
+                    return;
+                }
+                
+                try {
+                    // Upload to Firebase Storage
+                    const fileRef = storageRef(storage, `builds/${currentUser.uid}/${Date.now()}_${file.name}`);
+                    await uploadBytes(fileRef, file);
+                    const mediaUrl = await getDownloadURL(fileRef);
+                    
+                    // Save to Firestore
+                    await addDoc(collection(firestore, 'builds'), {
+                        title: title,
+                        description: description,
+                        author: userId || currentUser.displayName || 'Anonymous',
+                        authorId: currentUser.uid,
+                        type: isVideo ? 'video' : 'image',
+                        mediaUrl: mediaUrl,
+                        rating: 0,
+                        ratingCount: 0,
+                        ratings: [],
+                        comments: [],
+                        createdAt: Timestamp.now()
+                    });
+                    
+                    alert('Build uploaded successfully! 🎉');
+                } catch (error) {
+                    console.error('Error uploading build:', error);
+                    alert('Failed to upload build. Please try again.');
+                }
+            };
+            
+            fileInput.click();
+        }
+        
+        // Delete build function
+        async function deleteBuild(buildId) {
             const build = buildMuseumBuilds.find(b => b.id === buildId);
             if (!build) return;
             
-            build.comments.push({
-                author: userId || 'Anonymous',
-                text: text,
-                timestamp: Date.now()
-            });
+            if (!currentUser || build.authorId !== currentUser.uid) {
+                alert('You can only delete your own builds!');
+                return;
+            }
             
-            input.value = '';
+            if (!confirm('Are you sure you want to delete this build?')) return;
             
-            // Refresh comments display
-            const container = document.getElementById(`commentsContainer${buildId}`);
-            container.innerHTML = build.comments.map(c => `
-                <div class="build-comment">
-                    <div class="build-comment-author">${c.author}</div>
-                    <div class="build-comment-text">${c.text}</div>
-                </div>
-            `).join('');
-            
-            renderBuildMuseum();
+            try {
+                await deleteDoc(doc(firestore, 'builds', buildId));
+                document.querySelector('.build-modal')?.remove();
+                alert('Build deleted successfully!');
+            } catch (error) {
+                console.error('Error deleting build:', error);
+                alert('Failed to delete build. Please try again.');
+            }
         }
         
         // Upload build button handler
         document.addEventListener('DOMContentLoaded', () => {
             const uploadBtn = document.getElementById('uploadBuildBtn');
             if (uploadBtn) {
-                uploadBtn.onclick = () => {
-                    alert('Build upload feature coming soon! You will be able to upload images (max 5MB) and short videos (max 50MB, 30 seconds).');
-                };
+                uploadBtn.onclick = uploadBuild;
             }
             initBuildMuseum();
         });
