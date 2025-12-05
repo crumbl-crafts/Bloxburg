@@ -199,6 +199,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #bloxburg #robloxlogo #robloxedit #robloxnews #games #gaming",
+      "description": "roblox #bloxburg #robloxlogo #robloxedit #robloxnews #games #gaming....",
+      "source": "YouTube",
+      "timestamp": 1764925276.0,
+      "url": "https://www.youtube.com/watch?v=Vh7QcB69LAU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "How to Get Help Fast in Roblox? \ud83d\ude0a#roblox #robloxgames #robloxfyp #bloxburg",
       "description": "roblox #robloxgames #robloxfyp #bloxburg....",
       "source": "YouTube",
@@ -231,15 +240,6 @@
       "source": "YouTube",
       "timestamp": 1764907699.0,
       "url": "https://www.youtube.com/watch?v=tPZp9gLMlVY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bacoon really THREW ME \ud83e\udd23 Roblox Brookhaven Meme #roblox #funny #meme #shorts #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764907474.0,
-      "url": "https://www.youtube.com/watch?v=PyXfjuVpVjE",
       "icon": "fa-youtube"
     },
     {
@@ -280,7 +280,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764926306.7363417,
+    "generated_at": 1764927506.3700671,
     "mode": "memory",
     "refresh_interval": 2000
   }
