@@ -3141,6 +3141,8 @@
         import { getDatabase, ref, push, onChildAdded, onValue, off, serverTimestamp, limitToLast, query, get, set, update, child, orderByChild, endBefore, remove } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
         import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, sendPasswordResetEmail, updateProfile, signInAnonymously, GoogleAuthProvider, signInWithPopup, sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-auth.js";
         import { getStorage, ref as storageRef, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-storage.js";
+        // Supabase client for Build Museum uploads (storage)
+        import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
         import { getFirestore, collection, addDoc, getDocs, doc, updateDoc, arrayUnion, serverTimestamp as firestoreTimestamp, query as firestoreQuery, orderBy, limit } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
 
         // Firebase configuration
@@ -3169,6 +3171,17 @@
         window.firebaseAuth = auth;
         window.firebaseStorage = storage;
         window.firebaseAnalytics = analytics;
+
+        // Initialize Supabase (used only for storing build media files)
+        // Project and anon key provided by the user
+        const SUPABASE_URL = 'https://eoxdfyjwpcgcilbjmpxp.supabase.co';
+        const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVveGRmeWp3cGNnY2lsYmptcHhwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ5MTk3OTUsImV4cCI6MjA4MDQ5NTc5NX0.kGAHijXQGYJv1PUE01te2z7nCXROx9K5lwvXznVzmG0';
+        try {
+            window.supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+            console.log('Supabase initialized for build uploads');
+        } catch (e) {
+            console.warn('Failed to initialize Supabase client', e);
+        }
         window.firestore = firestore;
         
         // Make Firebase functions globally accessible
@@ -6147,21 +6160,25 @@
                 const maxImageSize = 5 * 1024 * 1024; // 5MB
                 const maxVideoSize = 50 * 1024 * 1024; // 50MB
                 const isVideo = file.type.startsWith('video/');
-                const isImage = file.type.startsWith('image/');
-                
-                if (!isVideo && !isImage) {
-                    alert('Please upload an image or video file.');
-                    return;
+                const isImage = file.type === 'image/jpeg' || file.type === 'image/png' || file.type === 'image/jpg' || file.type === 'image/webp';
+
+                // For builds we only accept images (jpeg/png). Videos must be uploaded to YouTube and linked.
+                if (!isImage) {
+                    alert('Only image uploads are supported here (JPEG/PNG). For videos, upload to YouTube and paste the link in the description.');
+                    if (uploadBtn) {
+                        uploadBtn.innerHTML = '<i class="fas fa-cloud-upload-alt"></i> Upload Build';
+                        uploadBtn.disabled = false;
+                    }
+                    return false;
                 }
-                
-                if (isImage && file.size > maxImageSize) {
+
+                if (file.size > maxImageSize) {
                     alert('Image size must be less than 5MB.');
-                    return;
-                }
-                
-                if (isVideo && file.size > maxVideoSize) {
-                    alert('Video size must be less than 50MB.');
-                    return;
+                    if (uploadBtn) {
+                        uploadBtn.innerHTML = '<i class="fas fa-cloud-upload-alt"></i> Upload Build';
+                        uploadBtn.disabled = false;
+                    }
+                    return false;
                 }
                 
                 // Show uploading message
@@ -6171,19 +6188,39 @@
                     uploadBtn.disabled = true;
                 }
                 
-                // Upload file to Firebase Storage
+                // Upload file to Supabase Storage (bucket: 'builds')
+                if (!window.supabase) {
+                    alert('Upload service is not available. Please try again later.');
+                    if (uploadBtn) {
+                        uploadBtn.innerHTML = '<i class="fas fa-cloud-upload-alt"></i> Upload Build';
+                        uploadBtn.disabled = false;
+                    }
+                    return false;
+                }
+
                 const timestamp = Date.now();
-                const fileExtension = file.name.split('.').pop();
-                const fileName = `builds/${user.uid}/${timestamp}.${fileExtension}`;
-                
-                console.log('Uploading to storage:', fileName);
-                const fileRef = storageRef(window.firebaseStorage, fileName);
-                
-                const uploadTask = await uploadBytes(fileRef, file);
-                console.log('File uploaded to storage:', uploadTask);
-                
-                const mediaUrl = await getDownloadURL(fileRef);
-                console.log('Got download URL:', mediaUrl);
+                const ext = (file.name && file.name.split('.').pop()) || 'jpg';
+                const storagePath = `builds/${user.uid}/${timestamp}.${ext}`;
+                console.log('Uploading to Supabase storage:', storagePath);
+
+                const { data: uploadData, error: uploadError } = await window.supabase.storage.from('builds').upload(storagePath, file, { cacheControl: '3600', upsert: false });
+                if (uploadError) {
+                    console.error('Supabase upload error', uploadError);
+                    alert('Failed to upload media. See console for details.');
+                    if (uploadBtn) {
+                        uploadBtn.innerHTML = '<i class="fas fa-cloud-upload-alt"></i> Upload Build';
+                        uploadBtn.disabled = false;
+                    }
+                    return false;
+                }
+
+                // Get public URL for the uploaded object
+                const { data: publicData, error: publicError } = window.supabase.storage.from('builds').getPublicUrl(storagePath);
+                if (publicError) {
+                    console.warn('Failed to get public URL from Supabase', publicError);
+                }
+                const mediaUrl = (publicData && (publicData.publicUrl || publicData.public_url)) || `${SUPABASE_URL}/storage/v1/object/public/builds/${encodeURIComponent(storagePath)}`;
+                console.log('Got public URL:', mediaUrl);
                 
                 // Add build to Firestore
                 const buildsCollection = collection(window.firestore, 'builds');
@@ -6195,6 +6232,9 @@
                     authorPhoto: user.photoURL || '',
                     type: isVideo ? 'video' : 'image',
                     mediaUrl: mediaUrl,
+                    storagePath: storagePath,
+                    fileSize: file.size,
+                    contentType: file.type,
                     rating: 0,
                     ratingCount: 0,
                     ratings: {},
