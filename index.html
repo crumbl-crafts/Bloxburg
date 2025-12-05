@@ -4005,9 +4005,21 @@
                 btn.classList.toggle('active', btn.dataset.channel === channel);
             });
             
-            // Unsubscribe from old channel
+            // Unsubscribe from old channel: prefer calling the unsubscribe function returned by onValue,
+            // otherwise fall back to the legacy off(ref) call.
             if (chatMessagesListener) {
-                off(chatMessagesRef);
+                try {
+                    if (typeof chatMessagesListener === 'function') {
+                        // onValue in modular SDK returns an unsubscribe function in some versions
+                        chatMessagesListener();
+                    } else {
+                        // fallback: remove all listeners at the previous ref
+                        off(chatMessagesRef);
+                    }
+                } catch (err) {
+                    console.warn('Error while unsubscribing listener, falling back to off():', err);
+                    try { off(chatMessagesRef); } catch (e) { console.warn('off() also failed', e); }
+                }
                 chatMessagesListener = null;
             }
             
@@ -4022,10 +4034,12 @@
             
             // Subscribe to new channel
             chatMessagesRef = ref(database, `chat/${channel}/messages`);
+            console.log('New chatMessagesRef set to', `chat/${channel}/messages`);
             // Load an initial batch (bounded by CHAT_MAX_HISTORY)
             const messagesQuery = query(chatMessagesRef, limitToLast(INITIAL_LOAD));
             
             let isInitialLoad = true;
+            // Attach listener and save the unsubscribe function (if returned)
             chatMessagesListener = onValue(messagesQuery, (snapshot) => {
                 if (isInitialLoad) {
                     chatMessages.innerHTML = '';
