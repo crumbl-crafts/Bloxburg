@@ -3138,7 +3138,7 @@
         // Import Firebase SDKs
         import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-analytics.js";
-        import { getDatabase, ref, push, onChildAdded, onValue, off, serverTimestamp, limitToLast, query, get, set, update, child } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
+        import { getDatabase, ref, push, onChildAdded, onValue, off, serverTimestamp, limitToLast, query, get, set, update, child, orderByChild, endBefore } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
         import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, sendPasswordResetEmail, updateProfile, signInAnonymously, GoogleAuthProvider, signInWithPopup, sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-auth.js";
         import { getStorage, ref as storageRef, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-storage.js";
         import { getFirestore, collection, addDoc, getDocs, doc, updateDoc, arrayUnion, serverTimestamp as firestoreTimestamp, query as firestoreQuery, orderBy, limit } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
@@ -3196,7 +3196,8 @@
 
         // Chat System with Firebase
         let chatMessagesRef = ref(database, 'chat/general/messages');
-        const chatMessages = document.getElementById('chatMessages');
+        // `chatMessages` may be queried before DOM ready; use a mutable reference and resolve when initializing
+        let chatMessages = document.getElementById('chatMessages');
         const chatInput = document.getElementById('chatInput');
         const chatSendBtn = document.getElementById('chatSendBtn');
         
@@ -3505,11 +3506,23 @@
             
             try {
                 const olderMessagesRef = ref(database, `chat/${currentChannel}/messages`);
+                // Respect CHAT_MAX_HISTORY cap — only request enough to not exceed the total allowed
+                const currentlyLoaded = chatMessages.querySelectorAll('.chat-message').length;
+                const remainingAllowed = CHAT_MAX_HISTORY - currentlyLoaded;
+                if (remainingAllowed <= 0) {
+                    hasMoreMessages = false;
+                    loadingIndicator.textContent = 'Reached history limit';
+                    setTimeout(() => loadingIndicator.remove(), 1500);
+                    isLoadingOlderMessages = false;
+                    return;
+                }
+                const fetchLimit = Math.min(50, remainingAllowed);
+
                 const olderQuery = query(
                     olderMessagesRef,
                     orderByChild('timestamp'),
                     endBefore(oldestMessageTimestamp),
-                    limitToLast(50)
+                    limitToLast(fetchLimit)
                 );
                 
                 const snapshot = await get(olderQuery);
@@ -3738,30 +3751,40 @@
         let currentChannel = 'general';
         let chatMessagesListener = null;
         let lastMessageTime = {};
+        // Chat history limits
+        const CHAT_MAX_HISTORY = 1000; // maximum messages to load into client
+        const INITIAL_LOAD = Math.min(200, CHAT_MAX_HISTORY); // initial messages to load
         const channelCooldowns = {
             'general': 0,
             'builders': 60000,  // 1 minute
             'help': 60000       // 1 minute
         };
-        // Ensure chat initializes only after DOM and Firebase auth are ready
+        // Ensure chat initializes only after DOM and Firebase app are ready.
+        // We don't require an authenticated user to view chat history — initialize regardless.
         function initializeChatAfterAuth() {
-            if (!window.firebaseAuth || !window.firebaseAuth.currentUser) return;
+            // Ensure Firebase app/DB are initialized
+            if (!window.firebaseApp && !window.firebaseDb) return;
+
+            // Resolve chatMessages element if not already available
+            if (!chatMessages) chatMessages = document.getElementById('chatMessages');
             if (!chatMessages) return;
+
             if (window.__chatInitialized) return;
             window.__chatInitialized = true;
-            switchChatChannel('general');
+
+            // Load the currently selected channel (default 'general')
+            switchChatChannel(currentChannel);
         }
 
+        // Initialize once DOM is ready
         document.addEventListener('DOMContentLoaded', () => {
-            if (window.firebaseAuth && window.firebaseAuth.currentUser) {
-                initializeChatAfterAuth();
-            }
+            initializeChatAfterAuth();
         });
-        if (window.firebaseAuth) {
-            window.firebaseAuth.onAuthStateChanged?.((user) => {
-                if (user) {
-                    initializeChatAfterAuth();
-                }
+
+        // Also attempt initialization when auth state changes (useful if Firebase initializes later)
+        if (window.firebaseAuth && typeof window.firebaseAuth.onAuthStateChanged === 'function') {
+            onAuthStateChanged(auth, (user) => {
+                initializeChatAfterAuth();
             });
         }
         
@@ -3792,8 +3815,8 @@
             
             // Subscribe to new channel
             chatMessagesRef = ref(database, `chat/${channel}/messages`);
-            // Load 200 most recent messages (optimized with virtual scrolling)
-            const messagesQuery = query(chatMessagesRef, limitToLast(200));
+            // Load an initial batch (bounded by CHAT_MAX_HISTORY)
+            const messagesQuery = query(chatMessagesRef, limitToLast(INITIAL_LOAD));
             
             let isInitialLoad = true;
             chatMessagesListener = onValue(messagesQuery, (snapshot) => {
@@ -3879,19 +3902,7 @@
             return { allowed: true };
         }
 
-        // Initialize chat with default channel immediately
-        // Check if Firebase is initialized before loading chat
-        if (window.firebaseDb) {
-            switchChatChannel('general');
-        } else {
-            // Wait for Firebase initialization
-            const checkFirebase = setInterval(() => {
-                if (window.firebaseDb) {
-                    clearInterval(checkFirebase);
-                    switchChatChannel('general');
-                }
-            }, 100);
-        }
+        // (Initialization handled by initializeChatAfterAuth)
 
         // ==================== AUTHENTICATION SYSTEM ====================
         
