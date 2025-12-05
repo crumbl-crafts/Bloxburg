@@ -1210,6 +1210,17 @@
             backdrop-filter: blur(8px);
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
         }
+
+        /* Profile action button used in friends panel & profile modal */
+        .profile-action {
+            background: linear-gradient(135deg, #FF1744, #FF5252);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: none;
+            font-weight: 700;
+            cursor: pointer;
+        }
         .chat-action-btn:hover {
             background: linear-gradient(135deg, rgba(60, 80, 100, 0.7), rgba(50, 60, 80, 0.7));
             border-color: rgba(41, 121, 255, 0.4);
@@ -2722,28 +2733,21 @@
                                 Media File
                             </label>
                             <div style="position: relative;">
-                                <input id="buildFile" type="file" accept="image/png,image/jpeg" style="width: 100%; padding: 14px; border-radius: 10px; border: 2px dashed rgba(255, 23, 68, 0.4); background: rgba(0, 0, 0, 0.4); color: var(--text-bright); font-size: 0.9rem; cursor: pointer; transition: all 0.3s ease;" onchange="document.getElementById('fileName').textContent = this.files[0]?.name || 'No file chosen'">
                             </div>
                             <div style="display: flex; align-items: center; gap: 8px; margin-top: 10px;">
                                 <i class="fas fa-file" style="color: var(--text-muted); font-size: 0.9rem;"></i>
                                 <span id="fileName" style="font-size: 0.85rem; color: var(--text-muted);">No file chosen</span>
                             </div>
                                 <div style="display: flex; gap: 16px; margin-top: 10px; font-size: 0.75rem; color: var(--text-muted);">
-                                <div style="display: flex; align-items: center; gap: 6px;">
+                                    <div style="display: flex; align-items: center; gap: 6px;">
                                     <i class="fas fa-check-circle" style="color: var(--success);"></i>
-                                    Images: PNG/JPEG, Max 5MB (uploads to Supabase)
+                                    Images: Max 5MB
                                 </div>
-                                <div style="display: flex; align-items: center; gap: 6px;">
-                                    <i class="fas fa-exclamation-circle" style="color: var(--danger);"></i>
-                                    For videos: upload to YouTube and paste the YouTube URL below.
                                 </div>
-                            </div>
-                            <div style="margin-top: 12px;">
-                                <label for="youtubeLink" style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-weight: 800; color: var(--text-bright); font-size: 0.9rem;">
-                                    <i class="fab fa-youtube" style="color: #FF0000;"></i>
-                                    YouTube video link (optional)
-                                </label>
-                                <input id="youtubeLink" type="text" placeholder="https://www.youtube.com/watch?v=..." style="width: 100%; padding: 12px; border-radius: 8px; border: 2px solid rgba(255,255,255,0.06); background: rgba(0,0,0,0.25); color: var(--text-bright); font-size: 0.9rem;" aria-label="YouTube link" />
+                                <div style="margin-top: 14px; font-size: 0.85rem; color: var(--text-muted);">If you want to share a video, upload it to YouTube and paste the link below:</div>
+                                <div style="margin-top: 8px;">
+                                    <input id="buildVideoUrl" type="url" placeholder="YouTube video link (e.g., https://youtu.be/VIDEO_ID)" style="width: 100%; padding: 10px; border-radius: 8px; border: 2px solid rgba(255, 255, 255, 0.06); background: rgba(0,0,0,0.32); color: var(--text-bright); font-size: 0.9rem;" aria-label="Video URL" title="Paste your YouTube video link here">
+                                </div>
                             </div>
                         </div>
                         
@@ -3103,6 +3107,7 @@
                             <button class="chat-channel-btn active" data-channel="general" onclick="switchChatChannel('general')" title="General chat channel" aria-label="General chat">General</button>
                             <button class="chat-channel-btn" data-channel="builders" onclick="switchChatChannel('builders')" title="Builders chat channel" aria-label="Builders chat">Builders</button>
                             <button class="chat-channel-btn" data-channel="help" onclick="switchChatChannel('help')" title="Help chat channel" aria-label="Help chat">Help</button>
+                            <button id="friendsBtn" class="chat-channel-btn" title="Friends" aria-label="Friends" onclick="showFriendsPanel()">Friends</button>
                         </div>
                     </div>
                 </div>
@@ -3148,8 +3153,8 @@
         import { getDatabase, ref, push, onChildAdded, onValue, off, serverTimestamp, limitToLast, query, get, set, update, child, orderByChild, endBefore, remove } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
         import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, sendPasswordResetEmail, updateProfile, signInAnonymously, GoogleAuthProvider, signInWithPopup, sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-auth.js";
         import { getStorage, ref as storageRef, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-storage.js";
-        // Supabase client for Build Museum uploads
-        import { createClient as createSupabaseClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
+        // Import Supabase client for build uploads
+        import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
         import { getFirestore, collection, addDoc, getDocs, doc, updateDoc, arrayUnion, serverTimestamp as firestoreTimestamp, query as firestoreQuery, orderBy, limit } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
 
         // Firebase configuration
@@ -3180,26 +3185,94 @@
         window.firebaseAnalytics = analytics;
         window.firestore = firestore;
         
+        // Initialize Supabase for Build Museum uploads (images)
+        const SUPABASE_URL = 'https://eoxdfyjwpcgcilbjmpxp.supabase.co';
+        const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVveGRmeWp3cGNnY2lsYmptcHhwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ5MTk3OTUsImV4cCI6MjA4MDQ5NTc5NX0.kGAHijXQGYJv1PUE01te2z7nCXROx9K5lwvXznVzmG0';
+        const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        window.supabase = supabase;
+        
         // Make Firebase functions globally accessible
         window.storageRef = storageRef;
         window.uploadBytes = uploadBytes;
         window.getDownloadURL = getDownloadURL;
-        // Initialize Supabase client (public anon key) for storage uploads only
-        // NOTE: This key is public by design - it's used for uploads only. Ensure bucket policies are set accordingly.
-        window.SUPABASE_URL = 'https://eoxdfyjwpcgcilbjmpxp.supabase.co';
-        window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVveGRmeWp3cGNnY2lsYmptcHhwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ5MTk3OTUsImV4cCI6MjA4MDQ5NTc5NX0.kGAHijXQGYJv1PUE01te2z7nCXROx9K5lwvXznVzmG0';
-        try {
-            window.supabase = createSupabaseClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY);
-        } catch (err) {
-            console.warn('Failed to initialize Supabase client', err);
-            window.supabase = null;
-        }
         window.collection = collection;
         window.addDoc = addDoc;
         window.firestoreTimestamp = firestoreTimestamp;
 
         // Current user state
         let currentUser = null;
+
+        // Users cache for mapping uid -> profile info (username/displayName/photoURL)
+        window.usersMap = window.usersMap || {};
+
+        // Helper to fetch user profile and cache it
+        const _userListeners = {};
+        async function ensureUserLoaded(uid) {
+            if (!uid) return null;
+            if (window.usersMap[uid]) return window.usersMap[uid];
+            try {
+                const userRef = ref(database, `users/${uid}`);
+                const snap = await get(userRef);
+                const userData = snap.val();
+                if (userData) {
+                    userData.uid = uid;
+                    window.usersMap[uid] = userData;
+                }
+                // Attach an onValue listener to keep the profile cached and update DOM on changes
+                if (!_userListeners[uid]) {
+                    _userListeners[uid] = onValue(userRef, (s) => {
+                        const d = s.val();
+                        if (!d) return;
+                        d.uid = uid;
+                        window.usersMap[uid] = d;
+                        // Update any previously rendered DOM elements for this user
+                        document.querySelectorAll(`.chat-message .chat-message-author[data-uid="${uid}"]`).forEach(el => {
+                            el.textContent = d.username || d.displayName || el.textContent;
+                        });
+                        document.querySelectorAll('.chat-message .chat-message-avatar img').forEach(img => {
+                            const parent = img.closest('.chat-message');
+                            if (parent && parent.querySelector(`.chat-message-author[data-uid="${uid}"]`)) {
+                                img.src = d.photoURL || img.src;
+                            }
+                        });
+                    });
+                }
+                return window.usersMap[uid] || null;
+            } catch (e) {
+                console.warn('Failed to load user', uid, e);
+            }
+            return null;
+        }
+
+        // Utility to get display name for an author (by uid or fallback to text)
+        function getDisplayNameForMessage(msg) {
+            // Prefer authorId
+            if (msg.authorId) {
+                const profile = window.usersMap[msg.authorId];
+                if (profile && profile.username) return profile.username;
+                if (profile && profile.displayName) return profile.displayName;
+                // if profile not loaded yet, but we have a snapshoted display name on the message
+                if (msg.authorDisplayName) return msg.authorDisplayName;
+            }
+            // fallback to author field (existing messages)
+            if (msg.author) return msg.author;
+            // fallback to authorId string
+            if (msg.authorId) return msg.authorId;
+            return 'Anonymous';
+        }
+
+        function formatJoinDate(ts) {
+            if (!ts) return 'Unknown';
+            try {
+                if (typeof ts === 'number') return new Date(ts).toLocaleDateString();
+                // If it's a Firebase serverTimestamp object or Firestore timestamp object
+                if (ts.seconds) return new Date(ts.seconds * 1000).toLocaleDateString();
+                if (ts.toMillis) return new Date(ts.toMillis()).toLocaleDateString();
+                return String(ts);
+            } catch (e) {
+                return 'Unknown';
+            }
+        }
         
         // Username validation
         function validateUsername(username) {
@@ -3256,7 +3329,9 @@
             }
 
             const messageData = {
-                author: userId,
+                author: userId, // fallback display name (legacy) - kept for compatibility
+                authorId: (currentUser && currentUser.uid) || null, // if logged in
+                authorDisplayName: (currentUser && (currentUser.displayName || currentUser.email)) || userId,
                 text: text,
                 timestamp: serverTimestamp()
             };
@@ -3265,26 +3340,27 @@
             if (replyingTo) {
                 messageData.replyTo = {
                     author: replyingTo.author,
+                    authorId: replyingTo.authorId || null,
                     text: replyingTo.text.substring(0, 50)
                 };
             }
 
             // Check if user is banned
-            if (isUserBanned(userId)) {
+            if (isUserBanned((currentUser && currentUser.uid) || userId)) {
                 alert('You are banned from chat and cannot post.');
                 return;
             }
 
             const newRef = push(chatMessagesRef, messageData);
-            // Update spam tracker
-            trackSpam(userId);
-            return newRef;
-            
+            // Update spam tracker (use authorId if available)
+            trackSpam(messageData.authorId || messageData.author);
+
             // Update last message time
             lastMessageTime[currentChannel] = Date.now();
 
             chatInput.value = '';
             cancelReply();
+            return newRef;
         }
 
         // New message tracking with optimization
@@ -3451,7 +3527,9 @@
                 const snap = await get(q);
                 snap.forEach(s => {
                     const val = s.val();
-                    if (val && (val.author === targetUid || val.author === (window.usersMap && window.usersMap[targetUid]))) {
+                    const authorIdMatch = val && val.authorId && val.authorId === targetUid;
+                    const authorNameMatch = val && (val.author === targetUid || val.author === (window.usersMap && window.usersMap[targetUid]?.username) || val.author === (window.usersMap && window.usersMap[targetUid]?.displayName));
+                    if (authorIdMatch || authorNameMatch) {
                         remove(child(msgsRef, s.key));
                     }
                 });
@@ -3493,12 +3571,25 @@
             messageDiv.className = 'chat-message';
             // attach data-id for DOM removal or moderation
             if (msg.id) messageDiv.setAttribute('data-id', msg.id);
+            if (msg.authorId) messageDiv.setAttribute('data-uid', msg.authorId);
             if (msg.replyTo) messageDiv.classList.add('reply');
             
             // Avatar
             const avatar = document.createElement('div');
             avatar.className = 'chat-message-avatar';
-            avatar.textContent = msg.author.charAt(0).toUpperCase();
+            // Use user profile avatar if available
+            if (msg.authorId && window.usersMap[msg.authorId] && window.usersMap[msg.authorId].photoURL) {
+                const img = document.createElement('img');
+                img.src = window.usersMap[msg.authorId].photoURL;
+                img.alt = (window.usersMap[msg.authorId].username || window.usersMap[msg.authorId].displayName || 'User');
+                img.style.width = '100%';
+                img.style.height = '100%';
+                img.style.borderRadius = '50%';
+                avatar.appendChild(img);
+                avatar.onclick = () => openUserProfileModal(msg.authorId);
+            } else {
+                avatar.textContent = (msg.author || (msg.authorDisplayName || '')).charAt(0).toUpperCase();
+            }
             
             // Content container
             const content = document.createElement('div');
@@ -3518,7 +3609,21 @@
             
             const author = document.createElement('span');
             author.className = 'chat-message-author';
-            author.textContent = msg.author;
+            // Render username dynamically from usersMap/authorId if available
+            const displayName = getDisplayNameForMessage(msg);
+            author.textContent = displayName;
+            // Expose uid on element for profile viewing and friend actions
+            if (msg.authorId) author.setAttribute('data-uid', msg.authorId);
+            else if (msg.author) author.setAttribute('data-name', msg.author);
+            author.style.cursor = 'pointer';
+            author.onclick = async () => {
+                if (msg.authorId) {
+                    await ensureUserLoaded(msg.authorId);
+                    openUserProfileModal(msg.authorId);
+                } else if (msg.author) {
+                    openUserProfileModal(msg.author);
+                }
+            };
             
             const time = document.createElement('span');
             time.className = 'chat-message-time';
@@ -3535,7 +3640,11 @@
             actions.appendChild(replyBtn);
 
             // Delete button - only show to the message author (client-side)
-            const canDelete = (msg.author && (msg.author === userId)) || (typeof currentUser !== 'undefined' && currentUser && (msg.author === currentUser.uid || msg.author === currentUser.displayName || msg.author === currentUser.email));
+            const canDelete = (
+                (msg.authorId && currentUser && msg.authorId === currentUser.uid) ||
+                (msg.author && (msg.author === userId)) ||
+                (typeof currentUser !== 'undefined' && currentUser && (msg.author === currentUser.displayName || msg.author === currentUser.email))
+            );
             if (canDelete) {
                 const delBtn = document.createElement('span');
                 delBtn.className = 'message-action-btn';
@@ -3608,6 +3717,8 @@
             const messageDiv = document.createElement('div');
             messageDiv.className = 'chat-message';
             if (message.replyTo) messageDiv.classList.add('reply');
+            if (message.id) messageDiv.setAttribute('data-id', message.id);
+            if (message.authorId) messageDiv.setAttribute('data-uid', message.authorId);
             
             // Avatar
             const avatar = document.createElement('div');
@@ -3632,7 +3743,19 @@
             
             const author = document.createElement('span');
             author.className = 'chat-message-author';
-            author.textContent = message.author;
+            const displayName = getDisplayNameForMessage(message);
+            author.textContent = displayName;
+            if (message.authorId) author.setAttribute('data-uid', message.authorId);
+            else if (message.author) author.setAttribute('data-name', message.author);
+            author.style.cursor = 'pointer';
+            author.onclick = async () => {
+                if (message.authorId) {
+                    await ensureUserLoaded(message.authorId);
+                    openUserProfileModal(message.authorId);
+                } else if (message.author) {
+                    openUserProfileModal(message.author);
+                }
+            };
             
             const time = document.createElement('span');
             time.className = 'chat-message-time';
@@ -3849,6 +3972,8 @@
             
             push(chatMessagesRef, {
                 author: userId,
+                authorId: (currentUser && currentUser.uid) || null,
+                authorDisplayName: (currentUser && (currentUser.displayName || currentUser.email)) || userId,
                 text: url,
                 timestamp: serverTimestamp()
             });
@@ -4028,6 +4153,26 @@
             
             // Update input placeholder with cooldown info
             updateChatInputPlaceholder();
+            // If DM channel, update header title with the other participant's username
+            try {
+                const headerTitleEl = document.querySelector('.chat-header .section-title span');
+                if (channel && channel.startsWith('dm_')) {
+                    const parts = channel.split('_');
+                    const uidA = parts[1];
+                    const uidB = parts[2];
+                    const other = currentUser && currentUser.uid === uidA ? uidB : uidA;
+                    if (other) {
+                        ensureUserLoaded(other).then(profile => {
+                            const name = (profile && (profile.username || profile.displayName)) || other;
+                            if (headerTitleEl) headerTitleEl.textContent = `${name} (DM)`;
+                        });
+                    }
+                } else {
+                    if (headerTitleEl) headerTitleEl.textContent = 'Live Chat';
+                }
+            } catch (e) {
+                console.warn('Failed to update header for DM channel', e);
+            }
             
             // Subscribe to new channel
             chatMessagesRef = ref(database, `chat/${channel}/messages`);
@@ -4092,8 +4237,8 @@
                         return;
                     }
 
-                    // Check if author is banned
-                    if (isUserBanned(newestMessage.author)) {
+                    // Check if author is banned (check by UID if available, otherwise by display name)
+                    if (isUserBanned(newestMessage.authorId || newestMessage.author)) {
                         // remove message
                         remove(child(ref(database, `chat/${currentChannel}/messages`), newestMessage.id));
                         return;
@@ -4101,12 +4246,20 @@
 
                     // Spam detection based on message author timestamps
                     try {
-                        trackSpam(newestMessage.author);
+                        trackSpam(newestMessage.authorId || newestMessage.author);
                     } catch (e) {
                         console.warn('Spam tracker error', e);
                     }
 
-                    // Display message
+                    // Display message: ensure user is loaded so display name updates quickly
+                    if (newestMessage.authorId) {
+                        // Async load the user's profile but don't await blocking UI updates
+                        ensureUserLoaded(newestMessage.authorId).then(() => {
+                            // Replace any existing element author text if needed
+                            const el = document.querySelector(`.chat-message[data-id="${newestMessage.id}"] .chat-message-author`);
+                            if (el && window.usersMap[newestMessage.authorId]) el.textContent = window.usersMap[newestMessage.authorId].username || window.usersMap[newestMessage.authorId].displayName || el.textContent;
+                        }).catch(() => {});
+                    }
                     displayMessage(newestMessage, true);
                     // Cleanup if exceeding history
                     cleanupOldMessages();
@@ -4604,6 +4757,13 @@
                 
                 // Refresh UI
                 updateUserUI(currentUser);
+                // Update cache for user and update message authors in the chat
+                window.usersMap[currentUser.uid] = Object.assign({}, window.usersMap[currentUser.uid] || {}, { ...updates, uid: currentUser.uid });
+                // Update any existing message elements from this user
+                document.querySelectorAll(`.chat-message .chat-message-author[data-uid="${currentUser.uid}"]`).forEach(el => {
+                    const profile = window.usersMap[currentUser.uid];
+                    if (profile) el.textContent = profile.username || profile.displayName || el.textContent;
+                });
                 
             } catch (error) {
                 console.error('Profile update error:', error);
@@ -4631,11 +4791,13 @@
             if (user) {
                 currentUser = user;
                 
-                // Update chat to use real user
-                const userData = (await get(ref(database, `users/${user.uid}`))).val();
+                // Update chat to use real user and cache profile in usersMap
+                const userSnap = await get(ref(database, `users/${user.uid}`));
+                const userData = userSnap.val();
                 if (userData) {
                     userId = userData.username || user.displayName || user.email;
                     localStorage.setItem('chatUserId', userId);
+                    window.usersMap[user.uid] = userData; // cache current user profile
                 }
                 
                 // Load moderators list and bans from DB
@@ -4653,6 +4815,20 @@
                 } catch (e) {
                     console.warn('Failed to load bans:', e);
                 }
+                try {
+                    const friendsSnap = await get(ref(database, `friends/${user.uid}`));
+                    window.myFriends = friendsSnap.val() || {};
+                } catch (e) {
+                    console.warn('Failed to load friends list:', e);
+                    window.myFriends = {};
+                }
+                try {
+                    const incomingSnap = await get(ref(database, `friendRequests/${user.uid}`));
+                    window.myIncomingFriendRequests = incomingSnap.val() || {};
+                } catch (e) {
+                    console.warn('Failed to load incoming friend requests:', e);
+                    window.myIncomingFriendRequests = {};
+                }
 
                 updateUserUI(user);
             } else {
@@ -4660,6 +4836,237 @@
                 updateUserUI(null);
             }
         });
+
+        // Friend system helpers
+        async function getUidFromUsername(name) {
+            if (!name) return null;
+            try {
+                const snap = await get(ref(database, `usernames/${name.toLowerCase()}`));
+                return snap.exists() ? snap.val() : null;
+            } catch (e) {
+                console.warn('Failed to resolve username to uid', name, e);
+                return null;
+            }
+        }
+
+        async function isFriend(uid1, uid2) {
+            if (!uid1 || !uid2) return false;
+            try {
+                const snap = await get(ref(database, `friends/${uid1}/${uid2}`));
+                return snap.exists();
+            } catch (e) {
+                console.warn('isFriend check failed', e);
+                return false;
+            }
+        }
+
+        async function hasOutgoingFriendRequest(senderUid, targetUid) {
+            if (!senderUid || !targetUid) return false;
+            try {
+                const snap = await get(ref(database, `friendRequests/${targetUid}/${senderUid}`));
+                return snap.exists();
+            } catch (e) {
+                console.warn('hasOutgoingFriendRequest check failed', e);
+                return false;
+            }
+        }
+
+        async function hasIncomingFriendRequest(receiverUid, fromUid) {
+            if (!receiverUid || !fromUid) return false;
+            try {
+                const snap = await get(ref(database, `friendRequests/${receiverUid}/${fromUid}`));
+                return snap.exists();
+            } catch (e) {
+                console.warn('hasIncomingFriendRequest check failed', e);
+                return false;
+            }
+        }
+
+        async function sendFriendRequest(targetUid) {
+            if (!currentUser) { alert('Sign in to send friend requests'); return; }
+            try {
+                await set(ref(database, `friendRequests/${targetUid}/${currentUser.uid}`), { from: currentUser.uid, to: targetUid, timestamp: serverTimestamp() });
+                alert('Friend request sent');
+                // update outgoing requests locally
+                window.myOutgoingRequests = window.myOutgoingRequests || {};
+                window.myOutgoingRequests[targetUid] = { from: currentUser.uid, to: targetUid };
+            } catch (e) {
+                console.error('Failed to send friend request', e);
+                alert('Failed to send friend request: ' + e.message);
+            }
+        }
+
+        async function cancelFriendRequest(targetUid) {
+            if (!currentUser) return;
+            try {
+                await remove(ref(database, `friendRequests/${targetUid}/${currentUser.uid}`));
+                alert('Friend request canceled');
+                if (window.myOutgoingRequests) delete window.myOutgoingRequests[targetUid];
+            } catch (e) {
+                console.error('Failed to cancel friend request', e);
+                alert('Failed to cancel friend request: ' + e.message);
+            }
+        }
+
+        async function acceptFriendRequest(senderUid) {
+            if (!currentUser) return;
+            try {
+                const now = Date.now();
+                await set(ref(database, `friends/${currentUser.uid}/${senderUid}`), { since: now });
+                await set(ref(database, `friends/${senderUid}/${currentUser.uid}`), { since: now });
+                await remove(ref(database, `friendRequests/${currentUser.uid}/${senderUid}`));
+                alert('Friend request accepted');
+                window.myFriends = window.myFriends || {};
+                window.myFriends[senderUid] = { since: Date.now() };
+            } catch (e) {
+                console.error('Failed to accept friend request', e);
+                alert('Failed to accept friend request: ' + e.message);
+            }
+        }
+
+        async function declineFriendRequest(senderUid) {
+            if (!currentUser) return;
+            try {
+                await remove(ref(database, `friendRequests/${currentUser.uid}/${senderUid}`));
+                alert('Friend request declined');
+            } catch (e) {
+                console.error('Failed to decline friend request', e);
+                alert('Failed to decline friend request: ' + e.message);
+            }
+        }
+
+        async function unfriend(targetUid) {
+            if (!currentUser) return;
+            try {
+                await remove(ref(database, `friends/${currentUser.uid}/${targetUid}`));
+                await remove(ref(database, `friends/${targetUid}/${currentUser.uid}`));
+                alert('Unfriended');
+                if (window.myFriends) delete window.myFriends[targetUid];
+            } catch (e) {
+                console.error('Failed to unfriend', e);
+                alert('Failed to unfriend: ' + e.message);
+            }
+        }
+
+        // DM helpers - deterministic channel for two users
+        function getDmChannel(uid1, uid2) {
+            if (!uid1 || !uid2) return null;
+            const a = uid1 < uid2 ? uid1 : uid2;
+            const b = uid1 < uid2 ? uid2 : uid1;
+            return `dm_${a}_${b}`;
+        }
+
+        async function openDM(targetUid) {
+            if (!currentUser) { alert('Please sign in to message other users'); return; }
+            if (!targetUid) return;
+
+            const friend = await isFriend(currentUser.uid, targetUid);
+            if (!friend) {
+                const ok = confirm('You can only DM friends. Send friend request to connect?');
+                if (ok) {
+                    await sendFriendRequest(targetUid);
+                }
+                return;
+            }
+
+            const dmId = getDmChannel(currentUser.uid, targetUid);
+            switchChatChannel(dmId);
+        }
+
+        // Load and show a friends panel with quick actions
+        async function loadMyFriends() {
+            if (!currentUser) return [];
+            try {
+                const snap = await get(ref(database, `friends/${currentUser.uid}`));
+                const friendsObj = snap.val() || {};
+                const uids = Object.keys(friendsObj);
+                const friends = [];
+                for (const f of uids) {
+                    const profile = await ensureUserLoaded(f);
+                    if (profile) friends.push({ uid: f, profile });
+                }
+                return friends;
+            } catch (e) {
+                console.error('Failed to load my friends', e);
+                return [];
+            }
+        }
+
+        async function showFriendsPanel() {
+            const panelId = 'friendsPanel';
+            const existing = document.getElementById(panelId);
+            if (existing) { existing.remove(); return; }
+            const container = document.createElement('div');
+            container.id = panelId;
+            container.style.cssText = 'position:absolute;right:0;top:60px;width:320px;background:rgba(10,10,12,0.95);border:1px solid rgba(255,255,255,0.06);padding:12px;border-radius:8px;z-index:9999;box-shadow:0 10px 40px rgba(0,0,0,0.7);';
+            container.innerHTML = `<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;"><strong>Friends</strong><button onclick=\"document.getElementById('friendsPanel').remove()\">×</button></div><div id=\"friendsList\">Loading...</div>`;
+            document.querySelector('.chat-container').appendChild(container);
+            const list = container.querySelector('#friendsList');
+            if (!currentUser) { list.innerHTML = '<div>Please sign in to see friends</div>'; return; }
+            const friends = await loadMyFriends();
+            if (!friends.length) { list.innerHTML = '<div style="color:var(--text-muted);">No friends yet</div>'; return; }
+            list.innerHTML = '';
+            for (const f of friends) {
+                const row = document.createElement('div');
+                row.style.cssText = 'display:flex;align-items:center;gap:8px;padding:8px;border-radius:8px;margin-bottom:6px;cursor:pointer;';
+                row.innerHTML = `<img src="${f.profile.photoURL || `https://ui-avatars.com/api/?name=${encodeURIComponent(f.profile.username || f.profile.displayName || 'User')}&background=FF1744&color=fff&size=64`}" style="width:40px;height:40px;border-radius:50%;"/> <div style=\"flex:1\"><div style=\"font-weight:700\">${f.profile.username || f.profile.displayName}</div></div> <div style=\"display:flex;gap:6px;\"><button class=\"profile-action\" onclick=\"openDM('${f.uid}')\">Message</button><button class=\"profile-action\" onclick=\"openUserProfileModal('${f.uid}')\">Profile</button></div>`;
+                list.appendChild(row);
+            }
+        }
+
+        // Open a profile modal: accepts either uid or username string
+        async function openUserProfileModal(uidOrName) {
+            let targetUid = uidOrName;
+            // If name provided (not a uid), look up UID
+            if (typeof uidOrName === 'string' && !uidOrName.startsWith('uid_') && !uidOrName.match(/^[a-f0-9\-]{20,64}$/i) ) {
+                const resolved = await getUidFromUsername(uidOrName);
+                if (!resolved) {
+                    alert('User not found');
+                    return;
+                }
+                targetUid = resolved;
+            }
+
+            // Load user data
+            const profileSnap = await get(ref(database, `users/${targetUid}`));
+            const profile = profileSnap.val();
+            if (profile) profile.uid = targetUid;
+            if (!profile) {
+                alert('User profile not found');
+                return;
+            }
+            // Build modal UI
+            const modal = document.createElement('div');
+            modal.className = 'build-modal show';
+            const isSelf = currentUser && currentUser.uid === targetUid;
+            const isFriendStatus = currentUser ? (await isFriend(currentUser.uid, targetUid)) : false;
+            const outgoing = currentUser ? (await hasOutgoingFriendRequest(currentUser.uid, targetUid)) : false; // current user sent to target
+            const incoming = currentUser ? (await hasIncomingFriendRequest(currentUser.uid, targetUid)) : false; // current user's incoming from target
+
+            modal.innerHTML = `
+                <div class="build-modal-content" style="max-width:540px;">
+                    <button class="build-modal-close" onclick="this.closest('.build-modal').remove()">×</button>
+                    <div style="display:flex;gap:16px;align-items:center;">
+                        <img src="${profile.photoURL || `https://ui-avatars.com/api/?name=${encodeURIComponent(profile.username || profile.displayName || 'User')}&background=FF1744&color=fff&size=200`}" alt="Avatar" style="width:96px;height:96px;border-radius:50%;">
+                        <div>
+                            <h2 style="margin:0;">${profile.username || profile.displayName || 'User'}</h2>
+                            <div style="color:var(--text-muted);font-size:0.9rem;margin-top:6px;">Joined: ${formatJoinDate(profile.createdAt)}</div>
+                        </div>
+                    </div>
+                    <div style="margin-top:12px; color:var(--text-muted);">${profile.about || ''}</div>
+                    <div style="display:flex; gap: 8px; margin-top: 18px;">
+                        ${isSelf ? `<button onclick="this.closest('.build-modal').remove(); showProfileEdit();" class="profile-action">Edit Profile</button>` : `
+                            ${isFriendStatus ? `<button class="profile-action" onclick="openDM('${targetUid}')">Message</button><button class="profile-action" onclick="unfriend('${targetUid}')">Unfriend</button>` : ''}
+                            ${outgoing ? `<button class="profile-action" onclick="cancelFriendRequest('${targetUid}')">Cancel Request</button>` : ''}
+                            ${incoming ? `<button class="profile-action" onclick="acceptFriendRequest('${profile.uid || targetUid}')">Accept</button><button class="profile-action" onclick="declineFriendRequest('${profile.uid || targetUid}')">Decline</button>` : ''}
+                            ${(!isFriendStatus && !outgoing && !incoming && !isSelf) ? `<button class="profile-action" onclick="sendFriendRequest('${targetUid}')">Add Friend</button>` : ''}
+                        `}
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+            modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+        }
 
         // Update UI based on auth state
         function updateUserUI(user) {
@@ -5976,11 +6383,11 @@
             const buildsHTML = buildMuseumBuilds.map(build => `
                 <div class="build-card" onclick="openBuildModal('${build.id}')">
                     <div class="build-card-media">
-                        ${build.type === 'youtube' 
-                            ? `<img src="${build.thumbnailUrl || build.mediaUrl}" alt="${build.title}" loading="lazy" />` 
-                            : `<img src="${build.mediaUrl}" alt="${build.title}" loading="lazy" />`
-                        }
-                        <div class="build-card-type">${build.type === 'youtube' ? '📹 Video (YouTube)' : '🖼️ Image'}</div>
+                            ${build.type === 'video' 
+                                ? (build.videoUrl ? `<div class="video-thumb" style="position:relative;display:block;border-radius:12px;overflow:hidden"><img src="${build.thumbnailUrl || `https://img.youtube.com/vi/${parseYouTubeId(build.videoUrl) || ''}/mqdefault.jpg`}" loading="lazy" alt="${build.title}"/><div style=\"position:absolute;inset:0;display:flex;align-items:center;justify-content:center;\"><div style=\"background: rgba(0,0,0,0.45); padding: 8px 14px; border-radius: 999px; color:#fff; font-weight:900;\">▶</div></div></div>` : `<video src="${build.mediaUrl}" loop muted loading="lazy"></video>`) 
+                                : `<img src="${build.mediaUrl}" alt="${build.title}" loading="lazy" />`
+                            }
+                        <div class="build-card-type">${build.type === 'video' ? '📹 Video' : '🖼️ Image'}</div>
                     </div>
                     <div class="build-card-content">
                         <div class="build-card-title">${build.title}</div>
@@ -6017,13 +6424,8 @@
                 <div class="build-modal-content">
                     <button class="build-modal-close" onclick="this.closest('.build-modal').remove()">×</button>
                     <div class="build-modal-media">
-                        ${build.type === 'youtube' 
-                            ? (function() {
-                                const vidMatch = (build.mediaUrl && build.mediaUrl.match(/v=([A-Za-z0-9_-]{11})/)) || (build.mediaUrl && build.mediaUrl.includes('youtu.be') && build.mediaUrl.split('/').pop());
-                                const vid = vidMatch && vidMatch[1] ? vidMatch[1] : (build.mediaUrl && new URL(build.mediaUrl).searchParams.get('v')) || null;
-                                const embedUrl = vid ? `https://www.youtube.com/embed/${vid}` : build.mediaUrl;
-                                return `<iframe src="${embedUrl}" frameborder="0" allowfullscreen style="width:100%;height:350px;border-radius:8px;"> </iframe>`;
-                            })()
+                        ${build.type === 'video' 
+                            ? (build.videoUrl ? `<div style="position:relative;padding-top:56.25%;"><iframe src="https://www.youtube.com/embed/${parseYouTubeId(build.videoUrl)}?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:none;border-radius:8px"></iframe></div>` : `<video src="${build.mediaUrl}" controls autoplay loop></video>`) 
                             : `<img src="${build.mediaUrl}" alt="${build.title}" />`
                         }
                     </div>
@@ -6037,7 +6439,7 @@
                         
                         <div style="display: flex; gap: 8px; margin-bottom: 20px;">
                             ${[1,2,3,4,5].map(star => `
-                                <button onclick="rateBuild(${buildId}, ${star})" style="background: ${star <= Math.round(build.rating) ? '#FFD700' : 'rgba(255, 255, 255, 0.1)'}; border: none; color: white; padding: 8px 12px; border-radius: 8px; cursor: pointer; transition: all 0.2s;">
+                                <button onclick="rateBuild('${buildId}', ${star})" style="background: ${star <= Math.round(build.rating) ? '#FFD700' : 'rgba(255, 255, 255, 0.1)'}; border: none; color: white; padding: 8px 12px; border-radius: 8px; cursor: pointer; transition: all 0.2s;">
                                     <i class="fas fa-star"></i>
                                 </button>
                             `).join('')}
@@ -6045,14 +6447,14 @@
                         
                         <div class="build-comments">
                             <h3 style="font-size: 1.1rem; font-weight: 800; margin-bottom: 12px;">
-                                <i class="fas fa-comments"></i> Comments (${build.comments.length})
-                            </h3>
+                                    <i class="fas fa-comments"></i> Comments (${(build.comments || []).length})
+                                </h3>
                             <div class="build-comment-input">
                                 <input type="text" id="commentInput${buildId}" placeholder="Add a comment..." />
-                                <button onclick="addComment(${buildId})">Post</button>
+                                <button onclick="addComment('${buildId}')">Post</button>
                             </div>
                             <div id="commentsContainer${buildId}">
-                                ${build.comments.map(c => `
+                                ${(build.comments || []).map(c => `
                                     <div class="build-comment">
                                         <div class="build-comment-author">${c.author}</div>
                                         <div class="build-comment-text">${c.text}</div>
@@ -6156,7 +6558,23 @@
         }
         
         // Upload build functionality
-        async function uploadBuild(file, title, description) {
+        // Helper: Parse YouTube video ID or return null
+        function parseYouTubeId(url) {
+            if (!url || typeof url !== 'string') return null;
+            // standard youtube url formats
+            const patterns = [
+                /(?:https?:\/\/)?(?:www\.)?youtube\.com\/watch\?v=([a-zA-Z0-9_-]{11})/,
+                /(?:https?:\/\/)?(?:www\.)?youtu\.be\/([a-zA-Z0-9_-]{11})/,
+                /(?:https?:\/\/)?(?:www\.)?youtube\.com\/embed\/([a-zA-Z0-9_-]{11})/
+            ];
+            for (const p of patterns) {
+                const m = url.match(p);
+                if (m && m[1]) return m[1];
+            }
+            return null;
+        }
+
+        async function uploadBuild(file, title, description, videoUrl) {
             // Safely resolve the authenticated user - avoid ReferenceError if `currentUser` isn't defined in this scope
             const user = (typeof currentUser !== 'undefined' && currentUser) || window.currentUser || (window.firebaseAuth && window.firebaseAuth.currentUser) || (typeof auth !== 'undefined' && auth.currentUser) || null;
             if (!user) {
@@ -6167,28 +6585,27 @@
             try {
                 console.log('Starting upload...', { title, description, file: file?.name, user: user && (user.uid || user.email) });
                 
-                    // Validate file and YouTube link
-                    const maxImageSize = 5 * 1024 * 1024; // 5MB
-                    const youtubeLinkValue = (document.getElementById('youtubeLink') && document.getElementById('youtubeLink').value.trim()) || null;
-                    const hasFile = !!file;
-                    const hasYoutube = !!youtubeLinkValue;
-
-                    const isImage = hasFile && file.type && (file.type === 'image/png' || file.type === 'image/jpeg' || file.type === 'image/jpg');
-
-                    if (!hasFile && !hasYoutube) {
-                        alert('Please choose an image (PNG/JPEG) to upload or provide a YouTube link for a video.');
-                        return false;
-                    }
-
-                    if (hasFile && !isImage) {
-                        alert('Only PNG or JPEG image files are allowed for uploads. For videos, upload to YouTube and paste the link.');
-                        return false;
-                    }
-
-                    if (isImage && file.size > maxImageSize) {
-                        alert('Image size must be less than 5MB.');
-                        return false;
-                    }
+                // Validate file or video link
+                const maxImageSize = 5 * 1024 * 1024; // 5MB
+                const isImage = file && file.type && (file.type === 'image/png' || file.type === 'image/jpeg' || file.type === 'image/jpg');
+                const isVideoFile = file && file.type && file.type.startsWith('video/');
+                const hasVideoUrl = !!videoUrl && parseYouTubeId(videoUrl);
+                
+                // Only allow images to be uploaded directly; videos must be YouTube links
+                if (!isImage && !hasVideoUrl) {
+                    alert('Please upload an image (JPEG/PNG) or paste a YouTube video link.');
+                    return;
+                }
+                
+                if (isImage && file.size > maxImageSize) {
+                    alert('Image size must be less than 5MB.');
+                    return;
+                }
+                if (isVideoFile) {
+                    // Disallow direct video uploads; encourage using YouTube links
+                    alert('Please upload videos to YouTube and paste the link in the "Video URL" field. Direct video uploads are not supported.');
+                    return;
+                }
                 
                 // Show uploading message
                 const uploadBtn = document.getElementById('uploadSubmitBtn');
@@ -6197,65 +6614,45 @@
                     uploadBtn.disabled = true;
                 }
                 
-                // Upload file to Supabase Storage (for images) or process YouTube link for videos
+                // Upload file to Supabase Storage (images only) or process YouTube link for videos
                 const timestamp = Date.now();
                 const fileExtension = file.name.split('.').pop();
+                const fileName = `builds/${user.uid}/${timestamp}.${fileExtension}`;
                 let mediaUrl = '';
-                let thumbnailUrl = '';
                 let storagePath = '';
-                let storageProvider = 'supabase';
-                let contentType = file && file.type ? file.type : '';
-                let fileSize = file && file.size ? file.size : 0;
+                let contentType = '';
+                let fileSize = 0;
 
-                if (hasFile) {
-                    const fileName = `builds/${user.uid}/${timestamp}.${fileExtension}`;
-                    console.log('Uploading to Supabase storage:', fileName);
-                    if (!window.supabase) {
-                        alert('Storage service is not initialized. Please try again later.');
-                        return false;
-                    }
+                if (isImage) {
+                    // Upload to Supabase storage
                     try {
-                        const { data: uploadData, error: uploadError } = await window.supabase.storage.from('builds').upload(fileName, file, { cacheControl: '3600', upsert: true });
-                        if (uploadError) {
-                            console.error('Supabase upload error:', uploadError);
-                            alert('Upload failed. Please try again.');
-                            return false;
-                        }
-
-                        const { data: publicData, error: publicError } = window.supabase.storage.from('builds').getPublicUrl(fileName);
-                        if (publicError || !publicData || !publicData.publicUrl) {
-                            console.warn('Failed to obtain public URL from Supabase', publicError);
-                            mediaUrl = '';
-                        } else {
-                            mediaUrl = publicData.publicUrl;
-                        }
-                        storagePath = fileName;
-                        storageProvider = 'supabase';
-                        // simple thumbnail fallback
-                        thumbnailUrl = mediaUrl;
+                        const path = `builds/${user.uid}/${timestamp}.${fileExtension}`;
+                        const { data: uploadData, error: uploadError } = await window.supabase.storage.from('builds').upload(path, file);
+                        if (uploadError) throw uploadError;
+                        storagePath = path;
+                        contentType = file.type;
+                        fileSize = file.size;
+                        const { data: publicData } = window.supabase.storage.from('builds').getPublicUrl(path);
+                        mediaUrl = publicData?.publicUrl || '';
+                        console.log('Uploaded to Supabase, publicUrl:', mediaUrl);
                     } catch (err) {
-                        console.error('Supabase upload threw an error', err);
-                        alert('Upload failed. Please try again.');
+                        console.error('Supabase upload failed:', err);
+                        alert('Failed to upload image to Supabase: ' + (err.message || err.error || err));
+                        const uploadBtn = document.getElementById('uploadSubmitBtn');
+                        if (uploadBtn) {
+                            uploadBtn.innerHTML = '<i class="fas fa-cloud-upload-alt"></i> Upload Build';
+                            uploadBtn.disabled = false;
+                        }
                         return false;
                     }
-                } else if (hasYoutube) {
-                    // Extract video ID and construct necessary video URL + thumbnail
-                    function extractYouTubeId(url) {
-                        const regex = /(?:youtube\.com\/(?:.*v=|v\/|embed\/)|youtu\.be\/)([A-Za-z0-9_-]{11})/;
-                        const m = url.match(regex);
-                        if (m && m[1]) return m[1];
-                        // also try common watch?v= style
-                        const q = new URL(url);
-                        return q.searchParams.get('v');
-                    }
-                    const id = extractYouTubeId(youtubeLinkValue);
-                    if (!id) {
-                        alert('Invalid YouTube link. Please make sure the URL is a valid YouTube video link.');
+                } else if (hasVideoUrl) {
+                    const vid = parseYouTubeId(videoUrl);
+                    if (!vid) {
+                        alert('Invalid YouTube URL provided. Please check and try again.');
                         return false;
                     }
-                    mediaUrl = `https://www.youtube.com/watch?v=${id}`;
-                    thumbnailUrl = `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
-                    storageProvider = 'youtube';
+                    // Use embed URL for consistent viewing experience
+                    mediaUrl = `https://www.youtube.com/watch?v=${vid}`; // keep full URL for linking
                 }
                 
                 // Add build to Firestore
@@ -6266,13 +6663,15 @@
                     author: user.displayName || user.email || 'Anonymous',
                     authorId: user.uid,
                     authorPhoto: user.photoURL || '',
-                    type: hasYoutube ? 'youtube' : 'image',
+                    type: hasVideoUrl ? 'video' : 'image',
                     mediaUrl: mediaUrl,
-                    thumbnailUrl: thumbnailUrl || '',
-                    storageProvider: storageProvider || 'supabase',
+                    // If uploaded to Supabase, store path and metadata
+                    storageProvider: isImage ? 'supabase' : (hasVideoUrl ? 'youtube' : 'unknown'),
                     storagePath: storagePath || '',
                     fileSize: fileSize || 0,
-                    contentType: contentType || '',
+                    contentType: contentType || (file && file.type) || '',
+                    videoUrl: hasVideoUrl ? mediaUrl : undefined,
+                    thumbnailUrl: hasVideoUrl ? `https://img.youtube.com/vi/${parseYouTubeId(videoUrl)}/mqdefault.jpg` : (hasVideoUrl ? `https://img.youtube.com/vi/${parseYouTubeId(videoUrl)}/mqdefault.jpg` : (mediaUrl || '')),
                     rating: 0,
                     ratingCount: 0,
                     ratings: {},
@@ -6337,8 +6736,11 @@
                         </div>
                         <div>
                             <label style="display: block; margin-bottom: 8px; font-weight: 700; color: var(--text-bright);">Media File</label>
-                            <input id="buildFile" type="file" accept="image/*,video/*" style="width: 100%; padding: 12px; border-radius: 8px; border: 2px solid var(--border); background: rgba(0,0,0,0.3); color: var(--text); font-size: 0.9rem;">
-                            <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 8px;">Max: 5MB for images, 50MB for videos (30s)</p>
+                                <input id="buildFile" type="file" accept="image/png,image/jpeg" style="width: 100%; padding: 12px; border-radius: 8px; border: 2px solid var(--border); background: rgba(0,0,0,0.3); color: var(--text); font-size: 0.9rem;">
+                            <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 8px;">Max: 5MB for images. For videos, upload to YouTube and paste the link below.</p>
+                            <div style="margin-top: 8px;">
+                                <input id="buildVideoUrl" type="url" placeholder="YouTube video link (e.g., https://youtu.be/VIDEO_ID)" style="width: 100%; padding: 10px; border-radius: 8px; border: 2px solid var(--border); background: rgba(0,0,0,0.32); color: var(--text); font-size: 0.9rem;" aria-label="Video URL" title="Paste your YouTube video link here">
+                            </div>
                         </div>
                         <button onclick="handleBuildUpload()" style="background: linear-gradient(135deg, #FF1744, #FF5252); border: none; color: white; padding: 14px; border-radius: 12px; cursor: pointer; font-weight: 800; font-size: 0.95rem; transition: all 0.3s ease; box-shadow: 0 4px 12px rgba(255, 23, 68, 0.4);">
                             <i class="fas fa-cloud-upload-alt"></i> Upload Build
@@ -6354,20 +6756,21 @@
             const description = document.getElementById('buildDescription').value.trim();
             const fileInput = document.getElementById('buildFile');
             const file = fileInput?.files[0];
-            const youtubeLinkValue = (document.getElementById('youtubeLink') && document.getElementById('youtubeLink').value.trim()) || '';
+            const videoUrlInput = document.getElementById('buildVideoUrl');
+            const videoUrl = videoUrlInput ? videoUrlInput.value.trim() : '';
             
             if (!title) {
                 alert('Please enter a title for your build.');
                 return;
             }
             
-            if (!file && !youtubeLinkValue) {
-                alert('Please select an image file (PNG/JPEG) or provide a YouTube link for a video.');
+            if (!file && !videoUrl) {
+                alert('Please select an image file or paste a YouTube link for video content.');
                 return;
             }
             
             // Upload (modal will close on success)
-            const success = await uploadBuild(file, title, description);
+            const success = await uploadBuild(file, title, description, videoUrl);
             
             // Close modal only on success
             if (success) {
