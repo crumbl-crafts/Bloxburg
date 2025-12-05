@@ -942,7 +942,7 @@
             box-shadow: 0 0 12px rgba(41, 121, 255, 0.4);
         }
         .chat-messages {
-            overflow-y: scroll !important;
+            overflow-y: auto;
             overflow-x: hidden;
             display: flex;
             flex-direction: column;
@@ -951,6 +951,7 @@
             height: 100%;
             flex: 1;
             min-height: 150px;
+            max-height: 100%;
             overscroll-behavior: contain;
             scroll-behavior: smooth;
             -webkit-overflow-scrolling: touch;
@@ -958,6 +959,8 @@
             will-change: scroll-position;
             scroll-padding: 8px;
             margin-bottom: 12px;
+            word-break: break-word;
+            overflow-wrap: break-word;
         }
         .chat-messages::-webkit-scrollbar {
             width: 12px;
@@ -3249,6 +3252,80 @@
         }
         
         // Optimized message display with DocumentFragment
+        // Cleanup old messages to prevent memory issues with massive chat history
+        function cleanupOldMessages() {
+            const maxMessages = 150; // Keep max 150 messages in DOM
+            const messageElements = chatMessages.querySelectorAll('.chat-message');
+            if (messageElements.length > maxMessages) {
+                const removeCount = messageElements.length - maxMessages;
+                for (let i = 0; i < removeCount; i++) {
+                    messageElements[i].remove();
+                }
+            }
+        }
+        
+        // Create message element without adding to DOM (for batch operations)
+        function createMessageElement(msg, isNew = false) {
+            if (!msg || !msg.author) return null;
+            
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'chat-message';
+            if (msg.replyTo) messageDiv.classList.add('reply');
+            
+            // Avatar
+            const avatar = document.createElement('div');
+            avatar.className = 'chat-message-avatar';
+            avatar.textContent = msg.author.charAt(0).toUpperCase();
+            
+            // Content container
+            const content = document.createElement('div');
+            content.className = 'chat-message-content';
+            
+            // Reply info (if exists)
+            if (msg.replyTo) {
+                const replyInfo = document.createElement('div');
+                replyInfo.className = 'chat-message-reply-info';
+                replyInfo.textContent = `↳ ${msg.replyTo.author}: ${msg.replyTo.text}`;
+                content.appendChild(replyInfo);
+            }
+            
+            // Header (author + time + actions)
+            const header = document.createElement('div');
+            header.className = 'chat-message-header';
+            
+            const author = document.createElement('span');
+            author.className = 'chat-message-author';
+            author.textContent = msg.author;
+            
+            const time = document.createElement('span');
+            time.className = 'chat-message-time';
+            const timestamp = msg.timestamp ? new Date(msg.timestamp) : new Date();
+            time.textContent = timestamp.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+            
+            const actions = document.createElement('div');
+            actions.className = 'message-actions';
+            actions.innerHTML = '<span class="message-action-btn">↩ Reply</span>';
+            actions.firstChild.onclick = () => setReply(msg);
+            
+            header.append(author, time, actions);
+            
+            // Message text/content
+            const text = document.createElement('div');
+            text.className = 'chat-message-text';
+            
+            const isGif = msg.text && (msg.text.includes('giphy.com') || msg.text.includes('tenor.com'));
+            if (isGif) {
+                text.innerHTML = `<img src="${msg.text}" style="max-width:250px;max-height:250px;border-radius:8px;margin-top:4px" loading="lazy">`;
+            } else {
+                text.innerHTML = (msg.text || '').replace(/@(\w+)/g, '<span class="chat-mention">@$1</span>');
+            }
+            
+            content.append(header, text);
+            messageDiv.append(avatar, content);
+            
+            return messageDiv;
+        }
+        
         function displayMessage(message, isNew = false) {
             if (!message || !message.author) return;
             
@@ -3331,6 +3408,10 @@
             // Batch DOM update with requestAnimationFrame for performance
             requestAnimationFrame(() => {
                 chatMessages.appendChild(fragment);
+                
+                // Cleanup old messages to prevent lag
+                cleanupOldMessages();
+                
                 if (hasScrolledToBottom) {
                     chatMessages.scrollTop = chatMessages.scrollHeight;
                 }
@@ -3558,7 +3639,8 @@
             
             // Subscribe to new channel
             chatMessagesRef = ref(database, `chat/${channel}/messages`);
-            const messagesQuery = query(chatMessagesRef, limitToLast(50));
+            // Limit to 100 recent messages for performance
+            const messagesQuery = query(chatMessagesRef, limitToLast(100));
             
             let isInitialLoad = true;
             chatMessagesListener = onValue(messagesQuery, (snapshot) => {
@@ -3573,7 +3655,18 @@
                     });
                     
                     messages.sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
-                    messages.forEach(msg => displayMessage(msg, false));
+                    
+                    // Use DocumentFragment for efficient DOM updates
+                    const fragment = document.createDocumentFragment();
+                    messages.forEach(msg => {
+                        const msgElement = createMessageElement(msg, false);
+                        if (msgElement) fragment.appendChild(msgElement);
+                    });
+                    chatMessages.appendChild(fragment);
+                    
+                    // Cleanup excess messages in DOM (keep only last 150)
+                    cleanupOldMessages();
+                    
                     chatMessages.scrollTop = chatMessages.scrollHeight;
                     resetNewMessageCounter();
                     isInitialLoad = false;
@@ -3627,10 +3720,19 @@
             return { allowed: true };
         }
 
-        // Initialize chat with default channel
-        setTimeout(() => {
+        // Initialize chat with default channel immediately
+        // Check if Firebase is initialized before loading chat
+        if (window.firebaseDb) {
             switchChatChannel('general');
-        }, 500);
+        } else {
+            // Wait for Firebase initialization
+            const checkFirebase = setInterval(() => {
+                if (window.firebaseDb) {
+                    clearInterval(checkFirebase);
+                    switchChatChannel('general');
+                }
+            }, 100);
+        }
 
         // ==================== AUTHENTICATION SYSTEM ====================
         
