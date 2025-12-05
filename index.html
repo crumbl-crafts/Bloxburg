@@ -3508,8 +3508,39 @@
             
             const actions = document.createElement('div');
             actions.className = 'message-actions';
-            actions.innerHTML = '<span class="message-action-btn">↩ Reply</span>';
-            actions.firstChild.onclick = () => setReply(msg);
+            // Reply button
+            const replyBtn = document.createElement('span');
+            replyBtn.className = 'message-action-btn';
+            replyBtn.textContent = '↩ Reply';
+            replyBtn.onclick = () => setReply(msg);
+            actions.appendChild(replyBtn);
+
+            // Delete button - only show to the message author (client-side)
+            const canDelete = (msg.author && (msg.author === userId)) || (typeof currentUser !== 'undefined' && currentUser && (msg.author === currentUser.uid || msg.author === currentUser.displayName || msg.author === currentUser.email));
+            if (canDelete) {
+                const delBtn = document.createElement('span');
+                delBtn.className = 'message-action-btn';
+                delBtn.style.background = 'rgba(220, 53, 69, 0.25)';
+                delBtn.style.color = 'white';
+                delBtn.textContent = '🗑 Delete';
+                delBtn.onclick = async (e) => {
+                    e.stopPropagation();
+                    if (!msg.id) {
+                        alert('Cannot delete this message (no id).');
+                        return;
+                    }
+                    if (!confirm('Delete this message?')) return;
+                    try {
+                        await remove(child(ref(database, `chat/${currentChannel}/messages`), msg.id));
+                        const el = document.querySelector(`.chat-message[data-id="${msg.id}"]`);
+                        if (el) el.remove();
+                    } catch (err) {
+                        console.error('Failed to delete message', err);
+                        alert('Failed to delete message. See console.');
+                    }
+                };
+                actions.appendChild(delBtn);
+            }
             
             header.append(author, time, actions);
             
@@ -6102,13 +6133,15 @@
         
         // Upload build functionality
         async function uploadBuild(file, title, description) {
-            if (!currentUser) {
+            // Safely resolve the authenticated user - avoid ReferenceError if `currentUser` isn't defined in this scope
+            const user = (typeof currentUser !== 'undefined' && currentUser) || window.currentUser || (window.firebaseAuth && window.firebaseAuth.currentUser) || (typeof auth !== 'undefined' && auth.currentUser) || null;
+            if (!user) {
                 alert('Please sign in to upload builds!');
-                return;
+                return false;
             }
-            
+
             try {
-                console.log('Starting upload...', { title, description, file: file.name });
+                console.log('Starting upload...', { title, description, file: file?.name, user: user && (user.uid || user.email) });
                 
                 // Validate file
                 const maxImageSize = 5 * 1024 * 1024; // 5MB
@@ -6141,7 +6174,7 @@
                 // Upload file to Firebase Storage
                 const timestamp = Date.now();
                 const fileExtension = file.name.split('.').pop();
-                const fileName = `builds/${currentUser.uid}/${timestamp}.${fileExtension}`;
+                const fileName = `builds/${user.uid}/${timestamp}.${fileExtension}`;
                 
                 console.log('Uploading to storage:', fileName);
                 const fileRef = storageRef(window.firebaseStorage, fileName);
@@ -6157,9 +6190,9 @@
                 const buildData = {
                     title: title,
                     description: description || '',
-                    author: currentUser.displayName || currentUser.email || 'Anonymous',
-                    authorId: currentUser.uid,
-                    authorPhoto: currentUser.photoURL || '',
+                    author: user.displayName || user.email || 'Anonymous',
+                    authorId: user.uid,
+                    authorPhoto: user.photoURL || '',
                     type: isVideo ? 'video' : 'image',
                     mediaUrl: mediaUrl,
                     rating: 0,
