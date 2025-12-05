@@ -3949,7 +3949,13 @@
         }
         
         window.switchChatChannel = function(channel) {
-            if (currentChannel === channel) return;
+            // Ensure chatMessages element is available
+            if (!chatMessages) chatMessages = document.getElementById('chatMessages');
+            if (!chatMessages) return;
+
+            // If we're already on the requested channel and a listener exists, nothing to do.
+            // If no listener exists (initial load), continue to subscribe.
+            if (currentChannel === channel && chatMessagesListener) return;
             
             console.log('Switching to channel:', channel);
             
