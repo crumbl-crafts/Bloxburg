@@ -2722,21 +2722,28 @@
                                 Media File
                             </label>
                             <div style="position: relative;">
-                                <input id="buildFile" type="file" accept="image/*,video/*" style="width: 100%; padding: 14px; border-radius: 10px; border: 2px dashed rgba(255, 23, 68, 0.4); background: rgba(0, 0, 0, 0.4); color: var(--text-bright); font-size: 0.9rem; cursor: pointer; transition: all 0.3s ease;" onchange="document.getElementById('fileName').textContent = this.files[0]?.name || 'No file chosen'">
+                                <input id="buildFile" type="file" accept="image/png,image/jpeg" style="width: 100%; padding: 14px; border-radius: 10px; border: 2px dashed rgba(255, 23, 68, 0.4); background: rgba(0, 0, 0, 0.4); color: var(--text-bright); font-size: 0.9rem; cursor: pointer; transition: all 0.3s ease;" onchange="document.getElementById('fileName').textContent = this.files[0]?.name || 'No file chosen'">
                             </div>
                             <div style="display: flex; align-items: center; gap: 8px; margin-top: 10px;">
                                 <i class="fas fa-file" style="color: var(--text-muted); font-size: 0.9rem;"></i>
                                 <span id="fileName" style="font-size: 0.85rem; color: var(--text-muted);">No file chosen</span>
                             </div>
-                            <div style="display: flex; gap: 16px; margin-top: 10px; font-size: 0.75rem; color: var(--text-muted);">
+                                <div style="display: flex; gap: 16px; margin-top: 10px; font-size: 0.75rem; color: var(--text-muted);">
                                 <div style="display: flex; align-items: center; gap: 6px;">
                                     <i class="fas fa-check-circle" style="color: var(--success);"></i>
-                                    Images: Max 5MB
+                                    Images: PNG/JPEG, Max 5MB (uploads to Supabase)
                                 </div>
                                 <div style="display: flex; align-items: center; gap: 6px;">
-                                    <i class="fas fa-check-circle" style="color: var(--success);"></i>
-                                    Videos: Max 50MB, 30s
+                                    <i class="fas fa-exclamation-circle" style="color: var(--danger);"></i>
+                                    For videos: upload to YouTube and paste the YouTube URL below.
                                 </div>
+                            </div>
+                            <div style="margin-top: 12px;">
+                                <label for="youtubeLink" style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-weight: 800; color: var(--text-bright); font-size: 0.9rem;">
+                                    <i class="fab fa-youtube" style="color: #FF0000;"></i>
+                                    YouTube video link (optional)
+                                </label>
+                                <input id="youtubeLink" type="text" placeholder="https://www.youtube.com/watch?v=..." style="width: 100%; padding: 12px; border-radius: 8px; border: 2px solid rgba(255,255,255,0.06); background: rgba(0,0,0,0.25); color: var(--text-bright); font-size: 0.9rem;" aria-label="YouTube link" />
                             </div>
                         </div>
                         
@@ -3141,8 +3148,8 @@
         import { getDatabase, ref, push, onChildAdded, onValue, off, serverTimestamp, limitToLast, query, get, set, update, child, orderByChild, endBefore, remove } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
         import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, sendPasswordResetEmail, updateProfile, signInAnonymously, GoogleAuthProvider, signInWithPopup, sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-auth.js";
         import { getStorage, ref as storageRef, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-storage.js";
-        // Supabase client for Build Museum uploads (storage)
-        import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
+        // Supabase client for Build Museum uploads
+        import { createClient as createSupabaseClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
         import { getFirestore, collection, addDoc, getDocs, doc, updateDoc, arrayUnion, serverTimestamp as firestoreTimestamp, query as firestoreQuery, orderBy, limit } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
 
         // Firebase configuration
@@ -3171,23 +3178,22 @@
         window.firebaseAuth = auth;
         window.firebaseStorage = storage;
         window.firebaseAnalytics = analytics;
-
-        // Initialize Supabase (used only for storing build media files)
-        // Project and anon key provided by the user
-        const SUPABASE_URL = 'https://eoxdfyjwpcgcilbjmpxp.supabase.co';
-        const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVveGRmeWp3cGNnY2lsYmptcHhwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ5MTk3OTUsImV4cCI6MjA4MDQ5NTc5NX0.kGAHijXQGYJv1PUE01te2z7nCXROx9K5lwvXznVzmG0';
-        try {
-            window.supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-            console.log('Supabase initialized for build uploads');
-        } catch (e) {
-            console.warn('Failed to initialize Supabase client', e);
-        }
         window.firestore = firestore;
         
         // Make Firebase functions globally accessible
         window.storageRef = storageRef;
         window.uploadBytes = uploadBytes;
         window.getDownloadURL = getDownloadURL;
+        // Initialize Supabase client (public anon key) for storage uploads only
+        // NOTE: This key is public by design - it's used for uploads only. Ensure bucket policies are set accordingly.
+        window.SUPABASE_URL = 'https://eoxdfyjwpcgcilbjmpxp.supabase.co';
+        window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVveGRmeWp3cGNnY2lsYmptcHhwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ5MTk3OTUsImV4cCI6MjA4MDQ5NTc5NX0.kGAHijXQGYJv1PUE01te2z7nCXROx9K5lwvXznVzmG0';
+        try {
+            window.supabase = createSupabaseClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY);
+        } catch (err) {
+            console.warn('Failed to initialize Supabase client', err);
+            window.supabase = null;
+        }
         window.collection = collection;
         window.addDoc = addDoc;
         window.firestoreTimestamp = firestoreTimestamp;
@@ -5970,11 +5976,11 @@
             const buildsHTML = buildMuseumBuilds.map(build => `
                 <div class="build-card" onclick="openBuildModal('${build.id}')">
                     <div class="build-card-media">
-                        ${build.type === 'video' 
-                            ? `<video src="${build.mediaUrl}" loop muted loading="lazy"></video>` 
+                        ${build.type === 'youtube' 
+                            ? `<img src="${build.thumbnailUrl || build.mediaUrl}" alt="${build.title}" loading="lazy" />` 
                             : `<img src="${build.mediaUrl}" alt="${build.title}" loading="lazy" />`
                         }
-                        <div class="build-card-type">${build.type === 'video' ? '📹 Video' : '🖼️ Image'}</div>
+                        <div class="build-card-type">${build.type === 'youtube' ? '📹 Video (YouTube)' : '🖼️ Image'}</div>
                     </div>
                     <div class="build-card-content">
                         <div class="build-card-title">${build.title}</div>
@@ -6011,8 +6017,13 @@
                 <div class="build-modal-content">
                     <button class="build-modal-close" onclick="this.closest('.build-modal').remove()">×</button>
                     <div class="build-modal-media">
-                        ${build.type === 'video' 
-                            ? `<video src="${build.mediaUrl}" controls autoplay loop></video>` 
+                        ${build.type === 'youtube' 
+                            ? (function() {
+                                const vidMatch = (build.mediaUrl && build.mediaUrl.match(/v=([A-Za-z0-9_-]{11})/)) || (build.mediaUrl && build.mediaUrl.includes('youtu.be') && build.mediaUrl.split('/').pop());
+                                const vid = vidMatch && vidMatch[1] ? vidMatch[1] : (build.mediaUrl && new URL(build.mediaUrl).searchParams.get('v')) || null;
+                                const embedUrl = vid ? `https://www.youtube.com/embed/${vid}` : build.mediaUrl;
+                                return `<iframe src="${embedUrl}" frameborder="0" allowfullscreen style="width:100%;height:350px;border-radius:8px;"> </iframe>`;
+                            })()
                             : `<img src="${build.mediaUrl}" alt="${build.title}" />`
                         }
                     </div>
@@ -6156,30 +6167,28 @@
             try {
                 console.log('Starting upload...', { title, description, file: file?.name, user: user && (user.uid || user.email) });
                 
-                // Validate file
-                const maxImageSize = 5 * 1024 * 1024; // 5MB
-                const maxVideoSize = 50 * 1024 * 1024; // 50MB
-                const isVideo = file.type.startsWith('video/');
-                const isImage = file.type === 'image/jpeg' || file.type === 'image/png' || file.type === 'image/jpg' || file.type === 'image/webp';
+                    // Validate file and YouTube link
+                    const maxImageSize = 5 * 1024 * 1024; // 5MB
+                    const youtubeLinkValue = (document.getElementById('youtubeLink') && document.getElementById('youtubeLink').value.trim()) || null;
+                    const hasFile = !!file;
+                    const hasYoutube = !!youtubeLinkValue;
 
-                // For builds we only accept images (jpeg/png). Videos must be uploaded to YouTube and linked.
-                if (!isImage) {
-                    alert('Only image uploads are supported here (JPEG/PNG). For videos, upload to YouTube and paste the link in the description.');
-                    if (uploadBtn) {
-                        uploadBtn.innerHTML = '<i class="fas fa-cloud-upload-alt"></i> Upload Build';
-                        uploadBtn.disabled = false;
-                    }
-                    return false;
-                }
+                    const isImage = hasFile && file.type && (file.type === 'image/png' || file.type === 'image/jpeg' || file.type === 'image/jpg');
 
-                if (file.size > maxImageSize) {
-                    alert('Image size must be less than 5MB.');
-                    if (uploadBtn) {
-                        uploadBtn.innerHTML = '<i class="fas fa-cloud-upload-alt"></i> Upload Build';
-                        uploadBtn.disabled = false;
+                    if (!hasFile && !hasYoutube) {
+                        alert('Please choose an image (PNG/JPEG) to upload or provide a YouTube link for a video.');
+                        return false;
                     }
-                    return false;
-                }
+
+                    if (hasFile && !isImage) {
+                        alert('Only PNG or JPEG image files are allowed for uploads. For videos, upload to YouTube and paste the link.');
+                        return false;
+                    }
+
+                    if (isImage && file.size > maxImageSize) {
+                        alert('Image size must be less than 5MB.');
+                        return false;
+                    }
                 
                 // Show uploading message
                 const uploadBtn = document.getElementById('uploadSubmitBtn');
@@ -6188,39 +6197,66 @@
                     uploadBtn.disabled = true;
                 }
                 
-                // Upload file to Supabase Storage (bucket: 'builds')
-                if (!window.supabase) {
-                    alert('Upload service is not available. Please try again later.');
-                    if (uploadBtn) {
-                        uploadBtn.innerHTML = '<i class="fas fa-cloud-upload-alt"></i> Upload Build';
-                        uploadBtn.disabled = false;
-                    }
-                    return false;
-                }
-
+                // Upload file to Supabase Storage (for images) or process YouTube link for videos
                 const timestamp = Date.now();
-                const ext = (file.name && file.name.split('.').pop()) || 'jpg';
-                const storagePath = `builds/${user.uid}/${timestamp}.${ext}`;
-                console.log('Uploading to Supabase storage:', storagePath);
+                const fileExtension = file.name.split('.').pop();
+                let mediaUrl = '';
+                let thumbnailUrl = '';
+                let storagePath = '';
+                let storageProvider = 'supabase';
+                let contentType = file && file.type ? file.type : '';
+                let fileSize = file && file.size ? file.size : 0;
 
-                const { data: uploadData, error: uploadError } = await window.supabase.storage.from('builds').upload(storagePath, file, { cacheControl: '3600', upsert: false });
-                if (uploadError) {
-                    console.error('Supabase upload error', uploadError);
-                    alert('Failed to upload media. See console for details.');
-                    if (uploadBtn) {
-                        uploadBtn.innerHTML = '<i class="fas fa-cloud-upload-alt"></i> Upload Build';
-                        uploadBtn.disabled = false;
+                if (hasFile) {
+                    const fileName = `builds/${user.uid}/${timestamp}.${fileExtension}`;
+                    console.log('Uploading to Supabase storage:', fileName);
+                    if (!window.supabase) {
+                        alert('Storage service is not initialized. Please try again later.');
+                        return false;
                     }
-                    return false;
-                }
+                    try {
+                        const { data: uploadData, error: uploadError } = await window.supabase.storage.from('builds').upload(fileName, file, { cacheControl: '3600', upsert: true });
+                        if (uploadError) {
+                            console.error('Supabase upload error:', uploadError);
+                            alert('Upload failed. Please try again.');
+                            return false;
+                        }
 
-                // Get public URL for the uploaded object
-                const { data: publicData, error: publicError } = window.supabase.storage.from('builds').getPublicUrl(storagePath);
-                if (publicError) {
-                    console.warn('Failed to get public URL from Supabase', publicError);
+                        const { data: publicData, error: publicError } = window.supabase.storage.from('builds').getPublicUrl(fileName);
+                        if (publicError || !publicData || !publicData.publicUrl) {
+                            console.warn('Failed to obtain public URL from Supabase', publicError);
+                            mediaUrl = '';
+                        } else {
+                            mediaUrl = publicData.publicUrl;
+                        }
+                        storagePath = fileName;
+                        storageProvider = 'supabase';
+                        // simple thumbnail fallback
+                        thumbnailUrl = mediaUrl;
+                    } catch (err) {
+                        console.error('Supabase upload threw an error', err);
+                        alert('Upload failed. Please try again.');
+                        return false;
+                    }
+                } else if (hasYoutube) {
+                    // Extract video ID and construct necessary video URL + thumbnail
+                    function extractYouTubeId(url) {
+                        const regex = /(?:youtube\.com\/(?:.*v=|v\/|embed\/)|youtu\.be\/)([A-Za-z0-9_-]{11})/;
+                        const m = url.match(regex);
+                        if (m && m[1]) return m[1];
+                        // also try common watch?v= style
+                        const q = new URL(url);
+                        return q.searchParams.get('v');
+                    }
+                    const id = extractYouTubeId(youtubeLinkValue);
+                    if (!id) {
+                        alert('Invalid YouTube link. Please make sure the URL is a valid YouTube video link.');
+                        return false;
+                    }
+                    mediaUrl = `https://www.youtube.com/watch?v=${id}`;
+                    thumbnailUrl = `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
+                    storageProvider = 'youtube';
                 }
-                const mediaUrl = (publicData && (publicData.publicUrl || publicData.public_url)) || `${SUPABASE_URL}/storage/v1/object/public/builds/${encodeURIComponent(storagePath)}`;
-                console.log('Got public URL:', mediaUrl);
                 
                 // Add build to Firestore
                 const buildsCollection = collection(window.firestore, 'builds');
@@ -6230,11 +6266,13 @@
                     author: user.displayName || user.email || 'Anonymous',
                     authorId: user.uid,
                     authorPhoto: user.photoURL || '',
-                    type: isVideo ? 'video' : 'image',
+                    type: hasYoutube ? 'youtube' : 'image',
                     mediaUrl: mediaUrl,
-                    storagePath: storagePath,
-                    fileSize: file.size,
-                    contentType: file.type,
+                    thumbnailUrl: thumbnailUrl || '',
+                    storageProvider: storageProvider || 'supabase',
+                    storagePath: storagePath || '',
+                    fileSize: fileSize || 0,
+                    contentType: contentType || '',
                     rating: 0,
                     ratingCount: 0,
                     ratings: {},
@@ -6316,14 +6354,15 @@
             const description = document.getElementById('buildDescription').value.trim();
             const fileInput = document.getElementById('buildFile');
             const file = fileInput?.files[0];
+            const youtubeLinkValue = (document.getElementById('youtubeLink') && document.getElementById('youtubeLink').value.trim()) || '';
             
             if (!title) {
                 alert('Please enter a title for your build.');
                 return;
             }
             
-            if (!file) {
-                alert('Please select an image or video file.');
+            if (!file && !youtubeLinkValue) {
+                alert('Please select an image file (PNG/JPEG) or provide a YouTube link for a video.');
                 return;
             }
             
