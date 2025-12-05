@@ -3226,6 +3226,12 @@
             const text = chatInput.value.trim();
             if (!text) return;
             
+            // Require sign-in
+            if (!currentUser) {
+                alert('Please sign in to chat.');
+                openAuthModal();
+                return;
+            }
             // Check cooldown
             const cooldownCheck = canSendMessage();
             if (!cooldownCheck.allowed) {
@@ -3241,7 +3247,9 @@
             }
 
             const messageData = {
-                author: userId,
+                author: userId, // fallback legacy username
+                authorId: currentUser.uid,
+                authorDisplayName: currentUser.displayName || currentUser.email,
                 text: text,
                 timestamp: serverTimestamp()
             };
@@ -3277,6 +3285,229 @@
         let newMessageCount = 0;
         let hasScrolledToBottom = true;
         let messageCache = [];
+        // Virtualization state
+        let allMessages = [];
+        let virtualStart = 0;
+        let messageHeights = new Map();
+        let visibleNodes = {};
+        let nodePool = [];
+        const VIRTUAL_CONFIG = {
+            avgHeight: 72,
+            overscan: 8,
+            minWindow: 10
+        };
+
+        const POOL_MAX = 120;
+
+        function computeWindowSize() {
+            if (!chatMessages) return VIRTUAL_CONFIG.minWindow;
+            const clientH = chatMessages.clientHeight || 400;
+            const visible = Math.max(Math.ceil(clientH / VIRTUAL_CONFIG.avgHeight) + (VIRTUAL_CONFIG.overscan * 2), VIRTUAL_CONFIG.minWindow);
+            return visible;
+        }
+
+        function getMessageHeightByIndex(idx) {
+            const m = allMessages[idx];
+            if (!m || !m.id) return VIRTUAL_CONFIG.avgHeight;
+            const h = messageHeights.get(m.id);
+            return h || VIRTUAL_CONFIG.avgHeight;
+        }
+
+        function computeTopHeight(startIndex) {
+            // compute using known heights, fallback to average for unknowns
+            let sum = 0;
+            for (let i = 0; i < startIndex; i++) {
+                sum += getMessageHeightByIndex(i);
+            }
+            return sum;
+        }
+
+        function recycleVisibleNodes(notDesired) {
+            // notDesired is a Set of indices to evict
+            for (const idxStr in visibleNodes) {
+                const idx = parseInt(idxStr);
+                if (notDesired.has(idx)) {
+                    const nd = visibleNodes[idx];
+                    if (nd && nd.parentNode) nd.parentNode.removeChild(nd);
+                    // limit pool size
+                    if (nodePool.length < POOL_MAX) {
+                        nodePool.push(nd);
+                    }
+                    delete visibleNodes[idx];
+                }
+            }
+        }
+
+        function createOrUpdateNodeForIndex(idx) {
+            const message = allMessages[idx];
+            if (!message) return null;
+            let el = visibleNodes[idx];
+            if (el) return el;
+            // Reuse from pool if possible
+            if (nodePool.length > 0) {
+                el = nodePool.pop();
+                // Update content
+                try { updateMessageElement(el, message); } catch(e) { el = createMessageElement(message); }
+            } else {
+                el = createMessageElement(message);
+            }
+            if (el) {
+                visibleNodes[idx] = el;
+            }
+            return el;
+        }
+
+        function updateMessageElement(el, msg) {
+            if (!el || !msg) return;
+            el.setAttribute('data-id', msg.id || '');
+            if (msg.replyTo) el.classList.add('reply'); else el.classList.remove('reply');
+            const authorEl = el.querySelector('.chat-message-author');
+            if (authorEl) {
+                const display = msg.authorDisplayName || msg.author || 'Anonymous';
+                authorEl.textContent = display;
+            }
+            const timeEl = el.querySelector('.chat-message-time');
+            if (timeEl) {
+                const ts = msg.timestamp ? new Date(msg.timestamp) : new Date();
+                timeEl.textContent = ts.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+            }
+            const textEl = el.querySelector('.chat-message-text');
+            if (textEl) {
+                const isGif = msg.text && (msg.text.includes('giphy.com') || msg.text.includes('tenor.com'));
+                if (isGif) {
+                    textEl.innerHTML = `<img src="${msg.text}" style="max-width:250px;max-height:250px;border-radius:8px;margin-top:4px" loading="lazy" decoding="async" alt="GIF">`;
+                } else {
+                    const sanitized = (msg.text || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                    textEl.innerHTML = sanitized.replace(/@(\w+)/g, '<span class="chat-mention">@$1</span>');
+                }
+            }
+            // Avatar update
+            const avatarEl = el.querySelector('.chat-message-avatar');
+            if (avatarEl) {
+                if (msg.authorId) {
+                    getUserProfile(msg.authorId).then(profile => {
+                        if (!profile) return;
+                        if (profile.photoURL) {
+                            avatarEl.innerHTML = '';
+                            const img = document.createElement('img');
+                            img.src = profile.photoURL;
+                            img.alt = profile.username || profile.displayName || 'User';
+                            img.style.width = '100%';
+                            img.style.height = '100%';
+                            img.style.borderRadius = '50%';
+                            avatarEl.appendChild(img);
+                        }
+                    }).catch(() => {});
+                } else {
+                    const initial = (msg.author || (msg.authorDisplayName || '')).charAt(0).toUpperCase() || '?';
+                    avatarEl.textContent = initial;
+                }
+            }
+            // Actions: rebuild reply/delete bindings
+            const actions = el.querySelector('.message-actions');
+            if (actions) {
+                actions.innerHTML = '';
+                const replyBtn = document.createElement('span');
+                replyBtn.className = 'message-action-btn';
+                replyBtn.textContent = '↩ Reply';
+                replyBtn.onclick = () => setReply(msg);
+                actions.appendChild(replyBtn);
+
+                const canDelete = (msg.author && (msg.author === userId)) || (typeof currentUser !== 'undefined' && currentUser && (msg.author === currentUser.uid || msg.author === currentUser.displayName || msg.author === currentUser.email));
+                if (canDelete) {
+                    const delBtn = document.createElement('span');
+                    delBtn.className = 'message-action-btn';
+                    delBtn.style.background = 'rgba(220, 53, 69, 0.25)';
+                    delBtn.style.color = 'white';
+                    delBtn.textContent = '🗑 Delete';
+                    delBtn.onclick = async (e) => {
+                        e.stopPropagation();
+                        if (!msg.id) {
+                            alert('Cannot delete this message (no id).');
+                            return;
+                        }
+                        if (!confirm('Delete this message?')) return;
+                        try {
+                            await remove(child(ref(database, `chat/${currentChannel}/messages`), msg.id));
+                            const elSel = document.querySelector(`.chat-message[data-id="${msg.id}"]`);
+                            if (elSel) elSel.remove();
+                        } catch (err) {
+                            console.error('Failed to delete message', err);
+                            alert('Failed to delete message. See console.');
+                        }
+                    };
+                    actions.appendChild(delBtn);
+                }
+            }
+        }
+
+        function renderVirtualWindow() {
+            if (!chatMessages) chatMessages = document.getElementById('chatMessages');
+            if (!chatMessages) return;
+
+            const visibleCount = computeWindowSize();
+            const start = Math.max(0, Math.min(virtualStart, Math.max(0, allMessages.length - visibleCount)));
+            virtualStart = start;
+            const end = Math.min(allMessages.length, start + visibleCount);
+
+            // compute spacer heights (use per-message heights when available)
+            const topHeight = computeTopHeight(start);
+            let bottomHeight = 0;
+            for (let i = end; i < allMessages.length; i++) bottomHeight += getMessageHeightByIndex(i);
+
+            // build content fragment
+            const frag = document.createDocumentFragment();
+
+            const topSpacer = document.createElement('div');
+            topSpacer.className = 'virtual-spacer top';
+            topSpacer.style.height = topHeight + 'px';
+            frag.appendChild(topSpacer);
+
+            // Recycle nodes not in window
+            const desired = new Set();
+            for (let i = start; i < end; i++) desired.add(i);
+            recycleVisibleNodes(desired);
+
+            for (let i = start; i < end; i++) {
+                const el = createOrUpdateNodeForIndex(i);
+                if (el) frag.appendChild(el);
+            }
+
+            const bottomSpacer = document.createElement('div');
+            bottomSpacer.className = 'virtual-spacer bottom';
+            bottomSpacer.style.height = bottomHeight + 'px';
+            frag.appendChild(bottomSpacer);
+
+            // replace children (fast) - attach fragment but keep DOM nodes recycled
+            chatMessages.innerHTML = '';
+            chatMessages.appendChild(frag);
+            // After render, measure heights and update averages
+            requestAnimationFrame(() => {
+                try {
+                    const messageEls = chatMessages.querySelectorAll('.chat-message');
+                    let totalMeasured = 0;
+                    let count = 0;
+                    messageEls.forEach((el) => {
+                        const id = el.getAttribute('data-id');
+                        if (!id) return;
+                        const h = el.offsetHeight;
+                        const prev = messageHeights.get(id) || 0;
+                        if (prev !== h) messageHeights.set(id, h);
+                        totalMeasured += h;
+                        count++;
+                    });
+                    if (count > 0) {
+                        const measured = Math.round(totalMeasured / count);
+                        // Exponential moving average update
+                        const alpha = 0.2;
+                        VIRTUAL_CONFIG.avgHeight = Math.round((alpha * measured) + ((1 - alpha) * VIRTUAL_CONFIG.avgHeight));
+                    }
+                } catch (e) {
+                    console.warn('Failed to measure virtual message heights', e);
+                }
+            });
+            updateMessageCount();
+        }
         let lastRenderedMessageCount = 0;
         
         // Throttle scroll event for performance
@@ -3460,7 +3691,7 @@
         
         // Cleanup old messages to prevent memory issues with massive chat history
         function cleanupOldMessages() {
-            const maxMessages = 300; // Keep max 300 messages in DOM (optimized for performance)
+            const maxMessages = 200; // Keep max 200 messages in DOM (optimized for performance)
             const messageElements = chatMessages.querySelectorAll('.chat-message');
             if (messageElements.length > maxMessages) {
                 const removeCount = messageElements.length - maxMessages;
@@ -3471,6 +3702,87 @@
         }
         
         // Create message element without adding to DOM (for batch operations)
+        // Cache for user profiles
+        window.usersMap = window.usersMap || {};
+
+        // LRU cache for user profiles to keep memory bounded and manage listeners
+        class LRUCache {
+            constructor(limit = 200) {
+                this.limit = limit;
+                this.map = new Map(); // key => { value, lastAccess }
+            }
+            get(key) {
+                if (!this.map.has(key)) return null;
+                const v = this.map.get(key);
+                // move to end
+                this.map.delete(key);
+                this.map.set(key, v);
+                return v.value;
+            }
+            set(key, value) {
+                if (this.map.has(key)) this.map.delete(key);
+                this.map.set(key, { value, at: Date.now() });
+                // evict
+                while (this.map.size > this.limit) {
+                    const first = this.map.keys().next().value;
+                    this.map.delete(first);
+                    // Remove listener for evicted user if present
+                    if (_userListeners && _userListeners[first]) {
+                        try {
+                            off(ref(database, `users/${first}`), _userListeners[first]);
+                        } catch (e) {
+                            try { off(ref(database, `users/${first}`)); } catch (e2) {}
+                        }
+                        delete _userListeners[first];
+                    }
+                }
+            }
+        }
+
+        window.userCache = window.userCache || new LRUCache(200);
+        const _userListeners = window._userListeners || (window._userListeners = {});
+
+        async function getUserProfile(uid) {
+            if (!uid) return null;
+            const cached = window.userCache.get(uid);
+            if (cached) return cached;
+            try {
+                const userRef = ref(database, `users/${uid}`);
+                const snap = await get(userRef);
+                const data = snap.val();
+                if (data) {
+                    data.uid = uid;
+                    window.userCache.set(uid, data);
+                }
+                // Attach a small `onValue` listener to keep profile fresh (but only for some users)
+                if (!_userListeners[uid]) {
+                    _userListeners[uid] = onValue(userRef, (s) => {
+                        const d = s.val();
+                        if (d) {
+                            d.uid = uid;
+                            window.userCache.set(uid, d);
+                            // update author elements if any
+                            try {
+                                document.querySelectorAll(`.chat-message .chat-message-author[data-uid="${uid}"]`).forEach(el => {
+                                    el.textContent = d.username || d.displayName || el.textContent;
+                                });
+                                document.querySelectorAll(`.chat-message .chat-message-avatar img`).forEach(img => {
+                                    const parent = img.closest('.chat-message');
+                                    if (parent && parent.querySelector(`.chat-message-author[data-uid=\"${uid}\"]`)) {
+                                        img.src = d.photoURL || img.src;
+                                    }
+                                });
+                            } catch (e) { /* ignore */ }
+                        }
+                    });
+                }
+                return data || null;
+            } catch (e) {
+                console.warn('Failed to load user profile', uid, e);
+            }
+            return null;
+        }
+
         function createMessageElement(msg, isNew = false) {
             if (!msg || !msg.author) return null;
             
@@ -3483,7 +3795,26 @@
             // Avatar
             const avatar = document.createElement('div');
             avatar.className = 'chat-message-avatar';
-            avatar.textContent = msg.author.charAt(0).toUpperCase();
+            // Set initial avatar content based on fallback
+            const initial = (msg.author || (msg.authorDisplayName || '')).charAt(0).toUpperCase() || '?';
+            avatar.textContent = initial;
+            // If we have an authorId, fetch profile and update avatar/name
+            if (msg.authorId) {
+                getUserProfile(msg.authorId).then(profile => {
+                    if (!profile) return;
+                    // replace avatar with image if available
+                    if (profile.photoURL) {
+                        avatar.innerHTML = '';
+                        const img = document.createElement('img');
+                        img.src = profile.photoURL;
+                        img.alt = profile.username || profile.displayName || 'User';
+                        img.style.width = '100%';
+                        img.style.height = '100%';
+                        img.style.borderRadius = '50%';
+                        avatar.appendChild(img);
+                    }
+                });
+            }
             
             // Content container
             const content = document.createElement('div');
@@ -3503,7 +3834,16 @@
             
             const author = document.createElement('span');
             author.className = 'chat-message-author';
-            author.textContent = msg.author;
+            const initialName = msg.author || (msg.authorDisplayName || 'Anonymous');
+            author.textContent = initialName;
+            // If authorId present, fetch profile and update display name when available
+            if (msg.authorId) {
+                getUserProfile(msg.authorId).then(profile => {
+                    if (!profile) return;
+                    author.textContent = profile.username || profile.displayName || initialName;
+                }).catch(() => {});
+                author.setAttribute('data-uid', msg.authorId);
+            }
             
             const time = document.createElement('span');
             time.className = 'chat-message-time';
@@ -3568,7 +3908,13 @@
         }
         
         function displayMessage(message, isNew = false) {
-            if (!message || !message.author) return;
+            // If the tab is not visible, buffer messages to render later
+            if (typeof document !== 'undefined' && document.hidden) {
+                window._chatMessageBuffer = window._chatMessageBuffer || [];
+                window._chatMessageBuffer.push({ message, isNew });
+                return;
+            }
+            if (!message || (!message.author && !message.authorId)) return;
             
             // Track active users for mentions
             if (!window.activeUsers) window.activeUsers = new Set();
@@ -3580,6 +3926,27 @@
                 showNewMessageCounter();
             }
             
+            // Virtualization: update allMessages and render virtual window
+            if (!message.id) return; // must have id for tracking
+            const existingIndex = allMessages.findIndex(m => m.id === message.id);
+            if (existingIndex !== -1) {
+                allMessages[existingIndex] = message;
+            } else {
+                allMessages.push(message);
+            }
+            // If too many messages, cap to CHAT_MAX_HISTORY (evict older)
+            if (allMessages.length > CHAT_MAX_HISTORY) {
+                const over = allMessages.length - CHAT_MAX_HISTORY;
+                allMessages.splice(0, over);
+                // adjust virtual start
+                virtualStart = Math.max(0, virtualStart - over);
+            }
+            // Optionally auto-scroll if currently at bottom
+            const atBottom = chatMessages.scrollHeight - chatMessages.scrollTop <= chatMessages.clientHeight + 50;
+            renderVirtualWindow();
+            if (atBottom) scrollToBottom();
+            return;
+
             const fragment = document.createDocumentFragment();
             
             // Add new message divider if needed
@@ -3597,7 +3964,23 @@
             // Avatar
             const avatar = document.createElement('div');
             avatar.className = 'chat-message-avatar';
-            avatar.textContent = message.author.charAt(0).toUpperCase();
+            const initialAvatar = (message.author || (message.authorDisplayName || '')).charAt(0).toUpperCase() || '?';
+            avatar.textContent = initialAvatar;
+            if (message.authorId) {
+                getUserProfile(message.authorId).then(profile => {
+                    if (!profile) return;
+                    if (profile.photoURL) {
+                        avatar.innerHTML = '';
+                        const img = document.createElement('img');
+                        img.src = profile.photoURL;
+                        img.alt = profile.username || profile.displayName || 'User';
+                        img.style.width = '100%';
+                        img.style.height = '100%';
+                        img.style.borderRadius = '50%';
+                        avatar.appendChild(img);
+                    }
+                }).catch(() => {});
+            }
             
             // Content container
             const content = document.createElement('div');
@@ -3617,7 +4000,14 @@
             
             const author = document.createElement('span');
             author.className = 'chat-message-author';
-            author.textContent = message.author;
+            const initialName = message.author || (message.authorDisplayName || 'Anonymous');
+            author.textContent = initialName;
+            if (message.authorId) {
+                getUserProfile(message.authorId).then(profile => {
+                    if (!profile) return;
+                    author.textContent = profile.username || profile.displayName || initialName;
+                }).catch(() => {});
+            }
             
             const time = document.createElement('span');
             time.className = 'chat-message-time';
@@ -3663,6 +4053,28 @@
             });
         }
 
+        // Flush buffered messages when tab becomes visible
+        document.addEventListener('visibilitychange', () => {
+            if (!document.hidden) {
+                const buf = window._chatMessageBuffer || [];
+                if (buf.length > 0) {
+                    // Append in a single batch
+                    const frag = document.createDocumentFragment();
+                    buf.forEach(({ message, isNew }) => {
+                        const md = document.createElement('div');
+                        // use existing display routine to build element
+                        const elem = createMessageElement(message, isNew);
+                        if (elem) frag.appendChild(elem);
+                    });
+                    if (frag.childNodes.length > 0) {
+                        chatMessages.appendChild(frag);
+                        if (hasScrolledToBottom) chatMessages.scrollTop = chatMessages.scrollHeight;
+                    }
+                    window._chatMessageBuffer = [];
+                }
+            }
+        });
+
         // Infinite scroll: Load older messages when scrolling to top
         chatMessages.addEventListener('scroll', () => {
             const scrolledToTop = chatMessages.scrollTop < 100;
@@ -3671,6 +4083,14 @@
                 loadOlderMessages();
             }
             
+            // Virtualized: compute virtual start based on scrollTop
+            // Approximate index using avgHeight
+            const avg = VIRTUAL_CONFIG.avgHeight;
+            const newStart = Math.max(0, Math.floor(chatMessages.scrollTop / avg) - VIRTUAL_CONFIG.overscan);
+            if (newStart !== virtualStart) {
+                virtualStart = newStart;
+                renderVirtualWindow();
+            }
             // Track if user is at bottom for auto-scroll
             const atBottom = chatMessages.scrollHeight - chatMessages.scrollTop <= chatMessages.clientHeight + 50;
             hasScrolledToBottom = atBottom;
@@ -3726,14 +4146,14 @@
                     messages.sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
                     oldestMessageTimestamp = messages[0].timestamp;
                     
-                    const fragment = document.createDocumentFragment();
-                    messages.forEach(msg => {
-                        const msgElement = createMessageElement(msg, false);
-                        if (msgElement) fragment.appendChild(msgElement);
-                    });
-                    
+                    // Prepend to allMessages, preserve virtualStart to keep scroll position
+                    allMessages = messages.concat(allMessages);
+                    oldestMessageTimestamp = messages[0].timestamp;
+                    // Maintain scroll position by adjusting virtualStart
+                    virtualStart += messages.length;
                     loadingIndicator.remove();
-                    chatMessages.insertBefore(fragment, chatMessages.firstChild);
+                    // Re-render virtual window
+                    renderVirtualWindow();
                     
                     // Maintain scroll position
                     chatMessages.scrollTop = chatMessages.scrollHeight - prevScrollHeight;
@@ -3767,6 +4187,7 @@
         });
         
         window.toggleEmojiPicker = function() {
+            if (!currentUser) { openAuthModal(); return; }
             const picker = document.getElementById('emojiPicker');
             const gifPicker = document.getElementById('gifPicker');
             picker.classList.toggle('show');
@@ -3774,6 +4195,7 @@
         }
         
         window.insertEmoji = function(emoji) {
+            if (!currentUser) { openAuthModal(); return; }
             chatInput.value += emoji;
             chatInput.focus();
         }
@@ -3781,6 +4203,7 @@
         // GIF picker functionality
         let gifSearchTimeout;
         window.toggleGifPicker = function() {
+            if (!currentUser) { openAuthModal(); return; }
             const picker = document.getElementById('gifPicker');
             const emojiPicker = document.getElementById('emojiPicker');
             picker.classList.toggle('show');
@@ -3826,6 +4249,11 @@
         
         function insertGif(url) {
             // Send GIF URL as message
+            if (!currentUser) {
+                alert('Please sign in to chat.');
+                openAuthModal();
+                return;
+            }
             const cooldownCheck = canSendMessage();
             if (!cooldownCheck.allowed) {
                 alert(`Please wait ${cooldownCheck.secondsLeft} seconds before sending another message in this channel.`);
@@ -3834,6 +4262,8 @@
             
             push(chatMessagesRef, {
                 author: userId,
+                authorId: currentUser.uid,
+                authorDisplayName: currentUser.displayName || currentUser.email,
                 text: url,
                 timestamp: serverTimestamp()
             });
@@ -3866,6 +4296,27 @@
             if (message && message.author) {
                 activeUsers.add(message.author);
             }
+        }
+
+        // Performance: Long Task observer to log UI blocking events
+        if (typeof PerformanceObserver !== 'undefined') {
+            try {
+                const perfObserver = new PerformanceObserver((list) => {
+                    list.getEntries().forEach((entry) => {
+                        console.warn('Long Task:', entry);
+                    });
+                });
+                perfObserver.observe({ entryTypes: ['longtask'] });
+            } catch (e) { /* ignore if not supported */ }
+        }
+
+        // Register service worker for caching static assets and thumbnails
+        if ('serviceWorker' in navigator) {
+            try {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(reg => console.log('Service Worker registered:', reg.scope))
+                    .catch(err => console.warn('Service Worker registration failed:', err));
+            } catch (e) { console.warn('Service Worker registration failed', e); }
         }
         
         chatInput.addEventListener('input', (e) => {
@@ -3936,8 +4387,8 @@
         let chatMessagesListener = null;
         let lastMessageTime = {};
         // Chat history limits
-        const CHAT_MAX_HISTORY = 1000; // maximum messages to load into client
-        const INITIAL_LOAD = Math.min(200, CHAT_MAX_HISTORY); // initial messages to load
+        const CHAT_MAX_HISTORY = 500; // maximum messages to load into client (reduced for performance)
+        const INITIAL_LOAD = Math.min(100, CHAT_MAX_HISTORY); // initial messages to load (smaller initial batch)
 
         // Moderation state
         window.moderators = new Set();
@@ -3974,6 +4425,8 @@
         // Initialize once DOM is ready
         document.addEventListener('DOMContentLoaded', () => {
             initializeChatAfterAuth();
+            // Initialize chat UI disabled until user signs in
+            updateChatUIForAuth(currentUser);
         });
 
         // Also attempt initialization when auth state changes (useful if Firebase initializes later)
@@ -4010,6 +4463,13 @@
             
             // Clear messages
             chatMessages.innerHTML = '';
+            // Recycle visible nodes into pool
+            for (const k in visibleNodes) {
+                const n = visibleNodes[k];
+                if (n && n.parentNode) n.parentNode.removeChild(n);
+                if (nodePool.length < POOL_MAX) nodePool.push(n);
+            }
+            visibleNodes = {};
             
             // Update input placeholder with cooldown info
             updateChatInputPlaceholder();
@@ -4039,17 +4499,16 @@
                         hasMoreMessages = true;
                     }
                     
-                    // Use DocumentFragment for efficient DOM updates
-                    const fragment = document.createDocumentFragment();
-                    messages.forEach(msg => {
-                        const msgElement = createMessageElement(msg, false);
-                        if (msgElement) fragment.appendChild(msgElement);
-                    });
-                    chatMessages.appendChild(fragment);
-                    
-                    // Cleanup excess messages in DOM (keep only last 300)
-                    cleanupOldMessages();
-                    
+                    // Use virtualized rendering - populate allMessages and render window
+                    allMessages = messages.slice();
+                    // Cap to history
+                    if (allMessages.length > CHAT_MAX_HISTORY) {
+                        const over = allMessages.length - CHAT_MAX_HISTORY;
+                        allMessages.splice(0, over);
+                    }
+                    // Set virtual start to show the bottom of list
+                    virtualStart = Math.max(0, allMessages.length - computeWindowSize());
+                    renderVirtualWindow();
                     chatMessages.scrollTop = chatMessages.scrollHeight;
                     resetNewMessageCounter();
                     isInitialLoad = false;
@@ -4664,6 +5123,30 @@
             } else {
                 authBtn.style.display = 'flex';
                 userProfile.style.display = 'none';
+            }
+            // Update chat input enabling/disabling based on sign-in
+            updateChatUIForAuth(user);
+        }
+
+        // Update chat input/button state - force sign-in to send messages
+        function updateChatUIForAuth(user) {
+            const chatInputEl = document.getElementById('chatInput');
+            const chatSendBtn = document.getElementById('chatSendBtn');
+            const emojiBtn = document.querySelector('.chat-action-btn[aria-label="Add emoji"]');
+            const gifBtn = document.querySelector('.chat-action-btn[aria-label="Add GIF"]');
+            if (!chatInputEl) return;
+            if (user) {
+                chatInputEl.disabled = false;
+                chatInputEl.placeholder = 'Type a message...';
+                if (chatSendBtn) chatSendBtn.disabled = false;
+                if (emojiBtn) emojiBtn.disabled = false;
+                if (gifBtn) gifBtn.disabled = false;
+            } else {
+                chatInputEl.disabled = true;
+                chatInputEl.placeholder = 'Please sign in to chat.';
+                if (chatSendBtn) chatSendBtn.disabled = true;
+                if (emojiBtn) emojiBtn.disabled = true;
+                if (gifBtn) gifBtn.disabled = true;
             }
         }
 
