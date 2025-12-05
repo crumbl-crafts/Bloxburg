@@ -3138,7 +3138,7 @@
         // Import Firebase SDKs
         import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-analytics.js";
-        import { getDatabase, ref, push, onChildAdded, onValue, off, serverTimestamp, limitToLast, query, get, set, update, child, orderByChild, endBefore } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
+        import { getDatabase, ref, push, onChildAdded, onValue, off, serverTimestamp, limitToLast, query, get, set, update, child, orderByChild, endBefore, remove } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
         import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, sendPasswordResetEmail, updateProfile, signInAnonymously, GoogleAuthProvider, signInWithPopup, sendSignInLinkToEmail, isSignInWithEmailLink, signInWithEmailLink } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-auth.js";
         import { getStorage, ref as storageRef, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-storage.js";
         import { getFirestore, collection, addDoc, getDocs, doc, updateDoc, arrayUnion, serverTimestamp as firestoreTimestamp, query as firestoreQuery, orderBy, limit } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
@@ -3229,6 +3229,13 @@
                 return;
             }
 
+            // Admin command handling (only for moderators)
+            if (text.startsWith('/')) {
+                handleCommand(text);
+                chatInput.value = '';
+                return;
+            }
+
             const messageData = {
                 author: userId,
                 text: text,
@@ -3243,7 +3250,16 @@
                 };
             }
 
-            push(chatMessagesRef, messageData);
+            // Check if user is banned
+            if (isUserBanned(userId)) {
+                alert('You are banned from chat and cannot post.');
+                return;
+            }
+
+            const newRef = push(chatMessagesRef, messageData);
+            // Update spam tracker
+            trackSpam(userId);
+            return newRef;
             
             // Update last message time
             lastMessageTime[currentChannel] = Date.now();
@@ -3306,6 +3322,137 @@
                 countElement.textContent = `${messageCount} messages loaded`;
             }
         }
+
+        // Moderation helpers
+        function isModerator(uid) {
+            if (!uid) return false;
+            return window.moderators && window.moderators.has(uid);
+        }
+
+        function isUserBanned(id) {
+            const ban = window.bannedUsers && window.bannedUsers[id];
+            if (!ban) return false;
+            const until = ban.bannedUntil || 0;
+            return Date.now() < until;
+        }
+
+        function trackSpam(uid) {
+            if (!uid) return;
+            const now = Date.now();
+            if (!spamTracker[uid]) spamTracker[uid] = [];
+            spamTracker[uid].push(now);
+            // prune old
+            spamTracker[uid] = spamTracker[uid].filter(t => now - t <= SPAM_WINDOW_MS);
+            if (spamTracker[uid].length > SPAM_THRESHOLD) {
+                // Mark as spam: timeout user for 1 minute
+                applyTimeoutToUser(uid, 60 * 1000, 'Auto-timeout: spam detected');
+            }
+        }
+
+        async function applyTimeoutToUser(uid, durationMs, reason) {
+            const until = Date.now() + durationMs;
+            window.bannedUsers = window.bannedUsers || {};
+            window.bannedUsers[uid] = { bannedUntil: until, reason: reason || 'timeout' };
+            try {
+                await set(ref(database, `bans/${uid}`), window.bannedUsers[uid]);
+            } catch (e) {
+                console.warn('Failed to persist ban:', e);
+            }
+        }
+
+        async function removeMessageById(channel, msgId) {
+            try {
+                const msgRef = child(ref(database, `chat/${channel}/messages`), msgId);
+                await remove(msgRef);
+                // Also remove from DOM if present
+                const el = document.querySelector(`.chat-message[data-id="${msgId}"]`);
+                if (el) el.remove();
+            } catch (e) {
+                console.error('Failed to remove message:', e);
+            }
+        }
+
+        // Admin/command handlers
+        function handleCommand(text) {
+            const parts = text.trim().split(/\s+/);
+            const cmd = parts[0].toLowerCase();
+            const args = parts.slice(1);
+            const uid = currentUser?.uid;
+            if (!isModerator(uid)) {
+                alert('You must be a moderator to run commands.');
+                return;
+            }
+
+            if (cmd === '/purge') {
+                const count = parseInt(args[0], 10) || 50;
+                purgeMessages(count);
+            } else if (cmd === '/ban') {
+                const target = args[0];
+                const minutes = parseInt(args[1], 10) || 60;
+                banUser(target, minutes * 60 * 1000, args.slice(2).join(' ') || 'manual ban');
+            } else if (cmd === '/timeout') {
+                const target = args[0];
+                const seconds = parseInt(args[1], 10) || 60;
+                applyTimeoutToUser(target, seconds * 1000, args.slice(2).join(' ') || 'timeout');
+            } else if (cmd === '/unban') {
+                const target = args[0];
+                unbanUser(target);
+            } else {
+                alert('Unknown command');
+            }
+        }
+
+        async function purgeMessages(count) {
+            // fetch last `count` keys and remove them
+            try {
+                const msgsRef = ref(database, `chat/${currentChannel}/messages`);
+                const q = query(msgsRef, orderByChild('timestamp'), limitToLast(count));
+                const snap = await get(q);
+                const toDelete = [];
+                snap.forEach(s => toDelete.push(s.key));
+                for (const id of toDelete) {
+                    await remove(child(msgsRef, id));
+                }
+                alert(`Purged ${toDelete.length} messages from ${currentChannel}`);
+            } catch (e) {
+                console.error('Purge failed', e);
+                alert('Purge failed: see console');
+            }
+        }
+
+        async function banUser(targetUid, durationMs, reason) {
+            try {
+                const until = Date.now() + durationMs;
+                await set(ref(database, `bans/${targetUid}`), { bannedUntil: until, reason });
+                window.bannedUsers[targetUid] = { bannedUntil: until, reason };
+                // Optionally remove recent messages from that user in this channel
+                // fetch last 500 and remove those authored by target
+                const msgsRef = ref(database, `chat/${currentChannel}/messages`);
+                const q = query(msgsRef, orderByChild('timestamp'), limitToLast(500));
+                const snap = await get(q);
+                snap.forEach(s => {
+                    const val = s.val();
+                    if (val && (val.author === targetUid || val.author === (window.usersMap && window.usersMap[targetUid]))) {
+                        remove(child(msgsRef, s.key));
+                    }
+                });
+                alert(`Banned ${targetUid} for ${Math.round(durationMs/1000)}s`);
+            } catch (e) {
+                console.error('Ban failed', e);
+                alert('Ban failed: see console');
+            }
+        }
+
+        async function unbanUser(targetUid) {
+            try {
+                await remove(ref(database, `bans/${targetUid}`));
+                delete window.bannedUsers[targetUid];
+                alert(`Unbanned ${targetUid}`);
+            } catch (e) {
+                console.error('Unban failed', e);
+                alert('Unban failed: see console');
+            }
+        }
         
         // Cleanup old messages to prevent memory issues with massive chat history
         function cleanupOldMessages() {
@@ -3325,6 +3472,8 @@
             
             const messageDiv = document.createElement('div');
             messageDiv.className = 'chat-message';
+            // attach data-id for DOM removal or moderation
+            if (msg.id) messageDiv.setAttribute('data-id', msg.id);
             if (msg.replyTo) messageDiv.classList.add('reply');
             
             // Avatar
@@ -3754,6 +3903,17 @@
         // Chat history limits
         const CHAT_MAX_HISTORY = 1000; // maximum messages to load into client
         const INITIAL_LOAD = Math.min(200, CHAT_MAX_HISTORY); // initial messages to load
+
+        // Moderation state
+        window.moderators = new Set();
+        window.bannedUsers = {}; // { userId: { bannedUntil: timestamp, reason } }
+        // Simple spam tracker: map userId -> array of recent message timestamps
+        const spamTracker = {};
+        const SPAM_WINDOW_MS = 8000; // 8 seconds
+        const SPAM_THRESHOLD = 5; // more than 5 messages in window -> spam
+        // Offensive words (simple list). Improve as needed or move to server-side.
+        const offensiveWords = [ 'badword1', 'badword2', 'fuck', 'shit', 'bitch' ];
+        const offensiveRegex = new RegExp('\\b(' + offensiveWords.join('|') + ')\\b', 'i');
         const channelCooldowns = {
             'general': 0,
             'builders': 60000,  // 1 minute
@@ -3853,7 +4013,7 @@
                     resetNewMessageCounter();
                     isInitialLoad = false;
                 } else {
-                    // New message arrived
+                    // New message arrived (snapshot contains latest batch) — process newest only
                     const messages = [];
                     snapshot.forEach((childSnapshot) => {
                         messages.push({
@@ -3861,18 +4021,39 @@
                             ...childSnapshot.val()
                         });
                     });
-                    
-                    // Find and display only the newest message
-                    if (messages.length > 0) {
-                        const sortedMessages = messages.sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
-                        const newestMessage = sortedMessages[sortedMessages.length - 1];
-                        
-                        // Check if it's actually new
-                        const messageTime = newestMessage.timestamp || Date.now();
-                        if (messageTime > lastSeenMessageTime) {
-                            displayMessage(newestMessage, true);
-                        }
+
+                    if (messages.length === 0) return;
+                    const sortedMessages = messages.sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
+                    const newestMessage = sortedMessages[sortedMessages.length - 1];
+
+                    // Auto-moderation: check offensive content
+                    const text = (newestMessage.text || '').toString();
+                    if (offensiveRegex.test(text)) {
+                        // remove message and timeout user
+                        remove(child(ref(database, `chat/${currentChannel}/messages`), newestMessage.id));
+                        applyTimeoutToUser(newestMessage.author, 5 * 60 * 1000, 'Auto-timeout: offensive language');
+                        console.warn('Removed offensive message from', newestMessage.author);
+                        return;
                     }
+
+                    // Check if author is banned
+                    if (isUserBanned(newestMessage.author)) {
+                        // remove message
+                        remove(child(ref(database, `chat/${currentChannel}/messages`), newestMessage.id));
+                        return;
+                    }
+
+                    // Spam detection based on message author timestamps
+                    try {
+                        trackSpam(newestMessage.author);
+                    } catch (e) {
+                        console.warn('Spam tracker error', e);
+                    }
+
+                    // Display message
+                    displayMessage(newestMessage, true);
+                    // Cleanup if exceeding history
+                    cleanupOldMessages();
                 }
             });
         }
@@ -4401,6 +4582,22 @@
                     localStorage.setItem('chatUserId', userId);
                 }
                 
+                // Load moderators list and bans from DB
+                try {
+                    const modsSnap = await get(ref(database, 'moderators'));
+                    const mods = modsSnap.val() || {};
+                    window.moderators = new Set(Object.keys(mods).filter(k => mods[k]));
+                } catch (e) {
+                    console.warn('Failed to load moderators:', e);
+                }
+
+                try {
+                    const bansSnap = await get(ref(database, 'bans'));
+                    window.bannedUsers = bansSnap.val() || {};
+                } catch (e) {
+                    console.warn('Failed to load bans:', e);
+                }
+
                 updateUserUI(user);
             } else {
                 currentUser = null;
