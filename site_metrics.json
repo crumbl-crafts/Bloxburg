@@ -199,6 +199,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "Bloxburg KICKING Creators?",
+      "description": "Yesterday, popular Roblox YouTuber Ashley The Unicorn was removed from Bloxburg's Creator Program. I...",
+      "source": "YouTube",
+      "timestamp": 1764963007.0,
+      "url": "https://www.youtube.com/watch?v=mcRD_0c_TA4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "the cutest advent calendar!! \ud83c\udf84\ud83c\udf85\ud83c\udffc#bloxburg #roblox #bloxburgchristmas #bloxburgupdate #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764962954.0,
+      "url": "https://www.youtube.com/watch?v=HzQ7GwP--QY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "If this thing flies in, I&#39;ll be shocked.",
       "description": "Hello, Robloxers ! I create content for those who love: \u200e\u2022 discovering new games; \u200e\u2022 laughing at gam...",
       "source": "YouTube",
@@ -222,24 +240,6 @@
       "source": "YouTube",
       "timestamp": 1764956164.0,
       "url": "https://www.youtube.com/watch?v=i0tS_pq6xGU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\u2764\ufe0f\ud83e\udd0dNEW HAIR CODES\ud83e\udd0d\u2764\ufe0f #berryavenuecodes #bloxburg #tiktok #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764954239.0,
-      "url": "https://www.youtube.com/watch?v=X6HUCqe9eqM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#roblox #4urpage #10millionviews #robloxedit #edit #funny #blowup #memes #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764953077.0,
-      "url": "https://www.youtube.com/watch?v=Ev0zz6UlSsA",
       "icon": "fa-youtube"
     },
     {
@@ -280,7 +280,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764964106.886774,
+    "generated_at": 1764964706.3771994,
     "mode": "memory",
     "refresh_interval": 2000
   }
