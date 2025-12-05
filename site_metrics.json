@@ -199,15 +199,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "#roblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764907699.0,
-      "url": "https://www.youtube.com/watch?v=tPZp9gLMlVY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Bacoon really THREW ME \ud83e\udd23 Roblox Brookhaven Meme #roblox #funny #meme #shorts #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -240,6 +231,15 @@
       "source": "YouTube",
       "timestamp": 1764902083.0,
       "url": "https://www.youtube.com/watch?v=ebnsnh5S2QA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Roblox 99 NighIn The Forest \ud83c\udf33\ud83e\udd29 #roblox #froppy #robloxedit #99nightintheforest #bloxburg #gaming",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764901902.0,
+      "url": "https://www.youtube.com/watch?v=SaDzu8_sY8k",
       "icon": "fa-youtube"
     },
     {
@@ -280,7 +280,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764913106.3654058,
+    "generated_at": 1764914306.3643956,
     "mode": "memory",
     "refresh_interval": 2000
   }
