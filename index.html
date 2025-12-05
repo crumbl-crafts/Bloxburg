@@ -3170,6 +3170,14 @@
         window.firebaseStorage = storage;
         window.firebaseAnalytics = analytics;
         window.firestore = firestore;
+        
+        // Make Firebase functions globally accessible
+        window.storageRef = storageRef;
+        window.uploadBytes = uploadBytes;
+        window.getDownloadURL = getDownloadURL;
+        window.collection = collection;
+        window.addDoc = addDoc;
+        window.firestoreTimestamp = firestoreTimestamp;
 
         // Current user state
         let currentUser = null;
@@ -3735,6 +3743,27 @@
             'builders': 60000,  // 1 minute
             'help': 60000       // 1 minute
         };
+        // Ensure chat initializes only after DOM and Firebase auth are ready
+        function initializeChatAfterAuth() {
+            if (!window.firebaseAuth || !window.firebaseAuth.currentUser) return;
+            if (!chatMessages) return;
+            if (window.__chatInitialized) return;
+            window.__chatInitialized = true;
+            switchChatChannel('general');
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            if (window.firebaseAuth && window.firebaseAuth.currentUser) {
+                initializeChatAfterAuth();
+            }
+        });
+        if (window.firebaseAuth) {
+            window.firebaseAuth.onAuthStateChanged?.((user) => {
+                if (user) {
+                    initializeChatAfterAuth();
+                }
+            });
+        }
         
         window.switchChatChannel = function(channel) {
             if (currentChannel === channel) return;
@@ -5865,6 +5894,8 @@
             }
             
             try {
+                console.log('Starting upload...', { title, description, file: file.name });
+                
                 // Validate file
                 const maxImageSize = 5 * 1024 * 1024; // 5MB
                 const maxVideoSize = 50 * 1024 * 1024; // 50MB
@@ -5887,50 +5918,71 @@
                 }
                 
                 // Show uploading message
-                const uploadBtn = document.getElementById('uploadBuildBtn');
-                const originalText = uploadBtn.innerHTML;
-                uploadBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Uploading...';
-                uploadBtn.disabled = true;
+                const uploadBtn = document.getElementById('uploadSubmitBtn');
+                if (uploadBtn) {
+                    uploadBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Uploading...';
+                    uploadBtn.disabled = true;
+                }
                 
                 // Upload file to Firebase Storage
                 const timestamp = Date.now();
                 const fileExtension = file.name.split('.').pop();
                 const fileName = `builds/${currentUser.uid}/${timestamp}.${fileExtension}`;
+                
+                console.log('Uploading to storage:', fileName);
                 const fileRef = storageRef(window.firebaseStorage, fileName);
                 
-                await uploadBytes(fileRef, file);
+                const uploadTask = await uploadBytes(fileRef, file);
+                console.log('File uploaded to storage:', uploadTask);
+                
                 const mediaUrl = await getDownloadURL(fileRef);
+                console.log('Got download URL:', mediaUrl);
                 
                 // Add build to Firestore
                 const buildsCollection = collection(window.firestore, 'builds');
-                await addDoc(buildsCollection, {
+                const buildData = {
                     title: title,
-                    description: description,
+                    description: description || '',
                     author: currentUser.displayName || currentUser.email || 'Anonymous',
                     authorId: currentUser.uid,
+                    authorPhoto: currentUser.photoURL || '',
                     type: isVideo ? 'video' : 'image',
                     mediaUrl: mediaUrl,
                     rating: 0,
                     ratingCount: 0,
                     ratings: {},
+                    views: 0,
                     comments: [],
                     createdAt: firestoreTimestamp()
-                });
+                };
+                
+                console.log('Adding to Firestore:', buildData);
+                const docRef = await addDoc(buildsCollection, buildData);
+                console.log('Build added to Firestore:', docRef.id);
                 
                 // Refresh builds
                 await loadBuildsFromFirestore();
                 renderBuildMuseum();
                 
-                uploadBtn.innerHTML = originalText;
-                uploadBtn.disabled = false;
-                alert('Build uploaded successfully!');
+                if (uploadBtn) {
+                    uploadBtn.innerHTML = '<i class="fas fa-cloud-upload-alt"></i> Upload Build';
+                    uploadBtn.disabled = false;
+                }
+                
+                alert('Build uploaded successfully! 🎉');
+                return true; // Success
                 
             } catch (error) {
                 console.error('Upload error:', error);
-                alert('Failed to upload build. Please try again.');
-                const uploadBtn = document.getElementById('uploadBuildBtn');
-                uploadBtn.innerHTML = '<i class="fas fa-upload"></i> Share Build';
-                uploadBtn.disabled = false;
+                console.error('Error details:', error.message, error.code);
+                alert(`Failed to upload build: ${error.message}\n\nPlease try again or check console for details.`);
+                
+                const uploadBtn = document.getElementById('uploadSubmitBtn');
+                if (uploadBtn) {
+                    uploadBtn.innerHTML = '<i class="fas fa-cloud-upload-alt"></i> Upload Build';
+                    uploadBtn.disabled = false;
+                }
+                return false; // Failure
             }
         }
         
@@ -5976,7 +6028,7 @@
             const title = document.getElementById('buildTitle').value.trim();
             const description = document.getElementById('buildDescription').value.trim();
             const fileInput = document.getElementById('buildFile');
-            const file = fileInput.files[0];
+            const file = fileInput?.files[0];
             
             if (!title) {
                 alert('Please enter a title for your build.');
@@ -5988,11 +6040,14 @@
                 return;
             }
             
-            // Close modal
-            document.querySelector('.build-modal').remove();
+            // Upload (modal will close on success)
+            const success = await uploadBuild(file, title, description);
             
-            // Upload
-            await uploadBuild(file, title, description);
+            // Close modal only on success
+            if (success) {
+                const modal = document.querySelector('.build-modal');
+                if (modal) modal.remove();
+            }
         }
         
         // Initialize Build Museum on page load
