@@ -199,6 +199,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764907699.0,
+      "url": "https://www.youtube.com/watch?v=tPZp9gLMlVY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bacoon really THREW ME \ud83e\udd23 Roblox Brookhaven Meme #roblox #funny #meme #shorts #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -231,15 +240,6 @@
       "source": "YouTube",
       "timestamp": 1764902083.0,
       "url": "https://www.youtube.com/watch?v=ebnsnh5S2QA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "D\u00eda 5 del Calendario de Adviento de Bloxburg \ud83d\uddd3\ufe0f\ud83c\udf84 #shorts #bloxburg #roblox #christmas",
-      "description": "D\u00eda 5 del Calendario de Adviento de Bloxburg ------------------------------------------------- \u2b50 Mis...",
-      "source": "YouTube",
-      "timestamp": 1764900690.0,
-      "url": "https://www.youtube.com/watch?v=5QrAYGiOBBU",
       "icon": "fa-youtube"
     },
     {
@@ -280,7 +280,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764910106.6853,
+    "generated_at": 1764910706.3663967,
     "mode": "memory",
     "refresh_interval": 2000
   }
