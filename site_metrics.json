@@ -208,6 +208,15 @@
     },
     {
       "type": "trend",
+      "title": "ROBLOX #shortsvideo #funnygames #viral #gaming #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765011866.0,
+      "url": "https://www.youtube.com/watch?v=dz6FL-z0pog",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Day 6 | The 24 Days of Christmas Village in Bloxburg. Brought to life by MCM creations. #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -217,29 +226,20 @@
     },
     {
       "type": "trend",
+      "title": "99 nights trolling 3#3.  #roblox #robloxedit #robloxgames #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765006553.0,
+      "url": "https://www.youtube.com/watch?v=JNO_F-fmpC4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "bloxburg pov noob vs pro flower decoration #bloxburg #roblox",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1765000620.0,
       "url": "https://www.youtube.com/watch?v=ClMafHk1vVE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Ocean Vibes With Boober \ud83d\ude0e\ud83c\udf0a #roblox #robloxindia #bloxburg #robloxshorts #gaming #adoptme #clip",
-      "description": "Boober is going underwater! From the surface to the deep blue ocean \u2014 scuba diving adventure begins!...",
-      "source": "YouTube",
-      "timestamp": 1765000176.0,
-      "url": "https://www.youtube.com/watch?v=a0VAdRh5pUA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#roblox #memes #bloxburg #funny #edit #animation #cartoon #robloxedit #pkxd",
-      "description": "roblox #memes #bloxburg #funny #edit #animation #cartoon #robloxedit #pkxd....",
-      "source": "YouTube",
-      "timestamp": 1764996409.0,
-      "url": "https://www.youtube.com/watch?v=WSSGW-28CvY",
       "icon": "fa-youtube"
     },
     {
@@ -280,7 +280,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765013906.3649118,
+    "generated_at": 1765015106.3629403,
     "mode": "memory",
     "refresh_interval": 2000
   }
