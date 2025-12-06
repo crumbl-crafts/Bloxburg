@@ -217,15 +217,6 @@
     },
     {
       "type": "trend",
-      "title": "WINTER IGLOO HOUSE BUILD BATTLE CHALLENGE ROBLOX BLOXBURG",
-      "description": "WINTER IGLOO BUILD BATTLE CHALLENGE ROBLOX BLOXBURG Become a member for extra perks!...",
-      "source": "YouTube",
-      "timestamp": 1764972088.0,
-      "url": "https://www.youtube.com/watch?v=fUpZRtxu1xk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "#foryou #roblox #robloxshorts #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -240,6 +231,15 @@
       "source": "YouTube",
       "timestamp": 1764970496.0,
       "url": "https://www.youtube.com/watch?v=ngYAKh5vfYk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "vlogmas day 5! .+*\ud83d\udc69\ud83c\udffd\u200d\ud83c\udf73\ud83c\udf6a\ud83c\udf84 #Vlogmas #bloxburg #bloxburgchristmas #roblox #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764970066.0,
+      "url": "https://www.youtube.com/watch?v=TIrGRq74p-k",
       "icon": "fa-youtube"
     },
     {
@@ -280,7 +280,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764985706.6583815,
+    "generated_at": 1764986306.3671324,
     "mode": "memory",
     "refresh_interval": 2000
   }
