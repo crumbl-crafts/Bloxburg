@@ -199,6 +199,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Our Family\u2019s Snow Day \u2603\ufe0f\u2744\ufe0f | Bloxburg *Voiced Roleplay* ",
+      "description": "Hey y'allll We are offically doing our roleplays in Bloxburg! In this video, we had a *family snow d...",
+      "source": "YouTube",
+      "timestamp": 1764987066.0,
+      "url": "https://www.youtube.com/watch?v=G50ojjALSQI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "D\u00eda 6 del Calendario de Adviento de Bloxburg \ud83d\uddd3\ufe0f\ud83c\udf84 #shorts #bloxburg #roblox #christmas",
       "description": "D\u00eda 6 del Calendario de Adviento de Bloxburg ------------------------------------------------- \u2b50 Mis...",
       "source": "YouTube",
@@ -231,15 +240,6 @@
       "source": "YouTube",
       "timestamp": 1764970496.0,
       "url": "https://www.youtube.com/watch?v=ngYAKh5vfYk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "vlogmas day 5! .+*\ud83d\udc69\ud83c\udffd\u200d\ud83c\udf73\ud83c\udf6a\ud83c\udf84 #Vlogmas #bloxburg #bloxburgchristmas #roblox #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1764970066.0,
-      "url": "https://www.youtube.com/watch?v=TIrGRq74p-k",
       "icon": "fa-youtube"
     },
     {
@@ -280,7 +280,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1764987506.3712509,
+    "generated_at": 1764988706.3675876,
     "mode": "memory",
     "refresh_interval": 2000
   }
