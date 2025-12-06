@@ -18,7 +18,7 @@
       "completed_projects": 0,
       "average_rating": 0.0,
       "thread_id": 1446931774826610790,
-      "avatar_url": null,
+      "avatar_url": "https://cdn.discordapp.com/avatars/1098992055272878081/3d5587425a502f14a7fbf5cfaaa493a1.png?size=1024",
       "server_id": 1301988304279048275,
       "url": "https://discord.com/channels/1301988304279048275/1446931774826610790"
     }
@@ -299,7 +299,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765048681.35034,
+    "generated_at": 1765048683.1426656,
     "mode": "memory",
     "refresh_interval": 2000
   }
