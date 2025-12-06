@@ -209,20 +209,47 @@
   "news": [
     {
       "type": "trend",
+      "title": "Berry Avenue 2 Baby Cutesy Outfit Codes || Bloxburg Brookhaven Berry Avenue #shorts",
+      "description": "\ua540 thank you for watching this video! \u02da these outfits work for brookhaven, berry avenue, and bloxburg...",
+      "source": "YouTube",
+      "timestamp": 1765050270.0,
+      "url": "https://www.youtube.com/watch?v=F-sGShC1CXE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "vlogmas day 6!!! (voiceover edition) \u2764\ufe0f\ud83c\udf84 #roblox #bloxburg #vlogmas #bloxburgchristmas #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765049264.0,
+      "url": "https://www.youtube.com/watch?v=NuzmgMPty_E",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "December 6, 2025 #roblox #lifeisbutadream #bloxburg #whowillbemylifepartnerta #robloxedit",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765049107.0,
+      "url": "https://www.youtube.com/watch?v=t-x4cHHxZpE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "ideia de sala #christmas #oldies #music #xmas #roblox  #bloxburg #fy #naoflopa#shorts #viral",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765048098.0,
+      "url": "https://www.youtube.com/watch?v=ciLETeJ4mWg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Turning An IGLOO Into A HOUSE In BLOXBURG...",
       "description": "This video is sponsored by Epic Games! Check out Fortnite Chapter 7 now or any of the other awesome ...",
       "source": "YouTube",
       "timestamp": 1765047647.0,
       "url": "https://www.youtube.com/watch?v=k8WV5NX8V7M",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#fyp\u30b7 #roblox #lifeisbutadream #music #bloxburg #theothersideofmakebelieve #musicgenre #blackpink",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765047600.0,
-      "url": "https://www.youtube.com/watch?v=ifUTbg4btpM",
       "icon": "fa-youtube"
     },
     {
@@ -236,39 +263,12 @@
     },
     {
       "type": "trend",
-      "title": "Resort di map bloxburg #bloxburg #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765043136.0,
-      "url": "https://www.youtube.com/watch?v=n5YpepvhEPk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Modern Mansion Builds Trending",
       "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
       "timestamp": 1765041476.4060118,
       "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
       "icon": "fa-fire"
-    },
-    {
-      "type": "trend",
-      "title": "day 6!! \ud83c\udf84 #roblox #bloxburg #bloxburgadventcalendar #bloxburgchristmas #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765040801.0,
-      "url": "https://www.youtube.com/watch?v=pGYMfIMOnUE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "enter my Robux giveaway! #christmas #roblox #robuxgiveaway #bloxburg #fyp\u30b7",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765039108.0,
-      "url": "https://www.youtube.com/watch?v=Zq1eiTFSE_I",
-      "icon": "fa-youtube"
     },
     {
       "type": "tip",
@@ -280,26 +280,17 @@
       "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "How Many TICKETS Can I get in 1 Hour? (Bloxburg)",
-      "description": "today i get as many tickets as i can in one hour JOIN THE DISCORD!! - https://discord.gg/8bCxpGC7pK ...",
-      "source": "YouTube",
-      "timestamp": 1765036825.0,
-      "url": "https://www.youtube.com/watch?v=80oNJWVNo4E",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Day 6! Bloxburg Advent Calendar! #roblox #robloxbloxburgspeedbuild #bloxburgcontentcreator #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765035545.0,
-      "url": "https://www.youtube.com/watch?v=qca8R_ZbIGQ",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1765034276.4060133,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1765049883.1271913,
+    "generated_at": 1765051083.1284678,
     "mode": "memory",
     "refresh_interval": 2000
   }
