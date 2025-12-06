@@ -199,6 +199,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "day 6!! \ud83c\udf84 #roblox #bloxburg #bloxburgadventcalendar #bloxburgchristmas #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765040801.0,
+      "url": "https://www.youtube.com/watch?v=pGYMfIMOnUE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "How Many TICKETS Can I get in 1 Hour? (Bloxburg)",
       "description": "today i get as many tickets as i can in one hour JOIN THE DISCORD!! - https://discord.gg/8bCxpGC7pK ...",
       "source": "YouTube",
@@ -231,15 +240,6 @@
       "source": "YouTube",
       "timestamp": 1765034942.0,
       "url": "https://www.youtube.com/watch?v=r5WdDUiiiCk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Roblox christmas decal codes for berry avenue and bloxburg #roblox #shortsviral #berryave #bloxburg",
-      "description": "i had such a bad day friday - - - - - cant wait for christmas DISCLAIMER - If you plan on reposting ...",
-      "source": "YouTube",
-      "timestamp": 1765034752.0,
-      "url": "https://www.youtube.com/watch?v=Y4uDLXKxlWo",
       "icon": "fa-youtube"
     },
     {
@@ -280,7 +280,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765041506.3687646,
+    "generated_at": 1765042706.3668191,
     "mode": "memory",
     "refresh_interval": 2000
   }
