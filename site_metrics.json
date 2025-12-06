@@ -243,44 +243,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1764857900.089075,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "99 nights trolling 3#3.  #roblox #robloxedit #robloxgames #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765006553.0,
+      "url": "https://www.youtube.com/watch?v=JNO_F-fmpC4",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "bloxburg pov noob vs pro flower decoration #bloxburg #roblox",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1764854300.0890765,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1765000620.0,
+      "url": "https://www.youtube.com/watch?v=ClMafHk1vVE",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1764850700.0890772,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "#roblox #memes #bloxburg #funny #edit #animation #cartoon #robloxedit #pkxd",
+      "description": "roblox #memes #bloxburg #funny #edit #animation #cartoon #robloxedit #pkxd....",
+      "source": "YouTube",
+      "timestamp": 1764996409.0,
+      "url": "https://www.youtube.com/watch?v=WSSGW-28CvY",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1764847100.0890782,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Pt.3\ud83d\udc7b #roblox #robloxshorts #robloxedit #bloxburg #robloxanimation #robloxbloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764992360.0,
+      "url": "https://www.youtube.com/watch?v=rVZUtxzZ0rc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Pt. 2\ud83d\ude2e #roblox #robloxshorts #robloxedit #bloxburg #robloxanimation #robloxbloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764992325.0,
+      "url": "https://www.youtube.com/watch?v=rLjjuwVACRw",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1765023506.684691,
+    "generated_at": 1765024706.3648615,
     "mode": "memory",
     "refresh_interval": 2000
   }
