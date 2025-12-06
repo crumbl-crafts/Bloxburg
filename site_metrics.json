@@ -199,11 +199,29 @@
   "news": [
     {
       "type": "trend",
+      "title": "Resort di map bloxburg #bloxburg #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765043136.0,
+      "url": "https://www.youtube.com/watch?v=n5YpepvhEPk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "day 6!! \ud83c\udf84 #roblox #bloxburg #bloxburgadventcalendar #bloxburgchristmas #fyp",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1765040801.0,
       "url": "https://www.youtube.com/watch?v=pGYMfIMOnUE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "enter my Robux giveaway! #christmas #roblox #robuxgiveaway #bloxburg #fyp\u30b7",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765039108.0,
+      "url": "https://www.youtube.com/watch?v=Zq1eiTFSE_I",
       "icon": "fa-youtube"
     },
     {
@@ -222,24 +240,6 @@
       "source": "YouTube",
       "timestamp": 1765035545.0,
       "url": "https://www.youtube.com/watch?v=qca8R_ZbIGQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Day 23 BloxBurg #roblox #bloxburg #beranda #robloxfyp #shorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765035368.0,
-      "url": "https://www.youtube.com/watch?v=yUXkOYQkNXo",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Roblox yuk di map bloxburg #bloxburg #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765034942.0,
-      "url": "https://www.youtube.com/watch?v=r5WdDUiiiCk",
       "icon": "fa-youtube"
     },
     {
@@ -280,7 +280,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765042706.3668191,
+    "generated_at": 1765043906.372574,
     "mode": "memory",
     "refresh_interval": 2000
   }
