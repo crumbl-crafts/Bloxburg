@@ -208,6 +208,15 @@
     },
     {
       "type": "trend",
+      "title": "cutest bloxburg update EVER \ud83e\udd7a #roblox #bloxburg #brookhaven #viralshorts #fyp #cute",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765022518.0,
+      "url": "https://www.youtube.com/watch?v=ye4TWY309oA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "how to make this cozy winter truck bed in bloxburg #bloxburg #bloxburgbuilds #bloxburgchristmas #fyp",
       "description": "...",
       "source": "YouTube",
@@ -226,15 +235,6 @@
     },
     {
       "type": "trend",
-      "title": "Lia day in her life ! #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765018449.0,
-      "url": "https://www.youtube.com/watch?v=jbDwFV7CVwg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "DAISY FIGHTS SOPHIE AND GETS GROUNDED! #shorts #roblox #bloxburgroleplay #roleplay #bloxburg #steal",
       "description": "DAISY FIGHTS SOPHIE AND GETS GROUNDED! Make sure to like and check out the full video in the link to...",
       "source": "YouTube",
@@ -243,44 +243,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1764857900.089075,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "ROBLOX \ud83c\udfae#shortsvideo #roblox #viral #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765011950.0,
+      "url": "https://www.youtube.com/watch?v=R2RjSxZzv9A",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "ROBLOX #shortsvideo #funnygames #viral #gaming #bloxburg",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1764854300.0890765,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1765011866.0,
+      "url": "https://www.youtube.com/watch?v=dz6FL-z0pog",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1764850700.0890772,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "Day 6 | The 24 Days of Christmas Village in Bloxburg. Brought to life by MCM creations. #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765008404.0,
+      "url": "https://www.youtube.com/watch?v=D1q-1y5Wb0Y",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1764847100.0890782,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "99 nights trolling 3#3.  #roblox #robloxedit #robloxgames #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765006553.0,
+      "url": "https://www.youtube.com/watch?v=JNO_F-fmpC4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Work with me at my bakery \u2615\ufe0f #youtubeshorts #roblox #bloxburg #bakery #bloxburgbuilds",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765004216.0,
+      "url": "https://www.youtube.com/watch?v=OYf1rdzaUe4",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1765030706.371127,
+    "generated_at": 1765031906.3756351,
     "mode": "memory",
     "refresh_interval": 2000
   }
