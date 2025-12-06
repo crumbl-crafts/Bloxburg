@@ -371,11 +371,29 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #4urpage #robloxedit #10millionviews #edit #funny #blowup #memes #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765060100.0,
+      "url": "https://www.youtube.com/watch?v=VDIFrhITDiA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "BUILDING A GINGERBREAD HOUSE IN BLOXBURG  #bloxburg #roblox",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1765058415.0,
       "url": "https://www.youtube.com/watch?v=9tRrf3oy1pE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Small house tour Christmas edition #shorts #roblox #bloxburgcontentcreator #bloxburg #christmas ",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765057640.0,
+      "url": "https://www.youtube.com/watch?v=S7mo8RU0h10",
       "icon": "fa-youtube"
     },
     {
@@ -394,24 +412,6 @@
       "source": "YouTube",
       "timestamp": 1765055405.0,
       "url": "https://www.youtube.com/watch?v=MR7ZZtPstVI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "MY DAUGHTER GETS FROST BITE! *HUGE SNOWSTORM HITS BLOXBURG* Roblox Bloxburg RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1765054806.0,
-      "url": "https://www.youtube.com/watch?v=G8h_PHKBci8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I need to start naming them better \ud83d\ude29 #roblox #bloxburg #relatable #robloxfunny #foryoupage",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765052254.0,
-      "url": "https://www.youtube.com/watch?v=lOLwslKOZ5c",
       "icon": "fa-youtube"
     },
     {
@@ -452,7 +452,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765061190.8762674,
+    "generated_at": 1765061589.7034788,
     "mode": "memory",
     "refresh_interval": 2000
   }
