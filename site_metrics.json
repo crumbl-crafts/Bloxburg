@@ -362,6 +362,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #dancemoms #realitytvshow #ora #aldc #tvshow #rblx #bloxburg #addisonrae #xyzbca #fyp #viral",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765056196.0,
+      "url": "https://www.youtube.com/watch?v=-HN1uNPqA_k",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\ud83d\udd34FINISHING MY KIDS BEDROOMS ON BLOXBURG...",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
       "source": "YouTube",
@@ -407,15 +416,6 @@
     },
     {
       "type": "trend",
-      "title": "Berry Avenue 2 Baby Cutesy Outfit Codes || Bloxburg Brookhaven Berry Avenue #shorts",
-      "description": "\ua540 thank you for watching this video! \u02da these outfits work for brookhaven, berry avenue, and bloxburg...",
-      "source": "YouTube",
-      "timestamp": 1765050270.0,
-      "url": "https://www.youtube.com/watch?v=F-sGShC1CXE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Modern Mansion Builds Trending",
       "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
@@ -443,7 +443,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765056789.7016628,
+    "generated_at": 1765057989.7085526,
     "mode": "memory",
     "refresh_interval": 2000
   }
