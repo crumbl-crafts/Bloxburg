@@ -199,6 +199,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Day 6 | The 24 Days of Christmas Village in Bloxburg. Brought to life by MCM creations. #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765008404.0,
+      "url": "https://www.youtube.com/watch?v=D1q-1y5Wb0Y",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "bloxburg pov noob vs pro flower decoration #bloxburg #roblox",
       "description": "...",
       "source": "YouTube",
@@ -243,44 +252,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1764857900.089075,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "BIBI PERTAMA KALI BERMAIN ESKATING/SKI || BLOXBURG\ud83c\udfe1 ROBLOX INDONESIA",
+      "description": "Bibi tejatuh teyus atit lasanya tetapi seyu sekali UN Roblox : BibiCantik01 Tiktok : @bibicantikk01 ...",
+      "source": "YouTube",
+      "timestamp": 1764990011.0,
+      "url": "https://www.youtube.com/watch?v=4THkJZzR-5o",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "BIBI JATUH TERUS MAIN ICESKATING UNTUNG ADA AKU PAPINYA\ud83d\ude0e\ud83d\ude0e | BLOXBURG",
+      "description": "HAI TERIMAKASIH SUDAH MENONTON JANGAN LUPA SUBSCRIBE DAN LIKE YA KALO KAMU SUDAH SUBSCRIBE, ......",
       "source": "YouTube",
-      "timestamp": 1764854300.0890765,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1764990001.0,
+      "url": "https://www.youtube.com/watch?v=-i6dVrvnlyQ",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1764850700.0890772,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "Our Family\u2019s Snow Day \u2603\ufe0f\u2744\ufe0f | Bloxburg *Voiced Roleplay* ",
+      "description": "Hey y'allll We are offically doing our roleplays in Bloxburg! In this video, we had a *family snow d...",
+      "source": "YouTube",
+      "timestamp": 1764987066.0,
+      "url": "https://www.youtube.com/watch?v=G50ojjALSQI",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1764847100.0890782,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "#sab #trusted #nice #roblox #tradingplan #gaming #trading #tradingstrategy #foryou #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1764983875.0,
+      "url": "https://www.youtube.com/watch?v=f6JieW1pCSg",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1765010306.3686519,
+    "generated_at": 1765011506.3710985,
     "mode": "memory",
     "refresh_interval": 2000
   }
