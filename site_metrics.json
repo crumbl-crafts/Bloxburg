@@ -199,6 +199,33 @@
   "news": [
     {
       "type": "trend",
+      "title": "Day 23 BloxBurg #roblox #bloxburg #beranda #robloxfyp #shorts",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765035368.0,
+      "url": "https://www.youtube.com/watch?v=yUXkOYQkNXo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Roblox yuk di map bloxburg #bloxburg #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765034942.0,
+      "url": "https://www.youtube.com/watch?v=r5WdDUiiiCk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Roblox christmas decal codes for berry avenue and bloxburg #roblox #shortsviral #berryave #bloxburg",
+      "description": "i had such a bad day friday - - - - - cant wait for christmas DISCLAIMER - If you plan on reposting ...",
+      "source": "YouTube",
+      "timestamp": 1765034752.0,
+      "url": "https://www.youtube.com/watch?v=Y4uDLXKxlWo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "fire alarm in bloxburg #bloxburg #firealarm",
       "description": "...",
       "source": "YouTube",
@@ -208,38 +235,11 @@
     },
     {
       "type": "trend",
-      "title": "Best purchase ever\ud83e\udd7a #roblox #bloxburg #christmas #fypage #relatable #cute #funny #snowman",
+      "title": "Being Santa in Bloxburg PT2 \ud83c\udf85 #christmas #roblox #bloxburg #shorts",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1765031019.0,
-      "url": "https://www.youtube.com/watch?v=umtyvT27Eb4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Peppermint Winter Shower Routine! \ud83c\udf84\ud83c\udf53 Aesthetic #berryave #berryavenue #roblox #robloxrp #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765030564.0,
-      "url": "https://www.youtube.com/watch?v=n1HgUWrKx4A",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Tip and Oh fans rise up!!\ud83d\ude02\u2744\ufe0f#roblox #bloxburg #smallcreator",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765030180.0,
-      "url": "https://www.youtube.com/watch?v=M7lRt0BsR04",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#bloxburg #bloxburg #gachali",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765025438.0,
-      "url": "https://www.youtube.com/watch?v=aCOS-490QiQ",
+      "timestamp": 1765033229.0,
+      "url": "https://www.youtube.com/watch?v=q7zoxJCnJrU",
       "icon": "fa-youtube"
     },
     {
@@ -280,7 +280,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765035506.368585,
+    "generated_at": 1765036706.3690255,
     "mode": "memory",
     "refresh_interval": 2000
   }
