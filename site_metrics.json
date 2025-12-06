@@ -199,6 +199,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "how to make this cozy winter truck bed in bloxburg #bloxburg #bloxburgbuilds #bloxburgchristmas #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765021066.0,
+      "url": "https://www.youtube.com/watch?v=-Pt6yqGtBxU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "DAISY FIGHTS SOPHIE AND GETS GROUNDED! #shorts #roblox #bloxburgroleplay #roleplay #bloxburg #steal",
       "description": "DAISY FIGHTS SOPHIE AND GETS GROUNDED! Make sure to like and check out the full video in the link to...",
       "source": "YouTube",
@@ -231,15 +240,6 @@
       "source": "YouTube",
       "timestamp": 1765008404.0,
       "url": "https://www.youtube.com/watch?v=D1q-1y5Wb0Y",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "99 nights trolling 3#3.  #roblox #robloxedit #robloxgames #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765006553.0,
-      "url": "https://www.youtube.com/watch?v=JNO_F-fmpC4",
       "icon": "fa-youtube"
     },
     {
@@ -280,7 +280,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765021106.3710384,
+    "generated_at": 1765022306.3735347,
     "mode": "memory",
     "refresh_interval": 2000
   }
