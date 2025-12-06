@@ -199,6 +199,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "DAISY FIGHTS SOPHIE AND GETS GROUNDED! #shorts #roblox #bloxburgroleplay #roleplay #bloxburg #steal",
+      "description": "DAISY FIGHTS SOPHIE AND GETS GROUNDED! Make sure to like and check out the full video in the link to...",
+      "source": "YouTube",
+      "timestamp": 1765015259.0,
+      "url": "https://www.youtube.com/watch?v=YLVtpmrxvFY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "ROBLOX \ud83c\udfae#shortsvideo #roblox #viral #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -231,15 +240,6 @@
       "source": "YouTube",
       "timestamp": 1765006553.0,
       "url": "https://www.youtube.com/watch?v=JNO_F-fmpC4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "bloxburg pov noob vs pro flower decoration #bloxburg #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765000620.0,
-      "url": "https://www.youtube.com/watch?v=ClMafHk1vVE",
       "icon": "fa-youtube"
     },
     {
@@ -280,7 +280,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765016306.3748078,
+    "generated_at": 1765017506.3660734,
     "mode": "memory",
     "refresh_interval": 2000
   }
