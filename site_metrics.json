@@ -578,11 +578,29 @@
   "news": [
     {
       "type": "trend",
-      "title": "Sometimes things change \ud83d\ude1e like the new update in bloxburg ",
+      "title": "Dia 7 #roblox #robloxbloxburgspeedbuild #bloxburg #bloxburgnewleaks #bloxburgcontentcreator",
+      "description": "Dia 7 calendario de invierno en Bloxburg!...",
+      "source": "YouTube",
+      "timestamp": 1765139736.0,
+      "url": "https://www.youtube.com/watch?v=xQHhyOLb-kg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "As live de 2025 kkkkkk #roblox #bloxburg #funny #robloxedit #fun \ufffc",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1765136889.0,
-      "url": "https://www.youtube.com/watch?v=xt8mXvMqJfg",
+      "timestamp": 1765139208.0,
+      "url": "https://www.youtube.com/watch?v=vsZzEc8Oj70",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Made in China \ud83c\udde8\ud83c\uddf3#FIP #roblox #bloxburg #robloxedit #storytime \ufffc\ufffc",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765138722.0,
+      "url": "https://www.youtube.com/watch?v=H4bZ2LWfZik",
       "icon": "fa-youtube"
     },
     {
@@ -601,24 +619,6 @@
       "source": "YouTube",
       "timestamp": 1765132719.0,
       "url": "https://www.youtube.com/watch?v=2Per4SzV8n8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "BRINGING MY NEWBORN BABY HOME FROM THE HOSPITAL! *TIRING..* Roblox Bloxburg Roleplay",
-      "description": "in today's video\u2026 WE BROUGHT THE NEWBORN HOME!...",
-      "source": "YouTube",
-      "timestamp": 1765130406.0,
-      "url": "https://www.youtube.com/watch?v=A7pT-Q-YsJo",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg Suburban Christmas House 169k",
-      "description": "welcometobloxburg #bloxburgspeedbuilds - 3 bedrooms 1 nursery - 3 bathrooms - living room - kitchen ...",
-      "source": "YouTube",
-      "timestamp": 1765129415.0,
-      "url": "https://www.youtube.com/watch?v=JX4wYxBpKAw",
       "icon": "fa-youtube"
     },
     {
@@ -659,7 +659,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765140790.01481,
+    "generated_at": 1765141989.708577,
     "mode": "memory",
     "refresh_interval": 2000
   }
