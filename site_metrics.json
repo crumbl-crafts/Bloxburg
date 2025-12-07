@@ -578,20 +578,20 @@
   "news": [
     {
       "type": "trend",
+      "title": "Being Santa in Bloxburg PT3\ud83c\udf85 #christmas #roblox #bloxburg #shorts",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765144228.0,
+      "url": "https://www.youtube.com/watch?v=izx0wWEdHow",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "SOPHIE STARTS HER OWN WEBSHOW! *INSPIRED BY ICARLY* Roblox Bloxburg Voiced RP Roleplay",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
       "source": "YouTube",
       "timestamp": 1765141206.0,
       "url": "https://www.youtube.com/watch?v=BDKtoa869qs",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Roblox Bloxburg: The Night Christmas Almost Disappeared #roblox #robloxmovie #robloxfyp #robloxobby",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765140627.0,
-      "url": "https://www.youtube.com/watch?v=mnIeHU7-PaE",
       "icon": "fa-youtube"
     },
     {
@@ -659,7 +659,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765146190.0075438,
+    "generated_at": 1765146789.7026136,
     "mode": "memory",
     "refresh_interval": 2000
   }
