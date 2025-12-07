@@ -578,11 +578,29 @@
   "news": [
     {
       "type": "trend",
+      "title": "cute cozy winter outfits for you guys!! \u2764\ufe0f\ud83c\udf84 #roblox #bloxburg #bloxburgoutfitcodes #berryave  #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765132719.0,
+      "url": "https://www.youtube.com/watch?v=2Per4SzV8n8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "BRINGING MY NEWBORN BABY HOME FROM THE HOSPITAL! *TIRING..* Roblox Bloxburg Roleplay",
       "description": "in today's video\u2026 WE BROUGHT THE NEWBORN HOME!...",
       "source": "YouTube",
       "timestamp": 1765130406.0,
       "url": "https://www.youtube.com/watch?v=A7pT-Q-YsJo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Bloxburg Hack RICE KRISPIES TREATS Tutorial!",
+      "description": "Small Bloxburg hack on how to recreate a real life snack into Welcome to Bloxburg on Roblox! #shorts...",
+      "source": "YouTube",
+      "timestamp": 1765129208.0,
+      "url": "https://www.youtube.com/watch?v=g7NCuZTu6JU",
       "icon": "fa-youtube"
     },
     {
@@ -601,24 +619,6 @@
       "source": "YouTube",
       "timestamp": 1765128152.0,
       "url": "https://www.youtube.com/watch?v=4Yehn8t1jNs",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "A Bloxburg story I\u2019ll NEVER forget\ud83d\ude4f\ud83d\udc94 #roblox #rblx #robloxrant #hearttouching",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765127141.0,
-      "url": "https://www.youtube.com/watch?v=_yXTFv85uOA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "day 7! \u2764\ufe0f\ud83c\udf84 #roblox #bloxburg #bloxburgadventcalendar #bloxburgupdate #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765127095.0,
-      "url": "https://www.youtube.com/watch?v=Bx7A8mTYP5E",
       "icon": "fa-youtube"
     },
     {
@@ -659,7 +659,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765133589.7080076,
+    "generated_at": 1765134789.7075484,
     "mode": "memory",
     "refresh_interval": 2000
   }
