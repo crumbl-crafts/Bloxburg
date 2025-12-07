@@ -10,7 +10,7 @@
     "total_members": 331,
     "joined_today": 8,
     "active_shops": 1,
-    "avg_response_time": 6664.5
+    "avg_response_time": 4450.666666666667
   },
   "topBuilders": [
     {
@@ -24,6 +24,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "accepted",
+      "shop_name": "Hidenori's Shop",
+      "message": "Request from yoyoyoyo5088_yabihyook accepted",
+      "timestamp": 1765111306,
+      "thread_id": 1446931774826610790,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/channels/1301988304279048275/1447206441395028028"
+    },
     {
       "type": "sent",
       "shop_name": "Hidenori's Shop",
@@ -469,8 +478,8 @@
   "pipeline": [
     {
       "label": "Pending Requests",
-      "value": 1,
-      "trend": "3 new today \u00b7 2 responded",
+      "value": 0,
+      "trend": "3 new today \u00b7 3 responded",
       "max": 50
     },
     {
@@ -482,7 +491,7 @@
     {
       "label": "Requests (7d)",
       "value": 3,
-      "trend": "1 accepted \u00b7 1 rejected",
+      "trend": "2 accepted \u00b7 1 rejected",
       "max": 100
     }
   ],
@@ -495,7 +504,7 @@
     },
     {
       "title": "Acceptance Rate",
-      "detail": "50.0% of requests accepted (1 accepted, 1 rejected)",
+      "detail": "66.7% of requests accepted (2 accepted, 1 rejected)",
       "score": "Monitor",
       "status": "warning"
     },
@@ -507,7 +516,7 @@
     },
     {
       "title": "Queue Health",
-      "detail": "1 requests awaiting response",
+      "detail": "0 requests awaiting response",
       "score": "Manageable",
       "status": "good"
     }
@@ -596,7 +605,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765111285.9784422,
+    "generated_at": 1765111309.0017164,
     "mode": "memory",
     "refresh_interval": 2000
   }
