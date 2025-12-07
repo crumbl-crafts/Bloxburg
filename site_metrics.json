@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 332,
-    "joined_today": 9,
+    "total_members": 333,
+    "joined_today": 10,
     "active_shops": 1,
     "avg_response_time": 4450.666666666667
   },
@@ -24,6 +24,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "loveshaelqq joined the server",
+      "timestamp": 1765123674,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/925549498858618962"
+    },
     {
       "type": "new_request_thread",
       "shop_name": "Looking for builder!",
@@ -551,6 +560,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "roblox #adoptme #roblox #bloxburg #pink #robloxedit #edit #gaming #rainbowfriends #games #funny",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765121416.0,
+      "url": "https://www.youtube.com/watch?v=DlAl7NqT8Oo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Tried to go to Wendy\u2019s as a cop in Bloxburg #memes #funny #bloxburg #police #chicken #funny #shorts",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765119939.0,
+      "url": "https://www.youtube.com/watch?v=81Ph9dVMC-E",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "GINGERBREAD HOUSE  #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -574,24 +601,6 @@
       "source": "YouTube",
       "timestamp": 1765101665.0,
       "url": "https://www.youtube.com/watch?v=cmuoR3gI_Hw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "my family is so boring \ud83d\ude34 #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765090286.0,
-      "url": "https://www.youtube.com/watch?v=Nc24t-vLT9o",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I did not touch #roblox roblox #bloxburg #robloxedit #memes #edit #trending #robloxedits #shorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765084768.0,
-      "url": "https://www.youtube.com/watch?v=lHiY2Qc0zBo",
       "icon": "fa-youtube"
     },
     {
@@ -632,7 +641,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765122789.703864,
+    "generated_at": 1765123677.3650725,
     "mode": "memory",
     "refresh_interval": 2000
   }
