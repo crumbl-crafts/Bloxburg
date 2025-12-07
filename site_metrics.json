@@ -578,6 +578,33 @@
   "news": [
     {
       "type": "trend",
+      "title": "A Bloxburg story I\u2019ll NEVER forget\ud83d\ude4f\ud83d\udc94 #roblox #rblx #robloxrant #hearttouching",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765127141.0,
+      "url": "https://www.youtube.com/watch?v=_yXTFv85uOA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "DECORATING OUR HOUSE FOR CHRISTMAS!! *MY NEPHEW WAS CATFISHED!?* | Bloxburg Family Roleplay",
+      "description": "Hey ZeeFam! It's \"Zaryee\" here! Don't forget to join the family! All you have to do is like, comment...",
+      "source": "YouTube",
+      "timestamp": 1765126807.0,
+      "url": "https://www.youtube.com/watch?v=PKajnKB0l5U",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Realistic Bloxburg Christmas House Build: INTERIOR Tutorial &amp; TOUR *VOICE*",
+      "description": "hiii! today i build the interior to my Christmas house in bloxburg! i show a full house tour includi...",
+      "source": "YouTube",
+      "timestamp": 1765123240.0,
+      "url": "https://www.youtube.com/watch?v=Nb8BEw5kXfQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "roblox #adoptme #roblox #bloxburg #pink #robloxedit #edit #gaming #rainbowfriends #games #funny",
       "description": "...",
       "source": "YouTube",
@@ -592,33 +619,6 @@
       "source": "YouTube",
       "timestamp": 1765119939.0,
       "url": "https://www.youtube.com/watch?v=81Ph9dVMC-E",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "GINGERBREAD HOUSE  #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765116083.0,
-      "url": "https://www.youtube.com/watch?v=nd7209oOCx0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "i travelled back to the old bloxburg map! #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765110402.0,
-      "url": "https://www.youtube.com/watch?v=junNxnxZpCY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "DAISY FLOODS THE BATHROOM! #shorts #roblox #bloxburgroleplay #roleplay #bloxburg #steal",
-      "description": "DAISY FLOODS THE BATHROOM! Make sure to like and check out the full video in the link to find out wh...",
-      "source": "YouTube",
-      "timestamp": 1765101665.0,
-      "url": "https://www.youtube.com/watch?v=cmuoR3gI_Hw",
       "icon": "fa-youtube"
     },
     {
@@ -659,7 +659,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765127589.7016103,
+    "generated_at": 1765128789.7048016,
     "mode": "memory",
     "refresh_interval": 2000
   }
