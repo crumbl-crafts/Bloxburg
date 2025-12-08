@@ -542,7 +542,7 @@
     {
       "label": "Pending Requests",
       "value": 0,
-      "trend": "1 new today \u00b7 3 responded",
+      "trend": "0 new today \u00b7 3 responded",
       "max": 50
     },
     {
@@ -668,7 +668,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765197189.7074008,
+    "generated_at": 1765198389.71579,
     "mode": "memory",
     "refresh_interval": 2000
   }
