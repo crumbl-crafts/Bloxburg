@@ -587,6 +587,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "i usually play on mute \ud83d\ude2d #roblox #bloxburg #robloxbeat #bloxburgchristmas #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765218556.0,
+      "url": "https://www.youtube.com/watch?v=KaIguvGWs2g",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Has these always been here??\ud83e\uddd0\ud83c\udf7f\ud83c\udf84#roblox #bloxburg #smallcreator",
       "description": "...",
       "source": "YouTube",
@@ -619,15 +628,6 @@
       "source": "YouTube",
       "timestamp": 1765209705.0,
       "url": "https://www.youtube.com/watch?v=zZ-6lxryXCI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "10% VS 50% VS 99% \ud83d\udc83\ud83d\udc95 #berryave #berryavenue #roblox #bloxburg #brookhaven",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765202748.0,
-      "url": "https://www.youtube.com/watch?v=7ThgIB7Xins",
       "icon": "fa-youtube"
     },
     {
@@ -668,7 +668,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765219989.7042332,
+    "generated_at": 1765221189.7085888,
     "mode": "memory",
     "refresh_interval": 2000
   }
