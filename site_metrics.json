@@ -587,20 +587,20 @@
   "news": [
     {
       "type": "trend",
-      "title": "i usually play on mute \ud83d\ude2d #roblox #bloxburg #robloxbeat #bloxburgchristmas #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765218556.0,
-      "url": "https://www.youtube.com/watch?v=KaIguvGWs2g",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Has these always been here??\ud83e\uddd0\ud83c\udf7f\ud83c\udf84#roblox #bloxburg #smallcreator",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1765213412.0,
       "url": "https://www.youtube.com/watch?v=8ldNNtNjvR4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "\ud83d\udc40 Trying to Find My Friend in Bloxburg\u2026 Send Help \ud83d\ude2d",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765213270.0,
+      "url": "https://www.youtube.com/watch?v=ftAeOutxXGM",
       "icon": "fa-youtube"
     },
     {
@@ -668,7 +668,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765223589.7146986,
+    "generated_at": 1765224789.7152553,
     "mode": "memory",
     "refresh_interval": 2000
   }
