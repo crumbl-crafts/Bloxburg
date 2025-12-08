@@ -587,6 +587,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "I BECAME A BABYSITTER FOR THE WORST BLOXBURG FAMILY",
+      "description": "bloxburg #roblox #robloxbloxburg I should have stayed in my mansion...becoming a babysitter was the ...",
+      "source": "YouTube",
+      "timestamp": 1765224049.0,
+      "url": "https://www.youtube.com/watch?v=j8cHhF2gviQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "2 more daysss!! #roblox #bloxburg #bloxburgchristmas #bloxburgchristmasupdate #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765223105.0,
+      "url": "https://www.youtube.com/watch?v=aXqKMgDFP80",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Has these always been here??\ud83e\uddd0\ud83c\udf7f\ud83c\udf84#roblox #bloxburg #smallcreator",
       "description": "...",
       "source": "YouTube",
@@ -610,24 +628,6 @@
       "source": "YouTube",
       "timestamp": 1765213198.0,
       "url": "https://www.youtube.com/watch?v=ZRTRlOmQyY0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#roblox #whowillbemylifepartnerta #lifeisbutadream #bloxburg #memes #nothingimposibleinthisworld",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765212974.0,
-      "url": "https://www.youtube.com/watch?v=AN63jpNozEg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "SOPHIE RIPPED MR UNICORNS HEAD OFF! #shorts #roblox #bloxburgroleplay #roleplay #bloxburg #steal",
-      "description": "SOPHIE RIPPED MR UNICORNS HEAD OFF! Make sure to like and check out the full video in the link to fi...",
-      "source": "YouTube",
-      "timestamp": 1765209705.0,
-      "url": "https://www.youtube.com/watch?v=zZ-6lxryXCI",
       "icon": "fa-youtube"
     },
     {
@@ -668,7 +668,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765224789.7152553,
+    "generated_at": 1765225989.7058284,
     "mode": "memory",
     "refresh_interval": 2000
   }
