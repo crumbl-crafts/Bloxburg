@@ -587,6 +587,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "rare animals caught on camera \ud83d\udcf8 pt. 1 #roblox #bloxburg #thesims4 #comparison #bloxburgspeedbuilds",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765198737.0,
+      "url": "https://www.youtube.com/watch?v=NDs40HbFxqA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Le No\u00ebl des capybaras #remix #music #song #roblox #brookhave #memes #blookhaven #bloxburg #viral",
       "description": "...",
       "source": "YouTube",
@@ -619,15 +628,6 @@
       "source": "YouTube",
       "timestamp": 1765177213.0,
       "url": "https://www.youtube.com/watch?v=DfGnqEJy5YY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#robolox #sahur #brainrot",
-      "description": "robolox #sahur #brainrot roblox brainrot, italian brainrot, roblox memes, roblox shorts, roblox funn...",
-      "source": "YouTube",
-      "timestamp": 1765171102.0,
-      "url": "https://www.youtube.com/watch?v=nX23NW8ww5I",
       "icon": "fa-youtube"
     },
     {
@@ -668,7 +668,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765200190.0405655,
+    "generated_at": 1765200789.7106743,
     "mode": "memory",
     "refresh_interval": 2000
   }
