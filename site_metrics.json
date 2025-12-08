@@ -533,7 +533,7 @@
     {
       "label": "Pending Requests",
       "value": 0,
-      "trend": "2 new today \u00b7 3 responded",
+      "trend": "1 new today \u00b7 3 responded",
       "max": 50
     },
     {
@@ -578,6 +578,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Winter Update Is Here!! Roblox Bloxburg #bloxburg #bloxburgbuilds #bloxburgroleplay #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765155342.0,
+      "url": "https://www.youtube.com/watch?v=ZHkEPMp0rxs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Come backkkk lol Bloxburg #bloxburg #bloxburgbuilds #bloxburgroleplay #roblox",
       "description": "...",
       "source": "YouTube",
@@ -610,15 +619,6 @@
       "source": "YouTube",
       "timestamp": 1765148950.0,
       "url": "https://www.youtube.com/watch?v=i4x9Rt2vxy0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Being Santa in Bloxburg PT3\ud83c\udf85 #christmas #roblox #bloxburg #shorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765144228.0,
-      "url": "https://www.youtube.com/watch?v=izx0wWEdHow",
       "icon": "fa-youtube"
     },
     {
@@ -659,7 +659,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765156989.9824815,
+    "generated_at": 1765157589.703892,
     "mode": "memory",
     "refresh_interval": 2000
   }
