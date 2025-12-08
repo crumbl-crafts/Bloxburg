@@ -587,6 +587,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "Le No\u00ebl des capybaras #remix #music #song #roblox #brookhave #memes #blookhaven #bloxburg #viral",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765195631.0,
+      "url": "https://www.youtube.com/watch?v=WKa7jNqlIpw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Please welcome Bella to MDL Studios! \u2728\ufe0f #bloxburg #roblox #kpopentertainment #robloxkuv #kuv #kpop",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765195474.0,
+      "url": "https://www.youtube.com/watch?v=d8_p4znMfDc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Would you taste my BLOXBURG HOLIDAY CUPCAKES I made \ud83d\udc40\u2744\ufe0f\u2603\ufe0f",
       "description": "...",
       "source": "YouTube",
@@ -610,24 +628,6 @@
       "source": "YouTube",
       "timestamp": 1765171102.0,
       "url": "https://www.youtube.com/watch?v=nX23NW8ww5I",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "battle roblox #roblox #bloxburg #bloxburgbuild #robloxbloxburg #robloxshorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765168085.0,
-      "url": "https://www.youtube.com/watch?v=LvXEZhRI7sg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "DECORATING THE NEW BLOXBURG MODERN GINGERBREAD HOUSE",
-      "description": "so today we finish up that bloxburg modern gingerbread house by decorating the interior of it! once ...",
-      "source": "YouTube",
-      "timestamp": 1765167108.0,
-      "url": "https://www.youtube.com/watch?v=sFxS6lHboIY",
       "icon": "fa-youtube"
     },
     {
@@ -668,7 +668,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765198389.71579,
+    "generated_at": 1765199589.7059276,
     "mode": "memory",
     "refresh_interval": 2000
   }
