@@ -8,7 +8,7 @@
   },
   "server": {
     "total_members": 335,
-    "joined_today": 1,
+    "joined_today": 0,
     "active_shops": 1,
     "avg_response_time": 4450.666666666667
   },
@@ -596,11 +596,38 @@
   "news": [
     {
       "type": "trend",
-      "title": "Bloxburg elf location day:1 #shorts #roblox #bloxburg #christmas #elf #viral",
+      "title": "ROBLOX BLOXBURG ELF HUNT DAY 1",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1765314690.0,
-      "url": "https://www.youtube.com/watch?v=7cgUmHWTyWA",
+      "timestamp": 1765315564.0,
+      "url": "https://www.youtube.com/watch?v=CpL5J4vpKfA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "UBICACI\u00d3N DEL ELFO #1 de BLOXBURG!",
+      "description": "\u00danete a mi grupo de Roblox: https://www.roblox.com/groups/5045574/grupo-oficial-de-fessy#!/about S\u00edg...",
+      "source": "YouTube",
+      "timestamp": 1765315249.0,
+      "url": "https://www.youtube.com/watch?v=FYic514pDFc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "HOW TO FIND THE 1ST ELF IN BLOXBURG! \ud83c\udf85  #roblox #bloxburg #shorts",
+      "description": "roblox #bloxburg #elfhunt #shorts....",
+      "source": "YouTube",
+      "timestamp": 1765314861.0,
+      "url": "https://www.youtube.com/watch?v=oXJP8pScUYs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Bloxburg ELF HUNT LOCATION 1",
+      "description": "bloxburg #roblox bloxburg elf hunt, bloxburg elf hunt 2025, bloxburg christmas update 2025, where is...",
+      "source": "YouTube",
+      "timestamp": 1765314614.0,
+      "url": "https://www.youtube.com/watch?v=0TdxOyH-9dY",
       "icon": "fa-youtube"
     },
     {
@@ -610,33 +637,6 @@
       "source": "YouTube",
       "timestamp": 1765314346.0,
       "url": "https://www.youtube.com/watch?v=28Ky2zZBKB4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "vlogmas day 9!!  my cozy winter night routine \u2603\ufe0f #vlogmas #roblox #bloxburg #bloxburgchristmas #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765309139.0,
-      "url": "https://www.youtube.com/watch?v=dwgM4QHTgj8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "4 cool ftap spots #roblox #robloxedit #bloxburg #robloxgames #edit",
-      "description": "roblox #trending #shortsfeed #forsaken #funny #memes #viral #goviralplease #youtubeshorts....",
-      "source": "YouTube",
-      "timestamp": 1765299915.0,
-      "url": "https://www.youtube.com/watch?v=BonwhrQHzBI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "k #roblox #lifeisbutadream #bloxburg #gaming  #adoptme #trade #stealabrainrot #funny #memes",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765299101.0,
-      "url": "https://www.youtube.com/watch?v=YbFU25WTl-k",
       "icon": "fa-youtube"
     },
     {
@@ -677,7 +677,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765317189.7029376,
+    "generated_at": 1765318389.721564,
     "mode": "memory",
     "refresh_interval": 2000
   }
