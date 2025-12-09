@@ -596,6 +596,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "Mansi\u00f3n Bloxburg colapsa al final \ud83d\udc80 #roblox",
+      "description": "2 HORAS construyendo mi dream house en Bloxburg\u2026 Coloco el techo final \u2192 \u00a1TODO SE DERRUMBA! Suscr\u00edbe...",
+      "source": "YouTube",
+      "timestamp": 1765320880.0,
+      "url": "https://www.youtube.com/watch?v=n_X7onF3m-8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "BLOXBURG ELF DAY 1\ud83e\udddd\u200d\u2640\ufe0f #welcometobloxburg #roblox #bloxburg #robloxshorts #robloxedit #bloxburgrp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765320629.0,
+      "url": "https://www.youtube.com/watch?v=k0udQa-ErfE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Localiza\u00e7\u00e3o Elfo 1 do bloxburg #bloxburg #bloxburgelfhunt #bloxburgchristmas #roblox",
       "description": "...",
       "source": "YouTube",
@@ -605,38 +623,20 @@
     },
     {
       "type": "trend",
+      "title": "I WENT TO A BLOXBURG BALL\ud83e\udee3#welcometobloxburg #roblox #bloxburg #robloxshorts #robloxedit #dtiroblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765319986.0,
+      "url": "https://www.youtube.com/watch?v=juGEOXUIN-4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "ROBLOX BLOXBURG ELF HUNT DAY 1",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1765315564.0,
       "url": "https://www.youtube.com/watch?v=CpL5J4vpKfA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ud83d\udd34BUSCANDO EL ELFO #1 de BLOXBURG EN VIVO!",
-      "description": "\u00danete a mi grupo de Roblox: https://www.roblox.com/groups/5045574/grupo-oficial-de-fessy#!/about S\u00edg...",
-      "source": "YouTube",
-      "timestamp": 1765315413.0,
-      "url": "https://www.youtube.com/watch?v=PGpXJK65etg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "UBICACI\u00d3N DEL ELFO #1 de BLOXBURG!",
-      "description": "\u00danete a mi grupo de Roblox: https://www.roblox.com/groups/5045574/grupo-oficial-de-fessy#!/about S\u00edg...",
-      "source": "YouTube",
-      "timestamp": 1765315249.0,
-      "url": "https://www.youtube.com/watch?v=FYic514pDFc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "HOW TO FIND THE 1ST ELF IN BLOXBURG! \ud83c\udf85  #roblox #bloxburg #shorts",
-      "description": "roblox #bloxburg #elfhunt #shorts....",
-      "source": "YouTube",
-      "timestamp": 1765314861.0,
-      "url": "https://www.youtube.com/watch?v=oXJP8pScUYs",
       "icon": "fa-youtube"
     },
     {
@@ -677,7 +677,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765321989.7091837,
+    "generated_at": 1765323189.7064183,
     "mode": "memory",
     "refresh_interval": 2000
   }
