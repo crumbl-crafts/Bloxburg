@@ -596,6 +596,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Open Houses #bloxburg #roblox #robloxstory #rblx #ytshorts #bloxburgroleplay",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765297752.0,
+      "url": "https://www.youtube.com/watch?v=-V-f2-DhQJE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "DAISY BURNT THE KITCHEN DOWN! #shorts #roblox #bloxburgroleplay #roleplay #bloxburg #steal",
       "description": "DAISY BURNT THE KITCHEN DOWN! Make sure to like and check out the full video in the link to find out...",
       "source": "YouTube",
@@ -650,11 +659,11 @@
     },
     {
       "type": "trend",
-      "title": "Jump scare\ufffc",
-      "description": "businesstipsforsmallbusinessowners #roblox #dothingsyoudontwanttodo #drawing #helpmemakethismakesens...",
+      "title": "BLOXBURG ELF HUNT IS COMING! #bloxburg",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1765283652.0,
-      "url": "https://www.youtube.com/watch?v=4QhmXberb2w",
+      "timestamp": 1765284105.0,
+      "url": "https://www.youtube.com/watch?v=WfvIjyYWQ6g",
       "icon": "fa-youtube"
     },
     {
@@ -674,19 +683,10 @@
       "timestamp": 1765268867.0,
       "url": "https://www.youtube.com/watch?v=y7LKhE3NjNU",
       "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Spend a day  at uni w/m #bloxburg#pinterest #music #outfitideas #university#us #aesthetic #fypp#vlog",
-      "description": "spend a day with me at uni .Productive day filled with so many study sessions .Romanticizing study s...",
-      "source": "YouTube",
-      "timestamp": 1765268324.0,
-      "url": "https://www.youtube.com/watch?v=3nze2hjWvss",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1765299189.7140293,
+    "generated_at": 1765300389.7100487,
     "mode": "memory",
     "refresh_interval": 2000
   }
