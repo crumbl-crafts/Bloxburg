@@ -596,6 +596,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "4 cool ftap spots #roblox #robloxedit #bloxburg #robloxgames #edit",
+      "description": "roblox #trending #shortsfeed #forsaken #funny #memes #viral #goviralplease #youtubeshorts....",
+      "source": "YouTube",
+      "timestamp": 1765299915.0,
+      "url": "https://www.youtube.com/watch?v=BonwhrQHzBI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "k #roblox #lifeisbutadream #bloxburg #gaming  #adoptme #trade #stealabrainrot #funny #memes",
       "description": "...",
       "source": "YouTube",
@@ -628,15 +637,6 @@
       "source": "YouTube",
       "timestamp": 1765289449.0,
       "url": "https://www.youtube.com/watch?v=tCJeB-LXQv8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "new truck who dis lol in Roblox Bloxburg #bloxburg #bloxburgbuilds #bloxburgroleplay #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765289354.0,
-      "url": "https://www.youtube.com/watch?v=RJmsD_A52Cg",
       "icon": "fa-youtube"
     },
     {
@@ -677,7 +677,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765302790.1028502,
+    "generated_at": 1765303989.7106733,
     "mode": "memory",
     "refresh_interval": 2000
   }
