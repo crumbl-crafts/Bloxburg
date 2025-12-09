@@ -605,6 +605,15 @@
     },
     {
       "type": "trend",
+      "title": "\ud83d\udd34BUSCANDO EL ELFO #1 de BLOXBURG EN VIVO!",
+      "description": "\u00danete a mi grupo de Roblox: https://www.roblox.com/groups/5045574/grupo-oficial-de-fessy#!/about S\u00edg...",
+      "source": "YouTube",
+      "timestamp": 1765315413.0,
+      "url": "https://www.youtube.com/watch?v=PGpXJK65etg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "UBICACI\u00d3N DEL ELFO #1 de BLOXBURG!",
       "description": "\u00danete a mi grupo de Roblox: https://www.roblox.com/groups/5045574/grupo-oficial-de-fessy#!/about S\u00edg...",
       "source": "YouTube",
@@ -640,44 +649,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1765050783.7398396,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "FAMILY CHRISTMAS BAKING GONE WRONG! *KITCHEN BURNED DOWN* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1765314006.0,
+      "url": "https://www.youtube.com/watch?v=BfRvOYerCec",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "vlogmas day 9!!  my cozy winter night routine \u2603\ufe0f #vlogmas #roblox #bloxburg #bloxburgchristmas #fyp",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1765047183.7398407,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1765309139.0,
+      "url": "https://www.youtube.com/watch?v=dwgM4QHTgj8",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1765043583.7398412,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "\u203c\ufe0fREAL Bloxburg players remember\ud83d\udc94\u203c\ufe0f #roblox #robloxedit #bloxburg #bloxburgroleplay",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765300563.0,
+      "url": "https://www.youtube.com/watch?v=x9iS_mhxK8A",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1765039983.7398417,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "4 cool ftap spots #roblox #robloxedit #bloxburg #robloxgames #edit",
+      "description": "roblox #trending #shortsfeed #forsaken #funny #memes #viral #goviralplease #youtubeshorts....",
+      "source": "YouTube",
+      "timestamp": 1765299915.0,
+      "url": "https://www.youtube.com/watch?v=BonwhrQHzBI",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1765318990.014654,
+    "generated_at": 1765319589.7135072,
     "mode": "memory",
     "refresh_interval": 2000
   }
