@@ -587,6 +587,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "IT\u2019S THAT TIME AGAIN \ud83c\udf84\u2b06\ufe0f New Bloxburg Vid | Mars Skye #roblox #shorts #gaming #funny",
+      "description": "Let's explore the new Bloxburg update OUT NOW. #gameplay #games #fun #comedy #new #trending #viral #...",
+      "source": "YouTube",
+      "timestamp": 1765249210.0,
+      "url": "https://www.youtube.com/watch?v=iiHVA0LaitI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Fnaf Sister Location Animatronics Bloxburg #bloxburg #fnaf #bloxburgbuilds",
       "description": "Various Fnaf SL Animatronics in Bloxburg....",
       "source": "YouTube",
@@ -619,15 +628,6 @@
       "source": "YouTube",
       "timestamp": 1765234128.0,
       "url": "https://www.youtube.com/watch?v=Hi_IK380J8E",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ud83d\udce2 MA\u00d1ANA inicia el EVENTO DE LOS ELFOS de Bloxburg\ud83d\udea8\ud83c\udf85  #shorts #bloxburg #robloxshorts #roblox",
-      "description": "MA\u00d1ANA inicia el EVENTO DE LOS ELFOS de Bloxburg     -----------------------------------------------...",
-      "source": "YouTube",
-      "timestamp": 1765233818.0,
-      "url": "https://www.youtube.com/watch?v=kJH4ab8faMA",
       "icon": "fa-youtube"
     },
     {
@@ -668,7 +668,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765249989.7076004,
+    "generated_at": 1765251189.7063272,
     "mode": "memory",
     "refresh_interval": 2000
   }
