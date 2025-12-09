@@ -587,6 +587,33 @@
   "news": [
     {
       "type": "trend",
+      "title": "Remodeling a followers home in bloxburg #bloxburg #roblox #robloxbloxburgspeedbuild #robloxedit",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765258054.0,
+      "url": "https://www.youtube.com/watch?v=A0R8HKM2lrM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "#roblox #robloxshorts #bloxburg #bloxburgroleplay",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765256429.0,
+      "url": "https://www.youtube.com/watch?v=R6S1t-kk0o0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "types of people in bloxburg Christmas update #cute #bloxburg #roblox #freeschelp #robloxchristmas",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765256404.0,
+      "url": "https://www.youtube.com/watch?v=3VI0lYeYmZ4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Nyamar jadi pengamen #roblox #bloxburg #robloxedit",
       "description": "...",
       "source": "YouTube",
@@ -601,33 +628,6 @@
       "source": "YouTube",
       "timestamp": 1765249210.0,
       "url": "https://www.youtube.com/watch?v=iiHVA0LaitI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Fnaf Sister Location Animatronics Bloxburg #bloxburg #fnaf #bloxburgbuilds",
-      "description": "Various Fnaf SL Animatronics in Bloxburg....",
-      "source": "YouTube",
-      "timestamp": 1765245989.0,
-      "url": "https://www.youtube.com/watch?v=qWK7HAobiuw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\u201cI Aged 1 to 100 in Brookhaven\u2026 The Ending Is Crazy!\u201d #bloxburg #bloxtalesBrookhaven Roblox #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765241765.0,
-      "url": "https://www.youtube.com/watch?v=x966liQo4ao",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#bloxburg #roblox #robloxbloxburg #savingmoney #fah #makemefamous #relatable #goviral",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765235768.0,
-      "url": "https://www.youtube.com/watch?v=mjcoCdigWIk",
       "icon": "fa-youtube"
     },
     {
@@ -668,7 +668,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765259590.019877,
+    "generated_at": 1765260789.7067523,
     "mode": "memory",
     "refresh_interval": 2000
   }
