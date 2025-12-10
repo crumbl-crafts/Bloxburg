@@ -623,6 +623,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "made ts on my phone",
+      "description": "roblox #memes #funny #bloxburg #weather #noob #bacon #baconroblox #noobroblox....",
+      "source": "YouTube",
+      "timestamp": 1765396907.0,
+      "url": "https://www.youtube.com/watch?v=ANTPfXSbFa4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "BLOXBURG ELF HUNT DAY 1 LOCATION + WHAT IT NEEDS",
+      "description": "THOSE SANTAS BALLS....",
+      "source": "YouTube",
+      "timestamp": 1765388279.0,
+      "url": "https://www.youtube.com/watch?v=gQyPuw5U-W8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#roblox #bloxburg #elfhunt",
       "description": "...",
       "source": "YouTube",
@@ -646,24 +664,6 @@
       "source": "YouTube",
       "timestamp": 1765378268.0,
       "url": "https://www.youtube.com/watch?v=5PKUdvcpuD0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg | Apartment floorplan #bloxburg #aesthetic",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765365175.0,
-      "url": "https://www.youtube.com/watch?v=nCcEGV0gXeE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Elf #1 2025 Elf hunt  #bloxburg  #elfhunt",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765364005.0,
-      "url": "https://www.youtube.com/watch?v=29iowS6xTRw",
       "icon": "fa-youtube"
     },
     {
@@ -704,7 +704,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765397589.7048357,
+    "generated_at": 1765398789.7052636,
     "mode": "memory",
     "refresh_interval": 2000
   }
