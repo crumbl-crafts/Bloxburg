@@ -623,6 +623,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #bloxburg #elfhunt",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765386103.0,
+      "url": "https://www.youtube.com/watch?v=uuqJueoNtlM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "La grenouille me TRAQUE pour un livre disparu\u2026  #roblox #robloxfr #bloxburg #welcometobloxburg",
       "description": "Je me suis fait kidnapper\u2026 par une grenouille qui pense que j'ai vol\u00e9 son livre ! Je comprends toujo...",
       "source": "YouTube",
@@ -655,15 +664,6 @@
       "source": "YouTube",
       "timestamp": 1765364005.0,
       "url": "https://www.youtube.com/watch?v=29iowS6xTRw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "elf hunt day one bloxburg location #roblox #bloxburg #christmas #santa #elf #edit #funny",
-      "description": "2025 bloxburg elf hunt day one location....",
-      "source": "YouTube",
-      "timestamp": 1765353983.0,
-      "url": "https://www.youtube.com/watch?v=-k2hXbKwfr0",
       "icon": "fa-youtube"
     },
     {
@@ -704,7 +704,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765386789.7049086,
+    "generated_at": 1765387989.7084432,
     "mode": "memory",
     "refresh_interval": 2000
   }
