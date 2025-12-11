@@ -667,53 +667,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "made ts on my phone",
-      "description": "roblox #memes #funny #bloxburg #weather #noob #bacon #baconroblox #noobroblox....",
-      "source": "YouTube",
-      "timestamp": 1765396907.0,
-      "url": "https://www.youtube.com/watch?v=ANTPfXSbFa4",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1765050783.7398396,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "BLOXBURG ELF HUNT DAY 1 LOCATION + WHAT IT NEEDS",
-      "description": "THOSE SANTAS BALLS....",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1765388279.0,
-      "url": "https://www.youtube.com/watch?v=gQyPuw5U-W8",
-      "icon": "fa-youtube"
+      "timestamp": 1765047183.7398407,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "#roblox #bloxburg #elfhunt",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765386103.0,
-      "url": "https://www.youtube.com/watch?v=uuqJueoNtlM",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1765043583.7398412,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "it\u2019s so nice and relaxing #roblox #bloxburg #relatable #bloxburgbuild #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765378268.0,
-      "url": "https://www.youtube.com/watch?v=5PKUdvcpuD0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg | Apartment floorplan #bloxburg #aesthetic",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765365175.0,
-      "url": "https://www.youtube.com/watch?v=nCcEGV0gXeE",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1765039983.7398417,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1765410789.997923,
+    "generated_at": 1765411989.7036765,
     "mode": "memory",
     "refresh_interval": 2000
   }
