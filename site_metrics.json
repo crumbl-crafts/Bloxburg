@@ -524,20 +524,20 @@
     },
     {
       "type": "trend",
+      "title": "they do. (DONT MIND THE GAAMES) #roblox #evade #towerofhell #bloxburg #mm2",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765465501.0,
+      "url": "https://www.youtube.com/watch?v=9HIfNdH7s70",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "la secret combo is my dream...( #roblox #butifyoucloseyoureyes #bloxburg #memes #edit #robloxedit",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1765463164.0,
       "url": "https://www.youtube.com/watch?v=aHmBrgKfrtI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#roblox #christmas #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765459235.0,
-      "url": "https://www.youtube.com/watch?v=rKvi_sgnGvs",
       "icon": "fa-youtube"
     },
     {
@@ -550,44 +550,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1765050783.7398396,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "Bloxburg Elf Hunt 2025 Day 2 - Clip Roblox Bloxburg Indonesia #BloxburgIndonesia #ElfHunt2025",
+      "description": "Bloxburg Elf Hunt 2025 Day 2 - Clip Roblox Bloxburg Indonesia #BloxburgIndonesia #ElfHunt2025 Music ...",
+      "source": "YouTube",
+      "timestamp": 1765434890.0,
+      "url": "https://www.youtube.com/watch?v=XlvbKl7Rblo",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "Elf Hunt Day 2       |  #roblox #bloxburg #robloxbloxburg #elfhunt #shorts |",
+      "description": "Elf Hunt Day 2 - 2025....",
       "source": "YouTube",
-      "timestamp": 1765047183.7398407,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1765425012.0,
+      "url": "https://www.youtube.com/watch?v=hKs44MMd-Xg",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1765043583.7398412,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "Roblox \ud83e\udd2f\ud83d\ude32 hyper shot #roblox #robloxedit #bloxburg",
+      "description": "This is the OFFICIAL Tower of Hell WORLD RECORD of 2024! Note that this wr is done by Vishal op! Gra...",
+      "source": "YouTube",
+      "timestamp": 1765416775.0,
+      "url": "https://www.youtube.com/watch?v=okrF9mn7mnc",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1765039983.7398417,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Where to find the 2nd &amp; 3rd elves in the bloxburg elf hunt + item",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765415161.0,
+      "url": "https://www.youtube.com/watch?v=CJ5HJzJGips",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "D\u00eda 11 del Calendario de Adviento de Bloxburg \ud83d\uddd3\ufe0f\ud83c\udf84 #shorts #bloxburg #roblox #christmas",
+      "description": "D\u00eda 11 del Calendario de Adviento de Bloxburg ------------------------------------------------- \u2b50 Mi...",
+      "source": "YouTube",
+      "timestamp": 1765412001.0,
+      "url": "https://www.youtube.com/watch?v=UjvNSYODhkc",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1765486390.0178216,
+    "generated_at": 1765487589.709502,
     "mode": "memory",
     "refresh_interval": 2000
   }
