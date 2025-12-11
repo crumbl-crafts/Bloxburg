@@ -650,6 +650,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "elf hunt day 2 bloxburg location #roblox #bloxburg #roleplay #christmas #edit #funnyimages",
+      "description": "BLOXBURG 2025 ELF HUNT DAY 2....",
+      "source": "YouTube",
+      "timestamp": 1765440887.0,
+      "url": "https://www.youtube.com/watch?v=lfKOQuu8u5s",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bloxburg Elf Hunt 2025 Day 2 - Clip Roblox Bloxburg Indonesia #BloxburgIndonesia #ElfHunt2025",
       "description": "Bloxburg Elf Hunt 2025 Day 2 - Clip Roblox Bloxburg Indonesia #BloxburgIndonesia #ElfHunt2025 Music ...",
       "source": "YouTube",
@@ -664,15 +673,6 @@
       "source": "YouTube",
       "timestamp": 1765425012.0,
       "url": "https://www.youtube.com/watch?v=hKs44MMd-Xg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "dando aula #roblox #bloxburg #brookhaven",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765418973.0,
-      "url": "https://www.youtube.com/watch?v=c6AdnCUT9qU",
       "icon": "fa-youtube"
     },
     {
@@ -731,7 +731,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765440789.7037365,
+    "generated_at": 1765441989.7135072,
     "mode": "memory",
     "refresh_interval": 2000
   }
