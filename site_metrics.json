@@ -623,6 +623,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "D\u00eda 11 del Calendario de Adviento de Bloxburg \ud83d\uddd3\ufe0f\ud83c\udf84 #shorts #bloxburg #roblox #christmas",
+      "description": "D\u00eda 11 del Calendario de Adviento de Bloxburg ------------------------------------------------- \u2b50 Mi...",
+      "source": "YouTube",
+      "timestamp": 1765412001.0,
+      "url": "https://www.youtube.com/watch?v=UjvNSYODhkc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Day 2 Elf Location in Bloxburg \ud83c\udf81 #bloxburg #bloxburgupdate #roblox",
       "description": "Thank you for watching. In this short, we're finding Santa's elves for the winter event \"Elf Hunt\" i...",
       "source": "YouTube",
@@ -655,15 +664,6 @@
       "source": "YouTube",
       "timestamp": 1765402353.0,
       "url": "https://www.youtube.com/watch?v=QnlMzzSPI4o",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg ELF HUNT LOCATION 2 | QUICK &amp; EASY TUTORIAL",
-      "description": "bloxburg #roblox bloxburg elf hunt, bloxburg elf hunt 2025, bloxburg christmas update 2025, where is...",
-      "source": "YouTube",
-      "timestamp": 1765401464.0,
-      "url": "https://www.youtube.com/watch?v=04CwqRuOlQc",
       "icon": "fa-youtube"
     },
     {
@@ -704,7 +704,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765411989.7036765,
+    "generated_at": 1765413189.710651,
     "mode": "memory",
     "refresh_interval": 2000
   }
