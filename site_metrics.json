@@ -632,6 +632,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "DAISY THE DIVA LOVES DRAMA AT CHRISTMAS! #shorts #roblox #bloxburgroleplay #roleplay #bloxburg",
+      "description": "DAISY THE DIVA LOVES DRAMA AT CHRISTMAS! Make sure to like and check out the full video in the link ...",
+      "source": "YouTube",
+      "timestamp": 1765468855.0,
+      "url": "https://www.youtube.com/watch?v=VKtHNZwWPfU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#roblox #christmas #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -664,15 +673,6 @@
       "source": "YouTube",
       "timestamp": 1765425012.0,
       "url": "https://www.youtube.com/watch?v=hKs44MMd-Xg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Roblox \ud83e\udd2f\ud83d\ude32 hyper shot #roblox #robloxedit #bloxburg",
-      "description": "This is the OFFICIAL Tower of Hell WORLD RECORD of 2024! Note that this wr is done by Vishal op! Gra...",
-      "source": "YouTube",
-      "timestamp": 1765416775.0,
-      "url": "https://www.youtube.com/watch?v=okrF9mn7mnc",
       "icon": "fa-youtube"
     },
     {
@@ -713,7 +713,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765470190.0083373,
+    "generated_at": 1765470789.7038229,
     "mode": "memory",
     "refresh_interval": 2000
   }
