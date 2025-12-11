@@ -685,53 +685,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "Bloxburg Elf Location Day 2!!! Went live with you all and it was so fun!! #bloxburgelfhunt",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765404959.0,
-      "url": "https://www.youtube.com/watch?v=AqSfBn0S5fo",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1765050783.7398396,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "ONDE ENCONTRAR O SEGUNDO ELFO DO EVENTO DE NATAL DO BLOXBURG (2025) - ROBLOX",
-      "description": "MINHA LOJA VIRTUAL: https://br.shp.ee/i88qtg8 MEU NOVO CANAL PESSOAL: ......",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1765403422.0,
-      "url": "https://www.youtube.com/watch?v=MjaIdTxu2KM",
-      "icon": "fa-youtube"
+      "timestamp": 1765047183.7398407,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "Ubicaci\u00f3n del ELFO 2 de Bloxburg \ud83c\udf84\u2603\ufe0f #shorts #roblox #bloxburg #robloxshorts",
-      "description": "Ubicaci\u00f3n del ELFO 2 de Bloxburg 2025  \u2603\ufe0f ------------------------------------------------- \u2b50 Mis re...",
-      "source": "YouTube",
-      "timestamp": 1765403338.0,
-      "url": "https://www.youtube.com/watch?v=ZdjYfKdUkWY",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1765043583.7398412,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "Bloxburg ELF HUNT \u2014 ELF 2 \ud83e\udddd\u200d\u2642\ufe0f\u2728",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765402353.0,
-      "url": "https://www.youtube.com/watch?v=QnlMzzSPI4o",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "The SECOND Bloxburg ELF Location! [2025]",
-      "description": "The second elf is heree Twitter: https://twitter.com/BramPeee Instagram: https://www.instagram.com/b...",
-      "source": "YouTube",
-      "timestamp": 1765401834.0,
-      "url": "https://www.youtube.com/watch?v=--d--ZG0d-8",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1765039983.7398417,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1765421590.0153098,
+    "generated_at": 1765422789.7008054,
     "mode": "memory",
     "refresh_interval": 2000
   }
