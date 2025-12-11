@@ -641,6 +641,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Where to find the 2nd &amp; 3rd elves in the bloxburg elf hunt + item",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765415161.0,
+      "url": "https://www.youtube.com/watch?v=CJ5HJzJGips",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "D\u00eda 11 del Calendario de Adviento de Bloxburg \ud83d\uddd3\ufe0f\ud83c\udf84 #shorts #bloxburg #roblox #christmas",
       "description": "D\u00eda 11 del Calendario de Adviento de Bloxburg ------------------------------------------------- \u2b50 Mi...",
       "source": "YouTube",
@@ -673,15 +682,6 @@
       "source": "YouTube",
       "timestamp": 1765403338.0,
       "url": "https://www.youtube.com/watch?v=ZdjYfKdUkWY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg ELF HUNT \u2014 ELF 2 \ud83e\udddd\u200d\u2642\ufe0f\u2728",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765402353.0,
-      "url": "https://www.youtube.com/watch?v=QnlMzzSPI4o",
       "icon": "fa-youtube"
     },
     {
@@ -722,7 +722,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765416189.9949121,
+    "generated_at": 1765416789.7085154,
     "mode": "memory",
     "refresh_interval": 2000
   }
