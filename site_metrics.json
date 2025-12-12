@@ -518,7 +518,7 @@
       "title": "New Winter Update Available!",
       "description": "Explore new winter-themed furniture and decorations",
       "source": "Bloxburg Official",
-      "timestamp": 1765563177.406164,
+      "timestamp": 1765563563.6636922,
       "url": "https://twitter.com/BloxburgGame",
       "icon": "fa-gamepad"
     },
@@ -536,7 +536,7 @@
       "title": "Modern Mansion Builds Trending",
       "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1765559577.4061666,
+      "timestamp": 1765559963.663694,
       "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
       "icon": "fa-fire"
     },
@@ -563,9 +563,18 @@
       "title": "Money Making Guide 2024",
       "description": "Best jobs and strategies to earn cash quickly",
       "source": "Community Guide",
-      "timestamp": 1765555977.406167,
+      "timestamp": 1765556363.6636944,
       "url": "#",
       "icon": "fa-lightbulb"
+    },
+    {
+      "type": "trend",
+      "title": "3RD ELF - BLOXBURG ELF HUNT #bloxburgelfhunt #bloxburg #shorts",
+      "description": "Hallo, ich bin DerNeueYoutuber. Ich habe zwar einen deutschen Namen aber ich mache viele englische V...",
+      "source": "YouTube",
+      "timestamp": 1765553718.0,
+      "url": "https://www.youtube.com/watch?v=LyJUu56Eqy8",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
@@ -581,22 +590,13 @@
       "title": "Weekly Build Contest",
       "description": "Submit your best holiday-themed builds to win prizes!",
       "source": "Crumbl Crafts",
-      "timestamp": 1765552377.4061677,
+      "timestamp": 1765552763.6636949,
       "url": "#",
       "icon": "fa-trophy"
-    },
-    {
-      "type": "trend",
-      "title": "We&#39;re halfway to Christmas! #roblox #bloxburg #christmas #brookhaven #dance #friends",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765540903.0,
-      "url": "https://www.youtube.com/watch?v=oFlBKN7aBYE",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1765567039.874565,
+    "generated_at": 1765567167.948238,
     "mode": "memory",
     "refresh_interval": 2000
   }
