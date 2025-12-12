@@ -523,6 +523,42 @@
   ],
   "news": [
     {
+      "type": "trend",
+      "title": "I BUILT AN INSANE ASYLUM IN BLOXBURG",
+      "description": "bloxburg #roblox #robloxbloxburg This is the worst mental asylum in all of bloxburg...if not roblox....",
+      "source": "YouTube",
+      "timestamp": 1765569646.0,
+      "url": "https://www.youtube.com/watch?v=kzXJ2keneGc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "aw man \ud83d\ude14 #roblox #bloxburg #reltable #viral #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765568929.0,
+      "url": "https://www.youtube.com/watch?v=_huWWwJFE_Q",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "i don\u2019t understand kitchens #roblox #bloxburg #katrinabloom",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765568159.0,
+      "url": "https://www.youtube.com/watch?v=q3YX8BRAg9A",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "day 12!! \ud83c\udf84\u2764\ufe0f #roblox #bloxburg #bloxburgadventcalendar #bloxburgupdate #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765564833.0,
+      "url": "https://www.youtube.com/watch?v=0BTzVwM-BD8",
+      "icon": "fa-youtube"
+    },
+    {
       "type": "game_update",
       "title": "New Winter Update Available!",
       "description": "Explore new winter-themed furniture and decorations",
@@ -550,24 +586,6 @@
       "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "Day 11 | The 24 Days of Christmas Village in Bloxburg. Brought to life by MCM creations. #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765558866.0,
-      "url": "https://www.youtube.com/watch?v=roEB7UJl6bU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Roblox christmas decal codes for berry avenue and bloxburg #roblox #shortsviral #berryave #bloxburg",
-      "description": "yall my stomach hurt like crazy - - - - -also threw up 8 times yesterday DISCLAIMER - If you plan on...",
-      "source": "YouTube",
-      "timestamp": 1765557198.0,
-      "url": "https://www.youtube.com/watch?v=XCccJM7lTIE",
-      "icon": "fa-youtube"
-    },
-    {
       "type": "tip",
       "title": "Money Making Guide 2024",
       "description": "Best jobs and strategies to earn cash quickly",
@@ -575,24 +593,6 @@
       "timestamp": 1765556363.6636944,
       "url": "#",
       "icon": "fa-lightbulb"
-    },
-    {
-      "type": "trend",
-      "title": "3RD ELF - BLOXBURG ELF HUNT #bloxburgelfhunt #bloxburg #shorts",
-      "description": "Hallo, ich bin DerNeueYoutuber. Ich habe zwar einen deutschen Namen aber ich mache viele englische V...",
-      "source": "YouTube",
-      "timestamp": 1765553718.0,
-      "url": "https://www.youtube.com/watch?v=LyJUu56Eqy8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "elf hunt day 3 bloxburg location #roblox #roleplay #robloxedit #bloxburg #christmas #funnymemes",
-      "description": "bloxburg elf hunt day 3 location....",
-      "source": "YouTube",
-      "timestamp": 1765553139.0,
-      "url": "https://www.youtube.com/watch?v=2hb2qj4PsVg",
-      "icon": "fa-youtube"
     },
     {
       "type": "community",
@@ -605,7 +605,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765570428.4832418,
+    "generated_at": 1765570769.962512,
     "mode": "memory",
     "refresh_interval": 2000
   }
