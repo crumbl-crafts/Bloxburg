@@ -518,7 +518,7 @@
       "title": "New Winter Update Available!",
       "description": "Explore new winter-themed furniture and decorations",
       "source": "Bloxburg Official",
-      "timestamp": 1765562208.0145023,
+      "timestamp": 1765563177.406164,
       "url": "https://twitter.com/BloxburgGame",
       "icon": "fa-gamepad"
     },
@@ -533,21 +533,21 @@
     },
     {
       "type": "trend",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
+      "source": "YouTube",
+      "timestamp": 1765559577.4061666,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
+    },
+    {
+      "type": "trend",
       "title": "Day 11 | The 24 Days of Christmas Village in Bloxburg. Brought to life by MCM creations. #bloxburg",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1765558866.0,
       "url": "https://www.youtube.com/watch?v=roEB7UJl6bU",
       "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
-      "source": "YouTube",
-      "timestamp": 1765558608.0145037,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
     },
     {
       "type": "trend",
@@ -563,7 +563,7 @@
       "title": "Money Making Guide 2024",
       "description": "Best jobs and strategies to earn cash quickly",
       "source": "Community Guide",
-      "timestamp": 1765555008.0145044,
+      "timestamp": 1765555977.406167,
       "url": "#",
       "icon": "fa-lightbulb"
     },
@@ -581,7 +581,7 @@
       "title": "Weekly Build Contest",
       "description": "Submit your best holiday-themed builds to win prizes!",
       "source": "Crumbl Crafts",
-      "timestamp": 1765551408.014505,
+      "timestamp": 1765552377.4061677,
       "url": "#",
       "icon": "fa-trophy"
     },
@@ -596,7 +596,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765565836.9389656,
+    "generated_at": 1765566781.9752293,
     "mode": "memory",
     "refresh_interval": 2000
   }
