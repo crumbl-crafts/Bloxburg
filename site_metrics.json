@@ -533,15 +533,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "#roblox #robloxshorts #bloxburgcontentcreator #robloxindonesia #robloxedit #gunungroblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765620300.0,
-      "url": "https://www.youtube.com/watch?v=OqDmtnpDZb8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "CAN YOU GUESS THE ROBLOX GAME BY EMOJIS? \ud83d\ude2d (99% FAIL) #roblox   #shorts",
       "description": "Only a true Sigma can guess the final one\u2026 Comment your answer to lock it in Subscribe for daily Rob...",
       "source": "YouTube",
@@ -556,6 +547,15 @@
       "source": "YouTube",
       "timestamp": 1765618266.0,
       "url": "https://www.youtube.com/watch?v=4cJ-qI4mWR8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "When Bloxburg Pizza Delivery Goes Wrong",
+      "description": "He just wanted to deliver a pizza\u2026 but everything went completely wrong! From a crashed bike to angr...",
+      "source": "YouTube",
+      "timestamp": 1765616483.0,
+      "url": "https://www.youtube.com/watch?v=qmNlIxwbbKk",
       "icon": "fa-youtube"
     },
     {
@@ -614,7 +614,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765624769.9542964,
+    "generated_at": 1765625969.9544919,
     "mode": "memory",
     "refresh_interval": 2000
   }
