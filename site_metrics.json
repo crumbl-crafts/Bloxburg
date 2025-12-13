@@ -488,6 +488,33 @@
   "news": [
     {
       "type": "trend",
+      "title": "HOW TO FIND THE 5TH ELF IN BLOXBURG! #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765663740.0,
+      "url": "https://www.youtube.com/watch?v=cqEGuapq4lg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Adi\u00f3s, 2025 \ud83e\udd72 #roblox #enbuscadelosmejoresprecios #bloxburg \ufffc\ufffc",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765662641.0,
+      "url": "https://www.youtube.com/watch?v=0pA-Epg6ANc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "bloxburg elf hunt day 5 #christmas #roblox #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765661730.0,
+      "url": "https://www.youtube.com/watch?v=bfybHAFA9xw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\ud83d\udd34BUSCANDO EL ELFO #5 de BLOXBURG EN VIVO!",
       "description": "\u00danete a mi grupo de Roblox: https://www.roblox.com/groups/5045574/grupo-oficial-de-fessy#!/about S\u00edg...",
       "source": "YouTube",
@@ -502,33 +529,6 @@
       "source": "YouTube",
       "timestamp": 1765661520.0,
       "url": "https://www.youtube.com/watch?v=ATng2YDRmEw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Elf Hunt Day 5 - 2025 #bloxburgelfhunt #bloxburg #elfhunt #roblox",
-      "description": "Elf Hunt Day 5 - 2025 #bloxburgelfhunt #bloxburg #elfhunt #roblox....",
-      "source": "YouTube",
-      "timestamp": 1765661313.0,
-      "url": "https://www.youtube.com/watch?v=ermnm9aF25g",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "The FIFTH Bloxburg ELF Location! [2025]",
-      "description": "We can let the fifth elf fly right Twitter: https://twitter.com/BramPeee Instagram: https://www.inst...",
-      "source": "YouTube",
-      "timestamp": 1765660644.0,
-      "url": "https://www.youtube.com/watch?v=k5hrteQ8HW8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ud83d\udd34BUILDING A SECRET GAMING ROOM ON BLOXBURG...*PART 2!*",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
-      "source": "YouTube",
-      "timestamp": 1765660163.0,
-      "url": "https://www.youtube.com/watch?v=xscWRQVGnj8",
       "icon": "fa-youtube"
     },
     {
@@ -569,7 +569,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765664370.323262,
+    "generated_at": 1765665569.95402,
     "mode": "memory",
     "refresh_interval": 2000
   }
