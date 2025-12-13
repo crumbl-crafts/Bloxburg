@@ -488,47 +488,47 @@
   "news": [
     {
       "type": "trend",
+      "title": "\ud83d\udd34BUSCANDO EL ELFO #5 de BLOXBURG EN VIVO!",
+      "description": "\u00danete a mi grupo de Roblox: https://www.roblox.com/groups/5045574/grupo-oficial-de-fessy#!/about S\u00edg...",
+      "source": "YouTube",
+      "timestamp": 1765661628.0,
+      "url": "https://www.youtube.com/watch?v=x0VqBdBrX6w",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Bloxburg Elf Hunt Day 5  |  #roblox #bloxburg #elfhunt #bloxburgelfhunt  #bloxburgcontentcreator",
+      "description": "Hello! I'm back with our Bloxburg videos/shorts! A giveaway is happening soon. Be on the lookout for...",
+      "source": "YouTube",
+      "timestamp": 1765661520.0,
+      "url": "https://www.youtube.com/watch?v=ATng2YDRmEw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Elf Hunt Day 5 - 2025 #bloxburgelfhunt #bloxburg #elfhunt #roblox",
+      "description": "Elf Hunt Day 5 - 2025 #bloxburgelfhunt #bloxburg #elfhunt #roblox....",
+      "source": "YouTube",
+      "timestamp": 1765661313.0,
+      "url": "https://www.youtube.com/watch?v=ermnm9aF25g",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "The FIFTH Bloxburg ELF Location! [2025]",
+      "description": "We can let the fifth elf fly right Twitter: https://twitter.com/BramPeee Instagram: https://www.inst...",
+      "source": "YouTube",
+      "timestamp": 1765660644.0,
+      "url": "https://www.youtube.com/watch?v=k5hrteQ8HW8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\ud83d\udd34BUILDING A SECRET GAMING ROOM ON BLOXBURG...*PART 2!*",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
       "source": "YouTube",
       "timestamp": 1765660163.0,
       "url": "https://www.youtube.com/watch?v=xscWRQVGnj8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "KIDS VISIT SANTAS GROTTO! *DAISY IS ON THE NAUGHTY LIST* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1765659606.0,
-      "url": "https://www.youtube.com/watch?v=Y0Myy5b4Ppw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Pt 2 LOCKED IN\ud83d\udd12 #roblox #robloxshorts #robloxedit #bloxburg #robloxanimation #robloxbloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765659334.0,
-      "url": "https://www.youtube.com/watch?v=OUYXFrReZt8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Pt. 1 SNOWED IN?! #roblox #robloxshorts #robloxedit #bloxburg #robloxanimation #robloxbloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765659216.0,
-      "url": "https://www.youtube.com/watch?v=rgzW816mYR8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "HOW TO FIND THE 5TH ELF ON BLOXBURG! *ELF HUNT 2025* #bloxburg #roblox #shorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765658916.0,
-      "url": "https://www.youtube.com/watch?v=RyfE0apVXLs",
       "icon": "fa-youtube"
     },
     {
@@ -569,7 +569,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765661969.9538147,
+    "generated_at": 1765663169.9529316,
     "mode": "memory",
     "refresh_interval": 2000
   }
