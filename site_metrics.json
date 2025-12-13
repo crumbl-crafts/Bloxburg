@@ -488,6 +488,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "I BUILT MY DREAM CHRISTMAS KITCHEN IN BLOXBURG #bloxburg #christmas",
+      "description": "hi it's Dahlia today i'm trying to build a christmas kitchen in my bloxburg manor because it's liter...",
+      "source": "YouTube",
+      "timestamp": 1765658591.0,
+      "url": "https://www.youtube.com/watch?v=rpSa1dwNxHI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "She talks now\u2026 \ud83e\udd79\u2728 #roblox #dubairp #berryavenueupdate #robloxavatar #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765656264.0,
+      "url": "https://www.youtube.com/watch?v=2bEdboXAUYM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#roblox #bloxburg #bloxburgbuilds #bloxburghouse #robloxstory #bloxburghousebuild",
       "description": "...",
       "source": "YouTube",
@@ -511,24 +529,6 @@
       "source": "YouTube",
       "timestamp": 1765652276.0,
       "url": "https://www.youtube.com/watch?v=eSNbqpNpUhM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Dia 13 #roblox #robloxbloxburgspeedbuild #bloxburg #bloxburgnewleaks #bloxburgcontentcreator",
-      "description": "Dia 13 calendario de invierno en Bloxburg!...",
-      "source": "YouTube",
-      "timestamp": 1765652240.0,
-      "url": "https://www.youtube.com/watch?v=yoEOUXh60TY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#music #song #love #slay #audio #bejba #remix #roblox #art #bejba #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765651600.0,
-      "url": "https://www.youtube.com/watch?v=GPQSDjMXb5I",
       "icon": "fa-youtube"
     },
     {
@@ -569,7 +569,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765658970.2434993,
+    "generated_at": 1765659569.958463,
     "mode": "memory",
     "refresh_interval": 2000
   }
