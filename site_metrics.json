@@ -515,6 +515,33 @@
   "news": [
     {
       "type": "trend",
+      "title": "Spending the rest of my Christmas week in Bloxburg! #shorts #bloxburg",
+      "description": "How I'm go be spending the rest of my Christmas week in Bloxburg! #bloxburg #bloxburgbuild #bloxburg...",
+      "source": "YouTube",
+      "timestamp": 1765645462.0,
+      "url": "https://www.youtube.com/watch?v=U3mhg23PGWc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "\ud83e\udd0d\u2764\ufe0fBERRY AVENUE MESH HEADS\u2764\ufe0f\ud83e\udd0d #berryavenuecodes #bloxburg #roblox #tiktok",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765643437.0,
+      "url": "https://www.youtube.com/watch?v=NzbVxvL_CNY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "15k Bloxburg *NO GAME PASS* Christmas House Build: Tutorial w/ Voice",
+      "description": "hiii! today i show how to build a no game pass 15k house in bloxburg for CHRISTMAS! this 1 story sta...",
+      "source": "YouTube",
+      "timestamp": 1765641692.0,
+      "url": "https://www.youtube.com/watch?v=uqekrYAjBDk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Can Bloxburg Be Saved?",
       "description": "today we take a deep dive into roblox welcome to bloxburg in 2025... oh boy follow me on twitter - h...",
       "source": "YouTube",
@@ -529,33 +556,6 @@
       "source": "YouTube",
       "timestamp": 1765640181.0,
       "url": "https://www.youtube.com/watch?v=8CQFdp7IDvI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Sledding in Bonelab is AWESOME...",
-      "description": "bonelab #vr #vrgaming #gaming #funny #fyp....",
-      "source": "YouTube",
-      "timestamp": 1765639830.0,
-      "url": "https://www.youtube.com/watch?v=pgrOmmuNwmg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "day 13!! \u2603\ufe0f #roblox #bloxburg #bloxburgadventcalendar #bloxburgupdate #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765636590.0,
-      "url": "https://www.youtube.com/watch?v=T2ttFzTnM1w",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "How to find the day 4 Bloxburg elf! #christmas #bloxburgelfhunt #elfhunt #elf",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765633031.0,
-      "url": "https://www.youtube.com/watch?v=2I2WzZRGa4U",
       "icon": "fa-youtube"
     },
     {
@@ -596,7 +596,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765646369.9630353,
+    "generated_at": 1765647569.9562314,
     "mode": "memory",
     "refresh_interval": 2000
   }
