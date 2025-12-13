@@ -497,6 +497,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Gimme some tips please #roblox #mm2 #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765668326.0,
+      "url": "https://www.youtube.com/watch?v=VGJUO5MoxKg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bloxburg Elf Hunt Day 5! \ud83c\udf84\ud83c\udf6a #roblox #christmas #shorts #elfhunt",
       "description": "Copyright Disclaimer, Under Section 107 of the Copyright Act 1976, allowance is made for 'fair use' ...",
       "source": "YouTube",
@@ -529,15 +538,6 @@
       "source": "YouTube",
       "timestamp": 1765663202.0,
       "url": "https://www.youtube.com/watch?v=ytqfHHX03pc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Adi\u00f3s, 2025 \ud83e\udd72 #roblox #enbuscadelosmejoresprecios #bloxburg \ufffc\ufffc",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765662641.0,
-      "url": "https://www.youtube.com/watch?v=0pA-Epg6ANc",
       "icon": "fa-youtube"
     },
     {
@@ -578,7 +578,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765669770.299382,
+    "generated_at": 1765670369.9538052,
     "mode": "memory",
     "refresh_interval": 2000
   }
