@@ -515,6 +515,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "Family SNOW DAY! CHRISTMAS DECORATING \ud83c\udf84 | Bloxburg Roleplay",
+      "description": "today's Bloxburg roleplay is our family's snow day routine! we spend a cozy winter morning at home a...",
+      "source": "YouTube",
+      "timestamp": 1765647902.0,
+      "url": "https://www.youtube.com/watch?v=bIpphxzR0yw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "#2025 #ajgamer1109 #roblox #bloxburg #bloxburg #coconut",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765647099.0,
+      "url": "https://www.youtube.com/watch?v=35onxODZbqs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Spending the rest of my Christmas week in Bloxburg! #shorts #bloxburg",
       "description": "How I'm go be spending the rest of my Christmas week in Bloxburg! #bloxburg #bloxburgbuild #bloxburg...",
       "source": "YouTube",
@@ -524,11 +542,11 @@
     },
     {
       "type": "trend",
-      "title": "\ud83e\udd0d\u2764\ufe0fBERRY AVENUE MESH HEADS\u2764\ufe0f\ud83e\udd0d #berryavenuecodes #bloxburg #roblox #tiktok",
-      "description": "...",
+      "title": "BLOXBURG: Winter Modern House Speedbuild | Roblox House Build",
+      "description": "Hello builders! In this video i am building a BLOXBURG: Winter Modern House Speedbuild | Roblox Hous...",
       "source": "YouTube",
-      "timestamp": 1765643437.0,
-      "url": "https://www.youtube.com/watch?v=NzbVxvL_CNY",
+      "timestamp": 1765645222.0,
+      "url": "https://www.youtube.com/watch?v=hc8uxNJPAuc",
       "icon": "fa-youtube"
     },
     {
@@ -538,24 +556,6 @@
       "source": "YouTube",
       "timestamp": 1765641692.0,
       "url": "https://www.youtube.com/watch?v=uqekrYAjBDk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Can Bloxburg Be Saved?",
-      "description": "today we take a deep dive into roblox welcome to bloxburg in 2025... oh boy follow me on twitter - h...",
-      "source": "YouTube",
-      "timestamp": 1765641639.0,
-      "url": "https://www.youtube.com/watch?v=NGMEk4mNT0I",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "it\u2019s so cute \u2603\ufe0f #roblox #bloxburg #bloxburgbuild #bloxburgchristmas  #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765640181.0,
-      "url": "https://www.youtube.com/watch?v=8CQFdp7IDvI",
       "icon": "fa-youtube"
     },
     {
@@ -596,7 +596,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765648170.2867627,
+    "generated_at": 1765648769.9545887,
     "mode": "memory",
     "refresh_interval": 2000
   }
