@@ -302,33 +302,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1426276966054625372",
       "thread_id": null
-    },
-    {
-      "type": "rating",
-      "shop_name": "Hidenori's Shop",
-      "message": "yoyoyoyo5088_yabihyook rated Hidenori's Shop 5 stars",
-      "timestamp": 1765112057,
-      "thread_id": 1446931774826610790,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/channels/1301988304279048275/1446931774826610790"
-    },
-    {
-      "type": "accepted",
-      "shop_name": "Hidenori's Shop",
-      "message": "Request from yoyoyoyo5088_yabihyook accepted",
-      "timestamp": 1765111306,
-      "thread_id": 1446931774826610790,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/channels/1301988304279048275/1447206441395028028"
-    },
-    {
-      "type": "sent",
-      "shop_name": "Hidenori's Shop",
-      "message": "Request sent by yoyoyoyo5088_yabihyook",
-      "timestamp": 1765111283,
-      "thread_id": 1446931774826610790,
-      "url": "https://discord.com/channels/1301988304279048275/1446931774826610790",
-      "server_id": 1301988304279048275
     }
   ],
   "pipeline": [
@@ -346,7 +319,7 @@
     },
     {
       "label": "Requests (7d)",
-      "value": 1,
+      "value": 0,
       "trend": "2 accepted \u00b7 1 rejected",
       "max": 100
     }
@@ -424,44 +397,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1765563563.6636922,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "Find Elf day 5 #bloxburg #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765684851.0,
+      "url": "https://www.youtube.com/watch?v=o01OWm0Y35Y",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "MAYHEM BALL COMING SOON TO BLOXBURG #bloxburg #fyp #concert #roblox",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1765559963.663694,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1765684793.0,
+      "url": "https://www.youtube.com/watch?v=njHe00seIFY",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1765556363.6636944,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "Bloxburg elf day 5 2025 #roblox #bloxburg #bloxburgchristmas",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765682481.0,
+      "url": "https://www.youtube.com/watch?v=S9VPVd0jv4o",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1765552763.6636949,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Ngintip Rumah Orang Kaya di Roblox Bloxburg  #roblox #robloxshorts #robloxedit",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765672860.0,
+      "url": "https://www.youtube.com/watch?v=X15iqsaH2CE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "D\u00eda 14 del Calendario de Adviento de Bloxburg \ud83d\uddd3\ufe0f\ud83c\udf84 #shorts #bloxburg #roblox #christmas",
+      "description": "D\u00eda 14 del Calendario de Adviento de Bloxburg ------------------------------------------------- \u2b50 Mi...",
+      "source": "YouTube",
+      "timestamp": 1765671044.0,
+      "url": "https://www.youtube.com/watch?v=0kBiI-tv55g",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1765715969.9636548,
+    "generated_at": 1765717169.95365,
     "mode": "memory",
     "refresh_interval": 2000
   }
