@@ -446,24 +446,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/933779619595817000",
       "thread_id": null
-    },
-    {
-      "type": "sent",
-      "shop_name": "Hidenori's Shop",
-      "message": "Request sent by deronplayzz",
-      "timestamp": 1765070962,
-      "thread_id": 1446931774826610790,
-      "url": "https://discord.com/channels/1301988304279048275/1446931774826610790",
-      "server_id": 1301988304279048275
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "magnoliamolly left the server",
-      "timestamp": 1765070735,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1258134189933330543",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -481,7 +463,7 @@
     },
     {
       "label": "Requests (7d)",
-      "value": 2,
+      "value": 1,
       "trend": "2 accepted \u00b7 1 rejected",
       "max": 100
     }
@@ -596,7 +578,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765675170.2502756,
+    "generated_at": 1765676369.9545987,
     "mode": "memory",
     "refresh_interval": 2000
   }
