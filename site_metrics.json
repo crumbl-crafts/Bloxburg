@@ -515,6 +515,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Ngintip Rumah Orang Kaya di Roblox Bloxburg  #roblox #robloxshorts #robloxedit",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765672860.0,
+      "url": "https://www.youtube.com/watch?v=X15iqsaH2CE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "D\u00eda 14 del Calendario de Adviento de Bloxburg \ud83d\uddd3\ufe0f\ud83c\udf84 #shorts #bloxburg #roblox #christmas",
       "description": "D\u00eda 14 del Calendario de Adviento de Bloxburg ------------------------------------------------- \u2b50 Mi...",
       "source": "YouTube",
@@ -538,15 +547,6 @@
       "source": "YouTube",
       "timestamp": 1765668326.0,
       "url": "https://www.youtube.com/watch?v=VGJUO5MoxKg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Localiza\u00e7\u00e3o Elfo 5 - Bloxburg 2025 \u2728 #bloxburg  #eventos  #roblox  #viral #natal #elfos",
-      "description": "Espero muito que gostem !! Sempre feito com amor e carinho para voc\u00eas! E n\u00e3o esquece do like em? Um ...",
-      "source": "YouTube",
-      "timestamp": 1765666618.0,
-      "url": "https://www.youtube.com/watch?v=AM8jl5RnDk4",
       "icon": "fa-youtube"
     },
     {
@@ -596,7 +596,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765672769.953595,
+    "generated_at": 1765673969.953346,
     "mode": "memory",
     "refresh_interval": 2000
   }
