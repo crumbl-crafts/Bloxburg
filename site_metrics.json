@@ -308,6 +308,33 @@
   "news": [
     {
       "type": "trend",
+      "title": "CRAZY EX WIFE RUINED HER WEDDING | Bloxburg",
+      "description": "bloxburg #roblox #robloxbloxburg I hosted a bloxburg wedding...and it was destroyed by one crazy gin...",
+      "source": "YouTube",
+      "timestamp": 1765742419.0,
+      "url": "https://www.youtube.com/watch?v=O5quhdqqPF4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "when i catch you bloxburg \ud83d\ude24 #roblox #bloxburg #goviral #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765741311.0,
+      "url": "https://www.youtube.com/watch?v=MwLNyM-hU6U",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "#roblox #robloxbloxburgspeedbuild #music #robloxedit #bloxburgnewleaks #robloxmusic #mm2 #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765741300.0,
+      "url": "https://www.youtube.com/watch?v=p9Cm3XI84zE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "grwm to ice skate! @avocado.xxplays #bloxburg #bloxburgroleplay #christmas #iceskating",
       "description": "...",
       "source": "YouTube",
@@ -322,33 +349,6 @@
       "source": "YouTube",
       "timestamp": 1765737403.0,
       "url": "https://www.youtube.com/watch?v=4IAqj5nsb34",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Flip edit :P",
-      "description": "roblox #robloxedit #flop #tools #slay #fyp #bloxburg #royalhigh #edit....",
-      "source": "YouTube",
-      "timestamp": 1765736201.0,
-      "url": "https://www.youtube.com/watch?v=YGU8aVW1pMI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "como conseguir dinheiro infinito no bloxburg #roblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765736146.0,
-      "url": "https://www.youtube.com/watch?v=Q8ujdIunPAs",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\u0432\u043e\u0442 \u0432\u0438\u0434\u0435\u043e\u043e #roblox #\u043d\u0435\u0442\u0445\u0435\u0439\u0442\u0443 #\u0430\u043a\u0442\u0438\u0432 #\u0440\u043e\u0431\u043b\u043e\u043a\u0441 #rblx #\u0431\u043b\u043e\u043a\u0441 #robloxedit #bloxburg #\u043e\u0442\u0432\u0435\u0442",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765734515.0,
-      "url": "https://www.youtube.com/watch?v=Tn-Hpn8OVpg",
       "icon": "fa-youtube"
     },
     {
@@ -389,7 +389,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765743569.9527686,
+    "generated_at": 1765744769.9538844,
     "mode": "memory",
     "refresh_interval": 2000
   }
