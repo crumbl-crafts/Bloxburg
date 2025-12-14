@@ -353,6 +353,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "jadi siapa aja nih yang udah coba??#bloxburg #roblox #robloxshorts",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765719027.0,
+      "url": "https://www.youtube.com/watch?v=SlH-17H_QLI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Roblox Bloxburg Breaking News \ud83d\ude31\ud83d\udea8",
       "description": "credits to:@guestique sub to himm and sub to me if u can and like:))...",
       "source": "YouTube",
@@ -385,15 +394,6 @@
       "source": "YouTube",
       "timestamp": 1765706482.0,
       "url": "https://www.youtube.com/watch?v=pNukGTnAEu0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg plane role-play please donate money in Bloxburg#bloxburg ",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765704224.0,
-      "url": "https://www.youtube.com/watch?v=WPSel7Q1YbA",
       "icon": "fa-youtube"
     },
     {
@@ -434,7 +434,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765719569.957206,
+    "generated_at": 1765720769.9547942,
     "mode": "memory",
     "refresh_interval": 2000
   }
