@@ -515,6 +515,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "D\u00eda 14 del Calendario de Adviento de Bloxburg \ud83d\uddd3\ufe0f\ud83c\udf84 #shorts #bloxburg #roblox #christmas",
+      "description": "D\u00eda 14 del Calendario de Adviento de Bloxburg ------------------------------------------------- \u2b50 Mi...",
+      "source": "YouTube",
+      "timestamp": 1765671044.0,
+      "url": "https://www.youtube.com/watch?v=0kBiI-tv55g",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "bloxburg house!!\u26c4\ufe0f #bloxburg #roblox #bloxburgbuilds #christmas",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765669788.0,
+      "url": "https://www.youtube.com/watch?v=OmBQURkybLk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Gimme some tips please #roblox #mm2 #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -524,38 +542,20 @@
     },
     {
       "type": "trend",
+      "title": "Localiza\u00e7\u00e3o Elfo 5 - Bloxburg 2025 \u2728 #bloxburg  #eventos  #roblox  #viral #natal #elfos",
+      "description": "Espero muito que gostem !! Sempre feito com amor e carinho para voc\u00eas! E n\u00e3o esquece do like em? Um ...",
+      "source": "YouTube",
+      "timestamp": 1765666618.0,
+      "url": "https://www.youtube.com/watch?v=AM8jl5RnDk4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bloxburg Elf Hunt Day 5! \ud83c\udf84\ud83c\udf6a #roblox #christmas #shorts #elfhunt",
       "description": "Copyright Disclaimer, Under Section 107 of the Copyright Act 1976, allowance is made for 'fair use' ...",
       "source": "YouTube",
       "timestamp": 1765666001.0,
       "url": "https://www.youtube.com/watch?v=OwNcm-ilar0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "UBICACI\u00d3N 5to ELFO EN BLOXBURG!\ud83c\udf85\ud83c\udffb #roblox #bloxburgelfhunt #christmas #bloxburg #fyp #robloxshorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765665222.0,
-      "url": "https://www.youtube.com/watch?v=G1ZV6Oxu0U0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "HOW TO FIND THE 5TH ELF IN BLOXBURG! #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765663740.0,
-      "url": "https://www.youtube.com/watch?v=cqEGuapq4lg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg - Santa&#39;s Toy Workshop Speedbuild (interior + full tour) | Roblox",
-      "description": "Today I made an Santa's Toy Workshop build suitable for 4 people to live in! Play BLOXBURG!...",
-      "source": "YouTube",
-      "timestamp": 1765663202.0,
-      "url": "https://www.youtube.com/watch?v=ytqfHHX03pc",
       "icon": "fa-youtube"
     },
     {
@@ -596,7 +596,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765671569.9550602,
+    "generated_at": 1765672769.953595,
     "mode": "memory",
     "refresh_interval": 2000
   }
