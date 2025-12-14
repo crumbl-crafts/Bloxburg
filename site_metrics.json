@@ -308,6 +308,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "When you sick but you still playing Bloxburg. #shorts #bloxburg",
+      "description": "When you sick but you still playing Bloxburg. #bloxburg #bloxburgbuild #welcometobloxburg....",
+      "source": "YouTube",
+      "timestamp": 1765734200.0,
+      "url": "https://www.youtube.com/watch?v=-O-o0kfSLM4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "truly is so fun! #roblox #bloxburg #bloxburgrp #roleplay #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765732827.0,
+      "url": "https://www.youtube.com/watch?v=9qr5NOGtNLo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "BIG GUY Roblox Trend \ud83d\udcaa Recreating Bloxburg Characters \ud83d\ude2d",
       "description": "...",
       "source": "YouTube",
@@ -322,24 +340,6 @@
       "source": "YouTube",
       "timestamp": 1765725052.0,
       "url": "https://www.youtube.com/watch?v=0IqrF3o7yQo",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "2% chance!!! #gta #gtasanandreas #edit #gtasa #automobile #roblox #butifyoucloseyoureyes #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765722358.0,
-      "url": "https://www.youtube.com/watch?v=dSM9XDfYQlk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Toxic Bloxburg Landlords Are BROKEN \ud83d\ude2d (They Charge $5,000 for a Fridge) #robloxrant #roblox #rblx",
-      "description": "You log into Bloxburg hoping for chill roleplay and immediately get hit by the Toxic Landlord class!...",
-      "source": "YouTube",
-      "timestamp": 1765720892.0,
-      "url": "https://www.youtube.com/watch?v=rX_3EcVsKA0",
       "icon": "fa-youtube"
     },
     {
@@ -389,7 +389,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765734570.2776148,
+    "generated_at": 1765735169.9534943,
     "mode": "memory",
     "refresh_interval": 2000
   }
