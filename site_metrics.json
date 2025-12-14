@@ -308,6 +308,33 @@
   "news": [
     {
       "type": "trend",
+      "title": "Bloxburg ELF 6 LOCATION | QUICK &amp; EASY TUTORIAL",
+      "description": "bloxburg #roblox bloxburg elf hunt, bloxburg elf hunt 2025, bloxburg christmas update 2025, where is...",
+      "source": "YouTube",
+      "timestamp": 1765747006.0,
+      "url": "https://www.youtube.com/watch?v=CMxjVKLfySY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "FAMILY GO CHRISTMAS SHOPPING! *FIGHTING FOR PRESENTS* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1765746006.0,
+      "url": "https://www.youtube.com/watch?v=qYYvbb5cvVM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "6TH ELF LOCATION FOR ELF HUNT 2025 IN BLOXBURG | BLOXBURG ELF HUNT 2025 DAY 6",
+      "description": "IN THIS VIDEO: 6TH ELF LOCATION FOR ELF HUNT 2025 IN BLOXBURG | BLOXBURG ELF HUNT 2025 DAY 6....",
+      "source": "YouTube",
+      "timestamp": 1765745996.0,
+      "url": "https://www.youtube.com/watch?v=5ELe1qGG2VE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "CRAZY EX WIFE RUINED HER WEDDING | Bloxburg",
       "description": "bloxburg #roblox #robloxbloxburg I hosted a bloxburg wedding...and it was destroyed by one crazy gin...",
       "source": "YouTube",
@@ -352,44 +379,26 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1765563563.6636922,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "vlogmas day 14! \ud83c\udf84\u2764\ufe0f #vlogmas #roblox #bloxburg #goviral #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765737403.0,
+      "url": "https://www.youtube.com/watch?v=4IAqj5nsb34",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "Flip edit :P",
+      "description": "roblox #robloxedit #flop #tools #slay #fyp #bloxburg #royalhigh #edit....",
       "source": "YouTube",
-      "timestamp": 1765559963.663694,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
-    },
-    {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1765556363.6636944,
-      "url": "#",
-      "icon": "fa-lightbulb"
-    },
-    {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1765552763.6636949,
-      "url": "#",
-      "icon": "fa-trophy"
+      "timestamp": 1765736201.0,
+      "url": "https://www.youtube.com/watch?v=YGU8aVW1pMI",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1765747169.9546933,
+    "generated_at": 1765748369.9547415,
     "mode": "memory",
     "refresh_interval": 2000
   }
