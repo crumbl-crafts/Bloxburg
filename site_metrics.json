@@ -284,15 +284,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/925549498858618962",
       "thread_id": null
-    },
-    {
-      "type": "new_request_thread",
-      "shop_name": "Looking for builder!",
-      "message": "<@1426276966054625372> posted a new request titled: Looking for builder!",
-      "timestamp": 1765118906,
-      "thread_id": 1447238329128190114,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/channels/1301988304279048275/1447238329128190114"
     }
   ],
   "pipeline": [
@@ -425,7 +416,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765723169.9560707,
+    "generated_at": 1765723770.2946498,
     "mode": "memory",
     "refresh_interval": 2000
   }
