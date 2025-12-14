@@ -434,6 +434,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Bloxburg plane role-play please donate money in Bloxburg#bloxburg ",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765704224.0,
+      "url": "https://www.youtube.com/watch?v=WPSel7Q1YbA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bloxburg Elf Hunt 2025 Day 5 - Clip Roblox Bloxburg Indonesia #BloxburgIndonesia #ElfHunt2025",
       "description": "Bloxburg Elf Hunt 2025 Day 5 - Clip Roblox Bloxburg Indonesia #BloxburgIndonesia #ElfHunt2025 Music ...",
       "source": "YouTube",
@@ -466,15 +475,6 @@
       "source": "YouTube",
       "timestamp": 1765684793.0,
       "url": "https://www.youtube.com/watch?v=njHe00seIFY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#fyp\u30b7\u309aviral #roblox #shortsviral #robloxedit #shortvideos #edit #bloxburg #routine",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765680865.0,
-      "url": "https://www.youtube.com/watch?v=YwBFv_mYZ-0",
       "icon": "fa-youtube"
     },
     {
@@ -515,7 +515,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765705169.9556763,
+    "generated_at": 1765706369.9539635,
     "mode": "memory",
     "refresh_interval": 2000
   }
