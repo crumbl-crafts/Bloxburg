@@ -335,6 +335,15 @@
     },
     {
       "type": "trend",
+      "title": "Bloxburg elf location day:6 #shorts #roblox #bloxburg #christmas #elf #viral \ufffc",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765753691.0,
+      "url": "https://www.youtube.com/watch?v=MYrzQqejKII",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Vlogmas Day 1 #roblox #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -349,15 +358,6 @@
       "source": "YouTube",
       "timestamp": 1765751102.0,
       "url": "https://www.youtube.com/watch?v=KvQT7_cjYIQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "How to find the 6th &amp; 7th Bloxburg elf | 2025 Bloxburg elf hunt",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765750379.0,
-      "url": "https://www.youtube.com/watch?v=LOpG7SvUhMg",
       "icon": "fa-youtube"
     },
     {
@@ -398,7 +398,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765757969.9599097,
+    "generated_at": 1765759169.9555953,
     "mode": "memory",
     "refresh_interval": 2000
   }
