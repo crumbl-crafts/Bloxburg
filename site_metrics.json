@@ -335,6 +335,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#cat #cutecat #cute #foryou #roblox #bloxburg #robloxedit #robloxgames #gaming #trending #viral #lov",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765788309.0,
+      "url": "https://www.youtube.com/watch?v=4UQzg59gC7o",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\ud83d\udc80\ud83d\udc80\ud83d\udc80#brainrot #roblox #robloxedit #bloxburg",
       "description": "roblox #robloxshorts #youtubeshorts #shorts #brainrot....",
       "source": "YouTube",
@@ -367,15 +376,6 @@
       "source": "YouTube",
       "timestamp": 1765777653.0,
       "url": "https://www.youtube.com/watch?v=l0A9zsk233w",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg Elf Hunt 2025 Day 6 - Clip Roblox Bloxburg Indonesia #BloxburgIndonesia #ElfHunt2025",
-      "description": "Bloxburg Elf Hunt 2025 Day 6 - Clip Roblox Bloxburg Indonesia #BloxburgIndonesia #ElfHunt2025 Music ...",
-      "source": "YouTube",
-      "timestamp": 1765770823.0,
-      "url": "https://www.youtube.com/watch?v=nf81WOoyKQc",
       "icon": "fa-youtube"
     },
     {
@@ -416,7 +416,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765797569.956409,
+    "generated_at": 1765798769.9551175,
     "mode": "memory",
     "refresh_interval": 2000
   }
