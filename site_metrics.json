@@ -344,47 +344,47 @@
   "news": [
     {
       "type": "trend",
+      "title": "Hari Ke-7 Elf Hunt #bloxburg #elfhunt #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765840398.0,
+      "url": "https://www.youtube.com/watch?v=TdxHG33hPLw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Elfo n\u00famero #7 #roblox #bloxburg #casadelelfo",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765839786.0,
+      "url": "https://www.youtube.com/watch?v=Sp8JavEcBKA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "tengo la camioneta de Bloxburg!! \ud83d\ude03 #roblox #bloxburg #navidad #camioneta #compras",
+      "description": "Hola!! por fin consegu\u00ed la camioneta navide\u00f1a de Bloxburg, vamos a verla!! #roblox #diversion #juego...",
+      "source": "YouTube",
+      "timestamp": 1765839088.0,
+      "url": "https://www.youtube.com/watch?v=pLJYe8u5IRU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "ANSWERING YOUR BLOXBURG ELF HUNT QUESTIONS!",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765839009.0,
+      "url": "https://www.youtube.com/watch?v=L0-_noPmLsg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bulldozing my first plot in bloxburg #bloxburg",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1765838127.0,
       "url": "https://www.youtube.com/watch?v=TFQfrtnyZaA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg Elf Hunt Day 7 #roblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765836442.0,
-      "url": "https://www.youtube.com/watch?v=IyTl30kvkgA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "build rumah aesthetic bloxburg #bloxburg #bloxburgaesthetic #roblox #bloxburghouse #bloxburgdesign",
-      "description": "06....",
-      "source": "YouTube",
-      "timestamp": 1765836066.0,
-      "url": "https://www.youtube.com/watch?v=tn3H7dHZ_I0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "this elf was never seen again\u2639\ufe0f #welcometobloxburg #roblox #bloxburg #robloxshorts #robloxmemes",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765835912.0,
-      "url": "https://www.youtube.com/watch?v=8oHeirRqslI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Day 7 Elf Location in Bloxburg \ud83c\udf81 #bloxburg #bloxburgupdate #roblox",
-      "description": "Thank you for watching. In this short, we're finding Santa's elves for the winter event \"Elf Hunt\" i...",
-      "source": "YouTube",
-      "timestamp": 1765835908.0,
-      "url": "https://www.youtube.com/watch?v=3b89WEPHZxA",
       "icon": "fa-youtube"
     },
     {
@@ -425,7 +425,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765840769.9540088,
+    "generated_at": 1765841969.9548528,
     "mode": "memory",
     "refresh_interval": 2000
   }
