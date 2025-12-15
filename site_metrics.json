@@ -335,6 +335,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "The Roblox Bloxburg News\ud83d\ude31 #roblox #shorts",
+      "description": "BREAKING: Roblox Bloxburg might be in trouble! The news spread so fast, it even showed up on the Las...",
+      "source": "YouTube",
+      "timestamp": 1765814464.0,
+      "url": "https://www.youtube.com/watch?v=dVtYnueMZHc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Family Winter Day! \ud83c\udf84\ud83c\udf28\ufe0f #berryave #berryavenue #berryavenueroleplay #roblox #robloxrp #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -367,15 +376,6 @@
       "source": "YouTube",
       "timestamp": 1765788445.0,
       "url": "https://www.youtube.com/watch?v=ILk7FZy44tU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#cat #cutecat #cute #foryou #roblox #bloxburg #robloxedit #robloxgames #gaming #trending #viral #lov",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765788309.0,
-      "url": "https://www.youtube.com/watch?v=4UQzg59gC7o",
       "icon": "fa-youtube"
     },
     {
@@ -416,7 +416,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765815570.2499914,
+    "generated_at": 1765816769.959591,
     "mode": "memory",
     "refresh_interval": 2000
   }
