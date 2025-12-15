@@ -335,6 +335,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "elf hunt day 6 location #roblox #roleplay #bloxburg #edit #funnymemes #viraledit #christmas",
+      "description": "bloxburg elf hunt day 6 location (MY MIC IM SO SORRY-)...",
+      "source": "YouTube",
+      "timestamp": 1765822907.0,
+      "url": "https://www.youtube.com/watch?v=Zas_qTkeyCo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "The Roblox Bloxburg News\ud83d\ude31 #roblox #shorts",
       "description": "BREAKING: Roblox Bloxburg might be in trouble! The news spread so fast, it even showed up on the Las...",
       "source": "YouTube",
@@ -367,15 +376,6 @@
       "source": "YouTube",
       "timestamp": 1765800026.0,
       "url": "https://www.youtube.com/watch?v=8s0w8qbEJUY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg Elf Hunt #6 Sixth Elf 2025",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765797832.0,
-      "url": "https://www.youtube.com/watch?v=A-jYE5SpWho",
       "icon": "fa-youtube"
     },
     {
@@ -416,7 +416,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765823969.9529784,
+    "generated_at": 1765825169.9558322,
     "mode": "memory",
     "refresh_interval": 2000
   }
