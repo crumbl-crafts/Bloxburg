@@ -344,47 +344,47 @@
   "news": [
     {
       "type": "trend",
+      "title": "Bloxburg Elf Hunt Day 7 #roblox #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765836442.0,
+      "url": "https://www.youtube.com/watch?v=IyTl30kvkgA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "build rumah aesthetic bloxburg #bloxburg #bloxburgaesthetic #roblox #bloxburghouse #bloxburgdesign",
+      "description": "06....",
+      "source": "YouTube",
+      "timestamp": 1765836066.0,
+      "url": "https://www.youtube.com/watch?v=tn3H7dHZ_I0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "this elf was never seen again\u2639\ufe0f #welcometobloxburg #roblox #bloxburg #robloxshorts #robloxmemes",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765835912.0,
+      "url": "https://www.youtube.com/watch?v=8oHeirRqslI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Day 7 Elf Location in Bloxburg \ud83c\udf81 #bloxburg #bloxburgupdate #roblox",
+      "description": "Thank you for watching. In this short, we're finding Santa's elves for the winter event \"Elf Hunt\" i...",
+      "source": "YouTube",
+      "timestamp": 1765835908.0,
+      "url": "https://www.youtube.com/watch?v=3b89WEPHZxA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Dia 15 #roblox #robloxbloxburgspeedbuild #bloxburg #bloxburgnewleaks #bloxburgcontentcreator",
       "description": "Dia 15 calendario de invierno en Bloxburg!...",
       "source": "YouTube",
       "timestamp": 1765834825.0,
       "url": "https://www.youtube.com/watch?v=Jpv_4lWxa5Q",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ud83d\udd34BUSCANDO EL ELFO #7 de BLOXBURG EN VIVO!",
-      "description": "\u00danete a mi grupo de Roblox: https://www.roblox.com/groups/5045574/grupo-oficial-de-fessy#!/about S\u00edg...",
-      "source": "YouTube",
-      "timestamp": 1765833740.0,
-      "url": "https://www.youtube.com/watch?v=PlNd7wzmFEo",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "UBICACIO\u0301N DEL ELFO #7 de BLOXBURG!",
-      "description": "\u00danete a mi grupo de Roblox: https://www.roblox.com/groups/5045574/grupo-oficial-de-fessy#!/about S\u00edg...",
-      "source": "YouTube",
-      "timestamp": 1765833711.0,
-      "url": "https://www.youtube.com/watch?v=Np6g01vgNbc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg ELF 7 LOCATION | QUICK &amp; EASY TUTORIAL",
-      "description": "bloxburg #roblox bloxburg elf hunt, bloxburg elf hunt 2025, bloxburg christmas update 2025, where is...",
-      "source": "YouTube",
-      "timestamp": 1765833395.0,
-      "url": "https://www.youtube.com/watch?v=-Ib9eOUOMd4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "7TH ELF LOCATION IN BLOXBURG | BLOXBURG ELF HUNT 2025 DAY 7",
-      "description": "IN THIS VDEO: 7TH ELF LOCATION IN BLOXBURG | BLOXBURG ELF HUNT 2025 DAY 7....",
-      "source": "YouTube",
-      "timestamp": 1765833106.0,
-      "url": "https://www.youtube.com/watch?v=MFQAm9AKy4M",
       "icon": "fa-youtube"
     },
     {
@@ -425,7 +425,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765837203.4559088,
+    "generated_at": 1765838369.9560568,
     "mode": "memory",
     "refresh_interval": 2000
   }
