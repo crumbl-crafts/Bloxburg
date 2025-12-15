@@ -326,20 +326,20 @@
   "news": [
     {
       "type": "trend",
+      "title": "yg penting \ud83c\udd99\ufe0f\ud83d\uddff #roblox #bloxburg #satuklikuntukwujudkanimpianmu",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765762692.0,
+      "url": "https://www.youtube.com/watch?v=ynzXv3LIPDU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Names We Like For The Twins! \ud83d\ude31\ud83e\udd79 #bloxburg #bloxburgfamily #roblox #shorts",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1765760464.0,
       "url": "https://www.youtube.com/watch?v=RmVgkPNIAoo",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Can you hold your breath this long #robloxeditusername #games #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765760462.0,
-      "url": "https://www.youtube.com/watch?v=LDtYi2DEcd8",
       "icon": "fa-youtube"
     },
     {
@@ -407,7 +407,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765769969.9537919,
+    "generated_at": 1765771169.9560807,
     "mode": "memory",
     "refresh_interval": 2000
   }
