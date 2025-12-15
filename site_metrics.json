@@ -335,6 +335,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Vlogmas day 15!! \u2603\ufe0f\ud83d\udecd\ufe0f #Vlogmas #roblox #bloxburg #bloxburgrp #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765830244.0,
+      "url": "https://www.youtube.com/watch?v=x3fq6MRPen4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "80 free bloxbucks!! \u2764\ufe0f\ud83c\udf84 #roblox #bloxburg #bloxburgadventcalendar #bloxburgupdate #fyp",
       "description": "...",
       "source": "YouTube",
@@ -353,11 +362,11 @@
     },
     {
       "type": "trend",
-      "title": "#roblox #robloxedit #bloxburg #gaming #robloxgames #robloxshorts",
+      "title": "#roblox #helpmemakethismakesense #vrchat #bloxburg #trythatinasmalltown #funny #amnewbutnottheleast",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1765821642.0,
-      "url": "https://www.youtube.com/watch?v=boOF0EwOKqk",
+      "timestamp": 1765822204.0,
+      "url": "https://www.youtube.com/watch?v=BnCq56vnFXk",
       "icon": "fa-youtube"
     },
     {
@@ -367,15 +376,6 @@
       "source": "YouTube",
       "timestamp": 1765817858.0,
       "url": "https://www.youtube.com/watch?v=0F22Xkb9l3E",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#kpop #roblox #99nightintheforest #robloxedit #99nitf #lesserafim #freerobux #funny #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765809123.0,
-      "url": "https://www.youtube.com/watch?v=2iacfyIdHq0",
       "icon": "fa-youtube"
     },
     {
@@ -416,7 +416,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765831770.3017986,
+    "generated_at": 1765832369.952822,
     "mode": "memory",
     "refresh_interval": 2000
   }
