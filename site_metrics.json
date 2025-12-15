@@ -335,15 +335,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "Bloxburg Elf Hunt 2025 Day 6 - Clip Roblox Bloxburg Indonesia #BloxburgIndonesia #ElfHunt2025",
-      "description": "Bloxburg Elf Hunt 2025 Day 6 - Clip Roblox Bloxburg Indonesia #BloxburgIndonesia #ElfHunt2025 Music ...",
-      "source": "YouTube",
-      "timestamp": 1765770823.0,
-      "url": "https://www.youtube.com/watch?v=nf81WOoyKQc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "yg penting \ud83c\udd99\ufe0f\ud83d\uddff #roblox #bloxburg #satuklikuntukwujudkanimpianmu",
       "description": "...",
       "source": "YouTube",
@@ -376,6 +367,15 @@
       "source": "YouTube",
       "timestamp": 1765755190.0,
       "url": "https://www.youtube.com/watch?v=LSjGi5sDaFg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "comment ic u wanna trade! #viral #roblox #amazingroblox #shortvideos #bloxburg #rblx",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765753953.0,
+      "url": "https://www.youtube.com/watch?v=jtg1FXwGn8c",
       "icon": "fa-youtube"
     },
     {
@@ -416,7 +416,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765777770.2498324,
+    "generated_at": 1765778369.9578393,
     "mode": "memory",
     "refresh_interval": 2000
   }
