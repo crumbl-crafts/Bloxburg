@@ -317,6 +317,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "D\u00eda 15 del Calendario de Adviento de Bloxburg \ud83d\uddd3\ufe0f\ud83c\udf84 #shorts #bloxburg #roblox #christmas",
+      "description": "D\u00eda 15 del Calendario de Adviento de Bloxburg ------------------------------------------------- \u2b50 Mi...",
+      "source": "YouTube",
+      "timestamp": 1765758465.0,
+      "url": "https://www.youtube.com/watch?v=W_3iRCprlVU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Dia 14 #roblox #robloxbloxburgspeedbuild #bloxburg #bloxburgnewleaks #bloxburgcontentcreator",
       "description": "Dia 14 calendario de invierno en Bloxburg!...",
       "source": "YouTube",
@@ -331,15 +340,6 @@
       "source": "YouTube",
       "timestamp": 1765753953.0,
       "url": "https://www.youtube.com/watch?v=jtg1FXwGn8c",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg elf location day:6 #shorts #roblox #bloxburg #christmas #elf #viral \ufffc",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765753691.0,
-      "url": "https://www.youtube.com/watch?v=MYrzQqejKII",
       "icon": "fa-youtube"
     },
     {
@@ -398,7 +398,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765759169.9555953,
+    "generated_at": 1765760369.955493,
     "mode": "memory",
     "refresh_interval": 2000
   }
