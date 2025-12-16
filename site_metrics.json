@@ -388,44 +388,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1765563563.6636922,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "Elfo n\u00famero #7 #roblox #bloxburg #casadelelfo",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765839786.0,
+      "url": "https://www.youtube.com/watch?v=Sp8JavEcBKA",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "tengo la camioneta de Bloxburg!! \ud83d\ude03 #roblox #bloxburg #navidad #camioneta #compras",
+      "description": "Hola!! por fin consegu\u00ed la camioneta navide\u00f1a de Bloxburg, vamos a verla!! #roblox #diversion #juego...",
       "source": "YouTube",
-      "timestamp": 1765559963.663694,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1765839088.0,
+      "url": "https://www.youtube.com/watch?v=pLJYe8u5IRU",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1765556363.6636944,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "ANSWERING YOUR BLOXBURG ELF HUNT QUESTIONS!",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765839009.0,
+      "url": "https://www.youtube.com/watch?v=L0-_noPmLsg",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1765552763.6636949,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Bulldozing my first plot in bloxburg #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765838127.0,
+      "url": "https://www.youtube.com/watch?v=TFQfrtnyZaA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "ONDE ENCONTRAR O S\u00c9TIMO ELFO DO EVENTO DE NATAL DO BLOXBURG (2025) - ROBLOX",
+      "description": "MINHA LOJA VIRTUAL: https://br.shp.ee/i88qtg8 MEU NOVO CANAL PESSOAL: ......",
+      "source": "YouTube",
+      "timestamp": 1765837205.0,
+      "url": "https://www.youtube.com/watch?v=hoU0MHMQoyg",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1765849169.958781,
+    "generated_at": 1765850369.959125,
     "mode": "memory",
     "refresh_interval": 2000
   }
