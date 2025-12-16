@@ -344,6 +344,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "era de madrugada #roblox #vr #robloxgames #vrchat #virtualreality #memes #bloxburg #funny #quest2",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765900854.0,
+      "url": "https://www.youtube.com/watch?v=UZns3JIZ_go",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Tutorial on how to make air conditioner in #bloxburg  \ud83e\uddf8 #bloxburgtutorial #roblox #bloxburgbuilder",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765900514.0,
+      "url": "https://www.youtube.com/watch?v=6Q2BF7TfvmQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "MY CAF\u00c8 IN BLOXBURG #bloxburg #caf\u00e8#cute",
       "description": "...",
       "source": "YouTube",
@@ -362,29 +380,11 @@
     },
     {
       "type": "trend",
-      "title": "Day 16 | The 24 Days of Christmas Village in Bloxburg. Brought to life by MCM creations. #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765893973.0,
-      "url": "https://www.youtube.com/watch?v=ZcmGKRiYOK8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "let&#39;s see \ud83e\udd40 #roblox#roblolx#bloxburg #oof#robloxgameplay#robloxupdate#robloxgiveaway#fyp #minecraft",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1765893972.0,
       "url": "https://www.youtube.com/watch?v=Cwm19pdgd6E",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "please support me \ud83d\ude4f\ud83c\udffb #roblox #creativecontentcreator #robloxedit #bloxburg #games #\ub2e8\ud3b8 #kr\u00f3tkiefilmy",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765893312.0,
-      "url": "https://www.youtube.com/watch?v=K8-8LshIQ1A",
       "icon": "fa-youtube"
     },
     {
@@ -425,7 +425,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765903169.954584,
+    "generated_at": 1765904369.9566724,
     "mode": "memory",
     "refresh_interval": 2000
   }
