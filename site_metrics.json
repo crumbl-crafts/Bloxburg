@@ -293,15 +293,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1447612919054336081",
       "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "urlynafav joined the server",
-      "timestamp": 1765280761,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/759474093694910514",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -434,7 +425,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765885424.5038292,
+    "generated_at": 1765885770.2884138,
     "mode": "memory",
     "refresh_interval": 2000
   }
