@@ -344,15 +344,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "Me because I&#39;m running low on tickets:  #bloxburg #roblox #christmas #fyp #grinding",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765886423.0,
-      "url": "https://www.youtube.com/watch?v=ELnu4VFttQc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Con \u1edf mi\u1ec1n nam ra th\u0103m l\u0103ng b\u00e1c #anhonsungngotvoyeucuataiphiet #tamtrang #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -385,6 +376,15 @@
       "source": "YouTube",
       "timestamp": 1765856820.0,
       "url": "https://www.youtube.com/watch?v=eHE9JdvzrEc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "New Jump Style level 188",
+      "description": "jumpstyle #trending #trend #Builder #Obby #Adoptme #Bloxburg....",
+      "source": "YouTube",
+      "timestamp": 1765855338.0,
+      "url": "https://www.youtube.com/watch?v=TtUccY9DaVY",
       "icon": "fa-youtube"
     },
     {
@@ -425,7 +425,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765891170.255639,
+    "generated_at": 1765892369.9553502,
     "mode": "memory",
     "refresh_interval": 2000
   }
