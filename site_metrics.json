@@ -344,6 +344,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "DON\u2019T CLICK THE SOUND!!",
+      "description": "Bloxburg Music Roblox #bloxburg #fyp\u30b7\u309aviral #foryou #roblox #robloxfyp #bloxburgbuilds....",
+      "source": "YouTube",
+      "timestamp": 1765843049.0,
+      "url": "https://www.youtube.com/watch?v=d3CiTSayT6k",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Localiza\u00e7\u00e3o Elfo 7 - Bloxburg 2025 \u2728 #bloxburg  #eventos  #roblox  #viral #natal #elfos",
       "description": "Espero muito que gostem !! Sempre feito com amor e carinho para voc\u00eas! E n\u00e3o esquece do like em? Um ...",
       "source": "YouTube",
@@ -376,15 +385,6 @@
       "source": "YouTube",
       "timestamp": 1765839786.0,
       "url": "https://www.youtube.com/watch?v=Sp8JavEcBKA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "tengo la camioneta de Bloxburg!! \ud83d\ude03 #roblox #bloxburg #navidad #camioneta #compras",
-      "description": "Hola!! por fin consegu\u00ed la camioneta navide\u00f1a de Bloxburg, vamos a verla!! #roblox #diversion #juego...",
-      "source": "YouTube",
-      "timestamp": 1765839088.0,
-      "url": "https://www.youtube.com/watch?v=pLJYe8u5IRU",
       "icon": "fa-youtube"
     },
     {
@@ -425,7 +425,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765844369.95647,
+    "generated_at": 1765845569.9618545,
     "mode": "memory",
     "refresh_interval": 2000
   }
