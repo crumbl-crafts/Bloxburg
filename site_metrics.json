@@ -344,11 +344,29 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765894176.0,
+      "url": "https://www.youtube.com/watch?v=Buq5pwB0XGs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Day 16 | The 24 Days of Christmas Village in Bloxburg. Brought to life by MCM creations. #bloxburg",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1765893973.0,
       "url": "https://www.youtube.com/watch?v=ZcmGKRiYOK8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "let&#39;s see \ud83e\udd40 #roblox#roblolx#bloxburg #oof#robloxgameplay#robloxupdate#robloxgiveaway#fyp #minecraft",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765893972.0,
+      "url": "https://www.youtube.com/watch?v=Cwm19pdgd6E",
       "icon": "fa-youtube"
     },
     {
@@ -367,24 +385,6 @@
       "source": "YouTube",
       "timestamp": 1765874625.0,
       "url": "https://www.youtube.com/watch?v=n8_s3XGiIOs",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg Th\u1ea5t B\u1ea1i N\u1eb7ng Nh\u1ea5t Roblox? M\u1ea5t 100 Tri\u1ec7u \u0110\u00f4 Ch\u1ec9 Trong 2 N\u0103m \ud83d\ude31| Hi\u1ebfu MRAIN",
-      "description": "Bloxburg Th\u1ea5t B\u1ea1i N\u1eb7ng Nh\u1ea5t Roblox? M\u1ea5t 100 Tri\u1ec7u \u0110\u00f4 Ch\u1ec9 Trong 2 N\u0103m Bloxburg t\u1eebng l\u00e0 t\u1ef1a game tr\u1ea3 p...",
-      "source": "YouTube",
-      "timestamp": 1765861752.0,
-      "url": "https://www.youtube.com/watch?v=4ghbwr65r9M",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "D\u00eda 16 del Calendario de Adviento de Bloxburg \ud83d\uddd3\ufe0f\ud83c\udf84 #shorts #bloxburg #roblox #christmas",
-      "description": "D\u00eda 16 del Calendario de Adviento de Bloxburg ------------------------------------------------- \u2b50 Mi...",
-      "source": "YouTube",
-      "timestamp": 1765861434.0,
-      "url": "https://www.youtube.com/watch?v=cVDi_rNqWFA",
       "icon": "fa-youtube"
     },
     {
@@ -425,7 +425,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765896570.2841265,
+    "generated_at": 1765897169.9565248,
     "mode": "memory",
     "refresh_interval": 2000
   }
