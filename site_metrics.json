@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 339,
+    "total_members": 338,
     "joined_today": 0,
     "active_shops": 1,
     "avg_response_time": 4450.666666666667
@@ -24,6 +24,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "bella6554 left the server",
+      "timestamp": 1766004602,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1199946954164150364"
+    },
     {
       "type": "member_leave",
       "shop_name": "Server",
@@ -407,7 +416,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766004570.2799404,
+    "generated_at": 1766004604.6460779,
     "mode": "memory",
     "refresh_interval": 2000
   }
