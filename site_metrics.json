@@ -335,11 +335,29 @@
   "news": [
     {
       "type": "trend",
+      "title": "\ud83d\udd34RENOVATING MY BEDROOM IN MY BLOXBURG MANSION!",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
+      "source": "YouTube",
+      "timestamp": 1766006586.0,
+      "url": "https://www.youtube.com/watch?v=fEhIHftc2ws",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bloxburg ELF 9 LOCATION | QUICK &amp; EASY TUTORIAL",
       "description": "bloxburg #roblox bloxburg elf hunt, bloxburg elf hunt 2025, bloxburg christmas update 2025, where is...",
       "source": "YouTube",
       "timestamp": 1766005904.0,
       "url": "https://www.youtube.com/watch?v=FtRrP7dOOTA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Vlogmas day 17! \u2744\ufe0f\ud83c\udf84 #Vlogmas #roblox #bloxburg #bloxburgrp #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766005264.0,
+      "url": "https://www.youtube.com/watch?v=Oc_Kmbgl5r0",
       "icon": "fa-youtube"
     },
     {
@@ -358,24 +376,6 @@
       "source": "YouTube",
       "timestamp": 1765988847.0,
       "url": "https://www.youtube.com/watch?v=5Ibqu-Vj_k0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "HOW I LOVE BLOXBURG #bloxburg #realtable #fyp #shorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765982714.0,
-      "url": "https://www.youtube.com/watch?v=15G2Rt0uqPE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "8TH ELF - BLOXBURG ELF HUNT #bloxburgelfhunt #bloxburg #shorts",
-      "description": "Hallo, ich bin DerNeueYoutuber. Ich habe zwar einen deutschen Namen aber ich mache viele englische V...",
-      "source": "YouTube",
-      "timestamp": 1765978000.0,
-      "url": "https://www.youtube.com/watch?v=_y0yLBSgOR8",
       "icon": "fa-youtube"
     },
     {
@@ -416,7 +416,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766007569.9519246,
+    "generated_at": 1766008769.95572,
     "mode": "memory",
     "refresh_interval": 2000
   }
