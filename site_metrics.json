@@ -353,6 +353,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Day 17 | The 24 Days of Christmas Village in Bloxburg. Brought to life by MCM creations. #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765959056.0,
+      "url": "https://www.youtube.com/watch?v=c1h66YlfzxQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "DONT CLICK THE SOUND!!",
       "description": "Bloxburg Music How to build a sink in bloxburg Roblox #bloxburg #fyp\u30b7\u309aviral #foryou #roblox #robloxf...",
       "source": "YouTube",
@@ -385,15 +394,6 @@
       "source": "YouTube",
       "timestamp": 1765932123.0,
       "url": "https://www.youtube.com/watch?v=7awDl-SouhY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "HOW TO FIND ELF #8 IN THE BLOXBURG ELF HUNT 2025! #bloxburgelfhunt #bloxburg #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765931829.0,
-      "url": "https://www.youtube.com/watch?v=uJZcyNFnlQ8",
       "icon": "fa-youtube"
     },
     {
@@ -434,7 +434,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765961370.21114,
+    "generated_at": 1765961969.9581628,
     "mode": "memory",
     "refresh_interval": 2000
   }
