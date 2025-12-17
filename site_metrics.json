@@ -379,44 +379,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1765563563.6636922,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "\ud83d\udd34RENOVATING MY BEDROOM IN MY BLOXBURG MANSION!",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
+      "source": "YouTube",
+      "timestamp": 1766006586.0,
+      "url": "https://www.youtube.com/watch?v=fEhIHftc2ws",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "UBICACIO\u0301N DEL ELFO #9 de BLOXBURG!",
+      "description": "\u00danete a mi grupo de Roblox: https://www.roblox.com/groups/5045574/grupo-oficial-de-fessy#!/about S\u00edg...",
       "source": "YouTube",
-      "timestamp": 1765559963.663694,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1766006497.0,
+      "url": "https://www.youtube.com/watch?v=kxjMql5Qptk",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1765556363.6636944,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "Bloxburg Elf Hunt 2025 | Elf #9",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766006456.0,
+      "url": "https://www.youtube.com/watch?v=-jUPsNg2vns",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1765552763.6636949,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "ELF HUNT DAY 9 IN BLOXBURG #roblox #shorts",
+      "description": "shorts....",
+      "source": "YouTube",
+      "timestamp": 1766006284.0,
+      "url": "https://www.youtube.com/watch?v=502n-qwmopU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Bloxburg ELF 9 LOCATION | QUICK &amp; EASY TUTORIAL",
+      "description": "bloxburg #roblox bloxburg elf hunt, bloxburg elf hunt 2025, bloxburg christmas update 2025, where is...",
+      "source": "YouTube",
+      "timestamp": 1766005904.0,
+      "url": "https://www.youtube.com/watch?v=FtRrP7dOOTA",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1766015370.2236443,
+    "generated_at": 1766015969.9541523,
     "mode": "memory",
     "refresh_interval": 2000
   }
