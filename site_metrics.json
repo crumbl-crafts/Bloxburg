@@ -380,20 +380,20 @@
     },
     {
       "type": "trend",
+      "title": "It&#39;s time for Bloxburg Christmas! #shorts #bloxburg",
+      "description": "Celebrating for Christmas in my Bloxburg Christmas bedroom! #bloxburg #bloxburgbuild #bloxburgchrist...",
+      "source": "YouTube",
+      "timestamp": 1765932185.0,
+      "url": "https://www.youtube.com/watch?v=Hw_KubOwUnM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Getting the Silver Trophy in Bloxburg! | #roblox #bloxburg",
       "description": "Hello! My name is KingBuy31 (Miguel) and I make Roblox content, whether it's doors, bloxburg, you na...",
       "source": "YouTube",
       "timestamp": 1765932123.0,
       "url": "https://www.youtube.com/watch?v=7awDl-SouhY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "HOW TO FIND ELF #8 IN THE BLOXBURG ELF HUNT 2025! #bloxburgelfhunt #bloxburg #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765931829.0,
-      "url": "https://www.youtube.com/watch?v=uJZcyNFnlQ8",
       "icon": "fa-youtube"
     },
     {
@@ -434,7 +434,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765950570.2460093,
+    "generated_at": 1765951169.955228,
     "mode": "memory",
     "refresh_interval": 2000
   }
