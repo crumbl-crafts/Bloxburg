@@ -371,6 +371,15 @@
     },
     {
       "type": "trend",
+      "title": "A LITTLE MORE\ud83d\udc97\ud83d\udc9e :3 |LIYRCS|Roblox trend\ud83d\udde3\ufe0f\ud83d\udd25 #robloxedit #roblox #edit #memes",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1765943815.0,
+      "url": "https://www.youtube.com/watch?v=XGhIuk4m7uo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "DONT CLICK THE SOUND!!",
       "description": "Bloxburg Music How to build a sink in bloxburg Roblox #bloxburg #fyp\u30b7\u309aviral #foryou #roblox #robloxf...",
       "source": "YouTube",
@@ -385,15 +394,6 @@
       "source": "YouTube",
       "timestamp": 1765932248.0,
       "url": "https://www.youtube.com/watch?v=sh-NNZp2Fu0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Getting the Silver Trophy in Bloxburg! | #roblox #bloxburg",
-      "description": "Hello! My name is KingBuy31 (Miguel) and I make Roblox content, whether it's doors, bloxburg, you na...",
-      "source": "YouTube",
-      "timestamp": 1765932123.0,
-      "url": "https://www.youtube.com/watch?v=7awDl-SouhY",
       "icon": "fa-youtube"
     },
     {
@@ -434,7 +434,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765975169.95606,
+    "generated_at": 1765976369.9555607,
     "mode": "memory",
     "refresh_interval": 2000
   }
