@@ -353,20 +353,20 @@
   "news": [
     {
       "type": "trend",
+      "title": "D\u00eda 17 del Calendario de Adviento de Bloxburg \ud83d\uddd3\ufe0f\ud83c\udf84 #shorts #bloxburg #roblox #christmas",
+      "description": "D\u00eda 17 del Calendario de Adviento de Bloxburg ------------------------------------------------- \u2b50 Mi...",
+      "source": "YouTube",
+      "timestamp": 1765932248.0,
+      "url": "https://www.youtube.com/watch?v=sh-NNZp2Fu0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "HOW TO FIND ELF #8 IN THE BLOXBURG ELF HUNT 2025! #bloxburgelfhunt #bloxburg #roblox",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1765931829.0,
       "url": "https://www.youtube.com/watch?v=uJZcyNFnlQ8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Guys should I go on live and build this #roblox #bloxburg #barbie ib @07.04.07",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1765929631.0,
-      "url": "https://www.youtube.com/watch?v=HYlHFDVnYlE",
       "icon": "fa-youtube"
     },
     {
@@ -434,7 +434,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1765934370.257578,
+    "generated_at": 1765935569.9560149,
     "mode": "memory",
     "refresh_interval": 2000
   }
