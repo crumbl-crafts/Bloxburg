@@ -290,6 +290,15 @@
     },
     {
       "type": "trend",
+      "title": "Localiza\u00e7\u00e3o Elfo 10 do bloxburg \ud83c\udf85\ud83c\udf84 #bloxburg #bloxburgelfhunt #bloxburgchristmas #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766097513.0,
+      "url": "https://www.youtube.com/watch?v=6Xw0ui8LlfI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "elf hunt #10, IT TAKES FLASHLIGHT! #roblox #bloxburg #bloxburgelfhunt",
       "description": "...",
       "source": "YouTube",
@@ -313,15 +322,6 @@
       "source": "YouTube",
       "timestamp": 1766092495.0,
       "url": "https://www.youtube.com/watch?v=8ORaUSwp1Ts",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "The TENTH Bloxburg ELF Location! [2025]",
-      "description": "The tenth elf is here! We're nearing the end Twitter: https://twitter.com/BramPeee Instagram: ......",
-      "source": "YouTube",
-      "timestamp": 1766092409.0,
-      "url": "https://www.youtube.com/watch?v=njdviKvfqbU",
       "icon": "fa-youtube"
     },
     {
@@ -362,7 +362,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766099969.955571,
+    "generated_at": 1766101169.9554555,
     "mode": "memory",
     "refresh_interval": 2000
   }
