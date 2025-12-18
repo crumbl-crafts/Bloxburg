@@ -230,15 +230,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1354582780373242048",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "choouko left the server",
-      "timestamp": 1765481286,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/802419786264608768",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -371,7 +362,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766085570.3032115,
+    "generated_at": 1766086769.9572763,
     "mode": "memory",
     "refresh_interval": 2000
   }
