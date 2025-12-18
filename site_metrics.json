@@ -317,29 +317,29 @@
     },
     {
       "type": "trend",
-      "title": "Grand opening Mall di bloxburg #fyp\u30b7 #roblox #robloxedit #robloxshorts #robloxgames",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766032858.0,
-      "url": "https://www.youtube.com/watch?v=zX-sy5VjYi8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#bloxburg #gameplay #roblox #robloxedit",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766032532.0,
-      "url": "https://www.youtube.com/watch?v=UyngNWqSX5k",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Bloxburg Elf Hunt #9 Ninth Elf 2025",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1766024110.0,
       "url": "https://www.youtube.com/watch?v=nm-01tahPAY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "aeroplane landing, cartoon video #bloxburg #cartoon #aeroplane #ytshorts",
+      "description": "aeroplane landing, cartoon video #bloxburg #cartoon #aeroplane #ytshorts....",
+      "source": "YouTube",
+      "timestamp": 1766021415.0,
+      "url": "https://www.youtube.com/watch?v=AJQ-oHoXa6I",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "HOW TO FIND ELF #9 IN THE BLOXBURG ELF HUNT 2025! #bloxburgelfhunt #bloxburg #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766019911.0,
+      "url": "https://www.youtube.com/watch?v=Byv3Z7_6XKw",
       "icon": "fa-youtube"
     },
     {
@@ -380,7 +380,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766043569.9566753,
+    "generated_at": 1766044769.9554732,
     "mode": "memory",
     "refresh_interval": 2000
   }
