@@ -281,6 +281,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "how to find the 10th elf in bloxburg! #bloxburg #elfhunt #elfhunt",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766097577.0,
+      "url": "https://www.youtube.com/watch?v=F1PALHrLKGM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "elf hunt #10, IT TAKES FLASHLIGHT! #roblox #bloxburg #bloxburgelfhunt",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766096903.0,
+      "url": "https://www.youtube.com/watch?v=Mu2X5ha0ovw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bloxburg DECAL Tutorial \ud83d\udc68\u200d\ud83c\udfa8\ud83c\udfa8 #bloxburg #bloxburgdecals #bloxburgtutorial #bloxburgtown #roblox",
       "description": "...",
       "source": "YouTube",
@@ -304,24 +322,6 @@
       "source": "YouTube",
       "timestamp": 1766092409.0,
       "url": "https://www.youtube.com/watch?v=njdviKvfqbU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg ELF 10 LOCATION | QUICK &amp; EASY TUTORIAL",
-      "description": "bloxburg #roblox bloxburg elf hunt, bloxburg elf hunt 2025, bloxburg christmas update 2025, where is...",
-      "source": "YouTube",
-      "timestamp": 1766092380.0,
-      "url": "https://www.youtube.com/watch?v=8xBkoqwVWiw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "DAISY\u2019S CHRISTMAS DANCE RECITAL! *SHE FELL ON STAGE?* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1766091606.0,
-      "url": "https://www.youtube.com/watch?v=1kBIqTouOPY",
       "icon": "fa-youtube"
     },
     {
@@ -362,7 +362,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766097569.9552798,
+    "generated_at": 1766098769.9575377,
     "mode": "memory",
     "refresh_interval": 2000
   }
