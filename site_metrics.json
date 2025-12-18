@@ -317,6 +317,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "aeroplane landing, cartoon video #bloxburg #cartoon #aeroplane #ytshorts",
+      "description": "aeroplane landing, cartoon video #bloxburg #cartoon #aeroplane #ytshorts....",
+      "source": "YouTube",
+      "timestamp": 1766021415.0,
+      "url": "https://www.youtube.com/watch?v=AJQ-oHoXa6I",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "HOW TO FIND ELF #9 IN THE BLOXBURG ELF HUNT 2025! #bloxburgelfhunt #bloxburg #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766019911.0,
+      "url": "https://www.youtube.com/watch?v=Byv3Z7_6XKw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Ubicaci\u00f3n del ELFO 9 de Bloxburg \ud83c\udf84\u2603\ufe0f #shorts #roblox #bloxburg #robloxshorts",
       "description": "Ubicaci\u00f3n del ELFO 9 de Bloxburg 2025  \u2603\ufe0f ------------------------------------------------- \u2b50 Mis re...",
       "source": "YouTube",
@@ -340,24 +358,6 @@
       "source": "YouTube",
       "timestamp": 1766009112.0,
       "url": "https://www.youtube.com/watch?v=PONdtfjUjkg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Elfo 9  #roblox #robloxbloxburgspeedbuild #bloxburg #shorts #shortvideo  #bloxburgcontentcreator",
-      "description": "Dia 9 de la busqueda del elfo en Bloxburg!...",
-      "source": "YouTube",
-      "timestamp": 1766007137.0,
-      "url": "https://www.youtube.com/watch?v=MDncFjCr2CE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg elf hunt day 9  #roblox #bloxburg #christmas",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766007135.0,
-      "url": "https://www.youtube.com/watch?v=o1g62kdXydo",
       "icon": "fa-youtube"
     },
     {
@@ -398,7 +398,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766021969.9532256,
+    "generated_at": 1766023169.959575,
     "mode": "memory",
     "refresh_interval": 2000
   }
