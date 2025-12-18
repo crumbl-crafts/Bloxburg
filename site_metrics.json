@@ -281,6 +281,33 @@
   "news": [
     {
       "type": "trend",
+      "title": "Decimo Elfo Descubierto \ud83c\udf6a\u2728  #roblox  #teamchismetv #bloxburg #elf #navidad  #parati",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766092495.0,
+      "url": "https://www.youtube.com/watch?v=8ORaUSwp1Ts",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Bloxburg ELF 10 LOCATION | QUICK &amp; EASY TUTORIAL",
+      "description": "bloxburg #roblox bloxburg elf hunt, bloxburg elf hunt 2025, bloxburg christmas update 2025, where is...",
+      "source": "YouTube",
+      "timestamp": 1766092380.0,
+      "url": "https://www.youtube.com/watch?v=8xBkoqwVWiw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "DAISY\u2019S CHRISTMAS DANCE RECITAL! *SHE FELL ON STAGE?* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1766091606.0,
+      "url": "https://www.youtube.com/watch?v=1kBIqTouOPY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "TRAPPING PLAYERS IN A BLOXBURG SLED TRAP",
       "description": "bloxburg #roblox #robloxbloxburg How many people can I fit in my basement...watch to find out how su...",
       "source": "YouTube",
@@ -295,33 +322,6 @@
       "source": "YouTube",
       "timestamp": 1766088004.0,
       "url": "https://www.youtube.com/watch?v=2y9SSs3iZ54",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Reaching FLOW STATE in Bloxburg \ud83c\udfe0\ud83e\udd23 #bloxburghouse #bloxburg #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766079759.0,
-      "url": "https://www.youtube.com/watch?v=oFrhvZH4l_w",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#memes #roblox #caminhoparaumavidamelhor #bloxburg #\u3147y\u3147",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766079079.0,
-      "url": "https://www.youtube.com/watch?v=iAyYWKxDwbk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Pink christmas decal codes for berry ave &amp; bloxburg #bloxburg #shorts #roblox #berryavenueroleplay",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766074779.0,
-      "url": "https://www.youtube.com/watch?v=NwFv8qAUpP8",
       "icon": "fa-youtube"
     },
     {
@@ -362,7 +362,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766092769.955402,
+    "generated_at": 1766093969.9638028,
     "mode": "memory",
     "refresh_interval": 2000
   }
