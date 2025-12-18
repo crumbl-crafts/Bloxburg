@@ -335,6 +335,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Ubicaci\u00f3n del ELFO 9 de Bloxburg \ud83c\udf84\u2603\ufe0f #shorts #roblox #bloxburg #robloxshorts",
+      "description": "Ubicaci\u00f3n del ELFO 9 de Bloxburg 2025  \u2603\ufe0f ------------------------------------------------- \u2b50 Mis re...",
+      "source": "YouTube",
+      "timestamp": 1766016395.0,
+      "url": "https://www.youtube.com/watch?v=a4R9LQL00L0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "POV: It\u2019s almost Christmas Guys! \ud83c\udf84\ud83d\ude31",
       "description": "Roblox #RobloxChristmas #Christmas2025 #DressToImpress #Brookhaven #Bloxburg #Shorts #Gaming....",
       "source": "YouTube",
@@ -362,15 +371,6 @@
     },
     {
       "type": "trend",
-      "title": "Elfo 9  #roblox #robloxbloxburgspeedbuild #bloxburg #shorts #shortvideo  #bloxburgcontentcreator",
-      "description": "Dia 9 de la busqueda del elfo en Bloxburg!...",
-      "source": "YouTube",
-      "timestamp": 1766007137.0,
-      "url": "https://www.youtube.com/watch?v=MDncFjCr2CE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Bloxburg elf hunt day 9  #roblox #bloxburg #christmas",
       "description": "...",
       "source": "YouTube",
@@ -379,53 +379,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "\ud83d\udd34RENOVATING MY BEDROOM IN MY BLOXBURG MANSION!",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
-      "source": "YouTube",
-      "timestamp": 1766006586.0,
-      "url": "https://www.youtube.com/watch?v=fEhIHftc2ws",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1765563563.6636922,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "UBICACIO\u0301N DEL ELFO #9 de BLOXBURG!",
-      "description": "\u00danete a mi grupo de Roblox: https://www.roblox.com/groups/5045574/grupo-oficial-de-fessy#!/about S\u00edg...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1766006497.0,
-      "url": "https://www.youtube.com/watch?v=kxjMql5Qptk",
-      "icon": "fa-youtube"
+      "timestamp": 1765559963.663694,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "Bloxburg Elf Hunt 2025 | Elf #9",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766006456.0,
-      "url": "https://www.youtube.com/watch?v=-jUPsNg2vns",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1765556363.6636944,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "ELF HUNT DAY 9 IN BLOXBURG #roblox #shorts",
-      "description": "shorts....",
-      "source": "YouTube",
-      "timestamp": 1766006284.0,
-      "url": "https://www.youtube.com/watch?v=502n-qwmopU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg ELF 9 LOCATION | QUICK &amp; EASY TUTORIAL",
-      "description": "bloxburg #roblox bloxburg elf hunt, bloxburg elf hunt 2025, bloxburg christmas update 2025, where is...",
-      "source": "YouTube",
-      "timestamp": 1766005904.0,
-      "url": "https://www.youtube.com/watch?v=FtRrP7dOOTA",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1765552763.6636949,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1766017169.9559352,
+    "generated_at": 1766018369.9563417,
     "mode": "memory",
     "refresh_interval": 2000
   }
