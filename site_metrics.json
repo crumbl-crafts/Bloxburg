@@ -254,11 +254,11 @@
   "news": [
     {
       "type": "trend",
-      "title": "Vlogmas day 19! \ud83e\uddfc\ud83c\udf84\u2764\ufe0f #vlogmas #roblox #bloxburg #lovelyjules #fyp",
+      "title": "Day 19 | The 24 Days of Christmas Village in Bloxburg. Brought to life by MCM creations. #bloxburg",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1766173682.0,
-      "url": "https://www.youtube.com/watch?v=BBnuCuDv2cU",
+      "timestamp": 1766176132.0,
+      "url": "https://www.youtube.com/watch?v=rDf6K_0NN_I",
       "icon": "fa-youtube"
     },
     {
@@ -335,7 +335,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766177370.2639785,
+    "generated_at": 1766177969.9581563,
     "mode": "memory",
     "refresh_interval": 2000
   }
