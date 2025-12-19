@@ -263,6 +263,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "the outside is abit.. #roblox #robloxbloxburgspeedbuild #bloxburg #fypp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766145705.0,
+      "url": "https://www.youtube.com/watch?v=pa9uAT4fAyo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#bloxburg #roblox #bloxburgbuild #robloxbloxburg #robloxshorts #realrosa",
       "description": "...",
       "source": "YouTube",
@@ -295,15 +304,6 @@
       "source": "YouTube",
       "timestamp": 1766107699.0,
       "url": "https://www.youtube.com/watch?v=WXdsoc6BTzk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Dia18 #roblox #robloxbloxburgspeedbuild #bloxburg #bloxburgnewleaks #bloxburgcontentcreator #shorts",
-      "description": "Dia 18 calendario de invierno en Bloxburg!...",
-      "source": "YouTube",
-      "timestamp": 1766098961.0,
-      "url": "https://www.youtube.com/watch?v=-VdfjUWeThw",
       "icon": "fa-youtube"
     },
     {
@@ -344,7 +344,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766166570.302961,
+    "generated_at": 1766167169.954566,
     "mode": "memory",
     "refresh_interval": 2000
   }
