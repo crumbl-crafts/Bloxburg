@@ -236,6 +236,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Cartoon Network Theme Songs (Holiday Remix): My Own Music Visualizer",
+      "description": "It's time to celebrate the holly jolly holiday spirit with an amazing music visualizer with 13 holid...",
+      "source": "YouTube",
+      "timestamp": 1766187006.0,
+      "url": "https://www.youtube.com/watch?v=64Y-fC_NLOk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Winter arch! We locked in!! \ud83e\udd79\ud83e\udd0d #roblox #bloxburg #bloxburgrp",
       "description": "...",
       "source": "YouTube",
@@ -263,20 +272,11 @@
     },
     {
       "type": "trend",
-      "title": "Where to find the 11th Bloxburg elf\u2764\ufe0f",
-      "description": "Roblox user: Cupcakekittywrld Display name: Itz_ThatGirlLayL4y Roblox group: Layysquadd! Make sure t...",
+      "title": "FINALLY I PREDICTED A BLOXBURG ELF HUNT SPOT... AND WATCHING NEW UPDATE WINTER FILMS",
+      "description": "today we find that 11th bloxburg elf from the hunt.. and it's exactly in the spot where I was standi...",
       "source": "YouTube",
-      "timestamp": 1766180994.0,
-      "url": "https://www.youtube.com/watch?v=niU_gR0Eqz8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "My live found the 11th bloxburg elf so fast todayy!! Thank you all for coming!",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766180701.0,
-      "url": "https://www.youtube.com/watch?v=-cvfLx1oqFQ",
+      "timestamp": 1766181409.0,
+      "url": "https://www.youtube.com/watch?v=58l4OdrjCK8",
       "icon": "fa-youtube"
     },
     {
@@ -317,7 +317,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766188170.2877493,
+    "generated_at": 1766188769.9549713,
     "mode": "memory",
     "refresh_interval": 2000
   }
