@@ -325,53 +325,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "Decimo Elfo Descubierto \ud83c\udf6a\u2728  #roblox  #teamchismetv #bloxburg #elf #navidad  #parati",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766092495.0,
-      "url": "https://www.youtube.com/watch?v=8ORaUSwp1Ts",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1765563563.6636922,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "The TENTH Bloxburg ELF Location! [2025]",
-      "description": "The tenth elf is here! We're nearing the end Twitter: https://twitter.com/BramPeee Instagram: ......",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1766092409.0,
-      "url": "https://www.youtube.com/watch?v=njdviKvfqbU",
-      "icon": "fa-youtube"
+      "timestamp": 1765559963.663694,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "Bloxburg ELF 10 LOCATION | QUICK &amp; EASY TUTORIAL",
-      "description": "bloxburg #roblox bloxburg elf hunt, bloxburg elf hunt 2025, bloxburg christmas update 2025, where is...",
-      "source": "YouTube",
-      "timestamp": 1766092380.0,
-      "url": "https://www.youtube.com/watch?v=8xBkoqwVWiw",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1765556363.6636944,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "DAISY\u2019S CHRISTMAS DANCE RECITAL! *SHE FELL ON STAGE?* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1766091606.0,
-      "url": "https://www.youtube.com/watch?v=1kBIqTouOPY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "War in the Roblox Worlds #robloxrecommended #bloxburg #robloxedit",
-      "description": "HUNGRY SNAKE vs BIG WORM: WAR   Original video by @GameToonsOfficial....",
-      "source": "YouTube",
-      "timestamp": 1766088004.0,
-      "url": "https://www.youtube.com/watch?v=2y9SSs3iZ54",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1765552763.6636949,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1766103569.9573689,
+    "generated_at": 1766104769.9574428,
     "mode": "memory",
     "refresh_interval": 2000
   }
