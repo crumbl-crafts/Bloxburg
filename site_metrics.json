@@ -236,6 +236,33 @@
   "news": [
     {
       "type": "trend",
+      "title": "together we are bloxburg #roblox #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766179640.0,
+      "url": "https://www.youtube.com/watch?v=KetnRpoVYXo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Elf Hunt Day 11 - 2025 #bloxburgelfhunt #bloxburg #elfhunt #roblox",
+      "description": "Elf Hunt Day 11 - 2025 #bloxburgelfhunt #bloxburg #elfhunt #roblox....",
+      "source": "YouTube",
+      "timestamp": 1766179496.0,
+      "url": "https://www.youtube.com/watch?v=CqF1lom4adM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "The ELEVENTH Bloxburg ELF Location![2025]",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766178916.0,
+      "url": "https://www.youtube.com/watch?v=ciDDh7aAVJc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "The ELEVENTH Bloxburg ELF Location! [2025]",
       "description": "The 11th elf is here! Predictable location for some! Twitter: https://twitter.com/BramPeee Instagram...",
       "source": "YouTube",
@@ -280,44 +307,26 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1765563563.6636922,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "FNAF Bloxburg tour! #fnaf #bloxburg #Roblox #shorts ",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766108208.0,
+      "url": "https://www.youtube.com/watch?v=SAKhdj5cj5w",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "Bloxburg Elf Hunt #10 Tenth Elf 2025",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1765559963.663694,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
-    },
-    {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1765556363.6636944,
-      "url": "#",
-      "icon": "fa-lightbulb"
-    },
-    {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1765552763.6636949,
-      "url": "#",
-      "icon": "fa-trophy"
+      "timestamp": 1766107699.0,
+      "url": "https://www.youtube.com/watch?v=WXdsoc6BTzk",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1766180369.958252,
+    "generated_at": 1766181569.957301,
     "mode": "memory",
     "refresh_interval": 2000
   }
