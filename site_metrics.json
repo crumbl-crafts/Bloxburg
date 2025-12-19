@@ -299,6 +299,15 @@
     },
     {
       "type": "trend",
+      "title": "#roblox #bloxburg #robloxedit #adoptme #funny #usa #99nightintheforest #99\u043d\u0456\u0447\u0432\u043b\u0456\u0441\u0456 #reallifehacks",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766102419.0,
+      "url": "https://www.youtube.com/watch?v=IpsUfy_twEU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "10TH BLOXBURG ELF LOCATION! #roblox #bloxburg #elfhunt",
       "description": "...",
       "source": "YouTube",
@@ -313,15 +322,6 @@
       "source": "YouTube",
       "timestamp": 1766098961.0,
       "url": "https://www.youtube.com/watch?v=-VdfjUWeThw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Localiza\u00e7\u00e3o Elfo 10 do bloxburg \ud83c\udf85\ud83c\udf84 #bloxburg #bloxburgelfhunt #bloxburgchristmas #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766097513.0,
-      "url": "https://www.youtube.com/watch?v=6Xw0ui8LlfI",
       "icon": "fa-youtube"
     },
     {
@@ -362,7 +362,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766112570.3015485,
+    "generated_at": 1766113169.9544861,
     "mode": "memory",
     "refresh_interval": 2000
   }
