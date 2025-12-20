@@ -200,6 +200,15 @@
     },
     {
       "type": "trend",
+      "title": "BLOXBURG: Winter Modern House Speedbuild (interior + full tour) Roblox House Build",
+      "description": "Hello builders! In this video i am building a BLOXBURG: Winter Modern House Speedbuild (interior + f...",
+      "source": "YouTube",
+      "timestamp": 1766250072.0,
+      "url": "https://www.youtube.com/watch?v=rnMhiamojq8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "idk what to put here #roblox #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -214,15 +223,6 @@
       "source": "YouTube",
       "timestamp": 1766246484.0,
       "url": "https://www.youtube.com/watch?v=l7wDbFVmadE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Roblox YouTubers that stopped posting Bloxburg #roblox#bloxburg#nostalgia #grownup #viral",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766246348.0,
-      "url": "https://www.youtube.com/watch?v=sX-UA-jhTOo",
       "icon": "fa-youtube"
     },
     {
@@ -263,7 +263,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766258370.2514424,
+    "generated_at": 1766259569.95506,
     "mode": "memory",
     "refresh_interval": 2000
   }
