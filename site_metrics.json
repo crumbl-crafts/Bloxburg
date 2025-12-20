@@ -227,6 +227,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #robloxbloxburgspeedbuild #bloxburgcontentcreator #funny",
+      "description": "How to build a house in Roblox Bloxburg in 10 minutes? This video breaks down the step\u2011by\u2011step proce...",
+      "source": "YouTube",
+      "timestamp": 1766222078.0,
+      "url": "https://www.youtube.com/watch?v=pbGgImskL6Y",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Futura nostalgia visual Video oficial Roblox Tema principal de Futura nostalgia ",
       "description": "futurenostalgia #dualiparemix #roblox #dualipa #futuranostrajiaalblum....",
       "source": "YouTube",
@@ -271,44 +280,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1765563563.6636922,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "moving into my DREAM NYC SoHo apartment at 19 | Bloxburg roleplay | w/voices",
+      "description": "\ufe0eHey Guys! WE ARE MOVING AGAIN! This time with a roommate! SoHo NYC HERE WE COME! What do you think?...",
+      "source": "YouTube",
+      "timestamp": 1766187754.0,
+      "url": "https://www.youtube.com/watch?v=4fwbOmxwvbE",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "Cartoon Network Theme Songs (Holiday Remix): My Own Music Visualizer",
+      "description": "It's time to celebrate the holly jolly holiday spirit with an amazing music visualizer with 13 holid...",
       "source": "YouTube",
-      "timestamp": 1765559963.663694,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1766187006.0,
+      "url": "https://www.youtube.com/watch?v=64Y-fC_NLOk",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1765556363.6636944,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "Where to find the 11th &amp; 12th Bloxburg elf in the elf hunt 2025",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766186638.0,
+      "url": "https://www.youtube.com/watch?v=yVKnl26GMvE",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1765552763.6636949,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Winter arch! We locked in!! \ud83e\udd79\ud83e\udd0d #roblox #bloxburg #bloxburgrp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766185204.0,
+      "url": "https://www.youtube.com/watch?v=36Lh_FKOYPQ",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1766222369.9563441,
+    "generated_at": 1766223569.9547176,
     "mode": "memory",
     "refresh_interval": 2000
   }
