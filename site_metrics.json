@@ -236,6 +236,15 @@
     },
     {
       "type": "trend",
+      "title": "Day 21 | The 24 Days of Christmas Village in Bloxburg. Brought to life by MCM creations. #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766313672.0,
+      "url": "https://www.youtube.com/watch?v=NOW9bvrHKfA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "What is the best job in Bloxburg? #bloxburg #tipsandtricks #roblox",
       "description": "...",
       "source": "YouTube",
@@ -259,15 +268,6 @@
       "source": "YouTube",
       "timestamp": 1766268533.0,
       "url": "https://www.youtube.com/watch?v=_0ID4fPDA8g",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Ubicaci\u00f3n del ELFO 12 de Bloxburg \ud83c\udf84\u2603\ufe0f #shorts #roblox #bloxburg #robloxshorts",
-      "description": "Ubicaci\u00f3n del ELFO 12 de Bloxburg 2025  \u2603\ufe0f ------------------------------------------------- \u2b50 Mis r...",
-      "source": "YouTube",
-      "timestamp": 1766267244.0,
-      "url": "https://www.youtube.com/watch?v=aAvKv-AiyGM",
       "icon": "fa-youtube"
     },
     {
@@ -308,7 +308,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766331569.9587572,
+    "generated_at": 1766332769.9628274,
     "mode": "memory",
     "refresh_interval": 2000
   }
