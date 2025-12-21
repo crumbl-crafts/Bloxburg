@@ -191,20 +191,20 @@
   "news": [
     {
       "type": "trend",
+      "title": "Play Roblox : Welcome to Bloxburg : \u0e15\u0e32\u0e21\u0e2b\u0e32\u0e40\u0e2d\u0e25\u0e1f\u0e4c\u0e15\u0e31\u0e27\u0e17\u0e35\u0e48 12 EP.14",
+      "description": "\u0e2a\u0e21\u0e31\u0e04\u0e23\u0e40\u0e1b\u0e47\u0e19\u0e2a\u0e21\u0e32\u0e0a\u0e34\u0e01\u0e02\u0e2d\u0e07\u0e0a\u0e48\u0e2d\u0e07\u0e19\u0e35\u0e49\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e40\u0e02\u0e49\u0e32\u0e16\u0e36\u0e07\u0e2a\u0e34\u0e17\u0e18\u0e34\u0e1e\u0e34\u0e40\u0e28\u0e29\u0e15\u0e48\u0e32\u0e07\u0e46 https://www.youtube.com/channel/UC3-dt9qBrAPEKG...",
+      "source": "YouTube",
+      "timestamp": 1766304001.0,
+      "url": "https://www.youtube.com/watch?v=aP3xI15nT3Y",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "What is the best job in Bloxburg? #bloxburg #tipsandtricks #roblox",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1766300986.0,
       "url": "https://www.youtube.com/watch?v=w68x53975z0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "STRARTING BRAND NEW IN BLOXBURG",
-      "description": "STRARTING BRAND NEW IN ROBLOX BLOXBURG -------------------------------------------------------------...",
-      "source": "YouTube",
-      "timestamp": 1766279060.0,
-      "url": "https://www.youtube.com/watch?v=f1AaJxlcPvw",
       "icon": "fa-youtube"
     },
     {
@@ -235,44 +235,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1765563563.6636922,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "ELF #12 FOR BLOXBURG&#39;S ELF HUNT! #shorts #roblox #bloxburgupdate #bloxburg #bloxburgelfhunt",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766267878.0,
+      "url": "https://www.youtube.com/watch?v=x8ZeJyoSoY8",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "Day 12 Elf Location in Bloxburg \ud83c\udf81 #bloxburg #bloxburgupdate #roblox",
+      "description": "Thank you for watching. In this short, we're finding Santa's elves for the winter event \"Elf Hunt\" i...",
       "source": "YouTube",
-      "timestamp": 1765559963.663694,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1766266912.0,
+      "url": "https://www.youtube.com/watch?v=Yfj9Sno_bs0",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1765556363.6636944,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "Twelfth Bloxburg Elf Location! #bloxburgelfhunt",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766266419.0,
+      "url": "https://www.youtube.com/watch?v=BdIfKGcxXwU",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1765552763.6636949,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "The TWELFTH Bloxburg ELF Location! [2025]",
+      "description": "The twelfth elf is here! Time to get the golden trophy Twitter: https://twitter.com/BramPeee Instagr...",
+      "source": "YouTube",
+      "timestamp": 1766265295.0,
+      "url": "https://www.youtube.com/watch?v=NgceuDNSBp8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "DAISY\u2019S CHRISTMAS SLEEPOVER! *HAUNTED ELF ON THE SHELF?* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1766264406.0,
+      "url": "https://www.youtube.com/watch?v=GLXsvIF_F4o",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1766305169.957677,
+    "generated_at": 1766306369.9565709,
     "mode": "memory",
     "refresh_interval": 2000
   }
