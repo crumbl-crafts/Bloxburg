@@ -155,20 +155,20 @@
   "news": [
     {
       "type": "trend",
+      "title": "D\u00eda 21 del Calendario de Adviento de Bloxburg \ud83d\uddd3\ufe0f\ud83c\udf84 #shorts #bloxburg #roblox #christmas",
+      "description": "D\u00eda 21 del Calendario de Adviento de Bloxburg ------------------------------------------------- \u2b50 Mi...",
+      "source": "YouTube",
+      "timestamp": 1766277336.0,
+      "url": "https://www.youtube.com/watch?v=nTd--n590zk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Localiza\u00e7\u00e3o Elfo 12 + 2\u00ba Trof\u00e9u - Bloxburg 2025 \u2728 #bloxburg  #eventos  #roblox  #viral #natal #elfos",
       "description": "Espero muito que gostem !! Sempre feito com amor e carinho para voc\u00eas! E n\u00e3o esquece do like em? Um ...",
       "source": "YouTube",
       "timestamp": 1766271896.0,
       "url": "https://www.youtube.com/watch?v=MZwehDNRQY8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "THE NEW 12TH BLOXBURG ELF HUNT LOCATION..  GOLDEN TROPHY AND BLOCKBUX",
-      "description": "today we find the 12th ever bloxburg elf in the hunt! this one was not as quick for me like yesterda...",
-      "source": "YouTube",
-      "timestamp": 1766268533.0,
-      "url": "https://www.youtube.com/watch?v=_0ID4fPDA8g",
       "icon": "fa-youtube"
     },
     {
@@ -236,7 +236,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766277569.953761,
+    "generated_at": 1766278769.953466,
     "mode": "memory",
     "refresh_interval": 2000
   }
