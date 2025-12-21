@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 341,
+    "total_members": 340,
     "joined_today": 4,
     "active_shops": 1,
     "avg_response_time": 3670.75
@@ -24,6 +24,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "kei02717 left the server",
+      "timestamp": 1766329358,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/804579208448704523"
+    },
     {
       "type": "new_request_thread",
       "shop_name": "need a builder i will pay 100k",
@@ -299,7 +308,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766329169.959995,
+    "generated_at": 1766329361.4805498,
     "mode": "memory",
     "refresh_interval": 2000
   }
