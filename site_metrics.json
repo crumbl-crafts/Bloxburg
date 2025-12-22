@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 339,
+    "total_members": 337,
     "joined_today": 0,
     "active_shops": 1,
     "avg_response_time": 3670.75
@@ -24,6 +24,24 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "madison_yurahhhh left the server",
+      "timestamp": 1766378266,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1354613812472451118"
+    },
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "loveshaelqq left the server",
+      "timestamp": 1766378266,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/925549498858618962"
+    },
     {
       "type": "member_leave",
       "shop_name": "Server",
@@ -236,11 +254,29 @@
   "news": [
     {
       "type": "trend",
+      "title": "What We Want For Christmas! \ud83d\ude31\ud83d\udc40\ud83c\udf85#bloxburg #bloxburgfamily #roblox #shorts",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766373094.0,
+      "url": "https://www.youtube.com/watch?v=Pm7mOg32H8E",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "inflation in bloxburg: #bloxburg",
       "description": "bloxburg is too expensive these days....",
       "source": "YouTube",
       "timestamp": 1766360583.0,
       "url": "https://www.youtube.com/watch?v=guwNpT4AoyE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "BUILDING A COZY BLOXBURG CHRISTMAS CAFE... WILD 13TH ELF LOCATION",
+      "description": "today we quickly find the 13th bloxburg elf in a spot I also thought it would spawn at! only 3 more ...",
+      "source": "YouTube",
+      "timestamp": 1766358037.0,
+      "url": "https://www.youtube.com/watch?v=OBZzN_cucfs",
       "icon": "fa-youtube"
     },
     {
@@ -259,24 +295,6 @@
       "source": "YouTube",
       "timestamp": 1766352811.0,
       "url": "https://www.youtube.com/watch?v=C16HjNGOSf8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Elf #13 2025 Elf hunt  #bloxburg  #elfhunt #2025 #welcometobloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766352651.0,
-      "url": "https://www.youtube.com/watch?v=vMOg8pP3sXU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg Elf Hunt Day 13 - 2025 #christmas #bloxburgelfhunt #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766352526.0,
-      "url": "https://www.youtube.com/watch?v=Sj_UO5O-C0g",
       "icon": "fa-youtube"
     },
     {
@@ -317,7 +335,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766377170.2412019,
+    "generated_at": 1766378269.0422392,
     "mode": "memory",
     "refresh_interval": 2000
   }
