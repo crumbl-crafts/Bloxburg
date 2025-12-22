@@ -335,15 +335,6 @@
     },
     {
       "type": "trend",
-      "title": "The FOURTEENTH Bloxburg ELF Location! [2025]",
-      "description": "Omg it's nearly the end of this years elf hunt Twitter: https://twitter.com/BramPeee Instagram: ......",
-      "source": "YouTube",
-      "timestamp": 1766439423.0,
-      "url": "https://www.youtube.com/watch?v=avB2YKk8FBI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Ubicaci\u00f3n del elfo 14 en Bloxburg #bloxburg #roblox",
       "description": "...",
       "source": "YouTube",
@@ -367,6 +358,15 @@
       "source": "YouTube",
       "timestamp": 1766438100.0,
       "url": "https://www.youtube.com/watch?v=Zu2vxIguXKg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "I BUILT A $1M CHRISTMAS TOWN IN BLOXBURG",
+      "description": "roblox #bloxburg #robloxbloxburg I built a Christmas town in Bloxburg with my subscribers...watch to...",
+      "source": "YouTube",
+      "timestamp": 1766433660.0,
+      "url": "https://www.youtube.com/watch?v=tExTcQHLGf8",
       "icon": "fa-youtube"
     },
     {
@@ -407,7 +407,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766447370.2535603,
+    "generated_at": 1766447969.9529424,
     "mode": "memory",
     "refresh_interval": 2000
   }
