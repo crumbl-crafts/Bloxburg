@@ -326,15 +326,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "#shorts #brookhave #mm2 #roblox #lushlife #fyp\u30b7 @KingbaraaRBX #dance #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766419926.0,
-      "url": "https://www.youtube.com/watch?v=Qwc03LbXuSA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "i love bloxburg #bloxburg #roblox #bloxburgcontentcreator",
       "description": "...",
       "source": "YouTube",
@@ -367,6 +358,15 @@
       "source": "YouTube",
       "timestamp": 1766373094.0,
       "url": "https://www.youtube.com/watch?v=Pm7mOg32H8E",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "UBICACI\u00d3N 13\u00ba ELFO EN BLOXBURG \u26f8\ufe0f\ud83c\udf6b#bloxburg #roblox #fyp #robloxfyp #strawqne",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766366168.0,
+      "url": "https://www.youtube.com/watch?v=0GM4B81LTg8",
       "icon": "fa-youtube"
     },
     {
@@ -407,7 +407,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766425770.2732675,
+    "generated_at": 1766426369.9554584,
     "mode": "memory",
     "refresh_interval": 2000
   }
