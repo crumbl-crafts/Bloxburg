@@ -290,6 +290,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "i love bloxburg #bloxburg #roblox #bloxburgcontentcreator",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766404854.0,
+      "url": "https://www.youtube.com/watch?v=R6luGBtz_U8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Ahh but okay i guess @LusidGT @valvergt @GlitchTheGoat_Official",
       "description": "First post kinda L #trend #roblox #robloxmemes #humor #bloxburg #videogamememes #dahood #funnygames ...",
       "source": "YouTube",
@@ -322,15 +331,6 @@
       "source": "YouTube",
       "timestamp": 1766366168.0,
       "url": "https://www.youtube.com/watch?v=0GM4B81LTg8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg Elf Hunt #13 Thirteenth Elf 2025",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766364627.0,
-      "url": "https://www.youtube.com/watch?v=T2xx3rBzD7c",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766414970.2930164,
+    "generated_at": 1766415569.9574466,
     "mode": "memory",
     "refresh_interval": 2000
   }
