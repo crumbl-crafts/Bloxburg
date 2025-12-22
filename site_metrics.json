@@ -245,6 +245,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Ahh but okay i guess @LusidGT @valvergt @GlitchTheGoat_Official",
+      "description": "First post kinda L #trend #roblox #robloxmemes #humor #bloxburg #videogamememes #dahood #funnygames ...",
+      "source": "YouTube",
+      "timestamp": 1766382466.0,
+      "url": "https://www.youtube.com/watch?v=zUv5fjl5tDY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "my game #roblox #gaming #bloxburg #robloxstudio #robloxedit",
       "description": "...",
       "source": "YouTube",
@@ -268,15 +277,6 @@
       "source": "YouTube",
       "timestamp": 1766360583.0,
       "url": "https://www.youtube.com/watch?v=guwNpT4AoyE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "BUILDING A COZY BLOXBURG CHRISTMAS CAFE... WILD 13TH ELF LOCATION",
-      "description": "today we quickly find the 13th bloxburg elf in a spot I also thought it would spawn at! only 3 more ...",
-      "source": "YouTube",
-      "timestamp": 1766358037.0,
-      "url": "https://www.youtube.com/watch?v=OBZzN_cucfs",
       "icon": "fa-youtube"
     },
     {
@@ -326,7 +326,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766384369.956882,
+    "generated_at": 1766385569.9547043,
     "mode": "memory",
     "refresh_interval": 2000
   }
