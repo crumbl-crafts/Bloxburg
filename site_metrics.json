@@ -275,15 +275,6 @@
       "thread_id": null,
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/794105640993030175"
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "user260310 left the server",
-      "timestamp": 1765885421,
-      "thread_id": null,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/881925653463707698"
     }
   ],
   "pipeline": [
@@ -416,7 +407,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766489969.9536674,
+    "generated_at": 1766490570.240569,
     "mode": "memory",
     "refresh_interval": 2000
   }
