@@ -353,20 +353,20 @@
     },
     {
       "type": "trend",
+      "title": "Dessa vez n\u00e3o foi culpa minha\ud83e\udd2d #bloxburg #bloxburgchristmas #bloxburgupdate #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766444450.0,
+      "url": "https://www.youtube.com/watch?v=TniITuxr8aE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\ud83c\udf84 #fyp #contentcreator #roblox #robloxyoutuber #bloxburg #elfhunt #scavenger #subscribe",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1766442608.0,
       "url": "https://www.youtube.com/watch?v=9JjcNAOV06c",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Ubicaci\u00f3n del elfo 14 en Bloxburg #bloxburg #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766439363.0,
-      "url": "https://www.youtube.com/watch?v=BtjaEvy-UtQ",
       "icon": "fa-youtube"
     },
     {
@@ -407,7 +407,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766492369.9548693,
+    "generated_at": 1766493569.9531677,
     "mode": "memory",
     "refresh_interval": 2000
   }
