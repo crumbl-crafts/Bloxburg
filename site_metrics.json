@@ -362,6 +362,15 @@
     },
     {
       "type": "trend",
+      "title": "ideia de sala #music #love #bloxburg #viral #shorts #fy #naofloppa #roblox #naofloppa",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766517164.0,
+      "url": "https://www.youtube.com/watch?v=dPGD7wP_cyg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Decorating for Christmas\u2026 While Being Broke\ud83c\udf84#christmas #relatable #bloxburg",
       "description": "Commonly asked questions: 1. What do you use to record? - I use OBS or something my regular iPad. 2....",
       "source": "YouTube",
@@ -385,15 +394,6 @@
       "source": "YouTube",
       "timestamp": 1766498912.0,
       "url": "https://www.youtube.com/watch?v=7FCVhbjMghs",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "elf hunt day 14 location #roblox #bloxburg #christmas #funnymemes #edit",
-      "description": "bloxburg elf hunt day 14 location free link again????? Download CapCut Desktop to get 7 days of free...",
-      "source": "YouTube",
-      "timestamp": 1766498843.0,
-      "url": "https://www.youtube.com/watch?v=ZXUM_4WVgsc",
       "icon": "fa-youtube"
     },
     {
@@ -434,7 +434,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766521169.954665,
+    "generated_at": 1766522369.9543924,
     "mode": "memory",
     "refresh_interval": 2000
   }
