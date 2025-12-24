@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 333,
-    "joined_today": 4,
+    "total_members": 334,
+    "joined_today": 5,
     "active_shops": 1,
     "avg_response_time": 3670.75
   },
@@ -24,6 +24,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "supercharged4life joined the server",
+      "timestamp": 1766612369,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/985383403622924299"
+    },
     {
       "type": "new_request_thread",
       "shop_name": "Looking for a builder (paying good in bloxburg cash)",
@@ -398,6 +407,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "16TH ELF LOCATION IN BLOXBURG | BLOXBURG ELF HUNT 2025 DAY 16",
+      "description": "IN THIS VIDEO: 16TH ELF LOCATION IN BLOXBURG | BLOXBURG ELF HUNT 2025 DAY 16....",
+      "source": "YouTube",
+      "timestamp": 1766610575.0,
+      "url": "https://www.youtube.com/watch?v=chQMabVxAwk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "PEACH FAMILY CHRISTMAS EVE SPECIAL! *CATCHING SANTA* Roblox Bloxburg Voiced RP Roleplay",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
       "source": "YouTube",
@@ -430,15 +448,6 @@
       "source": "YouTube",
       "timestamp": 1766593621.0,
       "url": "https://www.youtube.com/watch?v=xU2J9kKMOx0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Have you played this OG Roblox game?",
-      "description": "ogroblox #roblox #memories #bloxburg #youtubeshorts....",
-      "source": "YouTube",
-      "timestamp": 1766592751.0,
-      "url": "https://www.youtube.com/watch?v=Fx5hl5Gkbjo",
       "icon": "fa-youtube"
     },
     {
@@ -479,7 +488,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766611169.958187,
+    "generated_at": 1766612369.9551685,
     "mode": "memory",
     "refresh_interval": 2000
   }
