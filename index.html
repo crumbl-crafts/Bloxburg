@@ -3073,15 +3073,15 @@
                     </div>
                     <!-- Compact header site statistics (small, non-intrusive) -->
                     <div class="header-stats" id="headerStats" aria-label="Site statistics">
-                        <div class="header-stat" title="Total views">
-                            <div class="hs-icon"><i class="fas fa-eye"></i></div>
-                            <div class="hs-value" id="statViews">—</div>
-                            <div class="hs-label">Views</div>
-                        </div>
                         <div class="header-stat" title="Total visits">
-                            <div class="hs-icon"><i class="fas fa-user-check"></i></div>
-                            <div class="hs-value" id="statVisits">—</div>
-                            <div class="hs-label">Visits</div>
+                            <div class="hs-icon"><i class="fas fa-users"></i></div>
+                            <div class="hs-value" id="statTotalVisits">—</div>
+                            <div class="hs-label">Total</div>
+                        </div>
+                        <div class="header-stat" title="Average visits per day">
+                            <div class="hs-icon"><i class="fas fa-chart-line"></i></div>
+                            <div class="hs-value" id="statAvgVisits">—</div>
+                            <div class="hs-label">Avg / day</div>
                         </div>
                     </div>
                     <a href="https://discord.gg/fqQfmSwfMj" target="_blank" class="discord-join-btn" style="text-decoration: none; display: flex; align-items: center; gap: 8px; padding: 10px 18px; background: linear-gradient(135deg, #5865F2 0%, #4752C4 100%); border: 3px solid rgba(255,255,255,0.3); border-radius: 12px; color: white; font-weight: 800; font-size: 0.85rem; cursor: pointer; transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); box-shadow: 0 6px 0 #3c44a8, 0 8px 20px rgba(88,101,242,0.5), inset 0 2px 0 rgba(255,255,255,0.3); position: relative; overflow: hidden;">
@@ -7384,9 +7384,9 @@
             })();
 
             async function loadSiteStats(){
-                const viewsEl = document.getElementById('statViews');
-                const visitsEl = document.getElementById('statVisits');
-                if (!viewsEl || !visitsEl) return;
+                const totalEl = document.getElementById('statTotalVisits');
+                const avgEl = document.getElementById('statAvgVisits');
+                if (!totalEl || !avgEl) return;
 
                 let fetched = false;
 
@@ -7395,12 +7395,15 @@
                     const resp = await fetch('/aggregate_stats.json', { cache: 'no-store' });
                     if (resp.ok){
                         const json = await resp.json();
-                        const views = json.totalViews || json.siteViews || json.views || json.views_total || 0;
-                        const visits = json.totalVisits || json.visits || json.uniqueVisitors || 0;
-                        viewsEl.textContent = formatNumber(views);
-                        visitsEl.textContent = formatNumber(visits);
-                        // persist to DB (best-effort) so other clients/loaders can read
-                        persistSiteStats({ totalViews: Number(views)||0, totalVisits: Number(visits)||0 });
+                        const totalVisits = json.totalVisits || json.visits || json.uniqueVisitors || json.total_requests_all_time || 0;
+                        // determine period days if available
+                        const periodDays = json.periodDays || json.days || json.sampleDays || (json.firstSeen ? Math.max(1, Math.round((Date.now() - Number(json.firstSeen || json.startDate || json.createdAt)) / 86400000)) : null) || (json.last_updated && json.firstSeen ? Math.max(1, Math.round((Number(json.last_updated) - Number(json.firstSeen)) / 86400000)) : null);
+                        const days = periodDays || json.windowDays || 30;
+                        const avgPerDay = days > 0 ? (Number(totalVisits) / days) : 0;
+                        totalEl.textContent = formatNumber(totalVisits);
+                        avgEl.textContent = (avgPerDay >= 100 ? formatNumber(Math.round(avgPerDay)) : Number(avgPerDay).toFixed(1));
+                        // persist totalVisits and periodDays (best-effort)
+                        persistSiteStats({ totalVisits: Number(totalVisits)||0, periodDays: days });
                         fetched = true;
                     }
                 }catch(e){ console.warn('aggregate_stats.json read failed', e); }
@@ -7414,10 +7417,12 @@
                     const r = await fetch(fbUrl.replace(/\/$/, '') + '/siteStats.json', { cache: 'no-store' });
                     if (r.ok){
                         const s = await r.json();
-                        const views = s && (s.totalViews || s.views || s.siteViews) || 0;
-                        const visits = s && (s.totalVisits || s.visits) || 0;
-                        viewsEl.textContent = formatNumber(views);
-                        visitsEl.textContent = formatNumber(visits);
+                        const totalVisits = s && (s.totalVisits || s.visits || s.total_requests_all_time || s.totalViews) || 0;
+                        const periodDays = s && (s.periodDays || s.days || s.sampleDays || s.period || null) || null;
+                        const days = periodDays || (s && s.periodDays) || 30;
+                        const avgPerDay = days > 0 ? (Number(totalVisits) / days) : 0;
+                        totalEl.textContent = formatNumber(totalVisits);
+                        avgEl.textContent = (avgPerDay >= 100 ? formatNumber(Math.round(avgPerDay)) : Number(avgPerDay).toFixed(1));
                         return;
                     }
                 }catch(e){ console.warn('Firebase fallback failed', e); }
