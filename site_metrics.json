@@ -344,6 +344,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Big Family CHRISTMAS \ud83c\udf84 Bloxburg Roleplay",
+      "description": "today's bloxburg roleplay is our big family's Christmas Eve and Day! we spend the night together hav...",
+      "source": "YouTube",
+      "timestamp": 1766595634.0,
+      "url": "https://www.youtube.com/watch?v=HVqeKmlbOkM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "GRWM to go to the Gym  (Bloxburg) #bloxburg #vlog #roblox #gym",
       "description": "...",
       "source": "YouTube",
@@ -376,15 +385,6 @@
       "source": "YouTube",
       "timestamp": 1766585402.0,
       "url": "https://www.youtube.com/watch?v=PDM-Z2FerZg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Me 247 since I found out I could sled down my driveway #fyp\u30b7\u309aviral #bloxburg #bloxburgcontentcreator",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766578034.0,
-      "url": "https://www.youtube.com/watch?v=ZJKbKpxO_7A",
       "icon": "fa-youtube"
     },
     {
@@ -425,7 +425,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766596769.9542503,
+    "generated_at": 1766597969.9599857,
     "mode": "memory",
     "refresh_interval": 2000
   }
