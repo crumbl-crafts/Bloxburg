@@ -7396,15 +7396,20 @@
                     if (resp.ok){
                         const json = await resp.json();
                         const totalVisits = json.totalVisits || json.visits || json.uniqueVisitors || json.total_requests_all_time || 0;
-                        // determine period days if available
-                        const periodDays = json.periodDays || json.days || json.sampleDays || (json.firstSeen ? Math.max(1, Math.round((Date.now() - Number(json.firstSeen || json.startDate || json.createdAt)) / 86400000)) : null) || (json.last_updated && json.firstSeen ? Math.max(1, Math.round((Number(json.last_updated) - Number(json.firstSeen)) / 86400000)) : null);
-                        const days = periodDays || json.windowDays || 30;
-                        const avgPerDay = days > 0 ? (Number(totalVisits) / days) : 0;
-                        totalEl.textContent = formatNumber(totalVisits);
-                        avgEl.textContent = (avgPerDay >= 100 ? formatNumber(Math.round(avgPerDay)) : Number(avgPerDay).toFixed(1));
-                        // persist totalVisits and periodDays (best-effort)
-                        persistSiteStats({ totalVisits: Number(totalVisits)||0, periodDays: days });
-                        fetched = true;
+                        // if local file reports zero or falsy, prefer DB fallback instead of overwriting
+                        if (!totalVisits || Number(totalVisits) <= 0) {
+                            console.warn('Local aggregate_stats.json reports zero visits — trying DB fallback');
+                        } else {
+                            // determine period days if available
+                            const periodDays = json.periodDays || json.days || json.sampleDays || (json.firstSeen ? Math.max(1, Math.round((Date.now() - Number(json.firstSeen || json.startDate || json.createdAt)) / 86400000)) : null) || (json.last_updated && json.firstSeen ? Math.max(1, Math.round((Number(json.last_updated) - Number(json.firstSeen)) / 86400000)) : null);
+                            const days = periodDays || json.windowDays || 30;
+                            const avgPerDay = days > 0 ? (Number(totalVisits) / days) : 0;
+                            totalEl.textContent = formatNumber(totalVisits);
+                            avgEl.textContent = (avgPerDay >= 100 ? formatNumber(Math.round(avgPerDay)) : Number(avgPerDay).toFixed(1));
+                            // persist totalVisits and periodDays (best-effort)
+                            persistSiteStats({ totalVisits: Number(totalVisits)||0, periodDays: days });
+                            fetched = true;
+                        }
                     }
                 }catch(e){ console.warn('aggregate_stats.json read failed', e); }
 
