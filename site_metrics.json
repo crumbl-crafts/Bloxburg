@@ -344,6 +344,33 @@
   "news": [
     {
       "type": "trend",
+      "title": "Zapraszam na kolejny \u015bwi\u0105teczny odcinek",
+      "description": "subskrybujcie m\u00f3j kana\u0142 I lajkujcie....",
+      "source": "YouTube",
+      "timestamp": 1766591106.0,
+      "url": "https://www.youtube.com/watch?v=4ACwYcqiUXs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "ELF #1 LOCATION - Don&#39;t Miss It! Bloxburg #bloxburg #elfhunt #roblox",
+      "description": "Elf Hunt time in Bloxburg! \u2728 In this short, Lilla shows you exactly where to find Elf #1 in Welcome ...",
+      "source": "YouTube",
+      "timestamp": 1766590795.0,
+      "url": "https://www.youtube.com/watch?v=UCHhBtAKqNU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Best Roblox Group!?!? #phonk #edit #bass #bloxburg #roblox #gaming #fy #games #pocoyo",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766579014.0,
+      "url": "https://www.youtube.com/watch?v=A2WsirAuGBw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Me 247 since I found out I could sled down my driveway #fyp\u30b7\u309aviral #bloxburg #bloxburgcontentcreator",
       "description": "...",
       "source": "YouTube",
@@ -388,44 +415,26 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1765563563.6636922,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "100K HOUSE BUILD BATTLE\u2764\ufe0f #bloxburg #roblox #robloxbloxburgspeedbuild #robloxshorts #robloxmemes",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766542797.0,
+      "url": "https://www.youtube.com/watch?v=lymAqhmQ5gM",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "Moving BACK to bloxburg Bloxburg family roleplay *VOICED*",
+      "description": "Music: https://www.epidemicsound.com/music/featured/...",
       "source": "YouTube",
-      "timestamp": 1765559963.663694,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
-    },
-    {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1765556363.6636944,
-      "url": "#",
-      "icon": "fa-lightbulb"
-    },
-    {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1765552763.6636949,
-      "url": "#",
-      "icon": "fa-trophy"
+      "timestamp": 1766529006.0,
+      "url": "https://www.youtube.com/watch?v=4zl-C2b491o",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1766590769.9578032,
+    "generated_at": 1766591969.9567058,
     "mode": "memory",
     "refresh_interval": 2000
   }
