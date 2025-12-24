@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 334,
-    "joined_today": 0,
+    "total_members": 335,
+    "joined_today": 1,
     "active_shops": 1,
     "avg_response_time": 3670.75
   },
@@ -24,6 +24,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "noirsabe. joined the server",
+      "timestamp": 1766615171,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/938891995986931744"
+    },
     {
       "type": "member_join",
       "shop_name": "Server",
@@ -407,47 +416,47 @@
   "news": [
     {
       "type": "trend",
+      "title": "SIXTEENTH Elf Location in Bloxburg! \ud83c\udf6a ",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766614049.0,
+      "url": "https://www.youtube.com/watch?v=rmY6V6YMkpY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Bloxburg Elf Hunt Day 16 #christmas #roblox #bloxburg #shorts",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766613276.0,
+      "url": "https://www.youtube.com/watch?v=RWPx4XyCz4I",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Ubicaci\u00f3n del \u00daLTIMO ELFO 16 de Bloxburg \ud83c\udf84\u2603\ufe0f #shorts #roblox #bloxburg #robloxshorts",
+      "description": "Ubicaci\u00f3n del \u00daLTIMO ELFO 16 de Bloxburg 2025  \u2603\ufe0f ------------------------------------------------- ...",
+      "source": "YouTube",
+      "timestamp": 1766613267.0,
+      "url": "https://www.youtube.com/watch?v=N-6IggSWR7o",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Dia 24 #roblox #robloxbloxburgspeedbuild #bloxburg #bloxburgnewleaks #bloxburgcontentcreator #shorts",
+      "description": "bloxburg #robloxbloxburg #roblox #bloxburg #bienvenidoabloxburg #robloxbloxburg (Title) (Descrip) Ga...",
+      "source": "YouTube",
+      "timestamp": 1766612733.0,
+      "url": "https://www.youtube.com/watch?v=IQd5LyrGGpc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "V\u00e9spera de Natal e trabalhando \ud83d\ude2d\ud83c\udf84",
       "description": "Trabalhar na v\u00e9spera de Natal ningu\u00e9m merece #Brookhaven #Natal #Roblox #FelizNatal #Shorts #Brookha...",
       "source": "YouTube",
       "timestamp": 1766612606.0,
       "url": "https://www.youtube.com/watch?v=3YbLEfzmWYQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Ultimo Elfo Descubierto \ud83c\udf6a\u2728  #roblox  #teamchismetv #bloxburg #elf #navidad  #parati",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766612385.0,
-      "url": "https://www.youtube.com/watch?v=jxJrxzuwDd8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Day 16 Elf Location in Bloxburg \ud83c\udf81 #bloxburg #bloxburgupdate #roblox",
-      "description": "Thank you for watching. In this short, we're finding Santa's elves for the winter event \"Elf Hunt\" i...",
-      "source": "YouTube",
-      "timestamp": 1766612214.0,
-      "url": "https://www.youtube.com/watch?v=qydPOKX5aUI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Where to find the FINAL 16th BLOXBURG ELF in the 2025 elf hunt",
-      "description": "Where the last and final 16th bloxburg elf is located in the 2025 elf hunt....",
-      "source": "YouTube",
-      "timestamp": 1766612214.0,
-      "url": "https://www.youtube.com/watch?v=UOIPT6BxYgY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "16TH ELF LOCATION IN BLOXBURG | BLOXBURG ELF HUNT 2025 DAY 16",
-      "description": "IN THIS VIDEO: 16TH ELF LOCATION IN BLOXBURG | BLOXBURG ELF HUNT 2025 DAY 16....",
-      "source": "YouTube",
-      "timestamp": 1766610575.0,
-      "url": "https://www.youtube.com/watch?v=chQMabVxAwk",
       "icon": "fa-youtube"
     },
     {
@@ -488,7 +497,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766614770.2616906,
+    "generated_at": 1766615174.1693885,
     "mode": "memory",
     "refresh_interval": 2000
   }
