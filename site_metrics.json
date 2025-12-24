@@ -344,6 +344,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "(glitches?) elf hunt day 15 location #roblox #bloxburg #funnyimages #funnymemes #roleplay #christmas",
+      "description": "bloxburg elf hunt day 15 location free link again????????????????????????????? Download CapCut Deskt...",
+      "source": "YouTube",
+      "timestamp": 1766575750.0,
+      "url": "https://www.youtube.com/watch?v=fhXCTCPxeyo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "CHRISTMAS EVE DRAMA IN THE PEACHYYLEXI HOUSE! #shorts #roblox #bloxburgroleplay #roleplay #bloxburg",
       "description": "CHRISTMAS EVE DRAMA IN THE PEACHYYLEXI HOUSE! Make sure to like and check out the full video in the ...",
       "source": "YouTube",
@@ -376,15 +385,6 @@
       "source": "YouTube",
       "timestamp": 1766529006.0,
       "url": "https://www.youtube.com/watch?v=4zl-C2b491o",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Day 15 Elf Location in Bloxburg \ud83c\udf81 #bloxburg #bloxburgupdate #roblox",
-      "description": "Thank you for watching. In this short, we're finding Santa's elves for the winter event \"Elf Hunt\" i...",
-      "source": "YouTube",
-      "timestamp": 1766525538.0,
-      "url": "https://www.youtube.com/watch?v=X3Y94glSHBE",
       "icon": "fa-youtube"
     },
     {
@@ -425,7 +425,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766576970.2964225,
+    "generated_at": 1766577569.9558477,
     "mode": "memory",
     "refresh_interval": 2000
   }
