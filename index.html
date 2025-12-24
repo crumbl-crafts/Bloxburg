@@ -7387,14 +7387,7 @@
                 const totalEl = document.getElementById('statTotalVisits');
                 const avgEl = document.getElementById('statAvgVisits');
                 // debug/source label
-                let sourceEl = document.getElementById('statSource');
-                if (!sourceEl) {
-                    sourceEl = document.createElement('div');
-                    sourceEl.id = 'statSource';
-                    sourceEl.style.cssText = 'font-size:0.6rem;color:var(--text-muted);margin-left:6px;';
-                    const headerStats = document.getElementById('headerStats');
-                    if (headerStats) headerStats.appendChild(sourceEl);
-                }
+                // debug/source label removed per UX preference
                 if (!totalEl || !avgEl) return;
 
                 let fetched = false;
@@ -7417,7 +7410,7 @@
                             avgEl.textContent = (avgPerDay >= 100 ? formatNumber(Math.round(avgPerDay)) : Number(avgPerDay).toFixed(1));
                             // persist totalVisits and periodDays (best-effort)
                             persistSiteStats({ totalVisits: Number(totalVisits)||0, periodDays: days });
-                            if (sourceEl) sourceEl.textContent = 'local';
+                            // source label removed
                             // try to count this visit once per session
                             tryCountVisit(Number(totalVisits)||0, days, totalEl, avgEl);
                             fetched = true;
@@ -7440,7 +7433,7 @@
                         const avgPerDay = days > 0 ? (Number(totalVisits) / days) : 0;
                         totalEl.textContent = formatNumber(totalVisits);
                         avgEl.textContent = (avgPerDay >= 100 ? formatNumber(Math.round(avgPerDay)) : Number(avgPerDay).toFixed(1));
-                        if (sourceEl) sourceEl.textContent = 'db';
+                        // source label removed
                         tryCountVisit(Number(totalVisits)||0, days, totalEl, avgEl);
                         return;
                     }
