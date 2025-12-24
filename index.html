@@ -636,7 +636,6 @@
             justify-content: center;
             gap: 12px;
             margin-bottom: 16px;
-            overflow: visible; /* ensure badges and pseudo-elements aren't clipped */
         }
         .podium-card {
             background: 
@@ -668,12 +667,10 @@
                         inset 0 2px 0 rgba(255, 255, 255, 0.15),
                         inset 0 -2px 0 rgba(0, 0, 0, 0.2);
             transform: perspective(1000px) rotateX(0deg);
-            overflow: visible; /* allow pseudo elements to render outside card */
-            z-index: 1;
         }
         .podium-card.rank-1 {
             order: 2;
-            padding-top: 28px; /* give extra space so champion badge/star doesn't overlap clipping */
+            padding-top: 20px;
         }
         .podium-card.rank-1::after {
             content: '⭐';
@@ -684,7 +681,6 @@
             font-size: 30px;
             filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.8));
             transition: transform 0.3s ease;
-            z-index: 5;
         }
         .podium-card.rank-1:hover::after {
             transform: translateX(-50%) scale(1.1);
@@ -704,7 +700,6 @@
             border-radius: 6px;
             box-shadow: 0 4px 16px rgba(255, 215, 0, 0.8);
             border: 2px solid rgba(255, 255, 255, 0.5);
-            z-index: 4;
         }
         .podium-card.rank-2 {
             order: 1;
@@ -751,7 +746,42 @@
                         inset 0 2px 0 rgba(255, 255, 255, 0.25); 
             border-color: rgba(255, 23, 68, 0.8);
             filter: brightness(1.15);
+            /* ensure hovered cards render above nearby content (prevent clipping) */
+            z-index: 60;
+            position: relative;
         }
+
+        /* Allow the Top Builders glass container to show hover overflow */
+        .glass.builders-section {
+            overflow: visible; /* override .glass default overflow:hidden for this section */
+            z-index: 1;
+        }
+
+        /* compact header site stats (small, efficient, visually matching) */
+        .header-stats {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin-left: 8px;
+        }
+        .header-stat {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2px;
+            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255,255,255,0.06);
+            padding: 6px 8px;
+            border-radius: 10px;
+            min-width: 56px;
+            text-align: center;
+            cursor: default;
+            font-weight: 800;
+        }
+        .header-stat .hs-icon { font-size: 14px; color: var(--primary); }
+        .header-stat .hs-value { font-size: 0.95rem; color: var(--text-bright); line-height: 1; }
+        .header-stat .hs-label { font-size: 0.6rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; }
 
         .podium-card.rank-1 .rank-badge { background: linear-gradient(135deg, #ffd700, #ffa500); color: #000; }
         .podium-card.rank-2 .rank-badge { background: linear-gradient(135deg, #c0c0c0, #a0a0a0); color: #000; }
@@ -2753,41 +2783,6 @@
             transform: translateY(0);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
         }
-        /* Compact header stats (very subtle / small) */
-        .header-stats {
-            display: flex;
-            gap: 6px;
-            align-items: center;
-            opacity: 0.6; /* make stats less noticeable by default */
-            font-size: 0.75rem;
-        }
-        .header-stat {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            padding: 4px 8px;
-            border-radius: 8px;
-            background: rgba(255,255,255,0.01);
-            border: 1px solid rgba(255,255,255,0.02);
-            min-width: 72px;
-            justify-content: center;
-            transition: transform 140ms ease, opacity 140ms ease;
-            color: var(--text-muted);
-            font-weight: 700;
-            pointer-events: none; /* non-interactive by default, very subtle */
-        }
-        .header-stat:hover { transform: none; box-shadow: none; }
-        .header-stat .label { font-size: 0.55rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; display: block; }
-        .header-stat .value { font-size: 0.8rem; font-weight: 800; color: var(--text-bright); display: block; }
-        .header-stat .icon { width: 18px; height: 18px; display: grid; place-items: center; font-size: 12px; color: var(--text-muted); }
-
-        /* Ensure podium / builder badges and hover decorations are not clipped by parents */
-        .podium-container, .builders-grid { overflow: visible !important; }
-        .podium-card, .builder-card { position: relative; overflow: visible !important; z-index: 2; }
-        .podium-card:hover, .builder-card:hover { z-index: 100 !important; }
-        .podium-card.rank-1::after, .podium-card.rank-1::before { z-index: 105 !important; }
-        .header-stat .label { font-size: 0.65rem; color: var(--text-muted); font-weight: 700; }
-        .header-stat .value { font-size: 0.95rem; color: var(--text-bright); font-weight: 900; }
     </style>
     <script>
         // Make upload modal function available immediately
@@ -3065,8 +3060,6 @@
                         <p class="tagline" style="font-size: 0.8rem;">Premium Bloxburg Builder Network</p>
                     </div>
                 </div>
-                <!-- Compact header stats (keeps header light-weight and optimized) -->
-                <div id="headerStats" class="header-stats" style="display:flex; gap:8px; align-items:center; margin-left:12px;"></div>
                 
                 <div style="display: flex; align-items: center; gap: 12px; flex-shrink: 0;">
                     <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 4px;">
@@ -3076,6 +3069,19 @@
                         </div>
                         <div style="font-size: 0.7rem; color: var(--text-muted); font-weight: 600; margin-left: 4px;">
                             <span id="latencyDisplay">—</span>
+                        </div>
+                    </div>
+                    <!-- Compact header site statistics (small, non-intrusive) -->
+                    <div class="header-stats" id="headerStats" aria-label="Site statistics">
+                        <div class="header-stat" title="Total views">
+                            <div class="hs-icon"><i class="fas fa-eye"></i></div>
+                            <div class="hs-value" id="statViews">—</div>
+                            <div class="hs-label">Views</div>
+                        </div>
+                        <div class="header-stat" title="Total visits">
+                            <div class="hs-icon"><i class="fas fa-user-check"></i></div>
+                            <div class="hs-value" id="statVisits">—</div>
+                            <div class="hs-label">Visits</div>
                         </div>
                     </div>
                     <a href="https://discord.gg/fqQfmSwfMj" target="_blank" class="discord-join-btn" style="text-decoration: none; display: flex; align-items: center; gap: 8px; padding: 10px 18px; background: linear-gradient(135deg, #5865F2 0%, #4752C4 100%); border: 3px solid rgba(255,255,255,0.3); border-radius: 12px; color: white; font-weight: 800; font-size: 0.85rem; cursor: pointer; transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); box-shadow: 0 6px 0 #3c44a8, 0 8px 20px rgba(88,101,242,0.5), inset 0 2px 0 rgba(255,255,255,0.3); position: relative; overflow: hidden;">
@@ -3136,7 +3142,7 @@
                 <div class="stats-grid" id="statsGrid"></div>
             </section>
 
-            <section class="glass" style="margin-bottom: 16px; overflow: visible;">
+            <section class="glass builders-section" style="margin-bottom: 16px;">
                 <h2 class="section-title">
                     <i class="fas fa-trophy"></i>
                     Top Builders
@@ -6268,6 +6274,11 @@
                     pendingFetch = null;
                 }
             })();
+
+            // Compatibility wrapper: call the window-exposed persister
+            function persistSiteStats(stats){
+                if (window.persistSiteStats) return window.persistSiteStats(stats);
+            }
             
             return pendingFetch;
         }
@@ -6329,73 +6340,6 @@
             });
         }
         
-        function renderHeaderStats(data) {
-            try {
-                const summary = { ...(data.summary || {}), ...(data.server || {}) };
-                const header = document.getElementById('headerStats');
-                if (!header) return;
-
-                const headerConfig = [
-                    { key: 'builder_count', label: 'Builders', icon: 'fa-users' },
-                    { key: 'total_requests', label: 'Requests', icon: 'fa-paper-plane' },
-                    { key: 'total_completed', label: 'Completed', icon: 'fa-check-circle' }
-                ];
-
-                // Allow a small custom icon map via `window.HEADER_STAT_ICONS` (key -> fa-class)
-                const headerIcons = Object.assign({
-                    builder_count: 'fa-users',
-                    total_requests: 'fa-paper-plane',
-                    total_completed: 'fa-check-circle',
-                    total_views: 'fa-eye',
-                    unique_visitors: 'fa-user-check',
-                    page_views: 'fa-eye'
-                }, (window.HEADER_STAT_ICONS || {}));
-
-                // Auto-append light site-wide metrics (views/visitors/pages) when present
-                const autoSiteKeys = Object.keys(summary || {}).filter(k => !headerConfig.some(h => h.key === k) && /view|visitor|page|session|unique/i.test(k));
-                autoSiteKeys.forEach(k => {
-                    const label = k.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-                    const icon = headerIcons[k] || (/view/i.test(k) ? 'fa-eye' : (/visitor|unique/i.test(k) ? 'fa-user-check' : 'fa-chart-line'));
-                    headerConfig.push({ key: k, label, icon });
-                });
-
-                headerConfig.forEach(stat => {
-                    const value = stat.format === 'duration' ? formatDuration(summary[stat.key]) : formatNumber(summary[stat.key] ?? 0);
-                    let el = header.querySelector(`[data-stat="${stat.key}"]`);
-                    const iconClass = (window.HEADER_STAT_ICONS && window.HEADER_STAT_ICONS[stat.key]) || headerIcons[stat.key] || stat.icon || 'fa-eye';
-                    if (!el) {
-                        el = document.createElement('div');
-                        el.className = 'header-stat';
-                        el.setAttribute('data-stat', stat.key);
-                        el.innerHTML = `
-                            <div style="display:flex; align-items:center; gap:6px; min-width:0;">
-                                <div class="icon"><i class="fas ${iconClass}"></i></div>
-                                <div style="display:flex; flex-direction:column; min-width:0; line-height:1;">
-                                    <span class="label">${stat.label}</span>
-                                    <span class="value">${value}</span>
-                                </div>
-                            </div>
-                        `;
-                        header.appendChild(el);
-                    } else {
-                        const valEl = el.querySelector('.value');
-                        const iconEl = el.querySelector('.icon i');
-                        if (valEl && valEl.textContent !== value) {
-                            valEl.textContent = value;
-                            valEl.classList.remove('count-up');
-                            void valEl.offsetWidth;
-                            valEl.classList.add('count-up');
-                        }
-                        if (iconEl && !iconEl.classList.contains(iconClass)) {
-                            iconEl.className = `fas ${iconClass}`;
-                        }
-                    }
-                });
-            } catch (e) {
-                console.warn('renderHeaderStats error', e);
-            }
-        }
-
         function renderBuilders(builders) {
             const grid = document.getElementById('buildersGrid');
             const topBuilders = (builders || []).slice(0, 10);
@@ -7120,7 +7064,6 @@
                 requestAnimationFrame(() => {
                     // Render in order of visual priority
                     renderStats(data);
-                    renderHeaderStats(data);
                     renderBuilders(data.topBuilders);
                     renderActivityFeed(data.activityLog);
                     renderNews(data.news);
@@ -7351,6 +7294,145 @@
                 document.head.appendChild(link);
             });
         }
+    </script>
+    <script>
+        // Lightweight header site-stats loader with persistence: reads local aggregate file, falls back to DB, and persists via REST PATCH.
+        (function(){
+            function formatNumber(n){
+                try{ return new Intl.NumberFormat('en-US',{notation:'compact',maximumFractionDigits:1}).format(Number(n)||0); }catch(e){ return String(n||0); }
+            }
+
+            // Batched, de-duplicated persistence for site stats.
+            (function(){
+                const STORAGE_KEY = 'siteStats_lastPersist';
+                const DEFAULT_BACKOFF_MS = 3000;
+                let state = {
+                    lastPersisted: {},
+                    pending: null,
+                    timer: null,
+                    retry: 0
+                };
+
+                // Initialize lastPersisted from localStorage to survive reloads
+                try { state.lastPersisted = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}') || {}; } catch(e) { state.lastPersisted = {}; }
+
+                function deepEquals(a,b){
+                    try{ return JSON.stringify(a) === JSON.stringify(b); }catch(e){ return false; }
+                }
+
+                function scheduleSend(delay){
+                    if (state.timer) clearTimeout(state.timer);
+                    state.timer = setTimeout(sendPending, delay || DEFAULT_BACKOFF_MS);
+                }
+
+                async function sendPending(){
+                    state.timer = null;
+                    if (!state.pending) return;
+                    const toSend = Object.assign({}, state.pending);
+
+                    // If nothing changed vs last persisted, clear pending and skip write
+                    const merged = Object.assign({}, state.lastPersisted, toSend);
+                    if (deepEquals(merged, state.lastPersisted)) {
+                        state.pending = null;
+                        return;
+                    }
+
+                    try{
+                        const dbUrl = (window.firebaseApp && window.firebaseApp.options && window.firebaseApp.options.databaseURL)
+                                      || 'https://crumblcrafts-b90cc-default-rtdb.firebaseio.com';
+                        const endpoint = dbUrl.replace(/\/$/, '') + '/siteStats.json';
+                        const resp = await fetch(endpoint, {
+                            method: 'PATCH',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify(toSend),
+                            cache: 'no-store'
+                        });
+                        if (!resp.ok) throw new Error('non-ok');
+
+                        // Success: update lastPersisted and persist locally
+                        state.lastPersisted = merged;
+                        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state.lastPersisted)); } catch(e) {}
+                        state.pending = null;
+                        state.retry = 0;
+                    } catch (err) {
+                        console.warn('Failed to persist siteStats (will retry):', err);
+                        state.retry = Math.min(6, state.retry + 1);
+                        // exponential backoff with jitter
+                        const backoff = Math.min(60000, DEFAULT_BACKOFF_MS * Math.pow(2, state.retry));
+                        const jitter = Math.floor(Math.random() * 1000);
+                        scheduleSend(backoff + jitter);
+                    }
+                }
+
+                // Public API: accept stats and batch/dedupe writes
+                window.persistSiteStats = function(stats){
+                    if (!stats || typeof stats !== 'object') return;
+                    // Merge into pending
+                    state.pending = Object.assign({}, state.pending || {}, stats);
+
+                    // If new pending merged with lastPersisted is identical, no need to send
+                    const maybeMerged = Object.assign({}, state.lastPersisted, state.pending);
+                    if (deepEquals(maybeMerged, state.lastPersisted)) {
+                        state.pending = null;
+                        return;
+                    }
+
+                    // Schedule a send (short debounce to batch rapid changes)
+                    scheduleSend(2500);
+                };
+
+            })();
+
+            async function loadSiteStats(){
+                const viewsEl = document.getElementById('statViews');
+                const visitsEl = document.getElementById('statVisits');
+                if (!viewsEl || !visitsEl) return;
+
+                let fetched = false;
+
+                // 1) Try local aggregate file first (fast)
+                try{
+                    const resp = await fetch('/aggregate_stats.json', { cache: 'no-store' });
+                    if (resp.ok){
+                        const json = await resp.json();
+                        const views = json.totalViews || json.siteViews || json.views || json.views_total || 0;
+                        const visits = json.totalVisits || json.visits || json.uniqueVisitors || 0;
+                        viewsEl.textContent = formatNumber(views);
+                        visitsEl.textContent = formatNumber(visits);
+                        // persist to DB (best-effort) so other clients/loaders can read
+                        persistSiteStats({ totalViews: Number(views)||0, totalVisits: Number(visits)||0 });
+                        fetched = true;
+                    }
+                }catch(e){ console.warn('aggregate_stats.json read failed', e); }
+
+                if (fetched) return;
+
+                // 2) Fallback: try Firebase Realtime Database REST endpoint
+                try{
+                    const fbUrl = (window.firebaseApp && window.firebaseApp.options && window.firebaseApp.options.databaseURL)
+                                  || 'https://crumblcrafts-b90cc-default-rtdb.firebaseio.com';
+                    const r = await fetch(fbUrl.replace(/\/$/, '') + '/siteStats.json', { cache: 'no-store' });
+                    if (r.ok){
+                        const s = await r.json();
+                        const views = s && (s.totalViews || s.views || s.siteViews) || 0;
+                        const visits = s && (s.totalVisits || s.visits) || 0;
+                        viewsEl.textContent = formatNumber(views);
+                        visitsEl.textContent = formatNumber(visits);
+                        return;
+                    }
+                }catch(e){ console.warn('Firebase fallback failed', e); }
+
+                // 3) If all fails, show placeholders but schedule retry
+                const header = document.getElementById('headerStats');
+                if (header) header.style.opacity = '0.7';
+            }
+
+            document.addEventListener('DOMContentLoaded', () => {
+                loadSiteStats().catch(()=>{});
+                // refresh periodically but not too often
+                setInterval(() => loadSiteStats().catch(()=>{}), 60000);
+            });
+        })();
     </script>
 </body>
 </html>
