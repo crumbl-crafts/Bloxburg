@@ -344,20 +344,20 @@
   "news": [
     {
       "type": "trend",
+      "title": "Have you played this OG Roblox game?",
+      "description": "ogroblox #roblox #memories #bloxburg #youtubeshorts....",
+      "source": "YouTube",
+      "timestamp": 1766592751.0,
+      "url": "https://www.youtube.com/watch?v=Fx5hl5Gkbjo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Zapraszam na kolejny \u015bwi\u0105teczny odcinek",
       "description": "subskrybujcie m\u00f3j kana\u0142 I lajkujcie....",
       "source": "YouTube",
       "timestamp": 1766591106.0,
       "url": "https://www.youtube.com/watch?v=4ACwYcqiUXs",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "ELF #1 LOCATION - Don&#39;t Miss It! Bloxburg #bloxburg #elfhunt #roblox",
-      "description": "Elf Hunt time in Bloxburg! \u2728 In this short, Lilla shows you exactly where to find Elf #1 in Welcome ...",
-      "source": "YouTube",
-      "timestamp": 1766590795.0,
-      "url": "https://www.youtube.com/watch?v=UCHhBtAKqNU",
       "icon": "fa-youtube"
     },
     {
@@ -388,53 +388,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "(glitches?) elf hunt day 15 location #roblox #bloxburg #funnyimages #funnymemes #roleplay #christmas",
-      "description": "bloxburg elf hunt day 15 location free link again????????????????????????????? Download CapCut Deskt...",
-      "source": "YouTube",
-      "timestamp": 1766575750.0,
-      "url": "https://www.youtube.com/watch?v=fhXCTCPxeyo",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1765563563.6636922,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "CHRISTMAS EVE DRAMA IN THE PEACHYYLEXI HOUSE! #shorts #roblox #bloxburgroleplay #roleplay #bloxburg",
-      "description": "CHRISTMAS EVE DRAMA IN THE PEACHYYLEXI HOUSE! Make sure to like and check out the full video in the ...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1766570466.0,
-      "url": "https://www.youtube.com/watch?v=bryDbjiqP1M",
-      "icon": "fa-youtube"
+      "timestamp": 1765559963.663694,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "Day 24 I\u2019m Set home to Northpole  It Is So Cool ( Official Christmas Video) From 2020KDAY ft 20K \ufffc",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766552405.0,
-      "url": "https://www.youtube.com/watch?v=TOG_MXzlnFc",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1765556363.6636944,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "100K HOUSE BUILD BATTLE\u2764\ufe0f #bloxburg #roblox #robloxbloxburgspeedbuild #robloxshorts #robloxmemes",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766542797.0,
-      "url": "https://www.youtube.com/watch?v=lymAqhmQ5gM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Moving BACK to bloxburg Bloxburg family roleplay *VOICED*",
-      "description": "Music: https://www.epidemicsound.com/music/featured/...",
-      "source": "YouTube",
-      "timestamp": 1766529006.0,
-      "url": "https://www.youtube.com/watch?v=4zl-C2b491o",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1765552763.6636949,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1766593170.2645783,
+    "generated_at": 1766594369.9553232,
     "mode": "memory",
     "refresh_interval": 2000
   }
