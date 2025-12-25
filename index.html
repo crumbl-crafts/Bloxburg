@@ -274,6 +274,11 @@
             align-items: center; 
             gap: 16px;
         }
+        /* Home button alignment: keep Home near the logo and push remaining header items right */
+        .home-nav-btn { margin-left: 12px; display:inline-flex; align-items:center; gap:8px; }
+        .logo-container + .home-nav-btn { margin-left: 12px; }
+        /* Make the element after the Home button become the right-side group */
+        .home-nav-btn + * { margin-left: auto; display:flex; gap:12px; align-items:center; }
         .logo-icon {
             width: 50px !important; 
             height: 50px !important;
@@ -7485,6 +7490,8 @@
         })();
     </script>
     </script>
+        <!-- Shared UI sounds (lightweight) -->
+        <script src="ui-sounds.js"></script>
         <!-- Home button snippet: floating/header Home button -->
         <script src="home-nav-snippet.js"></script>
     </body>
