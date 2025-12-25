@@ -311,8 +311,8 @@
       bottom: 50px;
       right: 50px; /* CHANGED FROM left to right */
       z-index: 1000;
-      width: 180px;
-      height: 250px;
+      width: 120px;
+      height: 160px;
       pointer-events: none;
       transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
       filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.5));
@@ -875,9 +875,8 @@
       <!-- Speech Bubble -->
       <div class="speech-bubble" id="speechBubble"></div>
       
-      <!-- Mascot Image with fallback -->
-      <img src="mascot.png" alt="Crumbl Mascot" class="mascot-image" id="mascotImage" 
-           onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgwIiBoZWlnaHQ9IjI1MCIgdmlld0JveD0iMCAwIDE4MCAyNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjE4MCIgaGVpZ2h0PSIyNTAiIGZpbGw9IiNGRjMzNjYiIHJ4PSIyMCIvPjxjaXJjbGUgY3g9IjkwIiBjeT0iODAiIHI9IjUwIiBmaWxsPSIjRkZEQUM1Ii8+PGNpcmNsZSBjeD0iNzAiIGN5PSI3MCIgcj0iMTIiIGZpbGw9IiMwQTBBMUEiLz48Y2lyY2xlIGN4PSIxMTAiIGN5PSI3MCIgcj0iMTIiIGZpbGw9IiMwQTBBMUEiLz48cGF0aCBkPSJNIDY1IDEwNSBRIDkwIDExNSAxMTUgMTA1IiBzdHJva2U9IiMwQTBBMUEiIHN0cm9rZS13aWR0aD0iNSIgZmlsbD0ibm9uZSIvPjwvc3ZnPg=='">
+      <!-- Mascot Image -->
+      <img src="mascot.png" alt="Crumbl Mascot" class="mascot-image" id="mascotImage">
     </div>
   </div>
 
@@ -954,39 +953,83 @@
         this.isIdle = true;
         this.idleTimeout = null;
         
-        // REALISTIC IDLE DIALOGUES - Cartoon Character Personality
-        this.idleDialogues = [
-          "Man, I'm getting hungry... When's lunch break around here? 🍔",
-          "This chair is so comfy, I could nap right here... zzz 😴",
-          "Is anyone else seeing these floating particles or is it just me? ✨",
-          "How long are we gonna be here? I have other things to do, you know... ⌛",
-          "Do you think they have cookies in the Building Department? Asking for a friend... 🍪",
-          "I should probably stretch my legs... Oh wait, I don't have legs! 😅",
-          "Someone should really add some background music to this place... 🎵",
-          "I wonder if I can beat my high score in Bloxburg while I'm waiting... 🎮",
-          "My voice is getting tired from all this talking... Can I get some water? 💧",
-          "You know what would be cool? If I could change colors based on my mood! 🌈",
-          "I bet the Crumbl Delights department will have cupcakes... I love cupcakes! 🧁",
-          "Sometimes I feel like I'm just talking to myself here... Anyone listening? 👂",
-          "I should ask for a raise... Actually, do I even get paid? 💰",
-          "Do you think I could get a little hat? I'd look good in a hat! 🎩",
-          "Building, baking, roleplaying... We've got it all! Except maybe a snack bar... 🍫",
-          "My circuits are tingling... That means someone's about to hover over something! ⚡",
-          "I should practice my dance moves for when the Role Play Dept opens! 💃",
-          "Is it just me or is this background animation really mesmerizing? 🤔",
-          "I wonder what my purpose in life is... Oh look, someone needs help! 🎯",
-          "Aww man, now I've got that one song stuck in my head... 🎶",
-          "Do mascots dream of electric sheep? 🐑💭",
-          "I should write a book about my experiences here... 'Diary of a Website Mascot' 📖",
-          "Sometimes I wish I had arms that could reach the keyboard... ⌨️",
-          "You think they'll ever let me design my own card? I have ideas! 💡",
-          "I'm getting bored... Hey, hover over something already! 👆",
-          "I could really go for some ramen right now... 🍜",
-          "This floating animation is giving me motion sickness... Just kidding! 😵",
-          "I wonder if I can get a little mascot friend... Everyone needs a buddy! 👯",
-          "My battery's at 15%... Oh wait, I don't have a battery! 🔋",
-          "Sometimes I pretend I'm a superhero... Mascot-Man to the rescue! 🦸"
-        ];
+        // MOOD-BASED IDLE DIALOGUES - Dynamic Personality System
+        this.moodDialogues = {
+          bored: [
+            "Man, I'm getting hungry... When's lunch break around here?",
+            "This chair is so comfy, I could nap right here... zzz 😴",
+            "How long are we gonna be here? I have other things to do, you know...",
+            "I'm getting bored... Hey, hover over something already!",
+            "If boredom was a sport, I'd be the MVP right now...",
+            "If boredom had a face, it'd look like me right now...",
+            "Sometimes I count backwards from 100... gets to about 87 before I forget!",
+            "I tried counting the floating dots once... gave up at 47. Too many!",
+            "This floating animation is giving me motion sickness... Just kidding!",
+            "Aww man, now I've got that one song stuck in my head..."
+          ],
+          excited: [
+            "My circuits are tingling... That means someone's about to hover over something! ⚡",
+            "I should practice my dance moves for when the Role Play Dept opens! 💃",
+            "You know what would be cool? If I could change colors based on my mood! 🌈",
+            "I bet the Crumbl Delights department will have cupcakes... I love cupcakes! 🧁",
+            "Sometimes I pretend I'm a superhero... Mascot-Man to the rescue! 🦸",
+            "If I had a catchphrase, it'd be 'Hover here for fun!'",
+            "What's the most amazing thing about building? For me, it's seeing ideas come alive!",
+            "I wonder what happens if I press all the buttons at once... Chaos!",
+            "Do you think the future has flying cars? I'd settle for flying mascots!",
+            "If I could have any superpower, it'd be to teleport to the snack drawer!"
+          ],
+          thoughtful: [
+            "Do mascots dream of electric sheep?",
+            "I wonder what my purpose in life is... Oh look, someone needs help! 🎯",
+            "I should write a book about my experiences here... 'Diary of a Website Mascot' 📖",
+            "Sometimes I wish I had arms that could reach the keyboard...",
+            "You think they'll ever let me design my own card? I have ideas! 💡",
+            "Do you think mascots have feelings? I'm feeling a bit pixelated today!",
+            "I wonder what my life would be like if I wasn't a mascot... Probably boring!",
+            "Do you think mascots live forever? I hope so... immortality sounds cool!",
+            "Sometimes I wonder if I'm just a really advanced screensaver...",
+            "If I could time travel, I'd go back to when Bloxburg was just an idea!"
+          ],
+          playful: [
+            "I should probably stretch my legs... Oh wait, I don't have legs!",
+            "I bet I could win a staring contest... Oh wait, I don't have eyes!",
+            "My battery's at 15%... Oh wait, I don't have a battery!",
+            "If I had thumbs, I'd be scrolling social media right now...",
+            "I tried yoga once... ended up just floating upside down!",
+            "If I could dance, I'd do the robot... ironically!",
+            "Sometimes I pretend I'm a wizard casting hover spells!",
+            "I bet I could beat anyone in a game of rock-paper-scissors... I always choose rock!",
+            "Do you think they have mascot school? 'Mascot 101: How to Float and Talk'",
+            "Do you think they have mascot beauty pageants? I'd win 'Most Charming'!"
+          ],
+          curious: [
+            "Is anyone else seeing these floating particles or is it just me?",
+            "Do you think they have cookies in the Building Department? Asking for a friend... 🍪",
+            "What's your favorite Bloxburg build? Mine would be a giant cookie factory!",
+            "What's the weirdest thing you've ever built in Bloxburg? Mine was a underwater castle!",
+            "What's your go-to building material in Bloxburg? Mine's neon signs!",
+            "What's the most creative build you've seen? I once saw a working clock tower!",
+            "What's your favorite color? Mine changes with my mood!",
+            "What's your dream vacation spot? Mine's Silicon Valley... for the tech!",
+            "What's the weirdest food combo you've tried? Mine's code and coffee!",
+            "Do you think the particles are actually tiny builders working overtime?"
+          ],
+          hungry: [
+            "Someone should really add some background music to this place... 🎵",
+            "I could really go for some ramen right now... 🍜",
+            "If I could eat one thing right now, it'd be a virtual pizza... with extra code!",
+            "Building, baking, roleplaying... We've got it all! Except maybe a snack bar...",
+            "Do you think mascots get vacation days? I'd go to the beach... digitally!",
+            "I wonder if I can get a little mascot friend... Everyone needs a buddy!",
+            "Sometimes I feel like I'm just talking to myself here... Anyone listening?",
+            "My voice is getting tired from all this talking... Can I get some water?",
+            "I should ask for a raise... Actually, do I even get paid?",
+            "Do you think I could get a little hat? I'd look good in a hat! 🎩"
+          ]
+        };
+        
+        this.currentMood = 'bored';
         
         this.init();
       }
@@ -1019,12 +1062,7 @@
         // Hover on building button
         const buildingBtn = document.getElementById('buildingDeptBtn');
         buildingBtn.addEventListener('mouseenter', () => {
-          this.moveToElement(buildingBtn);
           this.showMessage("This button takes you straight to the Building Department! That's where the magic happens! 🏗️", 7000);
-        });
-        
-        buildingBtn.addEventListener('mouseleave', () => {
-          this.returnToIdlePosition();
         });
         
         // Click on building button
@@ -1062,7 +1100,6 @@
         const message = card.getAttribute('data-message');
         
         if (!card.classList.contains('disabled')) {
-          this.walkToElement(card);
           this.showMessage(message, 10000);
         } else {
           this.showMessage(message, 9000);
@@ -1075,7 +1112,6 @@
       onCardLeave() {
         this.currentTarget = null;
         this.stopExplaining();
-        this.returnToIdlePosition();
         
         // Remove hover glow effect
         document.querySelectorAll('.premium-card').forEach(card => {
@@ -1213,13 +1249,106 @@
       showRandomIdleDialogue() {
         if (!this.isIdle || this.isWalking || this.isExplaining || this.currentTarget) return;
         
-        const randomDialogue = this.idleDialogues[Math.floor(Math.random() * this.idleDialogues.length)];
-        this.showMessage(randomDialogue, 8000 + Math.random() * 4000);
+        // Select random mood
+        const moods = Object.keys(this.moodDialogues);
+        const randomMood = moods[Math.floor(Math.random() * moods.length)];
+        this.currentMood = randomMood;
+        
+        // Get random dialogue from that mood
+        const moodDialogues = this.moodDialogues[randomMood];
+        const randomDialogue = moodDialogues[Math.floor(Math.random() * moodDialogues.length)];
+        
+        // Mood-specific delivery
+        this.showMessageWithMood(randomDialogue, randomMood);
       }
       
       showMessage(text, duration = 8000) {
         this.speechBubble.classList.add('show');
-        this.typeText(text);
+        
+        // SPECIAL DELIVERY: Vary typing speed and effects based on dialogue
+        const isQuestion = text.includes('?');
+        const isExcited = text.includes('!') && text.length < 50;
+        const isLong = text.length > 80;
+        
+        let typingSpeed = 30; // default
+        if (isQuestion) typingSpeed = 20; // faster for questions
+        else if (isLong) typingSpeed = 40; // slower for long messages
+        else if (isExcited) typingSpeed = 25; // medium for excited
+        
+        // Random variation
+        typingSpeed += Math.random() * 10 - 5;
+        
+        // Special effects for exciting dialogues
+        if (isExcited && Math.random() < 0.3) {
+          setTimeout(() => this.createSparkleEffect(), 500);
+        }
+        
+        this.typeText(text, typingSpeed);
+        
+        this.adjustSpeechBubblePosition();
+        
+        clearTimeout(this.messageTimeout);
+        this.messageTimeout = setTimeout(() => {
+          this.hideMessage();
+        }, duration + Math.random() * 2000); // slight duration variation
+      }
+      
+      showMessageWithMood(text, mood) {
+        this.speechBubble.classList.add('show');
+        
+        // MOOD-SPECIFIC DELIVERY STYLES
+        let typingSpeed = 30;
+        let duration = 8000;
+        let specialEffect = false;
+        
+        switch(mood) {
+          case 'bored':
+            typingSpeed = 45; // slow and drawn out
+            duration = 6000; // shorter, like losing interest
+            break;
+          case 'excited':
+            typingSpeed = 20; // fast and energetic
+            duration = 10000; // longer to show enthusiasm
+            specialEffect = Math.random() < 0.6; // more likely sparkles
+            break;
+          case 'thoughtful':
+            typingSpeed = 40; // deliberate pace
+            duration = 12000; // longer for reflection
+            break;
+          case 'playful':
+            typingSpeed = 25; // bouncy rhythm
+            duration = 9000;
+            specialEffect = Math.random() < 0.4; // occasional sparkles
+            break;
+          case 'curious':
+            typingSpeed = 22; // inquisitive pace
+            duration = 11000; // longer for questions
+            break;
+          case 'hungry':
+            typingSpeed = 35; // slightly slower, like savoring
+            duration = 9500;
+            break;
+        }
+        
+        // Add random variation
+        typingSpeed += Math.random() * 8 - 4;
+        duration += Math.random() * 2000 - 1000;
+        
+        // Apply special effects
+        if (specialEffect) {
+          setTimeout(() => this.createSparkleEffect(), 300);
+        }
+        
+        // Mood-based mascot animation
+        if (mood === 'excited') {
+          this.mascotImage.classList.add('explaining');
+          setTimeout(() => this.mascotImage.classList.remove('explaining'), duration);
+        } else if (mood === 'bored') {
+          this.mascotImage.style.filter = 'brightness(0.8) grayscale(0.2)';
+          setTimeout(() => this.mascotImage.style.filter = '', duration);
+        }
+        
+        this.typeText(text, typingSpeed);
         
         this.adjustSpeechBubblePosition();
         
@@ -1235,7 +1364,7 @@
         this.isTyping = false;
       }
       
-      typeText(text) {
+      typeText(text, speed = 30) {
         if (this.isTyping) return;
         
         this.isTyping = true;
@@ -1245,7 +1374,6 @@
         this.speechBubble.appendChild(typingElement);
         
         let i = 0;
-        const speed = 30;
         
         const typeWriter = () => {
           if (i < text.length) {
@@ -1383,32 +1511,6 @@
         setInterval(() => {
           this.showRandomIdleDialogue();
         }, 8000 + Math.random() * 7000);
-        
-        // Gentle floating movements when idle
-        setInterval(() => {
-          if (this.isIdle && !this.isWalking && !this.isExplaining && !this.currentTarget && !this.isMoving) {
-            const randomX = Math.random() * 40 - 20; // -20 to 20
-            const randomY = Math.random() * 40 - 20;
-            
-            this.mascotWrapper.style.transition = 'all 4s ease-in-out';
-            this.mascotWrapper.style.left = 'auto';
-            this.mascotWrapper.style.right = `${50 + randomX}px`;
-            this.mascotWrapper.style.bottom = `${50 + randomY}px`;
-            
-            setTimeout(() => {
-              this.adjustSpeechBubblePosition();
-              
-              if (this.isIdle && !this.isWalking && !this.isExplaining && !this.currentTarget && !this.isMoving) {
-                this.mascotWrapper.style.transition = 'all 5s ease-in-out';
-                this.mascotWrapper.style.left = 'auto';
-                this.mascotWrapper.style.right = '50px';
-                this.mascotWrapper.style.bottom = '50px';
-                
-                setTimeout(() => this.adjustSpeechBubblePosition(), 100);
-              }
-            }, 4000);
-          }
-        }, 20000);
       }
     }
     
