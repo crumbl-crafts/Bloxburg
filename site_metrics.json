@@ -10,7 +10,7 @@
     "total_members": 339,
     "joined_today": 7,
     "active_shops": 1,
-    "avg_response_time": 3670.75
+    "avg_response_time": 4930.0
   },
   "topBuilders": [
     {
@@ -24,6 +24,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "rejected",
+      "shop_name": "Hidenori's Shop",
+      "message": "Request from highoff1 rejected",
+      "timestamp": 1766696871,
+      "thread_id": 1446931774826610790,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/channels/1301988304279048275/1446931774826610790"
+    },
     {
       "type": "new_request_thread",
       "shop_name": "Large Modern Mansion Build (Paying 1-3 Million BBC)",
@@ -469,8 +478,8 @@
   "pipeline": [
     {
       "label": "Pending Requests",
-      "value": 1,
-      "trend": "1 new today \u00b7 4 responded",
+      "value": 0,
+      "trend": "1 new today \u00b7 5 responded",
       "max": 50
     },
     {
@@ -482,7 +491,7 @@
     {
       "label": "Requests (7d)",
       "value": 2,
-      "trend": "3 accepted \u00b7 1 rejected",
+      "trend": "3 accepted \u00b7 2 rejected",
       "max": 100
     }
   ],
@@ -495,9 +504,9 @@
     },
     {
       "title": "Acceptance Rate",
-      "detail": "75.0% of requests accepted (3 accepted, 1 rejected)",
-      "score": "Healthy",
-      "status": "good"
+      "detail": "60.0% of requests accepted (3 accepted, 2 rejected)",
+      "score": "Monitor",
+      "status": "warning"
     },
     {
       "title": "Live Shops",
@@ -507,7 +516,7 @@
     },
     {
       "title": "Queue Health",
-      "detail": "1 requests awaiting response",
+      "detail": "0 requests awaiting response",
       "score": "Manageable",
       "status": "good"
     }
@@ -596,7 +605,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766696369.9601061,
+    "generated_at": 1766696873.9573603,
     "mode": "memory",
     "refresh_interval": 2000
   }
