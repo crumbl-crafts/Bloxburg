@@ -61,8 +61,7 @@
 
     .status-badge{display:flex;align-items:center;gap:8px;padding:8px 14px;border-radius:12px;background:linear-gradient(90deg, rgba(16,185,129,0.08), rgba(16,185,129,0.04));border:2px solid rgba(16,185,129,0.14);font-weight:800;color:var(--muted)}
     .status-dot{width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 8px rgba(255,23,68,0.2)}
-    .header-stats{display:flex;gap:10px;align-items:center;margin-left:12px}
-    .header-stat{display:flex;flex-direction:column;align-items:center;gap:4px;background:transparent;border:1px solid rgba(255,255,255,0.04);padding:6px 10px;border-radius:10px}
+    /* header-stats removed per UX preference */
 
     main{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
     .dept{position:relative;min-height:160px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;border-radius:12px;cursor:pointer;transition:transform .28s cubic-bezier(.2,.9,.2,1),box-shadow .24s}
@@ -83,10 +82,10 @@
     @keyframes float1{0%{transform:translateY(0)}50%{transform:translateY(-12px)}100%{transform:translateY(0)}}
     @keyframes float2{0%{transform:translateY(0) rotate(0)}50%{transform:translateY(-8px) rotate(6deg)}100%{transform:translateY(0) rotate(0)}}
 
-    /* Page transition overlay */
-    .pt-overlay{position:fixed;inset:0;display:grid;place-items:center;background:radial-gradient(circle at center, rgba(255,23,68,0.12), rgba(0,0,0,0.85));z-index:9999;opacity:0;pointer-events:none;transition:opacity .45s ease}
+    /* Page transition overlay — simplified fade to avoid jarring visuals */
+    .pt-overlay{position:fixed;inset:0;display:grid;place-items:center;background:rgba(0,0,0,0.55);z-index:9999;opacity:0;pointer-events:none;transition:opacity .28s ease}
     .pt-overlay.show{opacity:1;pointer-events:auto}
-    .pt-overlay .spinner{width:120px;height:120px;border-radius:50%;background:conic-gradient(rgba(255,23,68,0.9), rgba(41,121,255,0.7), rgba(255,23,68,0.9));filter:blur(6px);transform:scale(.9);animation:spin 1.8s linear infinite}
+    .pt-overlay .spinner{width:48px;height:48px;border-radius:50%;border:4px solid rgba(255,255,255,0.06);border-top-color:rgba(255,255,255,0.28);box-shadow:0 8px 20px rgba(0,0,0,0.6);animation:spin 0.9s linear infinite}
     @keyframes spin{to{transform:rotate(360deg)}}
 
     /* Responsive */
@@ -107,16 +106,11 @@
         </div>
       </div>
       <div style="display:flex;align-items:center;gap:12px">
-        <div class="header-stats" id="headerStats" aria-hidden>
-          <div class="header-stat"><div style="font-weight:900;color:var(--muted)" id="statTotalVisits">—</div><div style="font-size:0.65rem;color:var(--muted)">Total</div></div>
-          <div class="header-stat"><div style="font-weight:900;color:var(--muted)" id="statAvgVisits">—</div><div style="font-size:0.65rem;color:var(--muted)">Avg / day</div></div>
-        </div>
         <div class="status-badge" id="statusBadge" title="System status">
           <span class="status-dot" id="statusDot"></span>
           <span id="statusText">LIVE</span>
         </div>
         <a href="index.html" style="text-decoration:none;color:var(--muted);font-weight:800;padding:8px 12px;border-radius:10px;background:transparent;border:2px solid rgba(255,255,255,0.04);">Go to Building Dept</a>
-        <button id="soundToggle" aria-pressed="false" title="Toggle UI sounds" style="margin-left:6px;padding:8px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--muted);cursor:pointer">🔊</button>
       </div>
     </header>
 
@@ -163,8 +157,8 @@
         if(navigating) return;
         navigating = true;
         overlay.classList.add('show');
-        // give a short time for the overlay visual before navigating
-        setTimeout(()=>{ window.location.href = url; }, 420);
+        // subtle and quick transition
+        setTimeout(()=>{ window.location.href = url; }, 220);
       }
 
       // Attach to clickable panels and CTAs
@@ -182,69 +176,9 @@
 
     })();
   </script>
-  <script>
-    /* Lightweight WebAudio UI sound manager — very small, created on first interaction. */
-    (function(){
-      let audioCtx = null;
-      let enabled = (localStorage.getItem('cc_ui_sounds') === '1');
-      const btn = document.getElementById('soundToggle');
-      function initAudio(){
-        if(audioCtx) return;
-        try{ audioCtx = new (window.AudioContext||window.webkitAudioContext)(); }catch(e){ audioCtx = null; }
-      }
-
-      function playTone(freq, type='sine', duration=0.08, vol=0.08){
-        if(!audioCtx || !enabled) return;
-        try{
-          const o = audioCtx.createOscillator();
-          const g = audioCtx.createGain();
-          o.type = type;
-          o.frequency.value = freq;
-          g.gain.value = 0.0001;
-          o.connect(g); g.connect(audioCtx.destination);
-          const now = audioCtx.currentTime;
-          g.gain.cancelScheduledValues(now);
-          g.gain.setValueAtTime(0.0001, now);
-          g.gain.exponentialRampToValueAtTime(vol, now + 0.01);
-          o.start(now);
-          g.gain.exponentialRampToValueAtTime(0.0001, now + duration);
-          o.stop(now + duration + 0.02);
-        }catch(e){/* fail silently */}
-      }
-
-      // subtle hover and click sounds
-      function playHover(){ playTone(920,'triangle',0.06,0.03); }
-      function playClick(){ playTone(660,'sine',0.09,0.08); }
-
-      // respect reduced-motion preference: disable hover if prefers-reduced-motion
-      const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-      // attach listeners lazily: initialize audio on first user gesture
-      function ensureInit(){ if(!audioCtx){ initAudio(); if(audioCtx && audioCtx.state === 'suspended') audioCtx.resume().catch(()=>{}); }}
-
-      // Apply to interactive UI elements
-      const attach = () => {
-        // hover on dept cards
-        document.querySelectorAll('.dept').forEach(el=>{
-          el.addEventListener('pointerenter', e=>{ if(!reduceMotion){ ensureInit(); playHover(); } });
-          el.addEventListener('click', e=>{ ensureInit(); playClick(); });
-        });
-        // CTAs and header links
-        document.querySelectorAll('a, button.cta, .cta').forEach(el=>{
-          el.addEventListener('click', ()=>{ ensureInit(); playClick(); }, {passive:true});
-          if(!reduceMotion) el.addEventListener('pointerenter', ()=>{ ensureInit(); playHover(); });
-        });
-      };
-
-      // toggle handling
-      function updateToggleUI(){ if(!btn) return; btn.textContent = enabled ? '🔊' : '🔈'; btn.setAttribute('aria-pressed', enabled ? 'true' : 'false'); }
-      if(btn){ btn.addEventListener('click', ()=>{ enabled = !enabled; localStorage.setItem('cc_ui_sounds', enabled ? '1' : '0'); updateToggleUI(); if(enabled) ensureInit(); }); updateToggleUI(); }
-
-      // initialize attach after DOM ready
-      if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', attach); else attach();
-      // expose for debugging if needed
-      window.__cc_ui_sounds = { enable: ()=>{ enabled=true; localStorage.setItem('cc_ui_sounds','1'); ensureInit(); updateToggleUI(); }, disable: ()=>{ enabled=false; localStorage.setItem('cc_ui_sounds','0'); updateToggleUI(); } };
-    })();
-  </script>
+  <!-- Use shared ui-sounds manager (enabled by default, no toggle exposed) -->
+  <script src="ui-sounds.js"></script>
+  <!-- Shared UI transitions: premium promo & cookie banner -->
+  <script src="ui-transitions.js"></script>
 </body>
 </html>
