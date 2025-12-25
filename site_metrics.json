@@ -488,6 +488,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "so many good builds were born \u2728 #roblox #bloxburg #bloxburgbuild #relatable #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766683623.0,
+      "url": "https://www.youtube.com/watch?v=dl4UykBdD70",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Touring a 1.4MIL Bloxburg Mansion#roblox #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -520,15 +529,6 @@
       "source": "YouTube",
       "timestamp": 1766674392.0,
       "url": "https://www.youtube.com/watch?v=w1NIvEgHD0s",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "ENVIA ISSO PRA ALGU\u00c9M\u2620\ufe0f\u2620\ufe0f",
-      "description": "ENVIA ISSO PRA ALGUMA PESSOA #roblox #viral #edit #stealabrainrot #bloxfruits #brookhaven #bloxburg ...",
-      "source": "YouTube",
-      "timestamp": 1766671812.0,
-      "url": "https://www.youtube.com/watch?v=daqtMlvkjX4",
       "icon": "fa-youtube"
     },
     {
@@ -569,7 +569,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766690370.2881122,
+    "generated_at": 1766691569.9556851,
     "mode": "memory",
     "refresh_interval": 2000
   }
