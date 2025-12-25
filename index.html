@@ -757,6 +757,29 @@
             z-index: 1;
         }
 
+        /* Make sure podium and builder cards (and their pseudo-elements) can escape the
+           glass clipping and render above nearby content when hovered. Use !important
+           to override any inline/earlier rules that hide overflow. */
+        .glass.builders-section,
+        .glass.builders-section .builders-grid,
+        .glass.builders-section .podium-container {
+            overflow: visible !important;
+            z-index: 1;
+        }
+
+        .podium-container,
+        .podium-card,
+        .podium-card::before,
+        .podium-card::after,
+        .podium-card .rank-badge {
+            overflow: visible !important;
+            z-index: 60;
+        }
+
+        /* Ensure hovered podium/builder cards render on top */
+        .podium-card:hover, .builder-card:hover { z-index: 120 !important; }
+
+
         /* compact header site stats (small, efficient, visually matching) */
         .header-stats {
             display: flex;
