@@ -452,6 +452,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "POV: Christmas Morning\ud83c\udf84\ud83c\udf81 #xmas #relatable #bloxburg",
+      "description": "Commonly asked questions: 1. What do you use to record? - I use OBS or something my regular iPad. 2....",
+      "source": "YouTube",
+      "timestamp": 1766664101.0,
+      "url": "https://www.youtube.com/watch?v=lnHvmS1I2_w",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "elf hunt day 16 location #roblox #bloxburg #funnyimages #funnymemes #roleplay #christmas",
       "description": "bloxburg elf hunt day 16 location no more links sorry :(...",
       "source": "YouTube",
@@ -484,15 +493,6 @@
       "source": "YouTube",
       "timestamp": 1766638079.0,
       "url": "https://www.youtube.com/watch?v=pXwmoSu9Qw8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "*INTENSE* MM2 SHERIFF MONTAGE *ON BEAT* \ud83d\udd2b",
-      "description": "roblox #newupdateinrobloxbedwars #mm2 #murdermystery2 #bloxburg #robloxedit #christmas #mm2roblox #d...",
-      "source": "YouTube",
-      "timestamp": 1766636082.0,
-      "url": "https://www.youtube.com/watch?v=1FoLkB8_qis",
       "icon": "fa-youtube"
     },
     {
@@ -533,7 +533,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766665169.9547431,
+    "generated_at": 1766666369.955754,
     "mode": "memory",
     "refresh_interval": 2000
   }
