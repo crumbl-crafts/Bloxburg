@@ -26,6 +26,15 @@
   "activityLog": [
     {
       "type": "new_request_thread",
+      "shop_name": "Large Modern Mansion Build (Paying 1-3 Million BBC)",
+      "message": "<@786704175488565248> posted a new request titled: Large Modern Mansion Build (Paying 1-3 Million BBC)",
+      "timestamp": 1766694258,
+      "thread_id": 1453845834243375369,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/channels/1301988304279048275/1453845834243375369"
+    },
+    {
+      "type": "new_request_thread",
       "shop_name": "Looking for a modern family house 2 story + basement garage",
       "message": "<@880883290138087504> posted a new request titled: Looking for a modern family house 2 story + basement garage",
       "timestamp": 1766693879,
@@ -506,15 +515,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "so many good builds were born \u2728 #roblox #bloxburg #bloxburgbuild #relatable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766683623.0,
-      "url": "https://www.youtube.com/watch?v=dl4UykBdD70",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Touring a 1.4MIL Bloxburg Mansion#roblox #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -547,6 +547,15 @@
       "source": "YouTube",
       "timestamp": 1766674392.0,
       "url": "https://www.youtube.com/watch?v=w1NIvEgHD0s",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "ENVIA ISSO PRA ALGU\u00c9M\u2620\ufe0f\u2620\ufe0f",
+      "description": "ENVIA ISSO PRA ALGUMA PESSOA #roblox #viral #edit #stealabrainrot #bloxfruits #brookhaven #bloxburg ...",
+      "source": "YouTube",
+      "timestamp": 1766671812.0,
+      "url": "https://www.youtube.com/watch?v=daqtMlvkjX4",
       "icon": "fa-youtube"
     },
     {
@@ -587,7 +596,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766693969.954078,
+    "generated_at": 1766694258.2310433,
     "mode": "memory",
     "refresh_interval": 2000
   }
