@@ -10,51 +10,108 @@
     /* Premium cartoony redesign - imports */
     @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;800&family=Luckiest+Guy&display=swap');
     :root{
-      --bg-ink:#07101a;
-      --bg-deep:#081322;
-      --panel:#122033;
-      --accent1:#ff7aa2;
-      --accent2:#ffd166;
-      --comic-outline: rgba(0,0,0,0.85);
-      --glass: rgba(255,255,255,0.04);
-      --muted:#b6c2d6;
-      --white:#ffffff;
+      color-scheme: dark;
+      --bg-primary: #0a0f1a;
+      --bg-secondary: #1a2030;
+      --bg-tertiary: #2a3040;
+      --panel: rgba(30, 40, 60, 0.5);
+      --panel-hover: rgba(40, 50, 70, 0.7);
+      --card: rgba(40, 50, 70, 0.4);
+      --card-hover: rgba(50, 60, 80, 0.6);
+      --primary: #ff1744;
+      --primary-glow: rgba(255, 23, 68, 0.6);
+      --secondary: #2979ff;
+      --accent: #ffd700;
+      --success: #00e676;
+      --warning: #ff9100;
+      --danger: #ff1744;
+      --text: #ffffff;
+      --text-bright: #ffffff;
+      --text-muted: #b0b8d0;
+      --border: rgba(255, 255, 255, 0.15);
+      --glow: rgba(255, 23, 68, 0.3);
     }
 
     *{box-sizing:border-box;margin:0;padding:0}
-    body{font-family:'Fredoka', 'Luckiest Guy', system-ui, -apple-system, 'Segoe UI', Roboto, Arial; background:linear-gradient(180deg,var(--bg-ink),var(--bg-deep));color:var(--white);min-height:100vh;overflow-x:hidden}
+    body{font-family:'Fredoka', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: var(--bg-primary);color:var(--text);min-height:100vh;overflow-x:hidden;position:relative;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-rendering: optimizeSpeed}
 
-    /* playful background */
-    .bg{position:fixed;inset:0;background-image:url('happy.gif');background-size:cover;background-position:center;opacity:0.22;mix-blend-mode:screen;z-index:0}
-    .halftone{position:fixed;inset:0;pointer-events:none;z-index:1;background-image:radial-gradient(circle at 20% 30%, rgba(255,255,255,0.03) 0 1px, transparent 2px), radial-gradient(circle at 70% 70%, rgba(255,255,255,0.02) 0 2px, transparent 4px);background-size:10px 10px,16px 16px;opacity:0.12;mix-blend-mode:overlay}
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url('happy.gif');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 0.5;
+      pointer-events: none;
+      z-index: 0;
+      mix-blend-mode: screen;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: 
+        repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255, 215, 0, 0.02) 2px, rgba(255, 215, 0, 0.02) 4px),
+        repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(0, 212, 255, 0.02) 2px, rgba(0, 212, 255, 0.02) 4px);
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.3;
+    }
 
     .wrap{position:relative;z-index:2;max-width:1100px;margin:0 auto;padding:28px;display:grid;grid-template-columns:1fr;gap:20px}
 
     /* Cartoon header */
     header{display:flex;align-items:center;justify-content:space-between;gap:12px}
     .brand {display:flex;align-items:center;gap:14px}
-    .mascot{width:78px;height:78px;border-radius:18px;background:linear-gradient(135deg,var(--accent1),#ffb3d6);display:grid;place-items:center;font-size:40px;border:6px solid var(--comic-outline);box-shadow:8px 16px 40px rgba(0,0,0,0.6)}
+    .mascot{width:78px;height:78px;border-radius:18px;background:linear-gradient(135deg,var(--primary),var(--secondary));display:grid;place-items:center;font-size:40px;border:2px solid var(--border);box-shadow:0 8px 32px var(--glow)}
     .mascot img{width:100%;height:100%;object-fit:cover;border-radius:12px;display:block}
     .masc-crumb{position:absolute;width:8px;height:8px;border-radius:50%;background:rgba(255,215,140,0.95);box-shadow:0 2px 6px rgba(0,0,0,0.45);opacity:0;transform:translateY(0);animation:mascCrumb 1s ease forwards}
     @keyframes mascCrumb{0%{opacity:0;transform:translateY(6px) scale(.6)}30%{opacity:1;transform:translateY(-6px) scale(1)}100%{opacity:0;transform:translateY(-18px) scale(.6)}}
-    .logo-text h1{font-family:'Luckiest Guy',Fredoka, sans-serif;font-size:2.1rem;color:var(--white);text-shadow:0 6px 0 var(--comic-outline);}
-    .logo-text .tagline{font-size:0.82rem;color:var(--muted);margin-top:2px}
+    .logo-text h1{font-family:'Luckiest Guy',Fredoka, sans-serif;font-size:2.1rem;color:var(--text-bright);text-shadow:0 2px 4px rgba(0,0,0,0.5);}
+    .logo-text .tagline{font-size:0.82rem;color:var(--text-muted);margin-top:2px}
 
     /* Premium ribbon */
-    .ribbon{position:relative;padding:8px 12px;border-radius:12px;background:linear-gradient(90deg,var(--accent2),#ffd199);color:#111;font-weight:800;border:3px solid var(--comic-outline);box-shadow:0 12px 30px rgba(0,0,0,0.6)}
+    .ribbon{position:relative;padding:8px 12px;border-radius:12px;background:linear-gradient(90deg,var(--accent),#ffd199);color:#111;font-weight:800;border:2px solid var(--border);box-shadow:0 4px 16px rgba(0,0,0,0.3)}
 
-    /* Main cards - comic panels */
+    /* Main cards - glass panels */
     main{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:6px}
-    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border-radius:20px;padding:18px;min-height:200px;position:relative;border:6px solid var(--comic-outline);box-shadow:0 20px 60px rgba(0,0,0,0.65)}
-    .card .title{font-family:'Luckiest Guy',Fredoka,sans-serif;font-size:1.15rem;color:var(--white);text-shadow:0 6px 0 var(--comic-outline)}
-    .card .desc{color:var(--muted);margin-top:8px;font-size:0.95rem}
+    .card{
+      background: 
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+        radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.05) 0.8px, transparent 0.8px),
+        rgba(30, 40, 60, 0.6);
+      background-size: 8px 8px, 8px 8px, 4px 4px, 100% 100%;
+      background-position: 0 0, 4px 4px, 2px 2px, 0 0;
+      border: 2px solid var(--border);
+      border-radius: 16px;
+      padding:18px;
+      min-height:200px;
+      position:relative;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      transition: all 0.3s ease;
+    }
+    .card:hover {
+      background: 
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+        radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.07) 0.8px, transparent 0.8px),
+        rgba(40, 50, 70, 0.7);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+    }
+    .card .title{font-family:'Luckiest Guy',Fredoka,sans-serif;font-size:1.15rem;color:var(--text-bright);}
+    .card .desc{color:var(--text-muted);margin-top:8px;font-size:0.95rem}
 
     /* Speech-bubble CTA */
-    .cta{display:inline-block;margin-top:12px;padding:12px 18px;border-radius:999px;background:linear-gradient(90deg,var(--accent1),#ff9cc7);color:#111;font-weight:900;border:4px solid var(--comic-outline);box-shadow:0 12px 40px rgba(0,0,0,0.6);cursor:pointer}
+    .cta{display:inline-block;margin-top:12px;padding:12px 18px;border-radius:999px;background:linear-gradient(90deg,var(--primary),var(--secondary));color:#ffffff;font-weight:600;border:2px solid var(--border);box-shadow:0 4px 16px var(--glow);cursor:pointer;transition: all 0.3s ease;}
+    .cta:hover { transform: translateY(-1px); box-shadow: 0 6px 20px var(--glow); }
     .cta:active{transform:translateY(1px)}
 
     /* Comic badge */
-    .badge{position:absolute;top:14px;right:14px;background:var(--accent2);color:#111;padding:6px 10px;border-radius:10px;font-weight:900;border:3px solid var(--comic-outline)}
+    .badge{position:absolute;top:14px;right:14px;background:var(--accent);color:#111;padding:6px 10px;border-radius:10px;font-weight:600;border:2px solid var(--border)}
 
     /* Floating icon style */
     .floater{position:absolute;pointer-events:none;opacity:0.95}
@@ -70,8 +127,6 @@
   </style>
 </head>
 <body>
-  <div class="bg" aria-hidden></div>
-  <div class="halftone" aria-hidden></div>
   <div class="wrap">
     <header>
       <div class="brand">
@@ -92,7 +147,7 @@
             <span class="status-dot" id="statusDot"></span>
             <span id="statusText">LIVE</span>
           </div>
-          <a href="index.html" style="text-decoration:none;color:var(--muted);font-weight:800;padding:6px 10px;border-radius:8px;background:transparent;border:2px solid rgba(255,255,255,0.04);margin-top:6px">Go to Building Dept</a>
+          <a href="index.html" style="text-decoration:none;color:var(--text-muted);font-weight:800;padding:6px 10px;border-radius:8px;background:transparent;border:2px solid var(--border);margin-top:6px">Go to Building Dept</a>
         </div>
       </div>
     </header>
