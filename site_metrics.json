@@ -452,6 +452,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "PEACHYYLEXI MERRY CHRISTMAS DAY SPECIAL! #shorts #roblox #bloxburgroleplay #roleplay #bloxburg",
+      "description": "PEACHYYLEXI MERRY CHRISTMAS DAY SPECIAL! Make sure to like and check out the full video in the link ...",
+      "source": "YouTube",
+      "timestamp": 1766656870.0,
+      "url": "https://www.youtube.com/watch?v=hMk_7hom2e0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#roblox #robloxbloxburgspeedbuild #bloxburg #edit #bloxburgnewleaks #robloxedit #memes",
       "description": "...",
       "source": "YouTube",
@@ -484,15 +493,6 @@
       "source": "YouTube",
       "timestamp": 1766636082.0,
       "url": "https://www.youtube.com/watch?v=1FoLkB8_qis",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "BIBI PERTAMA KALI BERMAIN DI PANTAI INCHEON, SEMUA PASIRNYA PUTIH SEMUA  ||BLOXBURG\ud83c\udfe1ROBLOX INDONESIA",
-      "description": "WOAH PANTAINYA INDAH SEKALI CEMAN-CEMAN BELWALNAH PUTIH SEMUAAA UN Roblox : BibiCantik01 Tiktok ......",
-      "source": "YouTube",
-      "timestamp": 1766634003.0,
-      "url": "https://www.youtube.com/watch?v=s8sHJCPls-E",
       "icon": "fa-youtube"
     },
     {
@@ -533,7 +533,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766659169.9544787,
+    "generated_at": 1766660369.953445,
     "mode": "memory",
     "refresh_interval": 2000
   }
