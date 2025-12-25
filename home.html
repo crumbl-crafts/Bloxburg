@@ -79,7 +79,7 @@
 <body>
   <div class="bg" aria-hidden></div>
   <div class="wrap">
-    <header>
+  <header class="glass-like" role="banner">
       <div class="logo">
         <div class="icon" aria-hidden>🍪</div>
         <div>
@@ -90,14 +90,16 @@
       <div style="display:flex;gap:10px;align-items:center">
         <a href="web.html" style="text-decoration:none;color:var(--muted);font-weight:800;border:2px solid rgba(255,255,255,0.04);padding:8px 12px;border-radius:10px;background:transparent">Go to Building Dept</a>
         <a href="home.html" style="text-decoration:none;color:var(--muted);font-weight:700;padding:8px 12px;border-radius:10px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.03)">Home</a>
+        <!-- Sound toggle (persisted) -->
+        <button id="soundToggle" aria-pressed="false" title="Toggle UI sounds" style="margin-left:8px;padding:8px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--muted);cursor:pointer">🔊</button>
       </div>
     </header>
 
     <main>
-      <article class="dept" data-target="web.html" title="Building Dept — current site">
+      <article class="dept" data-target="index.html" title="Building Dept — current site">
         <div class="title">Building Dept</div>
         <div class="desc">Current live site for building services — click to enter.</div>
-        <button class="cta" data-target="web.html">Enter</button>
+        <button class="cta" data-target="index.html">Enter</button>
       </article>
 
       <article class="dept coming-soon dim" aria-disabled="true" title="Crumbl Delights (coming soon)">
@@ -153,6 +155,70 @@
       const motion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       if(motion){ document.querySelectorAll('.floater').forEach(f=>f.style.display='none'); }
 
+    })();
+  </script>
+  <script>
+    /* Lightweight WebAudio UI sound manager — very small, created on first interaction. */
+    (function(){
+      let audioCtx = null;
+      let enabled = (localStorage.getItem('cc_ui_sounds') === '1');
+      const btn = document.getElementById('soundToggle');
+      function initAudio(){
+        if(audioCtx) return;
+        try{ audioCtx = new (window.AudioContext||window.webkitAudioContext)(); }catch(e){ audioCtx = null; }
+      }
+
+      function playTone(freq, type='sine', duration=0.08, vol=0.08){
+        if(!audioCtx || !enabled) return;
+        try{
+          const o = audioCtx.createOscillator();
+          const g = audioCtx.createGain();
+          o.type = type;
+          o.frequency.value = freq;
+          g.gain.value = 0.0001;
+          o.connect(g); g.connect(audioCtx.destination);
+          const now = audioCtx.currentTime;
+          g.gain.cancelScheduledValues(now);
+          g.gain.setValueAtTime(0.0001, now);
+          g.gain.exponentialRampToValueAtTime(vol, now + 0.01);
+          o.start(now);
+          g.gain.exponentialRampToValueAtTime(0.0001, now + duration);
+          o.stop(now + duration + 0.02);
+        }catch(e){/* fail silently */}
+      }
+
+      // subtle hover and click sounds
+      function playHover(){ playTone(920,'triangle',0.06,0.03); }
+      function playClick(){ playTone(660,'sine',0.09,0.08); }
+
+      // respect reduced-motion preference: disable hover if prefers-reduced-motion
+      const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      // attach listeners lazily: initialize audio on first user gesture
+      function ensureInit(){ if(!audioCtx){ initAudio(); if(audioCtx && audioCtx.state === 'suspended') audioCtx.resume().catch(()=>{}); }}
+
+      // Apply to interactive UI elements
+      const attach = () => {
+        // hover on dept cards
+        document.querySelectorAll('.dept').forEach(el=>{
+          el.addEventListener('pointerenter', e=>{ if(!reduceMotion){ ensureInit(); playHover(); } });
+          el.addEventListener('click', e=>{ ensureInit(); playClick(); });
+        });
+        // CTAs and header links
+        document.querySelectorAll('a, button.cta, .cta').forEach(el=>{
+          el.addEventListener('click', ()=>{ ensureInit(); playClick(); }, {passive:true});
+          if(!reduceMotion) el.addEventListener('pointerenter', ()=>{ ensureInit(); playHover(); });
+        });
+      };
+
+      // toggle handling
+      function updateToggleUI(){ if(!btn) return; btn.textContent = enabled ? '🔊' : '🔈'; btn.setAttribute('aria-pressed', enabled ? 'true' : 'false'); }
+      if(btn){ btn.addEventListener('click', ()=>{ enabled = !enabled; localStorage.setItem('cc_ui_sounds', enabled ? '1' : '0'); updateToggleUI(); if(enabled) ensureInit(); }); updateToggleUI(); }
+
+      // initialize attach after DOM ready
+      if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', attach); else attach();
+      // expose for debugging if needed
+      window.__cc_ui_sounds = { enable: ()=>{ enabled=true; localStorage.setItem('cc_ui_sounds','1'); ensureInit(); updateToggleUI(); }, disable: ()=>{ enabled=false; localStorage.setItem('cc_ui_sounds','0'); updateToggleUI(); } };
     })();
   </script>
 </body>
