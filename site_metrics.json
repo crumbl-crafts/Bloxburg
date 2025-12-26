@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 340,
-    "joined_today": 1,
+    "total_members": 341,
+    "joined_today": 2,
     "active_shops": 1,
     "avg_response_time": 4930.0
   },
@@ -24,6 +24,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "s4m.xx. joined the server",
+      "timestamp": 1766737785,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1358340564046712957"
+    },
     {
       "type": "member_join",
       "shop_name": "Server",
@@ -533,6 +542,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "I will break into your house in bloxburg #bloxburg #roblox #comedy #funny",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766737026.0,
+      "url": "https://www.youtube.com/watch?v=0E_BNd4CYjo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Reaction to cringe Roblox.. #roblox #relatable #rant #rblox #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -565,15 +583,6 @@
       "source": "YouTube",
       "timestamp": 1766702413.0,
       "url": "https://www.youtube.com/watch?v=b6bGSzo3nwE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "PEACH FAMILY CHRISTMAS DAY SPECIAL! *THEY GOT SO MANY GIFTS* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1766692806.0,
-      "url": "https://www.youtube.com/watch?v=gj6a6xrxAYY",
       "icon": "fa-youtube"
     },
     {
@@ -614,7 +623,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766737169.9615686,
+    "generated_at": 1766737787.6977088,
     "mode": "memory",
     "refresh_interval": 2000
   }
