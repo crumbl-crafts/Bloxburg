@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 341,
-    "joined_today": 0,
+    "total_members": 342,
+    "joined_today": 1,
     "active_shops": 1,
     "avg_response_time": 4930.0
   },
@@ -24,6 +24,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "elsie_29254 joined the server",
+      "timestamp": 1766761877,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1390405456379248700"
+    },
     {
       "type": "member_join",
       "shop_name": "Server",
@@ -542,6 +551,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "STILL LOOKING #roblox#robloxmemes#robloxedit#robloxgameplay#robloxstory#robloxtutorial#bloxburg",
+      "description": "Messi ronaldo tung tung shaur giveaway subscribe me #roblox #robloxmemes #robloxedit #robloxgameplay...",
+      "source": "YouTube",
+      "timestamp": 1766760602.0,
+      "url": "https://www.youtube.com/watch?v=oPEowneyPAI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "3 Things You Should Never do in bloxburg #bloxburg #roblox #viral",
       "description": "...",
       "source": "YouTube",
@@ -586,15 +604,6 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "AKU JUMPA BALIK TEAM GAMEONZZ LAMA DEKAT BLOXBURG \ud83d\ude2d [KENANGAN] (Roblox Malaysia)",
-      "description": "Selamat Datang Ke Channel GameOnzz!    \u200d\u2642\ufe0f Terima kasih kerana sudi meluangkan masa anda semua untuk...",
-      "source": "YouTube",
-      "timestamp": 1766736006.0,
-      "url": "https://www.youtube.com/watch?v=tvOFnp7Ng5E",
-      "icon": "fa-youtube"
-    },
-    {
       "type": "community",
       "title": "Weekly Build Contest",
       "description": "Submit your best holiday-themed builds to win prizes!",
@@ -623,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766761208.659897,
+    "generated_at": 1766761879.807166,
     "mode": "memory",
     "refresh_interval": 2000
   }
