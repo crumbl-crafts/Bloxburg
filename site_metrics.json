@@ -1,6 +1,6 @@
 {
   "summary": {
-    "builder_count": 1,
+    "builder_count": 2,
     "total_completed": 0,
     "total_requests": 5,
     "total_ratings": 1,
@@ -21,6 +21,15 @@
       "avatar_url": "https://cdn.discordapp.com/avatars/1098992055272878081/3d5587425a502f14a7fbf5cfaaa493a1.png?size=1024",
       "server_id": 1301988304279048275,
       "url": "https://discord.com/channels/1301988304279048275/1446931774826610790"
+    },
+    {
+      "shop_name": "Kae's Shop",
+      "completed_projects": 0,
+      "average_rating": 0.0,
+      "thread_id": 1454065530146128005,
+      "avatar_url": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/channels/1301988304279048275/1454065530146128005"
     }
   ],
   "activityLog": [
@@ -586,53 +595,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "PEACH FAMILY CHRISTMAS DAY SPECIAL! *THEY GOT SO MANY GIFTS* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1766692806.0,
-      "url": "https://www.youtube.com/watch?v=gj6a6xrxAYY",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1765563563.6636922,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "BLOXBURG NEW TAXI JOB UPDATE TEASER? AND ALL 16 ELVES HUNT ROUTE GUIDE",
-      "description": "MERRY CHRISTMAS BREADFAM! Today Bloxburg posted a brand new update teaser photo that could be hintin...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1766690211.0,
-      "url": "https://www.youtube.com/watch?v=BPU_7DLOgwo",
-      "icon": "fa-youtube"
+      "timestamp": 1765559963.663694,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "Touring a 1.4MIL Bloxburg Mansion#roblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766677310.0,
-      "url": "https://www.youtube.com/watch?v=EEuiM1SahTQ",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1765556363.6636944,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "ENVIA ISSO PRA ALGU\u00c9M\u2620\ufe0f\u2620\ufe0f",
-      "description": "ENVIA ISSO PRA ALGUMA PESSOA #roblox #viral #edit #stealabrainrot #bloxfruits #brookhaven #bloxburg ...",
-      "source": "YouTube",
-      "timestamp": 1766671812.0,
-      "url": "https://www.youtube.com/watch?v=daqtMlvkjX4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#minecraft #roblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766665665.0,
-      "url": "https://www.youtube.com/watch?v=UlHDtk7JZ04",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1765552763.6636949,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1766745569.9586003,
+    "generated_at": 1766746640.2202399,
     "mode": "memory",
     "refresh_interval": 2000
   }
