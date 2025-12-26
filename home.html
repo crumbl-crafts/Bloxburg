@@ -4,7 +4,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Crumbl Crafts · Premium Bloxburg Network</title>
-  <meta name="description" content="Crumbl Crafts — Premium Japanese-style interactive Bloxburg server hub">
+  <title>[Crumbl Crafts] Github Site for Ease of Access and premium services</title>
+  <meta name="description" content="Crumbl Crafts — Github site for ease of access and premium services. Explore premium building tools, community features, and more.">
+  <link rel="canonical" href="https://your-username.github.io/Crumbl-Crafts/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="[Crumbl Crafts] Github Site for Ease of Access and premium services">
+  <meta property="og:description" content="Crumbl Crafts — Github site for ease of access and premium services. Explore premium building tools, community features, and more.">
+  <meta property="og:image" content="/happy.gif">
+  <meta property="og:image:alt" content="Crumbl Crafts mascot">
+  <meta property="og:url" content="/">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="[Crumbl Crafts] Github Site for Ease of Access and premium services">
+  <meta name="twitter:description" content="Crumbl Crafts — Github site for ease of access and premium services. Explore premium building tools, community features, and more.">
+  <meta name="twitter:image" content="/happy.gif">
+  <meta name="twitter:image:alt" content="Crumbl Crafts mascot">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@400;700;900&family=M+PLUS+Rounded+1c:wght@400;700;800&display=swap" rel="stylesheet">
   <style>
@@ -385,27 +402,53 @@
       background: linear-gradient(145deg, rgba(30, 30, 60, 0.95), rgba(40, 40, 80, 0.95));
       border: 2px solid var(--primary);
       border-radius: 24px 24px 24px 8px;
-      padding: 25px;
-      min-width: 220px;
-      max-width: 300px;
+      /* slightly smaller padding so small messages don't look empty */
+      padding: 14px 16px;
+      /* allow width to size to content but clamp with max/min */
+      display: inline-block;
+      width: auto;
+      min-width: 140px;
+      max-width: 320px;
       max-height: 300px;
       overflow-y: auto;
+      /* Reserve a single stable gutter to avoid double-sided reserved space */
+      scrollbar-gutter: stable;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(255,255,255,0.12) transparent;
       box-shadow: 
         0 15px 35px rgba(0, 0, 0, 0.5),
         inset 0 1px 0 rgba(255, 255, 255, 0.1),
         0 0 20px var(--border-glow);
       font-family: 'Kosugi Maru', sans-serif;
       font-size: 1rem;
-      line-height: 1.6;
+      line-height: 1.4;
       color: var(--text);
       z-index: 1001;
       opacity: 0;
       transform: translateY(20px) scale(0.95);
-      transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+      transition: all 0.28s cubic-bezier(0.34, 1.56, 0.64, 1);
       pointer-events: none;
       word-break: break-word;
       overflow-wrap: break-word;
       backdrop-filter: blur(10px);
+    }
+
+    /* Thin, subtle scrollbar for the speech bubble */
+    .speech-bubble::-webkit-scrollbar {
+      width: 9px;
+      height: 9px;
+    }
+
+    .speech-bubble::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .speech-bubble::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, rgba(255,255,255,0.12), rgba(255,255,255,0.06));
+      border-radius: 8px;
+      border: 2px solid transparent;
+      background-clip: padding-box;
     }
 
     .speech-bubble.right-side {
@@ -943,11 +986,24 @@
         this.mascotImage = document.getElementById('mascotImage');
         this.mascotWrapper = document.getElementById('mascotWrapper');
         this.speechBubble = document.getElementById('speechBubble');
+        // Ensure the speech bubble is a direct child of <body> so fixed positioning
+        // and pointer-events are not affected by the mascot wrapper.
+        try {
+          if (this.speechBubble && this.speechBubble.parentElement !== document.body) {
+            document.body.appendChild(this.speechBubble);
+          }
+          if (this.speechBubble) {
+            this.speechBubble.style.pointerEvents = this.speechBubble.style.pointerEvents || 'auto';
+          }
+        } catch (err) {
+          console.warn('Could not reparent speechBubble:', err);
+        }
         this.particlesContainer = document.getElementById('particlesContainer');
         this.currentTarget = null;
         this.isWalking = false;
         this.isExplaining = false;
         this.isTyping = false;
+        this._typingCancelled = false;
         this.isIdle = true;
         this.idleTimeout = null;
         
@@ -1279,6 +1335,24 @@
         if (!this.speechBubble) this.speechBubble = document.getElementById('speechBubble');
         if (!this.speechBubble) return;
 
+          // prefer content-sized width for mood messages as well
+          try {
+            this.speechBubble.style.width = 'auto';
+            this.speechBubble.style.minWidth = this.speechBubble.style.minWidth || '140px';
+            this.speechBubble.style.maxWidth = this.speechBubble.style.maxWidth || '320px';
+            this.speechBubble.style.padding = this.speechBubble.style.padding || '14px 16px';
+          } catch (e) {}
+
+          // prefer content-sized width for short messages so we don't waste space
+          try {
+            this.speechBubble.style.width = 'auto';
+            this.speechBubble.style.minWidth = this.speechBubble.style.minWidth || '140px';
+            this.speechBubble.style.maxWidth = this.speechBubble.style.maxWidth || '320px';
+            this.speechBubble.style.padding = this.speechBubble.style.padding || '14px 16px';
+          } catch (e) {
+            // ignore styling errors
+          }
+
         this.speechBubble.classList.add('show');
         // force visible and interactive while speaking
         this.speechBubble.style.display = 'block';
@@ -1394,23 +1468,49 @@
       }
       
       hideMessage() {
+        if (!this.speechBubble) return;
+        // cancel any in-progress typing
+        this._typingCancelled = true;
+
+        // start hide animation and disable interactions
         this.speechBubble.classList.remove('show');
-        this.speechBubble.innerHTML = '';
-        this.isTyping = false;
+        this.speechBubble.style.opacity = '0';
+        this.speechBubble.style.transform = 'translateY(20px) scale(0.95)';
+        this.speechBubble.style.pointerEvents = 'none';
+
+        // clear scheduled hide timer
+        try { clearTimeout(this.messageTimeout); } catch (e) {}
+
+        // after transition, clear content and remove from flow
+        setTimeout(() => {
+          try {
+            if (this.speechBubble) {
+              this.speechBubble.innerHTML = '';
+              this.speechBubble.style.display = 'none';
+            }
+          } catch (e) {}
+          this.isTyping = false;
+        }, 350);
       }
       
       typeText(text, speed = 30) {
         if (this.isTyping) return;
-        
+
+        this._typingCancelled = false;
         this.isTyping = true;
         this.speechBubble.innerHTML = '';
         const typingElement = document.createElement('span');
         typingElement.className = 'typing-text';
         this.speechBubble.appendChild(typingElement);
-        
+
         let i = 0;
-        
+
         const typeWriter = () => {
+          if (this._typingCancelled) {
+            this.isTyping = false;
+            return;
+          }
+
           if (i < text.length) {
             typingElement.textContent += text.charAt(i);
             i++;
@@ -1418,12 +1518,14 @@
           } else {
             this.isTyping = false;
             setTimeout(() => {
-              typingElement.style.animation = 'none';
-              typingElement.style.borderRight = 'none';
+              try {
+                typingElement.style.animation = 'none';
+                typingElement.style.borderRight = 'none';
+              } catch (e) {}
             }, 1500);
           }
         };
-        
+
         typeWriter();
       }
       
