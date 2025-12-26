@@ -524,6 +524,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Robbing houses \u2728\u2728\u2728\ud83e\udd29 #giveusourstolenmoneyback #roblox #bloxburg #whydidntmyexcomeback #edit",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766704851.0,
+      "url": "https://www.youtube.com/watch?v=g5CJOeCFBK4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Let&#39;s tour a Santa&#39;s Toy Workshop in BLOXBURG with me \ud83c\udf85 #bloxburgbuild #bloxburg #roblox",
       "description": "Thank you for watching. In this short, I'm touring my favorite view from the santa's toy workshop bu...",
       "source": "YouTube",
@@ -551,20 +560,11 @@
     },
     {
       "type": "trend",
-      "title": "\ud83c\udf85CHRISTMAS DAY Family Roleplay on Bloxburg!\ud83c\udf84",
-      "description": "MERRY CHRISTMAS MY SUBSCRIBERRIES! I LOVE YOU ALL SO SO MUCH!     Thank you BERRY much for watching ...",
-      "source": "YouTube",
-      "timestamp": 1766683806.0,
-      "url": "https://www.youtube.com/watch?v=7Yp007Qi55E",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "vlogmas day 25!!!! MERRY CHRISTMAS \ud83c\udf84\ud83c\udf81 #vlogmas #roblox #bloxburg #bloxburgrp #fyp",
+      "title": "Touring a 1.4MIL Bloxburg Mansion#roblox #bloxburg",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1766677292.0,
-      "url": "https://www.youtube.com/watch?v=mu6wnDsr3vs",
+      "timestamp": 1766677310.0,
+      "url": "https://www.youtube.com/watch?v=EEuiM1SahTQ",
       "icon": "fa-youtube"
     },
     {
@@ -605,7 +605,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766719169.9570973,
+    "generated_at": 1766720369.9537716,
     "mode": "memory",
     "refresh_interval": 2000
   }
