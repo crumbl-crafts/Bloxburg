@@ -26,7 +26,7 @@
       "shop_name": "Kae's Shop",
       "completed_projects": 0,
       "average_rating": 0.0,
-      "thread_id": 1454065530146128005,
+      "thread_id": null,
       "avatar_url": null,
       "server_id": 1301988304279048275,
       "url": "https://discord.com/channels/1301988304279048275/1454065530146128005"
@@ -632,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766746640.2202399,
+    "generated_at": 1766746769.959279,
     "mode": "memory",
     "refresh_interval": 2000
   }
