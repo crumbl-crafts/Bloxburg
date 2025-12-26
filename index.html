@@ -12,7 +12,7 @@
   <meta property="og:title" content="[Crumbl Crafts] Bloxburg Builder Hub - Stats, Leaderboards & Notifications">
   <meta property="og:description" content="You can view our builder shops stats, leaderboard and get various notifications. Not only that, we are adding new sections for our cooking department and roleplay department so you can enjoy Bloxburg to the fullest.">
   <meta property="og:image" content="https://crumbl-crafts.github.io/Bloxburg/happy.gif">
-  <meta property="og:image:alt" content="Crumbl Crafts mascot">
+  <meta property="og:image:alt" content="background of building dept">
   <meta property="og:url" content="https://crumbl-crafts.github.io/Bloxburg/home.html">
 
   <!-- Twitter -->
@@ -20,7 +20,7 @@
   <meta name="twitter:title" content="[Crumbl Crafts] Bloxburg Builder Hub - Stats, Leaderboards & Notifications">
   <meta name="twitter:description" content="You can view our builder shops stats, leaderboard and get various notifications. Not only that, we are adding new sections for our cooking department and roleplay department so you can enjoy Bloxburg to the fullest.">
   <meta name="twitter:image" content="https://crumbl-crafts.github.io/Bloxburg/happy.gif">
-  <meta name="twitter:image:alt" content="Crumbl Crafts mascot">
+  <meta name="twitter:image:alt" content="background of building dept">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🍪</text></svg>" />
   <!-- Critical resource hints -->
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
@@ -474,13 +474,18 @@
       border-top: 15px solid;
       border-top-color: var(--primary);
       bottom: -15px;
-      left: 40px;
+      left: 50%;
+      transform: translateX(-50%);
       filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.3));
     }
 
-    .speech-bubble.right-side::before {
-      left: auto;
-      right: 40px;
+    .speech-bubble.below-mascot::before {
+      border-top: none;
+      border-bottom: 15px solid;
+      border-bottom-color: var(--primary);
+      bottom: auto;
+      top: -15px;
+      filter: drop-shadow(0 -5px 5px rgba(0, 0, 0, 0.3));
     }
 
     .speech-bubble::after {
@@ -492,13 +497,16 @@
       border-right: 12px solid transparent;
       border-top: 12px solid rgba(40, 40, 80, 0.95);
       bottom: -12px;
-      left: 43px;
+      left: 50%;
+      transform: translateX(-50%);
       z-index: 2;
     }
 
-    .speech-bubble.right-side::after {
-      left: auto;
-      right: 43px;
+    .speech-bubble.below-mascot::after {
+      border-top: none;
+      border-bottom: 12px solid rgba(40, 40, 80, 0.95);
+      bottom: auto;
+      top: -12px;
     }
 
     .speech-bubble.show {
@@ -1015,6 +1023,7 @@
         this._typingCancelled = false;
         this.isIdle = true;
         this.idleTimeout = null;
+        this.hideTimeout = null;
         
         // MOOD-BASED IDLE DIALOGUES - Dynamic Personality System
         this.moodDialogues = {
@@ -1172,6 +1181,7 @@
       onCardHover(event) {
         this.isIdle = false;
         clearTimeout(this.idleTimeout);
+        clearTimeout(this.hideTimeout); // Cancel any pending hide
         
         const card = event.currentTarget;
         this.currentTarget = card;
@@ -1189,8 +1199,11 @@
       }
       
       onCardLeave() {
-        this.currentTarget = null;
-        this.stopExplaining();
+        // Don't hide immediately - keep last message visible for a bit
+        this.hideTimeout = setTimeout(() => {
+          this.currentTarget = null;
+          this.stopExplaining();
+        }, 3000); // Keep visible for 3 seconds
         
         // Remove hover glow effect
         document.querySelectorAll('.premium-card').forEach(card => {
@@ -1541,39 +1554,35 @@
       adjustSpeechBubblePosition() {
         const mascotRect = this.mascotWrapper.getBoundingClientRect();
         const bubble = this.speechBubble;
-        // prefer actual measured size so we position correctly
         const bubbleWidth = (bubble && bubble.offsetWidth) ? bubble.offsetWidth : 300;
         const bubbleHeight = (bubble && bubble.offsetHeight) ? bubble.offsetHeight : 150;
         const margin = 20;
         
         // Reset classes
-        bubble.classList.remove('right-side');
+        bubble.classList.remove('right-side', 'below-mascot');
         
-        // Preferred position: above and to the left of mascot
-        let bubbleLeft = mascotRect.left - bubbleWidth - margin;
-        let bubbleTop = mascotRect.top - bubbleHeight - margin;
-        let isRightSide = false;
+        // Calculate mascot center
+        const mascotCenterX = mascotRect.left + mascotRect.width / 2;
+        const mascotTop = mascotRect.top;
+        const mascotBottom = mascotRect.bottom;
         
-        // Check if fits on left
-        if (bubbleLeft < margin) {
-          // Doesn't fit on left, try right
-          bubbleLeft = mascotRect.right + margin;
-          isRightSide = true;
-          if (bubbleLeft + bubbleWidth > window.innerWidth - margin) {
-            // Doesn't fit on right either, force left
-            bubbleLeft = margin;
-            isRightSide = false;
-          }
-        }
+        // Try to position above first
+        let bubbleTop = mascotTop - bubbleHeight - margin;
+        let isBelow = false;
         
-        // Check if fits above
         if (bubbleTop < margin) {
-          // Doesn't fit above, position below
-          bubbleTop = mascotRect.bottom + margin;
+          // Position below
+          bubbleTop = mascotBottom + margin;
+          isBelow = true;
         }
         
-        // Ensure doesn't go off right
-        if (bubbleLeft + bubbleWidth > window.innerWidth - margin) {
+        // Center horizontally on mascot
+        let bubbleLeft = mascotCenterX - bubbleWidth / 2;
+        
+        // Ensure doesn't go off screen horizontally
+        if (bubbleLeft < margin) {
+          bubbleLeft = margin;
+        } else if (bubbleLeft + bubbleWidth > window.innerWidth - margin) {
           bubbleLeft = window.innerWidth - bubbleWidth - margin;
         }
         
@@ -1586,10 +1595,9 @@
         bubble.style.left = `${bubbleLeft}px`;
         bubble.style.top = `${bubbleTop}px`;
         
-        if (isRightSide) {
-          bubble.classList.add('right-side');
-        } else {
-          bubble.classList.remove('right-side');
+        // Add class for tail direction
+        if (isBelow) {
+          bubble.classList.add('below-mascot');
         }
       }
       
