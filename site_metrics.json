@@ -551,20 +551,20 @@
     },
     {
       "type": "trend",
-      "title": "black and yellow\ud83d\udc9b\ud83d\udda4 #roblox #dance #outfitideas #bloxburg",
-      "description": "youbli3k....",
-      "source": "YouTube",
-      "timestamp": 1766696643.0,
-      "url": "https://www.youtube.com/watch?v=4DFVlDnW22o",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "PEACH FAMILY CHRISTMAS DAY SPECIAL! *THEY GOT SO MANY GIFTS* Roblox Bloxburg Voiced RP Roleplay",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
       "source": "YouTube",
       "timestamp": 1766692806.0,
       "url": "https://www.youtube.com/watch?v=gj6a6xrxAYY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Touring a 1.4MIL Bloxburg Mansion#roblox #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1766677310.0,
+      "url": "https://www.youtube.com/watch?v=EEuiM1SahTQ",
       "icon": "fa-youtube"
     },
     {
@@ -605,7 +605,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766722770.2191124,
+    "generated_at": 1766723969.9601912,
     "mode": "memory",
     "refresh_interval": 2000
   }
