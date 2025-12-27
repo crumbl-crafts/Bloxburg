@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 341,
-    "joined_today": 0,
+    "total_members": 342,
+    "joined_today": 1,
     "active_shops": 2,
     "avg_response_time": 6137.833333333333
   },
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "pixar_lamp410 joined the server",
+      "timestamp": 1766836619,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1398140285057241138"
+    },
     {
       "type": "accepted",
       "shop_name": "itzcrystallil's Shop",
@@ -740,7 +749,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766836137.0438166,
+    "generated_at": 1766836622.2178528,
     "mode": "memory",
     "refresh_interval": 2000
   }
