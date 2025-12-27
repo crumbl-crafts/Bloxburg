@@ -676,6 +676,15 @@
   ],
   "news": [
     {
+      "type": "trend",
+      "title": "Old Roblox\ud83e\udd7a. #oldroblox #roblox",
+      "description": "Old Roblox  . #oldroblox #roblox....",
+      "source": "YouTube",
+      "timestamp": 1766809801.0,
+      "url": "https://www.youtube.com/watch?v=2A90aGrzr9U",
+      "icon": "fa-youtube"
+    },
+    {
       "type": "game_update",
       "title": "New Winter Update Available!",
       "description": "Explore new winter-themed furniture and decorations",
@@ -746,19 +755,10 @@
       "timestamp": 1766771888.0,
       "url": "https://www.youtube.com/watch?v=oma5G1j4fWI",
       "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "NOVO EMPREGO no Bloxburg? #shorts #roblox #bloxburg #novoemprego #roleplay #games",
-      "description": "Mais um vazamento? Nesse v\u00eddeo, eu mostro de fato o que vai vir no Bloxburg, mudando totalmente, a e...",
-      "source": "YouTube",
-      "timestamp": 1766769600.0,
-      "url": "https://www.youtube.com/watch?v=aroWmlTqcu8",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1766844539.6387916,
+    "generated_at": 1766845737.0469296,
     "mode": "memory",
     "refresh_interval": 2000
   }
