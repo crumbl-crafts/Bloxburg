@@ -731,6 +731,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "BLOX FRUITS Dragon \ud83d\udd25#bloxfruits #roblox #edit #robloxfyp #bloxburg",
+      "description": "bloxfruits #roblox #edit #robloxfyp #bloxburg #viral #shots....",
+      "source": "YouTube",
+      "timestamp": 1766877904.0,
+      "url": "https://www.youtube.com/watch?v=L1VHM-8wswU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "FAMILY VACATION TO A HUGE SKI RESORT! *INJURED?* Roblox Bloxburg Voiced RP Roleplay",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
       "source": "YouTube",
@@ -800,19 +809,10 @@
       "timestamp": 1766797730.729382,
       "url": "#",
       "icon": "fa-trophy"
-    },
-    {
-      "type": "trend",
-      "title": "how to know if ur a pro builder in bloxburg #roblox #bloxburg #bloxburgcontentcreator #funny #rp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766790176.0,
-      "url": "https://www.youtube.com/watch?v=ZUPpRL6oMIs",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1766878137.0466468,
+    "generated_at": 1766879337.0479012,
     "mode": "memory",
     "refresh_interval": 2000
   }
