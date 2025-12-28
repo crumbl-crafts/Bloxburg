@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 345,
+    "total_members": 344,
     "joined_today": 1,
     "active_shops": 3,
     "avg_response_time": 6137.833333333333
@@ -42,6 +42,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "vivvny left the server",
+      "timestamp": 1766894420,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/805964068128555008"
+    },
     {
       "type": "new_request_thread",
       "shop_name": "INTERIOR BUILDERS",
@@ -812,7 +821,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766893737.0464923,
+    "generated_at": 1766894422.8899024,
     "mode": "memory",
     "refresh_interval": 2000
   }
