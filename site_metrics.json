@@ -740,6 +740,15 @@
     },
     {
       "type": "trend",
+      "title": "I BUILT LIDL IN BLOXBURG",
+      "description": "bloxburg #roblox #robloxbloxburg Bloxburg needed a new store so I built lidl...and then i worked the...",
+      "source": "YouTube",
+      "timestamp": 1766865639.0,
+      "url": "https://www.youtube.com/watch?v=lfld6Cu5gvc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "judging YOUR bloxburg builds... (16)",
       "description": "JOIN ME ON ROBLOX: https://www.roblox.com/join/isaacfaulty \u2b50 \ud83d\udecd\ufe0f SHOP MY UGC: https://www.roblox.com/...",
       "source": "YouTube",
@@ -754,15 +763,6 @@
       "source": "YouTube",
       "timestamp": 1766851271.0,
       "url": "https://www.youtube.com/watch?v=jksX-dt1f-I",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#memes #funny #edit #roblox #lifeisbutadream #bloxburg #nostalgia",
-      "description": "memes #funny #edit #roblox #lifeisbutadream #bloxburg #nostalgia @triggeredinsaan @RuchikaRathoreOff...",
-      "source": "YouTube",
-      "timestamp": 1766815888.0,
-      "url": "https://www.youtube.com/watch?v=K3JLzWLoYg0",
       "icon": "fa-youtube"
     },
     {
@@ -803,7 +803,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766887737.3495495,
+    "generated_at": 1766888937.0489366,
     "mode": "memory",
     "refresh_interval": 2000
   }
