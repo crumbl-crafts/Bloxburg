@@ -704,15 +704,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "I&#39;m not cute anymore trend in Bloxburg #bloxburg #roblox #imnotcuteanymore #gaming",
-      "description": "I'm not cute anymore trend in Bloxburg #bloxburg #roblox #imnotcuteanymore #gaming....",
-      "source": "YouTube",
-      "timestamp": 1766960305.0,
-      "url": "https://www.youtube.com/watch?v=xtmafxw0SP0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "MOVING BACK TO OUR RENOVATED FAMILY HOME! *IT COST $$$?* Roblox Bloxburg Voiced RP Roleplay",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
       "source": "YouTube",
@@ -745,6 +736,15 @@
       "source": "YouTube",
       "timestamp": 1766891430.0,
       "url": "https://www.youtube.com/watch?v=hCzT_jgfArw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "BLOX FRUITS Dragon \ud83d\udd25#bloxfruits #roblox #edit #robloxfyp #bloxburg",
+      "description": "bloxfruits #roblox #edit #robloxfyp #bloxburg #viral #shots....",
+      "source": "YouTube",
+      "timestamp": 1766877904.0,
+      "url": "https://www.youtube.com/watch?v=L1VHM-8wswU",
       "icon": "fa-youtube"
     },
     {
@@ -785,7 +785,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766963337.3386817,
+    "generated_at": 1766964537.0457609,
     "mode": "memory",
     "refresh_interval": 2000
   }
