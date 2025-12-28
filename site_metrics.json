@@ -653,15 +653,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1066181443614687334",
       "thread_id": null
-    },
-    {
-      "type": "new_request_thread",
-      "shop_name": "Looking for builder",
-      "message": "<@933779619595817000> posted a new request titled: Looking for builder",
-      "timestamp": 1766356669,
-      "thread_id": 1452429886164697270,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/channels/1301988304279048275/1452429886164697270"
     }
   ],
   "pipeline": [
@@ -713,6 +704,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "I&#39;m not cute anymore trend in Bloxburg #bloxburg #roblox #imnotcuteanymore #gaming",
+      "description": "I'm not cute anymore trend in Bloxburg #bloxburg #roblox #imnotcuteanymore #gaming....",
+      "source": "YouTube",
+      "timestamp": 1766960305.0,
+      "url": "https://www.youtube.com/watch?v=xtmafxw0SP0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "MOVING BACK TO OUR RENOVATED FAMILY HOME! *IT COST $$$?* Roblox Bloxburg Voiced RP Roleplay",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
       "source": "YouTube",
@@ -727,15 +727,6 @@
       "source": "YouTube",
       "timestamp": 1766932255.0,
       "url": "https://www.youtube.com/watch?v=u5SMC1NnCXs",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "me during exams.\ud83d\udcda #funny #roblox #memes #haveitoldyoulatelythatiloveyou #bloxburg #memes #nostalgia",
-      "description": "me during exams.   #funny #roblox #memes #haveitoldyoulatelythatiloveyou #bloxburg #memes #nostalgia...",
-      "source": "YouTube",
-      "timestamp": 1766905061.0,
-      "url": "https://www.youtube.com/watch?v=AakfA26v0Uo",
       "icon": "fa-youtube"
     },
     {
@@ -794,7 +785,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766960937.049297,
+    "generated_at": 1766962137.0455067,
     "mode": "memory",
     "refresh_interval": 2000
   }
