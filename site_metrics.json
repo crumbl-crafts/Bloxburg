@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 343,
+    "total_members": 342,
     "joined_today": 3,
     "active_shops": 3,
     "avg_response_time": 6137.833333333333
@@ -42,6 +42,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "coniophoraputeana left the server",
+      "timestamp": 1766952718,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/608308271610069003"
+    },
     {
       "type": "member_join",
       "shop_name": "Server",
@@ -722,15 +731,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "#roblox #bloxburg #robloxgames #brookhavenrp #robloxstory #natal #navidad #santaclaus #grinch",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766945728.0,
-      "url": "https://www.youtube.com/watch?v=zebhXEV3jFI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Ojo al directo del 29 #roblox #teamchismetv #parati #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -763,6 +763,15 @@
       "source": "YouTube",
       "timestamp": 1766891430.0,
       "url": "https://www.youtube.com/watch?v=hCzT_jgfArw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "BLOX FRUITS Dragon \ud83d\udd25#bloxfruits #roblox #edit #robloxfyp #bloxburg",
+      "description": "bloxfruits #roblox #edit #robloxfyp #bloxburg #viral #shots....",
+      "source": "YouTube",
+      "timestamp": 1766877904.0,
+      "url": "https://www.youtube.com/watch?v=L1VHM-8wswU",
       "icon": "fa-youtube"
     },
     {
@@ -803,7 +812,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766952556.337056,
+    "generated_at": 1766952720.5787876,
     "mode": "memory",
     "refresh_interval": 2000
   }
