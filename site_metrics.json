@@ -1,6 +1,6 @@
 {
   "summary": {
-    "builder_count": 3,
+    "builder_count": 2,
     "total_completed": 0,
     "total_requests": 6,
     "total_ratings": 1,
@@ -9,7 +9,7 @@
   "server": {
     "total_members": 342,
     "joined_today": 0,
-    "active_shops": 3,
+    "active_shops": 2,
     "avg_response_time": 6137.833333333333
   },
   "topBuilders": [
@@ -30,15 +30,6 @@
       "avatar_url": "https://cdn.discordapp.com/avatars/724136479688753213/6bc621a1f96f6a27a9b76ecc698459c0.png?size=1024",
       "server_id": 1301988304279048275,
       "url": "https://discord.com/channels/1301988304279048275/1454182417534288017"
-    },
-    {
-      "shop_name": "Zyntrx Modern Co.",
-      "completed_projects": 0,
-      "average_rating": 0.0,
-      "thread_id": 1454552711843545170,
-      "avatar_url": "https://cdn.discordapp.com/avatars/1438566361889767486/629c969b72ed1638cb33a92f70212a1b.png?size=1024",
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/channels/1301988304279048275/1454552711843545170"
     }
   ],
   "activityLog": [
@@ -655,8 +646,8 @@
     },
     {
       "label": "Active Shops",
-      "value": 3,
-      "trend": "1 open \u00b7 2 limited \u00b7 0 24/7",
+      "value": 2,
+      "trend": "0 open \u00b7 2 limited \u00b7 0 24/7",
       "max": 20
     },
     {
@@ -681,7 +672,7 @@
     },
     {
       "title": "Live Shops",
-      "detail": "3 shops currently accepting commissions",
+      "detail": "2 shops currently accepting commissions",
       "score": "Healthy",
       "status": "good"
     },
@@ -776,7 +767,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1766980137.0478652,
+    "generated_at": 1766980162.0562265,
     "mode": "memory",
     "refresh_interval": 2000
   }
