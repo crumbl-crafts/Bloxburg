@@ -608,15 +608,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1097693325554888766",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "glxwbugg1e left the server",
-      "timestamp": 1766423760,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1200638149706137621",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -668,6 +659,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "\u00c4ntligen nytt jobb i Bloxburg! #bloxburg #taxi #update #newyear2025 #uppdatering #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767027248.0,
+      "url": "https://www.youtube.com/watch?v=SW3AmSkbhCw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Morning routine (Bloxburg) #bloxburg #roblox",
       "description": "...",
       "source": "YouTube",
@@ -686,29 +686,20 @@
     },
     {
       "type": "trend",
+      "title": "We Did This Trend Together! \ud83d\udc83\ud83d\udc40 #berryave #roblox #robloxrp #bloxburg #brookhaven",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767022414.0,
+      "url": "https://www.youtube.com/watch?v=3g27tCRaPeU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#bloxfruits #bloxburg #bloxfruitsupdate",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1766999230.0,
       "url": "https://www.youtube.com/watch?v=nVKk7Jqm6Zg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#robloxedit #roblox #bloxburg #memes",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766997815.0,
-      "url": "https://www.youtube.com/watch?v=ZGeaA7hpwzU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Perd\u00ed mi celular :( \ud83d\udcf2\ud83c\uddf2\ud83c\uddfd (No lo hagas hacerlo) #bloxburg #Mexico #appleiphone #roblox #bc",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1766978953.0,
-      "url": "https://www.youtube.com/watch?v=VsiIZMckl8s",
       "icon": "fa-youtube"
     },
     {
@@ -749,7 +740,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767028137.3614292,
+    "generated_at": 1767029337.05082,
     "mode": "memory",
     "refresh_interval": 2000
   }
