@@ -617,15 +617,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1200638149706137621",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "butter_fly_2 left the server",
-      "timestamp": 1766418033,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1415548905466105896",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -758,7 +749,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767022737.498823,
+    "generated_at": 1767023337.046062,
     "mode": "memory",
     "refresh_interval": 2000
   }
