@@ -644,15 +644,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1025517334598799541",
       "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "diaryof_amie joined the server",
-      "timestamp": 1766414361,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1382136534987444224",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -785,7 +776,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767018537.0469794,
+    "generated_at": 1767019737.0487418,
     "mode": "memory",
     "refresh_interval": 2000
   }
