@@ -641,6 +641,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "bloxburg grotto build #bloxburg #roblox #robloxbloxburgspeedbuild",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767064850.0,
+      "url": "https://www.youtube.com/watch?v=jj6CFmSSZAQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Checking out the new taxi update in Bloxburg!! #roblox #bloxburgcontentcreator #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -673,15 +682,6 @@
       "source": "YouTube",
       "timestamp": 1767035681.0,
       "url": "https://www.youtube.com/watch?v=peoqlGXRJ0o",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "NUEVA ACTUALIZACIO\u0301N DE TAXI EN BLOXBURG! (Nuevo Trabajo, Muebles y Ma\u0301s!)",
-      "description": "\u00danete a mi grupo de Roblox: https://www.roblox.com/groups/5045574/grupo-oficial-de-fessy#!/about S\u00edg...",
-      "source": "YouTube",
-      "timestamp": 1767034856.0,
-      "url": "https://www.youtube.com/watch?v=y_MSwI3jrZs",
       "icon": "fa-youtube"
     },
     {
@@ -722,7 +722,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767065937.3405783,
+    "generated_at": 1767066537.0470629,
     "mode": "memory",
     "refresh_interval": 2000
   }
