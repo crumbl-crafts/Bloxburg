@@ -659,15 +659,6 @@
     },
     {
       "type": "trend",
-      "title": "DISURUH BERSIH BERSIH SAMA SUMALANYA BIMALA FAMILY |  BLOXBURG\ud83c\udfe1RP",
-      "description": "HAI TERIMAKASIH SUDAH MENONTON JANGAN LUPA SUBSCRIBE DAN LIKE YA KALO KAMU SUDAH SUBSCRIBE, ......",
-      "source": "YouTube",
-      "timestamp": 1767082324.0,
-      "url": "https://www.youtube.com/watch?v=v1yeJBhmpF8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "test-2 #roblox #bloxburg #robloxedit #robloxstory #christmas #relatable #crazily #robloxrant #rblx",
       "description": "...",
       "source": "YouTube",
@@ -691,6 +682,15 @@
       "source": "YouTube",
       "timestamp": 1767064850.0,
       "url": "https://www.youtube.com/watch?v=jj6CFmSSZAQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Checking out the new taxi update in Bloxburg!! #roblox #bloxburgcontentcreator #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767061358.0,
+      "url": "https://www.youtube.com/watch?v=yTWikN-zBTE",
       "icon": "fa-youtube"
     },
     {
@@ -731,7 +731,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767092937.3732092,
+    "generated_at": 1767094137.051846,
     "mode": "memory",
     "refresh_interval": 2000
   }
