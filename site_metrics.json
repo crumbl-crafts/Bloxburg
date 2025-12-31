@@ -650,6 +650,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Qual emprego paga mais? Taxista ou Hamburgueria? #shorts #roblox #bloxburg #rp #roleplay #games",
+      "description": "Qual dos dois empregos paga melhor? O novo, de Taxista ou a Hamburgueria? Nesse v\u00eddeo, eu decidi faz...",
+      "source": "YouTube",
+      "timestamp": 1767213600.0,
+      "url": "https://www.youtube.com/watch?v=pve21ZeG6oo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\u3010roblox bloxburg\u3011New Year&#39;s Eve in bloxburg",
       "description": "roblox#bloxburg#\u96f6\u54c1\u5fb7....",
       "source": "YouTube",
@@ -682,15 +691,6 @@
       "source": "YouTube",
       "timestamp": 1767157648.0,
       "url": "https://www.youtube.com/watch?v=sDLQxgRxDxI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "me and my gf goofing off in Bloxburg (Bloxburg pool float glitch) ",
-      "description": "This is just me and my gf goofing off in Bloxburg....",
-      "source": "YouTube",
-      "timestamp": 1767142447.0,
-      "url": "https://www.youtube.com/watch?v=kFmiYSLWAxw",
       "icon": "fa-youtube"
     },
     {
@@ -731,7 +731,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767215337.0635672,
+    "generated_at": 1767216537.0493677,
     "mode": "memory",
     "refresh_interval": 2000
   }
