@@ -650,11 +650,29 @@
   "news": [
     {
       "type": "trend",
+      "title": "OUR FAMILY NEW YEARS EVE PARTY! *WE MISSED THE COUNTDOWN* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1767214806.0,
+      "url": "https://www.youtube.com/watch?v=fmmB3rgbgzw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Qual emprego paga mais? Taxista ou Hamburgueria? #shorts #roblox #bloxburg #rp #roleplay #games",
       "description": "Qual dos dois empregos paga melhor? O novo, de Taxista ou a Hamburgueria? Nesse v\u00eddeo, eu decidi faz...",
       "source": "YouTube",
       "timestamp": 1767213600.0,
       "url": "https://www.youtube.com/watch?v=pve21ZeG6oo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "I HOSTED THE WORST NEW YEARS PARTY IN BLOXBURG",
+      "description": "bloxburg #roblox #robloxbloxburg This hotel was the worst venue ever...watch too see how much went w...",
+      "source": "YouTube",
+      "timestamp": 1767211260.0,
+      "url": "https://www.youtube.com/watch?v=xu-oVBYXbhg",
       "icon": "fa-youtube"
     },
     {
@@ -673,24 +691,6 @@
       "source": "YouTube",
       "timestamp": 1767185158.0,
       "url": "https://www.youtube.com/watch?v=uTAK3I_W1_o",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg news report\ud83d\udc80. #roblox #bloxburg",
-      "description": "Bloxburg news report  . #roblox #bloxburg....",
-      "source": "YouTube",
-      "timestamp": 1767175285.0,
-      "url": "https://www.youtube.com/watch?v=l3JBNDC2J6E",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Prediction for 2026 Bloxburg #bloxburg #bloxburghouse",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767157648.0,
-      "url": "https://www.youtube.com/watch?v=sDLQxgRxDxI",
       "icon": "fa-youtube"
     },
     {
@@ -731,7 +731,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767220137.050447,
+    "generated_at": 1767221337.0550854,
     "mode": "memory",
     "refresh_interval": 2000
   }
