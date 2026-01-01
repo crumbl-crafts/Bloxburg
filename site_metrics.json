@@ -599,15 +599,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1141073569342820372",
       "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "discreetbratz joined the server",
-      "timestamp": 1766627421,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1165673505648554185",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -740,7 +731,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767232137.051536,
+    "generated_at": 1767233337.056218,
     "mode": "memory",
     "refresh_interval": 2000
   }
