@@ -590,15 +590,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/724136479688753213",
       "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "user9103810 joined the server",
-      "timestamp": 1766633592,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1141073569342820372",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -731,7 +722,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767238137.0474212,
+    "generated_at": 1767238737.3950996,
     "mode": "memory",
     "refresh_interval": 2000
   }
