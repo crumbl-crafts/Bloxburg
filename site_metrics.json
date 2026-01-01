@@ -713,15 +713,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "Happy new year \ud83c\udf86#2026# free fire",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767230207.0,
-      "url": "https://www.youtube.com/watch?v=wzFB4KMGzC4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "OUR FAMILY NEW YEARS EVE PARTY! *WE MISSED THE COUNTDOWN* Roblox Bloxburg Voiced RP Roleplay",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
       "source": "YouTube",
@@ -754,6 +745,15 @@
       "source": "YouTube",
       "timestamp": 1767197026.0,
       "url": "https://www.youtube.com/watch?v=9vnDqXHUO-A",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Bloxburg news report\ud83d\udc80. #roblox #bloxburg",
+      "description": "Bloxburg news report  . #roblox #bloxburg....",
+      "source": "YouTube",
+      "timestamp": 1767175285.0,
+      "url": "https://www.youtube.com/watch?v=l3JBNDC2J6E",
       "icon": "fa-youtube"
     },
     {
@@ -794,7 +794,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767266937.0842853,
+    "generated_at": 1767268137.0548604,
     "mode": "memory",
     "refresh_interval": 2000
   }
