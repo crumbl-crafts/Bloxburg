@@ -964,15 +964,6 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "JOB JOB JOB SAHUR BRAINROT FOR DAISY! #shorts #roblox #roleplay #bloxburg #stealabrainrot",
-      "description": "JOB JOB JOB SAHUR BRAINROT FOR DAISY! Make sure to like and check out the full video in the link to ...",
-      "source": "YouTube",
-      "timestamp": 1767715240.0,
-      "url": "https://www.youtube.com/watch?v=MqJTom-Zo4g",
-      "icon": "fa-youtube"
-    },
-    {
       "type": "game_update",
       "title": "New Winter Update Available!",
       "description": "Explore new winter-themed furniture and decorations",
@@ -1034,10 +1025,19 @@
       "timestamp": 1767665421.0,
       "url": "https://www.youtube.com/watch?v=jFXYvMKjZi4",
       "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "PICK A SIDE! #roblox #stitch #prime #ronaldo #messi #bloxburg #shortsfeed #shorts #trending #trend",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767664776.0,
+      "url": "https://www.youtube.com/watch?v=gS4zHh5p1EU",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1767733226.2713554,
+    "generated_at": 1767733825.901965,
     "mode": "memory",
     "refresh_interval": 2000
   }
