@@ -956,6 +956,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "MY DAUGHTERS BACK TO SCHOOL MORNING ROUTINE! *BUSY!!* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1767733206.0,
+      "url": "https://www.youtube.com/watch?v=I_Hihc1QT44",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "I BUILT THE APPLE STORE IN BLOXBURG",
+      "description": "bloxburg #roblox #robloxbloxburg Bloxburg town needs an upgrade so I built an Apple Store...how will...",
+      "source": "YouTube",
+      "timestamp": 1767729606.0,
+      "url": "https://www.youtube.com/watch?v=7Jy-kJwA21g",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Glimps of the video #roblox #bloxburg #funny #youtubeshorts",
       "description": "...",
       "source": "YouTube",
@@ -1016,28 +1034,10 @@
       "timestamp": 1767665596.0,
       "url": "https://www.youtube.com/watch?v=ETOc4hpQJXk",
       "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "PICK A SIDE! #roblox #stitch #prime #ronaldo #messi #bloxburg #shortsfeed #shorts #trending #trend",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767665421.0,
-      "url": "https://www.youtube.com/watch?v=jFXYvMKjZi4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "PICK A SIDE! #roblox #stitch #prime #ronaldo #messi #bloxburg #shortsfeed #shorts #trending #trend",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767664776.0,
-      "url": "https://www.youtube.com/watch?v=gS4zHh5p1EU",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1767735025.890021,
+    "generated_at": 1767736225.890707,
     "mode": "memory",
     "refresh_interval": 2000
   }
