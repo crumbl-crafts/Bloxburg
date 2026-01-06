@@ -26,6 +26,17 @@ from typing import Any, Callable, Dict, List, Optional, Sequence
 from aiohttp import web
 from dotenv import load_dotenv
 
+# Optional Firebase Admin SDK (used for server-side RTDB writes like /siteStats)
+try:
+    import firebase_admin
+    from firebase_admin import credentials, db
+    HAS_FIREBASE_ADMIN = True
+except Exception:  # pragma: no cover
+    firebase_admin = None  # type: ignore
+    credentials = None  # type: ignore
+    db = None  # type: ignore
+    HAS_FIREBASE_ADMIN = False
+
 load_dotenv()
 
 LOGGER = logging.getLogger("MetricsAPI")
@@ -50,6 +61,132 @@ _metrics_payload_callback: Optional[Callable[[], Dict[str, Any]]] = None
 _metrics_cache: Optional[Dict[str, Any]] = None
 _metrics_cache_time: float = 0
 _CACHE_TTL = 0.25  # Cache for 250ms for faster updates while reducing overhead
+
+# Firebase Admin singletons (lazy-init)
+_FIREBASE_APP = None
+_FIREBASE_INIT_ERROR: Optional[str] = None
+
+# Simple in-memory IP rate-limit for visit increment endpoint
+_SITE_STATS_LAST_SEEN: Dict[str, float] = {}
+
+
+def _get_client_ip(request: web.Request) -> str:
+    # Respect common proxy header; fall back to aiohttp's remote.
+    forwarded_for = request.headers.get("X-Forwarded-For", "")
+    if forwarded_for:
+        return forwarded_for.split(",")[0].strip()
+    return (request.remote or "unknown").strip()
+
+
+def _ensure_firebase_admin() -> None:
+    """Initialize Firebase Admin (once) for RTDB operations."""
+    global _FIREBASE_APP, _FIREBASE_INIT_ERROR
+
+    if _FIREBASE_APP is not None or _FIREBASE_INIT_ERROR is not None:
+        return
+
+    if not HAS_FIREBASE_ADMIN:
+        _FIREBASE_INIT_ERROR = "firebase-admin not installed"
+        return
+
+    db_url = (
+        os.getenv("FIREBASE_DATABASE_URL")
+        or os.getenv("FIREBASE_RTDB_URL")
+        or os.getenv("FIREBASE_DB_URL")
+        or ""
+    ).strip()
+    if not db_url:
+        _FIREBASE_INIT_ERROR = "missing FIREBASE_DATABASE_URL (Realtime Database URL)"
+        return
+
+    service_account_json = (os.getenv("FIREBASE_SERVICE_ACCOUNT_JSON") or "").strip()
+    service_account_path = (
+        os.getenv("FIREBASE_SERVICE_ACCOUNT_PATH")
+        or os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+        or ""
+    ).strip()
+
+    try:
+        if service_account_json:
+            cred = credentials.Certificate(json.loads(service_account_json))
+        elif service_account_path:
+            cred = credentials.Certificate(service_account_path)
+        else:
+            _FIREBASE_INIT_ERROR = "missing FIREBASE_SERVICE_ACCOUNT_JSON or FIREBASE_SERVICE_ACCOUNT_PATH"
+            return
+
+        _FIREBASE_APP = firebase_admin.initialize_app(cred, {"databaseURL": db_url})
+        LOGGER.info("Firebase Admin initialized for RTDB URL: %s", db_url)
+    except Exception as exc:  # pylint: disable=broad-except
+        _FIREBASE_INIT_ERROR = str(exc)
+        LOGGER.error("Firebase Admin init failed: %s", exc)
+
+
+async def handle_site_stats_increment(request: web.Request) -> web.Response:
+    """Increment siteStats.totalVisits via server-side Firebase Admin SDK.
+
+    This replaces unauthenticated client-side RTDB REST writes.
+    """
+    # Basic rate-limit per IP (defaults to 30s; configurable)
+    ip = _get_client_ip(request)
+    now = time.time()
+    min_interval = float(os.getenv("SITE_STATS_RATE_LIMIT_SECONDS", "30") or "30")
+    last = _SITE_STATS_LAST_SEEN.get(ip)
+    if last is not None and (now - last) < min_interval:
+        return web.json_response({"ok": False, "rate_limited": True}, status=429)
+    _SITE_STATS_LAST_SEEN[ip] = now
+
+    _ensure_firebase_admin()
+    if _FIREBASE_APP is None:
+        return web.json_response(
+            {"ok": False, "error": "firebase_not_configured", "detail": _FIREBASE_INIT_ERROR or "unknown"},
+            status=503,
+        )
+
+    # Atomic transaction on /siteStats object
+    def txn(current):
+        if not isinstance(current, dict):
+            current = {}
+
+        current_total = current.get("totalVisits")
+        try:
+            current_total = int(current_total or 0)
+        except Exception:
+            current_total = 0
+
+        # Establish a stable firstSeen so the UI can compute a meaningful Avg/day.
+        first_seen = current.get("firstSeen")
+        try:
+            first_seen = int(first_seen) if first_seen is not None else None
+        except Exception:
+            first_seen = None
+        if not first_seen:
+            first_seen = int(now)
+            current["firstSeen"] = first_seen
+
+        # Compute days since firstSeen (inclusive), minimum 1.
+        elapsed_days = int((int(now) - int(first_seen)) / 86400) + 1
+        period_days = max(1, elapsed_days)
+
+        current["totalVisits"] = current_total + 1
+        current["periodDays"] = period_days
+        current["lastUpdated"] = int(now)
+        return current
+
+    try:
+        updated = await asyncio.get_running_loop().run_in_executor(
+            None,
+            lambda: db.reference("siteStats").transaction(txn),
+        )
+        return web.json_response(
+            {
+                "ok": True,
+                "siteStats": updated or {},
+            }
+        )
+    except Exception as exc:
+        LOGGER.error("Failed to increment siteStats: %s", exc)
+        raise web.HTTPInternalServerError(text="failed to increment siteStats") from exc
 
 def set_metrics_payload_callback(callback: Callable[[], Dict[str, Any]]) -> None:
     """Set the callback function that returns the metrics payload from bot memory."""
@@ -409,7 +546,7 @@ class MetricsService:
 async def cors_middleware(request: web.Request, handler):  # type: ignore[override]
     allow_origin = os.getenv("CORS_ALLOW_ORIGIN", "*")
     allow_headers = os.getenv("CORS_ALLOW_HEADERS", "Content-Type")
-    allow_methods = os.getenv("CORS_ALLOW_METHODS", "GET,OPTIONS")
+    allow_methods = os.getenv("CORS_ALLOW_METHODS", "GET,POST,OPTIONS")
 
     if request.method == "OPTIONS":
         response = web.Response(status=204)
@@ -430,6 +567,10 @@ def create_app() -> web.Application:
     app.on_cleanup.append(service.cleanup)
     app.router.add_get("/api/metrics", service.handle_metrics)
     app.router.add_options("/api/metrics", lambda request: web.Response(status=204))
+
+    # Server-side siteStats increment endpoint
+    app.router.add_post("/api/siteStats/increment", handle_site_stats_increment)
+    app.router.add_options("/api/siteStats/increment", lambda request: web.Response(status=204))
     return app
 
 
