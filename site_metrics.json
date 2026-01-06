@@ -971,19 +971,10 @@
       "timestamp": 1767664535.0,
       "url": "https://www.youtube.com/watch?v=vG32NIoD4Vs",
       "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "PICK A SIDE! #roblox #stitch #prime #ronaldo #messi #bloxburg #shortsfeed #shorts #trending #trend",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767663340.0,
-      "url": "https://www.youtube.com/watch?v=GGoNRu_gYdo",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1767703825.8913734,
+    "generated_at": 1767705025.8879158,
     "mode": "memory",
     "refresh_interval": 2000
   }
