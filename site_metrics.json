@@ -920,6 +920,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Glimps of the video #roblox #bloxburg #funny #youtubeshorts",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767721733.0,
+      "url": "https://www.youtube.com/watch?v=A5ql4bcsxpw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "JOB JOB JOB SAHUR BRAINROT FOR DAISY! #shorts #roblox #roleplay #bloxburg #stealabrainrot",
       "description": "JOB JOB JOB SAHUR BRAINROT FOR DAISY! Make sure to like and check out the full video in the link to ...",
       "source": "YouTube",
@@ -989,19 +998,10 @@
       "timestamp": 1767665421.0,
       "url": "https://www.youtube.com/watch?v=jFXYvMKjZi4",
       "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "PICK A SIDE! #roblox #stitch #prime #ronaldo #messi #bloxburg #shortsfeed #shorts #trending #trend",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767664776.0,
-      "url": "https://www.youtube.com/watch?v=gS4zHh5p1EU",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1767727826.2891557,
+    "generated_at": 1767729025.8992898,
     "mode": "memory",
     "refresh_interval": 2000
   }
