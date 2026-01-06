@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 351,
-    "joined_today": 1,
+    "total_members": 352,
+    "joined_today": 2,
     "active_shops": 2,
     "avg_response_time": 4116.0
   },
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "rockyroad2847 joined the server",
+      "timestamp": 1767718282,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/769235094481141771"
+    },
     {
       "type": "member_join",
       "shop_name": "Server",
@@ -983,7 +992,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767718225.896871,
+    "generated_at": 1767718285.3120725,
     "mode": "memory",
     "refresh_interval": 2000
   }
