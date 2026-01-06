@@ -974,15 +974,6 @@
     },
     {
       "type": "trend",
-      "title": "DELETING ALL OF MY BLOXBURG PLOTS...",
-      "description": "to start the new year fresh I decided to bulldoze all my bloxburg plots of 2025... Become A Channel ...",
-      "source": "YouTube",
-      "timestamp": 1767729644.0,
-      "url": "https://www.youtube.com/watch?v=i4k1lpYAP_A",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "I BUILT THE APPLE STORE IN BLOXBURG",
       "description": "bloxburg #roblox #robloxbloxburg Bloxburg town needs an upgrade so I built an Apple Store...how will...",
       "source": "YouTube",
@@ -1034,10 +1025,19 @@
       "timestamp": 1767681018.2690735,
       "url": "#",
       "icon": "fa-trophy"
+    },
+    {
+      "type": "trend",
+      "title": "PICK A SIDE! #roblox #stitch #prime #ronaldo #messi #bloxburg #shortsfeed #shorts #trending #trend",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767666770.0,
+      "url": "https://www.youtube.com/watch?v=14hf_kjyAVY",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1767738626.2357752,
+    "generated_at": 1767739825.8904295,
     "mode": "memory",
     "refresh_interval": 2000
   }
