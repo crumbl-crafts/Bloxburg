@@ -6548,85 +6548,18 @@
                 try{ return new Intl.NumberFormat('en-US',{notation:'compact',maximumFractionDigits:1}).format(Number(n)||0); }catch(e){ return String(n||0); }
             }
 
-            // Batched, de-duplicated persistence for site stats.
+            // Site stats persistence (local-only).
+            // Writes to Firebase are handled server-side via /api/siteStats/increment.
             (function(){
                 const STORAGE_KEY = 'siteStats_lastPersist';
-                const DEFAULT_BACKOFF_MS = 3000;
-                let state = {
-                    lastPersisted: {},
-                    pending: null,
-                    timer: null,
-                    retry: 0
-                };
+                let lastPersisted = {};
+                try { lastPersisted = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}') || {}; } catch(e) { lastPersisted = {}; }
 
-                // Initialize lastPersisted from localStorage to survive reloads
-                try { state.lastPersisted = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}') || {}; } catch(e) { state.lastPersisted = {}; }
-
-                function deepEquals(a,b){
-                    try{ return JSON.stringify(a) === JSON.stringify(b); }catch(e){ return false; }
-                }
-
-                function scheduleSend(delay){
-                    if (state.timer) clearTimeout(state.timer);
-                    state.timer = setTimeout(sendPending, delay || DEFAULT_BACKOFF_MS);
-                }
-
-                async function sendPending(){
-                    state.timer = null;
-                    if (!state.pending) return;
-                    const toSend = Object.assign({}, state.pending);
-
-                    // If nothing changed vs last persisted, clear pending and skip write
-                    const merged = Object.assign({}, state.lastPersisted, toSend);
-                    if (deepEquals(merged, state.lastPersisted)) {
-                        state.pending = null;
-                        return;
-                    }
-
-                    try{
-                        const dbUrl = (window.firebaseApp && window.firebaseApp.options && window.firebaseApp.options.databaseURL)
-                                      || 'https://crumblcrafts-b90cc-default-rtdb.firebaseio.com';
-                        const endpoint = dbUrl.replace(/\/$/, '') + '/siteStats.json';
-                        const resp = await fetch(endpoint, {
-                            method: 'PATCH',
-                            headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify(toSend),
-                            cache: 'no-store'
-                        });
-                        if (!resp.ok) throw new Error('non-ok');
-
-                        // Success: update lastPersisted and persist locally
-                        state.lastPersisted = merged;
-                        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state.lastPersisted)); } catch(e) {}
-                        state.pending = null;
-                        state.retry = 0;
-                    } catch (err) {
-                        console.warn('Failed to persist siteStats (will retry):', err);
-                        state.retry = Math.min(6, state.retry + 1);
-                        // exponential backoff with jitter
-                        const backoff = Math.min(60000, DEFAULT_BACKOFF_MS * Math.pow(2, state.retry));
-                        const jitter = Math.floor(Math.random() * 1000);
-                        scheduleSend(backoff + jitter);
-                    }
-                }
-
-                // Public API: accept stats and batch/dedupe writes
                 window.persistSiteStats = function(stats){
                     if (!stats || typeof stats !== 'object') return;
-                    // Merge into pending
-                    state.pending = Object.assign({}, state.pending || {}, stats);
-
-                    // If new pending merged with lastPersisted is identical, no need to send
-                    const maybeMerged = Object.assign({}, state.lastPersisted, state.pending);
-                    if (deepEquals(maybeMerged, state.lastPersisted)) {
-                        state.pending = null;
-                        return;
-                    }
-
-                    // Schedule a send (short debounce to batch rapid changes)
-                    scheduleSend(2500);
+                    lastPersisted = Object.assign({}, lastPersisted, stats);
+                    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(lastPersisted)); } catch(e) {}
                 };
-
             })();
 
             async function loadSiteStats(){
@@ -6675,7 +6608,12 @@
                         const s = await r.json();
                         const totalVisits = s && (s.totalVisits || s.visits || s.total_requests_all_time || s.totalViews) || 0;
                         const periodDays = s && (s.periodDays || s.days || s.sampleDays || s.period || null) || null;
-                        const days = periodDays || (s && s.periodDays) || 30;
+                        let days = periodDays || 0;
+                        if (!days && s && s.firstSeen) {
+                            const fs = Number(s.firstSeen) || 0;
+                            if (fs > 0) days = Math.max(1, Math.floor((Date.now() / 1000 - fs) / 86400) + 1);
+                        }
+                        if (!days) days = 30;
                         const avgPerDay = days > 0 ? (Number(totalVisits) / days) : 0;
                         totalEl.textContent = formatNumber(totalVisits);
                         avgEl.textContent = (avgPerDay >= 100 ? formatNumber(Math.round(avgPerDay)) : Number(avgPerDay).toFixed(1));
@@ -6708,6 +6646,16 @@
                     try { last = JSON.parse(localStorage.getItem('siteStats_lastPersist') || '{}') || {}; } catch(e){ last = {}; }
                     const lastTotal = Number(last.totalVisits) || Number(currentTotal) || 0;
                     const newTotal = lastTotal + 1;
+
+                    // Fire-and-forget server-side increment (prevents public client writes to Firebase)
+                    try {
+                        const apiBase = new URL(REMOTE_METRICS_ENDPOINT).origin;
+                        fetch(apiBase + '/api/siteStats/increment', {
+                            method: 'POST',
+                            cache: 'no-store',
+                            keepalive: true
+                        }).catch(()=>{});
+                    } catch(e) {}
 
                     // update UI immediately for responsiveness
                     if (totalEl) totalEl.textContent = formatNumber(newTotal);
