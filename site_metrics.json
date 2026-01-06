@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 351,
-    "joined_today": 2,
+    "total_members": 352,
+    "joined_today": 3,
     "active_shops": 2,
     "avg_response_time": 4116.0
   },
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "aqvx1q joined the server",
+      "timestamp": 1767732402,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/850115449845055488"
+    },
     {
       "type": "member_leave",
       "shop_name": "Server",
@@ -1001,7 +1010,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767731425.899672,
+    "generated_at": 1767732405.1582482,
     "mode": "memory",
     "refresh_interval": 2000
   }
