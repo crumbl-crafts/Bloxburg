@@ -8,7 +8,7 @@
   },
   "server": {
     "total_members": 351,
-    "joined_today": 4,
+    "joined_today": 0,
     "active_shops": 2,
     "avg_response_time": 4116.0
   },
@@ -956,11 +956,29 @@
   "news": [
     {
       "type": "trend",
+      "title": "Bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767734247.0,
+      "url": "https://www.youtube.com/watch?v=R0ulHaJtnf8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "MY DAUGHTERS BACK TO SCHOOL MORNING ROUTINE! *BUSY!!* Roblox Bloxburg Voiced RP Roleplay",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
       "source": "YouTube",
       "timestamp": 1767733206.0,
       "url": "https://www.youtube.com/watch?v=I_Hihc1QT44",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "DELETING ALL OF MY BLOXBURG PLOTS...",
+      "description": "to start the new year fresh I decided to bulldoze all my bloxburg plots of 2025... Become A Channel ...",
+      "source": "YouTube",
+      "timestamp": 1767729644.0,
+      "url": "https://www.youtube.com/watch?v=i4k1lpYAP_A",
       "icon": "fa-youtube"
     },
     {
@@ -1016,28 +1034,10 @@
       "timestamp": 1767681018.2690735,
       "url": "#",
       "icon": "fa-trophy"
-    },
-    {
-      "type": "trend",
-      "title": "PICK A SIDE! #roblox #stitch #prime #ronaldo #messi #bloxburg #shortsfeed #shorts #trending #trend",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767666770.0,
-      "url": "https://www.youtube.com/watch?v=14hf_kjyAVY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "PICK A SIDE! #roblox #stitch #prime #ronaldo #messi #bloxburg #shortsfeed #shorts #trending #trend",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767665596.0,
-      "url": "https://www.youtube.com/watch?v=ETOc4hpQJXk",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1767736225.890707,
+    "generated_at": 1767737425.894106,
     "mode": "memory",
     "refresh_interval": 2000
   }
