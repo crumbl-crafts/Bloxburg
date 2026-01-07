@@ -938,6 +938,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "PICK A SIDE! #roblox #stitch #prime #ronaldo #messi #bloxburg #shortsfeed #shorts #trending #trend",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767816430.0,
+      "url": "https://www.youtube.com/watch?v=qYVJn8HHyE4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "the old times #roblox #brookhaven #bloxburg #livetopia #edit",
       "description": "...",
       "source": "YouTube",
@@ -970,15 +979,6 @@
       "source": "YouTube",
       "timestamp": 1767759265.0,
       "url": "https://www.youtube.com/watch?v=FHvf8Pc_hz0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I just had to #fyp\u30b7\u309aviral #fyp#airsoft",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767743627.0,
-      "url": "https://www.youtube.com/watch?v=ryGqwm0GOJc",
       "icon": "fa-youtube"
     },
     {
@@ -1019,7 +1019,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767817825.9056296,
+    "generated_at": 1767819025.8924294,
     "mode": "memory",
     "refresh_interval": 2000
   }
