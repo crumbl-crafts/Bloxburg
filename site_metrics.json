@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 351,
+    "total_members": 350,
     "joined_today": 1,
     "active_shops": 2,
     "avg_response_time": 4116.0
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "thatstybtw left the server",
+      "timestamp": 1767764900,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/725785746958450748"
+    },
     {
       "type": "new_request_thread",
       "shop_name": "LF detailed builder for mega mansion",
@@ -896,15 +905,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/787972836513808405",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "hannahbanana04971 left the server",
-      "timestamp": 1767159977,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1382447506230870062",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -956,6 +956,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "W BloxBurg News Reporter",
+      "description": "roblox #robloxmemes #invincible #variants #rblx #robloxedit #robloxedits #edit #edits #bloxburg #rob...",
+      "source": "YouTube",
+      "timestamp": 1767759265.0,
+      "url": "https://www.youtube.com/watch?v=FHvf8Pc_hz0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -988,15 +997,6 @@
       "source": "YouTube",
       "timestamp": 1767729606.0,
       "url": "https://www.youtube.com/watch?v=7Jy-kJwA21g",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Glimps of the video #roblox #bloxburg #funny #youtubeshorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767721733.0,
-      "url": "https://www.youtube.com/watch?v=A5ql4bcsxpw",
       "icon": "fa-youtube"
     },
     {
@@ -1037,7 +1037,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767763825.8903494,
+    "generated_at": 1767764902.9938383,
     "mode": "memory",
     "refresh_interval": 2000
   }
