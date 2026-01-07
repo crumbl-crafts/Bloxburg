@@ -956,15 +956,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "PICK A SIDE! #roblox #stitch #prime #ronaldo #messi #bloxburg #shortsfeed #shorts #trending #trend",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767785403.0,
-      "url": "https://www.youtube.com/watch?v=eaQd9rEDDoY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "the old times #roblox #brookhaven #bloxburg #livetopia #edit",
       "description": "...",
       "source": "YouTube",
@@ -979,6 +970,15 @@
       "source": "YouTube",
       "timestamp": 1767775576.0,
       "url": "https://www.youtube.com/watch?v=6-p8NgUVukk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Lush Life #zaralarsson #lushlife #bloxburg #CAC #twinteamofficial",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767767076.0,
+      "url": "https://www.youtube.com/watch?v=SqHsMPQCogQ",
       "icon": "fa-youtube"
     },
     {
@@ -1037,7 +1037,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767787226.2763443,
+    "generated_at": 1767787825.890562,
     "mode": "memory",
     "refresh_interval": 2000
   }
