@@ -965,6 +965,15 @@
     },
     {
       "type": "trend",
+      "title": "I just had to #fyp\u30b7\u309aviral #fyp#airsoft",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767743627.0,
+      "url": "https://www.youtube.com/watch?v=ryGqwm0GOJc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -979,15 +988,6 @@
       "source": "YouTube",
       "timestamp": 1767733206.0,
       "url": "https://www.youtube.com/watch?v=I_Hihc1QT44",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "DELETING ALL OF MY BLOXBURG PLOTS...",
-      "description": "to start the new year fresh I decided to bulldoze all my bloxburg plots of 2025... Become A Channel ...",
-      "source": "YouTube",
-      "timestamp": 1767729644.0,
-      "url": "https://www.youtube.com/watch?v=i4k1lpYAP_A",
       "icon": "fa-youtube"
     },
     {
@@ -1037,7 +1037,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767765626.2198994,
+    "generated_at": 1767766225.893785,
     "mode": "memory",
     "refresh_interval": 2000
   }
