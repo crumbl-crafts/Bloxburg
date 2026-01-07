@@ -964,53 +964,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "I just had to #fyp\u30b7\u309aviral #fyp#airsoft",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767743627.0,
-      "url": "https://www.youtube.com/watch?v=ryGqwm0GOJc",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "Bloxburg",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1767734247.0,
-      "url": "https://www.youtube.com/watch?v=R0ulHaJtnf8",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "MY DAUGHTERS BACK TO SCHOOL MORNING ROUTINE! *BUSY!!* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1767733206.0,
-      "url": "https://www.youtube.com/watch?v=I_Hihc1QT44",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "makes my builds feel so cozy!! \u2603\ufe0f #roblox #bloxburg #relateable #bloxburgbuild #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767731626.0,
-      "url": "https://www.youtube.com/watch?v=pcipZW7t79s",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "DELETING ALL OF MY BLOXBURG PLOTS...",
-      "description": "to start the new year fresh I decided to bulldoze all my bloxburg plots of 2025... Become A Channel ...",
-      "source": "YouTube",
-      "timestamp": 1767729644.0,
-      "url": "https://www.youtube.com/watch?v=i4k1lpYAP_A",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1767825026.2550385,
+    "generated_at": 1767826225.89091,
     "mode": "memory",
     "refresh_interval": 2000
   }
