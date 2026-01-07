@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 351,
-    "joined_today": 0,
+    "total_members": 352,
+    "joined_today": 1,
     "active_shops": 2,
     "avg_response_time": 4116.0
   },
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "moon_itsa_moon joined the server",
+      "timestamp": 1767744411,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1032844797775458314"
+    },
     {
       "type": "member_leave",
       "shop_name": "Server",
@@ -956,6 +965,15 @@
     },
     {
       "type": "trend",
+      "title": "DELETING ALL OF MY BLOXBURG PLOTS...",
+      "description": "to start the new year fresh I decided to bulldoze all my bloxburg plots of 2025... Become A Channel ...",
+      "source": "YouTube",
+      "timestamp": 1767729644.0,
+      "url": "https://www.youtube.com/watch?v=i4k1lpYAP_A",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "I BUILT THE APPLE STORE IN BLOXBURG",
       "description": "bloxburg #roblox #robloxbloxburg Bloxburg town needs an upgrade so I built an Apple Store...how will...",
       "source": "YouTube",
@@ -1007,19 +1025,10 @@
       "timestamp": 1767681018.2690735,
       "url": "#",
       "icon": "fa-trophy"
-    },
-    {
-      "type": "trend",
-      "title": "PICK A SIDE! #roblox #stitch #prime #ronaldo #messi #bloxburg #shortsfeed #shorts #trending #trend",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767666770.0,
-      "url": "https://www.youtube.com/watch?v=14hf_kjyAVY",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1767744026.302708,
+    "generated_at": 1767744414.2701304,
     "mode": "memory",
     "refresh_interval": 2000
   }
