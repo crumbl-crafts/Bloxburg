@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 352,
-    "joined_today": 4,
+    "total_members": 353,
+    "joined_today": 5,
     "active_shops": 2,
     "avg_response_time": 4116.0
   },
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "celahv joined the server",
+      "timestamp": 1767819537,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/756122221671481424"
+    },
     {
       "type": "member_join",
       "shop_name": "Server",
@@ -887,15 +896,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/805964068128555008",
       "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "tr1ll40n joined the server",
-      "timestamp": 1767214734,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1386902601316175992",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -1028,7 +1028,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767819240.859009,
+    "generated_at": 1767819539.6066613,
     "mode": "memory",
     "refresh_interval": 2000
   }
