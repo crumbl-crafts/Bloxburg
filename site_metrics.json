@@ -905,15 +905,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1111681516012060712",
       "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "fredi32__43551 joined the server",
-      "timestamp": 1767178532,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1309553122787594270",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -965,6 +956,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "the old times #roblox #brookhaven #bloxburg #livetopia #edit",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767782369.0,
+      "url": "https://www.youtube.com/watch?v=f--Y222HUkI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Lush Life #zaralarsson #lushlife #bloxburg #CAC #twinteamofficial",
       "description": "...",
       "source": "YouTube",
@@ -1009,44 +1009,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1767691818.2690697,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "DELETING ALL OF MY BLOXBURG PLOTS...",
+      "description": "to start the new year fresh I decided to bulldoze all my bloxburg plots of 2025... Become A Channel ...",
+      "source": "YouTube",
+      "timestamp": 1767729644.0,
+      "url": "https://www.youtube.com/watch?v=i4k1lpYAP_A",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "I BUILT THE APPLE STORE IN BLOXBURG",
+      "description": "bloxburg #roblox #robloxbloxburg Bloxburg town needs an upgrade so I built an Apple Store...how will...",
       "source": "YouTube",
-      "timestamp": 1767688218.269072,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1767729606.0,
+      "url": "https://www.youtube.com/watch?v=7Jy-kJwA21g",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1767684618.2690725,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "Glimps of the video #roblox #bloxburg #funny #youtubeshorts",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767721733.0,
+      "url": "https://www.youtube.com/watch?v=A5ql4bcsxpw",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1767681018.2690735,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "I made dinner because Mom always comes home late! \ud83e\udd7a #roblox #shorts #robloxedit",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767695577.0,
+      "url": "https://www.youtube.com/watch?v=0mTME1jfE2o",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1767783025.891811,
+    "generated_at": 1767784225.8891187,
     "mode": "memory",
     "refresh_interval": 2000
   }
