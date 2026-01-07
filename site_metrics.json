@@ -956,6 +956,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Life in bloxburg!",
+      "description": "bloxburgroleplay #bloxburg #roblox #relax #relatable #foryou #food #trending....",
+      "source": "YouTube",
+      "timestamp": 1767775576.0,
+      "url": "https://www.youtube.com/watch?v=6-p8NgUVukk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Lush Life #zaralarsson #lushlife #bloxburg #CAC #twinteamofficial",
       "description": "...",
       "source": "YouTube",
@@ -988,15 +997,6 @@
       "source": "YouTube",
       "timestamp": 1767734247.0,
       "url": "https://www.youtube.com/watch?v=R0ulHaJtnf8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "MY DAUGHTERS BACK TO SCHOOL MORNING ROUTINE! *BUSY!!* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1767733206.0,
-      "url": "https://www.youtube.com/watch?v=I_Hihc1QT44",
       "icon": "fa-youtube"
     },
     {
@@ -1037,7 +1037,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767776426.2748327,
+    "generated_at": 1767777025.886085,
     "mode": "memory",
     "refresh_interval": 2000
   }
