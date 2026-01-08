@@ -8,7 +8,7 @@
   },
   "server": {
     "total_members": 353,
-    "joined_today": 2,
+    "joined_today": 0,
     "active_shops": 2,
     "avg_response_time": 4116.0
   },
@@ -875,11 +875,11 @@
     },
     {
       "type": "trend",
-      "title": "PRANKING My Teacher Until She QUITS. _ Part II @ #robloxstory #roblox #robloxedit #funny #bloxburg",
-      "description": "In this video, we play Roblox and do a funny, harmless prank inspired by a teacher character inside ...",
+      "title": "Bersembunyi di dalam kulkas #roblox #bloxburg #gaming #tech #sims4 #memes #crabgrass #facts",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1767866499.0,
-      "url": "https://www.youtube.com/watch?v=yKZ276SK25k",
+      "timestamp": 1767874505.0,
+      "url": "https://www.youtube.com/watch?v=Z6bf0Sd0SMg",
       "icon": "fa-youtube"
     },
     {
@@ -920,7 +920,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767909025.890956,
+    "generated_at": 1767910225.9015894,
     "mode": "memory",
     "refresh_interval": 2000
   }
