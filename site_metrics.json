@@ -883,44 +883,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1767691818.2690697,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "PRANKING My Teacher Until She QUITS. _ Part II @ #robloxstory #roblox #robloxedit #funny #bloxburg",
+      "description": "In this video, we play Roblox and do a funny, harmless prank inspired by a teacher character inside ...",
+      "source": "YouTube",
+      "timestamp": 1767866499.0,
+      "url": "https://www.youtube.com/watch?v=yKZ276SK25k",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "ROBLOX CHAT UPDATE \ud83d\ude2d\ud83d\ude2d #roblox #bloxburg",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1767688218.269072,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1767848410.0,
+      "url": "https://www.youtube.com/watch?v=T_kntfjHbZw",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1767684618.2690725,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "WORKING THE BLOXBURG TAXI JOB FOR 30 MINUTES... with potato cam",
+      "description": "so I usually like to work a new job for thirty minutes to see how consistent the pay is and honestly...",
+      "source": "YouTube",
+      "timestamp": 1767830352.0,
+      "url": "https://www.youtube.com/watch?v=5YeuA66xmOg",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1767681018.2690735,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "the lighting!! #roblox #bloxburg #relateable #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767821748.0,
+      "url": "https://www.youtube.com/watch?v=nv-LNJyYV2Y",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "\ud83d\udd34BUILDING A NEW ROLEPLAY HOUSE IN BLOXBURG! *PART 2!*",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
+      "source": "YouTube",
+      "timestamp": 1767821518.0,
+      "url": "https://www.youtube.com/watch?v=7X7RtJb6JR0",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1767911426.2600758,
+    "generated_at": 1767912625.8900974,
     "mode": "memory",
     "refresh_interval": 2000
   }
