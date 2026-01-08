@@ -848,15 +848,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "Japanese baddies.. \ud83c\udf80\ud83c\udfa7#entertainment #funnyimages #bloxburg #lifeisbutadream #funnymemes",
-      "description": "Japanese baddies.. #entertainment #funnyimages #bloxburg #lifeisbutadream #funnymemes#ytstudioes #yt...",
-      "source": "YouTube",
-      "timestamp": 1767854910.0,
-      "url": "https://www.youtube.com/watch?v=3uoysEJfMhQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "WORKING THE BLOXBURG TAXI JOB FOR 30 MINUTES... with potato cam",
       "description": "so I usually like to work a new job for thirty minutes to see how consistent the pay is and honestly...",
       "source": "YouTube",
@@ -889,6 +880,15 @@
       "source": "YouTube",
       "timestamp": 1767816430.0,
       "url": "https://www.youtube.com/watch?v=qYVJn8HHyE4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "the old times #roblox #brookhaven #bloxburg #livetopia #edit",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767782369.0,
+      "url": "https://www.youtube.com/watch?v=f--Y222HUkI",
       "icon": "fa-youtube"
     },
     {
@@ -929,7 +929,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767871825.9040875,
+    "generated_at": 1767873025.9133067,
     "mode": "memory",
     "refresh_interval": 2000
   }
