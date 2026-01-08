@@ -806,15 +806,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/802917474294562846",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "lvykai left the server",
-      "timestamp": 1767261535,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/880883290138087504",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -947,7 +938,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767865825.891027,
+    "generated_at": 1767867025.888949,
     "mode": "memory",
     "refresh_interval": 2000
   }
