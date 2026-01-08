@@ -821,6 +821,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "LUSH LIFE! \ud83c\udf34\ud83e\udda9 #shorts #roblox #bloxburg #viral #trending",
+      "description": "LUSH LIFE! #shorts #roblox #bloxburg #viral #trending....",
+      "source": "YouTube",
+      "timestamp": 1767913898.0,
+      "url": "https://www.youtube.com/watch?v=FMo3fxjgP8I",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "The fate of bloxburg #bloxburg #trend #fyp\u30b7 #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767913274.0,
+      "url": "https://www.youtube.com/watch?v=qRuVY-bAp5k",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "The fate of bloxburg #bloxburg  #trend #fyp",
       "description": "...",
       "source": "YouTube",
@@ -844,24 +862,6 @@
       "source": "YouTube",
       "timestamp": 1767902459.0,
       "url": "https://www.youtube.com/watch?v=zBhEexlRgp4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "SPYING ON A HUSBAND CHEATING IN BLOXBURG",
-      "description": "bloxburg #roblox #robloxbloxburg I caught this cheater in bloxburg and the things I found out in thi...",
-      "source": "YouTube",
-      "timestamp": 1767902433.0,
-      "url": "https://www.youtube.com/watch?v=RQohq2HJuFU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "house tour bloxburg #bloxburg #vtuber #housetour",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767889403.0,
-      "url": "https://www.youtube.com/watch?v=vfpxZ26fUug",
       "icon": "fa-youtube"
     },
     {
@@ -902,7 +902,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767915025.8918025,
+    "generated_at": 1767916225.8896325,
     "mode": "memory",
     "refresh_interval": 2000
   }
