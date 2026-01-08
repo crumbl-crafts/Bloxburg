@@ -920,6 +920,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "WORKING THE BLOXBURG TAXI JOB FOR 30 MINUTES... with potato cam",
+      "description": "so I usually like to work a new job for thirty minutes to see how consistent the pay is and honestly...",
+      "source": "YouTube",
+      "timestamp": 1767830352.0,
+      "url": "https://www.youtube.com/watch?v=5YeuA66xmOg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "the lighting!! #roblox #bloxburg #relateable #fyp",
       "description": "...",
       "source": "YouTube",
@@ -952,15 +961,6 @@
       "source": "YouTube",
       "timestamp": 1767769303.0,
       "url": "https://www.youtube.com/watch?v=YebjiAuc1eI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "FULL Bloxburg House Tour! #roblox #bloxburg #housetour",
-      "description": "Showing you guys my full Bloxburg House!...",
-      "source": "YouTube",
-      "timestamp": 1767762044.0,
-      "url": "https://www.youtube.com/watch?v=ZZtlZY2gqwA",
       "icon": "fa-youtube"
     },
     {
@@ -1001,7 +1001,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767853825.8912306,
+    "generated_at": 1767855025.890323,
     "mode": "memory",
     "refresh_interval": 2000
   }
