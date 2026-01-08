@@ -833,24 +833,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1277784372833157183",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "joshhl left the server",
-      "timestamp": 1767254055,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/703608458607591466",
-      "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "boybandite_277 left the server",
-      "timestamp": 1767253910,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1186325762777825395",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -929,20 +911,20 @@
     },
     {
       "type": "trend",
+      "title": "\ud83d\udd34BUILDING A NEW ROLEPLAY HOUSE IN BLOXBURG! *PART 2!*",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
+      "source": "YouTube",
+      "timestamp": 1767821518.0,
+      "url": "https://www.youtube.com/watch?v=7X7RtJb6JR0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "PICK A SIDE! #roblox #stitch #prime #ronaldo #messi #bloxburg #shortsfeed #shorts #trending #trend",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1767816430.0,
       "url": "https://www.youtube.com/watch?v=qYVJn8HHyE4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "the old times #roblox #brookhaven #bloxburg #livetopia #edit",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767782369.0,
-      "url": "https://www.youtube.com/watch?v=f--Y222HUkI",
       "icon": "fa-youtube"
     },
     {
@@ -983,7 +965,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767858625.89236,
+    "generated_at": 1767859825.8880222,
     "mode": "memory",
     "refresh_interval": 2000
   }
