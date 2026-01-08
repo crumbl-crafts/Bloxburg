@@ -839,6 +839,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "SOPHIE HAS HER FIRST BREAK UP! *TOXIC BOYFRIEND!!* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1767906006.0,
+      "url": "https://www.youtube.com/watch?v=-oWTKK2G0GA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "I SIMULATED MY OWN SHAWRMA KIOSK GAME ON BLOXBURG",
+      "description": "Today I become the health inspector by creating my OWN shawrma kiosk... Become A Channel Member by p...",
+      "source": "YouTube",
+      "timestamp": 1767902459.0,
+      "url": "https://www.youtube.com/watch?v=zBhEexlRgp4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "house tour bloxburg #bloxburg #vtuber #housetour",
       "description": "...",
       "source": "YouTube",
@@ -862,24 +880,6 @@
       "source": "YouTube",
       "timestamp": 1767866499.0,
       "url": "https://www.youtube.com/watch?v=yKZ276SK25k",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "ROBLOX CHAT UPDATE \ud83d\ude2d\ud83d\ude2d #roblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767848410.0,
-      "url": "https://www.youtube.com/watch?v=T_kntfjHbZw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "WORKING THE BLOXBURG TAXI JOB FOR 30 MINUTES... with potato cam",
-      "description": "so I usually like to work a new job for thirty minutes to see how consistent the pay is and honestly...",
-      "source": "YouTube",
-      "timestamp": 1767830352.0,
-      "url": "https://www.youtube.com/watch?v=5YeuA66xmOg",
       "icon": "fa-youtube"
     },
     {
@@ -920,7 +920,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767906026.2303305,
+    "generated_at": 1767906625.8966625,
     "mode": "memory",
     "refresh_interval": 2000
   }
