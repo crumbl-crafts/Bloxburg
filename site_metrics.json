@@ -947,15 +947,6 @@
     },
     {
       "type": "trend",
-      "title": "Life in bloxburg!",
-      "description": "bloxburgroleplay #bloxburg #roblox #relax #relatable #foryou #food #trending....",
-      "source": "YouTube",
-      "timestamp": 1767775576.0,
-      "url": "https://www.youtube.com/watch?v=6-p8NgUVukk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "She&#39;s Blushing!? | Hide or Die | Roblox \ud83d\udd25 /  #roblox #bloxburg #funny #mixtape",
       "description": "Why do y'all think she's blushing? Game: https://www.roblox.com/games/18799085098/Hide-or-Die Commun...",
       "source": "YouTube",
@@ -964,44 +955,62 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1767691818.2690697,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "FULL Bloxburg House Tour! #roblox #bloxburg #housetour",
+      "description": "Showing you guys my full Bloxburg House!...",
+      "source": "YouTube",
+      "timestamp": 1767762044.0,
+      "url": "https://www.youtube.com/watch?v=ZZtlZY2gqwA",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "W BloxBurg News Reporter",
+      "description": "roblox #robloxmemes #invincible #variants #rblx #robloxedit #robloxedits #edit #edits #bloxburg #rob...",
       "source": "YouTube",
-      "timestamp": 1767688218.269072,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1767759265.0,
+      "url": "https://www.youtube.com/watch?v=FHvf8Pc_hz0",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1767684618.2690725,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "I just had to #fyp\u30b7\u309aviral #fyp#airsoft",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767743627.0,
+      "url": "https://www.youtube.com/watch?v=ryGqwm0GOJc",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1767681018.2690735,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767734247.0,
+      "url": "https://www.youtube.com/watch?v=R0ulHaJtnf8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "MY DAUGHTERS BACK TO SCHOOL MORNING ROUTINE! *BUSY!!* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1767733206.0,
+      "url": "https://www.youtube.com/watch?v=I_Hihc1QT44",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "makes my builds feel so cozy!! \u2603\ufe0f #roblox #bloxburg #relateable #bloxburgbuild #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767731626.0,
+      "url": "https://www.youtube.com/watch?v=pcipZW7t79s",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1767847825.8867872,
+    "generated_at": 1767849025.8889062,
     "mode": "memory",
     "refresh_interval": 2000
   }
