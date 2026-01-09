@@ -821,6 +821,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Miss you-#roblox #lifeisbutadream #bloxburg #skibiditoilet",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767958106.0,
+      "url": "https://www.youtube.com/watch?v=e3fksJPpWYA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "LUSH LIFE! \ud83c\udf34\ud83e\udda9 #shorts #roblox #bloxburg #viral #trending",
       "description": "LUSH LIFE! #shorts #roblox #bloxburg #viral #trending....",
       "source": "YouTube",
@@ -853,15 +862,6 @@
       "source": "YouTube",
       "timestamp": 1767906006.0,
       "url": "https://www.youtube.com/watch?v=-oWTKK2G0GA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I SIMULATED MY OWN SHAWRMA KIOSK GAME ON BLOXBURG",
-      "description": "Today I become the health inspector by creating my OWN shawrma kiosk... Become A Channel Member by p...",
-      "source": "YouTube",
-      "timestamp": 1767902459.0,
-      "url": "https://www.youtube.com/watch?v=zBhEexlRgp4",
       "icon": "fa-youtube"
     },
     {
@@ -902,7 +902,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767961825.8931444,
+    "generated_at": 1767963025.8922563,
     "mode": "memory",
     "refresh_interval": 2000
   }
