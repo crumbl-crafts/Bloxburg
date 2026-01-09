@@ -743,15 +743,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/543344538752778240",
       "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "lexii0101 joined the server",
-      "timestamp": 1767386297,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1190384363939053708",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -812,6 +803,15 @@
     },
     {
       "type": "trend",
+      "title": "Rosca reyes #roblox #robloxbloxburgspeedbuild #bloxburg  #bloxburgcontentcreator #shorts #robloxedit",
+      "description": "bloxburgbuilder #robloxbloxburg #roblox #bloxburg #bienvenidoabloxburg #robloxbloxburg Suscribete a ...",
+      "source": "YouTube",
+      "timestamp": 1767987006.0,
+      "url": "https://www.youtube.com/watch?v=I7MM5AzORP8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "ELIMINANDO TODAS MIS CASAS DE BLOXBURG (+$1M)",
       "description": "\u00danete a mi grupo de Roblox: https://www.roblox.com/groups/5045574/grupo-oficial-de-fessy#!/about S\u00edg...",
       "source": "YouTube",
@@ -835,15 +835,6 @@
       "source": "YouTube",
       "timestamp": 1767958106.0,
       "url": "https://www.youtube.com/watch?v=e3fksJPpWYA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "THINGS TO DO BEFORE BLOXBURG REMOVES LIMITED ITEMS NEXT WEEK! with potato cam",
-      "description": "next monday bloxburg is taking out their new years and christmas seasonal items in a mini update! so...",
-      "source": "YouTube",
-      "timestamp": 1767926115.0,
-      "url": "https://www.youtube.com/watch?v=SDf1GAwA4g0",
       "icon": "fa-youtube"
     },
     {
@@ -884,7 +875,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767990625.9068558,
+    "generated_at": 1767991825.899698,
     "mode": "memory",
     "refresh_interval": 2000
   }
