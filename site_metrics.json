@@ -572,24 +572,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/897250728937144400",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "lewis05084 left the server",
-      "timestamp": 1767394067,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1258874975964762186",
-      "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "lewis05084 joined the server",
-      "timestamp": 1767393936,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1258874975964762186",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -641,6 +623,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "\ud83d\udd34BUILDING A NEW ROLEPLAY HOUSE IN BLOXBURG! *PART 3!*",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
+      "source": "YouTube",
+      "timestamp": 1767995899.0,
+      "url": "https://www.youtube.com/watch?v=48Wb2VHiNpk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "TTD3 EDIT | Roblox  #trending #viral #roblox #youtube #popular #views #edit  #carcrash #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -673,15 +664,6 @@
       "source": "YouTube",
       "timestamp": 1767960955.0,
       "url": "https://www.youtube.com/watch?v=9EhXKhfOHz4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Miss you-#roblox #lifeisbutadream #bloxburg #skibiditoilet",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767958106.0,
-      "url": "https://www.youtube.com/watch?v=e3fksJPpWYA",
       "icon": "fa-youtube"
     },
     {
@@ -722,7 +704,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767997826.256454,
+    "generated_at": 1767999025.897299,
     "mode": "memory",
     "refresh_interval": 2000
   }
