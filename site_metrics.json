@@ -830,6 +830,15 @@
     },
     {
       "type": "trend",
+      "title": "THINGS TO DO BEFORE BLOXBURG REMOVES LIMITED ITEMS NEXT WEEK! with potato cam",
+      "description": "next monday bloxburg is taking out their new years and christmas seasonal items in a mini update! so...",
+      "source": "YouTube",
+      "timestamp": 1767926115.0,
+      "url": "https://www.youtube.com/watch?v=SDf1GAwA4g0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "LUSH LIFE! \ud83c\udf34\ud83e\udda9 #shorts #roblox #bloxburg #viral #trending",
       "description": "LUSH LIFE! #shorts #roblox #bloxburg #viral #trending....",
       "source": "YouTube",
@@ -844,15 +853,6 @@
       "source": "YouTube",
       "timestamp": 1767913274.0,
       "url": "https://www.youtube.com/watch?v=qRuVY-bAp5k",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "The fate of bloxburg #bloxburg  #trend #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767913222.0,
-      "url": "https://www.youtube.com/watch?v=9xmQKa4Ge0o",
       "icon": "fa-youtube"
     },
     {
@@ -893,7 +893,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767977425.9027524,
+    "generated_at": 1767978625.9058568,
     "mode": "memory",
     "refresh_interval": 2000
   }
