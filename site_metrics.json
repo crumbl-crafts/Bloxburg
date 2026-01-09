@@ -803,20 +803,20 @@
   "news": [
     {
       "type": "trend",
+      "title": "TTD3 EDIT | Roblox  #trending #viral #roblox #youtube #popular #views #edit  #carcrash #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1767987265.0,
+      "url": "https://www.youtube.com/watch?v=eKEWdHLiCU0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "ELIMINANDO TODAS MIS CASAS DE BLOXBURG (+$1M)",
       "description": "\u00danete a mi grupo de Roblox: https://www.roblox.com/groups/5045574/grupo-oficial-de-fessy#!/about S\u00edg...",
       "source": "YouTube",
       "timestamp": 1767985242.0,
       "url": "https://www.youtube.com/watch?v=YD81W_WKAwI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "NEED TO PLACE PILLAR #roblox #bloxburg #relateable #bloxburgbuild #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767983979.0,
-      "url": "https://www.youtube.com/watch?v=jtyTI03XLu0",
       "icon": "fa-youtube"
     },
     {
@@ -884,7 +884,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767988225.8930728,
+    "generated_at": 1767989425.902371,
     "mode": "memory",
     "refresh_interval": 2000
   }
