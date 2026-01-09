@@ -821,15 +821,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "LUSH LIFE! \ud83c\udf34\ud83e\udda9 #shorts #roblox #bloxburg #viral #trending",
-      "description": "LUSH LIFE! #shorts #roblox #bloxburg #viral #trending....",
-      "source": "YouTube",
-      "timestamp": 1767913898.0,
-      "url": "https://www.youtube.com/watch?v=FMo3fxjgP8I",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "The fate of bloxburg #bloxburg #trend #fyp\u30b7 #roblox",
       "description": "...",
       "source": "YouTube",
@@ -874,44 +865,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "house tour bloxburg #bloxburg #vtuber #housetour",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767889403.0,
-      "url": "https://www.youtube.com/watch?v=vfpxZ26fUug",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "Bersembunyi di dalam kulkas #roblox #bloxburg #gaming #tech #sims4 #memes #crabgrass #facts",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1767874505.0,
-      "url": "https://www.youtube.com/watch?v=Z6bf0Sd0SMg",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "PRANKING My Teacher Until She QUITS. _ Part II @ #robloxstory #roblox #robloxedit #funny #bloxburg",
-      "description": "In this video, we play Roblox and do a funny, harmless prank inspired by a teacher character inside ...",
-      "source": "YouTube",
-      "timestamp": 1767866499.0,
-      "url": "https://www.youtube.com/watch?v=yKZ276SK25k",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "ROBLOX CHAT UPDATE \ud83d\ude2d\ud83d\ude2d #roblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767848410.0,
-      "url": "https://www.youtube.com/watch?v=T_kntfjHbZw",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1767934225.8878884,
+    "generated_at": 1767935425.8934948,
     "mode": "memory",
     "refresh_interval": 2000
   }
