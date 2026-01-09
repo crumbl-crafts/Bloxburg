@@ -752,15 +752,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1190384363939053708",
       "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "mango67fiddy joined the server",
-      "timestamp": 1767382349,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1387149813631680572",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -812,6 +803,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "ELIMINANDO TODAS MIS CASAS DE BLOXBURG (+$1M)",
+      "description": "\u00danete a mi grupo de Roblox: https://www.roblox.com/groups/5045574/grupo-oficial-de-fessy#!/about S\u00edg...",
+      "source": "YouTube",
+      "timestamp": 1767985242.0,
+      "url": "https://www.youtube.com/watch?v=YD81W_WKAwI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "NEED TO PLACE PILLAR #roblox #bloxburg #relateable #bloxburgbuild #fyp",
       "description": "...",
       "source": "YouTube",
@@ -844,15 +844,6 @@
       "source": "YouTube",
       "timestamp": 1767926115.0,
       "url": "https://www.youtube.com/watch?v=SDf1GAwA4g0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "LUSH LIFE! \ud83c\udf34\ud83e\udda9 #shorts #roblox #bloxburg #viral #trending",
-      "description": "LUSH LIFE! #shorts #roblox #bloxburg #viral #trending....",
-      "source": "YouTube",
-      "timestamp": 1767913898.0,
-      "url": "https://www.youtube.com/watch?v=FMo3fxjgP8I",
       "icon": "fa-youtube"
     },
     {
@@ -893,7 +884,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1767987026.2860568,
+    "generated_at": 1767988225.8930728,
     "mode": "memory",
     "refresh_interval": 2000
   }
