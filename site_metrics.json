@@ -518,15 +518,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1179061425445015678",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "vrqks left the server",
-      "timestamp": 1767417344,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1438229626332905522",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -659,7 +650,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768021825.8979442,
+    "generated_at": 1768023025.8878753,
     "mode": "memory",
     "refresh_interval": 2000
   }
