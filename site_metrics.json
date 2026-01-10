@@ -506,15 +506,6 @@
     },
     {
       "type": "trend",
-      "title": "o que vcs acharam #roblox #bloxburg #deustemumapalavrapravoce #mm2 #robloxedit",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768047327.0,
-      "url": "https://www.youtube.com/watch?v=x6hdWFBk-2Y",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Neele Billi #roblox #bloxburg #funnyimages #funnymemes #cartoon #entertainment #ytstudieo #ytshorts",
       "description": "Neele Billi #roblox #bloxburg #funnyimages #funnymemes #cartoon #entertainment #ytstudieo #ytshorts ...",
       "source": "YouTube",
@@ -550,44 +541,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "I\u2019m begging #roblox #bloxburg #alaskaviolet #amnewbutnottheleast",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768000575.0,
-      "url": "https://www.youtube.com/watch?v=fhr9Hu0fykQ",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "\ud83d\udd34BUILDING A NEW ROLEPLAY HOUSE IN BLOXBURG! *PART 3!*",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1767995899.0,
-      "url": "https://www.youtube.com/watch?v=48Wb2VHiNpk",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "EL ULTIMO VIAJE |mini pelicula| HISTORIA DE ROBLOX TERROR #historiaderoblox #bloxburg #brookhaven",
-      "description": "Un joven entra a trabajar como taxista en el turno de la noche, sin saber el peligro que lo acechaba...",
-      "source": "YouTube",
-      "timestamp": 1767993771.0,
-      "url": "https://www.youtube.com/watch?v=wbnGN9BqJI8",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "TTD3 EDIT | Roblox  #trending #viral #roblox #youtube #popular #views #edit  #carcrash #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767987265.0,
-      "url": "https://www.youtube.com/watch?v=eKEWdHLiCU0",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1768069825.9004142,
+    "generated_at": 1768071025.8984585,
     "mode": "memory",
     "refresh_interval": 2000
   }
