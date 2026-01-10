@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 353,
-    "joined_today": 1,
+    "total_members": 354,
+    "joined_today": 2,
     "active_shops": 2,
     "avg_response_time": 4116.0
   },
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "izumi_97527 joined the server",
+      "timestamp": 1768046785,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1426014678483730616"
+    },
     {
       "type": "member_leave",
       "shop_name": "Server",
@@ -614,7 +623,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768046426.4801936,
+    "generated_at": 1768046788.2071266,
     "mode": "memory",
     "refresh_interval": 2000
   }
