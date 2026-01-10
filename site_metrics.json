@@ -518,24 +518,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1438229626332905522",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "yueeling_ left the server",
-      "timestamp": 1767412139,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1190293889966420090",
-      "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "johnchoo left the server",
-      "timestamp": 1767411059,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/842300616163459082",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -668,7 +650,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768015825.8977828,
+    "generated_at": 1768017025.8887222,
     "mode": "memory",
     "refresh_interval": 2000
   }
