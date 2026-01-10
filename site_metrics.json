@@ -569,20 +569,20 @@
     },
     {
       "type": "trend",
-      "title": "The Twins First Word! \ud83e\udd7a\ud83d\ude2d #bloxburg #bloxburgfamily #roblox #shorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768013420.0,
-      "url": "https://www.youtube.com/watch?v=t6857qTAoYY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "I\u2019m begging #roblox #bloxburg #alaskaviolet #amnewbutnottheleast",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1768000575.0,
       "url": "https://www.youtube.com/watch?v=fhr9Hu0fykQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "\ud83d\udd34BUILDING A NEW ROLEPLAY HOUSE IN BLOXBURG! *PART 3!*",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
+      "source": "YouTube",
+      "timestamp": 1767995899.0,
+      "url": "https://www.youtube.com/watch?v=48Wb2VHiNpk",
       "icon": "fa-youtube"
     },
     {
@@ -623,7 +623,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768055425.9054782,
+    "generated_at": 1768056625.8987586,
     "mode": "memory",
     "refresh_interval": 2000
   }
