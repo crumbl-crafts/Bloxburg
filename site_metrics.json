@@ -578,6 +578,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "The Twins First Word! \ud83e\udd7a\ud83d\ude2d #bloxburg #bloxburgfamily #roblox #shorts",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768013420.0,
+      "url": "https://www.youtube.com/watch?v=t6857qTAoYY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "I\u2019m begging #roblox #bloxburg #alaskaviolet #amnewbutnottheleast",
       "description": "...",
       "source": "YouTube",
@@ -610,15 +619,6 @@
       "source": "YouTube",
       "timestamp": 1767993771.0,
       "url": "https://www.youtube.com/watch?v=wbnGN9BqJI8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "TTD3 EDIT | Roblox  #trending #viral #roblox #youtube #popular #views #edit  #carcrash #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767987265.0,
-      "url": "https://www.youtube.com/watch?v=eKEWdHLiCU0",
       "icon": "fa-youtube"
     },
     {
@@ -659,7 +659,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768017224.0980093,
+    "generated_at": 1768018225.8931801,
     "mode": "memory",
     "refresh_interval": 2000
   }
