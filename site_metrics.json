@@ -500,24 +500,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/794962835725615134",
       "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "saad.rj joined the server",
-      "timestamp": 1767427502,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1179061425445015678",
-      "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "saad.rj left the server",
-      "timestamp": 1767427494,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1179061425445015678",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -650,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768031425.906147,
+    "generated_at": 1768032625.890289,
     "mode": "memory",
     "refresh_interval": 2000
   }
