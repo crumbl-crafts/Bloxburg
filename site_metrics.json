@@ -497,6 +497,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "\ud83d\udd34BUILDING A NEW ROLEPLAY HOUSE IN BLOXBURG! *PART 4!*",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
+      "source": "YouTube",
+      "timestamp": 1768075765.0,
+      "url": "https://www.youtube.com/watch?v=5pnxFEI6dRs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "CAN 15 BUILDERS Make a Winter Bloxburg House Without Communicating?",
       "description": "Join me on Roblox: https://roblox.com/join/rose Become a Channel Member!...",
       "source": "YouTube",
@@ -529,15 +538,6 @@
       "source": "YouTube",
       "timestamp": 1768032861.0,
       "url": "https://www.youtube.com/watch?v=Nlybqjm64F4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "flow state reached #roblox #bloxburg #relateable #flowstate #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768002931.0,
-      "url": "https://www.youtube.com/watch?v=-9GeaD11ItU",
       "icon": "fa-youtube"
     },
     {
@@ -578,7 +578,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768077025.8986096,
+    "generated_at": 1768078225.8943748,
     "mode": "memory",
     "refresh_interval": 2000
   }
