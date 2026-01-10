@@ -551,6 +551,33 @@
   "news": [
     {
       "type": "trend",
+      "title": "Neele Billi #roblox #bloxburg #funnyimages #funnymemes #cartoon #entertainment #ytstudieo #ytshorts",
+      "description": "Neele Billi #roblox #bloxburg #funnyimages #funnymemes #cartoon #entertainment #ytstudieo #ytshorts ...",
+      "source": "YouTube",
+      "timestamp": 1768033085.0,
+      "url": "https://www.youtube.com/watch?v=3HXm2ROEKdM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Road Ladai Ho Gai #roblox #bloxburg #funnyimages #funnymemes #funnypictures #cartoon",
+      "description": "Road Ladai Ho Gai #roblox #bloxburg #funnyimages #funnymemes #funnypictures #cartoon#youtubeshort @N...",
+      "source": "YouTube",
+      "timestamp": 1768032955.0,
+      "url": "https://www.youtube.com/watch?v=JGwzHgL3_Z8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Mera to yahi hai bhai sahab#bloxburg #funnyimages #lifeisbutadream #funnymemes #cartoon",
+      "description": "Mera to yahi hai bhai sahab#bloxburg #funnyimages #lifeisbutadream #funnymemes #cartoon @NOTYOURTYPE...",
+      "source": "YouTube",
+      "timestamp": 1768032861.0,
+      "url": "https://www.youtube.com/watch?v=Nlybqjm64F4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "The Twins First Word! \ud83e\udd7a\ud83d\ude2d #bloxburg #bloxburgfamily #roblox #shorts",
       "description": "...",
       "source": "YouTube",
@@ -565,33 +592,6 @@
       "source": "YouTube",
       "timestamp": 1768000575.0,
       "url": "https://www.youtube.com/watch?v=fhr9Hu0fykQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bro tryna make it out Bloxburg #funny #bloxburg #roblox #shortsviral",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1767996144.0,
-      "url": "https://www.youtube.com/watch?v=LUW_y6FhZKY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ud83d\udd34BUILDING A NEW ROLEPLAY HOUSE IN BLOXBURG! *PART 3!*",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
-      "source": "YouTube",
-      "timestamp": 1767995899.0,
-      "url": "https://www.youtube.com/watch?v=48Wb2VHiNpk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "EL ULTIMO VIAJE |mini pelicula| HISTORIA DE ROBLOX TERROR #historiaderoblox #bloxburg #brookhaven",
-      "description": "Un joven entra a trabajar como taxista en el turno de la noche, sin saber el peligro que lo acechaba...",
-      "source": "YouTube",
-      "timestamp": 1767993771.0,
-      "url": "https://www.youtube.com/watch?v=wbnGN9BqJI8",
       "icon": "fa-youtube"
     },
     {
@@ -632,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768033825.911226,
+    "generated_at": 1768035025.8989043,
     "mode": "memory",
     "refresh_interval": 2000
   }
