@@ -578,6 +578,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "POV  when you need more bloxbux #funny #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768018396.0,
+      "url": "https://www.youtube.com/watch?v=EBFpDGn2yZo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "The Twins First Word! \ud83e\udd7a\ud83d\ude2d #bloxburg #bloxburgfamily #roblox #shorts",
       "description": "...",
       "source": "YouTube",
@@ -610,15 +619,6 @@
       "source": "YouTube",
       "timestamp": 1767995899.0,
       "url": "https://www.youtube.com/watch?v=48Wb2VHiNpk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "EL ULTIMO VIAJE |mini pelicula| HISTORIA DE ROBLOX TERROR #historiaderoblox #bloxburg #brookhaven",
-      "description": "Un joven entra a trabajar como taxista en el turno de la noche, sin saber el peligro que lo acechaba...",
-      "source": "YouTube",
-      "timestamp": 1767993771.0,
-      "url": "https://www.youtube.com/watch?v=wbnGN9BqJI8",
       "icon": "fa-youtube"
     },
     {
@@ -659,7 +659,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768020625.8892255,
+    "generated_at": 1768021825.8979442,
     "mode": "memory",
     "refresh_interval": 2000
   }
