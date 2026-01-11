@@ -452,6 +452,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Maxing Out EVERY Skill in Bloxburg (Part 2)",
+      "description": "Challenging myself to max out all the skills in Bloxburg! Want to be in a video? Join my neighborhoo...",
+      "source": "YouTube",
+      "timestamp": 1768147218.0,
+      "url": "https://www.youtube.com/watch?v=AJltId7EktU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "SPEND A SATURDAY WITH ME\ud83e\udef6\ud83c\udffe\ud83e\udd2d #roblox #roleplay #berryave #robloxclothing #bloxburg",
       "description": "Like for a ! recommended, berry avenue, aesthetic, roleplay, morning routine, a day in my life, vlog...",
       "source": "YouTube",
@@ -484,15 +493,6 @@
       "source": "YouTube",
       "timestamp": 1768117799.0,
       "url": "https://www.youtube.com/watch?v=x79ctaRt14g",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#bloxburg  #roblox #voiceeffects",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768107764.0,
-      "url": "https://www.youtube.com/watch?v=jK7osvRmI_w",
       "icon": "fa-youtube"
     },
     {
@@ -533,7 +533,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768149026.317982,
+    "generated_at": 1768150225.9112797,
     "mode": "memory",
     "refresh_interval": 2000
   }
