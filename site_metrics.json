@@ -392,15 +392,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/772452466910429185",
       "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "pixelatedbackroomsofficial joined the server",
-      "timestamp": 1767549781,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1069233729412796537",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -452,6 +443,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "COMMENT!!! #roblox #gorillatagquest #gorillatag #robloxgamedesign #gtagmods #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768153898.0,
+      "url": "https://www.youtube.com/watch?v=Hfu1C0fLlKE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "#roblox #minecraft #funny #robloxedit #\u0bb0\u0bcb\u0baa\u0bcd\u0bb2\u0bbe\u0b95\u0bcd\u0bb8\u0bcd #memes #\u0430\u043d\u0456\u043c\u0430\u0446\u0456\u044froblox #robloxgames #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768152898.0,
+      "url": "https://www.youtube.com/watch?v=ZU-iib4lSeQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Maxing Out EVERY Skill in Bloxburg (Part 2)",
       "description": "Challenging myself to max out all the skills in Bloxburg! Want to be in a video? Join my neighborhoo...",
       "source": "YouTube",
@@ -470,29 +479,11 @@
     },
     {
       "type": "trend",
-      "title": "#roblox #robloxgames #rainbowfriends #robloxstory #gaming #cat #gatos #bloxburg #bloxburg #my #my #e",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768138878.0,
-      "url": "https://www.youtube.com/watch?v=zKLcLqQm-2E",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "#roblox#bloxburg",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1768124841.0,
       "url": "https://www.youtube.com/watch?v=qZG5oq9IxhQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Rich vs Poor Ordering Coffee in Roblox \ud83d\ude02\u2615 #shorts #roblox #bloxburg",
-      "description": "Watch the hilarious difference when a rich Roblox girl orders a fancy Venti Iced Caramel Macchiato v...",
-      "source": "YouTube",
-      "timestamp": 1768117799.0,
-      "url": "https://www.youtube.com/watch?v=x79ctaRt14g",
       "icon": "fa-youtube"
     },
     {
@@ -533,7 +524,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768154426.3451684,
+    "generated_at": 1768155025.9144044,
     "mode": "memory",
     "refresh_interval": 2000
   }
