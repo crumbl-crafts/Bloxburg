@@ -488,6 +488,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#bloxburg  #roblox #voiceeffects",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768107764.0,
+      "url": "https://www.youtube.com/watch?v=jK7osvRmI_w",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bathroom build on Bloxburg! #bloxburg #builds #roblox #bloxburgbuilder #bloxburgbuild #roblox ",
       "description": "...",
       "source": "YouTube",
@@ -520,15 +529,6 @@
       "source": "YouTube",
       "timestamp": 1768064471.0,
       "url": "https://www.youtube.com/watch?v=fY6BC4y5Pug",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Road Ladai Ho Gai #roblox #bloxburg #funnyimages #funnymemes #funnypictures #cartoon",
-      "description": "Road Ladai Ho Gai #roblox #bloxburg #funnyimages #funnymemes #funnypictures #cartoon#youtubeshort @N...",
-      "source": "YouTube",
-      "timestamp": 1768032955.0,
-      "url": "https://www.youtube.com/watch?v=JGwzHgL3_Z8",
       "icon": "fa-youtube"
     },
     {
@@ -569,7 +569,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768109425.8951385,
+    "generated_at": 1768110625.8863537,
     "mode": "memory",
     "refresh_interval": 2000
   }
