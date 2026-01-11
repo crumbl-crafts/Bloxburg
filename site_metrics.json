@@ -8,7 +8,7 @@
   },
   "server": {
     "total_members": 356,
-    "joined_today": 3,
+    "joined_today": 0,
     "active_shops": 2,
     "avg_response_time": 4116.0
   },
@@ -461,6 +461,15 @@
     },
     {
       "type": "trend",
+      "title": "MY DAUGHTERS MIDDLE SCHOOL GRADUATION! *SHE GRADUATED EARLY!* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1768165206.0,
+      "url": "https://www.youtube.com/watch?v=Ie_s7DNxVmY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "COMMENT!!! #roblox #gorillatagquest #gorillatag #robloxgamedesign #gtagmods #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -484,15 +493,6 @@
       "source": "YouTube",
       "timestamp": 1768147218.0,
       "url": "https://www.youtube.com/watch?v=AJltId7EktU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "SPEND A SATURDAY WITH ME\ud83e\udef6\ud83c\udffe\ud83e\udd2d #roblox #roleplay #berryave #robloxclothing #bloxburg",
-      "description": "Like for a ! recommended, berry avenue, aesthetic, roleplay, morning routine, a day in my life, vlog...",
-      "source": "YouTube",
-      "timestamp": 1768140534.0,
-      "url": "https://www.youtube.com/watch?v=cS2efYr1HA0",
       "icon": "fa-youtube"
     },
     {
@@ -533,7 +533,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768168225.906183,
+    "generated_at": 1768169425.913901,
     "mode": "memory",
     "refresh_interval": 2000
   }
