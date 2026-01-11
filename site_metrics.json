@@ -461,6 +461,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "SPEND A SATURDAY WITH ME\ud83e\udef6\ud83c\udffe\ud83e\udd2d #roblox #roleplay #berryave #robloxclothing #bloxburg",
+      "description": "Like for a ! recommended, berry avenue, aesthetic, roleplay, morning routine, a day in my life, vlog...",
+      "source": "YouTube",
+      "timestamp": 1768140534.0,
+      "url": "https://www.youtube.com/watch?v=cS2efYr1HA0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#roblox #robloxgames #rainbowfriends #robloxstory #gaming #cat #gatos #bloxburg #bloxburg #my #my #e",
       "description": "...",
       "source": "YouTube",
@@ -493,15 +502,6 @@
       "source": "YouTube",
       "timestamp": 1768107764.0,
       "url": "https://www.youtube.com/watch?v=jK7osvRmI_w",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bathroom build on Bloxburg! #bloxburg #builds #roblox #bloxburgbuilder #bloxburgbuild #roblox ",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768093739.0,
-      "url": "https://www.youtube.com/watch?v=OubWIblLEIg",
       "icon": "fa-youtube"
     },
     {
@@ -542,7 +542,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768143626.364513,
+    "generated_at": 1768144225.894653,
     "mode": "memory",
     "refresh_interval": 2000
   }
