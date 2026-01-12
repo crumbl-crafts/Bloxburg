@@ -470,6 +470,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Bloxburg auto build script #bloxburg #bloxburgscript #robloxscript #zekehub",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768222528.0,
+      "url": "https://www.youtube.com/watch?v=t5yhqU8-rw8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "LIKE AND SUBSCRIBE TO MY CHANNEL #roblox #forsaken #robloxedit #memes #edit #funny #speed",
       "description": "LIKE AND SUBSCRIBE TO MY CHANNEL#roblox #robloxedit #forsaken #memes #edit #funny #speed #gaming #fa...",
       "source": "YouTube",
@@ -505,62 +514,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "MY DAUGHTERS MIDDLE SCHOOL GRADUATION! *SHE GRADUATED EARLY!* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1768165206.0,
-      "url": "https://www.youtube.com/watch?v=Ie_s7DNxVmY",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "Tripped in Front of My Crush\u2026 \ud83d\ude05",
-      "description": "I tripped over NOTHING and somehow became the main character of school Gravity really said \u201cnot toda...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1768163290.0,
-      "url": "https://www.youtube.com/watch?v=oS0JeojGrNA",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "I Tried Sneaking a Snack in Class \ud83d\ude33",
-      "description": "30secondstory #shorts #youtubeshorts #viral #trending #fyp....",
-      "source": "YouTube",
-      "timestamp": 1768162090.0,
-      "url": "https://www.youtube.com/watch?v=L0Pv7as0j7I",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "I Had a Crush and My Brain Stopped Working",
-      "description": "30secondstory #shorts #youtubeshorts #viral #trending #fyp....",
-      "source": "YouTube",
-      "timestamp": 1768159538.0,
-      "url": "https://www.youtube.com/watch?v=EFWU7Ov8oUA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I BUILT A HIDDEN MANSION IN BLOXBURG",
-      "description": "bloxburg #roblox #robloxbloxburg I am tired of people in bloxburg saying...abc for kid...so I built ...",
-      "source": "YouTube",
-      "timestamp": 1768158009.0,
-      "url": "https://www.youtube.com/watch?v=5480KMGH4Lc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "COMMENT!!! #roblox #gorillatagquest #gorillatag #robloxgamedesign #gtagmods #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768153898.0,
-      "url": "https://www.youtube.com/watch?v=Hfu1C0fLlKE",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1768231825.8948777,
+    "generated_at": 1768233025.924364,
     "mode": "memory",
     "refresh_interval": 2000
   }
