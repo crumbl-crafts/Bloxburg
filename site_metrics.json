@@ -469,44 +469,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1767691818.2690697,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "Midcentury Modern house tour out now! #robloxbloxburgspeedbuild #bloxburg #welcometobloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768190202.0,
+      "url": "https://www.youtube.com/watch?v=Vxzd0u8LjP0",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "Tips to help you reduce lag whilst playing Bloxburg! #bloxburg #bloxburgtips",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1767688218.269072,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1768166873.0,
+      "url": "https://www.youtube.com/watch?v=vLxQarAsge0",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1767684618.2690725,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "MY DAUGHTERS MIDDLE SCHOOL GRADUATION! *SHE GRADUATED EARLY!* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1768165206.0,
+      "url": "https://www.youtube.com/watch?v=Ie_s7DNxVmY",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1767681018.2690735,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Tripped in Front of My Crush\u2026 \ud83d\ude05",
+      "description": "I tripped over NOTHING and somehow became the main character of school Gravity really said \u201cnot toda...",
+      "source": "YouTube",
+      "timestamp": 1768163290.0,
+      "url": "https://www.youtube.com/watch?v=oS0JeojGrNA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "I Tried Sneaking a Snack in Class \ud83d\ude33",
+      "description": "30secondstory #shorts #youtubeshorts #viral #trending #fyp....",
+      "source": "YouTube",
+      "timestamp": 1768162090.0,
+      "url": "https://www.youtube.com/watch?v=L0Pv7as0j7I",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1768249825.8956332,
+    "generated_at": 1768251025.8970666,
     "mode": "memory",
     "refresh_interval": 2000
   }
