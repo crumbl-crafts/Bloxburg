@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 358,
+    "total_members": 357,
     "joined_today": 2,
     "active_shops": 2,
     "avg_response_time": 3583.8571428571427
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "laurenleaxo left the server",
+      "timestamp": 1768223222,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1329200930008203274"
+    },
     {
       "type": "rejected",
       "shop_name": "ULuvOllie's Shop",
@@ -542,7 +551,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768222225.8900604,
+    "generated_at": 1768223224.5881636,
     "mode": "memory",
     "refresh_interval": 2000
   }
