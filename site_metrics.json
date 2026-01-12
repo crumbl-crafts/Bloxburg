@@ -461,6 +461,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Midcentury Modern house tour out now! #robloxbloxburgspeedbuild #bloxburg #welcometobloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768190202.0,
+      "url": "https://www.youtube.com/watch?v=Vxzd0u8LjP0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Tips to help you reduce lag whilst playing Bloxburg! #bloxburg #bloxburgtips",
       "description": "...",
       "source": "YouTube",
@@ -493,15 +502,6 @@
       "source": "YouTube",
       "timestamp": 1768153898.0,
       "url": "https://www.youtube.com/watch?v=Hfu1C0fLlKE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#roblox #minecraft #funny #robloxedit #\u0bb0\u0bcb\u0baa\u0bcd\u0bb2\u0bbe\u0b95\u0bcd\u0bb8\u0bcd #memes #\u0430\u043d\u0456\u043c\u0430\u0446\u0456\u044froblox #robloxgames #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768152898.0,
-      "url": "https://www.youtube.com/watch?v=ZU-iib4lSeQ",
       "icon": "fa-youtube"
     },
     {
@@ -542,7 +542,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768189825.8962674,
+    "generated_at": 1768191025.9063194,
     "mode": "memory",
     "refresh_interval": 2000
   }
