@@ -452,6 +452,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "LIKE AND SUBSCRIBE TO MY CHANNEL #roblox #forsaken #robloxedit #memes #edit #funny #speed",
+      "description": "LIKE AND SUBSCRIBE TO MY CHANNEL#roblox #robloxedit #forsaken #memes #edit #funny #speed #gaming #fa...",
+      "source": "YouTube",
+      "timestamp": 1768215290.0,
+      "url": "https://www.youtube.com/watch?v=Ia-vtfjoGgs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Cara Bangun WC yang Bersih #faktaunik #sains #sainsasyik",
       "description": "...",
       "source": "YouTube",
@@ -484,15 +493,6 @@
       "source": "YouTube",
       "timestamp": 1768165206.0,
       "url": "https://www.youtube.com/watch?v=Ie_s7DNxVmY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Tripped in Front of My Crush\u2026 \ud83d\ude05",
-      "description": "I tripped over NOTHING and somehow became the main character of school Gravity really said \u201cnot toda...",
-      "source": "YouTube",
-      "timestamp": 1768163290.0,
-      "url": "https://www.youtube.com/watch?v=oS0JeojGrNA",
       "icon": "fa-youtube"
     },
     {
@@ -533,7 +533,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768215025.9002101,
+    "generated_at": 1768216225.9158697,
     "mode": "memory",
     "refresh_interval": 2000
   }
