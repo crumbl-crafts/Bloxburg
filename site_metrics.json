@@ -425,6 +425,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "I recreated Barbie Dreamhouse in Bloxburg || #roblox  #barbie #bloxburg  #barbielifeinthedreamhouse",
+      "description": "heyy guys! if you wanna see the full video go watch it on my channel! to all bloxburg and barbie com...",
+      "source": "YouTube",
+      "timestamp": 1768248408.0,
+      "url": "https://www.youtube.com/watch?v=tlOhh6-le8A",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\u00f6yle #games #sad #ytdayibenionecikarnolur #love #bloxburg #bloxburg #dahood #automobile #dahood",
       "description": "...",
       "source": "YouTube",
@@ -457,15 +466,6 @@
       "source": "YouTube",
       "timestamp": 1768215290.0,
       "url": "https://www.youtube.com/watch?v=Ia-vtfjoGgs",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Cara Bangun WC yang Bersih #faktaunik #sains #sainsasyik",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768208445.0,
-      "url": "https://www.youtube.com/watch?v=RoKxsY7wZFs",
       "icon": "fa-youtube"
     },
     {
@@ -506,7 +506,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768260625.8920825,
+    "generated_at": 1768261825.890893,
     "mode": "memory",
     "refresh_interval": 2000
   }
