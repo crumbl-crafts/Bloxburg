@@ -401,15 +401,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1396501894070800404",
       "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "fyirix joined the server",
-      "timestamp": 1767607418,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/543857387380015145",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -461,6 +452,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Cara Bangun WC yang Bersih #faktaunik #sains #sainsasyik",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768208445.0,
+      "url": "https://www.youtube.com/watch?v=RoKxsY7wZFs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Midcentury Modern house tour out now! #robloxbloxburgspeedbuild #bloxburg #welcometobloxburg",
       "description": "...",
       "source": "YouTube",
@@ -493,15 +493,6 @@
       "source": "YouTube",
       "timestamp": 1768163290.0,
       "url": "https://www.youtube.com/watch?v=oS0JeojGrNA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I Tried Sneaking a Snack in Class \ud83d\ude33",
-      "description": "30secondstory #shorts #youtubeshorts #viral #trending #fyp....",
-      "source": "YouTube",
-      "timestamp": 1768162090.0,
-      "url": "https://www.youtube.com/watch?v=L0Pv7as0j7I",
       "icon": "fa-youtube"
     },
     {
@@ -542,7 +533,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768211425.8955593,
+    "generated_at": 1768212625.908158,
     "mode": "memory",
     "refresh_interval": 2000
   }
