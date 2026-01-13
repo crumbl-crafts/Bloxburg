@@ -338,24 +338,6 @@
       "thread_id": null,
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/850115449845055488"
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "rockyroad2847 left the server",
-      "timestamp": 1767718458,
-      "thread_id": null,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/769235094481141771"
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "rockyroad2847 joined the server",
-      "timestamp": 1767718282,
-      "thread_id": null,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/769235094481141771"
     }
   ],
   "pipeline": [
@@ -451,44 +433,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1767691818.2690697,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "So nice out here \ud83c\udf3e\ud83c\udf77 #roblox #robloxfyp #bloxburg#countryroblox #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768247941.0,
+      "url": "https://www.youtube.com/watch?v=ht9IeS3cC_4",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "\u00f6yle #games #sad #ytdayibenionecikarnolur #love #bloxburg #bloxburg #dahood #automobile #dahood",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1767688218.269072,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1768237785.0,
+      "url": "https://www.youtube.com/watch?v=UNCnxvbFpI0",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1767684618.2690725,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "The Worst Scammer",
+      "description": "roblox #ebonoah....",
+      "source": "YouTube",
+      "timestamp": 1768234308.0,
+      "url": "https://www.youtube.com/watch?v=cyQL7mMDMw4",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1767681018.2690735,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "How BLOXBURG MOMS Treat Their 1st Child VS",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768229989.0,
+      "url": "https://www.youtube.com/watch?v=3kJTLK2YKjc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "KALEB GAMEPLAY HIGHLIGHTS | TVL2 ROBLOX | ETHANTVL",
+      "description": "Make sure to SUBSCRIBE to the channel and FOLLOW the TikTok for new videos! Discord: https://discord...",
+      "source": "YouTube",
+      "timestamp": 1768224639.0,
+      "url": "https://www.youtube.com/watch?v=VqeZpWyF4Kg",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1768323025.8921244,
+    "generated_at": 1768324225.893925,
     "mode": "memory",
     "refresh_interval": 2000
   }
