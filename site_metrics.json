@@ -371,15 +371,6 @@
     },
     {
       "type": "trend",
-      "title": "Do you think I am pretty???? #robloxshorts #robloxfyp #bloxburg #trending #pretty #goodloking",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768337363.0,
-      "url": "https://www.youtube.com/watch?v=NpRJLZJ4o0I",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "I BUILT B&amp;M IN BLOXBURG",
       "description": "bloxburg #roblox #robloxbloxburg I built the famous discount store b&m in bloxburg...this video is v...",
       "source": "YouTube",
@@ -394,6 +385,15 @@
       "source": "YouTube",
       "timestamp": 1768311051.0,
       "url": "https://www.youtube.com/watch?v=gB55h1rBwGI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Pls likes and subs #roblox #\ub85c\ube14\ub85d\uc2a4 #teleport #gameplay",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768305126.0,
+      "url": "https://www.youtube.com/watch?v=UGG46kSLWUA",
       "icon": "fa-youtube"
     },
     {
@@ -434,7 +434,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768344625.9033194,
+    "generated_at": 1768345825.8903005,
     "mode": "memory",
     "refresh_interval": 2000
   }
