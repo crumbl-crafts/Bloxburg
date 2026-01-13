@@ -8,7 +8,7 @@
   },
   "server": {
     "total_members": 357,
-    "joined_today": 1,
+    "joined_today": 0,
     "active_shops": 2,
     "avg_response_time": 3583.8571428571427
   },
@@ -353,6 +353,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "guys I LOVE it sometimes #roblox #bloxburg #relateable #bloxburgbuild #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768339950.0,
+      "url": "https://www.youtube.com/watch?v=Md-JByYkUFA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "FAMILY VACATION TO HOLLYWOOD! *VISITING THE WICKED MOVIE SET!* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1768338007.0,
+      "url": "https://www.youtube.com/watch?v=TWpSxPvTP8U",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Do you think I am pretty???? #robloxshorts #robloxfyp #bloxburg #trending #pretty #goodloking",
       "description": "...",
       "source": "YouTube",
@@ -371,29 +389,11 @@
     },
     {
       "type": "trend",
-      "title": "#roblox #memes #robloxmemes #minecraft #meme #robloxedits #dankmemes #bloxburg #robloxgfx #royale",
-      "description": "roblox #memes #robloxmemes #minecraft #meme #robloxedits #dankmemes #bloxburg #robloxgfx #royale....",
+      "title": "Boy goes to attic #roblox #robloxshorts #robloxedits #viral",
+      "description": "In this video, Roblox character kid tries to escape from his chasing gran and goes to the attic. #me...",
       "source": "YouTube",
-      "timestamp": 1768296632.0,
-      "url": "https://www.youtube.com/watch?v=hR4DuMb3xHY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "My Starter Life \u2764\ufe0f\ud83d\ude0d",
-      "description": "Documenting my Bloxburg journey from a starter house to my biggest dreams. This Roblox story is abou...",
-      "source": "YouTube",
-      "timestamp": 1768296601.0,
-      "url": "https://www.youtube.com/watch?v=1OLW6ygmjxM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "i take inspiration from @alaskaviolet  \ud83d\ude2d #bloxburghousebuild #bloxburghouse #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768278107.0,
-      "url": "https://www.youtube.com/watch?v=9ammJ2uVkV8",
+      "timestamp": 1768311051.0,
+      "url": "https://www.youtube.com/watch?v=gB55h1rBwGI",
       "icon": "fa-youtube"
     },
     {
@@ -434,7 +434,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768341025.8893294,
+    "generated_at": 1768342225.8963473,
     "mode": "memory",
     "refresh_interval": 2000
   }
