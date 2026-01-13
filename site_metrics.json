@@ -443,15 +443,6 @@
     },
     {
       "type": "trend",
-      "title": "I recreated Barbie Dreamhouse in Bloxburg || #roblox  #barbie #bloxburg  #barbielifeinthedreamhouse",
-      "description": "heyy guys! if you wanna see the full video go watch it on my channel! to all bloxburg and barbie com...",
-      "source": "YouTube",
-      "timestamp": 1768248408.0,
-      "url": "https://www.youtube.com/watch?v=tlOhh6-le8A",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "\u00f6yle #games #sad #ytdayibenionecikarnolur #love #bloxburg #bloxburg #dahood #automobile #dahood",
       "description": "...",
       "source": "YouTube",
@@ -461,20 +452,29 @@
     },
     {
       "type": "trend",
-      "title": "How BLOXBURG MOMS Treat Their 1st Child VS",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768229989.0,
-      "url": "https://www.youtube.com/watch?v=3kJTLK2YKjc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Bloxburg auto build script #bloxburg #bloxburgscript #robloxscript #zekehub",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1768222528.0,
       "url": "https://www.youtube.com/watch?v=t5yhqU8-rw8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "#roblox #bloxburg #gaming #games",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768216317.0,
+      "url": "https://www.youtube.com/watch?v=LAZId14fmeQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "LIKE AND SUBSCRIBE TO MY CHANNEL #roblox #forsaken #robloxedit #memes #edit #funny #speed",
+      "description": "LIKE AND SUBSCRIBE TO MY CHANNEL#roblox #robloxedit #forsaken #memes #edit #funny #speed #gaming #fa...",
+      "source": "YouTube",
+      "timestamp": 1768215290.0,
+      "url": "https://www.youtube.com/watch?v=Ia-vtfjoGgs",
       "icon": "fa-youtube"
     },
     {
@@ -515,7 +515,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768269025.902994,
+    "generated_at": 1768270225.8939886,
     "mode": "memory",
     "refresh_interval": 2000
   }
