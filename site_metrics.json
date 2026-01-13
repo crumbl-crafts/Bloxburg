@@ -434,6 +434,15 @@
     },
     {
       "type": "trend",
+      "title": "I recreated Barbie Dreamhouse in Bloxburg || #roblox  #barbie #bloxburg  #barbielifeinthedreamhouse",
+      "description": "heyy guys! if you wanna see the full video go watch it on my channel! to all bloxburg and barbie com...",
+      "source": "YouTube",
+      "timestamp": 1768248408.0,
+      "url": "https://www.youtube.com/watch?v=tlOhh6-le8A",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\u00f6yle #games #sad #ytdayibenionecikarnolur #love #bloxburg #bloxburg #dahood #automobile #dahood",
       "description": "...",
       "source": "YouTube",
@@ -448,15 +457,6 @@
       "source": "YouTube",
       "timestamp": 1768229989.0,
       "url": "https://www.youtube.com/watch?v=3kJTLK2YKjc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "KALEB GAMEPLAY HIGHLIGHTS | TVL2 ROBLOX | ETHANTVL",
-      "description": "Make sure to SUBSCRIBE to the channel and FOLLOW the TikTok for new videos! Discord: https://discord...",
-      "source": "YouTube",
-      "timestamp": 1768224639.0,
-      "url": "https://www.youtube.com/watch?v=VqeZpWyF4Kg",
       "icon": "fa-youtube"
     },
     {
@@ -497,7 +497,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768294826.2742405,
+    "generated_at": 1768295425.902881,
     "mode": "memory",
     "refresh_interval": 2000
   }
