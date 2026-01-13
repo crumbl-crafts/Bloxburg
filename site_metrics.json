@@ -460,53 +460,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "I recreated Barbie Dreamhouse in Bloxburg || #roblox  #barbie #bloxburg  #barbielifeinthedreamhouse",
-      "description": "heyy guys! if you wanna see the full video go watch it on my channel! to all bloxburg and barbie com...",
-      "source": "YouTube",
-      "timestamp": 1768248408.0,
-      "url": "https://www.youtube.com/watch?v=tlOhh6-le8A",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "So nice out here \ud83c\udf3e\ud83c\udf77 #roblox #robloxfyp #bloxburg#countryroblox #fyp",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1768247941.0,
-      "url": "https://www.youtube.com/watch?v=ht9IeS3cC_4",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "\u00f6yle #games #sad #ytdayibenionecikarnolur #love #bloxburg #bloxburg #dahood #automobile #dahood",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768237785.0,
-      "url": "https://www.youtube.com/watch?v=UNCnxvbFpI0",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "How BLOXBURG MOMS Treat Their 1st Child VS",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768229989.0,
-      "url": "https://www.youtube.com/watch?v=3kJTLK2YKjc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "KALEB GAMEPLAY HIGHLIGHTS | TVL2 ROBLOX | ETHANTVL",
-      "description": "Make sure to SUBSCRIBE to the channel and FOLLOW the TikTok for new videos! Discord: https://discord...",
-      "source": "YouTube",
-      "timestamp": 1768224639.0,
-      "url": "https://www.youtube.com/watch?v=VqeZpWyF4Kg",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1768314625.912913,
+    "generated_at": 1768315825.8936927,
     "mode": "memory",
     "refresh_interval": 2000
   }
