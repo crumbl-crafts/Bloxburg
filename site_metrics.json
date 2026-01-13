@@ -329,15 +329,6 @@
       "thread_id": null,
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/850115449845055488"
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "aqvx1q joined the server",
-      "timestamp": 1767732402,
-      "thread_id": null,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/850115449845055488"
     }
   ],
   "pipeline": [
@@ -433,44 +424,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1767691818.2690697,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "Septic Tank 4 Bilik #faktaunik #sains #sainsasyik",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768266001.0,
+      "url": "https://www.youtube.com/watch?v=-5Cf2rJ5KyU",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "Roblox Bloxburg News Report \ud83d\ude31\ud83d\udea8",
+      "description": "Credit : Roblox, masa.plays, elizabeth.aberle, marco2delicous, camxreezy, hearts4miaa08 We take copy...",
       "source": "YouTube",
-      "timestamp": 1767688218.269072,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1768263907.0,
+      "url": "https://www.youtube.com/watch?v=6zD_dQ95-Uk",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1767684618.2690725,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "I Grinded Taxi to Level 50 in Bloxburg: How long it took + Total Earnings",
+      "description": "In this video, I dive into how long it took me, how much money I earned at level 50 Taxi Driver, and...",
+      "source": "YouTube",
+      "timestamp": 1768260966.0,
+      "url": "https://www.youtube.com/watch?v=Q90CSBzVkdM",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1767681018.2690735,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "\u00f6yle #games #sad #ytdayibenionecikarnolur #love #bloxburg #bloxburg #dahood #automobile #dahood",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768237785.0,
+      "url": "https://www.youtube.com/watch?v=UNCnxvbFpI0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "The Worst Scammer",
+      "description": "roblox #ebonoah....",
+      "source": "YouTube",
+      "timestamp": 1768234308.0,
+      "url": "https://www.youtube.com/watch?v=cyQL7mMDMw4",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1768336225.8911817,
+    "generated_at": 1768337425.8973882,
     "mode": "memory",
     "refresh_interval": 2000
   }
