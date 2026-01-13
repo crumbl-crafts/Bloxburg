@@ -416,6 +416,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #memes #robloxmemes #minecraft #meme #robloxedits #dankmemes #bloxburg #robloxgfx #royale",
+      "description": "roblox #memes #robloxmemes #minecraft #meme #robloxedits #dankmemes #bloxburg #robloxgfx #royale....",
+      "source": "YouTube",
+      "timestamp": 1768296632.0,
+      "url": "https://www.youtube.com/watch?v=hR4DuMb3xHY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "My Starter Life \u2764\ufe0f\ud83d\ude0d",
+      "description": "Documenting my Bloxburg journey from a starter house to my biggest dreams. This Roblox story is abou...",
+      "source": "YouTube",
+      "timestamp": 1768296601.0,
+      "url": "https://www.youtube.com/watch?v=1OLW6ygmjxM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Roblox Bloxburg News Report \ud83d\ude31\ud83d\udea8",
       "description": "Credit : Roblox, masa.plays, elizabeth.aberle, marco2delicous, camxreezy, hearts4miaa08 We take copy...",
       "source": "YouTube",
@@ -434,29 +452,11 @@
     },
     {
       "type": "trend",
-      "title": "I recreated Barbie Dreamhouse in Bloxburg || #roblox  #barbie #bloxburg  #barbielifeinthedreamhouse",
-      "description": "heyy guys! if you wanna see the full video go watch it on my channel! to all bloxburg and barbie com...",
-      "source": "YouTube",
-      "timestamp": 1768248408.0,
-      "url": "https://www.youtube.com/watch?v=tlOhh6-le8A",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "\u00f6yle #games #sad #ytdayibenionecikarnolur #love #bloxburg #bloxburg #dahood #automobile #dahood",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1768237785.0,
       "url": "https://www.youtube.com/watch?v=UNCnxvbFpI0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "How BLOXBURG MOMS Treat Their 1st Child VS",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768229989.0,
-      "url": "https://www.youtube.com/watch?v=3kJTLK2YKjc",
       "icon": "fa-youtube"
     },
     {
@@ -497,7 +497,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768296625.8974848,
+    "generated_at": 1768297825.905978,
     "mode": "memory",
     "refresh_interval": 2000
   }
