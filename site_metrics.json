@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 356,
-    "joined_today": 0,
+    "total_members": 357,
+    "joined_today": 1,
     "active_shops": 2,
     "avg_response_time": 3583.8571428571427
   },
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "donbo_ joined the server",
+      "timestamp": 1768273425,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1103202924231925811"
+    },
     {
       "type": "member_leave",
       "shop_name": "Server",
@@ -461,20 +470,20 @@
     },
     {
       "type": "trend",
+      "title": "Seeing the emptiness after the chat ban... #roblox #shorts #robloxedit",
+      "description": "roblox chat ban, middle east roblox chat ban, roblox chat ban in Australia, roblox chat ban in uae, ...",
+      "source": "YouTube",
+      "timestamp": 1768219338.0,
+      "url": "https://www.youtube.com/watch?v=ZcAL2ZCVOYA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#roblox #bloxburg #gaming #games",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1768216317.0,
       "url": "https://www.youtube.com/watch?v=LAZId14fmeQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "LIKE AND SUBSCRIBE TO MY CHANNEL #roblox #forsaken #robloxedit #memes #edit #funny #speed",
-      "description": "LIKE AND SUBSCRIBE TO MY CHANNEL#roblox #robloxedit #forsaken #memes #edit #funny #speed #gaming #fa...",
-      "source": "YouTube",
-      "timestamp": 1768215290.0,
-      "url": "https://www.youtube.com/watch?v=Ia-vtfjoGgs",
       "icon": "fa-youtube"
     },
     {
@@ -515,7 +524,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768273226.1849952,
+    "generated_at": 1768273427.6234748,
     "mode": "memory",
     "refresh_interval": 2000
   }
