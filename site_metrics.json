@@ -275,15 +275,6 @@
       "thread_id": null,
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/725785746958450748"
-    },
-    {
-      "type": "new_request_thread",
-      "shop_name": "LF detailed builder for mega mansion",
-      "message": "<@543857387380015145> posted a new request titled: LF detailed builder for mega mansion",
-      "timestamp": 1767745006,
-      "thread_id": 1458252990707273759,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/channels/1301988304279048275/1458252990707273759"
     }
   ],
   "pipeline": [
@@ -416,7 +407,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768349425.8953037,
+    "generated_at": 1768350625.89653,
     "mode": "memory",
     "refresh_interval": 2000
   }
