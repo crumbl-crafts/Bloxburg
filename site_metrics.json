@@ -326,6 +326,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "No one even role plays in the school \ud83d\ude41 #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768392925.0,
+      "url": "https://www.youtube.com/watch?v=BZMZPyxGajI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Do you like to \u201cRoleplay\u201d Or \u201cBuild\u201d In BLOXBURG On ROBLOX \ud83d\ude0e",
       "description": "...",
       "source": "YouTube",
@@ -358,15 +367,6 @@
       "source": "YouTube",
       "timestamp": 1768355638.0,
       "url": "https://www.youtube.com/watch?v=A5jDZ3t5X18",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Christmas Cake Bloxburg Hack Tutorial! #shorts #bloxburg",
-      "description": "A Christmas Bloxburg hack tutorial on how to make this custom Christmas tree cake for Christmas in B...",
-      "source": "YouTube",
-      "timestamp": 1768348742.0,
-      "url": "https://www.youtube.com/watch?v=jUX0_pnz7pg",
       "icon": "fa-youtube"
     },
     {
@@ -407,7 +407,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768395025.9024718,
+    "generated_at": 1768396225.8944108,
     "mode": "memory",
     "refresh_interval": 2000
   }
