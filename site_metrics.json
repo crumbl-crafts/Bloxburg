@@ -308,6 +308,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "To The Ones Who Feel Left Behind \ud83e\udd72\ud83e\udd7a",
+      "description": "A relatable story through Bloxburg and Metro Life for anyone who feels like they're moving too slow....",
+      "source": "YouTube",
+      "timestamp": 1768383101.0,
+      "url": "https://www.youtube.com/watch?v=HrOeo8pPYC4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "HAH \ud83d\udc80 #roblox #bloxburg #lovelyjules",
       "description": "...",
       "source": "YouTube",
@@ -340,15 +349,6 @@
       "source": "YouTube",
       "timestamp": 1768347651.0,
       "url": "https://www.youtube.com/watch?v=WINptDsxbac",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "guys I LOVE it sometimes #roblox #bloxburg #relateable #bloxburgbuild #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768339950.0,
-      "url": "https://www.youtube.com/watch?v=Md-JByYkUFA",
       "icon": "fa-youtube"
     },
     {
@@ -389,7 +389,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768384225.9273472,
+    "generated_at": 1768385425.8957849,
     "mode": "memory",
     "refresh_interval": 2000
   }
