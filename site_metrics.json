@@ -317,6 +317,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "I miss how simple building was \ud83d\ude14 #roblox #bloxburg #relatable #relateable #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768416872.0,
+      "url": "https://www.youtube.com/watch?v=z_J3KE3iCBM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#cat #cute #roblox #rp #chat #roleplay #roleplay #chatvolta #robloxedit #bloxburg #bloxburg #edit",
       "description": "...",
       "source": "YouTube",
@@ -349,15 +358,6 @@
       "source": "YouTube",
       "timestamp": 1768387241.0,
       "url": "https://www.youtube.com/watch?v=rESQh7yKKk4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "sigh #pokehaven #marcus #robloxshorts #marcus #gaming #shortsfeed #businessmanhq #viral #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768385218.0,
-      "url": "https://www.youtube.com/watch?v=5gzXbpatFYU",
       "icon": "fa-youtube"
     },
     {
@@ -398,7 +398,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768419026.2487352,
+    "generated_at": 1768420225.9006422,
     "mode": "memory",
     "refresh_interval": 2000
   }
