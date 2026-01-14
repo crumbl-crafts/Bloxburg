@@ -308,6 +308,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "sigh #pokehaven #marcus #robloxshorts #marcus #gaming #shortsfeed #businessmanhq #viral #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768385218.0,
+      "url": "https://www.youtube.com/watch?v=5gzXbpatFYU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "To The Ones Who Feel Left Behind \ud83e\udd72\ud83e\udd7a",
       "description": "A relatable story through Bloxburg and Metro Life for anyone who feels like they're moving too slow....",
       "source": "YouTube",
@@ -340,15 +349,6 @@
       "source": "YouTube",
       "timestamp": 1768348722.0,
       "url": "https://www.youtube.com/watch?v=Xci2d2vl_MM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Names We Like For The Twins! \ud83d\ude31\ud83d\ude2d#bloxburg #bloxburgfamily #roblox #shorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768347651.0,
-      "url": "https://www.youtube.com/watch?v=WINptDsxbac",
       "icon": "fa-youtube"
     },
     {
@@ -389,7 +389,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768386626.3975642,
+    "generated_at": 1768387825.9176843,
     "mode": "memory",
     "refresh_interval": 2000
   }
