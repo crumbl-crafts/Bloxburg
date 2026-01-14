@@ -299,6 +299,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "No more running into stuff!! #roblox #bloxburg #relateable #lovelyjules #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768424498.0,
+      "url": "https://www.youtube.com/watch?v=Yg4_sIMl-D8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Are the Bloxburg DEVS actually LISTENING to us? #welcometobloxburg #bloxburg #roblox #viral",
+      "description": "Are the Bloxburg DEVS actually LISTENING to us? #welcometobloxburg #bloxburg #roblox #viral....",
+      "source": "YouTube",
+      "timestamp": 1768424031.0,
+      "url": "https://www.youtube.com/watch?v=AG-qGpZ4S_0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "I miss how simple building was \ud83d\ude14 #roblox #bloxburg #relatable #relateable #fyp",
       "description": "...",
       "source": "YouTube",
@@ -317,29 +335,11 @@
     },
     {
       "type": "trend",
-      "title": "#roblox #pvp #robloxshorts #beats #music #bloxburg #funk edit do rei jazghost",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768406164.0,
-      "url": "https://www.youtube.com/watch?v=UarmiM1uP4o",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "bruh why did she jumped\ud83d\ude2d\ud83d\ude2d#roblox#bloxburg#robloxmemes#youtubeshorts#fyp#viral#shorts#relatable",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1768393500.0,
       "url": "https://www.youtube.com/watch?v=43pllxoJq-k",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Do you like to \u201cRoleplay\u201d Or \u201cBuild\u201d In BLOXBURG On ROBLOX \ud83d\ude0e",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768387241.0,
-      "url": "https://www.youtube.com/watch?v=rESQh7yKKk4",
       "icon": "fa-youtube"
     },
     {
@@ -380,7 +380,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768426225.8981385,
+    "generated_at": 1768427425.8925874,
     "mode": "memory",
     "refresh_interval": 2000
   }
