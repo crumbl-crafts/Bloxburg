@@ -308,6 +308,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Do you like to \u201cRoleplay\u201d Or \u201cBuild\u201d In BLOXBURG On ROBLOX \ud83d\ude0e",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768387241.0,
+      "url": "https://www.youtube.com/watch?v=rESQh7yKKk4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "sigh #pokehaven #marcus #robloxshorts #marcus #gaming #shortsfeed #businessmanhq #viral #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -340,15 +349,6 @@
       "source": "YouTube",
       "timestamp": 1768348742.0,
       "url": "https://www.youtube.com/watch?v=jUX0_pnz7pg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Berry Avenue 2 Outfit Mom Codes || Bloxburg Brookhaven Berry Avenue #shorts",
-      "description": "\ua540 thank you for watching this video! \u02da these outfits work for brookhaven, berry avenue, and bloxburg...",
-      "source": "YouTube",
-      "timestamp": 1768348722.0,
-      "url": "https://www.youtube.com/watch?v=Xci2d2vl_MM",
       "icon": "fa-youtube"
     },
     {
@@ -389,7 +389,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768387825.9176843,
+    "generated_at": 1768389025.8934932,
     "mode": "memory",
     "refresh_interval": 2000
   }
