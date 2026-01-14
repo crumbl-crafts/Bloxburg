@@ -326,15 +326,6 @@
     },
     {
       "type": "trend",
-      "title": "Sunday routine\ud83d\ude1d#routinevlog #roblox #trending #viral #shorts #trendingshorts #sunday #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768396644.0,
-      "url": "https://www.youtube.com/watch?v=0ikb0PFg9Jc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Do you like to \u201cRoleplay\u201d Or \u201cBuild\u201d In BLOXBURG On ROBLOX \ud83d\ude0e",
       "description": "...",
       "source": "YouTube",
@@ -358,6 +349,15 @@
       "source": "YouTube",
       "timestamp": 1768383101.0,
       "url": "https://www.youtube.com/watch?v=HrOeo8pPYC4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Bloxburg I&#39;m Back .... #roblox #bloxburg #fyp",
+      "description": "roblox #berryave #bloxburgcontentcreator #robloxbloxburgspeedbuild #fyp\u30b7\u309aviral....",
+      "source": "YouTube",
+      "timestamp": 1768364492.0,
+      "url": "https://www.youtube.com/watch?v=Y-M48zqI-Qg",
       "icon": "fa-youtube"
     },
     {
@@ -398,7 +398,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768411825.9021397,
+    "generated_at": 1768413025.9026852,
     "mode": "memory",
     "refresh_interval": 2000
   }
