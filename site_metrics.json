@@ -317,6 +317,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "A VILLA DO CHAVES TA DIFERENTE \ud83d\ude02",
+      "description": "roblox \u2013 a principal tag para tudo relacionado ao Roblox. \ufffd TikTok Hashtags #robloxfyp \u2013 \u00f3timo para ...",
+      "source": "YouTube",
+      "timestamp": 1768406090.0,
+      "url": "https://www.youtube.com/watch?v=-C48wO3zFEg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "No one even role plays in the school \ud83d\ude41 #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -349,15 +358,6 @@
       "source": "YouTube",
       "timestamp": 1768383101.0,
       "url": "https://www.youtube.com/watch?v=HrOeo8pPYC4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg I&#39;m Back .... #roblox #bloxburg #fyp",
-      "description": "roblox #berryave #bloxburgcontentcreator #robloxbloxburgspeedbuild #fyp\u30b7\u309aviral....",
-      "source": "YouTube",
-      "timestamp": 1768364492.0,
-      "url": "https://www.youtube.com/watch?v=Y-M48zqI-Qg",
       "icon": "fa-youtube"
     },
     {
@@ -398,7 +398,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768405825.8954098,
+    "generated_at": 1768407025.9000268,
     "mode": "memory",
     "refresh_interval": 2000
   }
