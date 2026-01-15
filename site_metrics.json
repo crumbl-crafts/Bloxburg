@@ -290,6 +290,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "DAISY SNEAKS TO HER CRUSHES HOUSE! *MOM CATCHES HER!* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1768510806.0,
+      "url": "https://www.youtube.com/watch?v=AQITPbYzQZU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "BLOXBURG DAY 33",
       "description": "Halo semuanya!! Subscribe dulu ye Dukung aku di : https://saweria.co/rikoross....",
       "source": "YouTube",
@@ -322,15 +331,6 @@
       "source": "YouTube",
       "timestamp": 1768497978.0,
       "url": "https://www.youtube.com/watch?v=PotT3rTO8rk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "How BLOXBURG MOMS Treat Their 1st Child VS",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768490667.0,
-      "url": "https://www.youtube.com/watch?v=2tN8iLpQqWc",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768510826.2886066,
+    "generated_at": 1768511425.8991828,
     "mode": "memory",
     "refresh_interval": 2000
   }
