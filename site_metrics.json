@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 356,
-    "joined_today": 1,
+    "total_members": 357,
+    "joined_today": 2,
     "active_shops": 2,
     "avg_response_time": 3583.8571428571427
   },
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "wafermorning joined the server",
+      "timestamp": 1768500476,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/587866581544206346"
+    },
     {
       "type": "member_leave",
       "shop_name": "Server",
@@ -290,6 +299,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "\u0628\u0633\u0631\u0639\u0629 \u062a\u062e\u0644\u0635 \u0627\u0644\u0639\u0637\u0644\u0629\ud83e\udd72\ud83d\udc94 #roblox #aeroblox #bloxburg #\u0627\u0643\u0633\u0628\u0644\u0648\u0631 #\u0634\u0644\u062a\u0646\u0627 #ttd3 #\u0631\u0648\u0628\u0644\u0648\u0643\u0633 #rblx #\u0627\u0647\u0645\u064a\u0647",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768497978.0,
+      "url": "https://www.youtube.com/watch?v=PotT3rTO8rk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "How BLOXBURG MOMS Treat Their 1st Child VS",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768490667.0,
+      "url": "https://www.youtube.com/watch?v=2tN8iLpQqWc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Don\u2019t like don\u2019t share it\u2019s distracting #roblox #bloxburg @alaskaviolet",
       "description": "...",
       "source": "YouTube",
@@ -313,24 +340,6 @@
       "source": "YouTube",
       "timestamp": 1768460455.0,
       "url": "https://www.youtube.com/watch?v=uBamOAmBZyM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768457015.0,
-      "url": "https://www.youtube.com/watch?v=7qGw9aUMKbU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Customizable Capsule Homes Direct From Manufacturer | No Middlemen WhatsApp +8613933887047",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768456859.0,
-      "url": "https://www.youtube.com/watch?v=8ntVE7daxm8",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +380,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768500026.3111556,
+    "generated_at": 1768500478.988833,
     "mode": "memory",
     "refresh_interval": 2000
   }
