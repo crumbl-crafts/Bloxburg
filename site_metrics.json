@@ -8,7 +8,7 @@
   },
   "server": {
     "total_members": 357,
-    "joined_today": 2,
+    "joined_today": 0,
     "active_shops": 2,
     "avg_response_time": 3583.8571428571427
   },
@@ -334,53 +334,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "\u0628\u0633\u0631\u0639\u0629 \u062a\u062e\u0644\u0635 \u0627\u0644\u0639\u0637\u0644\u0629\ud83e\udd72\ud83d\udc94 #roblox #aeroblox #bloxburg #\u0627\u0643\u0633\u0628\u0644\u0648\u0631 #\u0634\u0644\u062a\u0646\u0627 #ttd3 #\u0631\u0648\u0628\u0644\u0648\u0643\u0633 #rblx #\u0627\u0647\u0645\u064a\u0647",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768497978.0,
-      "url": "https://www.youtube.com/watch?v=PotT3rTO8rk",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "How BLOXBURG MOMS Treat Their 1st Child VS",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1768490667.0,
-      "url": "https://www.youtube.com/watch?v=2tN8iLpQqWc",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "Roblox Bloxburg Breaking News \ud83d\ude31\ud83d\udea8 #trending #trendinglytrend",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768483805.0,
-      "url": "https://www.youtube.com/watch?v=aeAExxGuOsw",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "Don\u2019t like don\u2019t share it\u2019s distracting #roblox #bloxburg @alaskaviolet",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768482414.0,
-      "url": "https://www.youtube.com/watch?v=zAefS-rNbGg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "How to style a bloxburg bed! #2",
-      "description": "bloxburg #build #design #roblox #trending #viral #foryou #creative #modern....",
-      "source": "YouTube",
-      "timestamp": 1768473244.0,
-      "url": "https://www.youtube.com/watch?v=oHJwcW2UWgk",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1768513825.8954198,
+    "generated_at": 1768515025.9155743,
     "mode": "memory",
     "refresh_interval": 2000
   }
