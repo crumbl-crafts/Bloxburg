@@ -317,20 +317,20 @@
     },
     {
       "type": "trend",
+      "title": "#roblox#berryave#reccomended#realistic#illit#fyp\u30b7#rp#roleplay#bloxburg#trend#fyptiktok#boostup#viral",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768509960.0,
+      "url": "https://www.youtube.com/watch?v=2dZtvsnuDuQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "BLOXBURG DAY 33",
       "description": "Halo semuanya!! Subscribe dulu ye Dukung aku di : https://saweria.co/rikoross....",
       "source": "YouTube",
       "timestamp": 1768508964.0,
       "url": "https://www.youtube.com/watch?v=Ot1NayWOo-Q",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I BUILT A HOUSE THAT COVERS THE WHOLE PLOT In BLOXBURG",
-      "description": "bloxburg #roblox #robloxbloxburg I built the biggest house ever in bloxburg...no one can beat me now...",
-      "source": "YouTube",
-      "timestamp": 1768507243.0,
-      "url": "https://www.youtube.com/watch?v=rB7qmT8PTaI",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768519825.8962684,
+    "generated_at": 1768521025.8936121,
     "mode": "memory",
     "refresh_interval": 2000
   }
