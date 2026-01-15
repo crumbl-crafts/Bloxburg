@@ -317,6 +317,15 @@
     },
     {
       "type": "trend",
+      "title": "Roblox Bloxburg Breaking News \ud83d\ude31\ud83d\udea8 #trending #trendinglytrend",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768483805.0,
+      "url": "https://www.youtube.com/watch?v=aeAExxGuOsw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Don\u2019t like don\u2019t share it\u2019s distracting #roblox #bloxburg @alaskaviolet",
       "description": "...",
       "source": "YouTube",
@@ -331,15 +340,6 @@
       "source": "YouTube",
       "timestamp": 1768473244.0,
       "url": "https://www.youtube.com/watch?v=oHJwcW2UWgk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "BIBI SENANG AKAN BELTEMU DEDEK UCUP LAGI  #roblox #bibicantik01 #games #bibicantik #bloxburg",
-      "description": "BIBI SENANG SEKALI HALI INI BISA BELMAIN KELUMAH DEDEK UCUP YEYYY UN Roblox : BibiCantik01 Tiktok .....",
-      "source": "YouTube",
-      "timestamp": 1768460455.0,
-      "url": "https://www.youtube.com/watch?v=uBamOAmBZyM",
       "icon": "fa-youtube"
     },
     {
@@ -380,7 +380,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768503025.9042854,
+    "generated_at": 1768504225.9009094,
     "mode": "memory",
     "refresh_interval": 2000
   }
