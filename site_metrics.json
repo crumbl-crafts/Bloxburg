@@ -361,53 +361,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "I miss how simple building was \ud83d\ude14 #roblox #bloxburg #relatable #relateable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768416872.0,
-      "url": "https://www.youtube.com/watch?v=z_J3KE3iCBM",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "#cat #cute #roblox #rp #chat #roleplay #roleplay #chatvolta #robloxedit #bloxburg #bloxburg #edit",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1768413736.0,
-      "url": "https://www.youtube.com/watch?v=4jTVUdiGgSw",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "bruh why did she jumped\ud83d\ude2d\ud83d\ude2d#roblox#bloxburg#robloxmemes#youtubeshorts#fyp#viral#shorts#relatable",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768393500.0,
-      "url": "https://www.youtube.com/watch?v=43pllxoJq-k",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "Do you like to \u201cRoleplay\u201d Or \u201cBuild\u201d In BLOXBURG On ROBLOX \ud83d\ude0e",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768387241.0,
-      "url": "https://www.youtube.com/watch?v=rESQh7yKKk4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "sigh #pokehaven #marcus #robloxshorts #marcus #gaming #shortsfeed #businessmanhq #viral #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768385218.0,
-      "url": "https://www.youtube.com/watch?v=5gzXbpatFYU",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1768440626.2548537,
+    "generated_at": 1768441825.8906753,
     "mode": "memory",
     "refresh_interval": 2000
   }
