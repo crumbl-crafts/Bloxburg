@@ -290,6 +290,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "I BUILT A HOUSE THAT COVERS THE WHOLE PLOT In BLOXBURG",
+      "description": "bloxburg #roblox #robloxbloxburg I built the biggest house ever in bloxburg...no one can beat me now...",
+      "source": "YouTube",
+      "timestamp": 1768507243.0,
+      "url": "https://www.youtube.com/watch?v=rB7qmT8PTaI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "my favorite #roblox #bloxburg #nostalgia #lovelyjules #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768505781.0,
+      "url": "https://www.youtube.com/watch?v=LZ926ES4cik",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\u0628\u0633\u0631\u0639\u0629 \u062a\u062e\u0644\u0635 \u0627\u0644\u0639\u0637\u0644\u0629\ud83e\udd72\ud83d\udc94 #roblox #aeroblox #bloxburg #\u0627\u0643\u0633\u0628\u0644\u0648\u0631 #\u0634\u0644\u062a\u0646\u0627 #ttd3 #\u0631\u0648\u0628\u0644\u0648\u0643\u0633 #rblx #\u0627\u0647\u0645\u064a\u0647",
       "description": "...",
       "source": "YouTube",
@@ -313,24 +331,6 @@
       "source": "YouTube",
       "timestamp": 1768483805.0,
       "url": "https://www.youtube.com/watch?v=aeAExxGuOsw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Don\u2019t like don\u2019t share it\u2019s distracting #roblox #bloxburg @alaskaviolet",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768482414.0,
-      "url": "https://www.youtube.com/watch?v=zAefS-rNbGg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "How to style a bloxburg bed! #2",
-      "description": "bloxburg #build #design #roblox #trending #viral #foryou #creative #modern....",
-      "source": "YouTube",
-      "timestamp": 1768473244.0,
-      "url": "https://www.youtube.com/watch?v=oHJwcW2UWgk",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768506625.905348,
+    "generated_at": 1768507825.900568,
     "mode": "memory",
     "refresh_interval": 2000
   }
