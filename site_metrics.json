@@ -299,6 +299,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Don\u2019t like don\u2019t share it\u2019s distracting #roblox #bloxburg @alaskaviolet",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768482414.0,
+      "url": "https://www.youtube.com/watch?v=zAefS-rNbGg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "How to style a bloxburg bed! #2",
       "description": "bloxburg #build #design #roblox #trending #viral #foryou #creative #modern....",
       "source": "YouTube",
@@ -331,15 +340,6 @@
       "source": "YouTube",
       "timestamp": 1768440729.0,
       "url": "https://www.youtube.com/watch?v=GVygaPgXAJw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "BLOX NEWS NOTICIERO DE BLOXBURG #bloxburg #roblox #youtubeshorts #shorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768437251.0,
-      "url": "https://www.youtube.com/watch?v=mj5HLZS57Cc",
       "icon": "fa-youtube"
     },
     {
@@ -380,7 +380,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768483826.3677337,
+    "generated_at": 1768485025.909737,
     "mode": "memory",
     "refresh_interval": 2000
   }
