@@ -299,6 +299,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "How to style a bloxburg bed! #2",
+      "description": "bloxburg #build #design #roblox #trending #viral #foryou #creative #modern....",
+      "source": "YouTube",
+      "timestamp": 1768473244.0,
+      "url": "https://www.youtube.com/watch?v=oHJwcW2UWgk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "BIBI SENANG AKAN BELTEMU DEDEK UCUP LAGI  #roblox #bibicantik01 #games #bibicantik #bloxburg",
       "description": "BIBI SENANG SEKALI HALI INI BISA BELMAIN KELUMAH DEDEK UCUP YEYYY UN Roblox : BibiCantik01 Tiktok .....",
       "source": "YouTube",
@@ -331,15 +340,6 @@
       "source": "YouTube",
       "timestamp": 1768436677.0,
       "url": "https://www.youtube.com/watch?v=OAwcW_o5Nho",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "2026 is the year of Bloxburg [Welcome To Bloxburg]",
-      "description": "Hi Divas! In today's video I quickly go over why I'm certain Bloxburg will skyrocket in popularity. ...",
-      "source": "YouTube",
-      "timestamp": 1768431675.0,
-      "url": "https://www.youtube.com/watch?v=qsNhPEsHNZ8",
       "icon": "fa-youtube"
     },
     {
@@ -380,7 +380,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768474225.8985026,
+    "generated_at": 1768475425.8982232,
     "mode": "memory",
     "refresh_interval": 2000
   }
