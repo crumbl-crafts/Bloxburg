@@ -317,15 +317,6 @@
     },
     {
       "type": "trend",
-      "title": "KITA KERUMAH UCUP GUYS KARNA KANGEN  #roblox #bloxburg  #bimalafamily",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768446901.0,
-      "url": "https://www.youtube.com/watch?v=KVeGRWxGjj8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "BLOX NEWS NOTICIERO DE BLOXBURG #bloxburg #roblox #youtubeshorts #shorts",
       "description": "...",
       "source": "YouTube",
@@ -340,6 +331,15 @@
       "source": "YouTube",
       "timestamp": 1768436677.0,
       "url": "https://www.youtube.com/watch?v=OAwcW_o5Nho",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "2026 is the year of Bloxburg [Welcome To Bloxburg]",
+      "description": "Hi Divas! In today's video I quickly go over why I'm certain Bloxburg will skyrocket in popularity. ...",
+      "source": "YouTube",
+      "timestamp": 1768431675.0,
+      "url": "https://www.youtube.com/watch?v=qsNhPEsHNZ8",
       "icon": "fa-youtube"
     },
     {
@@ -380,7 +380,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768467626.223228,
+    "generated_at": 1768468225.8890514,
     "mode": "memory",
     "refresh_interval": 2000
   }
