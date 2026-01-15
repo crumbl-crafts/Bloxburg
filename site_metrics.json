@@ -334,53 +334,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "99\uac19\uc774 \ud558\uc2e4 \ubd84 #music #cover #jpop #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ud798\ub4e4\uc9c0\ub9cc",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768440729.0,
-      "url": "https://www.youtube.com/watch?v=GVygaPgXAJw",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "BLOX NEWS NOTICIERO DE BLOXBURG #bloxburg #roblox #youtubeshorts #shorts",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1768437251.0,
-      "url": "https://www.youtube.com/watch?v=mj5HLZS57Cc",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "When Your Sister Is Rude! \ud83d\ude31\ud83d\ude2d #bloxburg #bloxburgfamily #roblox #shorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768436677.0,
-      "url": "https://www.youtube.com/watch?v=OAwcW_o5Nho",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "2026 is the year of Bloxburg [Welcome To Bloxburg]",
-      "description": "Hi Divas! In today's video I quickly go over why I'm certain Bloxburg will skyrocket in popularity. ...",
-      "source": "YouTube",
-      "timestamp": 1768431675.0,
-      "url": "https://www.youtube.com/watch?v=qsNhPEsHNZ8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "hmmm \ud83e\udd14 #roblox #bloxburg #relateable #lovelyjules #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768428545.0,
-      "url": "https://www.youtube.com/watch?v=4dtPwNWtpZ4",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1768495825.8975382,
+    "generated_at": 1768497025.9015265,
     "mode": "memory",
     "refresh_interval": 2000
   }
