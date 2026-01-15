@@ -290,6 +290,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "BLOXBURG DAY 33",
+      "description": "Halo semuanya!! Subscribe dulu ye Dukung aku di : https://saweria.co/rikoross....",
+      "source": "YouTube",
+      "timestamp": 1768508964.0,
+      "url": "https://www.youtube.com/watch?v=Ot1NayWOo-Q",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "I BUILT A HOUSE THAT COVERS THE WHOLE PLOT In BLOXBURG",
       "description": "bloxburg #roblox #robloxbloxburg I built the biggest house ever in bloxburg...no one can beat me now...",
       "source": "YouTube",
@@ -322,15 +331,6 @@
       "source": "YouTube",
       "timestamp": 1768490667.0,
       "url": "https://www.youtube.com/watch?v=2tN8iLpQqWc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Roblox Bloxburg Breaking News \ud83d\ude31\ud83d\udea8 #trending #trendinglytrend",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768483805.0,
-      "url": "https://www.youtube.com/watch?v=aeAExxGuOsw",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768509025.905256,
+    "generated_at": 1768510225.9004576,
     "mode": "memory",
     "refresh_interval": 2000
   }
