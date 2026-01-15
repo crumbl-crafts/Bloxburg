@@ -299,6 +299,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768457015.0,
+      "url": "https://www.youtube.com/watch?v=7qGw9aUMKbU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "KITA KERUMAH UCUP GUYS KARNA KANGEN  #roblox #bloxburg  #bimalafamily",
       "description": "...",
       "source": "YouTube",
@@ -331,15 +340,6 @@
       "source": "YouTube",
       "timestamp": 1768431675.0,
       "url": "https://www.youtube.com/watch?v=qsNhPEsHNZ8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "No more running into stuff!! #roblox #bloxburg #relateable #lovelyjules #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768424498.0,
-      "url": "https://www.youtube.com/watch?v=Yg4_sIMl-D8",
       "icon": "fa-youtube"
     },
     {
@@ -380,7 +380,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768458625.8988004,
+    "generated_at": 1768459825.8922086,
     "mode": "memory",
     "refresh_interval": 2000
   }
