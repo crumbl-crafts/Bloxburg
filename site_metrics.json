@@ -317,20 +317,20 @@
     },
     {
       "type": "trend",
+      "title": "#roblox #rblx #\u0438\u0449\u044e\u043f\u0430\u0440\u0443\u0432\u0433\u0430\u0447\u0430\u043b\u0430\u0439\u0444 #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768561120.0,
+      "url": "https://www.youtube.com/watch?v=U_UDTg-2yB4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "How BLOXBURG MOMS Treat Their 1st Child VS......",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1768556132.0,
       "url": "https://www.youtube.com/watch?v=4Z4F_AyUsYs",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "POV You&#39;re A KID ROLEPLAYING In BLOXBURG On ROBLOX Until    2",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768555232.0,
-      "url": "https://www.youtube.com/watch?v=tpPpGcvWH-k",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768570226.2401989,
+    "generated_at": 1768571425.8915412,
     "mode": "memory",
     "refresh_interval": 2000
   }
