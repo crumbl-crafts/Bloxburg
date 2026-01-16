@@ -290,6 +290,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "AT ALL \ud83d\ude2d #roblox #bloxburg #relatable #nostalgia #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768594098.0,
+      "url": "https://www.youtube.com/watch?v=XsGShGaPOSI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "it\u2019s SO CUTE #roblox #bloxburg #bloxburgbuild #valentinesday #fyp",
       "description": "...",
       "source": "YouTube",
@@ -308,29 +317,20 @@
     },
     {
       "type": "trend",
+      "title": "i want your love trend #trend #bloxburg #alvinandthechipmunks #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768582371.0,
+      "url": "https://www.youtube.com/watch?v=2zgy28M5nwM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bloxburg:  Spring Mansion Modern House | House Build | Roblox (EXTERIOR)",
       "description": "Hewoo!! Join my Group: https://www.roblox.com/groups/8693713... Tiktok: https://www.tiktok.com/@just...",
       "source": "YouTube",
       "timestamp": 1768578608.0,
       "url": "https://www.youtube.com/watch?v=k7MI9hd1FT4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "ROLEPLAYING ON BLOXBURG BE LIKE\u2026 \ud83e\udd72",
-      "description": "If you enjoy this video, a like will be very appreciated :) Subscribe for more! #roblox #bloxburg #b...",
-      "source": "YouTube",
-      "timestamp": 1768571508.0,
-      "url": "https://www.youtube.com/watch?v=L6dHtEY7KKg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "ALL FROM ONE UPDATE.\ud83d\ude2d #fyp\u30b7\u309aviral #roblox #bloxburg #help #evan_LumiYT",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768570807.0,
-      "url": "https://www.youtube.com/watch?v=AOK8eQArRPk",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768595425.9265726,
+    "generated_at": 1768596625.8982244,
     "mode": "memory",
     "refresh_interval": 2000
   }
