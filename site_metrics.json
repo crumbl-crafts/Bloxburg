@@ -290,6 +290,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "Apartment Layout for everyone asking \u2764\ufe0f #roblox #bloxburg #bloxburgbuild #lovelyjules #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768601946.0,
+      "url": "https://www.youtube.com/watch?v=B-gUTKWq2ew",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "ICONIC Bloxburg x IKEA Collab coming to Roblox #bloxburg #ikea #roblox #viral",
+      "description": "ICONIC Bloxburg x IKEA Collab coming to Roblox #bloxburg #ikea #roblox #viral @IKEA....",
+      "source": "YouTube",
+      "timestamp": 1768600296.0,
+      "url": "https://www.youtube.com/watch?v=FVD4MnJjDeA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "AT ALL \ud83d\ude2d #roblox #bloxburg #relatable #nostalgia #fyp",
       "description": "...",
       "source": "YouTube",
@@ -299,38 +317,20 @@
     },
     {
       "type": "trend",
+      "title": "How long it took to reach level 50 as a Bloxburg taxi driver + How much I earned \ufffc",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768593930.0,
+      "url": "https://www.youtube.com/watch?v=ABGLjPPsxwY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "I\u2019m so bad at bloxburg\u2026\u2026\u2026\u2026..#bloxburg#fyp#fyp\u30b7#goviral#blowup#roblox#trending#bloxburgcontentcreator",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1768592091.0,
       "url": "https://www.youtube.com/watch?v=GWnU5LC-598",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "it\u2019s SO CUTE #roblox #bloxburg #bloxburgbuild #valentinesday #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768590184.0,
-      "url": "https://www.youtube.com/watch?v=m8-ivdBmUVA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "GO WATCH #shortsviral #mylittlepony #mlp #pinkiepie #viralvideo #bloxburg #blowup #cute #robloxedit",
-      "description": "Roblox #Bloxburg #RobloxBloxburg #BloxburgBuild #BloxburgHouse #BloxburgBuilds #BloxburgBuilder #Blo...",
-      "source": "YouTube",
-      "timestamp": 1768589136.0,
-      "url": "https://www.youtube.com/watch?v=WVS_KLnjGYk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "jogando bloxburg amo mt",
-      "description": "jogando bloxburg amo mt #grwm #vlog #amorecos #daily....",
-      "source": "YouTube",
-      "timestamp": 1768587559.0,
-      "url": "https://www.youtube.com/watch?v=0VuEO8XwZpc",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768602626.25199,
+    "generated_at": 1768603825.8890753,
     "mode": "memory",
     "refresh_interval": 2000
   }
