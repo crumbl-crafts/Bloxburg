@@ -290,6 +290,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "POV You&#39;re A KID ROLEPLAYING In BLOXBURG On ROBLOX Until    2",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768555232.0,
+      "url": "https://www.youtube.com/watch?v=tpPpGcvWH-k",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#roblox #viral #bloxburg #shorts #edit #brookhaven #lushlife #viralshort #robloxedit #catalog #edits",
       "description": "...",
       "source": "YouTube",
@@ -313,15 +322,6 @@
       "source": "YouTube",
       "timestamp": 1768523131.0,
       "url": "https://www.youtube.com/watch?v=IZ0bovLm3bs",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "BIG NEWS! IKEA IS COMING TO BLOXBURG?! NEW UPDATE ITEMS...",
-      "description": "well this is some very wild and interesting news!! new ikea furniture is coming to bloxburg next wee...",
-      "source": "YouTube",
-      "timestamp": 1768522452.0,
-      "url": "https://www.youtube.com/watch?v=zLlh0wXu_vA",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768557025.8982263,
+    "generated_at": 1768558225.900295,
     "mode": "memory",
     "refresh_interval": 2000
   }
