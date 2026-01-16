@@ -290,6 +290,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "ROLEPLAYING ON BLOXBURG BE LIKE\u2026 \ud83e\udd72",
+      "description": "If you enjoy this video, a like will be very appreciated :) Subscribe for more! #roblox #bloxburg #b...",
+      "source": "YouTube",
+      "timestamp": 1768571508.0,
+      "url": "https://www.youtube.com/watch?v=L6dHtEY7KKg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "ALL FROM ONE UPDATE.\ud83d\ude2d #fyp\u30b7\u309aviral #roblox #bloxburg #help #evan_LumiYT",
       "description": "...",
       "source": "YouTube",
@@ -322,15 +331,6 @@
       "source": "YouTube",
       "timestamp": 1768561557.0,
       "url": "https://www.youtube.com/watch?v=emJYA1B3_G4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#roblox #rblx #\u0438\u0449\u044e\u043f\u0430\u0440\u0443\u0432\u0433\u0430\u0447\u0430\u043b\u0430\u0439\u0444 #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768561120.0,
-      "url": "https://www.youtube.com/watch?v=U_UDTg-2yB4",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768578625.9002285,
+    "generated_at": 1768579825.8960776,
     "mode": "memory",
     "refresh_interval": 2000
   }
