@@ -334,44 +334,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1767691818.2690697,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "POV You&#39;re A KID ROLEPLAYING In BLOXBURG On ROBLOX Until    2",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768555232.0,
+      "url": "https://www.youtube.com/watch?v=tpPpGcvWH-k",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "#roblox #viral #bloxburg #shorts #edit #brookhaven #lushlife #viralshort #robloxedit #catalog #edits",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1767688218.269072,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1768550732.0,
+      "url": "https://www.youtube.com/watch?v=-NEjgNaCyec",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1767684618.2690725,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "Cook",
+      "description": "gorillatag #shrump....",
+      "source": "YouTube",
+      "timestamp": 1768542846.0,
+      "url": "https://www.youtube.com/watch?v=rSBPNqRIqqI",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1767681018.2690735,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Could you pls help me? #foryou #bloxburg #roblox #helpmeblowup",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768523131.0,
+      "url": "https://www.youtube.com/watch?v=IZ0bovLm3bs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "BIG NEWS! IKEA IS COMING TO BLOXBURG?! NEW UPDATE ITEMS...",
+      "description": "well this is some very wild and interesting news!! new ikea furniture is coming to bloxburg next wee...",
+      "source": "YouTube",
+      "timestamp": 1768522452.0,
+      "url": "https://www.youtube.com/watch?v=zLlh0wXu_vA",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1768573825.903405,
+    "generated_at": 1768575025.8903596,
     "mode": "memory",
     "refresh_interval": 2000
   }
