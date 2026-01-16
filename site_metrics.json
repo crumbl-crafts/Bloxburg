@@ -290,6 +290,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "\u201cSMALL HOUSE IN BLOXBURG\u201d  #bloxburg #roblox #gameplay #shorts",
+      "description": "Bloxburg isn't about showing off, it's about the process, hard work, and dreams. #bloxburg #robloxbl...",
+      "source": "YouTube",
+      "timestamp": 1768521600.0,
+      "url": "https://www.youtube.com/watch?v=kWRQ2hjpnHw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "ILY GUYS \u2764\ufe0f #roblox #bloxburg #bloxburgbuild #robloxfyp #fyp",
       "description": "...",
       "source": "YouTube",
@@ -322,15 +331,6 @@
       "source": "YouTube",
       "timestamp": 1768509960.0,
       "url": "https://www.youtube.com/watch?v=2dZtvsnuDuQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "BLOXBURG DAY 33",
-      "description": "Halo semuanya!! Subscribe dulu ye Dukung aku di : https://saweria.co/rikoross....",
-      "source": "YouTube",
-      "timestamp": 1768508964.0,
-      "url": "https://www.youtube.com/watch?v=Ot1NayWOo-Q",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768521627.8119767,
+    "generated_at": 1768522225.8978686,
     "mode": "memory",
     "refresh_interval": 2000
   }
