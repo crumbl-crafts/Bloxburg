@@ -290,15 +290,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "iya ini bisaa, tp di bloxburg muehehe #roblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768579415.0,
-      "url": "https://www.youtube.com/watch?v=lIu60v3P_Xk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Bloxburg:  Spring Mansion Modern House | House Build | Roblox (EXTERIOR)",
       "description": "Hewoo!! Join my Group: https://www.roblox.com/groups/8693713... Tiktok: https://www.tiktok.com/@just...",
       "source": "YouTube",
@@ -331,6 +322,15 @@
       "source": "YouTube",
       "timestamp": 1768565307.0,
       "url": "https://www.youtube.com/watch?v=qqSpqa8p8Gw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Bacon vs Bloxburg news reporter // roblox #roblox #invincible #robloxanimation #bacon #variant",
+      "description": "Bacon vs Bloxburg news reporter invincible roblox variants #invincible #roblox #robloxanimation #inv...",
+      "source": "YouTube",
+      "timestamp": 1768563923.0,
+      "url": "https://www.youtube.com/watch?v=F8FYSWWnF7w",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768582225.891475,
+    "generated_at": 1768583425.9044013,
     "mode": "memory",
     "refresh_interval": 2000
   }
