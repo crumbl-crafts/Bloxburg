@@ -308,6 +308,15 @@
     },
     {
       "type": "trend",
+      "title": "Could you pls help me? #foryou #bloxburg #roblox #helpmeblowup",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768523131.0,
+      "url": "https://www.youtube.com/watch?v=IZ0bovLm3bs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "BIG NEWS! IKEA IS COMING TO BLOXBURG?! NEW UPDATE ITEMS...",
       "description": "well this is some very wild and interesting news!! new ikea furniture is coming to bloxburg next wee...",
       "source": "YouTube",
@@ -322,15 +331,6 @@
       "source": "YouTube",
       "timestamp": 1768522434.0,
       "url": "https://www.youtube.com/watch?v=zFB4L6I36DE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\u201cSMALL HOUSE IN BLOXBURG\u201d  #bloxburg #roblox #gameplay #shorts",
-      "description": "Bloxburg isn't about showing off, it's about the process, hard work, and dreams. #bloxburg #robloxbl...",
-      "source": "YouTube",
-      "timestamp": 1768521600.0,
-      "url": "https://www.youtube.com/watch?v=kWRQ2hjpnHw",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768537826.2567785,
+    "generated_at": 1768539025.895395,
     "mode": "memory",
     "refresh_interval": 2000
   }
