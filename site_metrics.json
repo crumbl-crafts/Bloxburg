@@ -299,6 +299,15 @@
     },
     {
       "type": "trend",
+      "title": "I\u2019m so bad at bloxburg\u2026\u2026\u2026\u2026..#bloxburg#fyp#fyp\u30b7#goviral#blowup#roblox#trending#bloxburgcontentcreator",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768592091.0,
+      "url": "https://www.youtube.com/watch?v=GWnU5LC-598",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "it\u2019s SO CUTE #roblox #bloxburg #bloxburgbuild #valentinesday #fyp",
       "description": "...",
       "source": "YouTube",
@@ -322,15 +331,6 @@
       "source": "YouTube",
       "timestamp": 1768587559.0,
       "url": "https://www.youtube.com/watch?v=0VuEO8XwZpc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "i want your love trend #trend #bloxburg #alvinandthechipmunks #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768582371.0,
-      "url": "https://www.youtube.com/watch?v=2zgy28M5nwM",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768600225.8965595,
+    "generated_at": 1768601425.8958843,
     "mode": "memory",
     "refresh_interval": 2000
   }
