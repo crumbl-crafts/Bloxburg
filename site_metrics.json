@@ -290,6 +290,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "it\u2019s SO CUTE #roblox #bloxburg #bloxburgbuild #valentinesday #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768590184.0,
+      "url": "https://www.youtube.com/watch?v=m8-ivdBmUVA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "GO WATCH #shortsviral #mylittlepony #mlp #pinkiepie #viralvideo #bloxburg #blowup #cute #robloxedit",
+      "description": "Roblox #Bloxburg #RobloxBloxburg #BloxburgBuild #BloxburgHouse #BloxburgBuilds #BloxburgBuilder #Blo...",
+      "source": "YouTube",
+      "timestamp": 1768589136.0,
+      "url": "https://www.youtube.com/watch?v=WVS_KLnjGYk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bloxburg:  Spring Mansion Modern House | House Build | Roblox (EXTERIOR)",
       "description": "Hewoo!! Join my Group: https://www.roblox.com/groups/8693713... Tiktok: https://www.tiktok.com/@just...",
       "source": "YouTube",
@@ -313,24 +331,6 @@
       "source": "YouTube",
       "timestamp": 1768570807.0,
       "url": "https://www.youtube.com/watch?v=AOK8eQArRPk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "POV Your BLOXBURG House Is On Fire",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768565307.0,
-      "url": "https://www.youtube.com/watch?v=qqSpqa8p8Gw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ud83d\ude4f\ud83d\ude4f\ud83d\ude4f#ke\u015ffet #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768561557.0,
-      "url": "https://www.youtube.com/watch?v=emJYA1B3_G4",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768591826.2689795,
+    "generated_at": 1768593025.9151592,
     "mode": "memory",
     "refresh_interval": 2000
   }
