@@ -290,6 +290,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "\ud83d\ude4f\ud83d\ude4f\ud83d\ude4f#ke\u015ffet #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768561557.0,
+      "url": "https://www.youtube.com/watch?v=emJYA1B3_G4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "#roblox #rblx #\u0438\u0449\u044e\u043f\u0430\u0440\u0443\u0432\u0433\u0430\u0447\u0430\u043b\u0430\u0439\u0444 #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768561120.0,
+      "url": "https://www.youtube.com/watch?v=U_UDTg-2yB4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "POV You&#39;re A KID ROLEPLAYING In BLOXBURG On ROBLOX Until    2",
       "description": "...",
       "source": "YouTube",
@@ -313,24 +331,6 @@
       "source": "YouTube",
       "timestamp": 1768525686.0,
       "url": "https://www.youtube.com/watch?v=TqJp3zMn2dU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "How BLOXBURG MOMS Treat Their 1st Child VS",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768525261.0,
-      "url": "https://www.youtube.com/watch?v=i_t2SetfzaY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Could you pls help me? #foryou #bloxburg #roblox #helpmeblowup",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768523131.0,
-      "url": "https://www.youtube.com/watch?v=IZ0bovLm3bs",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768563025.909605,
+    "generated_at": 1768564225.892138,
     "mode": "memory",
     "refresh_interval": 2000
   }
