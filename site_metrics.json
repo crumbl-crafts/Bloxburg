@@ -284,15 +284,6 @@
       "thread_id": null,
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/927425716012847114"
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "jorhheey_91667 joined the server",
-      "timestamp": 1768088905,
-      "thread_id": null,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1440877652217958401"
     }
   ],
   "pipeline": [
@@ -344,6 +335,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "\ud83d\udd34BULLDOZING MY HOUSE ON BLOXBURG...",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
+      "source": "YouTube",
+      "timestamp": 1768690047.0,
+      "url": "https://www.youtube.com/watch?v=CgtNUoB7UHk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "clocking in #roblox #bloxburg #relatable #lovelyjules #fyp",
       "description": "...",
       "source": "YouTube",
@@ -376,15 +376,6 @@
       "source": "YouTube",
       "timestamp": 1768683606.0,
       "url": "https://www.youtube.com/watch?v=UH26VShPfY8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "DELETING ALL MY BLOXBURG PLOTS ($20M+)",
-      "description": "bloxburg #roblox #robloxbloxburg I got so broke i had to delete all of my bloxburg plots and childho...",
-      "source": "YouTube",
-      "timestamp": 1768680044.0,
-      "url": "https://www.youtube.com/watch?v=xXF4tjZekj0",
       "icon": "fa-youtube"
     },
     {
@@ -425,7 +416,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768692625.892533,
+    "generated_at": 1768693825.8975034,
     "mode": "memory",
     "refresh_interval": 2000
   }
