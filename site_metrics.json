@@ -326,6 +326,15 @@
     },
     {
       "type": "trend",
+      "title": "I CAN&#39;T TALK in BLOXBURG... STARTING a NEW &quot;MANSION&quot; in HARD MODE with facecam (Episode 77)",
+      "description": "we're back with bloxburg hard mode and this is the first since Roblox's update on the chat system! I...",
+      "source": "YouTube",
+      "timestamp": 1768615869.0,
+      "url": "https://www.youtube.com/watch?v=fsktzyPCpQU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "PLAYING BLOXBURG FOR THE FIRST TIME ",
       "description": "...",
       "source": "YouTube",
@@ -340,15 +349,6 @@
       "source": "YouTube",
       "timestamp": 1768611606.0,
       "url": "https://www.youtube.com/watch?v=vmEmbG3i9uU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Very *realistic* week in my life bloxburg roleplay",
-      "description": "Today's video.. very realistic week in my life Thanks so much for watching subscribe for more!! More...",
-      "source": "YouTube",
-      "timestamp": 1768611474.0,
-      "url": "https://www.youtube.com/watch?v=5cupjOEqMzU",
       "icon": "fa-youtube"
     },
     {
@@ -389,7 +389,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768643425.8964634,
+    "generated_at": 1768644625.9062948,
     "mode": "memory",
     "refresh_interval": 2000
   }
