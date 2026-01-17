@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 357,
+    "total_members": 356,
     "joined_today": 0,
     "active_shops": 2,
     "avg_response_time": 3583.8571428571427
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "lukie_tt2005 left the server",
+      "timestamp": 1768612023,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/342996908068962304"
+    },
     {
       "type": "member_join",
       "shop_name": "Server",
@@ -290,6 +299,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "6 Bedroom 5 1/2 Bathroom 2 Story House/AirBnB in Bloxburg!!",
+      "description": "Hello guys!! This is the first game video of 2026!! It is a little late because I've been so busy, b...",
+      "source": "YouTube",
+      "timestamp": 1768611606.0,
+      "url": "https://www.youtube.com/watch?v=vmEmbG3i9uU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "it\u2019s gotten a little dirty!! #roblox #bloxburg #bloxburgbuild #lovelyjules #fyp",
       "description": "...",
       "source": "YouTube",
@@ -322,15 +340,6 @@
       "source": "YouTube",
       "timestamp": 1768601946.0,
       "url": "https://www.youtube.com/watch?v=B-gUTKWq2ew",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "ICONIC Bloxburg x IKEA Collab coming to Roblox #bloxburg #ikea #roblox #viral",
-      "description": "ICONIC Bloxburg x IKEA Collab coming to Roblox #bloxburg #ikea #roblox #viral @IKEA....",
-      "source": "YouTube",
-      "timestamp": 1768600296.0,
-      "url": "https://www.youtube.com/watch?v=FVD4MnJjDeA",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +380,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768611025.8927932,
+    "generated_at": 1768612026.047411,
     "mode": "memory",
     "refresh_interval": 2000
   }
