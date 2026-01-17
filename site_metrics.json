@@ -266,15 +266,6 @@
       "thread_id": null,
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/995335435129729074"
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "izumi_97527 joined the server",
-      "timestamp": 1768046785,
-      "thread_id": null,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1426014678483730616"
     }
   ],
   "pipeline": [
@@ -326,6 +317,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "majority of the time its bloxburg #bloxburg #roblox #adoptme #adm #welcometobloxburg ",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768650298.0,
+      "url": "https://www.youtube.com/watch?v=rawcvtKlV-E",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Best way to earn money in Bloxburg (IMO)",
       "description": "quickmoney #ez #easy #easywaytoearnmoney #fast #bloxburg #bloxburgroleplay #roblox #robloxshorts....",
       "source": "YouTube",
@@ -358,15 +358,6 @@
       "source": "YouTube",
       "timestamp": 1768615869.0,
       "url": "https://www.youtube.com/watch?v=fsktzyPCpQU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "PLAYING BLOXBURG FOR THE FIRST TIME ",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768614535.0,
-      "url": "https://www.youtube.com/watch?v=IeX6lb3b5l8",
       "icon": "fa-youtube"
     },
     {
@@ -407,7 +398,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768651226.3981886,
+    "generated_at": 1768651825.8925683,
     "mode": "memory",
     "refresh_interval": 2000
   }
