@@ -353,20 +353,20 @@
     },
     {
       "type": "trend",
-      "title": "POV: You&#39;re A KID &quot;ROLEPLAYING&quot; In &quot;BLOXBURG&quot; On ROBLOX Until....",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768658440.0,
-      "url": "https://www.youtube.com/watch?v=MAm-ZDbUcIg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "majority of the time its bloxburg #bloxburg #roblox #adoptme #adm #welcometobloxburg ",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1768650298.0,
       "url": "https://www.youtube.com/watch?v=rawcvtKlV-E",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Best way to earn money in Bloxburg (IMO)",
+      "description": "quickmoney #ez #easy #easywaytoearnmoney #fast #bloxburg #bloxburgroleplay #roblox #robloxshorts....",
+      "source": "YouTube",
+      "timestamp": 1768644469.0,
+      "url": "https://www.youtube.com/watch?v=y60pFI_JROE",
       "icon": "fa-youtube"
     },
     {
@@ -407,7 +407,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768668625.8945277,
+    "generated_at": 1768669825.9395502,
     "mode": "memory",
     "refresh_interval": 2000
   }
