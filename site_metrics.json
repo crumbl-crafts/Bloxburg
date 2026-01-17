@@ -8,7 +8,7 @@
   },
   "server": {
     "total_members": 357,
-    "joined_today": 6,
+    "joined_today": 0,
     "active_shops": 2,
     "avg_response_time": 3583.8571428571427
   },
@@ -344,6 +344,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "It will be missed\ud83d\udd90\ufe0f\ud83d\ude14 #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768685236.0,
+      "url": "https://www.youtube.com/watch?v=cLByrmIKJqE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "EL ULTIMO VIAJE CAP 2 |mini pelicula| HISTORIA ROBLOX TERROR #historiaderoblox #bloxburg #brookhaven",
       "description": "Un joven entra a trabajar como taxista en el turno de la noche, sin saber el peligro que lo acechaba...",
       "source": "YouTube",
@@ -367,15 +376,6 @@
       "source": "YouTube",
       "timestamp": 1768680044.0,
       "url": "https://www.youtube.com/watch?v=xXF4tjZekj0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "BLOXBURG: Huge Fresh Start Family House Speedbuild (interior + full tour) Roblox House Build",
-      "description": "Hello builders! In this video i am building a BLOXBURG: Huge Fresh Start Family House Speedbuild (in...",
-      "source": "YouTube",
-      "timestamp": 1768672831.0,
-      "url": "https://www.youtube.com/watch?v=3d_1A_ZrFJ8",
       "icon": "fa-youtube"
     },
     {
@@ -425,7 +425,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768686625.899329,
+    "generated_at": 1768687825.8895714,
     "mode": "memory",
     "refresh_interval": 2000
   }
