@@ -290,6 +290,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "it\u2019s gotten a little dirty!! #roblox #bloxburg #bloxburgbuild #lovelyjules #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768606875.0,
+      "url": "https://www.youtube.com/watch?v=XKUFO4mjDFI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\ud83d\udcb8\ud83d\udcb8 #roblox #bloxburg #relatable #robloxfyp #fyp",
       "description": "...",
       "source": "YouTube",
@@ -322,15 +331,6 @@
       "source": "YouTube",
       "timestamp": 1768600296.0,
       "url": "https://www.youtube.com/watch?v=FVD4MnJjDeA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "AT ALL \ud83d\ude2d #roblox #bloxburg #relatable #nostalgia #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768594098.0,
-      "url": "https://www.youtube.com/watch?v=XsGShGaPOSI",
       "icon": "fa-youtube"
     },
     {
@@ -371,7 +371,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768608026.317547,
+    "generated_at": 1768608625.8895512,
     "mode": "memory",
     "refresh_interval": 2000
   }
