@@ -344,6 +344,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Bloxburg - Budget Roleplay House Speedbuild (exterior) | Roblox",
+      "description": "Today I made an Budget Roleplay House build I'll work on the interior for next week's video! Play BL...",
+      "source": "YouTube",
+      "timestamp": 1768687227.0,
+      "url": "https://www.youtube.com/watch?v=8Uyx8hXN_2c",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "It will be missed\ud83d\udd90\ufe0f\ud83d\ude14 #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -376,15 +385,6 @@
       "source": "YouTube",
       "timestamp": 1768680044.0,
       "url": "https://www.youtube.com/watch?v=xXF4tjZekj0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "This new RPG Roblox game is so cool! (Block Tales)",
-      "description": "shorts #roblox #blocktales #robloxblocktales #blocktalesdemo #robloxblocktalesdemo....",
-      "source": "YouTube",
-      "timestamp": 1768672820.0,
-      "url": "https://www.youtube.com/watch?v=NKYPERNuDhE",
       "icon": "fa-youtube"
     },
     {
@@ -425,7 +425,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768689026.3477235,
+    "generated_at": 1768690225.899584,
     "mode": "memory",
     "refresh_interval": 2000
   }
