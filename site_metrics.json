@@ -326,6 +326,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "#usa support me\ud83d\ude1e\ud83d\udc94 #roblox",
+      "description": "roblox #robloxshorts #robloxedit #funny #funny #bloxburg #usa....",
+      "source": "YouTube",
+      "timestamp": 1768663845.0,
+      "url": "https://www.youtube.com/watch?v=wXM5pce22vo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "do all #growagarden #roblox #petsimulatox #stealabrainrot #bloxburg #foryou #lucky #foryoupage #gg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768652472.0,
+      "url": "https://www.youtube.com/watch?v=6mc7eMIsRVg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "majority of the time its bloxburg #bloxburg #roblox #adoptme #adm #welcometobloxburg ",
       "description": "...",
       "source": "YouTube",
@@ -349,24 +367,6 @@
       "source": "YouTube",
       "timestamp": 1768644060.0,
       "url": "https://www.youtube.com/watch?v=AQOberyJGrE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#bloxburgnewleaks #BLOXBURG #bloxburg #fyp #viral",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768636808.0,
-      "url": "https://www.youtube.com/watch?v=80qdYRP4RP4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "chat #roblox #robloxbanchat #bloxburg",
-      "description": "Roblox benn doing anything #roblox #chat #games #robloxfyp....",
-      "source": "YouTube",
-      "timestamp": 1768630246.0,
-      "url": "https://www.youtube.com/watch?v=8ckAOlAB474",
       "icon": "fa-youtube"
     },
     {
@@ -407,7 +407,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768663825.923317,
+    "generated_at": 1768665025.8984566,
     "mode": "memory",
     "refresh_interval": 2000
   }
