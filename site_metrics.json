@@ -344,20 +344,20 @@
     },
     {
       "type": "trend",
-      "title": "my little trailer home :,) #bloxburg",
-      "description": "bloxburg #roblox #bloxburghouse #bloxburgroblox #bloxburgbuilds #robloxbloxburg #bloxburgbuild #blox...",
-      "source": "YouTube",
-      "timestamp": 1768643437.0,
-      "url": "https://www.youtube.com/watch?v=u3QGJY-ZqAw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "#bloxburgnewleaks #BLOXBURG #bloxburg #fyp #viral",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1768636808.0,
       "url": "https://www.youtube.com/watch?v=80qdYRP4RP4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "chat #roblox #robloxbanchat #bloxburg",
+      "description": "Roblox benn doing anything #roblox #chat #games #robloxfyp....",
+      "source": "YouTube",
+      "timestamp": 1768630246.0,
+      "url": "https://www.youtube.com/watch?v=8ckAOlAB474",
       "icon": "fa-youtube"
     },
     {
@@ -398,7 +398,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768656626.3586898,
+    "generated_at": 1768657825.894165,
     "mode": "memory",
     "refresh_interval": 2000
   }
