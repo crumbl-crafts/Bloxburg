@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 356,
+    "total_members": 355,
     "joined_today": 0,
     "active_shops": 2,
     "avg_response_time": 3583.8571428571427
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "crayon_payon left the server",
+      "timestamp": 1768613576,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/739223996532391977"
+    },
     {
       "type": "member_leave",
       "shop_name": "Server",
@@ -380,7 +389,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768613426.2412653,
+    "generated_at": 1768613578.5137389,
     "mode": "memory",
     "refresh_interval": 2000
   }
