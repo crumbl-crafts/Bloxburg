@@ -326,6 +326,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "SOPHIE MISSED HER FIRST DAY AT HIGH SCHOOL! *HUGE THUNDERSTORM* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1768683606.0,
+      "url": "https://www.youtube.com/watch?v=UH26VShPfY8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "DELETING ALL MY BLOXBURG PLOTS ($20M+)",
       "description": "bloxburg #roblox #robloxbloxburg I got so broke i had to delete all of my bloxburg plots and childho...",
       "source": "YouTube",
@@ -361,62 +370,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "glam girl indian",
-      "description": "brookhavencodes #hsl #glam gilr indian #brookhavencodes #hsl #bloxburg girls outfit codes for berry ...",
-      "source": "YouTube",
-      "timestamp": 1768667411.0,
-      "url": "https://www.youtube.com/watch?v=QFJX6dh8VJw",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "Ab hunter shikar banne wala hai \ud83d\udc3b\ud83d\udc80 | 99 night in the forest #99nightintheforest #roblox #99nights",
-      "description": "Ab hunter shikar banne wala hai | 99 night in the forest #99nightintheforest #roblox #99nights #robl...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1768666259.0,
-      "url": "https://www.youtube.com/watch?v=JQ7HIZMOLjc",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "#usa support me\ud83d\ude1e\ud83d\udc94 #roblox",
-      "description": "roblox #robloxshorts #robloxedit #funny #funny #bloxburg #usa....",
-      "source": "YouTube",
-      "timestamp": 1768663845.0,
-      "url": "https://www.youtube.com/watch?v=wXM5pce22vo",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "POV: You&#39;re A KID &quot;ROLEPLAYING&quot; In &quot;BLOXBURG&quot; On ROBLOX Until....",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768658440.0,
-      "url": "https://www.youtube.com/watch?v=MAm-ZDbUcIg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "majority of the time its bloxburg #bloxburg #roblox #adoptme #adm #welcometobloxburg ",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768650298.0,
-      "url": "https://www.youtube.com/watch?v=rawcvtKlV-E",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Best way to earn money in Bloxburg (IMO)",
-      "description": "quickmoney #ez #easy #easywaytoearnmoney #fast #bloxburg #bloxburgroleplay #roblox #robloxshorts....",
-      "source": "YouTube",
-      "timestamp": 1768644469.0,
-      "url": "https://www.youtube.com/watch?v=y60pFI_JROE",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1768683627.994898,
+    "generated_at": 1768684225.8955564,
     "mode": "memory",
     "refresh_interval": 2000
   }
