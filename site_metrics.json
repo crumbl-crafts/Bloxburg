@@ -326,6 +326,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "building a REALISTIC WINTER CABIN in bloxburg",
+      "description": "so good house part 2 (interior) and speedbuild COMING ASAP!! SUB WITH NOTIS ON SO THAT YOU DONT MISS...",
+      "source": "YouTube",
+      "timestamp": 1768669280.0,
+      "url": "https://www.youtube.com/watch?v=lkso9r1xmbA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "glam girl indian",
       "description": "brookhavencodes #hsl #glam gilr indian #brookhavencodes #hsl #bloxburg girls outfit codes for berry ...",
       "source": "YouTube",
@@ -358,15 +367,6 @@
       "source": "YouTube",
       "timestamp": 1768650298.0,
       "url": "https://www.youtube.com/watch?v=rawcvtKlV-E",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Best way to earn money in Bloxburg (IMO)",
-      "description": "quickmoney #ez #easy #easywaytoearnmoney #fast #bloxburg #bloxburgroleplay #roblox #robloxshorts....",
-      "source": "YouTube",
-      "timestamp": 1768644469.0,
-      "url": "https://www.youtube.com/watch?v=y60pFI_JROE",
       "icon": "fa-youtube"
     },
     {
@@ -407,7 +407,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768671025.891452,
+    "generated_at": 1768672225.91325,
     "mode": "memory",
     "refresh_interval": 2000
   }
