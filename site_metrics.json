@@ -317,6 +317,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "BLOXBURG: Huge Fresh Start Family House Speedbuild (interior + full tour) Roblox House Build",
+      "description": "Hello builders! In this video i am building a BLOXBURG: Huge Fresh Start Family House Speedbuild (in...",
+      "source": "YouTube",
+      "timestamp": 1768672831.0,
+      "url": "https://www.youtube.com/watch?v=3d_1A_ZrFJ8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "This new RPG Roblox game is so cool! (Block Tales)",
       "description": "shorts #roblox #blocktales #robloxblocktales #blocktalesdemo #robloxblocktalesdemo....",
       "source": "YouTube",
@@ -349,15 +358,6 @@
       "source": "YouTube",
       "timestamp": 1768666259.0,
       "url": "https://www.youtube.com/watch?v=JQ7HIZMOLjc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#usa support me\ud83d\ude1e\ud83d\udc94 #roblox",
-      "description": "roblox #robloxshorts #robloxedit #funny #funny #bloxburg #usa....",
-      "source": "YouTube",
-      "timestamp": 1768663845.0,
-      "url": "https://www.youtube.com/watch?v=wXM5pce22vo",
       "icon": "fa-youtube"
     },
     {
@@ -398,7 +398,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768675825.898253,
+    "generated_at": 1768677025.8998253,
     "mode": "memory",
     "refresh_interval": 2000
   }
