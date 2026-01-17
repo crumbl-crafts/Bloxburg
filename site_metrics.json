@@ -308,6 +308,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "We both sucks lol #roblox #foryou #bloxburgbuild #bloxburg #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768619819.0,
+      "url": "https://www.youtube.com/watch?v=xXhizADIKcw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "PLAYING BLOXBURG FOR THE FIRST TIME ",
       "description": "...",
       "source": "YouTube",
@@ -352,44 +361,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1767691818.2690697,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "\ud83d\udcb8\ud83d\udcb8 #roblox #bloxburg #relatable #robloxfyp #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768604231.0,
+      "url": "https://www.youtube.com/watch?v=D-UAa7qV2KA",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "Apartment Layout for everyone asking \u2764\ufe0f #roblox #bloxburg #bloxburgbuild #lovelyjules #fyp",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1767688218.269072,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1768601946.0,
+      "url": "https://www.youtube.com/watch?v=B-gUTKWq2ew",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1767684618.2690725,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "ICONIC Bloxburg x IKEA Collab coming to Roblox #bloxburg #ikea #roblox #viral",
+      "description": "ICONIC Bloxburg x IKEA Collab coming to Roblox #bloxburg #ikea #roblox #viral @IKEA....",
+      "source": "YouTube",
+      "timestamp": 1768600296.0,
+      "url": "https://www.youtube.com/watch?v=FVD4MnJjDeA",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1767681018.2690735,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "No more bumping into stuff! #roblox #bloxburg #christmas #2025 #2026",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768599044.0,
+      "url": "https://www.youtube.com/watch?v=h3rsmUO3QAw",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1768620625.888345,
+    "generated_at": 1768621825.8894212,
     "mode": "memory",
     "refresh_interval": 2000
   }
