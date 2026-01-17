@@ -344,20 +344,20 @@
   "news": [
     {
       "type": "trend",
+      "title": "clocking in #roblox #bloxburg #relatable #lovelyjules #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768688574.0,
+      "url": "https://www.youtube.com/watch?v=-vEW2TT3tKU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bloxburg - Budget Roleplay House Speedbuild (exterior) | Roblox",
       "description": "Today I made an Budget Roleplay House build I'll work on the interior for next week's video! Play BL...",
       "source": "YouTube",
       "timestamp": 1768687227.0,
       "url": "https://www.youtube.com/watch?v=8Uyx8hXN_2c",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "It will be missed\ud83d\udd90\ufe0f\ud83d\ude14 #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768685236.0,
-      "url": "https://www.youtube.com/watch?v=cLByrmIKJqE",
       "icon": "fa-youtube"
     },
     {
@@ -425,7 +425,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768690225.899584,
+    "generated_at": 1768691425.9068875,
     "mode": "memory",
     "refresh_interval": 2000
   }
