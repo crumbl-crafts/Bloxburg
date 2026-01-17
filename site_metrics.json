@@ -317,6 +317,24 @@
     },
     {
       "type": "trend",
+      "title": "Very *realistic* week in my life bloxburg roleplay",
+      "description": "Today's video.. very realistic week in my life Thanks so much for watching subscribe for more!! More...",
+      "source": "YouTube",
+      "timestamp": 1768611474.0,
+      "url": "https://www.youtube.com/watch?v=5cupjOEqMzU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Fires Rage, We Rise  Defining What&#39;s Truly Lost",
+      "description": "Watch the whole season https://tinyurl.com/4yfu3th8 Watch the first season https://tinyurl.com/32f72...",
+      "source": "YouTube",
+      "timestamp": 1768608048.0,
+      "url": "https://www.youtube.com/watch?v=YfLHnrRe9yw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "it\u2019s gotten a little dirty!! #roblox #bloxburg #bloxburgbuild #lovelyjules #fyp",
       "description": "...",
       "source": "YouTube",
@@ -331,24 +349,6 @@
       "source": "YouTube",
       "timestamp": 1768604231.0,
       "url": "https://www.youtube.com/watch?v=D-UAa7qV2KA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Building tips on interior rooms for bloxburg &amp; irl! #roblox #tips",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768603491.0,
-      "url": "https://www.youtube.com/watch?v=YaYLTfzovRM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Apartment Layout for everyone asking \u2764\ufe0f #roblox #bloxburg #bloxburgbuild #lovelyjules #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768601946.0,
-      "url": "https://www.youtube.com/watch?v=B-gUTKWq2ew",
       "icon": "fa-youtube"
     },
     {
@@ -389,7 +389,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768613578.5137389,
+    "generated_at": 1768614625.895908,
     "mode": "memory",
     "refresh_interval": 2000
   }
