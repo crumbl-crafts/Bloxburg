@@ -389,6 +389,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "DAY 18 STREAMING BLOXBURG",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768747752.0,
+      "url": "https://www.youtube.com/watch?v=99KJ5btE8nU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Roblox Bloxburg Breaking News \ud83d\ude31\ud83d\udea8",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768745580.0,
+      "url": "https://www.youtube.com/watch?v=7-ysf2ArlTE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Gonna be a very good house  #robloxbloxburg#welcometobloxburg #bloxburg #bloxburg#fypshorts",
       "description": "...",
       "source": "YouTube",
@@ -412,24 +430,6 @@
       "source": "YouTube",
       "timestamp": 1768707021.0,
       "url": "https://www.youtube.com/watch?v=OSpNv8FP1ns",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Front doors 3 different ways Bloxburg",
-      "description": "Front doors in different styles. Don't forget to like and subscribe! Music by Bensound.com License c...",
-      "source": "YouTube",
-      "timestamp": 1768697824.0,
-      "url": "https://www.youtube.com/watch?v=Mpe9Ed9Fz3E",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "A 13-Year-Old Gave Up His Xbox for His Mom \ud83d\ude2d",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768690835.0,
-      "url": "https://www.youtube.com/watch?v=R9RJQ59bleE",
       "icon": "fa-youtube"
     },
     {
@@ -470,7 +470,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768748426.7713923,
+    "generated_at": 1768749025.8922606,
     "mode": "memory",
     "refresh_interval": 2000
   }
