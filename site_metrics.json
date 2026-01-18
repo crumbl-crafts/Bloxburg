@@ -407,20 +407,20 @@
     },
     {
       "type": "trend",
-      "title": "How to make money fast in Bloxburg!",
-      "description": "Tips & Tricks on how to many money fast in Bloxburg! Don't forget to like and subscribe! Music by Be...",
-      "source": "YouTube",
-      "timestamp": 1768697642.0,
-      "url": "https://www.youtube.com/watch?v=Tw31lR_5oEw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "\ud83d\udd34BULLDOZING MY HOUSE ON BLOXBURG...",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
       "source": "YouTube",
       "timestamp": 1768690047.0,
       "url": "https://www.youtube.com/watch?v=CgtNUoB7UHk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "clocking in #roblox #bloxburg #relatable #lovelyjules #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768688574.0,
+      "url": "https://www.youtube.com/watch?v=-vEW2TT3tKU",
       "icon": "fa-youtube"
     },
     {
@@ -461,7 +461,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768719277.6811697,
+    "generated_at": 1768720225.9229712,
     "mode": "memory",
     "refresh_interval": 2000
   }
