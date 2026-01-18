@@ -416,6 +416,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "THIS TREEEEND \u270c\ud83c\udffb\ud83e\ude77 #roblox #newupdateinrobloxbedwars #trend #trend #bloxburg #bloxburg #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768761253.0,
+      "url": "https://www.youtube.com/watch?v=nZy6jxa8cv8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "How to get rich in Bloxburg #roblox #bloxburg #bloxburgcontentcreator",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768759705.0,
+      "url": "https://www.youtube.com/watch?v=4V0MJhug-v4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Do not talk to people in dark alleys in Roblox Block tales!",
       "description": "shorts #roblox #blocktales #robloxblocktales #blocktalesdemo #robloxblocktalesdemo....",
       "source": "YouTube",
@@ -425,38 +443,20 @@
     },
     {
       "type": "trend",
+      "title": "Bloxburg | Botanical Suburban Family RP Home | Roblox | House Build",
+      "description": "hey yall! Today i built this 2 story bloxburg botanical family roleplay home perfect for a small fam...",
+      "source": "YouTube",
+      "timestamp": 1768759200.0,
+      "url": "https://www.youtube.com/watch?v=NhhbYSiyaS8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Modern Bloxburg Villa House Build: INTERIOR Tutorial *VOICE*",
       "description": "hiii! today i show how to decorate our modern villa house in bloxburg! this affordable home is perfe...",
       "source": "YouTube",
       "timestamp": 1768752068.0,
       "url": "https://www.youtube.com/watch?v=hjfbWveIRW8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "DAY 18 STREAMING BLOXBURG",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768747752.0,
-      "url": "https://www.youtube.com/watch?v=99KJ5btE8nU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Roblox Bloxburg Breaking News \ud83d\ude31\ud83d\udea8",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768745580.0,
-      "url": "https://www.youtube.com/watch?v=7-ysf2ArlTE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Gonna be a very good house  #robloxbloxburg#welcometobloxburg #bloxburg #bloxburg#fypshorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768743103.0,
-      "url": "https://www.youtube.com/watch?v=hsBnnM8OyYA",
       "icon": "fa-youtube"
     },
     {
@@ -497,7 +497,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768761025.907547,
+    "generated_at": 1768762225.8929126,
     "mode": "memory",
     "refresh_interval": 2000
   }
