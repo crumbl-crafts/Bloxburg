@@ -434,6 +434,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Custom Pie Bloxburg Building Hack! #shorts #bloxburg",
+      "description": "A quick easy Bloxburg hack tutorial on how to make these custom oatmeal creme pies in Bloxburg. #blo...",
+      "source": "YouTube",
+      "timestamp": 1768767558.0,
+      "url": "https://www.youtube.com/watch?v=fwclY7mOcK8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Taxi Driver In Bloxburg City #roblox",
       "description": "The Taxi Office In Bloxburg On Roblox. Hope you like my videos. share and subscribe to help me keep ...",
       "source": "YouTube",
@@ -466,15 +475,6 @@
       "source": "YouTube",
       "timestamp": 1768759705.0,
       "url": "https://www.youtube.com/watch?v=4V0MJhug-v4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Do not talk to people in dark alleys in Roblox Block tales!",
-      "description": "shorts #roblox #blocktales #robloxblocktales #blocktalesdemo #robloxblocktalesdemo....",
-      "source": "YouTube",
-      "timestamp": 1768759241.0,
-      "url": "https://www.youtube.com/watch?v=ZY6JgYFCKmM",
       "icon": "fa-youtube"
     },
     {
@@ -515,7 +515,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768768225.9098458,
+    "generated_at": 1768769425.8984735,
     "mode": "memory",
     "refresh_interval": 2000
   }
