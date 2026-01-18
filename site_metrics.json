@@ -433,44 +433,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1767691818.2690697,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "A 13-Year-Old Gave Up His Xbox for His Mom \ud83d\ude2d",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768690835.0,
+      "url": "https://www.youtube.com/watch?v=R9RJQ59bleE",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "\ud83d\udd34BULLDOZING MY HOUSE ON BLOXBURG...",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
       "source": "YouTube",
-      "timestamp": 1767688218.269072,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1768690047.0,
+      "url": "https://www.youtube.com/watch?v=CgtNUoB7UHk",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1767684618.2690725,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "clocking in #roblox #bloxburg #relatable #lovelyjules #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768688574.0,
+      "url": "https://www.youtube.com/watch?v=-vEW2TT3tKU",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1767681018.2690735,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "EL ULTIMO VIAJE CAP 2 |mini pelicula| HISTORIA ROBLOX TERROR #historiaderoblox #bloxburg #brookhaven",
+      "description": "Un joven entra a trabajar como taxista en el turno de la noche, sin saber el peligro que lo acechaba...",
+      "source": "YouTube",
+      "timestamp": 1768684565.0,
+      "url": "https://www.youtube.com/watch?v=vD4ByIG88v4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "SOPHIE MISSED HER FIRST DAY AT HIGH SCHOOL! *HUGE THUNDERSTORM* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1768683606.0,
+      "url": "https://www.youtube.com/watch?v=UH26VShPfY8",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1768739425.9177856,
+    "generated_at": 1768740625.9066114,
     "mode": "memory",
     "refresh_interval": 2000
   }
