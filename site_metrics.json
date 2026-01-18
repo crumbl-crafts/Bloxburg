@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 357,
-    "joined_today": 1,
+    "total_members": 358,
+    "joined_today": 2,
     "active_shops": 2,
     "avg_response_time": 3254.625
   },
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "luvxukun joined the server",
+      "timestamp": 1768719275,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1280004092550451252"
+    },
     {
       "type": "rejected",
       "shop_name": "ULuvOllie's Shop",
@@ -452,7 +461,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768719025.893961,
+    "generated_at": 1768719277.6811697,
     "mode": "memory",
     "refresh_interval": 2000
   }
