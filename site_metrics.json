@@ -389,15 +389,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "DAY 18 STREAMING BLOXBURG",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768747752.0,
-      "url": "https://www.youtube.com/watch?v=99KJ5btE8nU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Roblox Bloxburg Breaking News \ud83d\ude31\ud83d\udea8",
       "description": "...",
       "source": "YouTube",
@@ -412,6 +403,15 @@
       "source": "YouTube",
       "timestamp": 1768743103.0,
       "url": "https://www.youtube.com/watch?v=hsBnnM8OyYA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "French Provincial Inspired House",
+      "description": "bloxburg #roblox #bloxburgspeedbuild....",
+      "source": "YouTube",
+      "timestamp": 1768738649.0,
+      "url": "https://www.youtube.com/watch?v=lTalrVfD67k",
       "icon": "fa-youtube"
     },
     {
@@ -470,7 +470,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768750225.9104517,
+    "generated_at": 1768751425.926132,
     "mode": "memory",
     "refresh_interval": 2000
   }
