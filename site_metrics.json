@@ -380,6 +380,15 @@
     },
     {
       "type": "trend",
+      "title": "clocking in #roblox #bloxburg #relatable #lovelyjules #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768688574.0,
+      "url": "https://www.youtube.com/watch?v=-vEW2TT3tKU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bloxburg - Budget Roleplay House Speedbuild (exterior) | Roblox",
       "description": "Today I made an Budget Roleplay House build I'll work on the interior for next week's video! Play BL...",
       "source": "YouTube",
@@ -403,15 +412,6 @@
       "source": "YouTube",
       "timestamp": 1768683606.0,
       "url": "https://www.youtube.com/watch?v=UH26VShPfY8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "DELETING ALL MY BLOXBURG PLOTS ($20M+)",
-      "description": "bloxburg #roblox #robloxbloxburg I got so broke i had to delete all of my bloxburg plots and childho...",
-      "source": "YouTube",
-      "timestamp": 1768680044.0,
-      "url": "https://www.youtube.com/watch?v=xXF4tjZekj0",
       "icon": "fa-youtube"
     },
     {
@@ -452,7 +452,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768707025.894404,
+    "generated_at": 1768708225.8898652,
     "mode": "memory",
     "refresh_interval": 2000
   }
