@@ -407,6 +407,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "telatt\ud83d\ude2d#roblox #robloxcdid #robloxedit #amazingroblox #rp #views #bloxburg #bloxburg #gasukaskip",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768774517.0,
+      "url": "https://www.youtube.com/watch?v=XLhvza6Ni88",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Bruno Mars Concert  #roblox #bloxburg #capcut #brunomars #video #shorts #memes #subscribe #cyborg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768774237.0,
+      "url": "https://www.youtube.com/watch?v=cyTg8AEsoE8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\ud83d\udd34BUILDING MY DREAM BACKYARD IN BLOXBURG!",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
       "source": "YouTube",
@@ -430,24 +448,6 @@
       "source": "YouTube",
       "timestamp": 1768767558.0,
       "url": "https://www.youtube.com/watch?v=fwclY7mOcK8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Taxi Driver In Bloxburg City #roblox",
-      "description": "The Taxi Office In Bloxburg On Roblox. Hope you like my videos. share and subscribe to help me keep ...",
-      "source": "YouTube",
-      "timestamp": 1768763713.0,
-      "url": "https://www.youtube.com/watch?v=FYr3bUMsUKg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "THIS TREEEEND \u270c\ud83c\udffb\ud83e\ude77 #roblox #newupdateinrobloxbedwars #trend #trend #bloxburg #bloxburg #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768761253.0,
-      "url": "https://www.youtube.com/watch?v=nZy6jxa8cv8",
       "icon": "fa-youtube"
     },
     {
@@ -488,7 +488,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768775426.5099182,
+    "generated_at": 1768776625.9043849,
     "mode": "memory",
     "refresh_interval": 2000
   }
