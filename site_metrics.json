@@ -425,6 +425,15 @@
     },
     {
       "type": "trend",
+      "title": "Old Bloxburg Edit who remembers? #robloxedit #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768760654.0,
+      "url": "https://www.youtube.com/watch?v=ZFMKTTsspOQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "How to get rich in Bloxburg #roblox #bloxburg #bloxburgcontentcreator",
       "description": "...",
       "source": "YouTube",
@@ -448,15 +457,6 @@
       "source": "YouTube",
       "timestamp": 1768759200.0,
       "url": "https://www.youtube.com/watch?v=NhhbYSiyaS8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Modern Bloxburg Villa House Build: INTERIOR Tutorial *VOICE*",
-      "description": "hiii! today i show how to decorate our modern villa house in bloxburg! this affordable home is perfe...",
-      "source": "YouTube",
-      "timestamp": 1768752068.0,
-      "url": "https://www.youtube.com/watch?v=hjfbWveIRW8",
       "icon": "fa-youtube"
     },
     {
@@ -497,7 +497,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768762225.8929126,
+    "generated_at": 1768763425.8992395,
     "mode": "memory",
     "refresh_interval": 2000
   }
