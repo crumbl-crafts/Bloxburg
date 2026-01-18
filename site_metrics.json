@@ -416,11 +416,29 @@
   "news": [
     {
       "type": "trend",
+      "title": "Do not talk to people in dark alleys in Roblox Block tales!",
+      "description": "shorts #roblox #blocktales #robloxblocktales #blocktalesdemo #robloxblocktalesdemo....",
+      "source": "YouTube",
+      "timestamp": 1768759241.0,
+      "url": "https://www.youtube.com/watch?v=ZY6JgYFCKmM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Modern Bloxburg Villa House Build: INTERIOR Tutorial *VOICE*",
       "description": "hiii! today i show how to decorate our modern villa house in bloxburg! this affordable home is perfe...",
       "source": "YouTube",
       "timestamp": 1768752068.0,
       "url": "https://www.youtube.com/watch?v=hjfbWveIRW8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "DAY 18 STREAMING BLOXBURG",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768747752.0,
+      "url": "https://www.youtube.com/watch?v=99KJ5btE8nU",
       "icon": "fa-youtube"
     },
     {
@@ -439,24 +457,6 @@
       "source": "YouTube",
       "timestamp": 1768743103.0,
       "url": "https://www.youtube.com/watch?v=hsBnnM8OyYA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "French Provincial Inspired House",
-      "description": "bloxburg #roblox #bloxburgspeedbuild....",
-      "source": "YouTube",
-      "timestamp": 1768738649.0,
-      "url": "https://www.youtube.com/watch?v=lTalrVfD67k",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "OPEN or DELETE the Chest?! \ud83d\ude28 Roblox #Shorts #roblox #betrayal #robloxshorts #bloxburg",
-      "description": "Roblox #RobloxShorts #Mystery #GamingShorts....",
-      "source": "YouTube",
-      "timestamp": 1768731657.0,
-      "url": "https://www.youtube.com/watch?v=3muRyZjS-Pc",
       "icon": "fa-youtube"
     },
     {
@@ -497,7 +497,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768759226.6982694,
+    "generated_at": 1768759825.9068508,
     "mode": "memory",
     "refresh_interval": 2000
   }
