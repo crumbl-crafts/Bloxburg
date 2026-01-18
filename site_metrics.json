@@ -407,15 +407,6 @@
     },
     {
       "type": "trend",
-      "title": "#stumbleguys #d\u00fao #0DIO LOS BRAINROTS 2 #voiceeffects #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768708171.0,
-      "url": "https://www.youtube.com/watch?v=ZpEWCxtLPPE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "#roblox #robloxedit #bloxburg #games #funny #automobile #robloxbloxburgspeedbuild",
       "description": "...",
       "source": "YouTube",
@@ -476,10 +467,19 @@
       "timestamp": 1768683606.0,
       "url": "https://www.youtube.com/watch?v=UH26VShPfY8",
       "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "DELETING ALL MY BLOXBURG PLOTS ($20M+)",
+      "description": "bloxburg #roblox #robloxbloxburg I got so broke i had to delete all of my bloxburg plots and childho...",
+      "source": "YouTube",
+      "timestamp": 1768680044.0,
+      "url": "https://www.youtube.com/watch?v=xXF4tjZekj0",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1768740625.9066114,
+    "generated_at": 1768741825.9013069,
     "mode": "memory",
     "refresh_interval": 2000
   }
