@@ -389,6 +389,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "OPEN or DELETE the Chest?! \ud83d\ude28 Roblox #Shorts #roblox #betrayal #robloxshorts #bloxburg",
+      "description": "Roblox #RobloxShorts #Mystery #GamingShorts....",
+      "source": "YouTube",
+      "timestamp": 1768731657.0,
+      "url": "https://www.youtube.com/watch?v=3muRyZjS-Pc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "steak praise bloxburg and he got the virus",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768720010.0,
+      "url": "https://www.youtube.com/watch?v=cVyYwMUFbcY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#stumbleguys #d\u00fao #0DIO LOS BRAINROTS 2 #voiceeffects #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -412,24 +430,6 @@
       "source": "YouTube",
       "timestamp": 1768697824.0,
       "url": "https://www.youtube.com/watch?v=Mpe9Ed9Fz3E",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ud83d\udd34BULLDOZING MY HOUSE ON BLOXBURG...",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
-      "source": "YouTube",
-      "timestamp": 1768690047.0,
-      "url": "https://www.youtube.com/watch?v=CgtNUoB7UHk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "clocking in #roblox #bloxburg #relatable #lovelyjules #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768688574.0,
-      "url": "https://www.youtube.com/watch?v=-vEW2TT3tKU",
       "icon": "fa-youtube"
     },
     {
@@ -470,7 +470,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768732226.359333,
+    "generated_at": 1768733425.914858,
     "mode": "memory",
     "refresh_interval": 2000
   }
