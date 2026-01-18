@@ -10,7 +10,7 @@
     "total_members": 360,
     "joined_today": 4,
     "active_shops": 2,
-    "avg_response_time": 3254.625
+    "avg_response_time": 2915.3333333333335
   },
   "topBuilders": [
     {
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "rejected",
+      "shop_name": "ULuvOllie's Shop",
+      "message": "Request from _fivestarr rejected",
+      "timestamp": 1768756526,
+      "thread_id": 1457057884968845373,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/channels/1301988304279048275/1457057884968845373"
+    },
     {
       "type": "sent",
       "shop_name": "ULuvOllie's Shop",
@@ -361,8 +370,8 @@
   "pipeline": [
     {
       "label": "Pending Requests",
-      "value": 1,
-      "trend": "2 new today \u00b7 8 responded",
+      "value": 0,
+      "trend": "2 new today \u00b7 9 responded",
       "max": 50
     },
     {
@@ -374,7 +383,7 @@
     {
       "label": "Requests (7d)",
       "value": 3,
-      "trend": "4 accepted \u00b7 4 rejected",
+      "trend": "4 accepted \u00b7 5 rejected",
       "max": 100
     }
   ],
@@ -387,7 +396,7 @@
     },
     {
       "title": "Acceptance Rate",
-      "detail": "50.0% of requests accepted (4 accepted, 4 rejected)",
+      "detail": "44.4% of requests accepted (4 accepted, 5 rejected)",
       "score": "Monitor",
       "status": "warning"
     },
@@ -399,7 +408,7 @@
     },
     {
       "title": "Queue Health",
-      "detail": "1 requests awaiting response",
+      "detail": "0 requests awaiting response",
       "score": "Manageable",
       "status": "good"
     }
@@ -488,7 +497,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768756328.4256802,
+    "generated_at": 1768756529.1458025,
     "mode": "memory",
     "refresh_interval": 2000
   }
