@@ -371,6 +371,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#stumbleguys #d\u00fao #0DIO LOS BRAINROTS 2 #voiceeffects #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768708171.0,
+      "url": "https://www.youtube.com/watch?v=ZpEWCxtLPPE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\ud83d\udd34BULLDOZING MY HOUSE ON BLOXBURG...",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
       "source": "YouTube",
@@ -403,15 +412,6 @@
       "source": "YouTube",
       "timestamp": 1768684565.0,
       "url": "https://www.youtube.com/watch?v=vD4ByIG88v4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "SOPHIE MISSED HER FIRST DAY AT HIGH SCHOOL! *HUGE THUNDERSTORM* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1768683606.0,
-      "url": "https://www.youtube.com/watch?v=UH26VShPfY8",
       "icon": "fa-youtube"
     },
     {
@@ -452,7 +452,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768710626.359421,
+    "generated_at": 1768711825.8943818,
     "mode": "memory",
     "refresh_interval": 2000
   }
