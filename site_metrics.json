@@ -407,6 +407,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Which Bloxburg job pays MORE? Pizza delivery or Taxi Driver at MAX LVL",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768846661.0,
+      "url": "https://www.youtube.com/watch?v=agpW3K3Xluk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Modern Scandinavian Winter Family Home PART 1|Welcome to Bloxburg|",
       "description": "Thanks for watching, here you will find some needed info about the build \u27a8Multiple Floors \u27a8Advanced ...",
       "source": "YouTube",
@@ -421,15 +430,6 @@
       "source": "YouTube",
       "timestamp": 1768839903.0,
       "url": "https://www.youtube.com/watch?v=YjbaX_CSpWI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "POV: were adding finishing touches to our bloxburg houses",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768836730.0,
-      "url": "https://www.youtube.com/watch?v=VobVUe15kC0",
       "icon": "fa-youtube"
     },
     {
@@ -488,7 +488,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768847425.9225976,
+    "generated_at": 1768848625.8949304,
     "mode": "memory",
     "refresh_interval": 2000
   }
