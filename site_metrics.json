@@ -425,6 +425,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#newmusic #music #rock #pop #love #roblox #bloxfruits #videogamemusic #bloxburg #games",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768802765.0,
+      "url": "https://www.youtube.com/watch?v=P-c47kYI-bc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\ub3d9\uc0dd\uc774\ub791 99 #automobile #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4",
       "description": "...",
       "source": "YouTube",
@@ -457,15 +466,6 @@
       "source": "YouTube",
       "timestamp": 1768774517.0,
       "url": "https://www.youtube.com/watch?v=XLhvza6Ni88",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "miss playing with you twin #bloxburg #robloxbloxburgspeedbuild #roblox #bloxburgcontentcreator",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768772248.0,
-      "url": "https://www.youtube.com/watch?v=-9aCTKOyr2o",
       "icon": "fa-youtube"
     },
     {
@@ -506,7 +506,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768804225.9158006,
+    "generated_at": 1768805425.9075267,
     "mode": "memory",
     "refresh_interval": 2000
   }
