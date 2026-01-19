@@ -356,15 +356,6 @@
       "thread_id": null,
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1329200930008203274"
-    },
-    {
-      "type": "rejected",
-      "shop_name": "ULuvOllie's Shop",
-      "message": "Request from laurenleaxo rejected",
-      "timestamp": 1768220869,
-      "thread_id": 1457057884968845373,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/channels/1301988304279048275/1457057884968845373"
     }
   ],
   "pipeline": [
@@ -497,7 +488,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768825447.658994,
+    "generated_at": 1768825825.9095752,
     "mode": "memory",
     "refresh_interval": 2000
   }
