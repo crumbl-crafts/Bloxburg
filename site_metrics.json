@@ -362,7 +362,7 @@
     {
       "label": "Pending Requests",
       "value": 0,
-      "trend": "2 new today \u00b7 9 responded",
+      "trend": "1 new today \u00b7 9 responded",
       "max": 50
     },
     {
@@ -407,6 +407,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "\ud83d\ude2eCan I FINISH My House w ONLY 5k in Bloxburg? #bloxburg #roblox #shorts #robloxbloxburg",
+      "description": "i build a 2 story modern villa house in bloxburg and run out of money LOL \u2713the tutorial is above thi...",
+      "source": "YouTube",
+      "timestamp": 1768788015.0,
+      "url": "https://www.youtube.com/watch?v=H0DN6eLIA6U",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "This is the WORST BLOXBURG House... LOL",
       "description": "bros house is GENIUUSSSS - streamed live on twitch: jackeryz :) #bloxburg #roblox #clips....",
       "source": "YouTube",
@@ -439,15 +448,6 @@
       "source": "YouTube",
       "timestamp": 1768772248.0,
       "url": "https://www.youtube.com/watch?v=-9aCTKOyr2o",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ud83d\udd34BUILDING MY DREAM BACKYARD IN BLOXBURG!",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
-      "source": "YouTube",
-      "timestamp": 1768771018.0,
-      "url": "https://www.youtube.com/watch?v=TG2WArtx6s4",
       "icon": "fa-youtube"
     },
     {
@@ -488,7 +488,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768787425.895498,
+    "generated_at": 1768788625.8950105,
     "mode": "memory",
     "refresh_interval": 2000
   }
