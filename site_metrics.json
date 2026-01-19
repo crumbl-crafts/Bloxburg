@@ -425,6 +425,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "\u1d0d\u1d0f\u1d0d \u0262\u026a\u1d20\u1d07 \u1d0d\u1d07 \u0299\u1d00\u1d04\u1d0b \u1d0d\u028f \u1d18\u029c\u1d0f\u0274\u1d07 \ud83d\ude21 \u0280\u1d0f\u0299\u029f\u1d0fx \u1d0d\u1d07\u1d0d\u1d07",
+      "description": "\u1d0d\u1d0f\u1d0d \u0262\u026a\u1d20\u1d07 \u1d0d\u1d07 \u0299\u1d00\u1d04\u1d0b \u1d0d\u028f \u1d18\u029c\u1d0f\u0274\u1d07 \u0280\u1d0f\u0299\u029f\u1d0fx \u1d0d\u1d07\u1d0d\u1d07 #royalehigh #bloxburg #adoptmeroblox #robloxedits ......",
+      "source": "YouTube",
+      "timestamp": 1768854645.0,
+      "url": "https://www.youtube.com/watch?v=Z8rMKiYdWME",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\ud83d\udd34FINISH BUILDING MY DREAM SUMMER HOME IN BLOXBURG WITH ME!",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
       "source": "YouTube",
@@ -457,15 +466,6 @@
       "source": "YouTube",
       "timestamp": 1768842046.0,
       "url": "https://www.youtube.com/watch?v=S_uVXAeSchI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "aaj Sabko head shot lagega | 99 night in the forest #99nightintheforest #roblox #99nights",
-      "description": "aaj Sabko head shot lagega | 99 night in the forest #99nightintheforest #roblox #99nights #robloxedi...",
-      "source": "YouTube",
-      "timestamp": 1768839903.0,
-      "url": "https://www.youtube.com/watch?v=YjbaX_CSpWI",
       "icon": "fa-youtube"
     },
     {
@@ -506,7 +506,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768854713.2178373,
+    "generated_at": 1768855825.8928459,
     "mode": "memory",
     "refresh_interval": 2000
   }
