@@ -398,6 +398,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "aaj Sabko head shot lagega | 99 night in the forest #99nightintheforest #roblox #99nights",
+      "description": "aaj Sabko head shot lagega | 99 night in the forest #99nightintheforest #roblox #99nights #robloxedi...",
+      "source": "YouTube",
+      "timestamp": 1768839903.0,
+      "url": "https://www.youtube.com/watch?v=YjbaX_CSpWI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "POV: were adding finishing touches to our bloxburg houses",
       "description": "...",
       "source": "YouTube",
@@ -430,15 +439,6 @@
       "source": "YouTube",
       "timestamp": 1768789166.0,
       "url": "https://www.youtube.com/watch?v=Bg-jauXJoVY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ud83d\ude2eCan I FINISH My House w ONLY 5k in Bloxburg? #bloxburg #roblox #shorts #robloxbloxburg",
-      "description": "i build a 2 story modern villa house in bloxburg and run out of money LOL \u2713the tutorial is above thi...",
-      "source": "YouTube",
-      "timestamp": 1768788015.0,
-      "url": "https://www.youtube.com/watch?v=H0DN6eLIA6U",
       "icon": "fa-youtube"
     },
     {
@@ -479,7 +479,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768840226.2872546,
+    "generated_at": 1768841425.9234376,
     "mode": "memory",
     "refresh_interval": 2000
   }
