@@ -8,7 +8,7 @@
   },
   "server": {
     "total_members": 361,
-    "joined_today": 3,
+    "joined_today": 0,
     "active_shops": 2,
     "avg_response_time": 2915.3333333333335
   },
@@ -425,6 +425,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "I always forget I have it \ud83d\ude2d #roblox #bloxburg #bloxburgbuild #lovelyjules #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768857915.0,
+      "url": "https://www.youtube.com/watch?v=W0oROStcA8A",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\u1d0d\u1d0f\u1d0d \u0262\u026a\u1d20\u1d07 \u1d0d\u1d07 \u0299\u1d00\u1d04\u1d0b \u1d0d\u028f \u1d18\u029c\u1d0f\u0274\u1d07 \ud83d\ude21 \u0280\u1d0f\u0299\u029f\u1d0fx \u1d0d\u1d07\u1d0d\u1d07",
       "description": "\u1d0d\u1d0f\u1d0d \u0262\u026a\u1d20\u1d07 \u1d0d\u1d07 \u0299\u1d00\u1d04\u1d0b \u1d0d\u028f \u1d18\u029c\u1d0f\u0274\u1d07 \u0280\u1d0f\u0299\u029f\u1d0fx \u1d0d\u1d07\u1d0d\u1d07 #royalehigh #bloxburg #adoptmeroblox #robloxedits ......",
       "source": "YouTube",
@@ -439,15 +448,6 @@
       "source": "YouTube",
       "timestamp": 1768850950.0,
       "url": "https://www.youtube.com/watch?v=60TMPLuJ34o",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ud83d\udc95\u0440\u0430\u0431\u043e\u0442\u0430\u044e 10 \u043c\u0438\u043d \u0432 \u0441\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442\u0435 bloxburg \ud83d\udc95",
-      "description": "Hello   \u041c\u043e\u0439 \u0442\u0433\u043a: @Maya_TV1 #\u0437\u0430\u043b\u0435\u0442\u0438 #\u0440\u0435\u043a #\u0440\u043e\u0431\u043b\u043e\u043a\u0441 #\u0440\u043e\u0431\u043b\u043e\u043a\u0441\u0435\u0440\u0448\u0430 #bloxburg #bloxburghouses #bloxburg #b...",
-      "source": "YouTube",
-      "timestamp": 1768850728.0,
-      "url": "https://www.youtube.com/watch?v=tRKN5wvNV4Q",
       "icon": "fa-youtube"
     },
     {
@@ -506,7 +506,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768859425.9033504,
+    "generated_at": 1768860625.9085503,
     "mode": "memory",
     "refresh_interval": 2000
   }
