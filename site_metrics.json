@@ -398,6 +398,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "School love story part 1 #roblox #robloxdressup #edit #roleplay #rblx #bloxburg #bloxburg ",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768831394.0,
+      "url": "https://www.youtube.com/watch?v=GZUKHo2J5Ko",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Roblox Funny Moments \ud83d\ude01 #shorts  #roblox",
       "description": "Roblox Funny Moments #Roblox #RobloxShorts #RobloxGameplay #RobloxEdit #RobloxEdits #RobloxGamer #Ro...",
       "source": "YouTube",
@@ -430,15 +439,6 @@
       "source": "YouTube",
       "timestamp": 1768788015.0,
       "url": "https://www.youtube.com/watch?v=H0DN6eLIA6U",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "This is the WORST BLOXBURG House... LOL",
-      "description": "bros house is GENIUUSSSS - streamed live on twitch: jackeryz :) #bloxburg #roblox #clips....",
-      "source": "YouTube",
-      "timestamp": 1768775471.0,
-      "url": "https://www.youtube.com/watch?v=VHKNnRxQgcg",
       "icon": "fa-youtube"
     },
     {
@@ -479,7 +479,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768830625.9226975,
+    "generated_at": 1768831825.9020753,
     "mode": "memory",
     "refresh_interval": 2000
   }
