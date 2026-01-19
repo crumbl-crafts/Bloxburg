@@ -398,6 +398,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Modern Scandinavian Winter Family Home PART 1|Welcome to Bloxburg|",
+      "description": "Thanks for watching, here you will find some needed info about the build \u27a8Multiple Floors \u27a8Advanced ...",
+      "source": "YouTube",
+      "timestamp": 1768842046.0,
+      "url": "https://www.youtube.com/watch?v=S_uVXAeSchI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "aaj Sabko head shot lagega | 99 night in the forest #99nightintheforest #roblox #99nights",
       "description": "aaj Sabko head shot lagega | 99 night in the forest #99nightintheforest #roblox #99nights #robloxedi...",
       "source": "YouTube",
@@ -416,15 +425,6 @@
     },
     {
       "type": "trend",
-      "title": "WHAT HAPPENED TO WELCOME TO BLOXBURG ON ROBLOX?",
-      "description": "What Happened To WELCOME TO BLOXBURG On Roblox? Here's a quick summary of what happened to Welcome t...",
-      "source": "YouTube",
-      "timestamp": 1768824015.0,
-      "url": "https://www.youtube.com/watch?v=48MRZJN-MLw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "#newmusic #music #rock #pop #love #roblox #bloxfruits #videogamemusic #bloxburg #games",
       "description": "...",
       "source": "YouTube",
@@ -434,11 +434,11 @@
     },
     {
       "type": "trend",
-      "title": "\ub3d9\uc0dd\uc774\ub791 99 #automobile #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4",
+      "title": "lol #roblox",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1768789166.0,
-      "url": "https://www.youtube.com/watch?v=Bg-jauXJoVY",
+      "timestamp": 1768797957.0,
+      "url": "https://www.youtube.com/watch?v=GsXB01rJqF8",
       "icon": "fa-youtube"
     },
     {
@@ -479,7 +479,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768841425.9234376,
+    "generated_at": 1768842625.9134946,
     "mode": "memory",
     "refresh_interval": 2000
   }
