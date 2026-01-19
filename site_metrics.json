@@ -407,6 +407,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "\ud83d\udd34FINISH BUILDING MY DREAM SUMMER HOME IN BLOXBURG WITH ME!",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
+      "source": "YouTube",
+      "timestamp": 1768850950.0,
+      "url": "https://www.youtube.com/watch?v=60TMPLuJ34o",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "\ud83d\udc95\u0440\u0430\u0431\u043e\u0442\u0430\u044e 10 \u043c\u0438\u043d \u0432 \u0441\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442\u0435 bloxburg \ud83d\udc95",
+      "description": "Hello   \u041c\u043e\u0439 \u0442\u0433\u043a: @Maya_TV1 #\u0437\u0430\u043b\u0435\u0442\u0438 #\u0440\u0435\u043a #\u0440\u043e\u0431\u043b\u043e\u043a\u0441 #\u0440\u043e\u0431\u043b\u043e\u043a\u0441\u0435\u0440\u0448\u0430 #bloxburg #bloxburghouses #bloxburg #b...",
+      "source": "YouTube",
+      "timestamp": 1768850728.0,
+      "url": "https://www.youtube.com/watch?v=tRKN5wvNV4Q",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "RENOVATING MY ABANDONED MANSION IN BLOXBURG",
       "description": "I finally finished my unfinished mansion I built AGES AGO... Become A Channel Member by pressing the...",
       "source": "YouTube",
@@ -430,24 +448,6 @@
       "source": "YouTube",
       "timestamp": 1768842046.0,
       "url": "https://www.youtube.com/watch?v=S_uVXAeSchI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "aaj Sabko head shot lagega | 99 night in the forest #99nightintheforest #roblox #99nights",
-      "description": "aaj Sabko head shot lagega | 99 night in the forest #99nightintheforest #roblox #99nights #robloxedi...",
-      "source": "YouTube",
-      "timestamp": 1768839903.0,
-      "url": "https://www.youtube.com/watch?v=YjbaX_CSpWI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#newmusic #music #rock #pop #love #roblox #bloxfruits #videogamemusic #bloxburg #games",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768802765.0,
-      "url": "https://www.youtube.com/watch?v=P-c47kYI-bc",
       "icon": "fa-youtube"
     },
     {
@@ -488,7 +488,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768851026.5090368,
+    "generated_at": 1768852225.9149182,
     "mode": "memory",
     "refresh_interval": 2000
   }
