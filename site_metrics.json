@@ -407,6 +407,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "\ub3d9\uc0dd\uc774\ub791 99 #automobile #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768789166.0,
+      "url": "https://www.youtube.com/watch?v=Bg-jauXJoVY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\ud83d\ude2eCan I FINISH My House w ONLY 5k in Bloxburg? #bloxburg #roblox #shorts #robloxbloxburg",
       "description": "i build a 2 story modern villa house in bloxburg and run out of money LOL \u2713the tutorial is above thi...",
       "source": "YouTube",
@@ -439,15 +448,6 @@
       "source": "YouTube",
       "timestamp": 1768774237.0,
       "url": "https://www.youtube.com/watch?v=cyTg8AEsoE8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "miss playing with you twin #bloxburg #robloxbloxburgspeedbuild #roblox #bloxburgcontentcreator",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768772248.0,
-      "url": "https://www.youtube.com/watch?v=-9aCTKOyr2o",
       "icon": "fa-youtube"
     },
     {
@@ -488,7 +488,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768789825.9028873,
+    "generated_at": 1768791025.8989992,
     "mode": "memory",
     "refresh_interval": 2000
   }
