@@ -434,6 +434,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "I GOT ROBLOX CHAT #roblox #gorillatag #bloxburg #bloxburg #tutorial #john",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768950952.0,
+      "url": "https://www.youtube.com/watch?v=sdKet1nex08",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "GUYS I learned how to emote!!!! #roblox #bloxburg #relatable #dance #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768948958.0,
+      "url": "https://www.youtube.com/watch?v=6yBgJrFvHWQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Trabajos #roblox #robloxbloxburgspeedbuild #bloxburg  #bloxburgcontentcreator #shorts #robloxedit",
       "description": "bloxburgbuilder #robloxbloxburg #roblox #bloxburg #bienvenidoabloxburg #robloxbloxburg Suscribete a ...",
       "source": "YouTube",
@@ -452,29 +470,11 @@
     },
     {
       "type": "trend",
-      "title": "should I? #roblox #bloxburg #bloxburgbuild #lovelyjules #fyp",
+      "title": "#bloxburg #roblox #roblox #robloxbloxburgspeedbuild",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1768940744.0,
-      "url": "https://www.youtube.com/watch?v=xK6PQpScRyg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#roblox #bloxburg #robloxbloxburgspeedbuild #robloxbloxburgspeedbuild",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768932000.0,
-      "url": "https://www.youtube.com/watch?v=MtY6qgU0h40",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "SCANDINAVIAN WINTER FAMILY HOME PART 2|Welcome to Bloxburg|",
-      "description": "Thanks for watching, here you will find some needed info about the build \u27a8Multiple Floors \u27a8Advanced ...",
-      "source": "YouTube",
-      "timestamp": 1768928501.0,
-      "url": "https://www.youtube.com/watch?v=v9cwZOTqmFI",
+      "timestamp": 1768942800.0,
+      "url": "https://www.youtube.com/watch?v=O8WjM_UhxPc",
       "icon": "fa-youtube"
     },
     {
@@ -515,7 +515,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768951825.894048,
+    "generated_at": 1768953025.8948035,
     "mode": "memory",
     "refresh_interval": 2000
   }
