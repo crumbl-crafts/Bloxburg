@@ -469,53 +469,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "the upgrade of a century #roblox #bloxburg #nostalgic #bloxburgupdate #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768863513.0,
-      "url": "https://www.youtube.com/watch?v=EwMSt1Yry1U",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "They Built FNAF in Our BLOXBURG CONTEST \ud83d\ude2d",
-      "description": "i didnt know the albert shrine was in fnaf ! streamed live on twitch: jackeryz :) #bloxburg #roblox ...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1768859331.0,
-      "url": "https://www.youtube.com/watch?v=Chb9A1QhNS4",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "\u1d0d\u1d0f\u1d0d \u0262\u026a\u1d20\u1d07 \u1d0d\u1d07 \u0299\u1d00\u1d04\u1d0b \u1d0d\u028f \u1d18\u029c\u1d0f\u0274\u1d07 \ud83d\ude21 \u0280\u1d0f\u0299\u029f\u1d0fx \u1d0d\u1d07\u1d0d\u1d07",
-      "description": "\u1d0d\u1d0f\u1d0d \u0262\u026a\u1d20\u1d07 \u1d0d\u1d07 \u0299\u1d00\u1d04\u1d0b \u1d0d\u028f \u1d18\u029c\u1d0f\u0274\u1d07 \u0280\u1d0f\u0299\u029f\u1d0fx \u1d0d\u1d07\u1d0d\u1d07 #royalehigh #bloxburg #adoptmeroblox #robloxedits ......",
-      "source": "YouTube",
-      "timestamp": 1768854645.0,
-      "url": "https://www.youtube.com/watch?v=Z8rMKiYdWME",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "\ud83d\udd34FINISH BUILDING MY DREAM SUMMER HOME IN BLOXBURG WITH ME!",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
-      "source": "YouTube",
-      "timestamp": 1768850950.0,
-      "url": "https://www.youtube.com/watch?v=60TMPLuJ34o",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "RENOVATING MY ABANDONED MANSION IN BLOXBURG",
-      "description": "I finally finished my unfinished mansion I built AGES AGO... Become A Channel Member by pressing the...",
-      "source": "YouTube",
-      "timestamp": 1768849221.0,
-      "url": "https://www.youtube.com/watch?v=KbywTGexHAA",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1768923025.9048705,
+    "generated_at": 1768924225.9059799,
     "mode": "memory",
     "refresh_interval": 2000
   }
