@@ -365,15 +365,6 @@
       "thread_id": null,
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1103202924231925811"
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "bea2s left the server",
-      "timestamp": 1768265786,
-      "thread_id": null,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1179265804764717129"
     }
   ],
   "pipeline": [
@@ -506,7 +497,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768870225.8981044,
+    "generated_at": 1768871425.9064224,
     "mode": "memory",
     "refresh_interval": 2000
   }
