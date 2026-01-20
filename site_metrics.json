@@ -425,6 +425,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Red Light Green Light",
+      "description": "Red Light Green Light #Roblox #RobloxShorts #RobloxGameplay #RobloxEdit #RobloxEdits #RobloxGamer #R...",
+      "source": "YouTube",
+      "timestamp": 1768924860.0,
+      "url": "https://www.youtube.com/watch?v=_On-fYEo3A0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Quando o Trio Blox se junta\ud83c\udf7f#shorts #youtubeshorts #roblox #bloxburg #foryou",
       "description": "\u00c9 isso que d\u00e1 quando o Trio Blox se junta koalinhas!! #shorts #youtubeshorts #roblox #bloxburg #fory...",
       "source": "YouTube",
@@ -457,15 +466,6 @@
       "source": "YouTube",
       "timestamp": 1768872798.0,
       "url": "https://www.youtube.com/watch?v=Qs_Qmanihv8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ub3d9\uc0dd\uacfc \uc774\ub984 \ubaa8\ub974\ub294 \uac70 \ud558\uae30 #bloxburg #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #\uc54c\uace0\ub9ac\uc998\ub5a0\ub77c #\uc88b\uc544\uc694\ub313\uae00 #",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768872732.0,
-      "url": "https://www.youtube.com/watch?v=p85lijwjOYU",
       "icon": "fa-youtube"
     },
     {
@@ -506,7 +506,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768924225.9059799,
+    "generated_at": 1768925425.901101,
     "mode": "memory",
     "refresh_interval": 2000
   }
