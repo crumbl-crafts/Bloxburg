@@ -425,6 +425,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "TROLLING in The MOST &quot;HATED&quot; ROBLOX OBBY (ROBLOX BRAIN ROBOT) #robloxshorts #shorts #roblox #viral",
+      "description": "TROLLING in The MOST \"HATED\" ROBLOX OBBY (ROBLOX BRAIN ROBOT) #robloxshorts #shorts #roblox #viral ....",
+      "source": "YouTube",
+      "timestamp": 1768904563.0,
+      "url": "https://www.youtube.com/watch?v=lVfbSkzJU1E",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "2\ud3b8\uc5d0\uc11c \ubd10\uc694\ud83e\udef6\ud83c\udffb\ud83d\ude3b #bloxburg #\ud798\ub4e4\uc9c0\ub9cc #\ub85c\ube14\ub85d\uc2a4 #roblox #\ub85c\ube14\uacc4 #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\uc751 #\ub85c\ube14 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #\uc54c\uace0\ub9ac\uc998\ub5a0\ub77c #\uc88b\uc544\uc694\ub313\uae00 #\uc54c\uace0\ub9ac\uc998 #",
       "description": "...",
       "source": "YouTube",
@@ -457,15 +466,6 @@
       "source": "YouTube",
       "timestamp": 1768854645.0,
       "url": "https://www.youtube.com/watch?v=Z8rMKiYdWME",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ud83d\udd34FINISH BUILDING MY DREAM SUMMER HOME IN BLOXBURG WITH ME!",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
-      "source": "YouTube",
-      "timestamp": 1768850950.0,
-      "url": "https://www.youtube.com/watch?v=60TMPLuJ34o",
       "icon": "fa-youtube"
     },
     {
@@ -506,7 +506,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768905026.5800912,
+    "generated_at": 1768906225.9079058,
     "mode": "memory",
     "refresh_interval": 2000
   }
