@@ -416,6 +416,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "2\ud3b8\uc5d0\uc11c \ubd10\uc694\ud83e\udef6\ud83c\udffb\ud83d\ude3b #bloxburg #\ud798\ub4e4\uc9c0\ub9cc #\ub85c\ube14\ub85d\uc2a4 #roblox #\ub85c\ube14\uacc4 #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\uc751 #\ub85c\ube14 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #\uc54c\uace0\ub9ac\uc998\ub5a0\ub77c #\uc88b\uc544\uc694\ub313\uae00 #\uc54c\uace0\ub9ac\uc998 #",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768872798.0,
+      "url": "https://www.youtube.com/watch?v=Qs_Qmanihv8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\ub3d9\uc0dd\uacfc \uc774\ub984 \ubaa8\ub974\ub294 \uac70 \ud558\uae30 #bloxburg #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #\uc54c\uace0\ub9ac\uc998\ub5a0\ub77c #\uc88b\uc544\uc694\ub313\uae00 #",
       "description": "...",
       "source": "YouTube",
@@ -448,15 +457,6 @@
       "source": "YouTube",
       "timestamp": 1768849221.0,
       "url": "https://www.youtube.com/watch?v=KbywTGexHAA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Modern Scandinavian Winter Family Home PART 1|Welcome to Bloxburg|",
-      "description": "Thanks for watching, here you will find some needed info about the build \u27a8Multiple Floors \u27a8Advanced ...",
-      "source": "YouTube",
-      "timestamp": 1768842046.0,
-      "url": "https://www.youtube.com/watch?v=S_uVXAeSchI",
       "icon": "fa-youtube"
     },
     {
@@ -497,7 +497,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768873825.8915472,
+    "generated_at": 1768875025.8926067,
     "mode": "memory",
     "refresh_interval": 2000
   }
