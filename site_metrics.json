@@ -434,6 +434,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "MEETING OUR NEW CREEPY NEIGHBOURS! *DAISY GETS KIDNAPPED* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1768942806.0,
+      "url": "https://www.youtube.com/watch?v=BHV-Tsk29Q0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "should I? #roblox #bloxburg #bloxburgbuild #lovelyjules #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768940744.0,
+      "url": "https://www.youtube.com/watch?v=xK6PQpScRyg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#roblox #bloxburg #robloxbloxburgspeedbuild #robloxbloxburgspeedbuild",
       "description": "...",
       "source": "YouTube",
@@ -457,24 +475,6 @@
       "source": "YouTube",
       "timestamp": 1768924860.0,
       "url": "https://www.youtube.com/watch?v=_On-fYEo3A0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Quando o Trio Blox se junta\ud83c\udf7f#shorts #youtubeshorts #roblox #bloxburg #foryou",
-      "description": "\u00c9 isso que d\u00e1 quando o Trio Blox se junta koalinhas!! #shorts #youtubeshorts #roblox #bloxburg #fory...",
-      "source": "YouTube",
-      "timestamp": 1768918680.0,
-      "url": "https://www.youtube.com/watch?v=z-5Yi3Uvqzk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "BLOXBURG FULL SERVERS???? #bloxburg #relatable #helpful #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768918336.0,
-      "url": "https://www.youtube.com/watch?v=zFtsRxopiJA",
       "icon": "fa-youtube"
     },
     {
@@ -515,7 +515,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768942826.3498015,
+    "generated_at": 1768943425.8902857,
     "mode": "memory",
     "refresh_interval": 2000
   }
