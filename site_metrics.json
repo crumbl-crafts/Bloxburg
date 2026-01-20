@@ -451,53 +451,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "aaj Sabko head shot lagega | 99 night in the forest #99nightintheforest #roblox #99nights",
-      "description": "aaj Sabko head shot lagega | 99 night in the forest #99nightintheforest #roblox #99nights #robloxedi...",
-      "source": "YouTube",
-      "timestamp": 1768839903.0,
-      "url": "https://www.youtube.com/watch?v=YjbaX_CSpWI",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "Song f\u00fcr lami&amp;Emily offizielles musikvideo.  KI",
-      "description": "WELLKOMMEN AUF MEINEN KANAL ICH BIN LAKI UND MACHE GERNE YOUTUBE ABBONIERE DENN KANAL OB NIX MEHR .....",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1768816806.0,
-      "url": "https://www.youtube.com/watch?v=4bLkFiSS00s",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "#newmusic #music #rock #pop #love #roblox #bloxfruits #videogamemusic #bloxburg #games",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768802765.0,
-      "url": "https://www.youtube.com/watch?v=P-c47kYI-bc",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "POV You&#39;re A KID ROLEPLAYING In BLOXBURG On ROBLOX Until",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768792599.0,
-      "url": "https://www.youtube.com/watch?v=68NE1MPHzh0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ud83d\ude2eCan I FINISH My House w ONLY 5k in Bloxburg? #bloxburg #roblox #shorts #robloxbloxburg",
-      "description": "i build a 2 story modern villa house in bloxburg and run out of money LOL \u2713the tutorial is above thi...",
-      "source": "YouTube",
-      "timestamp": 1768788015.0,
-      "url": "https://www.youtube.com/watch?v=H0DN6eLIA6U",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1768884625.9016502,
+    "generated_at": 1768885825.8883615,
     "mode": "memory",
     "refresh_interval": 2000
   }
