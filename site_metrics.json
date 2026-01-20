@@ -425,6 +425,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Modern Scandinavian Winter Family Home PART 2|Welcome to Bloxburg|",
+      "description": "Thanks for watching, here you will find some needed info about the build \u27a8Multiple Floors \u27a8Advanced ...",
+      "source": "YouTube",
+      "timestamp": 1768928501.0,
+      "url": "https://www.youtube.com/watch?v=v9cwZOTqmFI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Red Light Green Light",
       "description": "Red Light Green Light #Roblox #RobloxShorts #RobloxGameplay #RobloxEdit #RobloxEdits #RobloxGamer #R...",
       "source": "YouTube",
@@ -457,15 +466,6 @@
       "source": "YouTube",
       "timestamp": 1768904563.0,
       "url": "https://www.youtube.com/watch?v=lVfbSkzJU1E",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "2\ud3b8\uc5d0\uc11c \ubd10\uc694\ud83e\udef6\ud83c\udffb\ud83d\ude3b #bloxburg #\ud798\ub4e4\uc9c0\ub9cc #\ub85c\ube14\ub85d\uc2a4 #roblox #\ub85c\ube14\uacc4 #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\uc751 #\ub85c\ube14 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #\uc54c\uace0\ub9ac\uc998\ub5a0\ub77c #\uc88b\uc544\uc694\ub313\uae00 #\uc54c\uace0\ub9ac\uc998 #",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768872798.0,
-      "url": "https://www.youtube.com/watch?v=Qs_Qmanihv8",
       "icon": "fa-youtube"
     },
     {
@@ -506,7 +506,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768927825.9150927,
+    "generated_at": 1768929025.9261804,
     "mode": "memory",
     "refresh_interval": 2000
   }
