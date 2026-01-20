@@ -434,6 +434,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Trabajos #roblox #robloxbloxburgspeedbuild #bloxburg  #bloxburgcontentcreator #shorts #robloxedit",
+      "description": "bloxburgbuilder #robloxbloxburg #roblox #bloxburg #bienvenidoabloxburg #robloxbloxburg Suscribete a ...",
+      "source": "YouTube",
+      "timestamp": 1768947916.0,
+      "url": "https://www.youtube.com/watch?v=ddQ14mbkf0I",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "MEETING OUR NEW CREEPY NEIGHBOURS! *DAISY GETS KIDNAPPED* Roblox Bloxburg Voiced RP Roleplay",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
       "source": "YouTube",
@@ -466,15 +475,6 @@
       "source": "YouTube",
       "timestamp": 1768928501.0,
       "url": "https://www.youtube.com/watch?v=v9cwZOTqmFI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Red Light Green Light",
-      "description": "Red Light Green Light #Roblox #RobloxShorts #RobloxGameplay #RobloxEdit #RobloxEdits #RobloxGamer #R...",
-      "source": "YouTube",
-      "timestamp": 1768924860.0,
-      "url": "https://www.youtube.com/watch?v=_On-fYEo3A0",
       "icon": "fa-youtube"
     },
     {
@@ -515,7 +515,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768949425.9002364,
+    "generated_at": 1768950625.8900476,
     "mode": "memory",
     "refresh_interval": 2000
   }
