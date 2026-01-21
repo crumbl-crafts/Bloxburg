@@ -401,15 +401,6 @@
       "thread_id": null,
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1203373969839882270"
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "newcbuilder left the server",
-      "timestamp": 1768394077,
-      "thread_id": null,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/574786733464485899"
     }
   ],
   "pipeline": [
@@ -497,11 +488,11 @@
     },
     {
       "type": "trend",
-      "title": "MEETING OUR NEW CREEPY NEIGHBOURS! *DAISY GETS KIDNAPPED* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "title": "WHICH DO YOU LIKE BETTER? #roblox #bloxburg #nostalgic #bloxburgupdate #fyp",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1768942806.0,
-      "url": "https://www.youtube.com/watch?v=BHV-Tsk29Q0",
+      "timestamp": 1768944768.0,
+      "url": "https://www.youtube.com/watch?v=r5QNB4D4KYU",
       "icon": "fa-youtube"
     },
     {
@@ -542,7 +533,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768998625.8900485,
+    "generated_at": 1768999825.905804,
     "mode": "memory",
     "refresh_interval": 2000
   }
