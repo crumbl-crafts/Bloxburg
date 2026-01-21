@@ -452,6 +452,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "POV: Love cooking in Bloxburg than.. #shorts #bloxburg",
+      "description": "When you hate cooking in real life but you love cooking in Bloxburg. #bloxburg #bloxburgbuild #welco...",
+      "source": "YouTube",
+      "timestamp": 1768957952.0,
+      "url": "https://www.youtube.com/watch?v=0-OMIn1Opdg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "I GOT ROBLOX CHAT #roblox #gorillatag #bloxburg #bloxburg #tutorial #john",
       "description": "...",
       "source": "YouTube",
@@ -496,44 +505,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1767691818.2690697,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "Roblox Red Light Green Light #shorts #roblox",
+      "description": "Red Light Green Light #Roblox #RobloxShorts #RobloxGameplay #RobloxEdit #RobloxEdits #RobloxGamer #R...",
+      "source": "YouTube",
+      "timestamp": 1768924860.0,
+      "url": "https://www.youtube.com/watch?v=_On-fYEo3A0",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "Quando o Trio Blox se junta\ud83c\udf7f#shorts #youtubeshorts #roblox #bloxburg #foryou",
+      "description": "\u00c9 isso que d\u00e1 quando o Trio Blox se junta koalinhas!! #shorts #youtubeshorts #roblox #bloxburg #fory...",
       "source": "YouTube",
-      "timestamp": 1767688218.269072,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1768918680.0,
+      "url": "https://www.youtube.com/watch?v=z-5Yi3Uvqzk",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1767684618.2690725,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "BLOXBURG FULL SERVERS???? #bloxburg #relatable #helpful #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768918336.0,
+      "url": "https://www.youtube.com/watch?v=zFtsRxopiJA",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1767681018.2690735,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "never say my besties or anyone is ugly #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768914333.0,
+      "url": "https://www.youtube.com/watch?v=gRCknHLNapo",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1768959026.2017457,
+    "generated_at": 1768960225.8935854,
     "mode": "memory",
     "refresh_interval": 2000
   }
