@@ -452,20 +452,20 @@
   "news": [
     {
       "type": "trend",
-      "title": "kt\u00f3re jedzenie wybierasz? #roblox #memes #bloxburg #historia #games #viral #robloxgamedesign",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769005737.0,
-      "url": "https://www.youtube.com/watch?v=S8bzPUZft9U",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "#robloxedit #roblox #whowillbemylifepartnerta #edit #lifeisbutadream",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1768979290.0,
       "url": "https://www.youtube.com/watch?v=cg63G621ntc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "#roblox #adoptme #robloxedit #robloxgames #bloxburg #bloxfurit #robloxmemes #robloxbloxburgspeed",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768971815.0,
+      "url": "https://www.youtube.com/watch?v=JKE30HrU5Ow",
       "icon": "fa-youtube"
     },
     {
@@ -533,7 +533,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769009425.889489,
+    "generated_at": 1769010625.897079,
     "mode": "memory",
     "refresh_interval": 2000
   }
