@@ -452,6 +452,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#robloxedit #roblox #whowillbemylifepartnerta #edit #lifeisbutadream",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768979290.0,
+      "url": "https://www.youtube.com/watch?v=cg63G621ntc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "I PROMISE #roblox #bloxburg #bloxburgbuild #relatable #fyp",
       "description": "...",
       "source": "YouTube",
@@ -484,15 +493,6 @@
       "source": "YouTube",
       "timestamp": 1768947916.0,
       "url": "https://www.youtube.com/watch?v=ddQ14mbkf0I",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "WHICH DO YOU LIKE BETTER? #roblox #bloxburg #nostalgic #bloxburgupdate #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768944768.0,
-      "url": "https://www.youtube.com/watch?v=r5QNB4D4KYU",
       "icon": "fa-youtube"
     },
     {
@@ -533,7 +533,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769002226.2292807,
+    "generated_at": 1769003425.9011724,
     "mode": "memory",
     "refresh_interval": 2000
   }
