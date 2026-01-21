@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 362,
+    "total_members": 361,
     "joined_today": 2,
     "active_shops": 2,
     "avg_response_time": 2915.3333333333335
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "isitk.s left the server",
+      "timestamp": 1768968127,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/972613192628965396"
+    },
     {
       "type": "member_leave",
       "shop_name": "Server",
@@ -551,7 +560,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768967425.8872085,
+    "generated_at": 1768968130.2520742,
     "mode": "memory",
     "refresh_interval": 2000
   }
