@@ -496,53 +496,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "I GOT ROBLOX CHAT #roblox #gorillatag #bloxburg #bloxburg #tutorial #john",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768950952.0,
-      "url": "https://www.youtube.com/watch?v=sdKet1nex08",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "Trabajos #roblox #robloxbloxburgspeedbuild #bloxburg  #bloxburgcontentcreator #shorts #robloxedit",
-      "description": "bloxburgbuilder #robloxbloxburg #roblox #bloxburg #bienvenidoabloxburg #robloxbloxburg Suscribete a ...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1768947916.0,
-      "url": "https://www.youtube.com/watch?v=ddQ14mbkf0I",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "WHICH DO YOU LIKE BETTER? #roblox #bloxburg #nostalgic #bloxburgupdate #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768944768.0,
-      "url": "https://www.youtube.com/watch?v=r5QNB4D4KYU",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "MEETING OUR NEW CREEPY NEIGHBOURS! *DAISY GETS KIDNAPPED* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1768942806.0,
-      "url": "https://www.youtube.com/watch?v=BHV-Tsk29Q0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#bloxburg #roblox #roblox #robloxbloxburgspeedbuild",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768942800.0,
-      "url": "https://www.youtube.com/watch?v=O8WjM_UhxPc",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769013026.2842448,
+    "generated_at": 1769014225.8958833,
     "mode": "memory",
     "refresh_interval": 2000
   }
