@@ -470,6 +470,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "I PROMISE #roblox #bloxburg #bloxburgbuild #relatable #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1768952009.0,
+      "url": "https://www.youtube.com/watch?v=M2Dsep6gYNg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "I GOT ROBLOX CHAT #roblox #gorillatag #bloxburg #bloxburg #tutorial #john",
       "description": "...",
       "source": "YouTube",
@@ -502,15 +511,6 @@
       "source": "YouTube",
       "timestamp": 1768942806.0,
       "url": "https://www.youtube.com/watch?v=BHV-Tsk29Q0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#bloxburg #roblox #roblox #robloxbloxburgspeedbuild",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1768942800.0,
-      "url": "https://www.youtube.com/watch?v=O8WjM_UhxPc",
       "icon": "fa-youtube"
     },
     {
@@ -551,7 +551,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1768992625.892948,
+    "generated_at": 1768993825.9010422,
     "mode": "memory",
     "refresh_interval": 2000
   }
