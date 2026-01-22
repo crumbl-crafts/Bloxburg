@@ -428,15 +428,6 @@
       "thread_id": null,
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/342996908068962304"
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "wafermorning joined the server",
-      "timestamp": 1768500476,
-      "thread_id": null,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/587866581544206346"
     }
   ],
   "pipeline": [
@@ -569,7 +560,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769104826.364457,
+    "generated_at": 1769105425.8906238,
     "mode": "memory",
     "refresh_interval": 2000
   }
