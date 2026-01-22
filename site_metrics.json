@@ -452,6 +452,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#pinkmoon#illit#robloxshorts#roblox#fyptiktok#fyp#viral#shorts#berryave#blowup#roleplay#bloxburg#idk",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769068259.0,
+      "url": "https://www.youtube.com/watch?v=prppASS2udg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "I Build A Retro Soda Fountain Corner Without Soda Machine in Bloxburg",
       "description": "Instagram - https://www.instagram.com/p/DTzTlRJDmPe/...",
       "source": "YouTube",
@@ -479,20 +488,11 @@
     },
     {
       "type": "trend",
-      "title": "Here we are again \ud83d\ude14 #roblox #bloxburg #bloxburgbuild #relatable #fyp",
+      "title": "guys when did they update the bike sound?? #roblox #bloxburg #nostalgia #lovelyjules #fyp",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1769031580.0,
-      "url": "https://www.youtube.com/watch?v=0HpNpEWIP3g",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "EL ULTIMO VIAJE |PELICULA ROBLOX| HISTORIA DE ROBLOX TERROR #historiaderoblox #bloxburg #brookhaven",
-      "description": "Un joven entra a trabajar como taxista en el turno de la noche, sin saber el peligro que lo acechaba...",
-      "source": "YouTube",
-      "timestamp": 1769029560.0,
-      "url": "https://www.youtube.com/watch?v=opUrnhppGNI",
+      "timestamp": 1769035324.0,
+      "url": "https://www.youtube.com/watch?v=qOSXPJn7nPw",
       "icon": "fa-youtube"
     },
     {
@@ -533,7 +533,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769070625.8944373,
+    "generated_at": 1769071825.8907893,
     "mode": "memory",
     "refresh_interval": 2000
   }
