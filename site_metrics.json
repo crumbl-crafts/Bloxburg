@@ -488,6 +488,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Ken said Ryan got an over-gelled hair lol \ud83d\ude02 #bloxburg #roblox #barbielifeinthedreamhouse",
+      "description": "Barbie: Life in the Dreamhouse but in Bloxburg, watch the full vid now! to all bloxburg and barbie c...",
+      "source": "YouTube",
+      "timestamp": 1769101650.0,
+      "url": "https://www.youtube.com/watch?v=ysFIymn3Am8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bia&#39;s Bookstore and Bakery, only in Bloxburg! #bloxburg #roblox",
       "description": "...",
       "source": "YouTube",
@@ -506,29 +515,20 @@
     },
     {
       "type": "trend",
+      "title": "THE NEW BLOXBURG IKEA FURNITURE UPDATE IS HERE... ITEMS AND NEW LOADING SCREEN",
+      "description": "the new bloxburg and ikea collab update is finally here! bringing a few items from the store, my fav...",
+      "source": "YouTube",
+      "timestamp": 1769095329.0,
+      "url": "https://www.youtube.com/watch?v=YvfQMAmBP3o",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "BLOXBURG IKEA EVENT QR CODE ITEMS! #roblox #bloxburgupdate #bloxburg",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1769093482.0,
       "url": "https://www.youtube.com/watch?v=qUKkPk4nHLg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "MAKE ME FAMOUS! #roblox #robloxedit #edit #audio #memes #bloxburg #trolledit",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769089398.0,
-      "url": "https://www.youtube.com/watch?v=ZnHeVPQp0IM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Heartopia modern design house #heartopia #roblox #newgame #bloxburg #minecraft #cozygames",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769081427.0,
-      "url": "https://www.youtube.com/watch?v=zzj4oeHx_WI",
       "icon": "fa-youtube"
     },
     {
@@ -569,7 +569,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769103025.9204357,
+    "generated_at": 1769104225.8987234,
     "mode": "memory",
     "refresh_interval": 2000
   }
