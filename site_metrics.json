@@ -470,6 +470,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "BLOXBURG IKEA EVENT QR CODE ITEMS! #roblox #bloxburgupdate #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769093482.0,
+      "url": "https://www.youtube.com/watch?v=qUKkPk4nHLg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#pinkmoon#illit#robloxshorts#roblox#fyptiktok#fyp#viral#shorts#berryave#blowup#roleplay#bloxburg#idk",
       "description": "...",
       "source": "YouTube",
@@ -502,15 +511,6 @@
       "source": "YouTube",
       "timestamp": 1769043741.0,
       "url": "https://www.youtube.com/watch?v=iGzol3SmxZU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "it would be so cool!! #roblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769035458.0,
-      "url": "https://www.youtube.com/watch?v=QRWSe_AcRA4",
       "icon": "fa-youtube"
     },
     {
@@ -551,7 +551,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769094026.327029,
+    "generated_at": 1769094625.89392,
     "mode": "memory",
     "refresh_interval": 2000
   }
