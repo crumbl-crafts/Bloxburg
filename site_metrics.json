@@ -443,6 +443,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "10 MINUTES UNTIL I SPIN THE WHEEL!!! #roblox #bloxburg #fyp #giveaway",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769054301.0,
+      "url": "https://www.youtube.com/watch?v=il6pkWvE-cA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Donating a player 30k in Bloxburg  \ufffc",
       "description": "...",
       "source": "YouTube",
@@ -457,15 +466,6 @@
       "source": "YouTube",
       "timestamp": 1769043741.0,
       "url": "https://www.youtube.com/watch?v=iGzol3SmxZU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "it would be so cool!! #roblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769035458.0,
-      "url": "https://www.youtube.com/watch?v=QRWSe_AcRA4",
       "icon": "fa-youtube"
     },
     {
@@ -524,7 +524,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769056226.1574414,
+    "generated_at": 1769057425.890021,
     "mode": "memory",
     "refresh_interval": 2000
   }
