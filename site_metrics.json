@@ -488,6 +488,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "HERE&#39;S HOW TO GET THE EXCLUSIVE IKEA AUSTRALIAN SWEDEN COLLAB IN BLOXBURG  #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769097238.0,
+      "url": "https://www.youtube.com/watch?v=Oc7JtZeb0i8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "BLOXBURG IKEA EVENT QR CODE ITEMS! #roblox #bloxburgupdate #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -515,20 +524,11 @@
     },
     {
       "type": "trend",
-      "title": "Donating a player 30k in Bloxburg  \ufffc",
+      "title": "i\u2019m so sad. #roblox #bloxburg",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1769048134.0,
-      "url": "https://www.youtube.com/watch?v=5IihbZoKFIY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I Can\u2019t Believe He Said This! \ud83d\ude31\ud83d\ude2d #bloxburg #bloxburgfamily #roblox #shorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769043741.0,
-      "url": "https://www.youtube.com/watch?v=iGzol3SmxZU",
+      "timestamp": 1769059583.0,
+      "url": "https://www.youtube.com/watch?v=mWF0Rbph4DE",
       "icon": "fa-youtube"
     },
     {
@@ -569,7 +569,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769097453.6463964,
+    "generated_at": 1769098225.8932147,
     "mode": "memory",
     "refresh_interval": 2000
   }
