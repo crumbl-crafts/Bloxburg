@@ -488,6 +488,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "Bloxburg released their new IKEA furniture set TODAY #roblox #bloxburg #ikea #bloxburgupdate #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769112655.0,
+      "url": "https://www.youtube.com/watch?v=bPpU64xxV-s",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Nueva actualizaci\u00f3n de IKEA X Bloxburg \ud83d\ude31 #shorts #bloxburg #roblox #robloxshorts",
+      "description": "Nueva actualizaci\u00f3n de IKEA X Bloxburg ------------------------------------------------- \u2b50 Mis redes...",
+      "source": "YouTube",
+      "timestamp": 1769112514.0,
+      "url": "https://www.youtube.com/watch?v=NRPbvJ7x-tQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\u00a1No esperes mas y unete a nuestro discord en la descripcion del perfil! #roblox #bloxburg #roleplay",
       "description": "...",
       "source": "YouTube",
@@ -514,71 +532,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "Bia&#39;s Bookstore and Bakery, only in Bloxburg! #bloxburg #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769101558.0,
-      "url": "https://www.youtube.com/watch?v=eOW-9DpMIyc",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "HERE&#39;S HOW TO GET THE EXCLUSIVE IKEA AUSTRALIAN SWEDEN COLLAB IN BLOXBURG  #bloxburg",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769097238.0,
-      "url": "https://www.youtube.com/watch?v=Oc7JtZeb0i8",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "THE NEW BLOXBURG IKEA FURNITURE UPDATE IS HERE... ITEMS AND NEW LOADING SCREEN",
-      "description": "the new bloxburg and ikea collab update is finally here! bringing a few items from the store, my fav...",
-      "source": "YouTube",
-      "timestamp": 1769095329.0,
-      "url": "https://www.youtube.com/watch?v=YvfQMAmBP3o",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "BLOXBURG IKEA EVENT QR CODE ITEMS! #roblox #bloxburgupdate #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769093482.0,
-      "url": "https://www.youtube.com/watch?v=qUKkPk4nHLg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "MAKE ME FAMOUS! #roblox #robloxedit #edit #audio #memes #bloxburg #trolledit",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769089398.0,
-      "url": "https://www.youtube.com/watch?v=ZnHeVPQp0IM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "IKEA UPDATE LEAK REVEAL - New BLOXBURG event #roblox  #bloxburg",
-      "description": "Roblox In one of todays videos I am tell you the date plus a few sneak peak features coming to the n...",
-      "source": "YouTube",
-      "timestamp": 1769088636.0,
-      "url": "https://www.youtube.com/watch?v=UUvhek7qhhE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg: NYC Townhouse + interior | Speedbuild | Part 1",
-      "description": "Bloxburg : NYC Townhouse | SPEEDBUILD PART 1 (Exterior) Gamepass Used: Basement, Multiple floor, adv...",
-      "source": "YouTube",
-      "timestamp": 1769086884.0,
-      "url": "https://www.youtube.com/watch?v=jwpF_2hTMek",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769113825.8944423,
+    "generated_at": 1769115025.893316,
     "mode": "memory",
     "refresh_interval": 2000
   }
