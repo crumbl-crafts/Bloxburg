@@ -443,15 +443,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "10 MINUTES UNTIL I SPIN THE WHEEL!!! #roblox #bloxburg #fyp #giveaway",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769054301.0,
-      "url": "https://www.youtube.com/watch?v=il6pkWvE-cA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Donating a player 30k in Bloxburg  \ufffc",
       "description": "...",
       "source": "YouTube",
@@ -484,6 +475,15 @@
       "source": "YouTube",
       "timestamp": 1769029560.0,
       "url": "https://www.youtube.com/watch?v=opUrnhppGNI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "EASY Bloxburg Suburban Family House Layout \ud83c\udfe1\ud83d\udcab",
+      "description": "bloxburg bloxburg house build #robloxbloxburgspeedbuild #roblox #bloxburg #bloxburgnewleaks #roblox....",
+      "source": "YouTube",
+      "timestamp": 1769029200.0,
+      "url": "https://www.youtube.com/watch?v=KB7IZJJjQpI",
       "icon": "fa-youtube"
     },
     {
@@ -524,7 +524,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769057425.890021,
+    "generated_at": 1769058625.889267,
     "mode": "memory",
     "refresh_interval": 2000
   }
