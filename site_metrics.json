@@ -470,6 +470,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "\u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0441\u044a\u0435\u043b \u044f #roblox #roblox #robloxbloxburgspeedbuild #edit #bloxburgnewleaks #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769082847.0,
+      "url": "https://www.youtube.com/watch?v=-p25fEfNDNE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#pinkmoon#illit#robloxshorts#roblox#fyptiktok#fyp#viral#shorts#berryave#blowup#roleplay#bloxburg#idk",
       "description": "...",
       "source": "YouTube",
@@ -502,15 +511,6 @@
       "source": "YouTube",
       "timestamp": 1769043741.0,
       "url": "https://www.youtube.com/watch?v=iGzol3SmxZU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "it would be so cool!! #roblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769035458.0,
-      "url": "https://www.youtube.com/watch?v=QRWSe_AcRA4",
       "icon": "fa-youtube"
     },
     {
@@ -551,7 +551,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769083226.314476,
+    "generated_at": 1769083825.8907645,
     "mode": "memory",
     "refresh_interval": 2000
   }
