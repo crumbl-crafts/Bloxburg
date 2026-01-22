@@ -488,6 +488,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Bia&#39;s Bookstore and Bakery, only in Bloxburg! #bloxburg #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769101558.0,
+      "url": "https://www.youtube.com/watch?v=eOW-9DpMIyc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "HERE&#39;S HOW TO GET THE EXCLUSIVE IKEA AUSTRALIAN SWEDEN COLLAB IN BLOXBURG  #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -515,20 +524,11 @@
     },
     {
       "type": "trend",
-      "title": "I Build A Retro Soda Fountain Corner Without Soda Machine in Bloxburg",
-      "description": "Instagram - https://www.instagram.com/p/DTzTlRJDmPe/...",
-      "source": "YouTube",
-      "timestamp": 1769059839.0,
-      "url": "https://www.youtube.com/watch?v=YqATqJwLqBA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "i\u2019m so sad. #roblox #bloxburg",
+      "title": "Heartopia modern design house #heartopia #roblox #newgame #bloxburg #minecraft #cozygames",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1769059583.0,
-      "url": "https://www.youtube.com/watch?v=mWF0Rbph4DE",
+      "timestamp": 1769081427.0,
+      "url": "https://www.youtube.com/watch?v=zzj4oeHx_WI",
       "icon": "fa-youtube"
     },
     {
@@ -569,7 +569,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769100625.8953662,
+    "generated_at": 1769101825.893264,
     "mode": "memory",
     "refresh_interval": 2000
   }
