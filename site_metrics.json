@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 362,
+    "total_members": 361,
     "joined_today": 0,
     "active_shops": 2,
     "avg_response_time": 2915.3333333333335
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "donbo_ left the server",
+      "timestamp": 1769122436,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1103202924231925811"
+    },
     {
       "type": "member_join",
       "shop_name": "Server",
@@ -578,7 +587,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769122225.893072,
+    "generated_at": 1769122438.8752768,
     "mode": "memory",
     "refresh_interval": 2000
   }
