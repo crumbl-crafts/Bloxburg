@@ -497,15 +497,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "SEMUA MOBIL &amp; MOTOR HILANG DALAM SEMALAM!! | BLOXBURG RP",
-      "description": "Terimakasiih adik-adik udah nonton video ini sampai akhirr, lup yu all -----------   -Tags  - #roblo...",
-      "source": "YouTube",
-      "timestamp": 1769139426.0,
-      "url": "https://www.youtube.com/watch?v=WwG3NQfJ1LI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "BIBI MENANGIS HISTERIS KARENA SEPEDANYA HILANG, KITA KEMALINGAN || BLOXBURG\ud83c\udfe1ROBLOX INDONESIA",
       "description": "WALAWE BAGAIMANA INI MAMI SEPEDA KESAYANGAN BIBI HILANG SEMUA KENDALAAN KITA HILANG UN Roblox ......",
       "source": "YouTube",
@@ -538,6 +529,15 @@
       "source": "YouTube",
       "timestamp": 1769136749.0,
       "url": "https://www.youtube.com/watch?v=0e4BHOxaC24",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "\uc601\uc0c1 \uc8fc\uc81c \ucd94\ucc9c \ubc1b\uc544\uc694 \ud83e\udef6\ud83c\udffb #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #\uc88b\uc544\uc694\ub313\uae00",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769135248.0,
+      "url": "https://www.youtube.com/watch?v=ywj8R2QaUzc",
       "icon": "fa-youtube"
     },
     {
@@ -578,7 +578,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769151025.8955,
+    "generated_at": 1769152225.8912277,
     "mode": "memory",
     "refresh_interval": 2000
   }
