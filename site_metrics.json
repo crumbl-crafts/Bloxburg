@@ -497,6 +497,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "BIBI MENANGIS HISTERIS KARENA SEPEDANYA HILANG, KITA KEMALINGAN || BLOXBURG\ud83c\udfe1ROBLOX INDONESIA",
+      "description": "WALAWE BAGAIMANA INI MAMI SEPEDA KESAYANGAN BIBI HILANG SEMUA KENDALAAN KITA HILANG UN Roblox ......",
+      "source": "YouTube",
+      "timestamp": 1769139038.0,
+      "url": "https://www.youtube.com/watch?v=iRpz5Db6R1w",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "\ub2e4\ub978 \ucda4 + \ub2e4\ub978 \ub178\ub798 \ud83d\udc97 #robloxanimation #roblox #99nightintheforest #bloxburg #robloxedit #\ub85c\ube14\uacc4",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769137838.0,
+      "url": "https://www.youtube.com/watch?v=1sHIqupYJCM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "nostalgic! \ud83d\ude0c #roblox #bloxburg #nostalgia #robloxfyp #fyp cred: @ebsmaee_ on tiktok",
       "description": "...",
       "source": "YouTube",
@@ -506,38 +524,20 @@
     },
     {
       "type": "trend",
+      "title": "\uc601\uc0c1 \uc8fc\uc81c \ucd94\ucc9c \ubc1b\uc544\uc694 \ud83e\udef6\ud83c\udffb #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #\uc88b\uc544\uc694\ub313\uae00",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769135248.0,
+      "url": "https://www.youtube.com/watch?v=ywj8R2QaUzc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "When Your Sister Is Mean To You! #bloxburg #bloxburgfamily #roblox #shorts",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1769134487.0,
       "url": "https://www.youtube.com/watch?v=XfrnQQ9hbFc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "one of my favorite builds in this city! \ud83c\udfd9\ufe0f #roblox #bloxburg #bloxburgbuild #cozyaesthetic #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769129017.0,
-      "url": "https://www.youtube.com/watch?v=ngZN4js4WCs",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "it\u2019s so funny \ud83d\ude2d #roblox #bloxburg #robloxchatban #morsecode #fyp ib: @\ud835\udce1\ud835\udc5c\ud835\udcc8\ud835\udc52",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769124511.0,
-      "url": "https://www.youtube.com/watch?v=5uBB_PJBjnQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "SER TAXISTA DA DINERO!  #roblox #bloxburg #familiasmith  #shorts",
-      "description": "SI QUIERES SEGUIRNOS O FORMAR PARTE DE LA FAMILIA O SIMPLEMENTE TOMARTE UNA FOTO CON LA OWNER PARA ....",
-      "source": "YouTube",
-      "timestamp": 1769121027.0,
-      "url": "https://www.youtube.com/watch?v=xEr4H6RhrtQ",
       "icon": "fa-youtube"
     },
     {
@@ -578,7 +578,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769139025.8881264,
+    "generated_at": 1769140225.8944345,
     "mode": "memory",
     "refresh_interval": 2000
   }
