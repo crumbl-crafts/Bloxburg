@@ -497,20 +497,20 @@
   "news": [
     {
       "type": "trend",
+      "title": "it\u2019s so funny \ud83d\ude2d #roblox #bloxburg #robloxchatban #morsecode #fyp ib: @\ud835\udce1\ud835\udc5c\ud835\udcc8\ud835\udc52",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769124511.0,
+      "url": "https://www.youtube.com/watch?v=5uBB_PJBjnQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "SER TAXISTA DA DINERO!  #roblox #bloxburg #familiasmith  #shorts",
       "description": "SI QUIERES SEGUIRNOS O FORMAR PARTE DE LA FAMILIA O SIMPLEMENTE TOMARTE UNA FOTO CON LA OWNER PARA ....",
       "source": "YouTube",
       "timestamp": 1769121027.0,
       "url": "https://www.youtube.com/watch?v=xEr4H6RhrtQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I WAS IN FLOW STATE #roblox #bloxburg #bloxburgbuild #relateable #fyp ib: @That1BloxburgPlayer",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769119322.0,
-      "url": "https://www.youtube.com/watch?v=hsUmzYC7Znk",
       "icon": "fa-youtube"
     },
     {
@@ -541,53 +541,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "\u00a1No esperes mas y unete a nuestro discord en la descripcion del perfil! #roblox #bloxburg #roleplay",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769110667.0,
-      "url": "https://www.youtube.com/watch?v=hbdyN5ef4uo",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "\ud83d\udecb\ufe0fEverything in the Bloxburg IKEA collab Update",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769106656.0,
-      "url": "https://www.youtube.com/watch?v=v8eB4n64WPs",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "PoV yungblud at Bludfest in Roblox #yungblud #roblox #bloxburg #bludfest #festival",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769105690.0,
-      "url": "https://www.youtube.com/watch?v=WxhTuE6rfus",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "Ken said Ryan got an over-gelled hair lol \ud83d\ude02 #bloxburg #roblox #barbielifeinthedreamhouse",
-      "description": "Barbie: Life in the Dreamhouse but in Bloxburg, watch the full vid now! to all bloxburg and barbie c...",
-      "source": "YouTube",
-      "timestamp": 1769101650.0,
-      "url": "https://www.youtube.com/watch?v=ysFIymn3Am8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bia&#39;s Bookstore and Bakery, only in Bloxburg! #bloxburg #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769101558.0,
-      "url": "https://www.youtube.com/watch?v=eOW-9DpMIyc",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769126426.2118192,
+    "generated_at": 1769127025.8903778,
     "mode": "memory",
     "refresh_interval": 2000
   }
