@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 362,
+    "total_members": 361,
     "joined_today": 4,
     "active_shops": 2,
     "avg_response_time": 2915.3333333333335
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "nama.mohamad left the server",
+      "timestamp": 1769196456,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/852551150452342845"
+    },
     {
       "type": "member_leave",
       "shop_name": "Server",
@@ -641,7 +650,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769195425.8915944,
+    "generated_at": 1769196459.3983116,
     "mode": "memory",
     "refresh_interval": 2000
   }
