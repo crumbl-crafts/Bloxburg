@@ -497,6 +497,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "SEMUA MOBIL &amp; MOTOR HILANG DALAM SEMALAM!! | BLOXBURG RP",
+      "description": "Terimakasiih adik-adik udah nonton video ini sampai akhirr, lup yu all -----------   -Tags  - #roblo...",
+      "source": "YouTube",
+      "timestamp": 1769139426.0,
+      "url": "https://www.youtube.com/watch?v=WwG3NQfJ1LI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "BIBI MENANGIS HISTERIS KARENA SEPEDANYA HILANG, KITA KEMALINGAN || BLOXBURG\ud83c\udfe1ROBLOX INDONESIA",
       "description": "WALAWE BAGAIMANA INI MAMI SEPEDA KESAYANGAN BIBI HILANG SEMUA KENDALAAN KITA HILANG UN Roblox ......",
       "source": "YouTube",
@@ -529,15 +538,6 @@
       "source": "YouTube",
       "timestamp": 1769135248.0,
       "url": "https://www.youtube.com/watch?v=ywj8R2QaUzc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "When Your Sister Is Mean To You! #bloxburg #bloxburgfamily #roblox #shorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769134487.0,
-      "url": "https://www.youtube.com/watch?v=XfrnQQ9hbFc",
       "icon": "fa-youtube"
     },
     {
@@ -578,7 +578,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769140225.8944345,
+    "generated_at": 1769141425.8909998,
     "mode": "memory",
     "refresh_interval": 2000
   }
