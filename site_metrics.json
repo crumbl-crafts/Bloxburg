@@ -551,20 +551,20 @@
     },
     {
       "type": "trend",
+      "title": "You are amazing #roblox #bloxburg #robloxstory #robloxedit #robloxshorts #challenge #mindoverblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769165820.0,
+      "url": "https://www.youtube.com/watch?v=skAPmOtjJNk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "sirihanumanth \ud83e\udd70 #nature #love #bloxburg #rom #roblox #couple #travel",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1769160112.0,
       "url": "https://www.youtube.com/watch?v=LXxwCaJoN-4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "AESTHETICS BLOXBURG BUILD #roblox #robloxshorts #viral",
-      "description": "shorts #fyp....",
-      "source": "YouTube",
-      "timestamp": 1769158997.0,
-      "url": "https://www.youtube.com/watch?v=biD24KZRkKQ",
       "icon": "fa-youtube"
     },
     {
@@ -614,7 +614,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769172625.8925672,
+    "generated_at": 1769173825.8990536,
     "mode": "memory",
     "refresh_interval": 2000
   }
