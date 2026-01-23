@@ -578,15 +578,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "WHOSSS EXICTED? \ud83d\udc96#roblox #robloxshorts #shorts #fyp #blowup #fyp #brookhaven #rblx #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769201158.0,
-      "url": "https://www.youtube.com/watch?v=C7MGtACwGwg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Minha casa nova no #bloxburg#viralshorts#robloxgames@kikigamerbrasil",
       "description": "...",
       "source": "YouTube",
@@ -619,6 +610,15 @@
       "source": "YouTube",
       "timestamp": 1769198441.0,
       "url": "https://www.youtube.com/watch?v=jI3ojuxZCSA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "\ud83d\udd34BUILDING MY KIDS A HUGE SLEEPOVER ROOM ON BLOXBURG!",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
+      "source": "YouTube",
+      "timestamp": 1769198272.0,
+      "url": "https://www.youtube.com/watch?v=pgyXXevPOOg",
       "icon": "fa-youtube"
     },
     {
@@ -659,7 +659,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769203825.89023,
+    "generated_at": 1769205025.8932323,
     "mode": "memory",
     "refresh_interval": 2000
   }
