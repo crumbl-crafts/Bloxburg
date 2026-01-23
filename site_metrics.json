@@ -497,6 +497,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "nostalgic! \ud83d\ude0c #roblox #bloxburg #nostalgia #robloxfyp #fyp cred: @ebsmaee_ on tiktok",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769136749.0,
+      "url": "https://www.youtube.com/watch?v=0e4BHOxaC24",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "When Your Sister Is Mean To You! #bloxburg #bloxburgfamily #roblox #shorts",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769134487.0,
+      "url": "https://www.youtube.com/watch?v=XfrnQQ9hbFc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "one of my favorite builds in this city! \ud83c\udfd9\ufe0f #roblox #bloxburg #bloxburgbuild #cozyaesthetic #fyp",
       "description": "...",
       "source": "YouTube",
@@ -520,24 +538,6 @@
       "source": "YouTube",
       "timestamp": 1769121027.0,
       "url": "https://www.youtube.com/watch?v=xEr4H6RhrtQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "SOPHIES ROUTINE AT BOXING CLUB! *NEW ENEMY?* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1769115606.0,
-      "url": "https://www.youtube.com/watch?v=o-OeW2KLkng",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg released their new IKEA furniture set TODAY #roblox #bloxburg #ikea #bloxburgupdate #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769112655.0,
-      "url": "https://www.youtube.com/watch?v=bPpU64xxV-s",
       "icon": "fa-youtube"
     },
     {
@@ -578,7 +578,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769137226.1521702,
+    "generated_at": 1769137825.891813,
     "mode": "memory",
     "refresh_interval": 2000
   }
