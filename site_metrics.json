@@ -560,6 +560,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "sad. #dear #roblox #deer #bloxburg #dti #edit #warriorcats #farm #fyp #shorts #short #depression #em",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769183871.0,
+      "url": "https://www.youtube.com/watch?v=gt6I6kRyyJE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "D\u00f6gunalom nap\ud83e\udd14 Bloxburg -ban Pr\u00f3b\u00e1lj meg NEM elaludni!\ud83d\ude02 Roblox #roblox #robloxgame #meme #feedshorts",
       "description": "game #gamer #games #gameplay #j\u00e1t\u00e9k #vide\u00f3 #video #gaming #youtube #shorts #short #fun #gaming #game...",
       "source": "YouTube",
@@ -595,62 +604,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "#music #shortsviral #roblox #bloxburg #blowup #pinkiepie #robloxedit #viral #dance #adoptme #fyp",
-      "description": "adoptme #aftereffects #ae #blowup #bobettesisters #bobette #bob #blowup #blowupthisacc #bloxburg #bl...",
-      "source": "YouTube",
-      "timestamp": 1769167079.0,
-      "url": "https://www.youtube.com/watch?v=o4IFq14kdlQ",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "ONYON NYON KELILING BLOXBURG DAN KESASAR | EP 10 | ROBLOX",
-      "description": "Petualanyan Onyon Nyon, bayi ajaib berusia 3 bulan....",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769166053.0,
-      "url": "https://www.youtube.com/watch?v=TmPiXmAlqp0",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "You are amazing #roblox #bloxburg #robloxstory #robloxedit #robloxshorts #challenge #mindoverblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769165820.0,
-      "url": "https://www.youtube.com/watch?v=skAPmOtjJNk",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "IDK IM JS BORED TO DID TS #robloxedit #bloxburg #roblox #robloxstory",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769164330.0,
-      "url": "https://www.youtube.com/watch?v=9hWrfIflvYE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "sirihanumanth \ud83e\udd70 #nature #love #bloxburg #rom #roblox #couple #travel",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769160112.0,
-      "url": "https://www.youtube.com/watch?v=LXxwCaJoN-4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#\u0436\u0438\u0437\u0430 #roblox #\u043a\u0440\u0443\u0436\u043a\u0438 #\u043c\u0430\u0439\u043d\u043a\u0440\u0430\u0444\u0442 #\u0440\u043e\u0431\u043b\u043e\u043a\u0441 #\u0441\u043c\u0435\u0448\u043d\u043e #minecraft #\u043c\u0435\u043c #memes #bloxburg #\u043f\u0440\u0438\u043a\u043e\u043b",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769157743.0,
-      "url": "https://www.youtube.com/watch?v=VSHk3_I90nc",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769194225.8974414,
+    "generated_at": 1769195425.8915944,
     "mode": "memory",
     "refresh_interval": 2000
   }
