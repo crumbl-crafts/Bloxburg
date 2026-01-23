@@ -497,6 +497,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "one of my favorite builds in this city! \ud83c\udfd9\ufe0f #roblox #bloxburg #bloxburgbuild #cozyaesthetic #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769129017.0,
+      "url": "https://www.youtube.com/watch?v=ngZN4js4WCs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "it\u2019s so funny \ud83d\ude2d #roblox #bloxburg #robloxchatban #morsecode #fyp ib: @\ud835\udce1\ud835\udc5c\ud835\udcc8\ud835\udc52",
       "description": "...",
       "source": "YouTube",
@@ -529,15 +538,6 @@
       "source": "YouTube",
       "timestamp": 1769112655.0,
       "url": "https://www.youtube.com/watch?v=bPpU64xxV-s",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\u00a1No esperes mas y unete a nuestro discord en la descripcion del perfil! #roblox #bloxburg #roleplay",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769110667.0,
-      "url": "https://www.youtube.com/watch?v=hbdyN5ef4uo",
       "icon": "fa-youtube"
     },
     {
@@ -578,7 +578,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769135425.8937137,
+    "generated_at": 1769136625.8877356,
     "mode": "memory",
     "refresh_interval": 2000
   }
