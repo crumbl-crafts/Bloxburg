@@ -596,6 +596,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Touring ALL Of My BLOXBURG Plots From 2020\u2026",
+      "description": "hi guys today i toured all of my bloxburg plots from 2020... MY SECOND CHANNEL \u2b07\ufe0f @randoz2 JOIN MY D...",
+      "source": "YouTube",
+      "timestamp": 1769209200.0,
+      "url": "https://www.youtube.com/watch?v=40t08rGrljk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#cgsong #roblox #theothersideofmakebelieve #theothersideofmakebelieve #bloxburg",
       "description": "roblox #theothersideofmakebelieve #january2 #bloxburg #giveusourstolenmoneyback #nationalholiday #mi...",
       "source": "YouTube",
@@ -628,15 +637,6 @@
       "source": "YouTube",
       "timestamp": 1769198441.0,
       "url": "https://www.youtube.com/watch?v=jI3ojuxZCSA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ud83d\udd34BUILDING MY KIDS A HUGE SLEEPOVER ROOM ON BLOXBURG!",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE PEACH when buying robux or premium!\u2b50\ufe0f \ud83c\udf99\ufe0fBe sure to SUBSCRIBE   to ...",
-      "source": "YouTube",
-      "timestamp": 1769198272.0,
-      "url": "https://www.youtube.com/watch?v=pgyXXevPOOg",
       "icon": "fa-youtube"
     },
     {
@@ -677,7 +677,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769211025.9020472,
+    "generated_at": 1769212225.8999467,
     "mode": "memory",
     "refresh_interval": 2000
   }
