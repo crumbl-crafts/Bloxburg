@@ -497,6 +497,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "ONYON NYON KELILING BLOXBURG DAN KESASAR | EP 10 | ROBLOX",
+      "description": "Petualanyan Onyon Nyon, bayi ajaib berusia 3 bulan....",
+      "source": "YouTube",
+      "timestamp": 1769166053.0,
+      "url": "https://www.youtube.com/watch?v=TmPiXmAlqp0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "sirihanumanth \ud83e\udd70 #nature #love #bloxburg #rom #roblox #couple #travel",
       "description": "...",
       "source": "YouTube",
@@ -529,15 +538,6 @@
       "source": "YouTube",
       "timestamp": 1769138103.0,
       "url": "https://www.youtube.com/watch?v=VuBrt8_N4Yw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ub2e4\ub978 \ucda4 + \ub2e4\ub978 \ub178\ub798 \ud83d\udc97 #robloxanimation #roblox #99nightintheforest #bloxburg #robloxedit #\ub85c\ube14\uacc4",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769137838.0,
-      "url": "https://www.youtube.com/watch?v=1sHIqupYJCM",
       "icon": "fa-youtube"
     },
     {
@@ -578,7 +578,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769167825.8932824,
+    "generated_at": 1769169025.895265,
     "mode": "memory",
     "refresh_interval": 2000
   }
