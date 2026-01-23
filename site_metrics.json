@@ -596,6 +596,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#cgsong #roblox #theothersideofmakebelieve #theothersideofmakebelieve #bloxburg",
+      "description": "roblox #theothersideofmakebelieve #january2 #bloxburg #giveusourstolenmoneyback #nationalholiday #mi...",
+      "source": "YouTube",
+      "timestamp": 1769207860.0,
+      "url": "https://www.youtube.com/watch?v=hBPAk_1niVE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Minha casa nova no #bloxburg#viralshorts#robloxgames@kikigamerbrasil",
       "description": "...",
       "source": "YouTube",
@@ -628,15 +637,6 @@
       "source": "YouTube",
       "timestamp": 1769198272.0,
       "url": "https://www.youtube.com/watch?v=pgyXXevPOOg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "NEW Bloxburg x IKEA Update \ud83e\udeb4Welcome to Bloxburg #bloxburg #roblox #shorts #welcometobloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769197583.0,
-      "url": "https://www.youtube.com/watch?v=8-lGiyJ_-EY",
       "icon": "fa-youtube"
     },
     {
@@ -677,7 +677,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769209371.8895726,
+    "generated_at": 1769209825.8905406,
     "mode": "memory",
     "refresh_interval": 2000
   }
