@@ -542,6 +542,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Kerja pokoknya kerja dimana mana kerja selalu kerja #roblox #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769180101.0,
+      "url": "https://www.youtube.com/watch?v=Qq8UJqjxP_8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#music #roblox #stealabrainrot #minecraft #lifeisbutadream #czsk #bloxburg #trade #jurassicworld",
       "description": "...",
       "source": "YouTube",
@@ -586,44 +595,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1767691818.2690697,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "#\u0436\u0438\u0437\u0430 #roblox #\u043a\u0440\u0443\u0436\u043a\u0438 #\u043c\u0430\u0439\u043d\u043a\u0440\u0430\u0444\u0442 #\u0440\u043e\u0431\u043b\u043e\u043a\u0441 #\u0441\u043c\u0435\u0448\u043d\u043e #minecraft #\u043c\u0435\u043c #memes #bloxburg #\u043f\u0440\u0438\u043a\u043e\u043b",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769157743.0,
+      "url": "https://www.youtube.com/watch?v=VSHk3_I90nc",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "How BLOXBURG MOMS Treat Their 1st Child VS",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1767688218.269072,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769157597.0,
+      "url": "https://www.youtube.com/watch?v=VUKusE94QOY",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1767684618.2690725,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "I\u2019m not even trying to show off \ud83d\ude2d#funny#bloxburg#roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769145871.0,
+      "url": "https://www.youtube.com/watch?v=-ZRPMGv1Y4s",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1767681018.2690735,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "BIBI MENANGIS HISTERIS KARENA SEPEDANYA HILANG, KITA KEMALINGAN || BLOXBURG\ud83c\udfe1ROBLOX INDONESIA",
+      "description": "WALAWE BAGAIMANA INI MAMI SEPEDA KESAYANGAN BIBI HILANG SEMUA KENDALAAN KITA HILANG UN Roblox ......",
+      "source": "YouTube",
+      "timestamp": 1769139038.0,
+      "url": "https://www.youtube.com/watch?v=iRpz5Db6R1w",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769182225.8889627,
+    "generated_at": 1769183425.898737,
     "mode": "memory",
     "refresh_interval": 2000
   }
