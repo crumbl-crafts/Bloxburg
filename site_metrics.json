@@ -533,6 +533,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "IMPORTANT REMINDER #bloxburg #welcometobloxburg #roblox #bloxburgupdate #viral #fyp",
+      "description": "IMPORTANT REMINDER #bloxburg #welcometobloxburg #roblox #bloxburgupdate #viral #fyp....",
+      "source": "YouTube",
+      "timestamp": 1769278679.0,
+      "url": "https://www.youtube.com/watch?v=KhWXe9t9MJ4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "barbie slapped ken with a frying pan lol \ud83d\ude02#roblox #barbie #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -565,15 +574,6 @@
       "source": "YouTube",
       "timestamp": 1769273943.0,
       "url": "https://www.youtube.com/watch?v=61pQrgwphRM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "40k Modern Traditional Bloxburg House Build: 2 Story Tutorial *VOICE*",
-      "description": "hiii! today i show how to build a traditional house in bloxburg! a modern 2 story house build design...",
-      "source": "YouTube",
-      "timestamp": 1769270443.0,
-      "url": "https://www.youtube.com/watch?v=T_fwamEfW-k",
       "icon": "fa-youtube"
     },
     {
@@ -614,7 +614,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769279425.8945508,
+    "generated_at": 1769280625.9000487,
     "mode": "memory",
     "refresh_interval": 2000
   }
