@@ -551,6 +551,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "comment what map on roblox you like #fypage #roblox #bloxburg #makingmoney #robloxgame",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769257974.0,
+      "url": "https://www.youtube.com/watch?v=tjqzEz-a468",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "OMGG #roblox #robux #dti #mm2 #headless #korblox #cheapheadless #adoptme #bloxburg #freerobux",
       "description": "...",
       "source": "YouTube",
@@ -578,20 +587,11 @@
     },
     {
       "type": "trend",
-      "title": "\ub2f9\ucca8\uc790\ubd84\uc774\ub791 99 #bloxburg #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub85c\ube14\ub85d\uc2a4 #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub85c\ube14\uacc4 #\ub85c\ube14\uacc4 #\uc751 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #mm2",
+      "title": "i forgot about these, me missing the old days!  #bloxburg #robloxbloxburg oxburg #roblox #fyp #viral",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1769251025.0,
-      "url": "https://www.youtube.com/watch?v=V8zof8wYp4Q",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "HELP PLS \ud83d\ude4f ||.#roblox #fyp #fixthisgame #viral #bloxburg #trending #viral",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769249246.0,
-      "url": "https://www.youtube.com/watch?v=zqgirwVwha4",
+      "timestamp": 1769252117.0,
+      "url": "https://www.youtube.com/watch?v=th5gSuDrCDE",
       "icon": "fa-youtube"
     },
     {
@@ -632,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769259025.8955476,
+    "generated_at": 1769260225.8890114,
     "mode": "memory",
     "refresh_interval": 2000
   }
