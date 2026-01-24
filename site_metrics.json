@@ -560,6 +560,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "\ub2f9\ucca8\uc790\ubd84\uc774\ub791 99 #bloxburg #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub85c\ube14\ub85d\uc2a4 #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub85c\ube14\uacc4 #\ub85c\ube14\uacc4 #\uc751 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #mm2",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769251025.0,
+      "url": "https://www.youtube.com/watch?v=V8zof8wYp4Q",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Sometimes I forget I have this \ud83d\ude02 #roblox #bloxburg #fyp #relatable",
       "description": "...",
       "source": "YouTube",
@@ -638,19 +647,10 @@
       "timestamp": 1769213679.0,
       "url": "https://www.youtube.com/watch?v=4_azX4UzvQ8",
       "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "[UPD] Welcome to Bloxburg AUTO BUILD OP GUI | copy any house FAST - zekehub",
-      "description": "Get the script at: https://zekehub.com Join our Discord at: https://discord.gg/zekehub Quick Feature...",
-      "source": "YouTube",
-      "timestamp": 1769213309.0,
-      "url": "https://www.youtube.com/watch?v=DIxXZjVaUHI",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769251825.8929346,
+    "generated_at": 1769253025.9106944,
     "mode": "memory",
     "refresh_interval": 2000
   }
