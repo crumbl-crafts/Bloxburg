@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 362,
+    "total_members": 361,
     "joined_today": 1,
     "active_shops": 2,
     "avg_response_time": 2915.3333333333335
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "izumi_97527 left the server",
+      "timestamp": 1769256408,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1426014678483730616"
+    },
     {
       "type": "member_leave",
       "shop_name": "Server",
@@ -623,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769256026.2509584,
+    "generated_at": 1769256411.3061004,
     "mode": "memory",
     "refresh_interval": 2000
   }
