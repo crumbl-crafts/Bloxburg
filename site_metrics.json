@@ -578,6 +578,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #robloxedit #robloxgames #storytime #newgameinroblox #amazingroblox #robloxfunny #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769218774.0,
+      "url": "https://www.youtube.com/watch?v=29LuhIOBbaA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "POV You&#39;re A KID ROLEPLAYING In BLOXBURG On ROBLOX Until \ud83d\udc32",
       "description": "...",
       "source": "YouTube",
@@ -605,20 +614,11 @@
     },
     {
       "type": "trend",
-      "title": "Touring ALL Of My BLOXBURG Plots From 2020\u2026",
-      "description": "hi guys today i toured all of my bloxburg plots from 2020... MY SECOND CHANNEL \u2b07\ufe0f @randoz2 JOIN MY D...",
-      "source": "YouTube",
-      "timestamp": 1769209200.0,
-      "url": "https://www.youtube.com/watch?v=40t08rGrljk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "still can\u2019t believe it \ud83d\ude31 #bloxburg #og #oldroblox #beta #testing #free #real #relatable",
+      "title": "guys please help me\ud83d\ude2d #roblox #bloxburg #relatable",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1769208582.0,
-      "url": "https://www.youtube.com/watch?v=9_C3VI5_9vo",
+      "timestamp": 1769210927.0,
+      "url": "https://www.youtube.com/watch?v=46qdAYHjlg4",
       "icon": "fa-youtube"
     },
     {
@@ -659,7 +659,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769219425.8914194,
+    "generated_at": 1769220625.8887782,
     "mode": "memory",
     "refresh_interval": 2000
   }
