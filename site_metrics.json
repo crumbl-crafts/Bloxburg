@@ -596,6 +596,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "Clothes/fabric store in my city!! #roblox #bloxburg #bloxburgbuild #cozyaesthetic #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769213679.0,
+      "url": "https://www.youtube.com/watch?v=4_azX4UzvQ8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "[UPD] Welcome to Bloxburg AUTO BUILD OP GUI | copy any house FAST - zekehub",
+      "description": "Get the script at: https://zekehub.com Join our Discord at: https://discord.gg/zekehub Quick Feature...",
+      "source": "YouTube",
+      "timestamp": 1769213309.0,
+      "url": "https://www.youtube.com/watch?v=DIxXZjVaUHI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "guys please help me\ud83d\ude2d #roblox #bloxburg #relatable",
       "description": "...",
       "source": "YouTube",
@@ -619,24 +637,6 @@
       "source": "YouTube",
       "timestamp": 1769207860.0,
       "url": "https://www.youtube.com/watch?v=hBPAk_1niVE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "A builds not finished until I do it \ud83d\ude2d #roblox #bloxburg #bloxburgbuild #relateable #fyp ib: @elfana",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769200723.0,
-      "url": "https://www.youtube.com/watch?v=oDxZ7y0G_fw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I BUILT IKEA IN BLOXBURG",
-      "description": "bloxburg #roblox #robloxbloxburg Bloxburg added a bunch of Ikea items I built a home for them all......",
-      "source": "YouTube",
-      "timestamp": 1769198441.0,
-      "url": "https://www.youtube.com/watch?v=jI3ojuxZCSA",
       "icon": "fa-youtube"
     },
     {
@@ -677,7 +677,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769214625.8949637,
+    "generated_at": 1769215825.8878453,
     "mode": "memory",
     "refresh_interval": 2000
   }
