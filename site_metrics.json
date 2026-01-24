@@ -604,44 +604,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1767691818.2690697,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "Idk. #roblox #bloxburg #viral #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769224068.0,
+      "url": "https://www.youtube.com/watch?v=y-NoJhGJV70",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "#roblox #helpmemakethismakesense #december18 #lifeisbutadream #theothersideofmakebelieve #bloxburg",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1767688218.269072,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769221069.0,
+      "url": "https://www.youtube.com/watch?v=j7tfUHMMh78",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1767684618.2690725,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "POV You&#39;re A KID ROLEPLAYING In BLOXBURG On ROBLOX Until \ud83d\udc32",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769216744.0,
+      "url": "https://www.youtube.com/watch?v=ZamSftURskU",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1767681018.2690735,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Clothes/fabric store in my city!! #roblox #bloxburg #bloxburgbuild #cozyaesthetic #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769213679.0,
+      "url": "https://www.youtube.com/watch?v=4_azX4UzvQ8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "[UPD] Welcome to Bloxburg AUTO BUILD OP GUI | copy any house FAST - zekehub",
+      "description": "Get the script at: https://zekehub.com Join our Discord at: https://discord.gg/zekehub Quick Feature...",
+      "source": "YouTube",
+      "timestamp": 1769213309.0,
+      "url": "https://www.youtube.com/watch?v=DIxXZjVaUHI",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769250628.372497,
+    "generated_at": 1769251825.8929346,
     "mode": "memory",
     "refresh_interval": 2000
   }
