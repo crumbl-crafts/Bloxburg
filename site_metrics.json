@@ -524,6 +524,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "and the ALEX drawers!! #roblox #bloxburg #relateable #bloxburgbuild #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769281337.0,
+      "url": "https://www.youtube.com/watch?v=gL8uvoSNvWY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "IMPORTANT REMINDER #bloxburg #welcometobloxburg #roblox #bloxburgupdate #viral #fyp",
       "description": "IMPORTANT REMINDER #bloxburg #welcometobloxburg #roblox #bloxburgupdate #viral #fyp....",
       "source": "YouTube",
@@ -538,15 +547,6 @@
       "source": "YouTube",
       "timestamp": 1769276542.0,
       "url": "https://www.youtube.com/watch?v=H7wWuCEPIC8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg Just Sold Out to IKEA? \ud83e\udd88 #roblox #robloxrant #robloxedit #rblx #shorts",
-      "description": "IKEA is officially in Bloxburg and it feels like a fever dream. We got the shark, the meatballs, and...",
-      "source": "YouTube",
-      "timestamp": 1769274039.0,
-      "url": "https://www.youtube.com/watch?v=Onh6njizmqI",
       "icon": "fa-youtube"
     },
     {
@@ -605,7 +605,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769283026.4194646,
+    "generated_at": 1769284225.9024105,
     "mode": "memory",
     "refresh_interval": 2000
   }
