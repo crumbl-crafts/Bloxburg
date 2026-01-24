@@ -533,11 +533,29 @@
   "news": [
     {
       "type": "trend",
+      "title": "Bloxburg Just Sold Out to IKEA? \ud83e\udd88 #roblox #robloxrant #robloxedit #rblx #shorts",
+      "description": "IKEA is officially in Bloxburg and it feels like a fever dream. We got the shark, the meatballs, and...",
+      "source": "YouTube",
+      "timestamp": 1769274039.0,
+      "url": "https://www.youtube.com/watch?v=Onh6njizmqI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "touring ALL of my builds in bloxburg (2025)",
       "description": "JOIN ME ON ROBLOX: https://www.roblox.com/join/isaacfaulty \u2b50 \ud83d\udecd\ufe0f SHOP MY UGC: https://www.roblox.com/...",
       "source": "YouTube",
       "timestamp": 1769274023.0,
       "url": "https://www.youtube.com/watch?v=XoIynX_jpY4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "POV: You finally got your Bloxburg High School diploma. #shorts #bloxburg",
+      "description": "A Bloxburg update during October in 2025 had came out. The new Bloxburg High School & their High Sch...",
+      "source": "YouTube",
+      "timestamp": 1769273943.0,
+      "url": "https://www.youtube.com/watch?v=61pQrgwphRM",
       "icon": "fa-youtube"
     },
     {
@@ -577,44 +595,35 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1767691818.2690697,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "POV You&#39;re A KID ROLEPLAYING In BLOXBURG On ROBLOX Until #fyp #youtube \ud83d\ude10",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769259643.0,
+      "url": "https://www.youtube.com/watch?v=Oy2TvqNOySQ",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "OMGG #roblox #robux #dti #mm2 #headless #korblox #cheapheadless #adoptme #bloxburg #freerobux",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1767688218.269072,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769256667.0,
+      "url": "https://www.youtube.com/watch?v=8y6rLUSTJU0",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1767684618.2690725,
-      "url": "#",
-      "icon": "fa-lightbulb"
-    },
-    {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1767681018.2690735,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Virei TAXISTA no BLOXBURG - Roblox #roblox #robloxmemes #robloxshorts #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769256009.0,
+      "url": "https://www.youtube.com/watch?v=4F8e9eJ9A6A",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769275825.9040873,
+    "generated_at": 1769277025.900672,
     "mode": "memory",
     "refresh_interval": 2000
   }
