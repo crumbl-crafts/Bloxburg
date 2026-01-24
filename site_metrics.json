@@ -8,7 +8,7 @@
   },
   "server": {
     "total_members": 361,
-    "joined_today": 3,
+    "joined_today": 0,
     "active_shops": 2,
     "avg_response_time": 2915.3333333333335
   },
@@ -533,6 +533,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "Visiting A Bloxburg Restaurant  #roblox #bloxburg",
+      "description": "It was delicious #roblox #bloxburg #bloxburgroleplay #bloxburgbuilds #fyp....",
+      "source": "YouTube",
+      "timestamp": 1769290937.0,
+      "url": "https://www.youtube.com/watch?v=NX-kykqEMjE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Judging Bloxburg Houses #bloxburg #roblox",
+      "description": "Which one do you think I built?     #bloxburg #roblox #bloxburgbuilds #bloxburghomes #fyp....",
+      "source": "YouTube",
+      "timestamp": 1769290925.0,
+      "url": "https://www.youtube.com/watch?v=O4HKMFyv8iA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "girlfriend boyfriend fights\ud83e\udd72 #roblox #america #robloxedit #bloxburg #fyp #minecraft #adinross #kai",
       "description": "offensivememes #robloxian #royalehighroblox #lol #anime #memesdaily #bloxburghouse #gamer #rblx #fun...",
       "source": "YouTube",
@@ -556,24 +574,6 @@
       "source": "YouTube",
       "timestamp": 1769288228.0,
       "url": "https://www.youtube.com/watch?v=dWpyIx3Td3g",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "RATING the NEW Bloxburg &amp; IKEA items! #roblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769285481.0,
-      "url": "https://www.youtube.com/watch?v=a-GSlLR3Rj0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "PLZ \ud83d\ude2d #roblox #bloxburg #bloxburgbuild #relateable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769285357.0,
-      "url": "https://www.youtube.com/watch?v=0CekhB4rziQ",
       "icon": "fa-youtube"
     },
     {
@@ -614,7 +614,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769291425.8907523,
+    "generated_at": 1769292625.8947325,
     "mode": "memory",
     "refresh_interval": 2000
   }
