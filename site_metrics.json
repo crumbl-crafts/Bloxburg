@@ -578,6 +578,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "#fakesituation rahasia cepat kaya di #bloxburg \u2049\ufe0f",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769235099.0,
+      "url": "https://www.youtube.com/watch?v=-bxvBWULjb0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "3 bedroom 2 story house in Bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769225129.0,
+      "url": "https://www.youtube.com/watch?v=f_hJfq-rplo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Idk. #roblox #bloxburg #viral #fyp",
       "description": "...",
       "source": "YouTube",
@@ -601,24 +619,6 @@
       "source": "YouTube",
       "timestamp": 1769218774.0,
       "url": "https://www.youtube.com/watch?v=29LuhIOBbaA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "POV You&#39;re A KID ROLEPLAYING In BLOXBURG On ROBLOX Until \ud83d\udc32",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769216744.0,
-      "url": "https://www.youtube.com/watch?v=ZamSftURskU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Clothes/fabric store in my city!! #roblox #bloxburg #bloxburgbuild #cozyaesthetic #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769213679.0,
-      "url": "https://www.youtube.com/watch?v=4_azX4UzvQ8",
       "icon": "fa-youtube"
     },
     {
@@ -659,7 +659,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769236225.8961773,
+    "generated_at": 1769237425.8994236,
     "mode": "memory",
     "refresh_interval": 2000
   }
