@@ -569,6 +569,15 @@
     },
     {
       "type": "trend",
+      "title": "Bloxburg Hack #roblox #bloxburg #bloxburghacks",
+      "description": "Comment if it worked for you!...",
+      "source": "YouTube",
+      "timestamp": 1769238907.0,
+      "url": "https://www.youtube.com/watch?v=LtsrKcMLrGk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#fakesituation rahasia cepat kaya di #bloxburg \u2049\ufe0f",
       "description": "...",
       "source": "YouTube",
@@ -638,19 +647,10 @@
       "timestamp": 1769213309.0,
       "url": "https://www.youtube.com/watch?v=DIxXZjVaUHI",
       "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "guys please help me\ud83d\ude2d #roblox #bloxburg #relatable",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769210927.0,
-      "url": "https://www.youtube.com/watch?v=46qdAYHjlg4",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769247025.934248,
+    "generated_at": 1769248225.8981688,
     "mode": "memory",
     "refresh_interval": 2000
   }
