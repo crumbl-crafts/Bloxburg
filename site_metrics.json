@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 360,
+    "total_members": 359,
     "joined_today": 1,
     "active_shops": 2,
     "avg_response_time": 2915.3333333333335
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "hid3nori left the server",
+      "timestamp": 1769287355,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1098992055272878081"
+    },
     {
       "type": "member_leave",
       "shop_name": "Server",
@@ -524,6 +533,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "RATING the NEW Bloxburg &amp; IKEA items! #roblox #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769285481.0,
+      "url": "https://www.youtube.com/watch?v=a-GSlLR3Rj0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "PLZ \ud83d\ude2d #roblox #bloxburg #bloxburgbuild #relateable #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769285357.0,
+      "url": "https://www.youtube.com/watch?v=0CekhB4rziQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "damn #stranger #bloxburg #bloxburg #funny  #aivideo #roblox #redditstories #relatable #storytime",
       "description": "...",
       "source": "YouTube",
@@ -542,29 +569,11 @@
     },
     {
       "type": "trend",
-      "title": "and the ALEX drawers!! #roblox #bloxburg #relateable #bloxburgbuild #fyp",
-      "description": "...",
+      "title": "\u2744\ufe0f\u22c6.\u02da snowy log cabin \u2746 speedbuild | roblox bloxburg \ud83c\udf28\ufe0f",
+      "description": "follow my socials \u22c6.\u02da my instagram : https://www.instagram.com/holl7ybuilds my tiktok : https://www....",
       "source": "YouTube",
-      "timestamp": 1769281337.0,
-      "url": "https://www.youtube.com/watch?v=gL8uvoSNvWY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "IMPORTANT REMINDER #bloxburg #welcometobloxburg #roblox #bloxburgupdate #viral #fyp",
-      "description": "IMPORTANT REMINDER #bloxburg #welcometobloxburg #roblox #bloxburgupdate #viral #fyp....",
-      "source": "YouTube",
-      "timestamp": 1769278679.0,
-      "url": "https://www.youtube.com/watch?v=KhWXe9t9MJ4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "barbie slapped ken with a frying pan lol \ud83d\ude02#roblox #barbie #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769276542.0,
-      "url": "https://www.youtube.com/watch?v=H7wWuCEPIC8",
+      "timestamp": 1769282101.0,
+      "url": "https://www.youtube.com/watch?v=Y2ZQSLbJK10",
       "icon": "fa-youtube"
     },
     {
@@ -605,7 +614,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769286625.9152663,
+    "generated_at": 1769287358.2009752,
     "mode": "memory",
     "refresh_interval": 2000
   }
