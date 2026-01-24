@@ -533,6 +533,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "barbie slapped ken with a frying pan lol \ud83d\ude02#roblox #barbie #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769276542.0,
+      "url": "https://www.youtube.com/watch?v=H7wWuCEPIC8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bloxburg Just Sold Out to IKEA? \ud83e\udd88 #roblox #robloxrant #robloxedit #rblx #shorts",
       "description": "IKEA is officially in Bloxburg and it feels like a fever dream. We got the shark, the meatballs, and...",
       "source": "YouTube",
@@ -568,62 +577,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "#theweeknd #speedsong #speedup #music #song #roblox #kpop #twice #bloxburg #lesserafim",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769270269.0,
-      "url": "https://www.youtube.com/watch?v=CegGbgvo7DQ",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "Roblox Bloxburg - krusty krab pizza #roblox #rp #bloxburg",
-      "description": "bloxburg pizza job #bloxburg #rp krusty krab pizza roblox #roblox #bloxburg #games #comedyshorts #ho...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769267838.0,
-      "url": "https://www.youtube.com/watch?v=An8U0pnQMK0",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "lmao #dear #roblox #roblox #deer #bloxburg #bloxburg #dti #short #fyp #farm #game #roblox #funny",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769261688.0,
-      "url": "https://www.youtube.com/watch?v=4fIVaNnQfRY",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "POV You&#39;re A KID ROLEPLAYING In BLOXBURG On ROBLOX Until #fyp #youtube \ud83d\ude10",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769259643.0,
-      "url": "https://www.youtube.com/watch?v=Oy2TvqNOySQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "OMGG #roblox #robux #dti #mm2 #headless #korblox #cheapheadless #adoptme #bloxburg #freerobux",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769256667.0,
-      "url": "https://www.youtube.com/watch?v=8y6rLUSTJU0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Virei TAXISTA no BLOXBURG - Roblox #roblox #robloxmemes #robloxshorts #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769256009.0,
-      "url": "https://www.youtube.com/watch?v=4F8e9eJ9A6A",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769277626.234664,
+    "generated_at": 1769278225.891072,
     "mode": "memory",
     "refresh_interval": 2000
   }
