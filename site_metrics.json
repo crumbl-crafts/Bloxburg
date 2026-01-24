@@ -536,15 +536,6 @@
       "thread_id": null,
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/739223996532391977"
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "lukie_tt2005 left the server",
-      "timestamp": 1768612023,
-      "thread_id": null,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/342996908068962304"
     }
   ],
   "pipeline": [
@@ -614,15 +605,6 @@
     },
     {
       "type": "trend",
-      "title": "guys please help me\ud83d\ude2d #roblox #bloxburg #relatable",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769210927.0,
-      "url": "https://www.youtube.com/watch?v=46qdAYHjlg4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Touring ALL Of My BLOXBURG Plots From 2020\u2026",
       "description": "hi guys today i toured all of my bloxburg plots from 2020... MY SECOND CHANNEL \u2b07\ufe0f @randoz2 JOIN MY D...",
       "source": "YouTube",
@@ -632,11 +614,20 @@
     },
     {
       "type": "trend",
-      "title": "#cgsong #roblox #theothersideofmakebelieve #theothersideofmakebelieve #bloxburg",
-      "description": "roblox #theothersideofmakebelieve #january2 #bloxburg #giveusourstolenmoneyback #nationalholiday #mi...",
+      "title": "still can\u2019t believe it \ud83d\ude31 #bloxburg #og #oldroblox #beta #testing #free #real #relatable",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769207860.0,
-      "url": "https://www.youtube.com/watch?v=hBPAk_1niVE",
+      "timestamp": 1769208582.0,
+      "url": "https://www.youtube.com/watch?v=9_C3VI5_9vo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "I MISS OLD BLOXBURG #roblox #bloxburg #welcometobloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769208421.0,
+      "url": "https://www.youtube.com/watch?v=AqoASDYs3aM",
       "icon": "fa-youtube"
     },
     {
@@ -677,7 +668,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769215825.8878453,
+    "generated_at": 1769217025.8943079,
     "mode": "memory",
     "refresh_interval": 2000
   }
