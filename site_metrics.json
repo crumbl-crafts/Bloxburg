@@ -560,6 +560,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "my little ponyyy #roblox #bloxburg #bloxburgbuild #relateable #fyp ib: @Loopy \u27b0",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769296405.0,
+      "url": "https://www.youtube.com/watch?v=dZSvdmvRLvg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "it was me \ud83d\ude29 #roblox #bloxburg #bloxburgbuild #relateable #fyp",
       "description": "...",
       "source": "YouTube",
@@ -592,15 +601,6 @@
       "source": "YouTube",
       "timestamp": 1769290925.0,
       "url": "https://www.youtube.com/watch?v=O4HKMFyv8iA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg is addicting AGAIN #roblox #bloxburg #bloxburgbuild #relateable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769288429.0,
-      "url": "https://www.youtube.com/watch?v=yztIN7PgMn8",
       "icon": "fa-youtube"
     },
     {
@@ -641,7 +641,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769297425.888982,
+    "generated_at": 1769298625.8927724,
     "mode": "memory",
     "refresh_interval": 2000
   }
