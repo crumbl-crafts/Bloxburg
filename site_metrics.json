@@ -524,6 +524,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "damn #stranger #bloxburg #bloxburg #funny  #aivideo #roblox #redditstories #relatable #storytime",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769285213.0,
+      "url": "https://www.youtube.com/watch?v=_GojlLENjao",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "real. #aivideo #roblox #redditstories #relatable #storytime #stranger #funny #bloxburg #bloxburg #sk",
+      "description": "pls sub for related content :)...",
+      "source": "YouTube",
+      "timestamp": 1769284645.0,
+      "url": "https://www.youtube.com/watch?v=Rfg3zv6zmxQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "and the ALEX drawers!! #roblox #bloxburg #relateable #bloxburgbuild #fyp",
       "description": "...",
       "source": "YouTube",
@@ -547,24 +565,6 @@
       "source": "YouTube",
       "timestamp": 1769276542.0,
       "url": "https://www.youtube.com/watch?v=H7wWuCEPIC8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "touring ALL of my builds in bloxburg (2025)",
-      "description": "JOIN ME ON ROBLOX: https://www.roblox.com/join/isaacfaulty \u2b50 \ud83d\udecd\ufe0f SHOP MY UGC: https://www.roblox.com/...",
-      "source": "YouTube",
-      "timestamp": 1769274023.0,
-      "url": "https://www.youtube.com/watch?v=XoIynX_jpY4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "POV: You finally got your Bloxburg High School diploma. #shorts #bloxburg",
-      "description": "A Bloxburg update during October in 2025 had came out. The new Bloxburg High School & their High Sch...",
-      "source": "YouTube",
-      "timestamp": 1769273943.0,
-      "url": "https://www.youtube.com/watch?v=61pQrgwphRM",
       "icon": "fa-youtube"
     },
     {
@@ -605,7 +605,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769284225.9024105,
+    "generated_at": 1769285425.8960736,
     "mode": "memory",
     "refresh_interval": 2000
   }
