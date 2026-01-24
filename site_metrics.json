@@ -551,11 +551,20 @@
   "news": [
     {
       "type": "trend",
-      "title": "comment what map on roblox you like #fypage #roblox #bloxburg #makingmoney #robloxgame",
+      "title": "lmao #dear #roblox #roblox #deer #bloxburg #bloxburg #dti #short #fyp #farm #game #roblox #funny",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1769257974.0,
-      "url": "https://www.youtube.com/watch?v=tjqzEz-a468",
+      "timestamp": 1769261688.0,
+      "url": "https://www.youtube.com/watch?v=4fIVaNnQfRY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "POV You&#39;re A KID ROLEPLAYING In BLOXBURG On ROBLOX Until #fyp #youtube \ud83d\ude10",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769259643.0,
+      "url": "https://www.youtube.com/watch?v=Oy2TvqNOySQ",
       "icon": "fa-youtube"
     },
     {
@@ -583,15 +592,6 @@
       "source": "YouTube",
       "timestamp": 1769254901.0,
       "url": "https://www.youtube.com/watch?v=yUxiqAFE4do",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "i forgot about these, me missing the old days!  #bloxburg #robloxbloxburg oxburg #roblox #fyp #viral",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769252117.0,
-      "url": "https://www.youtube.com/watch?v=th5gSuDrCDE",
       "icon": "fa-youtube"
     },
     {
@@ -632,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769261426.3479416,
+    "generated_at": 1769262625.9023645,
     "mode": "memory",
     "refresh_interval": 2000
   }
