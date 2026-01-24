@@ -578,11 +578,11 @@
   "news": [
     {
       "type": "trend",
-      "title": "#funny #roblox #robloxedit #bloxburg",
+      "title": "Idk. #roblox #bloxburg #viral #fyp",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1769227675.0,
-      "url": "https://www.youtube.com/watch?v=6QnCbsPYd5Q",
+      "timestamp": 1769224068.0,
+      "url": "https://www.youtube.com/watch?v=y-NoJhGJV70",
       "icon": "fa-youtube"
     },
     {
@@ -659,7 +659,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769234426.2610211,
+    "generated_at": 1769235025.8919678,
     "mode": "memory",
     "refresh_interval": 2000
   }
