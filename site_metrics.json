@@ -533,11 +533,29 @@
   "news": [
     {
       "type": "trend",
+      "title": "girlfriend boyfriend fights\ud83e\udd72 #roblox #america #robloxedit #bloxburg #fyp #minecraft #adinross #kai",
+      "description": "offensivememes #robloxian #royalehighroblox #lol #anime #memesdaily #bloxburghouse #gamer #rblx #fun...",
+      "source": "YouTube",
+      "timestamp": 1769289989.0,
+      "url": "https://www.youtube.com/watch?v=ZzbLd1ChfjY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bloxburg is addicting AGAIN #roblox #bloxburg #bloxburgbuild #relateable #fyp",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1769288429.0,
       "url": "https://www.youtube.com/watch?v=yztIN7PgMn8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Bloxburg hacks #roblox #2025 #robloxbloxburgspeedbuild #alternativemusic #bloxburgcontentcreator #2",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769288228.0,
+      "url": "https://www.youtube.com/watch?v=dWpyIx3Td3g",
       "icon": "fa-youtube"
     },
     {
@@ -556,24 +574,6 @@
       "source": "YouTube",
       "timestamp": 1769285357.0,
       "url": "https://www.youtube.com/watch?v=0CekhB4rziQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "damn #stranger #bloxburg #bloxburg #funny  #aivideo #roblox #redditstories #relatable #storytime",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769285213.0,
-      "url": "https://www.youtube.com/watch?v=_GojlLENjao",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "real. #aivideo #roblox #redditstories #relatable #storytime #stranger #funny #bloxburg #bloxburg #sk",
-      "description": "pls sub for related content :)...",
-      "source": "YouTube",
-      "timestamp": 1769284645.0,
-      "url": "https://www.youtube.com/watch?v=Rfg3zv6zmxQ",
       "icon": "fa-youtube"
     },
     {
@@ -614,7 +614,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769290225.8889925,
+    "generated_at": 1769291425.8907523,
     "mode": "memory",
     "refresh_interval": 2000
   }
