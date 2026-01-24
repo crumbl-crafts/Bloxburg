@@ -551,6 +551,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "it was me \ud83d\ude29 #roblox #bloxburg #bloxburgbuild #relateable #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769292161.0,
+      "url": "https://www.youtube.com/watch?v=Y4d0ZtSY3fM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Bloxburg - Budget Roleplay House Speedbuild (interior + full tour) | Roblox",
+      "description": "Today I made an Budget Roleplay House build suitable for 4 people to live in! Play BLOXBURG!...",
+      "source": "YouTube",
+      "timestamp": 1769292009.0,
+      "url": "https://www.youtube.com/watch?v=cY0mm7TFCn0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Visiting A Bloxburg Restaurant  #roblox #bloxburg",
       "description": "It was delicious #roblox #bloxburg #bloxburgroleplay #bloxburgbuilds #fyp....",
       "source": "YouTube",
@@ -574,24 +592,6 @@
       "source": "YouTube",
       "timestamp": 1769289989.0,
       "url": "https://www.youtube.com/watch?v=ZzbLd1ChfjY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg is addicting AGAIN #roblox #bloxburg #bloxburgbuild #relateable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769288429.0,
-      "url": "https://www.youtube.com/watch?v=yztIN7PgMn8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg hacks #roblox #2025 #robloxbloxburgspeedbuild #alternativemusic #bloxburgcontentcreator #2",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769288228.0,
-      "url": "https://www.youtube.com/watch?v=dWpyIx3Td3g",
       "icon": "fa-youtube"
     },
     {
@@ -632,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769293826.2239413,
+    "generated_at": 1769295025.8904545,
     "mode": "memory",
     "refresh_interval": 2000
   }
