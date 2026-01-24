@@ -578,11 +578,29 @@
   "news": [
     {
       "type": "trend",
+      "title": "3 bedroom 2 story house in Bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769225129.0,
+      "url": "https://www.youtube.com/watch?v=f_hJfq-rplo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#roblox #helpmemakethismakesense #december18 #lifeisbutadream #theothersideofmakebelieve #bloxburg",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1769221069.0,
       "url": "https://www.youtube.com/watch?v=j7tfUHMMh78",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "#roblox #robloxedit #robloxgames #storytime #newgameinroblox #amazingroblox #robloxfunny #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769218774.0,
+      "url": "https://www.youtube.com/watch?v=29LuhIOBbaA",
       "icon": "fa-youtube"
     },
     {
@@ -601,24 +619,6 @@
       "source": "YouTube",
       "timestamp": 1769213679.0,
       "url": "https://www.youtube.com/watch?v=4_azX4UzvQ8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "[UPD] Welcome to Bloxburg AUTO BUILD OP GUI | copy any house FAST - zekehub",
-      "description": "Get the script at: https://zekehub.com Join our Discord at: https://discord.gg/zekehub Quick Feature...",
-      "source": "YouTube",
-      "timestamp": 1769213309.0,
-      "url": "https://www.youtube.com/watch?v=DIxXZjVaUHI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "guys please help me\ud83d\ude2d #roblox #bloxburg #relatable",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769210927.0,
-      "url": "https://www.youtube.com/watch?v=46qdAYHjlg4",
       "icon": "fa-youtube"
     },
     {
@@ -659,7 +659,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769226625.889135,
+    "generated_at": 1769227825.8859818,
     "mode": "memory",
     "refresh_interval": 2000
   }
