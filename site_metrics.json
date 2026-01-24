@@ -533,6 +533,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "touring ALL of my builds in bloxburg (2025)",
+      "description": "JOIN ME ON ROBLOX: https://www.roblox.com/join/isaacfaulty \u2b50 \ud83d\udecd\ufe0f SHOP MY UGC: https://www.roblox.com/...",
+      "source": "YouTube",
+      "timestamp": 1769274023.0,
+      "url": "https://www.youtube.com/watch?v=XoIynX_jpY4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "40k Modern Traditional Bloxburg House Build: 2 Story Tutorial *VOICE*",
       "description": "hiii! today i show how to build a traditional house in bloxburg! a modern 2 story house build design...",
       "source": "YouTube",
@@ -565,15 +574,6 @@
       "source": "YouTube",
       "timestamp": 1769261688.0,
       "url": "https://www.youtube.com/watch?v=4fIVaNnQfRY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "POV You&#39;re A KID ROLEPLAYING In BLOXBURG On ROBLOX Until #fyp #youtube \ud83d\ude10",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769259643.0,
-      "url": "https://www.youtube.com/watch?v=Oy2TvqNOySQ",
       "icon": "fa-youtube"
     },
     {
@@ -614,7 +614,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769273425.896489,
+    "generated_at": 1769274625.8914647,
     "mode": "memory",
     "refresh_interval": 2000
   }
