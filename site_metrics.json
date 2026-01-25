@@ -578,6 +578,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "\uc774\ubaa8\ud2b8\ud649 \ub3c4\uc804\uae30 #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #\uc88b\uc544\uc694\ub313\uae00",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769326950.0,
+      "url": "https://www.youtube.com/watch?v=uIo1QTCyOSM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "99 Nights in the forest But with good Teammates!\ud83d\ude31",
       "description": "roblox #99nightintheforest #viral #robloxedit #robloxstory #robloxgames #bloxburg #memes #funny #rob...",
       "source": "YouTube",
@@ -610,15 +619,6 @@
       "source": "YouTube",
       "timestamp": 1769300318.0,
       "url": "https://www.youtube.com/watch?v=oPeiDF-Vvec",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "From months ago what should I post #roblox #helpmemakethismakesense #bloxburg #robloxchannel",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769297643.0,
-      "url": "https://www.youtube.com/watch?v=UqrJ7MAhueM",
       "icon": "fa-youtube"
     },
     {
@@ -659,7 +659,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769327425.8907502,
+    "generated_at": 1769328625.8879416,
     "mode": "memory",
     "refresh_interval": 2000
   }
