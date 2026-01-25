@@ -578,6 +578,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "Roblox Bloxburg Episode 181: Playing In The Snow On The Winter Storm (@jaeschannel1292 Version)",
+      "description": "This Year For The Winter Storm It's \u200e\u2068@jaeschannel1292\u2069 Instead Of @...",
+      "source": "YouTube",
+      "timestamp": 1769342406.0,
+      "url": "https://www.youtube.com/watch?v=JGb8b5gs5pA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Comment your name #roblox #comedyfilms #funny #comedymovies #memes #funnycomedy #bloxburg #robloxmem",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769340514.0,
+      "url": "https://www.youtube.com/watch?v=SIcxf8JmF_c",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#roblox #robloxstory #robloxedit #bloxburg #funny #relatable #haaha #robloxmemes #scarygame #memes .",
       "description": "...",
       "source": "YouTube",
@@ -601,24 +619,6 @@
       "source": "YouTube",
       "timestamp": 1769328412.0,
       "url": "https://www.youtube.com/watch?v=8xH3fbuyrvo",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\uc774\ubaa8\ud2b8\ud649 \ub3c4\uc804\uae30 #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #\uc88b\uc544\uc694\ub313\uae00",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769326950.0,
-      "url": "https://www.youtube.com/watch?v=uIo1QTCyOSM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "99 Nights in the forest But with good Teammates!\ud83d\ude31",
-      "description": "roblox #99nightintheforest #viral #robloxedit #robloxstory #robloxgames #bloxburg #memes #funny #rob...",
-      "source": "YouTube",
-      "timestamp": 1769320758.0,
-      "url": "https://www.youtube.com/watch?v=Ynd38PQqHy0",
       "icon": "fa-youtube"
     },
     {
@@ -659,7 +659,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769342426.2040622,
+    "generated_at": 1769343025.889297,
     "mode": "memory",
     "refresh_interval": 2000
   }
