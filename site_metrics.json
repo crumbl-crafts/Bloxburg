@@ -560,6 +560,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "99 Nights in the forest But with good Teammates!\ud83d\ude31",
+      "description": "roblox #99nightintheforest #viral #robloxedit #robloxstory #robloxgames #bloxburg #memes #funny #rob...",
+      "source": "YouTube",
+      "timestamp": 1769320758.0,
+      "url": "https://www.youtube.com/watch?v=Ynd38PQqHy0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "using the NEW BLOXBURG IKEA ITEMS to DECORATE A PREBUILT HOUSE..",
       "description": "today I make more use of the new ikea furniture items by decorating a prebuilt home with them! I'm d...",
       "source": "YouTube",
@@ -574,15 +583,6 @@
       "source": "YouTube",
       "timestamp": 1769306460.0,
       "url": "https://www.youtube.com/watch?v=merkIXJFkEQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "POV Your BLOXBURG House Is On Fire",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769303331.0,
-      "url": "https://www.youtube.com/watch?v=yu6AaSJVnmY",
       "icon": "fa-youtube"
     },
     {
@@ -641,7 +641,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769320826.20031,
+    "generated_at": 1769321425.8901286,
     "mode": "memory",
     "refresh_interval": 2000
   }
