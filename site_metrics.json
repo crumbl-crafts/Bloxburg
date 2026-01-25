@@ -586,44 +586,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "as usual \u2764\ufe0f\ud83d\ude2d #roblox #bloxburg #bloxburgbuild #relatable #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769374136.0,
+      "url": "https://www.youtube.com/watch?v=6Ipu1oKROEw",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "Bloxburg is making my walls glitch in build mode \ud83d\ude14 #bloxburg #viral #skincare #fyp",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769373222.0,
+      "url": "https://www.youtube.com/watch?v=QRw_TrQpYVw",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "bonapetit~(MINE VIDEO!)\\\\ #bloxburg #bloxburg #voiceeffects #ihavethisthingwithplants #preppy",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769373008.0,
+      "url": "https://www.youtube.com/watch?v=KFcNc_3cxhU",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "NEW VIDEO!! #bloxburg #calicocritters  #roblox #robloxbloxburgspeedbuild",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769372014.0,
+      "url": "https://www.youtube.com/watch?v=XC2G14X3dow",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "#edit #bedwars #games #bloxburg #minecraft",
+      "description": "subscribe for chance to win some of my steals!...",
+      "source": "YouTube",
+      "timestamp": 1769366516.0,
+      "url": "https://www.youtube.com/watch?v=LM0-OSDtyXQ",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769383792.7089255,
+    "generated_at": 1769384992.7129798,
     "mode": "memory",
     "refresh_interval": 2000
   }
