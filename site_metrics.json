@@ -578,20 +578,20 @@
   "news": [
     {
       "type": "trend",
+      "title": "Ways to make more money in bloxburg #Bloxburg #Roblox #Tips",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769345078.0,
+      "url": "https://www.youtube.com/watch?v=lyZj-6Cn46w",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Roblox Bloxburg Episode 181: Playing In The Snow On The Winter Storm (@jaeschannel1292 Version)",
       "description": "This Year For The Winter Storm It's \u200e\u2068@jaeschannel1292\u2069 Instead Of @...",
       "source": "YouTube",
       "timestamp": 1769342406.0,
       "url": "https://www.youtube.com/watch?v=JGb8b5gs5pA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Comment your name #roblox #comedyfilms #funny #comedymovies #memes #funnycomedy #bloxburg #robloxmem",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769340514.0,
-      "url": "https://www.youtube.com/watch?v=SIcxf8JmF_c",
       "icon": "fa-youtube"
     },
     {
@@ -659,7 +659,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769345425.9168997,
+    "generated_at": 1769346625.8970602,
     "mode": "memory",
     "refresh_interval": 2000
   }
