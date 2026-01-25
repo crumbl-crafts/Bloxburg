@@ -578,6 +578,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #robloxstory #robloxedit #bloxburg #funny #relatable #haaha #robloxmemes #scarygame #memes .",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769330152.0,
+      "url": "https://www.youtube.com/watch?v=vv4x2FhNl8U",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "I KNOW YOU ALL LOVE THIS TREND IN ROBLOX #roblox #roblox #brookhave #robloxfunny #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -610,15 +619,6 @@
       "source": "YouTube",
       "timestamp": 1769320758.0,
       "url": "https://www.youtube.com/watch?v=Ynd38PQqHy0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "BIBI SENANG SEKALI SEPEDA KESAYANGAN BIBI AKHIRNYA KETEMU YEYYY !!!  || BLOXBURG\ud83c\udfe1ROBLOX INDONESIA",
-      "description": "ALHAMDULILAH AKHILNYA SEPEDA BIBI KETEMU UN Roblox : BibiCantik01 Tiktok : @bibicantikk01 #roblox .....",
-      "source": "YouTube",
-      "timestamp": 1769306460.0,
-      "url": "https://www.youtube.com/watch?v=merkIXJFkEQ",
       "icon": "fa-youtube"
     },
     {
@@ -659,7 +659,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769338670.0070584,
+    "generated_at": 1769339425.8919501,
     "mode": "memory",
     "refresh_interval": 2000
   }
