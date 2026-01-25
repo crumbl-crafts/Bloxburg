@@ -569,15 +569,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "#roblox #robloxstory #robloxedit #bloxburg #funny #relatable #haaha #robloxmemes #scarygame #memes .",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769330152.0,
-      "url": "https://www.youtube.com/watch?v=vv4x2FhNl8U",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "I KNOW YOU ALL LOVE THIS TREND IN ROBLOX #roblox #roblox #brookhave #robloxfunny #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -610,6 +601,15 @@
       "source": "YouTube",
       "timestamp": 1769306460.0,
       "url": "https://www.youtube.com/watch?v=merkIXJFkEQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "this is embarrassing #Shorts #bloxburg #roblox #robloxbloxburg #gaming #thisisembarrassing",
+      "description": "Other people's first Bloxburg houses vs mine\u2026 and yes, mine is a BOX How did everyone else's houses ...",
+      "source": "YouTube",
+      "timestamp": 1769305651.0,
+      "url": "https://www.youtube.com/watch?v=XxK95x52pw8",
       "icon": "fa-youtube"
     },
     {
@@ -650,7 +650,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769333425.8952348,
+    "generated_at": 1769334625.9111404,
     "mode": "memory",
     "refresh_interval": 2000
   }
