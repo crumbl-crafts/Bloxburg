@@ -595,6 +595,15 @@
   ],
   "news": [
     {
+      "type": "trend",
+      "title": "bloxburg apartments\u2026 #roblox #dti #bloxburg #bloxburgbuild",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769359168.0,
+      "url": "https://www.youtube.com/watch?v=_A9Y-4VZtVc",
+      "icon": "fa-youtube"
+    },
+    {
       "type": "game_update",
       "title": "New Winter Update Available!",
       "description": "Explore new winter-themed furniture and decorations",
@@ -677,7 +686,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769359792.714016,
+    "generated_at": 1769360393.4543643,
     "mode": "memory",
     "refresh_interval": 2000
   }
