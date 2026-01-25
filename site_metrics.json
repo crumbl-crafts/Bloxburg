@@ -551,11 +551,11 @@
   "news": [
     {
       "type": "trend",
-      "title": "MAMI &amp; BIBI PANIK KARNA PAPI MUKULIN MALING KENDARAAN KITA | BLOXBURG RP",
-      "description": "Terimakasiih adik-adik udah nonton video ini sampai akhirr, lup yu all -----------   -Tags  - #roblo...",
+      "title": "using the NEW BLOXBURG IKEA ITEMS to DECORATE A PREBUILT HOUSE..",
+      "description": "today I make more use of the new ikea furniture items by decorating a prebuilt home with them! I'm d...",
       "source": "YouTube",
-      "timestamp": 1769307636.0,
-      "url": "https://www.youtube.com/watch?v=Kc8fNKIZiPg",
+      "timestamp": 1769307218.0,
+      "url": "https://www.youtube.com/watch?v=9-7sidTghWg",
       "icon": "fa-youtube"
     },
     {
@@ -595,53 +595,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "my little ponyyy #roblox #bloxburg #bloxburgbuild #relateable #fyp ib: @Loopy \u27b0",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769296405.0,
-      "url": "https://www.youtube.com/watch?v=dZSvdmvRLvg",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "it was me \ud83d\ude29 #roblox #bloxburg #bloxburgbuild #relateable #fyp",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769292161.0,
-      "url": "https://www.youtube.com/watch?v=Y4d0ZtSY3fM",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "Bloxburg - Budget Roleplay House Speedbuild (interior + full tour) | Roblox",
-      "description": "Today I made an Budget Roleplay House build suitable for 4 people to live in! Play BLOXBURG!...",
-      "source": "YouTube",
-      "timestamp": 1769292009.0,
-      "url": "https://www.youtube.com/watch?v=cY0mm7TFCn0",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "Visiting A Bloxburg Restaurant  #roblox #bloxburg",
-      "description": "It was delicious #roblox #bloxburg #bloxburgroleplay #bloxburgbuilds #fyp....",
-      "source": "YouTube",
-      "timestamp": 1769290937.0,
-      "url": "https://www.youtube.com/watch?v=NX-kykqEMjE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Judging Bloxburg Houses #bloxburg #roblox",
-      "description": "Which one do you think I built?     #bloxburg #roblox #bloxburgbuilds #bloxburghomes #fyp....",
-      "source": "YouTube",
-      "timestamp": 1769290925.0,
-      "url": "https://www.youtube.com/watch?v=O4HKMFyv8iA",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769316625.891742,
+    "generated_at": 1769317825.889742,
     "mode": "memory",
     "refresh_interval": 2000
   }
