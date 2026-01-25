@@ -491,15 +491,6 @@
       "thread_id": 1457057884968845373,
       "server_id": 1301988304279048275,
       "url": "https://discord.com/channels/1301988304279048275/1457057884968845373"
-    },
-    {
-      "type": "sent",
-      "shop_name": "ULuvOllie's Shop",
-      "message": "Request sent by offical_andr3wl",
-      "timestamp": 1768701557,
-      "thread_id": 1457057884968845373,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/channels/1301988304279048275/1457057884968845373"
     }
   ],
   "pipeline": [
@@ -517,7 +508,7 @@
     },
     {
       "label": "Requests (7d)",
-      "value": 2,
+      "value": 1,
       "trend": "4 accepted \u00b7 5 rejected",
       "max": 100
     }
@@ -549,6 +540,15 @@
     }
   ],
   "news": [
+    {
+      "type": "trend",
+      "title": "BIBI SENANG SEKALI SEPEDA KESAYANGAN BIBI AKHIRNYA KETEMU YEYYY !!!  || BLOXBURG\ud83c\udfe1ROBLOX INDONESIA",
+      "description": "ALHAMDULILAH AKHILNYA SEPEDA BIBI KETEMU UN Roblox : BibiCantik01 Tiktok : @bibicantikk01 #roblox .....",
+      "source": "YouTube",
+      "timestamp": 1769306460.0,
+      "url": "https://www.youtube.com/watch?v=merkIXJFkEQ",
+      "icon": "fa-youtube"
+    },
     {
       "type": "trend",
       "title": "POV Your BLOXBURG House Is On Fire",
@@ -583,15 +583,6 @@
       "source": "YouTube",
       "timestamp": 1769292161.0,
       "url": "https://www.youtube.com/watch?v=Y4d0ZtSY3fM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg - Budget Roleplay House Speedbuild (interior + full tour) | Roblox",
-      "description": "Today I made an Budget Roleplay House build suitable for 4 people to live in! Play BLOXBURG!...",
-      "source": "YouTube",
-      "timestamp": 1769292009.0,
-      "url": "https://www.youtube.com/watch?v=cY0mm7TFCn0",
       "icon": "fa-youtube"
     },
     {
@@ -632,7 +623,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769305825.8910775,
+    "generated_at": 1769307025.8897066,
     "mode": "memory",
     "refresh_interval": 2000
   }
