@@ -569,15 +569,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "#roblox #robloxstory #robloxedit #bloxburg #funny #relatable #haaha #robloxmemes #scarygame #memes .",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769330152.0,
-      "url": "https://www.youtube.com/watch?v=vv4x2FhNl8U",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "I KNOW YOU ALL LOVE THIS TREND IN ROBLOX #roblox #roblox #brookhave #robloxfunny #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -592,6 +583,15 @@
       "source": "YouTube",
       "timestamp": 1769328412.0,
       "url": "https://www.youtube.com/watch?v=8xH3fbuyrvo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "\uc774\ubaa8\ud2b8\ud649 \ub3c4\uc804\uae30 #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #\uc88b\uc544\uc694\ub313\uae00",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769326950.0,
+      "url": "https://www.youtube.com/watch?v=uIo1QTCyOSM",
       "icon": "fa-youtube"
     },
     {
@@ -613,53 +613,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "this is embarrassing #Shorts #bloxburg #roblox #robloxbloxburg #gaming #thisisembarrassing",
-      "description": "Other people's first Bloxburg houses vs mine\u2026 and yes, mine is a BOX How did everyone else's houses ...",
-      "source": "YouTube",
-      "timestamp": 1769305651.0,
-      "url": "https://www.youtube.com/watch?v=XxK95x52pw8",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "I love BOTH #roblox #bloxburg #bloxburgbuild #relateable #fyp",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769300318.0,
-      "url": "https://www.youtube.com/watch?v=oPeiDF-Vvec",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "From months ago what should I post #roblox #helpmemakethismakesense #bloxburg #robloxchannel",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769297643.0,
-      "url": "https://www.youtube.com/watch?v=UqrJ7MAhueM",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "my little ponyyy #roblox #bloxburg #bloxburgbuild #relateable #fyp ib: @Loopy \u27b0",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769296405.0,
-      "url": "https://www.youtube.com/watch?v=dZSvdmvRLvg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "it was me \ud83d\ude29 #roblox #bloxburg #bloxburgbuild #relateable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769292161.0,
-      "url": "https://www.youtube.com/watch?v=Y4d0ZtSY3fM",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769337026.32125,
+    "generated_at": 1769338225.888759,
     "mode": "memory",
     "refresh_interval": 2000
   }
