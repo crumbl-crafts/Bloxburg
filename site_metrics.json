@@ -569,6 +569,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #robloxstory #robloxedit #bloxburg #funny #relatable #haaha #robloxmemes #scarygame #memes .",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769330152.0,
+      "url": "https://www.youtube.com/watch?v=vv4x2FhNl8U",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "I KNOW YOU ALL LOVE THIS TREND IN ROBLOX #roblox #roblox #brookhave #robloxfunny #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -613,44 +622,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1767691818.2690697,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "I love BOTH #roblox #bloxburg #bloxburgbuild #relateable #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769300318.0,
+      "url": "https://www.youtube.com/watch?v=oPeiDF-Vvec",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "From months ago what should I post #roblox #helpmemakethismakesense #bloxburg #robloxchannel",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1767688218.269072,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769297643.0,
+      "url": "https://www.youtube.com/watch?v=UqrJ7MAhueM",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1767684618.2690725,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "my little ponyyy #roblox #bloxburg #bloxburgbuild #relateable #fyp ib: @Loopy \u27b0",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769296405.0,
+      "url": "https://www.youtube.com/watch?v=dZSvdmvRLvg",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1767681018.2690735,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "it was me \ud83d\ude29 #roblox #bloxburg #bloxburgbuild #relateable #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769292161.0,
+      "url": "https://www.youtube.com/watch?v=Y4d0ZtSY3fM",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769334625.9111404,
+    "generated_at": 1769335825.9075751,
     "mode": "memory",
     "refresh_interval": 2000
   }
