@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 358,
+    "total_members": 357,
     "joined_today": 1,
     "active_shops": 2,
     "avg_response_time": 2915.3333333333335
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "deronplayzz left the server",
+      "timestamp": 1769315873,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/230495923858309121"
+    },
     {
       "type": "member_leave",
       "shop_name": "Server",
@@ -632,7 +641,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769315426.172017,
+    "generated_at": 1769315876.4276588,
     "mode": "memory",
     "refresh_interval": 2000
   }
