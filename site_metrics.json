@@ -542,11 +542,29 @@
   "news": [
     {
       "type": "trend",
+      "title": "MAMI &amp; BIBI PANIK KARNA PAPI MUKULIN MALING KENDARAAN KITA | BLOXBURG RP",
+      "description": "Terimakasiih adik-adik udah nonton video ini sampai akhirr, lup yu all -----------   -Tags  - #roblo...",
+      "source": "YouTube",
+      "timestamp": 1769307636.0,
+      "url": "https://www.youtube.com/watch?v=Kc8fNKIZiPg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "BIBI SENANG SEKALI SEPEDA KESAYANGAN BIBI AKHIRNYA KETEMU YEYYY !!!  || BLOXBURG\ud83c\udfe1ROBLOX INDONESIA",
       "description": "ALHAMDULILAH AKHILNYA SEPEDA BIBI KETEMU UN Roblox : BibiCantik01 Tiktok : @bibicantikk01 #roblox .....",
       "source": "YouTube",
       "timestamp": 1769306460.0,
       "url": "https://www.youtube.com/watch?v=merkIXJFkEQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "this is embarrassing #Shorts #bloxburg #roblox #robloxbloxburg #gaming #thisisembarrassing",
+      "description": "Other people's first Bloxburg houses vs mine\u2026 and yes, mine is a BOX How did everyone else's houses ...",
+      "source": "YouTube",
+      "timestamp": 1769305651.0,
+      "url": "https://www.youtube.com/watch?v=XxK95x52pw8",
       "icon": "fa-youtube"
     },
     {
@@ -565,24 +583,6 @@
       "source": "YouTube",
       "timestamp": 1769297643.0,
       "url": "https://www.youtube.com/watch?v=UqrJ7MAhueM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "my little ponyyy #roblox #bloxburg #bloxburgbuild #relateable #fyp ib: @Loopy \u27b0",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769296405.0,
-      "url": "https://www.youtube.com/watch?v=dZSvdmvRLvg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "it was me \ud83d\ude29 #roblox #bloxburg #bloxburgbuild #relateable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769292161.0,
-      "url": "https://www.youtube.com/watch?v=Y4d0ZtSY3fM",
       "icon": "fa-youtube"
     },
     {
@@ -623,7 +623,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769308631.8086863,
+    "generated_at": 1769309425.8926659,
     "mode": "memory",
     "refresh_interval": 2000
   }
