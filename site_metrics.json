@@ -542,6 +542,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "bonapetit~(MINE VIDEO!)\\\\ #bloxburg #bloxburg #voiceeffects #ihavethisthingwithplants #preppy",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769373008.0,
+      "url": "https://www.youtube.com/watch?v=KFcNc_3cxhU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "NEW VIDEO!! #bloxburg #calicocritters  #roblox #robloxbloxburgspeedbuild",
       "description": "...",
       "source": "YouTube",
@@ -574,15 +583,6 @@
       "source": "YouTube",
       "timestamp": 1769359168.0,
       "url": "https://www.youtube.com/watch?v=_A9Y-4VZtVc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg: Realistic Mansion Modern House | House Build | Roblox",
-      "description": "Hewoo!! Join my Group: https://www.roblox.com/groups/8693713... Tiktok: https://www.tiktok.com/@just...",
-      "source": "YouTube",
-      "timestamp": 1769358940.0,
-      "url": "https://www.youtube.com/watch?v=PkYwvf5YshY",
       "icon": "fa-youtube"
     },
     {
@@ -623,7 +623,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769374192.710101,
+    "generated_at": 1769375392.7084758,
     "mode": "memory",
     "refresh_interval": 2000
   }
