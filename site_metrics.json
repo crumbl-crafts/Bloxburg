@@ -578,6 +578,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Holiday Bloxburg Kitchen Idea! #shorts #bloxburg",
+      "description": "A holiday Bloxburg Kitchen Idea! #bloxburg #bloxburgbuild #welcometobloxburg....",
+      "source": "YouTube",
+      "timestamp": 1769348642.0,
+      "url": "https://www.youtube.com/watch?v=WBBu2m8QlGI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Ways to make more money in bloxburg #Bloxburg #Roblox #Tips",
       "description": "...",
       "source": "YouTube",
@@ -613,62 +622,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "youtubeee #roblox #brookhaven #funny #love #newaccount #bloxburg #robloxedit #fyp #kpop",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769328412.0,
-      "url": "https://www.youtube.com/watch?v=8xH3fbuyrvo",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1767691818.2690697,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "\uc774\ubaa8\ud2b8\ud649 \ub3c4\uc804\uae30 #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #\uc88b\uc544\uc694\ub313\uae00",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769326950.0,
-      "url": "https://www.youtube.com/watch?v=uIo1QTCyOSM",
-      "icon": "fa-youtube"
+      "timestamp": 1767688218.269072,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "99 Nights in the forest But with good Teammates!\ud83d\ude31",
-      "description": "roblox #99nightintheforest #viral #robloxedit #robloxstory #robloxgames #bloxburg #memes #funny #rob...",
-      "source": "YouTube",
-      "timestamp": 1769320758.0,
-      "url": "https://www.youtube.com/watch?v=Ynd38PQqHy0",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1767684618.2690725,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "99\uc774\ubca4\ud2b8 \ud558\uae30 #automobile #bloxburg #\ub85c\ube14\ub85d\uc2a4  #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769316247.0,
-      "url": "https://www.youtube.com/watch?v=vR7Y5CJkDbM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Baby Names I Liked But Will Not Be Using!! \ud83d\ude2d\ud83d\udc40 #bloxburg #bloxburgfamily #roblox #shorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769307361.0,
-      "url": "https://www.youtube.com/watch?v=lPVOaNlG3mw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "BIBI SENANG SEKALI SEPEDA KESAYANGAN BIBI AKHIRNYA KETEMU YEYYY !!!  || BLOXBURG\ud83c\udfe1ROBLOX INDONESIA",
-      "description": "ALHAMDULILAH AKHILNYA SEPEDA BIBI KETEMU UN Roblox : BibiCantik01 Tiktok : @bibicantikk01 #roblox .....",
-      "source": "YouTube",
-      "timestamp": 1769306460.0,
-      "url": "https://www.youtube.com/watch?v=merkIXJFkEQ",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1767681018.2690735,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769349025.8979359,
+    "generated_at": 1769350225.8968081,
     "mode": "memory",
     "refresh_interval": 2000
   }
