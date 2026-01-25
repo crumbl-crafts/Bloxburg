@@ -542,47 +542,47 @@
   "news": [
     {
       "type": "trend",
+      "title": "Finally saved enough for the heritage house in bloxburg #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769375923.0,
+      "url": "https://www.youtube.com/watch?v=FUxnO6mS7KU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "\ud83e\ude77\ud83d\udcf1 #roblox #fyp room in my #bloxburg house",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769375168.0,
+      "url": "https://www.youtube.com/watch?v=jpJ_uZTgzJ8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "VISITING MAX\u2019S NEW DAYCARE! *HE BITES SOMEONE?* Roblox Bloxburg Family Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1769374806.0,
+      "url": "https://www.youtube.com/watch?v=2JYl9lsHXt8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "as usual \u2764\ufe0f\ud83d\ude2d #roblox #bloxburg #bloxburgbuild #relatable #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769374136.0,
+      "url": "https://www.youtube.com/watch?v=6Ipu1oKROEw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "bonapetit~(MINE VIDEO!)\\\\ #bloxburg #bloxburg #voiceeffects #ihavethisthingwithplants #preppy",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1769373008.0,
       "url": "https://www.youtube.com/watch?v=KFcNc_3cxhU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "NEW VIDEO!! #bloxburg #calicocritters  #roblox #robloxbloxburgspeedbuild",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769372014.0,
-      "url": "https://www.youtube.com/watch?v=XC2G14X3dow",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#edit #bedwars #games #bloxburg #minecraft",
-      "description": "subscribe for chance to win some of my steals!...",
-      "source": "YouTube",
-      "timestamp": 1769366516.0,
-      "url": "https://www.youtube.com/watch?v=LM0-OSDtyXQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "nursery decal codes for bloxburg &amp; berry avenue \ud83c\udf7c #roblox #decalid #bloxburg #berryavenueroleplay",
-      "description": "in my flop era - - - - DISCLAIMER \u22c6\ua673\u2022\u0329\u0329\u0359\u2745*\u0329\u0329\u0359\u2027\u0359 \u2027\u0359*\u0329\u0329\u0359\u2746 \u0359\u035b \u02da\u208a\u22c6 - If you plan on reposting my video, ...",
-      "source": "YouTube",
-      "timestamp": 1769361392.0,
-      "url": "https://www.youtube.com/watch?v=uANP6PL90t8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "bloxburg apartments\u2026 #roblox #dti #bloxburg #bloxburgbuild",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769359168.0,
-      "url": "https://www.youtube.com/watch?v=_A9Y-4VZtVc",
       "icon": "fa-youtube"
     },
     {
@@ -623,7 +623,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769376593.148587,
+    "generated_at": 1769377792.7133887,
     "mode": "memory",
     "refresh_interval": 2000
   }
