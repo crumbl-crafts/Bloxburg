@@ -569,6 +569,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "bloxburg news guy reborn #roblox #shorts #blooddebt",
+      "description": "most american thing to upload ever....",
+      "source": "YouTube",
+      "timestamp": 1769364283.0,
+      "url": "https://www.youtube.com/watch?v=LaLKkPGMcHs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "bloxburg apartments\u2026 #roblox #dti #bloxburg #bloxburgbuild",
       "description": "...",
       "source": "YouTube",
@@ -614,30 +623,12 @@
     },
     {
       "type": "trend",
-      "title": "Holiday Bloxburg Kitchen Idea! #shorts #bloxburg",
-      "description": "A holiday Bloxburg Kitchen Idea! #bloxburg #bloxburgbuild #welcometobloxburg....",
-      "source": "YouTube",
-      "timestamp": 1769348642.0,
-      "url": "https://www.youtube.com/watch?v=WBBu2m8QlGI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Modern Mansion Builds Trending",
       "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
       "timestamp": 1769347786.459936,
       "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
       "icon": "fa-fire"
-    },
-    {
-      "type": "trend",
-      "title": "Ways to make more money in bloxburg #Bloxburg #Roblox #Tips",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769345078.0,
-      "url": "https://www.youtube.com/watch?v=lyZj-6Cn46w",
-      "icon": "fa-youtube"
     },
     {
       "type": "tip",
@@ -659,7 +650,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769364592.811063,
+    "generated_at": 1769365793.3133671,
     "mode": "memory",
     "refresh_interval": 2000
   }
