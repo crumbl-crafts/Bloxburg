@@ -542,6 +542,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "\uc774\ub7f0 \uc370 \ud558\ub098 \ub354 \uc787\uc5b4\uc694 .. #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #\uc88b\uc544\uc694\ub313\uae00",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769402651.0,
+      "url": "https://www.youtube.com/watch?v=NQZw1g_Ueug",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#Bloxburg #bloxburg #building meu quarto \u2764\ufe0f\ud83d\udd25",
       "description": "...",
       "source": "YouTube",
@@ -577,62 +586,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "tsunami brainrot #roblox #tsunamibrainrot #strangerthings #elevenhopper #bloxburg #funny #fortnite",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769383663.0,
-      "url": "https://www.youtube.com/watch?v=07dP2M6MQSg",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "#lifeisbutadream #plsdonate #ihavethisthingwithplants #bloxburg #haveitoldyoulatelythatiloveyou #fy",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769379969.0,
-      "url": "https://www.youtube.com/watch?v=bUJDY_ecFnI",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "I lost track of time\u2026 #roblox #bloxburg #bloxburgbuild #relateable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769379762.0,
-      "url": "https://www.youtube.com/watch?v=ecdQhFRcQMY",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "Roblox Bloxburg Episode 182: Nelson Goes To Jae&#39;s House To Play In The Snow (Instead Of His House)",
-      "description": "Jae Is Inviting Nelson Over To Play In The Snow Instead Of His House....",
-      "source": "YouTube",
-      "timestamp": 1769379362.0,
-      "url": "https://www.youtube.com/watch?v=kLkAwgOOMdg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Finally saved enough for the heritage house in bloxburg #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769375923.0,
-      "url": "https://www.youtube.com/watch?v=FUxnO6mS7KU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ud83e\ude77\ud83d\udcf1 #roblox #fyp room in my #bloxburg house",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769375168.0,
-      "url": "https://www.youtube.com/watch?v=jpJ_uZTgzJ8",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769405392.7040699,
+    "generated_at": 1769406592.7077954,
     "mode": "memory",
     "refresh_interval": 2000
   }
