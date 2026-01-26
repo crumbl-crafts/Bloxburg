@@ -542,6 +542,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "making YouTube videos takes time#Sad #bloxburg #roblox #bloxburgbuild #dothingsyoudontwanttodo",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769404917.0,
+      "url": "https://www.youtube.com/watch?v=anR9UhD0bjM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\uc774\ub7f0 \uc370 \ud558\ub098 \ub354 \uc787\uc5b4\uc694 .. #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #\uc88b\uc544\uc694\ub313\uae00",
       "description": "...",
       "source": "YouTube",
@@ -574,15 +583,6 @@
       "source": "YouTube",
       "timestamp": 1769392825.0,
       "url": "https://www.youtube.com/watch?v=6xgtntas0mM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#roblox #mhacommunity #mhaedit #robloxedit #robloxshorts #memes #bloxburg #krish",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769385648.0,
-      "url": "https://www.youtube.com/watch?v=qhj3S8EdZwU",
       "icon": "fa-youtube"
     },
     {
@@ -623,7 +623,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769406592.7077954,
+    "generated_at": 1769407792.7076306,
     "mode": "memory",
     "refresh_interval": 2000
   }
