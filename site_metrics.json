@@ -560,11 +560,29 @@
   "news": [
     {
       "type": "trend",
+      "title": "CHEAP 2 Story Bloxburg House LAYOUT For Roleplays! #roblox #bloxburg #shorts #robloxbloxburg",
+      "description": "traditional bloxburg house layout for family roleplays in roblox! \u2713the build tutorial is linked abov...",
+      "source": "YouTube",
+      "timestamp": 1769392825.0,
+      "url": "https://www.youtube.com/watch?v=6xgtntas0mM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "for the realism\ud83d\ude29 #roblox #bloxburg #bloxburgbuild #relateable #fyp",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1769389888.0,
       "url": "https://www.youtube.com/watch?v=oT_AUNLCHzA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "#roblox #mhacommunity #mhaedit #robloxedit #robloxshorts #memes #bloxburg #krish",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769385648.0,
+      "url": "https://www.youtube.com/watch?v=qhj3S8EdZwU",
       "icon": "fa-youtube"
     },
     {
@@ -583,24 +601,6 @@
       "source": "YouTube",
       "timestamp": 1769381888.0,
       "url": "https://www.youtube.com/watch?v=Hs1sZ70Xb5E",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#lifeisbutadream #plsdonate #ihavethisthingwithplants #bloxburg #haveitoldyoulatelythatiloveyou #fy",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769379969.0,
-      "url": "https://www.youtube.com/watch?v=bUJDY_ecFnI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I lost track of time\u2026 #roblox #bloxburg #bloxburgbuild #relateable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769379762.0,
-      "url": "https://www.youtube.com/watch?v=ecdQhFRcQMY",
       "icon": "fa-youtube"
     },
     {
@@ -641,7 +641,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769394592.7113698,
+    "generated_at": 1769395792.710317,
     "mode": "memory",
     "refresh_interval": 2000
   }
