@@ -473,15 +473,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/975961954076209152",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": ".heartsz4mel left the server",
-      "timestamp": 1768854710,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1114785522297094247",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -533,6 +524,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "Grinch Cupcakes Bloxburg Build Hack! #shorts #bloxburg",
+      "description": "A Bloxburg building hack tutorial on how to make these custom Grinch cupcakes in Bloxburg. #bloxburg...",
+      "source": "YouTube",
+      "timestamp": 1769458207.0,
+      "url": "https://www.youtube.com/watch?v=-vzauMC0xrI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Go check out my video \u201cMoving out pt1\u201d#bloxburg#playing#gaming#fyp#likes#subscribe#newvideo#",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769457645.0,
+      "url": "https://www.youtube.com/watch?v=woB6qdjhvuE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Building an Art Studio in my Japanese Themed Bloxburg Town! |Roblox Speedbuild|",
       "description": "roblox #robloxbloxburgspeedbuild #bloxburg #speedbuild....",
       "source": "YouTube",
@@ -559,71 +568,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "#roblox #bloxburg #robloxgames #robloxstory #robloxedit #butifyoucloseyoureyes #funny #minecraft",
-      "description": "DID YOU SURVIVE? #shortvideos #roblox #bloxburg #robloxgames #robloxstory #robloxedit #butifyouclose...",
-      "source": "YouTube",
-      "timestamp": 1769444197.0,
-      "url": "https://www.youtube.com/watch?v=ToiMqfLbQzY",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "#bloxburg #roblox #bloxburgbuilds",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769438659.0,
-      "url": "https://www.youtube.com/watch?v=ooSuO-yGvDA",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "gostaram?? comentem a\u00ed demorou para fazer \ud83d\ude22 #roblox #make #preppyoreo #skincare #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769438413.0,
-      "url": "https://www.youtube.com/watch?v=xPhiExrXtqI",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "Berry Avenue 2 Mom Outfit Codes || Bloxburg Brookhaven Berry Avenue #shorts #berryavenueoutfits",
-      "description": "\ua540 thank you for watching this video! \u02da these outfits work for brookhaven, berry avenue, and bloxburg...",
-      "source": "YouTube",
-      "timestamp": 1769437304.0,
-      "url": "https://www.youtube.com/watch?v=VS96GT1gxA4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Roblox&#39;s Fading Worlds The Decline of Bloxburg #shorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769435924.0,
-      "url": "https://www.youtube.com/watch?v=SdNIQpdOmqo",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Casa moderna com 1 quarto e 2 banheiro #bloxburg #casasmodernas #roblox #fyp\u30b7",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769435329.0,
-      "url": "https://www.youtube.com/watch?v=PTzo8JiwBH0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#roblox #bloxburg #preppy #butifyoucloseyoureyes #robloxedit",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769432950.0,
-      "url": "https://www.youtube.com/watch?v=bXmURn5-Yfg",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769459392.7075434,
+    "generated_at": 1769460592.710605,
     "mode": "memory",
     "refresh_interval": 2000
   }
