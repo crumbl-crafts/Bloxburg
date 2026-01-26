@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 361,
+    "total_members": 360,
     "joined_today": 2,
     "active_shops": 2,
     "avg_response_time": 2915.3333333333335
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "tawfiqx998 left the server",
+      "timestamp": 1769448997,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1016925816120152095"
+    },
     {
       "type": "member_join",
       "shop_name": "Server",
@@ -551,15 +560,6 @@
     },
     {
       "type": "trend",
-      "title": "HAVE YOU WATCHED OUR NEWEST VIDEO??? #blowup #roblox #shortsviral #bloxburg #4urpage #robloxedit",
-      "description": "adoptme #aftereffects #ae #blowup #bobettesisters #bobette #bob #blowup #blowupthisacc #bloxburg #bl...",
-      "source": "YouTube",
-      "timestamp": 1769440159.0,
-      "url": "https://www.youtube.com/watch?v=dTR8joegz74",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Berry Avenue 2 Mom Outfit Codes || Bloxburg Brookhaven Berry Avenue #shorts #berryavenueoutfits",
       "description": "\ua540 thank you for watching this video! \u02da these outfits work for brookhaven, berry avenue, and bloxburg...",
       "source": "YouTube",
@@ -595,44 +595,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "#roblox #bloxburg #preppy #butifyoucloseyoureyes #robloxedit",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769432950.0,
-      "url": "https://www.youtube.com/watch?v=bXmURn5-Yfg",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "#roblox #robloxshorts #robloxedit #bloxburg",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769432365.0,
-      "url": "https://www.youtube.com/watch?v=_dE1EdLs750",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "How BLOXBURG MOMS Treat Their 1st Child VS......",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769428107.0,
-      "url": "https://www.youtube.com/watch?v=QGKsX5raP0A",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "How BLOXBURG MOMS Treat Their 1st Child VS......",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769428067.0,
-      "url": "https://www.youtube.com/watch?v=E4QDi5fO3Rc",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769448592.7128336,
+    "generated_at": 1769449000.0937836,
     "mode": "memory",
     "refresh_interval": 2000
   }
