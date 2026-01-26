@@ -542,20 +542,29 @@
   "news": [
     {
       "type": "trend",
+      "title": "tsunami brainrot #roblox #tsunamibrainrot #strangerthings #elevenhopper #bloxburg #funny #fortnite",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769383663.0,
+      "url": "https://www.youtube.com/watch?v=07dP2M6MQSg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "should I??? #roblox #ttd3 #funkdobounce #bloxburg #edit ",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769381888.0,
+      "url": "https://www.youtube.com/watch?v=Hs1sZ70Xb5E",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#lifeisbutadream #plsdonate #ihavethisthingwithplants #bloxburg #haveitoldyoulatelythatiloveyou #fy",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1769379969.0,
       "url": "https://www.youtube.com/watch?v=bUJDY_ecFnI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I lost track of time\u2026 #roblox #bloxburg #bloxburgbuild #relateable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769379762.0,
-      "url": "https://www.youtube.com/watch?v=ecdQhFRcQMY",
       "icon": "fa-youtube"
     },
     {
@@ -577,62 +586,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "VISITING MAX\u2019S NEW DAYCARE! *HE BITES SOMEONE?* Roblox Bloxburg Family Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1769374806.0,
-      "url": "https://www.youtube.com/watch?v=2JYl9lsHXt8",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "as usual \u2764\ufe0f\ud83d\ude2d #roblox #bloxburg #bloxburgbuild #relatable #fyp",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769374136.0,
-      "url": "https://www.youtube.com/watch?v=6Ipu1oKROEw",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "Bloxburg is making my walls glitch in build mode \ud83d\ude14 #bloxburg #viral #skincare #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769373222.0,
-      "url": "https://www.youtube.com/watch?v=QRw_TrQpYVw",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "bonapetit~(MINE VIDEO!)\\\\ #bloxburg #bloxburg #voiceeffects #ihavethisthingwithplants #preppy",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769373008.0,
-      "url": "https://www.youtube.com/watch?v=KFcNc_3cxhU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "NEW VIDEO!! #bloxburg #calicocritters  #roblox #robloxbloxburgspeedbuild",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769372014.0,
-      "url": "https://www.youtube.com/watch?v=XC2G14X3dow",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#edit #bedwars #games #bloxburg #minecraft",
-      "description": "subscribe for chance to win some of my steals!...",
-      "source": "YouTube",
-      "timestamp": 1769366516.0,
-      "url": "https://www.youtube.com/watch?v=LM0-OSDtyXQ",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769384992.7129798,
+    "generated_at": 1769386192.7113922,
     "mode": "memory",
     "refresh_interval": 2000
   }
