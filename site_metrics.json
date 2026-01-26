@@ -542,6 +542,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Aku nemuin rahasia paling aneh di Roblox Bloxburg #robloxshorts #bloxburg #horrorgaming",
+      "description": "Aku nemuin rahasia paling aneh di Roblox Bloxburg ada tetangga misterius di bloxburg roblox #robloxs...",
+      "source": "YouTube",
+      "timestamp": 1769419826.0,
+      "url": "https://www.youtube.com/watch?v=vm_9upbKIcU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#robloxedit #roblox #robloxgames #lyrics #bloxburg #robloxshorts",
       "description": "...",
       "source": "YouTube",
@@ -574,15 +583,6 @@
       "source": "YouTube",
       "timestamp": 1769404917.0,
       "url": "https://www.youtube.com/watch?v=anR9UhD0bjM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\uc774\ub7f0 \uc370 \ud558\ub098 \ub354 \uc787\uc5b4\uc694 .. #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ud798\ub4e4\uc9c0\ub9cc #roblox #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #\uc88b\uc544\uc694\ub313\uae00",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769402651.0,
-      "url": "https://www.youtube.com/watch?v=NQZw1g_Ueug",
       "icon": "fa-youtube"
     },
     {
@@ -623,7 +623,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769420992.708592,
+    "generated_at": 1769422192.7085047,
     "mode": "memory",
     "refresh_interval": 2000
   }
