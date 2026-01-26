@@ -482,15 +482,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/972613192628965396",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "kimchie17 left the server",
-      "timestamp": 1768825445,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1313903248502952027",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -632,7 +623,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769429392.7030325,
+    "generated_at": 1769430592.7086308,
     "mode": "memory",
     "refresh_interval": 2000
   }
