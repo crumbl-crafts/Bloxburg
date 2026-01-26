@@ -560,6 +560,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#Bloxburg #bloxburg #building meu quarto \u2764\ufe0f\ud83d\udd25",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769397687.0,
+      "url": "https://www.youtube.com/watch?v=iEQ725IpaGo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "CHEAP 2 Story Bloxburg House LAYOUT For Roleplays! #roblox #bloxburg #shorts #robloxbloxburg",
       "description": "traditional bloxburg house layout for family roleplays in roblox! \u2713the build tutorial is linked abov...",
       "source": "YouTube",
@@ -595,62 +604,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "#lifeisbutadream #plsdonate #ihavethisthingwithplants #bloxburg #haveitoldyoulatelythatiloveyou #fy",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769379969.0,
-      "url": "https://www.youtube.com/watch?v=bUJDY_ecFnI",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "I lost track of time\u2026 #roblox #bloxburg #bloxburgbuild #relateable #fyp",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769379762.0,
-      "url": "https://www.youtube.com/watch?v=ecdQhFRcQMY",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "Roblox Bloxburg Episode 182: Nelson Goes To Jae&#39;s House To Play In The Snow (Instead Of His House)",
-      "description": "Jae Is Inviting Nelson Over To Play In The Snow Instead Of His House....",
-      "source": "YouTube",
-      "timestamp": 1769379362.0,
-      "url": "https://www.youtube.com/watch?v=kLkAwgOOMdg",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "Finally saved enough for the heritage house in bloxburg #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769375923.0,
-      "url": "https://www.youtube.com/watch?v=FUxnO6mS7KU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ud83e\ude77\ud83d\udcf1 #roblox #fyp room in my #bloxburg house",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769375168.0,
-      "url": "https://www.youtube.com/watch?v=jpJ_uZTgzJ8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "VISITING MAX\u2019S NEW DAYCARE! *HE BITES SOMEONE?* Roblox Bloxburg Family Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1769374806.0,
-      "url": "https://www.youtube.com/watch?v=2JYl9lsHXt8",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769398193.053662,
+    "generated_at": 1769399392.7072155,
     "mode": "memory",
     "refresh_interval": 2000
   }
