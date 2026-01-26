@@ -586,53 +586,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "CHEAP 2 Story Bloxburg House LAYOUT For Roleplays! #roblox #bloxburg #shorts #robloxbloxburg",
-      "description": "traditional bloxburg house layout for family roleplays in roblox! \u2713the build tutorial is linked abov...",
-      "source": "YouTube",
-      "timestamp": 1769392825.0,
-      "url": "https://www.youtube.com/watch?v=6xgtntas0mM",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "#roblox #mhacommunity #mhaedit #robloxedit #robloxshorts #memes #bloxburg #krish",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769385648.0,
-      "url": "https://www.youtube.com/watch?v=qhj3S8EdZwU",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "tsunami brainrot #roblox #tsunamibrainrot #strangerthings #elevenhopper #bloxburg #funny #fortnite",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769383663.0,
-      "url": "https://www.youtube.com/watch?v=07dP2M6MQSg",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "#lifeisbutadream #plsdonate #ihavethisthingwithplants #bloxburg #haveitoldyoulatelythatiloveyou #fy",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769379969.0,
-      "url": "https://www.youtube.com/watch?v=bUJDY_ecFnI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I lost track of time\u2026 #roblox #bloxburg #bloxburgbuild #relateable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769379762.0,
-      "url": "https://www.youtube.com/watch?v=ecdQhFRcQMY",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769410192.7060301,
+    "generated_at": 1769411392.7085996,
     "mode": "memory",
     "refresh_interval": 2000
   }
