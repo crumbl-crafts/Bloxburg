@@ -542,6 +542,15 @@
     },
     {
       "type": "trend",
+      "title": "#roblox #robloxedit #bloxburg #robloxmemes #robloxmemes #videogamememes #minecraft #brookhave #roblo",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769435719.0,
+      "url": "https://www.youtube.com/watch?v=rmNMh5qpa-I",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Casa moderna com 1 quarto e 2 banheiro #bloxburg #casasmodernas #roblox #fyp\u30b7",
       "description": "...",
       "source": "YouTube",
@@ -560,20 +569,11 @@
     },
     {
       "type": "trend",
-      "title": "How BLOXBURG MOMS Treat Their 1st Child VS......",
+      "title": "#roblox #robloxshorts #robloxedit #bloxburg",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1769428067.0,
-      "url": "https://www.youtube.com/watch?v=E4QDi5fO3Rc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Aku nemuin rahasia paling aneh di Roblox Bloxburg #robloxshorts #bloxburg #horrorgaming",
-      "description": "Aku nemuin rahasia paling aneh di Roblox Bloxburg ada tetangga misterius di bloxburg roblox #robloxs...",
-      "source": "YouTube",
-      "timestamp": 1769419826.0,
-      "url": "https://www.youtube.com/watch?v=vm_9upbKIcU",
+      "timestamp": 1769432365.0,
+      "url": "https://www.youtube.com/watch?v=_dE1EdLs750",
       "icon": "fa-youtube"
     },
     {
@@ -614,7 +614,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769441393.0386724,
+    "generated_at": 1769442592.7178526,
     "mode": "memory",
     "refresh_interval": 2000
   }
