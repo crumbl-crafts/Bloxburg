@@ -551,15 +551,6 @@
     },
     {
       "type": "trend",
-      "title": "My childhood \ud83d\ude2d #dti #roblox #dresstoimpress #funny #shorts #ytshorts #robloxdti #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769458854.0,
-      "url": "https://www.youtube.com/watch?v=J2CWVtyn7B4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Grinch Cupcakes Bloxburg Build Hack! #shorts #bloxburg",
       "description": "A Bloxburg building hack tutorial on how to make these custom Grinch cupcakes in Bloxburg. #bloxburg...",
       "source": "YouTube",
@@ -586,44 +577,62 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "Angel Tried Cooking Lasagna\u2026 We All Threw Up \ud83e\udd22 | Bloxburg Roleplay",
+      "description": "In today's Bloxburg roleplay, my friends surprised me\u2026 but things went WAY wrong Angel decided to co...",
+      "source": "YouTube",
+      "timestamp": 1769448676.0,
+      "url": "https://www.youtube.com/watch?v=lrDAZrxP7sc",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "BLOOPER - Barbie&#39;s Spooky Sleepover in Bloxburg",
+      "description": "heyy guys! since we just hit 100k views, here's a special video for you! a blooper scene from barbie...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769442740.0,
+      "url": "https://www.youtube.com/watch?v=43KWn5uQlTQ",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "#bloxburg #roblox #bloxburgbuilds",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769438659.0,
+      "url": "https://www.youtube.com/watch?v=ooSuO-yGvDA",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "gostaram?? comentem a\u00ed demorou para fazer \ud83d\ude22 #roblox #make #preppyoreo #skincare #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769438413.0,
+      "url": "https://www.youtube.com/watch?v=xPhiExrXtqI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Berry Avenue 2 Mom Outfit Codes || Bloxburg Brookhaven Berry Avenue #shorts #berryavenueoutfits",
+      "description": "\ua540 thank you for watching this video! \u02da these outfits work for brookhaven, berry avenue, and bloxburg...",
+      "source": "YouTube",
+      "timestamp": 1769437304.0,
+      "url": "https://www.youtube.com/watch?v=VS96GT1gxA4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Roblox&#39;s Fading Worlds The Decline of Bloxburg #shorts",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769435924.0,
+      "url": "https://www.youtube.com/watch?v=SdNIQpdOmqo",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769468393.026562,
+    "generated_at": 1769468992.7069306,
     "mode": "memory",
     "refresh_interval": 2000
   }
