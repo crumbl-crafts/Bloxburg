@@ -542,6 +542,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #mhacommunity #mhaedit #robloxedit #robloxshorts #memes #bloxburg #krish",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769385648.0,
+      "url": "https://www.youtube.com/watch?v=qhj3S8EdZwU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "tsunami brainrot #roblox #tsunamibrainrot #strangerthings #elevenhopper #bloxburg #funny #fortnite",
       "description": "...",
       "source": "YouTube",
@@ -574,15 +583,6 @@
       "source": "YouTube",
       "timestamp": 1769375923.0,
       "url": "https://www.youtube.com/watch?v=FUxnO6mS7KU",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "\ud83e\ude77\ud83d\udcf1 #roblox #fyp room in my #bloxburg house",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769375168.0,
-      "url": "https://www.youtube.com/watch?v=jpJ_uZTgzJ8",
       "icon": "fa-youtube"
     },
     {
@@ -623,7 +623,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769387393.0537074,
+    "generated_at": 1769388592.7028642,
     "mode": "memory",
     "refresh_interval": 2000
   }
