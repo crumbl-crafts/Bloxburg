@@ -533,6 +533,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "HAVE YOU WATCHED OUR NEWEST VIDEO??? #blowup #roblox #shortsviral #bloxburg #4urpage #robloxedit",
+      "description": "adoptme #aftereffects #ae #blowup #bobettesisters #bobette #bob #blowup #blowupthisacc #bloxburg #bl...",
+      "source": "YouTube",
+      "timestamp": 1769440159.0,
+      "url": "https://www.youtube.com/watch?v=dTR8joegz74",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Berry Avenue 2 Mom Outfit Codes || Bloxburg Brookhaven Berry Avenue #shorts #berryavenueoutfits",
       "description": "\ua540 thank you for watching this video! \u02da these outfits work for brookhaven, berry avenue, and bloxburg...",
       "source": "YouTube",
@@ -565,15 +574,6 @@
       "source": "YouTube",
       "timestamp": 1769432950.0,
       "url": "https://www.youtube.com/watch?v=bXmURn5-Yfg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#roblox #robloxshorts #robloxedit #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769432365.0,
-      "url": "https://www.youtube.com/watch?v=_dE1EdLs750",
       "icon": "fa-youtube"
     },
     {
@@ -614,7 +614,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769442592.7178526,
+    "generated_at": 1769443792.7097962,
     "mode": "memory",
     "refresh_interval": 2000
   }
