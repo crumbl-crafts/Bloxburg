@@ -8,7 +8,7 @@
   },
   "server": {
     "total_members": 361,
-    "joined_today": 3,
+    "joined_today": 0,
     "active_shops": 2,
     "avg_response_time": 2915.3333333333335
   },
@@ -542,6 +542,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Idk what this is but\u2026 #roblox #bloxburg #viral #roleplay #fyp\u30b7 #edit #subscribe #foryou",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769463082.0,
+      "url": "https://www.youtube.com/watch?v=fDJNAERZzBE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Grinch Cupcakes Bloxburg Build Hack! #shorts #bloxburg",
       "description": "A Bloxburg building hack tutorial on how to make these custom Grinch cupcakes in Bloxburg. #bloxburg...",
       "source": "YouTube",
@@ -574,15 +583,6 @@
       "source": "YouTube",
       "timestamp": 1769448676.0,
       "url": "https://www.youtube.com/watch?v=lrDAZrxP7sc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "BLOOPER - Barbie&#39;s Spooky Sleepover in Bloxburg",
-      "description": "heyy guys! since we just hit 100k views, here's a special video for you! a blooper scene from barbie...",
-      "source": "YouTube",
-      "timestamp": 1769442740.0,
-      "url": "https://www.youtube.com/watch?v=43KWn5uQlTQ",
       "icon": "fa-youtube"
     },
     {
@@ -623,7 +623,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769464192.706107,
+    "generated_at": 1769465392.7037227,
     "mode": "memory",
     "refresh_interval": 2000
   }
