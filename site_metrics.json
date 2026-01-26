@@ -542,6 +542,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "How BLOXBURG MOMS Treat Their 1st Child VS......",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769428067.0,
+      "url": "https://www.youtube.com/watch?v=E4QDi5fO3Rc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Aku nemuin rahasia paling aneh di Roblox Bloxburg #robloxshorts #bloxburg #horrorgaming",
       "description": "Aku nemuin rahasia paling aneh di Roblox Bloxburg ada tetangga misterius di bloxburg roblox #robloxs...",
       "source": "YouTube",
@@ -586,44 +595,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "How Roblox Saved a Little Boy \ud83d\ude31 #roblox #shortvideos #robloxedit",
+      "description": "SUBSCRIBE IF YOU PLAY ROBLOX! My parents thought Roblox was just a game... until things got real. Th...",
+      "source": "YouTube",
+      "timestamp": 1769408050.0,
+      "url": "https://www.youtube.com/watch?v=2dJ_8m0Du9Y",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "I&#39;m glad she was ok in the end but damm#sadstatus#happyend",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769404917.0,
+      "url": "https://www.youtube.com/watch?v=anR9UhD0bjM",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "#Bloxburg #bloxburg #building meu quarto \u2764\ufe0f\ud83d\udd25",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769397687.0,
+      "url": "https://www.youtube.com/watch?v=iEQ725IpaGo",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "\ud83d\ude02funnyRoblox#roblox #memes #robloxmemes #minecraft #meme #robloxedits #dankmemes #bloxburg #roblox",
+      "description": "roblox #memes #robloxmemes #minecraft #meme #robloxedits #dankmemes #bloxburg #robloxgfx #royalehigh...",
+      "source": "YouTube",
+      "timestamp": 1769393595.0,
+      "url": "https://www.youtube.com/watch?v=dR9rtgWawqQ",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769428192.7067869,
+    "generated_at": 1769429392.7030325,
     "mode": "memory",
     "refresh_interval": 2000
   }
