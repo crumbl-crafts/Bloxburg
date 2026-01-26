@@ -551,6 +551,15 @@
     },
     {
       "type": "trend",
+      "title": "My childhood \ud83d\ude2d #dti #roblox #dresstoimpress #funny #shorts #ytshorts #robloxdti #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769458854.0,
+      "url": "https://www.youtube.com/watch?v=J2CWVtyn7B4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Grinch Cupcakes Bloxburg Build Hack! #shorts #bloxburg",
       "description": "A Bloxburg building hack tutorial on how to make these custom Grinch cupcakes in Bloxburg. #bloxburg...",
       "source": "YouTube",
@@ -574,15 +583,6 @@
       "source": "YouTube",
       "timestamp": 1769452480.0,
       "url": "https://www.youtube.com/watch?v=qOW9RdUAQo0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Angel Tried Cooking Lasagna\u2026 We All Threw Up \ud83e\udd22 | Bloxburg Roleplay",
-      "description": "In today's Bloxburg roleplay, my friends surprised me\u2026 but things went WAY wrong Angel decided to co...",
-      "source": "YouTube",
-      "timestamp": 1769448676.0,
-      "url": "https://www.youtube.com/watch?v=lrDAZrxP7sc",
       "icon": "fa-youtube"
     },
     {
@@ -623,7 +623,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769466592.7079656,
+    "generated_at": 1769467792.707735,
     "mode": "memory",
     "refresh_interval": 2000
   }
