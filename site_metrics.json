@@ -491,15 +491,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1313903248502952027",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "nothivebss left the server",
-      "timestamp": 1768799025,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/889685403278397480",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -578,15 +569,6 @@
     },
     {
       "type": "trend",
-      "title": "for the realism\ud83d\ude29 #roblox #bloxburg #bloxburgbuild #relateable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769389888.0,
-      "url": "https://www.youtube.com/watch?v=oT_AUNLCHzA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "#roblox #mhacommunity #mhaedit #robloxedit #robloxshorts #memes #bloxburg #krish",
       "description": "...",
       "source": "YouTube",
@@ -595,44 +577,62 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "tsunami brainrot #roblox #tsunamibrainrot #strangerthings #elevenhopper #bloxburg #funny #fortnite",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769383663.0,
+      "url": "https://www.youtube.com/watch?v=07dP2M6MQSg",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "#lifeisbutadream #plsdonate #ihavethisthingwithplants #bloxburg #haveitoldyoulatelythatiloveyou #fy",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769379969.0,
+      "url": "https://www.youtube.com/watch?v=bUJDY_ecFnI",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "I lost track of time\u2026 #roblox #bloxburg #bloxburgbuild #relateable #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769379762.0,
+      "url": "https://www.youtube.com/watch?v=ecdQhFRcQMY",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Roblox Bloxburg Episode 182: Nelson Goes To Jae&#39;s House To Play In The Snow (Instead Of His House)",
+      "description": "Jae Is Inviting Nelson Over To Play In The Snow Instead Of His House....",
+      "source": "YouTube",
+      "timestamp": 1769379362.0,
+      "url": "https://www.youtube.com/watch?v=kLkAwgOOMdg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Finally saved enough for the heritage house in bloxburg #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769375923.0,
+      "url": "https://www.youtube.com/watch?v=FUxnO6mS7KU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "\ud83e\ude77\ud83d\udcf1 #roblox #fyp room in my #bloxburg house",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769375168.0,
+      "url": "https://www.youtube.com/watch?v=jpJ_uZTgzJ8",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769403592.9824145,
+    "generated_at": 1769404192.706312,
     "mode": "memory",
     "refresh_interval": 2000
   }
