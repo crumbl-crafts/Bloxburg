@@ -551,15 +551,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "#roblox #bloxburg #robloxgames #robloxstory #robloxedit #butifyoucloseyoureyes #funny #minecraft",
-      "description": "DID YOU SURVIVE? #shortvideos #roblox #bloxburg #robloxgames #robloxstory #robloxedit #butifyouclose...",
-      "source": "YouTube",
-      "timestamp": 1769444197.0,
-      "url": "https://www.youtube.com/watch?v=ToiMqfLbQzY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Berry Avenue 2 Mom Outfit Codes || Bloxburg Brookhaven Berry Avenue #shorts #berryavenueoutfits",
       "description": "\ua540 thank you for watching this video! \u02da these outfits work for brookhaven, berry avenue, and bloxburg...",
       "source": "YouTube",
@@ -595,44 +586,62 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "#roblox #bloxburg #preppy #butifyoucloseyoureyes #robloxedit",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769432950.0,
+      "url": "https://www.youtube.com/watch?v=bXmURn5-Yfg",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "#roblox #robloxshorts #robloxedit #bloxburg",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769432365.0,
+      "url": "https://www.youtube.com/watch?v=_dE1EdLs750",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "FREE pillar placing #gamearter #roblox #bloxburg #shorts #global #viral #popular #buildhacks",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769428849.0,
+      "url": "https://www.youtube.com/watch?v=PNzouFR3fZM",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "How BLOXBURG MOMS Treat Their 1st Child VS......",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769428107.0,
+      "url": "https://www.youtube.com/watch?v=QGKsX5raP0A",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "How BLOXBURG MOMS Treat Their 1st Child VS......",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769428067.0,
+      "url": "https://www.youtube.com/watch?v=E4QDi5fO3Rc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Aku nemuin rahasia paling aneh di Roblox Bloxburg #robloxshorts #bloxburg #horrorgaming",
+      "description": "Aku nemuin rahasia paling aneh di Roblox Bloxburg ada tetangga misterius di bloxburg roblox #robloxs...",
+      "source": "YouTube",
+      "timestamp": 1769419826.0,
+      "url": "https://www.youtube.com/watch?v=vm_9upbKIcU",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769449792.7176354,
+    "generated_at": 1769450992.7080755,
     "mode": "memory",
     "refresh_interval": 2000
   }
