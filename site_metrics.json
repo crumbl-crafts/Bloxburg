@@ -604,53 +604,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "third sea luck all time not same #roblox #bloxfruits #thirdsea #aura999 #roll #shortvideo #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769502159.0,
-      "url": "https://www.youtube.com/watch?v=1U45J1rc53g",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "Bloxburg Ikea Update!",
-      "description": "Music Used \u21b4 \u2726shushubobo - [no copyright music] \" coffee time \" cute vlog music [no copyright music]...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769495024.0,
-      "url": "https://www.youtube.com/watch?v=72BYy229rtY",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "#bloxburg #roblox #bloxburgbuilds",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769488712.0,
-      "url": "https://www.youtube.com/watch?v=Bofgo8EwNuY",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "#fyp\u30b7 #roblox #bloxburg #oldvsnew #fyp\u30b7\u309aviral",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769473797.0,
-      "url": "https://www.youtube.com/watch?v=piqVoMJsbTE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Hanya Boleh Makan Makanan Warna BIRU di Bloxburg #roblox #robloxmemes #shortsviral  #games",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769473320.0,
-      "url": "https://www.youtube.com/watch?v=-Lu7iHNlEzc",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769520592.7146761,
+    "generated_at": 1769521792.712558,
     "mode": "memory",
     "refresh_interval": 2000
   }
