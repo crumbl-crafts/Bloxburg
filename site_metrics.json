@@ -604,53 +604,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "Ooooooo",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769511906.0,
-      "url": "https://www.youtube.com/watch?v=lKKmgRiyOyI",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "#music #hansika #roblox #lyrics #bloxburg #bloxburg",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769510598.0,
-      "url": "https://www.youtube.com/watch?v=R-4SnhpB-Bc",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "Ben sana asiq oldum\ud83d\udc12\ud83d\udc35 #ytdayibenionecikarnolur #roblox #robloxedit #bloxburg #mm2",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769503070.0,
-      "url": "https://www.youtube.com/watch?v=y8MhvqEe9SM",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "third sea luck all time not same #roblox #bloxfruits #thirdsea #aura999 #roll #shortvideo #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769502159.0,
-      "url": "https://www.youtube.com/watch?v=1U45J1rc53g",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I BUILT the Temple of Time in BLOXBURG | Cyborg Race #bloxburgbuilds #bloxfruits #shorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769501188.0,
-      "url": "https://www.youtube.com/watch?v=FrhZ7p2BtLU",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769534992.7109437,
+    "generated_at": 1769536192.7188067,
     "mode": "memory",
     "refresh_interval": 2000
   }
