@@ -500,15 +500,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1297379549407084615",
       "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "tellie_06 joined the server",
-      "timestamp": 1768931454,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1009500169475199116",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -641,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769536192.7188067,
+    "generated_at": 1769537392.7116036,
     "mode": "memory",
     "refresh_interval": 2000
   }
