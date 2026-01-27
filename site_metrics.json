@@ -560,6 +560,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "@\uc624\ub9c1\ub9db\uc544\ud06c  \ub610 \uc601\uc120 #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #roblox #\ud798\ub4e4\uc9c0\ub9cc #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #\uc54c\uace0\ub9ac\uc998\ub5a0\ub77c #\uc54c\uace0\ub9ac\uc998 #\uc785\uc591\ud558\uc138\uc694",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769515762.0,
+      "url": "https://www.youtube.com/watch?v=PgjVujKit5Q",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Our morning routine #roblox #bloxburg #roleplay #bloxburgrp #fyp",
       "description": "...",
       "source": "YouTube",
@@ -583,15 +592,6 @@
       "source": "YouTube",
       "timestamp": 1769510598.0,
       "url": "https://www.youtube.com/watch?v=R-4SnhpB-Bc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bro is not Roblox \ud83d\ude29\ud83d\ude2d\ud83d\ude4f",
-      "description": "Bro is not Roblox #roblox #robloxmeme #bookhaven #bloxburg #robloxfunny #robloxnews #robloxupdate #r...",
-      "source": "YouTube",
-      "timestamp": 1769509608.0,
-      "url": "https://www.youtube.com/watch?v=qezBdvSkcoY",
       "icon": "fa-youtube"
     },
     {
@@ -641,7 +641,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769522393.0448215,
+    "generated_at": 1769522992.705726,
     "mode": "memory",
     "refresh_interval": 2000
   }
