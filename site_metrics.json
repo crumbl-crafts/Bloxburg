@@ -569,6 +569,15 @@
     },
     {
       "type": "trend",
+      "title": "#bloxburg #roblox #bloxburgbuilds",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769488712.0,
+      "url": "https://www.youtube.com/watch?v=Bofgo8EwNuY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#fyp\u30b7 #roblox #bloxburg #oldvsnew #fyp\u30b7\u309aviral",
       "description": "...",
       "source": "YouTube",
@@ -604,44 +613,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "bloxburg modern living room idea with new IKEA items! #bloxburg #bloxburgbuild #bloxburgupdate",
+      "description": "Follow for more bloxburg build ideas/hacks everyday! Bloxburg spring build, Bloxburg summer house, S...",
+      "source": "YouTube",
+      "timestamp": 1769464701.0,
+      "url": "https://www.youtube.com/watch?v=Ca19cAdj4CM",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "Idk what this is but\u2026 #roblox #bloxburg #viral #roleplay #fyp\u30b7 #edit #subscribe #foryou",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769463082.0,
+      "url": "https://www.youtube.com/watch?v=fDJNAERZzBE",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "My childhood \ud83d\ude2d #dti #roblox #dresstoimpress #funny #shorts #ytshorts #robloxdti #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769458854.0,
+      "url": "https://www.youtube.com/watch?v=J2CWVtyn7B4",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Do YOU Miss Chatting on Roblox? #roblox #robloxchatban #bloxburg #explore #viral #fyp",
+      "description": "Miss Chatting on Roblox? #roblox #robloxchatban #bloxburg #explore #viral #fyp....",
+      "source": "YouTube",
+      "timestamp": 1769458693.0,
+      "url": "https://www.youtube.com/watch?v=xqhKeFUMwEU",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769498992.708925,
+    "generated_at": 1769500192.705481,
     "mode": "memory",
     "refresh_interval": 2000
   }
