@@ -560,11 +560,20 @@
   "news": [
     {
       "type": "trend",
-      "title": "kt\u00f3ry kontroler wybierasz? #roblox loxgamedesign #viral #bloxburg #rblx #trending #robloxedit#games",
+      "title": "#roblox #robloxshorts #robloxedit #haveitoldyoulatelythatiloveyou #bloxburg #mm2",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1769523726.0,
-      "url": "https://www.youtube.com/watch?v=gu-vZH3kS8A",
+      "timestamp": 1769522454.0,
+      "url": "https://www.youtube.com/watch?v=YOOkWlYBHAY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "@\uc624\ub9c1\ub9db\uc544\ud06c  \ub610 \uc601\uc120 #bloxburg #\ub85c\ube14\ub85d\uc2a4 #\ub20c\ub7ec\uc8fc\uc138\uc6a9 #roblox #\ud798\ub4e4\uc9c0\ub9cc #\ub85c\ube14\uacc4 #\uc751 #\ub85c\ube14 #\uad6c\ub3c5\ubd80\ud0c1\ud569\ub2c8\ub2e4 #\uc54c\uace0\ub9ac\uc998\ub5a0\ub77c #\uc54c\uace0\ub9ac\uc998 #\uc785\uc591\ud558\uc138\uc694",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769515762.0,
+      "url": "https://www.youtube.com/watch?v=PgjVujKit5Q",
       "icon": "fa-youtube"
     },
     {
@@ -592,15 +601,6 @@
       "source": "YouTube",
       "timestamp": 1769510598.0,
       "url": "https://www.youtube.com/watch?v=R-4SnhpB-Bc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Ben sana asiq oldum\ud83d\udc12\ud83d\udc35 #ytdayibenionecikarnolur #roblox #robloxedit #bloxburg #mm2",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769503070.0,
-      "url": "https://www.youtube.com/watch?v=y8MhvqEe9SM",
       "icon": "fa-youtube"
     },
     {
@@ -641,7 +641,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769527793.0283875,
+    "generated_at": 1769528992.7147512,
     "mode": "memory",
     "refresh_interval": 2000
   }
