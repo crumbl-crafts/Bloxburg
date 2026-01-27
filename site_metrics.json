@@ -560,6 +560,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Bro is not Roblox \ud83d\ude29\ud83d\ude2d\ud83d\ude4f",
+      "description": "Bro is not Roblox #roblox #robloxmeme #bookhaven #bloxburg #robloxfunny #robloxnews #robloxupdate #r...",
+      "source": "YouTube",
+      "timestamp": 1769509608.0,
+      "url": "https://www.youtube.com/watch?v=qezBdvSkcoY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Ben sana asiq oldum\ud83d\udc12\ud83d\udc35 #ytdayibenionecikarnolur #roblox #robloxedit #bloxburg #mm2",
       "description": "...",
       "source": "YouTube",
@@ -592,15 +601,6 @@
       "source": "YouTube",
       "timestamp": 1769488712.0,
       "url": "https://www.youtube.com/watch?v=Bofgo8EwNuY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#fyp\u30b7 #roblox #bloxburg #oldvsnew #fyp\u30b7\u309aviral",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769473797.0,
-      "url": "https://www.youtube.com/watch?v=piqVoMJsbTE",
       "icon": "fa-youtube"
     },
     {
@@ -641,7 +641,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769509792.7093773,
+    "generated_at": 1769510992.717294,
     "mode": "memory",
     "refresh_interval": 2000
   }
