@@ -569,6 +569,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "gotta vent to someoneee \ud83d\ude2d #roblox #bloxburg #bloxburgbuild #relatable #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769548373.0,
+      "url": "https://www.youtube.com/watch?v=paSWzJxZVqY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "MY NAUGHTY KID\u2019S SCHOOL REPORT CARD! *SUSPENDED?* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1769547606.0,
+      "url": "https://www.youtube.com/watch?v=y4tSH-wVp_w",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "HELP #roblox #bloxburg #bloxburgbuild #lovelyjules #fyp",
       "description": "...",
       "source": "YouTube",
@@ -613,44 +631,35 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "How to make a simple and CHEAP garage door in Bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769519220.0,
+      "url": "https://www.youtube.com/watch?v=9-kLU9Q0HkE",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "Our morning routine #roblox #bloxburg #roleplay #bloxburgrp #fyp",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769515236.0,
+      "url": "https://www.youtube.com/watch?v=JpmMEyDJ4z0",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
-    },
-    {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Ooooooo",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769511906.0,
+      "url": "https://www.youtube.com/watch?v=lKKmgRiyOyI",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769549393.0411773,
+    "generated_at": 1769550592.7134328,
     "mode": "memory",
     "refresh_interval": 2000
   }
