@@ -542,15 +542,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "Diapain ya?? #roblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769487749.0,
-      "url": "https://www.youtube.com/watch?v=4dbwUM525nE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "#fyp\u30b7 #roblox #bloxburg #oldvsnew #fyp\u30b7\u309aviral",
       "description": "...",
       "source": "YouTube",
@@ -586,44 +577,62 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "Idk what this is but\u2026 #roblox #bloxburg #viral #roleplay #fyp\u30b7 #edit #subscribe #foryou",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769463082.0,
+      "url": "https://www.youtube.com/watch?v=fDJNAERZzBE",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "My childhood \ud83d\ude2d #dti #roblox #dresstoimpress #funny #shorts #ytshorts #robloxdti #bloxburg",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769458854.0,
+      "url": "https://www.youtube.com/watch?v=J2CWVtyn7B4",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "Do YOU Miss Chatting on Roblox? #roblox #robloxchatban #bloxburg #explore #viral #fyp",
+      "description": "Miss Chatting on Roblox? #roblox #robloxchatban #bloxburg #explore #viral #fyp....",
+      "source": "YouTube",
+      "timestamp": 1769458693.0,
+      "url": "https://www.youtube.com/watch?v=xqhKeFUMwEU",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Grinch Cupcakes Bloxburg Build Hack! #shorts #bloxburg",
+      "description": "A Bloxburg building hack tutorial on how to make these custom Grinch cupcakes in Bloxburg. #bloxburg...",
+      "source": "YouTube",
+      "timestamp": 1769458207.0,
+      "url": "https://www.youtube.com/watch?v=-vzauMC0xrI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Go check out my video \u201cMoving out pt1\u201d#bloxburg#playing#gaming#fyp#likes#subscribe#newvideo#",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769457645.0,
+      "url": "https://www.youtube.com/watch?v=woB6qdjhvuE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Building an Art Studio in my Japanese Themed Bloxburg Town! |Roblox Speedbuild|",
+      "description": "roblox #robloxbloxburgspeedbuild #bloxburg #speedbuild....",
+      "source": "YouTube",
+      "timestamp": 1769452480.0,
+      "url": "https://www.youtube.com/watch?v=qOW9RdUAQo0",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769491792.7045355,
+    "generated_at": 1769492992.7047217,
     "mode": "memory",
     "refresh_interval": 2000
   }
