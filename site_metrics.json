@@ -569,6 +569,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "HELP #roblox #bloxburg #bloxburgbuild #lovelyjules #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769545025.0,
+      "url": "https://www.youtube.com/watch?v=PvPisRzDq8w",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Building ROBLOX house in real \ud83d\ude0e\ud83d\ude0e #robloxirl #bloxburg #lego #robloxmemes #building #creative",
       "description": "Taking a break from Roblox Studio to build in the real world! Do you think this looks like a Bloxbur...",
       "source": "YouTube",
@@ -601,15 +610,6 @@
       "source": "YouTube",
       "timestamp": 1769522454.0,
       "url": "https://www.youtube.com/watch?v=YOOkWlYBHAY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "How to make a simple and CHEAP garage door in Bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769519220.0,
-      "url": "https://www.youtube.com/watch?v=9-kLU9Q0HkE",
       "icon": "fa-youtube"
     },
     {
@@ -650,7 +650,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769545792.7279892,
+    "generated_at": 1769546992.7109776,
     "mode": "memory",
     "refresh_interval": 2000
   }
