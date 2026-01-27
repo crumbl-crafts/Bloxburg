@@ -491,24 +491,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1009500169475199116",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "kooljie left the server",
-      "timestamp": 1768886948,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/975961954076209152",
-      "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "kooljie joined the server",
-      "timestamp": 1768886845,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/975961954076209152",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -641,7 +623,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769490592.708142,
+    "generated_at": 1769491792.7045355,
     "mode": "memory",
     "refresh_interval": 2000
   }
