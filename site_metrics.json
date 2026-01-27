@@ -551,11 +551,29 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #robloxshorts #robloxedit #haveitoldyoulatelythatiloveyou #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769472005.0,
+      "url": "https://www.youtube.com/watch?v=1J8khss7nv4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "I wanna break up.. #gaming #adoptme #roblox #bloxburg  #funny #brookhaven #drive #crash #carcrash",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1769469297.0,
       "url": "https://www.youtube.com/watch?v=nqdZAAlDWCs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "bloxburg modern living room idea with new IKEA items! #bloxburg #bloxburgbuild #bloxburgupdate",
+      "description": "Follow for more bloxburg build ideas/hacks everyday! Bloxburg spring build, Bloxburg summer house, S...",
+      "source": "YouTube",
+      "timestamp": 1769464701.0,
+      "url": "https://www.youtube.com/watch?v=Ca19cAdj4CM",
       "icon": "fa-youtube"
     },
     {
@@ -574,24 +592,6 @@
       "source": "YouTube",
       "timestamp": 1769458854.0,
       "url": "https://www.youtube.com/watch?v=J2CWVtyn7B4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Grinch Cupcakes Bloxburg Build Hack! #shorts #bloxburg",
-      "description": "A Bloxburg building hack tutorial on how to make these custom Grinch cupcakes in Bloxburg. #bloxburg...",
-      "source": "YouTube",
-      "timestamp": 1769458207.0,
-      "url": "https://www.youtube.com/watch?v=-vzauMC0xrI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Go check out my video \u201cMoving out pt1\u201d#bloxburg#playing#gaming#fyp#likes#subscribe#newvideo#",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769457645.0,
-      "url": "https://www.youtube.com/watch?v=woB6qdjhvuE",
       "icon": "fa-youtube"
     },
     {
@@ -632,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769473793.044857,
+    "generated_at": 1769474992.7062297,
     "mode": "memory",
     "refresh_interval": 2000
   }
