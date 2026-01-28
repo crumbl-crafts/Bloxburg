@@ -551,24 +551,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "#mhacommunity #roblox #robloxedit #mhaedit #bloxburg #robloxshorts #mm2 #edit #krish #memes",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769558457.0,
-      "url": "https://www.youtube.com/watch?v=rFWsSiHlf30",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Hancurin Rumah Orang di Bloxburg Pas Dia Lagi AFK #roblox #shorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769556420.0,
-      "url": "https://www.youtube.com/watch?v=BUraWMvb8oI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Come see Tangled live in Bloxburg! Discord link in bio to join! #tangled #roblox #rblx #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -592,6 +574,24 @@
       "source": "YouTube",
       "timestamp": 1769547606.0,
       "url": "https://www.youtube.com/watch?v=y4tSH-wVp_w",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "HELP #roblox #bloxburg #bloxburgbuild #lovelyjules #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769545025.0,
+      "url": "https://www.youtube.com/watch?v=PvPisRzDq8w",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Building ROBLOX house in real \ud83d\ude0e\ud83d\ude0e #robloxirl #bloxburg #lego #robloxmemes #building #creative",
+      "description": "Taking a break from Roblox Studio to build in the real world! Do you think this looks like a Bloxbur...",
+      "source": "YouTube",
+      "timestamp": 1769528777.0,
+      "url": "https://www.youtube.com/watch?v=3mORUY_fBb4",
       "icon": "fa-youtube"
     },
     {
@@ -632,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769563792.7085125,
+    "generated_at": 1769564992.7077205,
     "mode": "memory",
     "refresh_interval": 2000
   }
