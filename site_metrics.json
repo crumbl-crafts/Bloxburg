@@ -577,44 +577,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "gotta vent to someoneee \ud83d\ude2d #roblox #bloxburg #bloxburgbuild #relatable #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769548373.0,
+      "url": "https://www.youtube.com/watch?v=paSWzJxZVqY",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "MY NAUGHTY KID\u2019S SCHOOL REPORT CARD! *SUSPENDED?* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769547606.0,
+      "url": "https://www.youtube.com/watch?v=y4tSH-wVp_w",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "what happened to Michael afton? #fnaf",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769532094.0,
+      "url": "https://www.youtube.com/watch?v=JJHMOA_N5qg",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "#roblox #robloxshorts #robloxedit #bloxburg #dothingsyoudontwanttodo #mm2 #butifyoucloseyoureyes",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769530196.0,
+      "url": "https://www.youtube.com/watch?v=43VL1Fr_liw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "OMGG #adoptme #evade  #headless #korblox #sshf #mm2 #robloxugc #bloxburg #ugccreator #cheap",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769523741.0,
+      "url": "https://www.youtube.com/watch?v=UL4MQKx2Wh8",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769587193.0093257,
+    "generated_at": 1769587792.7109318,
     "mode": "memory",
     "refresh_interval": 2000
   }
