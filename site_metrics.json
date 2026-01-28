@@ -482,15 +482,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1457584847307673660",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "isitk.s left the server",
-      "timestamp": 1768968127,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/972613192628965396",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -586,53 +577,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "gotta vent to someoneee \ud83d\ude2d #roblox #bloxburg #bloxburgbuild #relatable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769548373.0,
-      "url": "https://www.youtube.com/watch?v=paSWzJxZVqY",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "MY NAUGHTY KID\u2019S SCHOOL REPORT CARD! *SUSPENDED?* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769547606.0,
-      "url": "https://www.youtube.com/watch?v=y4tSH-wVp_w",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "Building ROBLOX house in real \ud83d\ude0e\ud83d\ude0e #robloxirl #bloxburg #lego #robloxmemes #building #creative",
-      "description": "Taking a break from Roblox Studio to build in the real world! Do you think this looks like a Bloxbur...",
-      "source": "YouTube",
-      "timestamp": 1769528777.0,
-      "url": "https://www.youtube.com/watch?v=3mORUY_fBb4",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "OMGG #adoptme #evade  #headless #korblox #sshf #mm2 #robloxugc #bloxburg #ugccreator #cheap",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769523741.0,
-      "url": "https://www.youtube.com/watch?v=UL4MQKx2Wh8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg new IKEA furniture\u2019s are out!! #shorts #bloxburg #welcometobloxburg #roblox #fyp",
-      "description": "Bloxburg new IKEA furniture's are out!! #shorts #bloxburg #welcometobloxburg #roblox #fyp....",
-      "source": "YouTube",
-      "timestamp": 1769523416.0,
-      "url": "https://www.youtube.com/watch?v=J059_UNP0iY",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769572192.7055552,
+    "generated_at": 1769573392.7082193,
     "mode": "memory",
     "refresh_interval": 2000
   }
