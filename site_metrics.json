@@ -533,6 +533,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "#4u #roblox #fy #memes #bloxburg #bloxburg #gaming #school #games #autoalley #freefollowers #roblox",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769577880.0,
+      "url": "https://www.youtube.com/watch?v=v9TXq6jPRIk",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Let&#39;s revenge for my stolen Brainrot \ud83d\ude08 #roblox #stealabrainrot #robloxgames",
+      "description": "POV: You tried to be a pro in [ @VORTEX2-YT ] but Roblox physics said no. \" \"Wait for it... the endi...",
+      "source": "YouTube",
+      "timestamp": 1769576427.0,
+      "url": "https://www.youtube.com/watch?v=nMeAAGNrQbg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "i want your LOVEEEEEE\ud83d\udd25 #shorts #bloxburg #trending #fyp",
       "description": "i want your LOVEEEEEE   #shorts #bloxburg #trending #fyp....",
       "source": "YouTube",
@@ -556,24 +574,6 @@
       "source": "YouTube",
       "timestamp": 1769558457.0,
       "url": "https://www.youtube.com/watch?v=rFWsSiHlf30",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#roblox #shortsvideo #bloxburg #stealabrainrot #robloxedit #strangerthings5 #robloxmemes #2026",
-      "description": "roblox #shortsvideo #bloxburg #stealabrainrot #robloxedit #strangerthings5 #robloxmemes #2026 #edit ...",
-      "source": "YouTube",
-      "timestamp": 1769558101.0,
-      "url": "https://www.youtube.com/watch?v=0LTHimvgals",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "gotta vent to someoneee \ud83d\ude2d #roblox #bloxburg #bloxburgbuild #relatable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769548373.0,
-      "url": "https://www.youtube.com/watch?v=paSWzJxZVqY",
       "icon": "fa-youtube"
     },
     {
@@ -614,7 +614,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769578192.709786,
+    "generated_at": 1769579392.7077968,
     "mode": "memory",
     "refresh_interval": 2000
   }
