@@ -509,15 +509,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1297379549407084615",
       "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "eem72 joined the server",
-      "timestamp": 1768956907,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1297379549407084615",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -613,53 +604,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "HELP #roblox #bloxburg #bloxburgbuild #lovelyjules #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769545025.0,
-      "url": "https://www.youtube.com/watch?v=PvPisRzDq8w",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "Building ROBLOX house in real \ud83d\ude0e\ud83d\ude0e #robloxirl #bloxburg #lego #robloxmemes #building #creative",
-      "description": "Taking a break from Roblox Studio to build in the real world! Do you think this looks like a Bloxbur...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769528777.0,
-      "url": "https://www.youtube.com/watch?v=3mORUY_fBb4",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "I BUILT My DREAM PET ROOM In BLOXBURG.. \ud83e\udd29 | ROBLOX",
-      "description": "( \u0e51 \u02c3\u0335\u1d17\u02c2\u0335)\u0648 \u2661 thanks for watching! leave some video suggestions in the comments of what you'd like t...",
-      "source": "YouTube",
-      "timestamp": 1769526000.0,
-      "url": "https://www.youtube.com/watch?v=XyyDuRANFOg",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "kt\u00f3ry kontroler wybierasz? #roblox loxgamedesign #viral #bloxburg #rblx #trending #robloxedit#games",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769523726.0,
-      "url": "https://www.youtube.com/watch?v=gu-vZH3kS8A",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "How to make a simple and CHEAP garage door in Bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769519220.0,
-      "url": "https://www.youtube.com/watch?v=9-kLU9Q0HkE",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769561392.709075,
+    "generated_at": 1769562592.705708,
     "mode": "memory",
     "refresh_interval": 2000
   }
