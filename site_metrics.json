@@ -551,6 +551,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Hancurin Rumah Orang di Bloxburg Pas Dia Lagi AFK #roblox #shorts",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769556420.0,
+      "url": "https://www.youtube.com/watch?v=BUraWMvb8oI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Come see Tangled live in Bloxburg! Discord link in bio to join! #tangled #roblox #rblx #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -583,15 +592,6 @@
       "source": "YouTube",
       "timestamp": 1769545025.0,
       "url": "https://www.youtube.com/watch?v=PvPisRzDq8w",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Building ROBLOX house in real \ud83d\ude0e\ud83d\ude0e #robloxirl #bloxburg #lego #robloxmemes #building #creative",
-      "description": "Taking a break from Roblox Studio to build in the real world! Do you think this looks like a Bloxbur...",
-      "source": "YouTube",
-      "timestamp": 1769528777.0,
-      "url": "https://www.youtube.com/watch?v=3mORUY_fBb4",
       "icon": "fa-youtube"
     },
     {
@@ -632,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769565592.9759653,
+    "generated_at": 1769566192.708661,
     "mode": "memory",
     "refresh_interval": 2000
   }
