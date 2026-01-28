@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 359,
+    "total_members": 358,
     "joined_today": 0,
     "active_shops": 2,
     "avg_response_time": 2915.3333333333335
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "old.man.jeff left the server",
+      "timestamp": 1769567660,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1320403415578312826"
+    },
     {
       "type": "member_leave",
       "shop_name": "Server",
@@ -551,6 +560,33 @@
   "news": [
     {
       "type": "trend",
+      "title": "i want your LOVEEEEEE\ud83d\udd25 #shorts #bloxburg #trending #fyp",
+      "description": "i want your LOVEEEEEE   #shorts #bloxburg #trending #fyp....",
+      "source": "YouTube",
+      "timestamp": 1769565229.0,
+      "url": "https://www.youtube.com/watch?v=dZwBOL2cn7M",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "DO IT KNOW!! @LilZestmadeitbestZF  #roblox #newgameinroblox #funnygames #funny #bloxburg #memes",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769563335.0,
+      "url": "https://www.youtube.com/watch?v=GYtwbp25N1A",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "#mhacommunity #roblox #robloxedit #mhaedit #bloxburg #robloxshorts #mm2 #edit #krish #memes",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769558457.0,
+      "url": "https://www.youtube.com/watch?v=rFWsSiHlf30",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Hancurin Rumah Orang di Bloxburg Pas Dia Lagi AFK #roblox #shorts",
       "description": "...",
       "source": "YouTube",
@@ -565,33 +601,6 @@
       "source": "YouTube",
       "timestamp": 1769550576.0,
       "url": "https://www.youtube.com/watch?v=2r8VPm65HiY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "gotta vent to someoneee \ud83d\ude2d #roblox #bloxburg #bloxburgbuild #relatable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769548373.0,
-      "url": "https://www.youtube.com/watch?v=paSWzJxZVqY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "MY NAUGHTY KID\u2019S SCHOOL REPORT CARD! *SUSPENDED?* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1769547606.0,
-      "url": "https://www.youtube.com/watch?v=y4tSH-wVp_w",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "HELP #roblox #bloxburg #bloxburgbuild #lovelyjules #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769545025.0,
-      "url": "https://www.youtube.com/watch?v=PvPisRzDq8w",
       "icon": "fa-youtube"
     },
     {
@@ -632,7 +641,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769567392.7126403,
+    "generated_at": 1769567662.9218934,
     "mode": "memory",
     "refresh_interval": 2000
   }
