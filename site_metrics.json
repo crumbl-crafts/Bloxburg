@@ -473,24 +473,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1438229626332905522",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "bhadness.com left the server",
-      "timestamp": 1769097451,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1377735623150145717",
-      "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "bhadness.com joined the server",
-      "timestamp": 1769097280,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1377735623150145717",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -542,6 +524,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "newsmith rp roblox #roblox #bloxburg #gaming #robloxshorts",
+      "description": "newsmith rp roblox #roblox #bloxburg #gaming #robloxshorts #99nightintheforest #roblox....",
+      "source": "YouTube",
+      "timestamp": 1769702409.0,
+      "url": "https://www.youtube.com/watch?v=3TU8DWgg7Q4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#roblox #roblox #automobile #duet #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -574,15 +565,6 @@
       "source": "YouTube",
       "timestamp": 1769645184.0,
       "url": "https://www.youtube.com/watch?v=W_BOtxdyYmk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "CONFIRMED 2026 BLOXBURG UPDATES\ud83e\udd73\ud83d\udc40 #roblox #robloxshorts #bloxburg #robloxbloxburg #robloxedit #dti",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769638072.0,
-      "url": "https://www.youtube.com/watch?v=LhXKT-q9-6s",
       "icon": "fa-youtube"
     },
     {
@@ -623,7 +605,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769701792.7131412,
+    "generated_at": 1769702992.706936,
     "mode": "memory",
     "refresh_interval": 2000
   }
