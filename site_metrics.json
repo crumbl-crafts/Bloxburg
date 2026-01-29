@@ -586,44 +586,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "Mods For Schedule 1 That Actually Work #schedule1game #schedule1mods #schedule1",
+      "description": "Today I will be showing you the mods you need for Schedule 1 0.4.2 ! #schedule1game #gaming #simulat...",
+      "source": "YouTube",
+      "timestamp": 1769607944.0,
+      "url": "https://www.youtube.com/watch?v=pWVo5Ed1nk8",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "bloxburg richness #bloxburg #roblox #fyp #viral #relatable",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769593652.0,
+      "url": "https://www.youtube.com/watch?v=I5Ecrzcr5hU",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "Let&#39;s revenge for my stolen Brainrot \ud83d\ude08 #roblox #stealabrainrot #robloxgames",
+      "description": "POV: You tried to be a pro in [ @VORTEX2-YT ] but Roblox physics said no. \" \"Wait for it... the endi...",
+      "source": "YouTube",
+      "timestamp": 1769576427.0,
+      "url": "https://www.youtube.com/watch?v=nMeAAGNrQbg",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "67 likes and ill sell it",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769568242.0,
+      "url": "https://www.youtube.com/watch?v=mme0AIlCpRs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "99 nights in the forest #roblox #youtubeshorts",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769567867.0,
+      "url": "https://www.youtube.com/watch?v=MBtXRSyUQzQ",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769690992.7125072,
+    "generated_at": 1769692192.7090333,
     "mode": "memory",
     "refresh_interval": 2000
   }
