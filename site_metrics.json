@@ -491,15 +491,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1377735623150145717",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "little.body.biggest.heart left the server",
-      "timestamp": 1769080262,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1079900966201086072",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -632,7 +623,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769684992.708174,
+    "generated_at": 1769686192.7106738,
     "mode": "memory",
     "refresh_interval": 2000
   }
