@@ -500,15 +500,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/852551150452342845",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "donbo_ left the server",
-      "timestamp": 1769122436,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1103202924231925811",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -641,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769726992.7092814,
+    "generated_at": 1769727593.051118,
     "mode": "memory",
     "refresh_interval": 2000
   }
