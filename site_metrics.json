@@ -560,6 +560,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "DON&#39;T BLINK CHALLENGE IN ROBLOX #roblox #brookhave #robloxfunny #bloxburg #blookhaven #robloxjokes",
+      "description": "DON'T BLINK CHALLENGE IN ROBLOX #roblox #brookhave #robloxfunny #bloxburg #blookhaven #robloxjokes....",
+      "source": "YouTube",
+      "timestamp": 1769665124.0,
+      "url": "https://www.youtube.com/watch?v=Rg9SBENc84U",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Helping noob in 99 Nights in the Forest!\ud83d\ude31",
       "description": "roblox #99nightintheforest #viral #robloxedit #robloxstory #robloxgames #bloxburg #memes #funny #rob...",
       "source": "YouTube",
@@ -592,15 +601,6 @@
       "source": "YouTube",
       "timestamp": 1769612446.0,
       "url": "https://www.youtube.com/watch?v=OfoV4smd25A",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "bloxburg richness #bloxburg #roblox #fyp #viral #relatable",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769593652.0,
-      "url": "https://www.youtube.com/watch?v=I5Ecrzcr5hU",
       "icon": "fa-youtube"
     },
     {
@@ -641,7 +641,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769665792.7049613,
+    "generated_at": 1769666992.710778,
     "mode": "memory",
     "refresh_interval": 2000
   }
