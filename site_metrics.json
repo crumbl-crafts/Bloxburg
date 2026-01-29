@@ -500,15 +500,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1079900966201086072",
       "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "little.body.biggest.heart joined the server",
-      "timestamp": 1769079893,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1079900966201086072",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -641,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769684393.0612116,
+    "generated_at": 1769684992.708174,
     "mode": "memory",
     "refresh_interval": 2000
   }
