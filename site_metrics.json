@@ -524,6 +524,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Modern Tiny House | No Gamepas | Bloxburg Speedbuild",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769709606.0,
+      "url": "https://www.youtube.com/watch?v=ntOp4Gpu1u4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "newsmith rp roblox #roblox #bloxburg #gaming #robloxshorts",
       "description": "newsmith rp roblox #roblox #bloxburg #gaming #robloxshorts #99nightintheforest #roblox....",
       "source": "YouTube",
@@ -538,15 +547,6 @@
       "source": "YouTube",
       "timestamp": 1769697963.0,
       "url": "https://www.youtube.com/watch?v=nRLAu5XoDa0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Modern Tiny House | No Gamepas | Bloxburg Speedbuild",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769695368.0,
-      "url": "https://www.youtube.com/watch?v=ntOp4Gpu1u4",
       "icon": "fa-youtube"
     },
     {
@@ -605,7 +605,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769708992.724166,
+    "generated_at": 1769710192.7193072,
     "mode": "memory",
     "refresh_interval": 2000
   }
