@@ -542,6 +542,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #roblox #automobile #duet #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769697963.0,
+      "url": "https://www.youtube.com/watch?v=nRLAu5XoDa0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "\ud83e\udd0d\ud83e\udd79 | #shorts #short #roblox #bloxburg",
       "description": "short #shortvideo #shorts #shortsvideo #roblox #fyp #ke\u015ffet #bloxburg #roblox #viral....",
       "source": "YouTube",
@@ -574,15 +583,6 @@
       "source": "YouTube",
       "timestamp": 1769638072.0,
       "url": "https://www.youtube.com/watch?v=LhXKT-q9-6s",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Escaping the World\u2019s Hardest Obby!#BrookhavenRP #Bloxburg #RobloxRoleplay #BrookhavenMemes",
-      "description": "Escaping the World's Hardest Obby!#BrookhavenRP #Bloxburg #RobloxRoleplay #BrookhavenMemes....",
-      "source": "YouTube",
-      "timestamp": 1769614212.0,
-      "url": "https://www.youtube.com/watch?v=Aqv7biefAoM",
       "icon": "fa-youtube"
     },
     {
@@ -623,7 +623,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769698192.7048075,
+    "generated_at": 1769699392.7163067,
     "mode": "memory",
     "refresh_interval": 2000
   }
