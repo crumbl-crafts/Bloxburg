@@ -560,6 +560,33 @@
   "news": [
     {
       "type": "trend",
+      "title": "#funny #comedy #viralshort #roblox #comedyfilms #viralvideo #4urpage #bloxburg #funnycomedy #pov",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769720416.0,
+      "url": "https://www.youtube.com/watch?v=HW6TIu7bW8w",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "West Cost Beach House Tour \ud83d\udc1a Welcome to Bloxburg #bloxburg #shorta",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769719562.0,
+      "url": "https://www.youtube.com/watch?v=5Gb0nkFOIzE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "RENOVATING THE BLOXBURG STARTER HOUSE INTO A FAMILY HOME",
+      "description": "bloxburg #roblox #robloxbloxburg The starter house is as tiny as a mouse...so I renovated it to be a...",
+      "source": "YouTube",
+      "timestamp": 1769716820.0,
+      "url": "https://www.youtube.com/watch?v=TEbVgl-NwPs",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "roblox #roblox #edms #cover #gaming #edit #robloxedit #games #bassfeatured #funny #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -577,80 +604,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "kt\u00f3r\u0105 myszk\u0119 wybierasz? #roblox #robloxgamedesign #viral #bloxburg #3dgamedevelopment #trending",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769706405.0,
-      "url": "https://www.youtube.com/watch?v=jRhgnV5iWVI",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "newsmith rp roblox #roblox #bloxburg #gaming #robloxshorts",
-      "description": "newsmith rp roblox #roblox #bloxburg #gaming #robloxshorts #99nightintheforest #roblox....",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769702409.0,
-      "url": "https://www.youtube.com/watch?v=3TU8DWgg7Q4",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "#roblox #roblox #automobile #duet #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769697963.0,
-      "url": "https://www.youtube.com/watch?v=nRLAu5XoDa0",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "\ud83e\udd0d\ud83e\udd79 | #shorts #short #roblox #bloxburg",
-      "description": "short #shortvideo #shorts #shortsvideo #roblox #fyp #ke\u015ffet #bloxburg #roblox #viral....",
-      "source": "YouTube",
-      "timestamp": 1769691969.0,
-      "url": "https://www.youtube.com/watch?v=Df4mUp1BTcs",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "DON&#39;T BLINK CHALLENGE IN ROBLOX #roblox #brookhave #robloxfunny #bloxburg #blookhaven #robloxjokes",
-      "description": "DON'T BLINK CHALLENGE IN ROBLOX #roblox #brookhave #robloxfunny #bloxburg #blookhaven #robloxjokes....",
-      "source": "YouTube",
-      "timestamp": 1769665124.0,
-      "url": "https://www.youtube.com/watch?v=Rg9SBENc84U",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Helping noob in 99 Nights in the Forest!\ud83d\ude31",
-      "description": "roblox #99nightintheforest #viral #robloxedit #robloxstory #robloxgames #bloxburg #memes #funny #rob...",
-      "source": "YouTube",
-      "timestamp": 1769645184.0,
-      "url": "https://www.youtube.com/watch?v=W_BOtxdyYmk",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "CONFIRMED 2026 BLOXBURG UPDATES\ud83e\udd73\ud83d\udc40 #roblox #robloxshorts #bloxburg #robloxbloxburg #robloxedit #dti",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769638072.0,
-      "url": "https://www.youtube.com/watch?v=LhXKT-q9-6s",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769625781.0,
-      "url": "https://www.youtube.com/watch?v=PUBgr-dLk34",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769719792.7106724,
+    "generated_at": 1769720992.7089093,
     "mode": "memory",
     "refresh_interval": 2000
   }
