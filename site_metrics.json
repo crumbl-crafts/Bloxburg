@@ -491,15 +491,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1183204764427767920",
       "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "veil_steppe_15652 joined the server",
-      "timestamp": 1769040884,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1457584847307673660",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -641,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769645392.7049284,
+    "generated_at": 1769646592.7198272,
     "mode": "memory",
     "refresh_interval": 2000
   }
