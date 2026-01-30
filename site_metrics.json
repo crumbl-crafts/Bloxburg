@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 364,
+    "total_members": 363,
     "joined_today": 4,
     "active_shops": 2,
     "avg_response_time": 2627.7
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "theonlynick0263 left the server",
+      "timestamp": 1769808720,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1190165273370689636"
+    },
     {
       "type": "member_join",
       "shop_name": "Server",
@@ -568,53 +577,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "I BOUGHT 1 AND STEAL 2 BRAINROT 1-STRAWBERRY ELEPHANT, AND 2 - 67, AND GUESS WHAT I BOUGHT  #roblox",
-      "description": "POV: You tried to be ] but Roblox physics said no. \" \"Wait for it... the ending actually broke me. #...",
-      "source": "YouTube",
-      "timestamp": 1769767300.0,
-      "url": "https://www.youtube.com/watch?v=opU169o1PR0",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "My Solar Farm \u26a1 #roblox #rblx #gaming #yosho #bloxburg #shorts",
-      "description": "My Solar Farm \u26a1 #roblox #rblx #gaming #yosho #bloxburg #shorts....",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769751004.0,
-      "url": "https://www.youtube.com/watch?v=AhCTAaV62FA",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "Dont Mew to the sound #roblox #automobile #bloxburg #royalehigh #robloxedit #funny #help #edit",
-      "description": "Join today to participate in fights like these!!!! NethSMP_.aternos.me....",
-      "source": "YouTube",
-      "timestamp": 1769741881.0,
-      "url": "https://www.youtube.com/watch?v=imxxZpkSDFo",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "Lego News: Creator London Bus Revealed",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769739738.0,
-      "url": "https://www.youtube.com/watch?v=R6gdnHtxIpg",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg Autumn House Layout Inspo",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769734800.0,
-      "url": "https://www.youtube.com/watch?v=XJozcsc-GR4",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769808657.0650752,
+    "generated_at": 1769808722.9912148,
     "mode": "memory",
     "refresh_interval": 2000
   }
