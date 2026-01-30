@@ -595,53 +595,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "West Cost Beach House Tour \ud83d\udc1a Welcome to Bloxburg #bloxburg #shorta",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769719562.0,
-      "url": "https://www.youtube.com/watch?v=5Gb0nkFOIzE",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "RENOVATING THE BLOXBURG STARTER HOUSE INTO A FAMILY HOME",
-      "description": "bloxburg #roblox #robloxbloxburg The starter house is as tiny as a mouse...so I renovated it to be a...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769716820.0,
-      "url": "https://www.youtube.com/watch?v=TEbVgl-NwPs",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "roblox #roblox #edms #cover #gaming #edit #robloxedit #games #bassfeatured #funny #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769709669.0,
-      "url": "https://www.youtube.com/watch?v=utn23y4n9-A",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "Modern Tiny House | No Gamepas | Bloxburg Speedbuild",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769709606.0,
-      "url": "https://www.youtube.com/watch?v=ntOp4Gpu1u4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "kt\u00f3r\u0105 myszk\u0119 wybierasz? #roblox #robloxgamedesign #viral #bloxburg #3dgamedevelopment #trending",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769706405.0,
-      "url": "https://www.youtube.com/watch?v=jRhgnV5iWVI",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769765392.9941494,
+    "generated_at": 1769766592.7125187,
     "mode": "memory",
     "refresh_interval": 2000
   }
