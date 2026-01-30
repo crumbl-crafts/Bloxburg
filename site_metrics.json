@@ -473,15 +473,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1234212120393023539",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "nama.mohamad left the server",
-      "timestamp": 1769196456,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/852551150452342845",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -614,7 +605,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769800192.713504,
+    "generated_at": 1769801392.7064924,
     "mode": "memory",
     "refresh_interval": 2000
   }
