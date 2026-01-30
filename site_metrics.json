@@ -596,11 +596,11 @@
     },
     {
       "type": "trend",
-      "title": "#bloxburg",
+      "title": "Bloxburg Autumn House Layout Inspo",
       "description": "...",
       "source": "YouTube",
-      "timestamp": 1769721732.0,
-      "url": "https://www.youtube.com/watch?v=PxeBGTKziZ0",
+      "timestamp": 1769734800.0,
+      "url": "https://www.youtube.com/watch?v=XJozcsc-GR4",
       "icon": "fa-youtube"
     },
     {
@@ -641,7 +641,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769784592.7078235,
+    "generated_at": 1769785792.711202,
     "mode": "memory",
     "refresh_interval": 2000
   }
