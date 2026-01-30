@@ -551,6 +551,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Dont Mew to the sound #roblox #automobile #bloxburg #royalehigh #robloxedit #funny #help #edit",
+      "description": "Join today to participate in fights like these!!!! NethSMP_.aternos.me....",
+      "source": "YouTube",
+      "timestamp": 1769741881.0,
+      "url": "https://www.youtube.com/watch?v=imxxZpkSDFo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -583,15 +592,6 @@
       "source": "YouTube",
       "timestamp": 1769719562.0,
       "url": "https://www.youtube.com/watch?v=5Gb0nkFOIzE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "RENOVATING THE BLOXBURG STARTER HOUSE INTO A FAMILY HOME",
-      "description": "bloxburg #roblox #robloxbloxburg The starter house is as tiny as a mouse...so I renovated it to be a...",
-      "source": "YouTube",
-      "timestamp": 1769716820.0,
-      "url": "https://www.youtube.com/watch?v=TEbVgl-NwPs",
       "icon": "fa-youtube"
     },
     {
@@ -632,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769741392.7053072,
+    "generated_at": 1769742592.7081175,
     "mode": "memory",
     "refresh_interval": 2000
   }
