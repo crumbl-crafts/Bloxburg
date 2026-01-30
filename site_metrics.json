@@ -533,6 +533,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Let&#39;s tour a Modern Scandinavian House in BLOXBURG with me \ud83c\udfe0 #bloxburgbuild #bloxburg #roblox",
+      "description": "Thank you for watching. In this short, I'm touring my favorite view from the modern scandinavian hou...",
+      "source": "YouTube",
+      "timestamp": 1769810520.0,
+      "url": "https://www.youtube.com/watch?v=yRkdTqoraSo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "CALIFICANDO CASAS DE BLOXBURG EN 2026",
       "description": "S\u00edgueme en Instagram: https://www.instagram.com/fabriciosob?igsh=MTBxZWdlNzFvZnVkZg%3D%3D&utm_source...",
       "source": "YouTube",
@@ -565,15 +574,6 @@
       "source": "YouTube",
       "timestamp": 1769782705.0,
       "url": "https://www.youtube.com/watch?v=BkGqV0NbvtA",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "NEW BLOXBURG VALENTINES CAR LEAK? + RELEASE DATE",
-      "description": "BUY MY MERCH: https://acggoods.com/store/glossbossboutique OPEN ME FOR SOCIALS, MERCH & MORE! \u0c68\u09ce hey...",
-      "source": "YouTube",
-      "timestamp": 1769780411.0,
-      "url": "https://www.youtube.com/watch?v=0-d0D2wYuUc",
       "icon": "fa-youtube"
     },
     {
@@ -614,7 +614,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769812192.7086525,
+    "generated_at": 1769813392.7125406,
     "mode": "memory",
     "refresh_interval": 2000
   }
