@@ -551,6 +551,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "I BOUGHT 1 AND STEAL 2 BRAINROT 1-STRAWBERRY ELEPHANT, AND 2 - 67, AND GUESS WHAT I BOUGHT  #roblox",
+      "description": "POV: You tried to be ] but Roblox physics said no. \" \"Wait for it... the ending actually broke me. #...",
+      "source": "YouTube",
+      "timestamp": 1769767300.0,
+      "url": "https://www.youtube.com/watch?v=opU169o1PR0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "My Solar Farm \u26a1 #roblox #rblx #gaming #yosho #bloxburg #shorts",
       "description": "My Solar Farm \u26a1 #roblox #rblx #gaming #yosho #bloxburg #shorts....",
       "source": "YouTube",
@@ -583,15 +592,6 @@
       "source": "YouTube",
       "timestamp": 1769720416.0,
       "url": "https://www.youtube.com/watch?v=HW6TIu7bW8w",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "DAISY GOES VIRAL ON TIKTOK! *FELL DOWN THE STAIRS? EMBARRASSING* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1769720406.0,
-      "url": "https://www.youtube.com/watch?v=Bi2Y4cCQ-Oc",
       "icon": "fa-youtube"
     },
     {
@@ -632,7 +632,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769768992.7161942,
+    "generated_at": 1769770192.7125862,
     "mode": "memory",
     "refresh_interval": 2000
   }
