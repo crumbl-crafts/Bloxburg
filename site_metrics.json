@@ -482,24 +482,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/852551150452342845",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "nama.mohamad left the server",
-      "timestamp": 1769170135,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/852551150452342845",
-      "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "nama.mohamad joined the server",
-      "timestamp": 1769169929,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/852551150452342845",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -595,53 +577,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "DAISY GOES VIRAL ON TIKTOK! *FELL DOWN THE STAIRS? EMBARRASSING* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1769720406.0,
-      "url": "https://www.youtube.com/watch?v=Bi2Y4cCQ-Oc",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "West Cost Beach House Tour \ud83d\udc1a Welcome to Bloxburg #bloxburg #shorta",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769719562.0,
-      "url": "https://www.youtube.com/watch?v=5Gb0nkFOIzE",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "RENOVATING THE BLOXBURG STARTER HOUSE INTO A FAMILY HOME",
-      "description": "bloxburg #roblox #robloxbloxburg The starter house is as tiny as a mouse...so I renovated it to be a...",
-      "source": "YouTube",
-      "timestamp": 1769716820.0,
-      "url": "https://www.youtube.com/watch?v=TEbVgl-NwPs",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "roblox #roblox #edms #cover #gaming #edit #robloxedit #games #bassfeatured #funny #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769709669.0,
-      "url": "https://www.youtube.com/watch?v=utn23y4n9-A",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Modern Tiny House | No Gamepas | Bloxburg Speedbuild",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769709606.0,
-      "url": "https://www.youtube.com/watch?v=ntOp4Gpu1u4",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769773792.7062123,
+    "generated_at": 1769774992.7086139,
     "mode": "memory",
     "refresh_interval": 2000
   }
