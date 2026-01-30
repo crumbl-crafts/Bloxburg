@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 362,
-    "joined_today": 2,
+    "total_members": 363,
+    "joined_today": 3,
     "active_shops": 2,
     "avg_response_time": 2627.7
   },
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "ayapapaya joined the server",
+      "timestamp": 1769784173,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/622943649814151200"
+    },
     {
       "type": "new_request_thread",
       "shop_name": "Hey I am looking for this budget 500k I'll pay 250k or dm price",
@@ -551,6 +560,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "What we can expect in the next 6 months from bloxburg! #bloxburg #welcometobloxburg #bloxburgupdate",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769782705.0,
+      "url": "https://www.youtube.com/watch?v=BkGqV0NbvtA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "I BOUGHT 1 AND STEAL 2 BRAINROT 1-STRAWBERRY ELEPHANT, AND 2 - 67, AND GUESS WHAT I BOUGHT  #roblox",
       "description": "POV: You tried to be ] but Roblox physics said no. \" \"Wait for it... the ending actually broke me. #...",
       "source": "YouTube",
@@ -583,15 +601,6 @@
       "source": "YouTube",
       "timestamp": 1769721732.0,
       "url": "https://www.youtube.com/watch?v=PxeBGTKziZ0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "DAISY GOES VIRAL ON TIKTOK! *FELL DOWN THE STAIRS? EMBARRASSING* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1769720406.0,
-      "url": "https://www.youtube.com/watch?v=Bi2Y4cCQ-Oc",
       "icon": "fa-youtube"
     },
     {
@@ -632,7 +641,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769783392.7088778,
+    "generated_at": 1769784176.0972216,
     "mode": "memory",
     "refresh_interval": 2000
   }
