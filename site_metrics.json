@@ -524,6 +524,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "Najbiedniejszy dom w bloxburg \ud83e\uddd0 #roblox #rblx #robloxedit #bloxburg #robloxshorts",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769850035.0,
+      "url": "https://www.youtube.com/watch?v=4yMoQqv7vvo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "I STEAL A BRAINROT AND OPEN THE LUCKY BOX SEE WHICH BRAINROT HAVE  #roblox  #bloxburg #robloxedit",
+      "description": "POV: You tried to be ] but Roblox physics said no. \" \"Wait for it... the ending actually broke me. #...",
+      "source": "YouTube",
+      "timestamp": 1769848696.0,
+      "url": "https://www.youtube.com/watch?v=mNqlziaHhW8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "u\u017cyjesz d\u017awi\u0119ku? #roblox #robloxgamedesign #viral #bloxburg #robloxbloxburgspeedbuild #trending",
       "description": "...",
       "source": "YouTube",
@@ -547,24 +565,6 @@
       "source": "YouTube",
       "timestamp": 1769835731.0,
       "url": "https://www.youtube.com/watch?v=6D66HCx33r8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "25 by 35 house plans 3d | 25 by 35 ghar ka naksha \ud83c\udfe1 #erarman #thehouseexpert #budgethouse",
-      "description": "25 by 35 house plans 3d | 25 by 35 ghar ka naksha #erarman #thehouseexpert #budgethouse contact +919...",
-      "source": "YouTube",
-      "timestamp": 1769827423.0,
-      "url": "https://www.youtube.com/watch?v=ekFnJ425YxE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "The richest person in Bloxburg #bloxburg #gaming #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769820796.0,
-      "url": "https://www.youtube.com/watch?v=jStTs8vhR9I",
       "icon": "fa-youtube"
     },
     {
@@ -605,7 +605,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769851793.0737824,
+    "generated_at": 1769852992.7164009,
     "mode": "memory",
     "refresh_interval": 2000
   }
