@@ -524,15 +524,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "Najbiedniejszy dom w bloxburg \ud83e\uddd0 #roblox #rblx #robloxedit #bloxburg #robloxshorts",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769850035.0,
-      "url": "https://www.youtube.com/watch?v=4yMoQqv7vvo",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "I STEAL A BRAINROT AND OPEN THE LUCKY BOX SEE WHICH BRAINROT HAVE  #roblox  #bloxburg #robloxedit",
       "description": "POV: You tried to be ] but Roblox physics said no. \" \"Wait for it... the ending actually broke me. #...",
       "source": "YouTube",
@@ -568,44 +559,62 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "25 by 35 house plans 3d | 25 by 35 ghar ka naksha \ud83c\udfe1 #erarman #thehouseexpert #budgethouse",
+      "description": "25 by 35 house plans 3d | 25 by 35 ghar ka naksha #erarman #thehouseexpert #budgethouse contact +919...",
+      "source": "YouTube",
+      "timestamp": 1769827423.0,
+      "url": "https://www.youtube.com/watch?v=ekFnJ425YxE",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "The richest person in Bloxburg #bloxburg #gaming #roblox",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769820796.0,
+      "url": "https://www.youtube.com/watch?v=jStTs8vhR9I",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "#enterthebackrooms#robloxmemes#robloxedit#videogamememes #13million#bloxburg#funnyimages#robloxstory",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769814784.0,
+      "url": "https://www.youtube.com/watch?v=Gcy8UGW0usY",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "VALENTINES UPDATE SNEAK PEEK *NEW CAR* - Bloxburg #bloxburg #welcometobloxburg #roblox #viral",
+      "description": "VALENTINES UPDATE SNEAK PEEK *NEW CAR* - Bloxburg #bloxburg #welcometobloxburg #roblox #viral....",
+      "source": "YouTube",
+      "timestamp": 1769814123.0,
+      "url": "https://www.youtube.com/watch?v=PtneffLz8BY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "BLOXBURG VALENTINES UPDATE RELEASE DATE #roblox #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769813301.0,
+      "url": "https://www.youtube.com/watch?v=ACPOAZjzHRU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Let&#39;s tour a Modern Scandinavian House in BLOXBURG with me \ud83c\udfe0 #bloxburgbuild #bloxburg #roblox",
+      "description": "Thank you for watching. In this short, I'm touring my favorite view from the modern scandinavian hou...",
+      "source": "YouTube",
+      "timestamp": 1769810520.0,
+      "url": "https://www.youtube.com/watch?v=yRkdTqoraSo",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769852992.7164009,
+    "generated_at": 1769854192.7038453,
     "mode": "memory",
     "refresh_interval": 2000
   }
