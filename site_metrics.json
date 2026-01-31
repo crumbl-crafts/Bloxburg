@@ -515,6 +515,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "We moved on from these too fast - Bloxburg #bloxburg #roblox #bloxburgupdate #viral #bloxburgbuild",
+      "description": "We moved on from these too fast - Bloxburg #bloxburg #roblox #bloxburgupdate #viral #bloxburgbuild....",
+      "source": "YouTube",
+      "timestamp": 1769876203.0,
+      "url": "https://www.youtube.com/watch?v=oMmCuJamsKM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Mais Voc\u00ea: Lucas Gabriel \u00e9 o segundo eliminado do bbb bloxburg! | Globo Roblox",
       "description": "Hoje no Mais Voc\u00ea, Ana Maria recebe Lucas Gabriel para um caf\u00e9 da manh\u00e3 especial \u2615\u2728 Ele foi o 2\u00ba eli...",
       "source": "YouTube",
@@ -547,15 +556,6 @@
       "source": "YouTube",
       "timestamp": 1769846845.0,
       "url": "https://www.youtube.com/watch?v=B73Msi-S-io",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "January 31, 2026 #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769840012.0,
-      "url": "https://www.youtube.com/watch?v=5A9byReFdRM",
       "icon": "fa-youtube"
     },
     {
@@ -596,7 +596,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769876992.7067714,
+    "generated_at": 1769878192.7194471,
     "mode": "memory",
     "refresh_interval": 2000
   }
