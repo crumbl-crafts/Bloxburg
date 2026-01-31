@@ -515,11 +515,20 @@
   "news": [
     {
       "type": "trend",
-      "title": "I STEAL A BRAINROT AND OPEN THE LUCKY BOX SEE WHICH BRAINROT HAVE  #roblox  #bloxburg #robloxedit",
+      "title": "#sad #ytdayibenionecikarnolur #games #love #bloxburg #bloxburg #blackpink #dahood #automobile",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769869196.0,
+      "url": "https://www.youtube.com/watch?v=B9BFXfkX7iE",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "WAIT AND WATCH LAST SCENE IS INSANE  #roblox #adoptme #aestheticroblox #mugiwaraluffy #gear5",
       "description": "POV: You tried to be ] but Roblox physics said no. \" \"Wait for it... the ending actually broke me. #...",
       "source": "YouTube",
-      "timestamp": 1769848696.0,
-      "url": "https://www.youtube.com/watch?v=mNqlziaHhW8",
+      "timestamp": 1769863844.0,
+      "url": "https://www.youtube.com/watch?v=TOlaH7TmWxc",
       "icon": "fa-youtube"
     },
     {
@@ -559,44 +568,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "this happens to me SO MUCH #roblox #bloxburg #bloxburgbuild #relatable #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769825341.0,
+      "url": "https://www.youtube.com/watch?v=9md5kTGITb8",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "The richest person in Bloxburg #bloxburg #gaming #roblox",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769820796.0,
+      "url": "https://www.youtube.com/watch?v=jStTs8vhR9I",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "#enterthebackrooms#robloxmemes#robloxedit#videogamememes #13million#bloxburg#funnyimages#robloxstory",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769814784.0,
+      "url": "https://www.youtube.com/watch?v=Gcy8UGW0usY",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "VALENTINES UPDATE SNEAK PEEK *NEW CAR* - Bloxburg #bloxburg #welcometobloxburg #roblox #viral",
+      "description": "VALENTINES UPDATE SNEAK PEEK *NEW CAR* - Bloxburg #bloxburg #welcometobloxburg #roblox #viral....",
+      "source": "YouTube",
+      "timestamp": 1769814123.0,
+      "url": "https://www.youtube.com/watch?v=PtneffLz8BY",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769869792.729464,
+    "generated_at": 1769870992.709666,
     "mode": "memory",
     "refresh_interval": 2000
   }
