@@ -515,6 +515,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "I STEAL A BRAINROT AND OPEN THE LUCKY BOX SEE WHICH BRAINROT HAVE  #roblox  #bloxburg #robloxedit",
+      "description": "POV: You tried to be ] but Roblox physics said no. \" \"Wait for it... the ending actually broke me. #...",
+      "source": "YouTube",
+      "timestamp": 1769848696.0,
+      "url": "https://www.youtube.com/watch?v=mNqlziaHhW8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "u\u017cyjesz d\u017awi\u0119ku? #roblox #robloxgamedesign #viral #bloxburg #robloxbloxburgspeedbuild #trending",
       "description": "...",
       "source": "YouTube",
@@ -547,15 +556,6 @@
       "source": "YouTube",
       "timestamp": 1769827423.0,
       "url": "https://www.youtube.com/watch?v=ekFnJ425YxE",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "The richest person in Bloxburg #bloxburg #gaming #roblox",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769820796.0,
-      "url": "https://www.youtube.com/watch?v=jStTs8vhR9I",
       "icon": "fa-youtube"
     },
     {
@@ -596,7 +596,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769867992.9995568,
+    "generated_at": 1769868592.7059653,
     "mode": "memory",
     "refresh_interval": 2000
   }
