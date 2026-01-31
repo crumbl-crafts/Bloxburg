@@ -515,29 +515,20 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #bloxburg #automobile #royalehigh #roleplay #animation \ud83d\udd2awho is the YouTuber I hate\ud83d\udd2a",
+      "description": "mm2 viral fyp fypppp....",
+      "source": "YouTube",
+      "timestamp": 1769835731.0,
+      "url": "https://www.youtube.com/watch?v=6D66HCx33r8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "The richest person in Bloxburg #bloxburg #gaming #roblox",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1769820796.0,
       "url": "https://www.youtube.com/watch?v=jStTs8vhR9I",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#enterthebackrooms#robloxmemes#robloxedit#videogamememes #13million#bloxburg#funnyimages#robloxstory",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769814784.0,
-      "url": "https://www.youtube.com/watch?v=Gcy8UGW0usY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "VALENTINES UPDATE SNEAK PEEK *NEW CAR* - Bloxburg #bloxburg #welcometobloxburg #roblox #viral",
-      "description": "VALENTINES UPDATE SNEAK PEEK *NEW CAR* - Bloxburg #bloxburg #welcometobloxburg #roblox #viral....",
-      "source": "YouTube",
-      "timestamp": 1769814123.0,
-      "url": "https://www.youtube.com/watch?v=PtneffLz8BY",
       "icon": "fa-youtube"
     },
     {
@@ -559,44 +550,62 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "CALIFICANDO CASAS DE BLOXBURG EN 2026",
+      "description": "S\u00edgueme en Instagram: https://www.instagram.com/fabriciosob?igsh=MTBxZWdlNzFvZnVkZg%3D%3D&utm_source...",
+      "source": "YouTube",
+      "timestamp": 1769803213.0,
+      "url": "https://www.youtube.com/watch?v=G3sqK1nQncA",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "element build battle bloxburg\u2764\ufe0f\u200d\ud83d\udd25 #roblox #bloxburg #robloxshorts #robloxbloxburg #robloxedit #dti",
+      "description": "Roblox bloxburg elements....",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769802497.0,
+      "url": "https://www.youtube.com/watch?v=77HNbsndP9w",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "New house in the sims 4 #thesims4 #sims4 #ts4 #sims4build",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769800774.0,
+      "url": "https://www.youtube.com/watch?v=CrVvQuDu4Ts",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Were RoMart!! #fyp\u30b7\u309aviral #fyp  #foryoupage  #roblox  #faq  #romart #shopping",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769797747.0,
+      "url": "https://www.youtube.com/watch?v=1PnZvwaO5L0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Work at a Pizza \ud83c\udf55 Place #roblox #bloxburg  #robloxshorts #shorts",
+      "description": "Work at a Pizza Place #roblox #bloxburg #robloxshorts #shorts....",
+      "source": "YouTube",
+      "timestamp": 1769790615.0,
+      "url": "https://www.youtube.com/watch?v=CHd1s7Cjj8w",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Girl meets world..but in bloxburg! #bloxburg #roblox #viral #fyp\u30b7 #foryou #shorts",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769788767.0,
+      "url": "https://www.youtube.com/watch?v=LgCeFCXoRFY",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769837392.7094047,
+    "generated_at": 1769838592.7088525,
     "mode": "memory",
     "refresh_interval": 2000
   }
