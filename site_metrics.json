@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 363,
-    "joined_today": 0,
+    "total_members": 364,
+    "joined_today": 1,
     "active_shops": 2,
     "avg_response_time": 2627.7
   },
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "kungjoel joined the server",
+      "timestamp": 1769849199,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/802917474294562846"
+    },
     {
       "type": "member_leave",
       "shop_name": "Server",
@@ -515,6 +524,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "u\u017cyjesz d\u017awi\u0119ku? #roblox #robloxgamedesign #viral #bloxburg #robloxbloxburgspeedbuild #trending",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769846845.0,
+      "url": "https://www.youtube.com/watch?v=B73Msi-S-io",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "January 31, 2026 #bloxburg",
       "description": "...",
       "source": "YouTube",
@@ -547,15 +565,6 @@
       "source": "YouTube",
       "timestamp": 1769820796.0,
       "url": "https://www.youtube.com/watch?v=jStTs8vhR9I",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#enterthebackrooms#robloxmemes#robloxedit#videogamememes #13million#bloxburg#funnyimages#robloxstory",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769814784.0,
-      "url": "https://www.youtube.com/watch?v=Gcy8UGW0usY",
       "icon": "fa-youtube"
     },
     {
@@ -596,7 +605,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769848192.7049005,
+    "generated_at": 1769849202.4677653,
     "mode": "memory",
     "refresh_interval": 2000
   }
