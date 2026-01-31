@@ -578,6 +578,15 @@
     },
     {
       "type": "trend",
+      "title": "A NEW BLOXBURG VALENTINES UPDATE TEASER IS HERE! NEW CAR, AND EVENT AREA...",
+      "description": "so bloxburg just posted their second teaser for the upcoming new valentine's update! it'll be here n...",
+      "source": "YouTube",
+      "timestamp": 1769825323.0,
+      "url": "https://www.youtube.com/watch?v=TsU019lgleg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "The richest person in Bloxburg #bloxburg #gaming #roblox",
       "description": "...",
       "source": "YouTube",
@@ -593,19 +602,10 @@
       "timestamp": 1769814784.0,
       "url": "https://www.youtube.com/watch?v=Gcy8UGW0usY",
       "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "VALENTINES UPDATE SNEAK PEEK *NEW CAR* - Bloxburg #bloxburg #welcometobloxburg #roblox #viral",
-      "description": "VALENTINES UPDATE SNEAK PEEK *NEW CAR* - Bloxburg #bloxburg #welcometobloxburg #roblox #viral....",
-      "source": "YouTube",
-      "timestamp": 1769814123.0,
-      "url": "https://www.youtube.com/watch?v=PtneffLz8BY",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769870992.709666,
+    "generated_at": 1769872192.72029,
     "mode": "memory",
     "refresh_interval": 2000
   }
