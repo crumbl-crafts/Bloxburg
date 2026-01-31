@@ -524,6 +524,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "They Pranked Me in Class \ud83d\ude02\ud83d\udc94 #roblox  #ste  #robloxedit #stealabra #gaming #bloxburg #robloxmemes",
+      "description": "They Pranked Me in Class #roblox #stem #robloxedit #stealabra #gaming #bloxburg #robloxmemes....",
+      "source": "YouTube",
+      "timestamp": 1769880023.0,
+      "url": "https://www.youtube.com/watch?v=w4eT3qjfTEY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "We moved on from these too fast - Bloxburg #bloxburg #roblox #bloxburgupdate #viral #bloxburgbuild",
       "description": "We moved on from these too fast - Bloxburg #bloxburg #roblox #bloxburgupdate #viral #bloxburgbuild....",
       "source": "YouTube",
@@ -602,19 +611,10 @@
       "timestamp": 1769827423.0,
       "url": "https://www.youtube.com/watch?v=ekFnJ425YxE",
       "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "this happens to me SO MUCH #roblox #bloxburg #bloxburgbuild #relatable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769825341.0,
-      "url": "https://www.youtube.com/watch?v=9md5kTGITb8",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769880672.9738338,
+    "generated_at": 1769881792.7103453,
     "mode": "memory",
     "refresh_interval": 2000
   }
