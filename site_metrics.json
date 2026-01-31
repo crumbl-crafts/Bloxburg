@@ -524,15 +524,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "I STEAL A BRAINROT AND OPEN THE LUCKY BOX SEE WHICH BRAINROT HAVE  #roblox  #bloxburg #robloxedit",
-      "description": "POV: You tried to be ] but Roblox physics said no. \" \"Wait for it... the ending actually broke me. #...",
-      "source": "YouTube",
-      "timestamp": 1769848696.0,
-      "url": "https://www.youtube.com/watch?v=mNqlziaHhW8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "u\u017cyjesz d\u017awi\u0119ku? #roblox #robloxgamedesign #viral #bloxburg #robloxbloxburgspeedbuild #trending",
       "description": "...",
       "source": "YouTube",
@@ -577,44 +568,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "#enterthebackrooms#robloxmemes#robloxedit#videogamememes #13million#bloxburg#funnyimages#robloxstory",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769814784.0,
-      "url": "https://www.youtube.com/watch?v=Gcy8UGW0usY",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "VALENTINES UPDATE SNEAK PEEK *NEW CAR* - Bloxburg #bloxburg #welcometobloxburg #roblox #viral",
-      "description": "VALENTINES UPDATE SNEAK PEEK *NEW CAR* - Bloxburg #bloxburg #welcometobloxburg #roblox #viral....",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769814123.0,
-      "url": "https://www.youtube.com/watch?v=PtneffLz8BY",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "BLOXBURG VALENTINES UPDATE RELEASE DATE #roblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769813301.0,
-      "url": "https://www.youtube.com/watch?v=ACPOAZjzHRU",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "Let&#39;s tour a Modern Scandinavian House in BLOXBURG with me \ud83c\udfe0 #bloxburgbuild #bloxburg #roblox",
-      "description": "Thank you for watching. In this short, I'm touring my favorite view from the modern scandinavian hou...",
-      "source": "YouTube",
-      "timestamp": 1769810520.0,
-      "url": "https://www.youtube.com/watch?v=yRkdTqoraSo",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769855392.71682,
+    "generated_at": 1769856592.7095265,
     "mode": "memory",
     "refresh_interval": 2000
   }
