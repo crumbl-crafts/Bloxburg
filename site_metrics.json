@@ -464,33 +464,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/766469644621185024",
       "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "Bloxlink joined the server",
-      "timestamp": 1769287772,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/426537812993638400",
-      "thread_id": null
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "hid3nori joined the server",
-      "timestamp": 1769287398,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1098992055272878081",
-      "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "hid3nori left the server",
-      "timestamp": 1769287355,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1098992055272878081",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -542,6 +515,24 @@
   "news": [
     {
       "type": "trend",
+      "title": "I BUILT A MEDIEVAL MANSION IN BLOXBURG",
+      "description": "bloxburg #roblox #robloxbloxburg Technology has ruined our existence so I take us back to the mediev...",
+      "source": "YouTube",
+      "timestamp": 1769889620.0,
+      "url": "https://www.youtube.com/watch?v=FenFLRGVSMA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Make sure you STOCK UP!!",
+      "description": "bloxburg #roblox #robloxbloxburg #explorepage #fyp....",
+      "source": "YouTube",
+      "timestamp": 1769889419.0,
+      "url": "https://www.youtube.com/watch?v=r9Q0wYWn94c",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#music #rap #roblox #bloxburg #hindisong #robloxedit #hiphop #funny #aldc #kids #desihiphop",
       "description": "rap....",
       "source": "YouTube",
@@ -565,24 +556,6 @@
       "source": "YouTube",
       "timestamp": 1769876203.0,
       "url": "https://www.youtube.com/watch?v=oMmCuJamsKM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg: Realistic MEGA Mansion Modern House | House Build | Roblox | Part One",
-      "description": "Hewoo!! Join my Group: https://www.roblox.com/groups/8693713... Tiktok: https://www.tiktok.com/@just...",
-      "source": "YouTube",
-      "timestamp": 1769875713.0,
-      "url": "https://www.youtube.com/watch?v=kozjwY0IP-0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Mais Voc\u00ea: Lucas Gabriel \u00e9 o segundo eliminado do bbb bloxburg! | Globo Roblox",
-      "description": "Hoje no Mais Voc\u00ea, Ana Maria recebe Lucas Gabriel para um caf\u00e9 da manh\u00e3 especial \u2615\u2728 Ele foi o 2\u00ba eli...",
-      "source": "YouTube",
-      "timestamp": 1769871606.0,
-      "url": "https://www.youtube.com/watch?v=jYE39tcKQTk",
       "icon": "fa-youtube"
     },
     {
@@ -623,7 +596,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769891392.7097464,
+    "generated_at": 1769892592.7090123,
     "mode": "memory",
     "refresh_interval": 2000
   }
