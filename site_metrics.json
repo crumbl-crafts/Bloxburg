@@ -559,44 +559,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "VALENTINES UPDATE SNEAK PEEK *NEW CAR* - Bloxburg #bloxburg #welcometobloxburg #roblox #viral",
+      "description": "VALENTINES UPDATE SNEAK PEEK *NEW CAR* - Bloxburg #bloxburg #welcometobloxburg #roblox #viral....",
+      "source": "YouTube",
+      "timestamp": 1769814123.0,
+      "url": "https://www.youtube.com/watch?v=PtneffLz8BY",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "BLOXBURG VALENTINES UPDATE RELEASE DATE #roblox #bloxburg",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769813301.0,
+      "url": "https://www.youtube.com/watch?v=ACPOAZjzHRU",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "Let&#39;s tour a Modern Scandinavian House in BLOXBURG with me \ud83c\udfe0 #bloxburgbuild #bloxburg #roblox",
+      "description": "Thank you for watching. In this short, I'm touring my favorite view from the modern scandinavian hou...",
+      "source": "YouTube",
+      "timestamp": 1769810520.0,
+      "url": "https://www.youtube.com/watch?v=yRkdTqoraSo",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "CALIFICANDO CASAS DE BLOXBURG EN 2026",
+      "description": "S\u00edgueme en Instagram: https://www.instagram.com/fabriciosob?igsh=MTBxZWdlNzFvZnVkZg%3D%3D&utm_source...",
+      "source": "YouTube",
+      "timestamp": 1769803213.0,
+      "url": "https://www.youtube.com/watch?v=G3sqK1nQncA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "element build battle bloxburg\u2764\ufe0f\u200d\ud83d\udd25 #roblox #bloxburg #robloxshorts #robloxbloxburg #robloxedit #dti",
+      "description": "Roblox bloxburg elements....",
+      "source": "YouTube",
+      "timestamp": 1769802497.0,
+      "url": "https://www.youtube.com/watch?v=77HNbsndP9w",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769842192.708834,
+    "generated_at": 1769843392.7101362,
     "mode": "memory",
     "refresh_interval": 2000
   }
