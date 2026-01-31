@@ -464,15 +464,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1280004092550451252",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "izumi_97527 left the server",
-      "timestamp": 1769256408,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1426014678483730616",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -605,7 +596,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769860192.7098002,
+    "generated_at": 1769861392.7224238,
     "mode": "memory",
     "refresh_interval": 2000
   }
