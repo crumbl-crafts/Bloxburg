@@ -487,44 +487,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "Make sure you STOCK UP!!",
+      "description": "bloxburg #roblox #robloxbloxburg #explorepage #fyp....",
+      "source": "YouTube",
+      "timestamp": 1769889419.0,
+      "url": "https://www.youtube.com/watch?v=r9Q0wYWn94c",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "January 31, 2026",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769887643.0,
+      "url": "https://www.youtube.com/watch?v=vR7iwxBPfNA",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "#music #rap #roblox #bloxburg #hindisong #robloxedit #hiphop #funny #aldc #kids #desihiphop",
+      "description": "rap....",
+      "source": "YouTube",
+      "timestamp": 1769886068.0,
+      "url": "https://www.youtube.com/watch?v=Zc2sko3gKOs",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Day 9 of building a lego city #lego501st #bloxburg #haveitoldyoulatelythatiloveyou",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769884702.0,
+      "url": "https://www.youtube.com/watch?v=MyPhpGAKP2s",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "499 item lago meu pc ?",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769884599.0,
+      "url": "https://www.youtube.com/watch?v=iHH8NhIpS9U",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769930992.7078826,
+    "generated_at": 1769932192.708007,
     "mode": "memory",
     "refresh_interval": 2000
   }
