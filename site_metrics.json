@@ -470,6 +470,15 @@
     },
     {
       "type": "trend",
+      "title": "HARDMODE\ud83e\udd2f #usa",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769907600.0,
+      "url": "https://www.youtube.com/watch?v=j3pgkTbMLc8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "im js nonchalant like that #trend #thestrongestbattlegrounds #roblox #tsb",
       "description": "...",
       "source": "YouTube",
@@ -487,44 +496,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "SOPHIE HAS HER FIRST BOXING MATCH! *BROKEN LEG?* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1769893206.0,
+      "url": "https://www.youtube.com/watch?v=wZPjtfvfcj4",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "I BUILT A MEDIEVAL MANSION IN BLOXBURG",
+      "description": "bloxburg #roblox #robloxbloxburg Technology has ruined our existence so I take us back to the mediev...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769889620.0,
+      "url": "https://www.youtube.com/watch?v=FenFLRGVSMA",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "Make sure you STOCK UP!!",
+      "description": "bloxburg #roblox #robloxbloxburg #explorepage #fyp....",
+      "source": "YouTube",
+      "timestamp": 1769889419.0,
+      "url": "https://www.youtube.com/watch?v=r9Q0wYWn94c",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "January 31, 2026",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769887643.0,
+      "url": "https://www.youtube.com/watch?v=vR7iwxBPfNA",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769939392.7052205,
+    "generated_at": 1769940592.705406,
     "mode": "memory",
     "refresh_interval": 2000
   }
