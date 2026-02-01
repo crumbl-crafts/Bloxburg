@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 364,
+    "total_members": 363,
     "joined_today": 3,
     "active_shops": 2,
     "avg_response_time": 2627.7
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "supermario_9071 left the server",
+      "timestamp": 1769965102,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1236654127531036733"
+    },
     {
       "type": "new_request_thread",
       "shop_name": "LF a Builder!",
@@ -542,7 +551,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769964930.4793818,
+    "generated_at": 1769965105.3119013,
     "mode": "memory",
     "refresh_interval": 2000
   }
