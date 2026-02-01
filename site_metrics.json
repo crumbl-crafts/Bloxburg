@@ -428,15 +428,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1464856536001282171",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "deronplayzz left the server",
-      "timestamp": 1769315873,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/230495923858309121",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -569,7 +560,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769920192.7130141,
+    "generated_at": 1769921392.7079878,
     "mode": "memory",
     "refresh_interval": 2000
   }
