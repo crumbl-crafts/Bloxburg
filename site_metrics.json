@@ -443,6 +443,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Dont hack the sound #bloxburg #gaming #robloxedit #minecraft #dream #wembu #minecraftbuilding #funny",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769934289.0,
+      "url": "https://www.youtube.com/watch?v=CSReonQHp4Y",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "roblox \ud83d\udccdbloxburg #roblox #bloxburg #games",
       "description": "...",
       "source": "YouTube",
@@ -475,15 +484,6 @@
       "source": "YouTube",
       "timestamp": 1769893206.0,
       "url": "https://www.youtube.com/watch?v=wZPjtfvfcj4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I BUILT A MEDIEVAL MANSION IN BLOXBURG",
-      "description": "bloxburg #roblox #robloxbloxburg Technology has ruined our existence so I take us back to the mediev...",
-      "source": "YouTube",
-      "timestamp": 1769889620.0,
-      "url": "https://www.youtube.com/watch?v=FenFLRGVSMA",
       "icon": "fa-youtube"
     },
     {
@@ -524,7 +524,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769934592.7100163,
+    "generated_at": 1769935792.708665,
     "mode": "memory",
     "refresh_interval": 2000
   }
