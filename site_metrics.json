@@ -479,6 +479,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Bloxburg TonyStar House #bloxburg #lleopatric #bloxburghouses #bloxburgdecalcodes",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769893918.0,
+      "url": "https://www.youtube.com/watch?v=whZnJQfAZug",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "SOPHIE HAS HER FIRST BOXING MATCH! *BROKEN LEG?* Roblox Bloxburg Voiced RP Roleplay",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
       "source": "YouTube",
@@ -542,34 +551,25 @@
     },
     {
       "type": "trend",
+      "title": "499 item lago meu pc ?",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769884599.0,
+      "url": "https://www.youtube.com/watch?v=iHH8NhIpS9U",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "BLOXBURG: No-Gamepass Luxury European Villa Speedbuild | Roblox House Build",
       "description": "Hello builders! In this video i am building a BLOXBURG: No-Gamepass Luxury European Villa Speedbuild...",
       "source": "YouTube",
       "timestamp": 1769880626.0,
       "url": "https://www.youtube.com/watch?v=1Uq83ggpeyw",
       "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "They Pranked Me in Class \ud83d\ude02\ud83d\udc94 #roblox  #ste  #robloxedit #stealabra #gaming #bloxburg #robloxmemes",
-      "description": "They Pranked Me in Class #roblox #stem #robloxedit #stealabra #gaming #bloxburg #robloxmemes....",
-      "source": "YouTube",
-      "timestamp": 1769880023.0,
-      "url": "https://www.youtube.com/watch?v=w4eT3qjfTEY",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "We moved on from these too fast - Bloxburg #bloxburg #roblox #bloxburgupdate #viral #bloxburgbuild",
-      "description": "We moved on from these too fast - Bloxburg #bloxburg #roblox #bloxburgupdate #viral #bloxburgbuild....",
-      "source": "YouTube",
-      "timestamp": 1769876203.0,
-      "url": "https://www.youtube.com/watch?v=oMmCuJamsKM",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769906992.7140968,
+    "generated_at": 1769908192.7134404,
     "mode": "memory",
     "refresh_interval": 2000
   }
