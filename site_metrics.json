@@ -428,15 +428,6 @@
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1189015043795333164",
       "thread_id": null
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "callmechef2884 left the server",
-      "timestamp": 1769299987,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/375413377754857472",
-      "thread_id": null
     }
   ],
   "pipeline": [
@@ -569,7 +560,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769904592.710363,
+    "generated_at": 1769905792.7226274,
     "mode": "memory",
     "refresh_interval": 2000
   }
