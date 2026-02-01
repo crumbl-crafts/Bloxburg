@@ -506,6 +506,24 @@
     },
     {
       "type": "trend",
+      "title": "target run w me! \ud83d\uded2\ud83d\udecd\ufe0f\ud83c\udf3a\ud83c\udf34\ud83d\udc2c #preppyzepeto #zepetostyle #preppy",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769888197.0,
+      "url": "https://www.youtube.com/watch?v=xRCsTrzAjxg",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "January 31, 2026",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769887643.0,
+      "url": "https://www.youtube.com/watch?v=vR7iwxBPfNA",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#music #rap #roblox #bloxburg #hindisong #robloxedit #hiphop #funny #aldc #kids #desihiphop",
       "description": "rap....",
       "source": "YouTube",
@@ -523,44 +541,35 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "BLOXBURG: No-Gamepass Luxury European Villa Speedbuild | Roblox House Build",
+      "description": "Hello builders! In this video i am building a BLOXBURG: No-Gamepass Luxury European Villa Speedbuild...",
+      "source": "YouTube",
+      "timestamp": 1769880626.0,
+      "url": "https://www.youtube.com/watch?v=1Uq83ggpeyw",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "They Pranked Me in Class \ud83d\ude02\ud83d\udc94 #roblox  #ste  #robloxedit #stealabra #gaming #bloxburg #robloxmemes",
+      "description": "They Pranked Me in Class #roblox #stem #robloxedit #stealabra #gaming #bloxburg #robloxmemes....",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769880023.0,
+      "url": "https://www.youtube.com/watch?v=w4eT3qjfTEY",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
-    },
-    {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "We moved on from these too fast - Bloxburg #bloxburg #roblox #bloxburgupdate #viral #bloxburgbuild",
+      "description": "We moved on from these too fast - Bloxburg #bloxburg #roblox #bloxburgupdate #viral #bloxburgbuild....",
+      "source": "YouTube",
+      "timestamp": 1769876203.0,
+      "url": "https://www.youtube.com/watch?v=oMmCuJamsKM",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769905793.029692,
+    "generated_at": 1769906992.7140968,
     "mode": "memory",
     "refresh_interval": 2000
   }
