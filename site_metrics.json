@@ -7,8 +7,8 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 363,
-    "joined_today": 3,
+    "total_members": 364,
+    "joined_today": 4,
     "active_shops": 2,
     "avg_response_time": 2627.7
   },
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_join",
+      "shop_name": "Server",
+      "message": "nutterbuttersucker joined the server",
+      "timestamp": 1769976522,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1245537625746571303"
+    },
     {
       "type": "member_leave",
       "shop_name": "Server",
@@ -479,15 +488,6 @@
     },
     {
       "type": "trend",
-      "title": "Cocinando en Bloxburg #roleplay #bloxburg #lleopatric #roblox #bloxburgroleplay #bloxburgbuilder",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769967133.0,
-      "url": "https://www.youtube.com/watch?v=nTwJecwmLJM",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "Bloxburg Money Hacks YOU Don&#39;t Know",
       "description": "Money hacks that will help you become rich in Bloxburg! Join my neighborhood! Want your builds to be...",
       "source": "YouTube",
@@ -523,44 +523,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "roblox \ud83d\udccdbloxburg #roblox #bloxburg #games",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769926026.0,
-      "url": "https://www.youtube.com/watch?v=XGg4v1lgaGk",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "\ub85c\ube14\ub85d\uc2a4 \uac8c\uc784 \ucd94\ucc9c \u203c\ufe0f\ud83d\ude3d#\ub85c\ube14\ub85d\uc2a4#\uac8c\uc784\ucd94\ucc9c#\ucd94\ucc9c\ucd94\ucc9c\ucd94\ucc9c\ucd94\ucc9c\ucd94\ucc9c\ucd94\ucc9c\ucd94\ucc9c\ucd94\ucc9c\ucd94\ucc9c\ucd94\ucc9c",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769924091.0,
-      "url": "https://www.youtube.com/watch?v=6cOdWgitrK4",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "#robloxedit #roblox #bloxburg #funny #viral #games #robloxbloxburgspeedbuild #automobile",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769923692.0,
-      "url": "https://www.youtube.com/watch?v=mN9mgG3J2U8",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "32x40 house plans 3d \ud83c\udfe1 #erarman #thehouseexpert #houseplans #roblox",
-      "description": "32x40 house plans 3d #erarman #thehouseexpert #houseplans #housedesign #budgethouse #bloxburg # #rob...",
-      "source": "YouTube",
-      "timestamp": 1769912851.0,
-      "url": "https://www.youtube.com/watch?v=yYFQO30CKe8",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769975993.0109673,
+    "generated_at": 1769976525.4620483,
     "mode": "memory",
     "refresh_interval": 2000
   }
