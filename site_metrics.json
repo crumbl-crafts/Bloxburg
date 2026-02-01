@@ -514,44 +514,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "32x40 house plans 3d \ud83c\udfe1 #erarman #thehouseexpert #houseplans #roblox",
+      "description": "32x40 house plans 3d #erarman #thehouseexpert #houseplans #housedesign #budgethouse #bloxburg # #rob...",
+      "source": "YouTube",
+      "timestamp": 1769912851.0,
+      "url": "https://www.youtube.com/watch?v=yYFQO30CKe8",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "HARDMODE\ud83e\udd2f #usa",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769907600.0,
+      "url": "https://www.youtube.com/watch?v=j3pgkTbMLc8",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "im js nonchalant like that #trend #thestrongestbattlegrounds #roblox #tsb",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769899330.0,
+      "url": "https://www.youtube.com/watch?v=9_rk9nD3l20",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Bloxburg TonyStar House #bloxburg #lleopatric #bloxburghouses #bloxburgdecalcodes",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769893918.0,
+      "url": "https://www.youtube.com/watch?v=whZnJQfAZug",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "SOPHIE HAS HER FIRST BOXING MATCH! *BROKEN LEG?* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1769893206.0,
+      "url": "https://www.youtube.com/watch?v=wZPjtfvfcj4",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769965193.031271,
+    "generated_at": 1769965792.707998,
     "mode": "memory",
     "refresh_interval": 2000
   }
