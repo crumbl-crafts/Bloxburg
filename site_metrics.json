@@ -479,6 +479,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "MY DAUGHTERS FAMILY SICK DAY ROUTINE! *SHE NEEDS CRUTCHES?* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1769979606.0,
+      "url": "https://www.youtube.com/watch?v=GoIWHVzVe7A",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "GO STOCK UP!! \ud83d\udecb\ufe0f #roblox #bloxburg #bloxburgbuild #relateable #fyp",
       "description": "...",
       "source": "YouTube",
@@ -514,62 +523,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "DAISY PEACH WANTS TO BREAK SOPHIE PEACH&#39;S LEG! #shorts #roblox #roleplay #bloxburg #hospital",
-      "description": "DAISY PEACH WANTS TO BREAK SOPHIE PEACH'S LEG! Make sure to like and check out the full video in the...",
-      "source": "YouTube",
-      "timestamp": 1769940023.0,
-      "url": "https://www.youtube.com/watch?v=HAn4IaqNceI",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "Dont hack the sound #bloxburg #gaming #robloxedit #minecraft #dream #wembu #minecraftbuilding #funny",
-      "description": "...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769934289.0,
-      "url": "https://www.youtube.com/watch?v=CSReonQHp4Y",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "roblox \ud83d\udccdbloxburg #roblox #bloxburg #games",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769926026.0,
-      "url": "https://www.youtube.com/watch?v=XGg4v1lgaGk",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "\ub85c\ube14\ub85d\uc2a4 \uac8c\uc784 \ucd94\ucc9c \u203c\ufe0f\ud83d\ude3d#\ub85c\ube14\ub85d\uc2a4#\uac8c\uc784\ucd94\ucc9c#\ucd94\ucc9c\ucd94\ucc9c\ucd94\ucc9c\ucd94\ucc9c\ucd94\ucc9c\ucd94\ucc9c\ucd94\ucc9c\ucd94\ucc9c\ucd94\ucc9c\ucd94\ucc9c",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769924091.0,
-      "url": "https://www.youtube.com/watch?v=6cOdWgitrK4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#robloxedit #roblox #bloxburg #funny #viral #games #robloxbloxburgspeedbuild #automobile",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769923692.0,
-      "url": "https://www.youtube.com/watch?v=mN9mgG3J2U8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "32x40 house plans 3d \ud83c\udfe1 #erarman #thehouseexpert #houseplans #roblox",
-      "description": "32x40 house plans 3d #erarman #thehouseexpert #houseplans #housedesign #budgethouse #bloxburg # #rob...",
-      "source": "YouTube",
-      "timestamp": 1769912851.0,
-      "url": "https://www.youtube.com/watch?v=yYFQO30CKe8",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769981393.067772,
+    "generated_at": 1769982592.713555,
     "mode": "memory",
     "refresh_interval": 2000
   }
