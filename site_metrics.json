@@ -470,6 +470,33 @@
   "news": [
     {
       "type": "trend",
+      "title": "Tips para construir en bloxburg #bloxburg #tips #bloxburgbuilder #bloxburghouses #bloxburgroleplay",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769967433.0,
+      "url": "https://www.youtube.com/watch?v=LC79iUTO27g",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Cocinando en Bloxburg #roleplay #bloxburg #lleopatric #roblox #bloxburgroleplay #bloxburgbuilder",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769967133.0,
+      "url": "https://www.youtube.com/watch?v=nTwJecwmLJM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Bloxburg Party Build #lleopatric #bloxburg #bloxburgroleplay #bloxburghouses #roblox #robloxparty",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769966856.0,
+      "url": "https://www.youtube.com/watch?v=IbrFGIIu1AI",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bloxburg Money Hacks YOU Don&#39;t Know",
       "description": "Money hacks that will help you become rich in Bloxburg! Join my neighborhood! Want your builds to be...",
       "source": "YouTube",
@@ -484,33 +511,6 @@
       "source": "YouTube",
       "timestamp": 1769960181.0,
       "url": "https://www.youtube.com/watch?v=-MYK7wwC41E",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "DAISY PEACH WANTS TO BREAK SOPHIE PEACH&#39;S LEG! #shorts #roblox #roleplay #bloxburg #hospital",
-      "description": "DAISY PEACH WANTS TO BREAK SOPHIE PEACH'S LEG! Make sure to like and check out the full video in the...",
-      "source": "YouTube",
-      "timestamp": 1769940023.0,
-      "url": "https://www.youtube.com/watch?v=HAn4IaqNceI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Dont hack the sound #bloxburg #gaming #robloxedit #minecraft #dream #wembu #minecraftbuilding #funny",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769934289.0,
-      "url": "https://www.youtube.com/watch?v=CSReonQHp4Y",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "roblox \ud83d\udccdbloxburg #roblox #bloxburg #games",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769926026.0,
-      "url": "https://www.youtube.com/watch?v=XGg4v1lgaGk",
       "icon": "fa-youtube"
     },
     {
@@ -551,7 +551,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769968192.7085743,
+    "generated_at": 1769969392.7438424,
     "mode": "memory",
     "refresh_interval": 2000
   }
