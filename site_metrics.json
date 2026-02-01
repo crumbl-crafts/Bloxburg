@@ -7,7 +7,7 @@
     "request_completion_ratio": 0.0
   },
   "server": {
-    "total_members": 365,
+    "total_members": 364,
     "joined_today": 1,
     "active_shops": 2,
     "avg_response_time": 2627.7
@@ -33,6 +33,15 @@
     }
   ],
   "activityLog": [
+    {
+      "type": "member_leave",
+      "shop_name": "Server",
+      "message": "ingiee__ left the server",
+      "timestamp": 1769917400,
+      "thread_id": null,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/users/1429499840835879003"
+    },
     {
       "type": "member_join",
       "shop_name": "Server",
@@ -523,44 +532,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "January 31, 2026",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769887643.0,
+      "url": "https://www.youtube.com/watch?v=vR7iwxBPfNA",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "#music #rap #roblox #bloxburg #hindisong #robloxedit #hiphop #funny #aldc #kids #desihiphop",
+      "description": "rap....",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769886068.0,
+      "url": "https://www.youtube.com/watch?v=Zc2sko3gKOs",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "My new Lego set \ud83e\udd2a\ud83e\udd2a #lego #lego501st #bloxburg #haveitoldyoulatelythatiloveyou",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769884702.0,
+      "url": "https://www.youtube.com/watch?v=MyPhpGAKP2s",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "499 item lago meu pc ?",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769884599.0,
+      "url": "https://www.youtube.com/watch?v=iHH8NhIpS9U",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "They Pranked Me in Class \ud83d\ude02\ud83d\udc94 #roblox  #ste  #robloxedit #stealabra #gaming #bloxburg #robloxmemes",
+      "description": "They Pranked Me in Class #roblox #stem #robloxedit #stealabra #gaming #bloxburg #robloxmemes....",
+      "source": "YouTube",
+      "timestamp": 1769880023.0,
+      "url": "https://www.youtube.com/watch?v=w4eT3qjfTEY",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769916593.0473511,
+    "generated_at": 1769917402.9751346,
     "mode": "memory",
     "refresh_interval": 2000
   }
