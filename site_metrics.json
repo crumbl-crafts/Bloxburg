@@ -479,6 +479,15 @@
     },
     {
       "type": "trend",
+      "title": "Cocinando en Bloxburg #roleplay #bloxburg #lleopatric #roblox #bloxburgroleplay #bloxburgbuilder",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769967133.0,
+      "url": "https://www.youtube.com/watch?v=nTwJecwmLJM",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Bloxburg Money Hacks YOU Don&#39;t Know",
       "description": "Money hacks that will help you become rich in Bloxburg! Join my neighborhood! Want your builds to be...",
       "source": "YouTube",
@@ -548,19 +557,10 @@
       "timestamp": 1769912851.0,
       "url": "https://www.youtube.com/watch?v=yYFQO30CKe8",
       "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "HARDMODE\ud83e\udd2f #usa",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769907600.0,
-      "url": "https://www.youtube.com/watch?v=j3pgkTbMLc8",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1769974192.7078137,
+    "generated_at": 1769975392.7094338,
     "mode": "memory",
     "refresh_interval": 2000
   }
