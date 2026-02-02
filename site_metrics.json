@@ -470,6 +470,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "New Tropical House In Bloxburg #bloxburg #tropical #viral #bloxburgbuilder #roblox",
+      "description": "Sorry for the bad quality! It's hard to keep it up on different platforms....",
+      "source": "YouTube",
+      "timestamp": 1770047732.0,
+      "url": "https://www.youtube.com/watch?v=kICfCefyXbo",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "jualan di bloxburg #bloxburg#roblox#jualandibloxburg#bismillahfyp",
       "description": "...",
       "source": "YouTube",
@@ -488,29 +497,20 @@
     },
     {
       "type": "trend",
+      "title": "February 2, 2026 #racing #run",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769991562.0,
+      "url": "https://www.youtube.com/watch?v=GjZmQRsN91Q",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "I WANT SUMMER SO BADD #roblox #bloxburg",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1769985258.0,
       "url": "https://www.youtube.com/watch?v=cuDS0ibRqpw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "SHE STARTED A YOUTUBE CHANNEL! Bloxburg Roleplay ",
-      "description": "About Me Hey there! I'm Liv from Livxdivine \u2764\ufe0fI create Roblox Bloxburg family roleplay content inspi...",
-      "source": "YouTube",
-      "timestamp": 1769983241.0,
-      "url": "https://www.youtube.com/watch?v=djNvWYKK74I",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "MY DAUGHTERS FAMILY SICK DAY ROUTINE! *SHE NEEDS CRUTCHES?* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1769979606.0,
-      "url": "https://www.youtube.com/watch?v=GoIWHVzVe7A",
       "icon": "fa-youtube"
     },
     {
@@ -551,7 +551,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1770048033.7032545,
+    "generated_at": 1770048592.710535,
     "mode": "memory",
     "refresh_interval": 2000
   }
