@@ -452,6 +452,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Cuando se te olvida la tarea de la escuela #roblox #bloxburg #escuela #fyp\u30b7\u309aviral #comedia",
+      "description": "Nuestros perfiles: Mi perfil: https://www.roblox.com/es/users/1769713838/profile El beb\u00e9 Balam: ......",
+      "source": "YouTube",
+      "timestamp": 1770058821.0,
+      "url": "https://www.youtube.com/watch?v=M1b1mxHSHik",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "New Tropical House In Bloxburg #bloxburg #tropical #viral #bloxburgbuilder #roblox",
       "description": "Sorry for the bad quality! It's hard to keep it up on different platforms....",
       "source": "YouTube",
@@ -484,15 +493,6 @@
       "source": "YouTube",
       "timestamp": 1769991562.0,
       "url": "https://www.youtube.com/watch?v=GjZmQRsN91Q",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "I WANT SUMMER SO BADD #roblox #bloxburg",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769985258.0,
-      "url": "https://www.youtube.com/watch?v=cuDS0ibRqpw",
       "icon": "fa-youtube"
     },
     {
@@ -533,7 +533,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1770058192.7111459,
+    "generated_at": 1770059392.7139807,
     "mode": "memory",
     "refresh_interval": 2000
   }
