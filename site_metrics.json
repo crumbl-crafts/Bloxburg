@@ -505,44 +505,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "Tips para construir en bloxburg #bloxburg #tips #bloxburgbuilder #bloxburghouses #bloxburgroleplay",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769967433.0,
+      "url": "https://www.youtube.com/watch?v=LC79iUTO27g",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "Bloxburg: MEGA Mansion Modern House | House Build | PART two",
+      "description": "HEWOO EARLIESSS! Welcome to my MEGA BLOXBURG MANSION BUILD a massive modern house perfect for rolepl...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769966123.0,
+      "url": "https://www.youtube.com/watch?v=VKIatH-8LY4",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "Reini &amp; tiny Marion \ud83d\ude0a",
+      "description": "Template provided by and avatars made with the app #zepeto....",
+      "source": "YouTube",
+      "timestamp": 1769963073.0,
+      "url": "https://www.youtube.com/watch?v=rBfCh26PzYA",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "Bloxburg Money Hacks YOU Don&#39;t Know",
+      "description": "Money hacks that will help you become rich in Bloxburg! Join my neighborhood! Want your builds to be...",
+      "source": "YouTube",
+      "timestamp": 1769961829.0,
+      "url": "https://www.youtube.com/watch?v=4afvDs-zWc8",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "HOW TO |CUSTOM MIRROR  IN BLOXBURG #bloxburg #roblox ",
+      "description": "1st song #roblox #tutorial #berryave #berry #howto Business INQUIRE! \u21aa\ufe0fleshaworld4@gmail.com HOW TO ...",
+      "source": "YouTube",
+      "timestamp": 1769960181.0,
+      "url": "https://www.youtube.com/watch?v=-MYK7wwC41E",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1770043792.7118804,
+    "generated_at": 1770044992.7110784,
     "mode": "memory",
     "refresh_interval": 2000
   }
