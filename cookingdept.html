@@ -35,7 +35,7 @@
 
         body {
             font-family: 'Arial', sans-serif;
-            background: url('https://i.pinimg.com/originals/54/e0/0d/54e00d34f2eefd58798d055090ce49e4.gif') center center fixed;
+            background: url('https://cdn.dribbble.com/userupload/24944322/file/original-e9fa56736e2e38dd120d0ed4b40bb4c5.gif') center center fixed;
             background-size: cover;
             color: var(--text-color);
             min-height: 100vh;
@@ -52,8 +52,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: var(--bg-dark);
-            backdrop-filter: blur(5px);
+            background: linear-gradient(180deg, rgba(10, 10, 12, 0.6) 0%, rgba(10, 10, 12, 0.78) 100%);
             z-index: -1;
         }
 
@@ -71,39 +70,41 @@
         .header {
             text-align: center;
             margin-bottom: 20px;
-            background: var(--glass-effect);
-            backdrop-filter: blur(20px);
+            background: rgba(18, 18, 24, 0.88);
             border-radius: var(--border-radius);
             padding: 20px;
-            box-shadow: var(--shadow);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+            border: 1px solid rgba(255, 255, 255, 0.18);
             position: relative;
-            overflow: hidden;
+            overflow: visible;
         }
 
         .header::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: linear-gradient(45deg, transparent, rgba(255, 107, 53, 0.1), transparent);
-            animation: headerShimmer 8s linear infinite;
-            pointer-events: none;
-        }
-
-        @keyframes headerShimmer {
-            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
-            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+            display: none;
         }
 
         .header-content {
-            display: flex;
-            justify-content: center;
+            display: grid;
+            grid-template-columns: 1fr auto;
             align-items: center;
-            gap: 30px;
+            gap: 16px;
             margin-bottom: 15px;
+        }
+
+        .header-title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            text-align: center;
+            flex-wrap: wrap;
+            justify-self: center;
+        }
+
+        .header-actions {
+            display: flex;
+            justify-content: flex-end;
+            justify-self: end;
         }
 
         .header-gif {
@@ -111,13 +112,9 @@
             height: 60px;
             border-radius: 50%;
             border: 3px solid var(--accent-color);
-            animation: bounce 2s infinite;
         }
 
         .homepage-btn {
-            position: absolute;
-            top: 15px;
-            right: 20px;
             background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
             color: white;
             text-decoration: none;
@@ -125,14 +122,12 @@
             border-radius: 25px;
             font-weight: 600;
             font-size: 0.9rem;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
             box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
-            backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.2);
-            display: flex;
+            display: inline-flex;
             align-items: center;
             gap: 8px;
-            z-index: 10;
         }
 
         .homepage-btn:hover {
@@ -152,15 +147,8 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            text-shadow: 0 0 30px rgba(255, 107, 53, 0.5);
             margin: 10px 0;
             position: relative;
-            animation: titleGlow 3s ease-in-out infinite alternate;
-        }
-
-        @keyframes titleGlow {
-            0% { filter: brightness(1) drop-shadow(0 0 20px rgba(255, 107, 53, 0.3)); }
-            100% { filter: brightness(1.1) drop-shadow(0 0 30px rgba(255, 215, 0, 0.5)); }
         }
 
         .quick-links {
@@ -358,7 +346,7 @@
             margin: 0;
             text-align: center;
             color: var(--accent-color);
-            text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+            text-shadow: 0 0 12px rgba(255, 215, 0, 0.35);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -401,7 +389,7 @@
         }
 
         .podium-card {
-            background: linear-gradient(135deg, var(--bg-light), rgba(255, 255, 255, 0.05));
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.04));
             border-radius: 25px;
             padding: 30px 20px 25px 20px;
             border: 2px solid rgba(255, 255, 255, 0.3);
@@ -688,7 +676,7 @@
         }
 
         .compact-chef-card {
-            background: linear-gradient(135deg, var(--bg-light), rgba(255, 255, 255, 0.05));
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.04));
             border-radius: 15px;
             padding: 16px;
             border: 1.5px solid rgba(255, 255, 255, 0.25);
@@ -1134,15 +1122,22 @@
             }
             
             .header-content {
-                flex-direction: column;
-                gap: 15px;
-                position: relative;
+                grid-template-columns: 1fr;
+                gap: 12px;
             }
-            
+
+            .header-title {
+                justify-content: center;
+                gap: 12px;
+            }
+
+            .header-actions {
+                justify-content: center;
+            }
+
             .homepage-btn {
-                position: static;
-                margin: 15px auto 0 auto;
-                display: flex;
+                margin: 0 auto;
+                display: inline-flex;
                 width: fit-content;
                 font-size: 0.85rem;
                 padding: 10px 18px;
@@ -1232,15 +1227,19 @@
         <!-- Header -->
         <header class="header">
             <div class="header-content">
-                <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXdvc2hlM2ZlYXoyZW94MXlxenhtYWpobW04eW1rN3lrczc0d2M0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/eaarEl3xnKF3JraWi0/giphy.gif" 
-                     alt="Chef GIF" class="header-gif">
-                <h1>🍳 Cooking Department Dashboard</h1>
-                <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXdvc2hlM2ZlYXoyZW94MXlxenhtYWpobW04eW1rN3lrczc0d2M0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/eaarEl3xnKF3JraWi0/giphy.gif" 
-                     alt="Chef GIF" class="header-gif">
-                <a href="https://crumbl-crafts.github.io/Bloxburg/" class="homepage-btn" id="homepageBtn">
-                    <i class="fas fa-home"></i>
-                    <span>Back to Home</span>
-                </a>
+                <div class="header-title">
+                    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXdvc2hlM2ZlYXoyZW94MXlxenhtYWpobW04eW1rN3lrczc0d2M0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/eaarEl3xnKF3JraWi0/giphy.gif" 
+                         alt="Chef GIF" class="header-gif">
+                    <h1>🍳 Cooking Department Dashboard</h1>
+                    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXdvc2hlM2ZlYXoyZW94MXlxenhtYWpobW04eW1rN3lrczc0d2M0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/eaarEl3xnKF3JraWi0/giphy.gif" 
+                         alt="Chef GIF" class="header-gif">
+                </div>
+                <div class="header-actions">
+                    <a href="https://crumbl-crafts.github.io/Bloxburg/" class="homepage-btn" id="homepageBtn">
+                        <i class="fas fa-home"></i>
+                        <span>Back to Home</span>
+                    </a>
+                </div>
             </div>
             
             <div class="quick-links">
@@ -1362,165 +1361,13 @@
 
 
     <script>
-        // Configuration - Deeply optimized
         const CONFIG = {
-            refreshInterval: 60000, // 1 minute - more efficient
-            activityRefreshInterval: 20000, // 20 seconds for activity
-            maxActivities: 12, // Reduced for better performance
-            animationDuration: 200, // Faster animations
-            maxVisibleActivities: 8, // Show fewer activities at once
-            debounceDelay: 150 // Debounce threshold
+            dataUrl: '/api/chef-data',
+            refreshInterval: 120000,
+            maxVisibleActivities: 10,
+            requestTimeout: 8000
         };
 
-        // Global state
-        const appState = {
-            lastData: {},
-            updateTimes: {},
-            refreshTimers: {},
-            activityIds: new Set(), // Track existing activities
-            isFirstLoad: true, // Track initial load
-            currentActivities: [] // Store current activities for comparison
-        };
-
-        // Mock data with more comprehensive information
-        const mockData = {
-            stats: {
-                total_chefs: 24,
-                total_orders: 1847,
-                avg_rating: 4.3,
-                active_chefs: 12
-            },
-            rankings: [
-                {
-                    name: "Chef Master Gordon",
-                    discord_tag: "ChefGordon#1337",
-                    discord_id: "123456789012345678",
-                    avatar_url: "https://ui-avatars.com/api/?name=Gordon&background=ff6b35&color=fff&size=128&bold=true",
-                    status: "online",
-                    role: "Culinary Specialist",
-                    rating: 4.9,
-                    orders_completed: 287,
-                    time_in_role: 86400 * 45,
-                    performance_trend: 12.5
-                },
-                {
-                    name: "Isabella Rodriguez",
-                    discord_tag: "IsaBella#2468",
-                    discord_id: "234567890123456789",
-                    avatar_url: "https://ui-avatars.com/api/?name=Isabella&background=f7931e&color=fff&size=128&bold=true",
-                    status: "online",
-                    role: "Artisan Chef", 
-                    rating: 4.7,
-                    orders_completed: 203,
-                    time_in_role: 86400 * 32,
-                    performance_trend: 8.2
-                },
-                {
-                    name: "Marcus Thompson",
-                    discord_tag: "MarcusT#9876",
-                    discord_id: "345678901234567890",
-                    avatar_url: "https://ui-avatars.com/api/?name=Marcus&background=ffd700&color=000&size=128&bold=true",
-                    status: "away",
-                    role: "Artisan Chef",
-                    rating: 4.6,
-                    orders_completed: 189,
-                    time_in_role: 86400 * 28,
-                    performance_trend: 5.1
-                },
-                {
-                    name: "Sophie Chen",
-                    discord_tag: "SophieC#5432",
-                    discord_id: "456789012345678901",
-                    avatar_url: "https://ui-avatars.com/api/?name=Sophie&background=4CAF50&color=fff&size=128&bold=true",
-                    status: "busy",
-                    role: "Prep Chef",
-                    rating: 4.4,
-                    orders_completed: 156,
-                    time_in_role: 86400 * 21,
-                    performance_trend: 15.3
-                },
-                {
-                    name: "Antonio Silva",
-                    discord_tag: "Antonio#1111",
-                    discord_id: "567890123456789012",
-                    avatar_url: "https://ui-avatars.com/api/?name=Antonio&background=9c27b0&color=fff&size=128&bold=true",
-                    status: "online",
-                    role: "Prep Chef",
-                    rating: 4.3,
-                    orders_completed: 134,
-                    time_in_role: 86400 * 19,
-                    performance_trend: -2.1
-                },
-                {
-                    name: "Emma Johnson",
-                    discord_tag: "EmmaJ#7777",
-                    discord_id: "678901234567890123",
-                    avatar_url: "https://ui-avatars.com/api/?name=Emma&background=e91e63&color=fff&size=128&bold=true",
-                    status: "offline",
-                    role: "Line Chef",
-                    rating: 4.2,
-                    orders_completed: 112,
-                    time_in_role: 86400 * 15,
-                    performance_trend: 7.8
-                }
-            ],
-            menuItems: {
-                "seasonal": {
-                    "Winter Warmth Bowl": { ingredients: "Seasonal root vegetables, warm spices, herb broth", cost_price: 8.50, selling_price: 15.99 },
-                    "Holiday Spiced Cake": { ingredients: "Cinnamon, nutmeg, vanilla, seasonal fruits", cost_price: 6.25, selling_price: 12.99 },
-                    "Festive Roasted Turkey": { ingredients: "Premium turkey, herb stuffing, cranberry glaze", cost_price: 18.75, selling_price: 32.99 },
-                    "Pumpkin Spice Latte": { ingredients: "Espresso, steamed milk, pumpkin spice syrup", cost_price: 2.50, selling_price: 5.99 },
-                    "Apple Cinnamon Pie": { ingredients: "Fresh apples, cinnamon, flaky pastry crust", cost_price: 4.00, selling_price: 8.99 }
-                },
-                "non-seasonal": {
-                    "Classic Burger Deluxe": { ingredients: "Beef patty, lettuce, tomato, cheese, special sauce", cost_price: 5.50, selling_price: 11.99 },
-                    "Grilled Chicken Salad": { ingredients: "Grilled chicken, mixed greens, vegetables, dressing", cost_price: 4.75, selling_price: 9.99 },
-                    "Pasta Carbonara": { ingredients: "Fresh pasta, eggs, parmesan, bacon, black pepper", cost_price: 3.25, selling_price: 8.99 },
-                    "Margherita Pizza": { ingredients: "Fresh mozzarella, basil, tomato sauce, thin crust", cost_price: 6.00, selling_price: 12.99 },
-                    "Fish and Chips": { ingredients: "Beer-battered cod, hand-cut fries, mushy peas", cost_price: 7.25, selling_price: 14.99 },
-                    "Chocolate Cake": { ingredients: "Rich chocolate sponge, dark chocolate frosting", cost_price: 3.75, selling_price: 7.99 }
-                }
-            },
-            activity: [
-                {
-                    user_name: "Chef Master Gordon",
-                    action_type: "order_completed",
-                    action: "completed order",
-                    details: "Chef Master Gordon completed Winter Warmth Bowl order #1847 with 5-star rating",
-                    timestamp: new Date(Date.now() - 300000).toISOString()
-                },
-                {
-                    user_name: "Isabella Rodriguez",
-                    action_type: "rating_received",
-                    action: "received rating",
-                    details: "Isabella Rodriguez received a 5-star rating for Classic Burger Deluxe",
-                    timestamp: new Date(Date.now() - 600000).toISOString()
-                },
-                {
-                    user_name: "NewChef123",
-                    action_type: "application_submitted",
-                    action: "applied for chef role",
-                    details: "NewChef123 submitted an application to join the cooking department",
-                    timestamp: new Date(Date.now() - 900000).toISOString()
-                },
-                {
-                    user_name: "Sophie Chen",
-                    action_type: "promotion",
-                    action: "promoted",
-                    details: "Sophie Chen was promoted to Prep Chef due to excellent performance",
-                    timestamp: new Date(Date.now() - 1200000).toISOString()
-                },
-                {
-                    user_name: "Marcus Thompson",
-                    action_type: "menu_update",
-                    action: "updated menu",
-                    details: "Marcus Thompson added new seasonal item: Holiday Spiced Cake",
-                    timestamp: new Date(Date.now() - 1500000).toISOString()
-                }
-            ]
-        };
-
-        // DOM Elements - cached for performance
         const elements = {
             totalChefs: document.getElementById('totalChefs'),
             totalOrders: document.getElementById('totalOrders'),
@@ -1529,218 +1376,162 @@
             lastUpdate: document.getElementById('lastUpdate'),
             chefRankings: document.getElementById('chefRankings'),
             menuContainer: document.getElementById('menuContainer'),
-            activityLog: document.getElementById('activityLog')
+            activityLog: document.getElementById('activityLog'),
+            menuTabs: document.querySelector('.menu-tabs')
         };
-        
-        // Performance optimization - Intersection Observer for animations
-        let intersectionObserver;
-        
-        function setupIntersectionObserver() {
-            if (intersectionObserver) {
-                intersectionObserver.disconnect();
-            }
-            
-            intersectionObserver = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.style.opacity = '1';
-                        entry.target.style.transform = 'translateY(0)';
-                    }
-                });
-            }, {
-                threshold: 0.1,
-                rootMargin: '20px'
-            });
-        }
 
-        // Initialize the dashboard
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('🍳 Enhanced Cooking Department Dashboard Loaded');
-            setupIntersectionObserver();
+        let refreshTimer = null;
+        let lastPayloadHash = '';
+
+        document.addEventListener('DOMContentLoaded', () => {
             loadDashboardData();
-            startSmartRefresh();
-            
-            // Simulate real-time updates
-            setTimeout(() => {
-                simulateRealTimeUpdates();
-            }, 5000);
+            startRefresh();
         });
 
-        // Smart refresh that only updates changed data
-        function startSmartRefresh() {
-            // Different refresh intervals for different data types
-            appState.refreshTimers.stats = setInterval(() => {
-                updateLiveStats(mockData.stats, true);
-            }, CONFIG.refreshInterval);
-
-            appState.refreshTimers.activity = setInterval(() => {
-                updateActivityLog(mockData.activity, true);
-            }, CONFIG.activityRefreshInterval);
-
-            appState.refreshTimers.rankings = setInterval(() => {
-                updateChefRankings(mockData.rankings, true);
-            }, CONFIG.refreshInterval * 2); // Less frequent for rankings
-
-            console.log('🔄 Smart refresh system activated');
+        function startRefresh() {
+            if (refreshTimer) clearInterval(refreshTimer);
+            refreshTimer = setInterval(loadDashboardData, CONFIG.refreshInterval);
         }
 
-        // Discord Profile Integration
-        function getDiscordAvatarUrl(chef) {
-            // Try to get real Discord avatar first, fallback to placeholder
-            if (chef.discord_id && chef.discord_id !== 'unknown') {
-                return `https://cdn.discordapp.com/avatars/${chef.discord_id}/avatar.png?size=128`;
+        async function loadDashboardData() {
+            try {
+                const data = await fetchDashboardData();
+                const hash = JSON.stringify(data || {});
+                if (hash === lastPayloadHash) return;
+                lastPayloadHash = hash;
+                applyDashboardData(data || {});
+                updateLastUpdateTime();
+            } catch (err) {
+                console.warn('Failed to load dashboard data', err);
+                showEmptyState();
             }
-            return chef.avatar_url || `https://ui-avatars.com/api/?name=${encodeURIComponent(chef.name)}&background=random&size=128&bold=true`;
         }
 
-        function simulateDiscordStatus() {
-            // Simulate realistic Discord status changes
-            const statuses = ['online', 'away', 'busy', 'offline'];
-            mockData.rankings.forEach(chef => {
-                if (Math.random() > 0.9) { // 10% chance to change status
-                    const oldStatus = chef.status;
-                    chef.status = statuses[Math.floor(Math.random() * statuses.length)];
-                    if (oldStatus !== chef.status) {
-                        console.log(`${chef.name} status changed from ${oldStatus} to ${chef.status}`);
-                    }
+        async function fetchDashboardData() {
+            const controller = new AbortController();
+            const timeout = setTimeout(() => controller.abort(), CONFIG.requestTimeout);
+            try {
+                const response = await fetch(CONFIG.dataUrl, {
+                    cache: 'no-store',
+                    signal: controller.signal
+                });
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
                 }
-            });
-        }
-
-        // Data loading with change detection
-        function loadDashboardData() {
-            console.log('🔄 Loading dashboard data...');
-            updateLiveStats(mockData.stats);
-            updateChefRankings(mockData.rankings);
-            updateMenuData(mockData.menuItems);
-            updateActivityLog(mockData.activity);
-            updateLastUpdateTime();
-        }
-
-        // Smart update functions that only refresh when data changes
-        function updateLiveStats(stats, skipAnimation = false) {
-            if (!stats) return;
-            
-            const statsKey = JSON.stringify(stats);
-            if (appState.lastData.stats === statsKey && skipAnimation) return;
-            
-            appState.lastData.stats = statsKey;
-            
-            animateNumberUpdate(elements.totalChefs, stats.total_chefs || 0);
-            animateNumberUpdate(elements.totalOrders, stats.total_orders || 0);
-            updateTextWithAnimation(elements.avgRating, (stats.avg_rating || 0).toFixed(1) + '⭐');
-            animateNumberUpdate(elements.activeChefs, stats.active_chefs || 0);
-            
-            if (!skipAnimation) {
-                highlightUpdate(elements.totalChefs.parentElement);
+                return await response.json();
+            } finally {
+                clearTimeout(timeout);
             }
         }
 
-        function updateChefRankings(rankings, skipAnimation = false) {
-            if (!rankings || rankings.length === 0) {
+        function applyDashboardData(data) {
+            const chefs = Array.isArray(data.chefs) ? data.chefs : [];
+            const stats = data.stats || {};
+            const totalOrders = Number(stats.totalOrders ?? chefs.reduce((sum, chef) => sum + (Number(chef.tickets) || 0), 0));
+            const activeChefs = Number(stats.activeChefs ?? chefs.filter(chef => ['active', 'cooking', 'online'].includes((chef.status || '').toLowerCase())).length);
+            const avgRating = Number(stats.avgRating ?? 0);
+
+            updateLiveStats({
+                total_chefs: chefs.length,
+                total_orders: totalOrders,
+                avg_rating: avgRating,
+                active_chefs: activeChefs
+            });
+
+            updateChefRankings(chefs);
+            updateActivityLog(Array.isArray(data.activities) ? data.activities : []);
+            updateMenuData(Array.isArray(data.menu) ? data.menu : (data.menuItems || data.menu_items || null));
+        }
+
+        function showEmptyState() {
+            updateLiveStats({ total_chefs: 0, total_orders: 0, avg_rating: 0, active_chefs: 0 });
+            elements.chefRankings.innerHTML = '<div class="loading">No chef data available</div>';
+            elements.activityLog.innerHTML = '<div class="loading">No recent activity</div>';
+            elements.menuContainer.innerHTML = '<div class="loading">No menu data available</div>';
+            if (elements.menuTabs) elements.menuTabs.style.display = 'none';
+        }
+
+        function updateLiveStats(stats) {
+            elements.totalChefs.textContent = stats.total_chefs ?? 0;
+            elements.totalOrders.textContent = stats.total_orders ?? 0;
+            elements.avgRating.textContent = stats.avg_rating ? `${stats.avg_rating.toFixed(1)}⭐` : '—';
+            elements.activeChefs.textContent = stats.active_chefs ?? 0;
+        }
+
+        function updateChefRankings(chefs) {
+            if (!chefs || chefs.length === 0) {
                 elements.chefRankings.innerHTML = '<div class="loading">No chef data available</div>';
                 return;
             }
-            
-            const rankingsKey = JSON.stringify(rankings);
-            if (appState.lastData.rankings === rankingsKey && skipAnimation) return;
-            
-            appState.lastData.rankings = rankingsKey;
-            
+
+            const sorted = chefs.slice().sort((a, b) => (Number(b.points) || 0) - (Number(a.points) || 0));
             let html = '';
-            
-            // Top 3 Podium
-            if (rankings.length >= 3) {
+
+            if (sorted.length >= 1) {
                 html += '<div class="podium-container">';
-                
-                // Create podium cards for top 3
-                [1, 0, 2].forEach(index => { // 2nd, 1st, 3rd order for podium layout
-                    if (rankings[index]) {
-                        const chef = rankings[index];
-                        const rank = index + 1;
-                        const roleIcon = getRoleIcon(chef.role);
-                        const ratingColor = getRatingColor(chef.rating);
-                        const placeClass = rank === 1 ? 'first-place' : rank === 2 ? 'second-place' : 'third-place';
-                        
-                        const avatarUrl = getDiscordAvatarUrl(chef);
-                        const medalEmoji = rank === 1 ? '🥇' : rank === 2 ? '🥈' : '🥉';
-                        html += `
-                            <div class="podium-card ${placeClass}" data-chef-id="${chef.discord_id}">
-                                <div class="chef-avatar ${placeClass}" title="Click to view Discord profile">
-                                    <img src="${avatarUrl}" alt="${chef.name}" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(chef.name)}&background=random&size=128&bold=true'">
-                                    <div class="chef-status ${chef.status}" title="${chef.status}"></div>
-                                    <div class="chef-badge">${medalEmoji}</div>
+                [1, 0, 2].forEach(index => {
+                    if (!sorted[index]) return;
+                    const chef = sorted[index];
+                    const rank = index + 1;
+                    const placeClass = rank === 1 ? 'first-place' : rank === 2 ? 'second-place' : 'third-place';
+                    const medalEmoji = rank === 1 ? '🥇' : rank === 2 ? '🥈' : '🥉';
+                    const avatarUrl = getChefAvatar(chef);
+                    const statusClass = normalizeStatus(chef.status);
+
+                    html += `
+                        <div class="podium-card ${placeClass}">
+                            <div class="chef-avatar ${placeClass}">
+                                <img src="${avatarUrl}" alt="${chef.name}" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(chef.name || 'Chef')}&background=random&size=128&bold=true'">
+                                <div class="chef-status ${statusClass}"></div>
+                                <div class="chef-badge">${medalEmoji}</div>
+                            </div>
+                            <div class="podium-chef-name">${chef.name || 'Chef'}</div>
+                            <div class="podium-chef-role">🏆 ${Number(chef.points) || 0} points</div>
+                            <div class="podium-stats">
+                                <div class="podium-stat">
+                                    <i class="fas fa-clipboard-check"></i>
+                                    <span class="podium-stat-value">${Number(chef.tickets) || 0}</span>
+                                    <span class="podium-stat-label">Tickets</span>
                                 </div>
-                                <div class="podium-chef-name">${chef.name}</div>
-                                <div class="podium-chef-role">${roleIcon} ${chef.role}</div>
-                                <div class="podium-rating">
-                                    <i class="fas fa-star"></i>
-                                    <span style="color: ${ratingColor}">${chef.rating.toFixed(1)}</span>
-                                </div>
-                                <div class="podium-stats">
-                                    <div class="podium-stat">
-                                        <i class="fas fa-utensils"></i>
-                                        <span class="podium-stat-value">${chef.orders_completed}</span>
-                                        <span class="podium-stat-label">Orders</span>
-                                    </div>
-                                    <div class="podium-stat">
-                                        <i class="fas fa-clock"></i>
-                                        <span class="podium-stat-value">${formatDuration(chef.time_in_role)}</span>
-                                        <span class="podium-stat-label">Time</span>
-                                    </div>
-                                    <div class="podium-stat">
-                                        <i class="fas fa-chart-line"></i>
-                                        <span class="podium-stat-value ${chef.performance_trend >= 0 ? 'trend-up' : 'trend-down'}">
-                                            ${chef.performance_trend >= 0 ? '+' : ''}${chef.performance_trend.toFixed(1)}%
-                                        </span>
-                                        <span class="podium-stat-label">Trend</span>
-                                    </div>
+                                <div class="podium-stat">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span class="podium-stat-value">${formatJoinTime(chef.joinDate)}</span>
+                                    <span class="podium-stat-label">Tenure</span>
                                 </div>
                             </div>
-                        `;
-                    }
+                        </div>
+                    `;
                 });
                 html += '</div>';
             }
-            
-            // Remaining chefs (4th place and below)
-            if (rankings.length > 3) {
+
+            if (sorted.length > 3) {
                 html += '<div class="remaining-chefs">';
-                rankings.slice(3).forEach((chef, index) => {
+                sorted.slice(3).forEach((chef, index) => {
                     const rank = index + 4;
-                    const roleIcon = getRoleIcon(chef.role);
-                    const ratingColor = getRatingColor(chef.rating);
-                    
-                    const avatarUrl = getDiscordAvatarUrl(chef);
+                    const avatarUrl = getChefAvatar(chef);
+                    const statusClass = normalizeStatus(chef.status);
+                    const discordTag = chef.discord_tag ? `<div class="discord-tag">${chef.discord_tag}</div>` : '';
+
                     html += `
-                        <div class="compact-chef-card" data-chef-id="${chef.discord_id}">
+                        <div class="compact-chef-card">
                             <div class="compact-rank">${rank}</div>
-                            <div class="compact-chef-avatar" title="Click to view Discord profile">
-                                <img src="${avatarUrl}" alt="${chef.name}" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(chef.name)}&background=random&size=128&bold=true'">
-                                <div class="compact-status ${chef.status}" title="${chef.status}"></div>
+                            <div class="compact-chef-avatar">
+                                <img src="${avatarUrl}" alt="${chef.name}" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(chef.name || 'Chef')}&background=random&size=128&bold=true'">
+                                <div class="compact-status ${statusClass}"></div>
                             </div>
                             <div class="compact-info">
-                                <div class="compact-name">${roleIcon} ${chef.name}</div>
-                                <div class="discord-tag" title="Discord: ${chef.discord_tag}">${chef.discord_tag}</div>
-                                <div class="compact-role">${chef.role}</div>
+                                <div class="compact-name">${chef.name || 'Chef'}</div>
+                                ${discordTag}
+                                <div class="compact-role">🏆 ${Number(chef.points) || 0} points</div>
                                 <div class="compact-stats">
                                     <div class="compact-stat">
-                                        <i class="fas fa-star"></i>
-                                        <span style="color: ${ratingColor}">${chef.rating.toFixed(1)}</span>
+                                        <i class="fas fa-clipboard-check"></i>
+                                        <span>${Number(chef.tickets) || 0}</span>
                                     </div>
                                     <div class="compact-stat">
-                                        <i class="fas fa-utensils"></i>
-                                        <span>${chef.orders_completed}</span>
-                                    </div>
-                                    <div class="compact-stat">
-                                        <i class="fas fa-clock"></i>
-                                        <span>${formatDuration(chef.time_in_role)}</span>
-                                    </div>
-                                    <div class="compact-stat">
-                                        <i class="fas fa-chart-line"></i>
-                                        <span class="${chef.performance_trend >= 0 ? 'trend-up' : 'trend-down'}">
-                                            ${chef.performance_trend >= 0 ? '📈' : '📉'} ${Math.abs(chef.performance_trend).toFixed(1)}%
-                                        </span>
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span>${formatJoinTime(chef.joinDate)}</span>
                                     </div>
                                 </div>
                             </div>
@@ -1749,537 +1540,174 @@
                 });
                 html += '</div>';
             }
-            
-            // Batch DOM update for better performance
-            requestAnimationFrame(() => {
-                elements.chefRankings.innerHTML = html;
-                
-                // Add Discord profile click handlers
-                setupDiscordProfileHandlers();
-                
-                if (!skipAnimation) {
-                    requestAnimationFrame(() => animateChefCards());
-                }
-            });
-        }
-        
-        function setupDiscordProfileHandlers() {
-            // Event delegation for better performance
-            const rankingsSection = elements.chefRankings;
-            
-            // Remove old listener if exists
-            if (rankingsSection._profileHandler) {
-                rankingsSection.removeEventListener('click', rankingsSection._profileHandler);
-            }
-            
-            // Add delegated event listener
-            rankingsSection._profileHandler = function(e) {
-                const avatar = e.target.closest('.chef-avatar, .compact-chef-avatar');
-                if (!avatar) return;
-                
-                const chefCard = avatar.closest('[data-chef-id]');
-                const chefId = chefCard?.getAttribute('data-chef-id');
-                const chef = mockData.rankings.find(c => c.discord_id === chefId);
-                
-                if (chef) {
-                    showDiscordProfileModal(chef);
-                }
-            };
-            
-            rankingsSection.addEventListener('click', rankingsSection._profileHandler, { passive: true });
-        }
-        
-        function showDiscordProfileModal(chef) {
-            // Create a simple modal with chef Discord info
-            const modal = document.createElement('div');
-            modal.style.cssText = `
-                position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-                background: rgba(0,0,0,0.8); display: flex; align-items: center;
-                justify-content: center; z-index: 10000; backdrop-filter: blur(5px);
-            `;
-            
-            const modalContent = document.createElement('div');
-            modalContent.style.cssText = `
-                background: linear-gradient(135deg, var(--glass-effect), rgba(255,255,255,0.05));
-                border-radius: 15px; padding: 30px; max-width: 400px; text-align: center;
-                border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(20px);
-                box-shadow: 0 15px 50px rgba(0,0,0,0.5);
-            `;
-            
-            modalContent.innerHTML = `
-                <img src="${getDiscordAvatarUrl(chef)}" style="width: 80px; height: 80px; border-radius: 50%; margin-bottom: 15px; border: 3px solid var(--accent-color);">
-                <h3 style="color: var(--accent-color); margin-bottom: 10px;">${chef.name}</h3>
-                <p style="color: var(--secondary-color); margin-bottom: 15px; font-family: 'Courier New', monospace;">${chef.discord_tag}</p>
-                <p style="color: var(--text-color); margin-bottom: 20px;">Role: ${chef.role}</p>
-                <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;">
-                    <span style="background: var(--${chef.status === 'online' ? 'success' : chef.status === 'away' ? 'secondary' : chef.status === 'busy' ? 'error' : 'text'}-color); padding: 5px 10px; border-radius: 15px; font-size: 0.8rem; color: white;">
-                        ${chef.status.toUpperCase()}
-                    </span>
-                </div>
-                <button onclick="this.closest('div[style*=fixed]').remove()" style="background: var(--primary-color); color: white; border: none; padding: 10px 20px; border-radius: 25px; cursor: pointer;">Close</button>
-            `;
-            
-            modal.appendChild(modalContent);
-            document.body.appendChild(modal);
-            
-            // Close on outside click
-            modal.addEventListener('click', function(e) {
-                if (e.target === modal) {
-                    modal.remove();
-                }
-            });
+
+            elements.chefRankings.innerHTML = html;
         }
 
         function updateMenuData(menuItems) {
-            if (!menuItems) {
+            if (!menuItems || (Array.isArray(menuItems) && menuItems.length === 0)) {
                 elements.menuContainer.innerHTML = '<div class="loading">No menu data available</div>';
+                if (elements.menuTabs) elements.menuTabs.style.display = 'none';
                 return;
             }
-            
+
+            if (Array.isArray(menuItems)) {
+                if (elements.menuTabs) elements.menuTabs.style.display = 'none';
+                const html = menuItems.map(item => {
+                    const price = item.price != null ? `$${Number(item.price).toFixed(2)}` : '—';
+                    const chefName = item.chef ? ` • ${item.chef}` : '';
+                    const status = item.status ? ` (${item.status})` : '';
+                    return `
+                        <div class="menu-item">
+                            <div class="menu-item-info">
+                                <div class="menu-item-name">${item.name || 'Menu Item'}${status}</div>
+                                <div class="menu-item-ingredients">${chefName}</div>
+                            </div>
+                            <div class="menu-item-prices">
+                                <div class="selling-price">${price}</div>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+                elements.menuContainer.innerHTML = html;
+                return;
+            }
+
+            if (elements.menuTabs) elements.menuTabs.style.display = 'flex';
+
             let html = '';
-            
-            // Create category containers
             Object.entries(menuItems).forEach(([category, items]) => {
                 const isActive = category === 'seasonal' ? 'active' : '';
                 html += `<div class="menu-category ${isActive}" data-category="${category}">`;
-                
                 Object.entries(items).forEach(([itemName, itemData]) => {
                     html += `
                         <div class="menu-item">
                             <div class="menu-item-info">
                                 <div class="menu-item-name">${itemName}</div>
-                                <div class="menu-item-ingredients">${itemData.ingredients}</div>
+                                <div class="menu-item-ingredients">${itemData.ingredients || ''}</div>
                             </div>
                             <div class="menu-item-prices">
-                                <div class="cost-price">$${itemData.cost_price.toFixed(2)}</div>
-                                <div class="selling-price">$${itemData.selling_price.toFixed(2)}</div>
+                                <div class="selling-price">$${Number(itemData.selling_price || 0).toFixed(2)}</div>
                             </div>
                         </div>
                     `;
                 });
                 html += `</div>`;
             });
-            
+
             elements.menuContainer.innerHTML = html;
-            
-            // Setup tab functionality
             setupMenuTabs();
         }
 
         function setupMenuTabs() {
             const tabs = document.querySelectorAll('.menu-tab');
             const categories = document.querySelectorAll('.menu-category');
-            
             tabs.forEach(tab => {
                 tab.addEventListener('click', () => {
                     const category = tab.getAttribute('data-category');
-                    
-                    // Update active tab
                     tabs.forEach(t => t.classList.remove('active'));
                     tab.classList.add('active');
-                    
-                    // Update active category
                     categories.forEach(c => {
                         c.classList.remove('active');
                         if (c.getAttribute('data-category') === category) {
                             c.classList.add('active');
                         }
                     });
-                });
+                }, { passive: true });
             });
         }
 
-        function updateActivityLog(activities, skipAnimation = false) {
+        function updateActivityLog(activities) {
             if (!activities || activities.length === 0) {
                 elements.activityLog.innerHTML = '<div class="loading">No recent activity</div>';
                 return;
             }
-            
-            // Get current activities to display
-            const currentActivities = activities.slice(0, CONFIG.maxVisibleActivities);
-            
-            // Create activity IDs for comparison
-            const currentIds = currentActivities.map(activity => 
-                `${activity.user_name}-${activity.timestamp}-${activity.action_type}`
-            );
-            
-            // Compare with stored activities to detect changes
-            const storedIds = appState.currentActivities.map(activity => activity.id);
-            const hasChanges = JSON.stringify(currentIds) !== JSON.stringify(storedIds);
-            
-            // Only update if there are actual changes or first load
-            if (!hasChanges && !appState.isFirstLoad) {
-                // Still update timestamps without re-rendering
-                updateActivityTimestamps();
-                return;
-            }
-            
-            // Store current activities
-            appState.currentActivities = currentActivities.map(activity => ({
-                ...activity,
-                id: `${activity.user_name}-${activity.timestamp}-${activity.action_type}`
-            }));
-            
-            // Find new activities for animation
-            const newActivityIds = currentIds.filter(id => !storedIds.includes(id));
-            
-            // If first load or no existing activities, replace all
-            if (appState.isFirstLoad || elements.activityLog.children.length === 0) {
-                let html = '';
-                currentActivities.forEach(activity => {
-                    const timeAgo = getTimeAgo(activity.timestamp);
-                    const icon = getActivityIcon(activity.action_type);
-                    const activityId = `${activity.user_name}-${activity.timestamp}-${activity.action_type}`;
-                    
-                    html += `
-                        <div class="activity-item" data-id="${activityId}">
-                            <div class="activity-time">${icon} ${timeAgo}</div>
-                            <div class="activity-text">${formatActivityText(activity)}</div>
-                        </div>
-                    `;
-                });
-                elements.activityLog.innerHTML = html;
-                appState.isFirstLoad = false;
-                return;
-            }
-            
-            // Add only genuinely new activities with animation
-            if (newActivityIds.length > 0 && !skipAnimation) {
-                const newActivities = currentActivities.filter(activity => {
-                    const id = `${activity.user_name}-${activity.timestamp}-${activity.action_type}`;
-                    return newActivityIds.includes(id);
-                });
-                
-                newActivities.reverse().forEach((activity, index) => {
-                    setTimeout(() => {
-                        addActivityWithAnimation(activity);
-                    }, index * 300);
-                });
-            }
-            
-            // Update timestamps for existing activities
-            updateActivityTimestamps();
-            
-            // Remove excess activities
-            const existingItems = elements.activityLog.querySelectorAll('.activity-item');
-            if (existingItems.length > CONFIG.maxVisibleActivities) {
-                for (let i = CONFIG.maxVisibleActivities; i < existingItems.length; i++) {
-                    const item = existingItems[i];
-                    item.remove();
-                }
-            }
+
+            const limited = activities.slice(0, CONFIG.maxVisibleActivities);
+            const html = limited.map(activity => {
+                const timeText = activity.time || (activity.timestamp ? getTimeAgo(activity.timestamp) : 'just now');
+                const icon = getActivityIcon(activity.type || activity.action_type);
+                const text = formatActivityText(activity);
+                return `
+                    <div class="activity-item">
+                        <div class="activity-time">${icon} ${timeText}</div>
+                        <div class="activity-text">${text}</div>
+                    </div>
+                `;
+            }).join('');
+            elements.activityLog.innerHTML = html;
         }
 
-        // Helper functions with enhanced functionality
-        function getRoleIcon(role) {
-            const icons = {
-                'Culinary Specialist': '👨‍🍳',
-                'Artisan Chef': '🍳',
-                'Prep Chef': '🥄',
-                'Line Chef': '🍽️',
-                'Commis Chef': '👨‍🍳',
-                'Kitchen Hand': '🧤',
-                'Trainee': '📚'
-            };
-            return icons[role] || '👨‍🍳';
+        function getChefAvatar(chef) {
+            return chef.avatar || chef.avatar_url || `https://ui-avatars.com/api/?name=${encodeURIComponent(chef.name || 'Chef')}&background=ff6b35&color=fff&bold=true&size=128`;
         }
 
-        function getCategoryIcon(category) {
-            const icons = {
-                'Seasonal Request': '🍂',
-                'Non-Seasonal request': '🍽️',
-                'Catering Request': '🎉'
-            };
-            return icons[category] || '🍴';
+        function normalizeStatus(status) {
+            const value = (status || '').toLowerCase();
+            if (['active', 'online', 'cooking'].includes(value)) return 'online';
+            if (['break', 'away', 'idle'].includes(value)) return 'away';
+            if (['busy'].includes(value)) return 'busy';
+            return 'offline';
         }
 
-        function getRatingColor(rating) {
-            if (rating >= 4.5) return '#ffd700';
-            if (rating >= 4.0) return '#ff6b35';
-            if (rating >= 3.5) return '#f7931e';
-            if (rating >= 3.0) return '#ffed4e';
-            return '#ff4757';
+        function formatJoinTime(joinDate) {
+            if (!joinDate) return '—';
+            const start = new Date(joinDate).getTime();
+            if (!Number.isFinite(start)) return '—';
+            const diffDays = Math.floor((Date.now() - start) / 86400000);
+            if (diffDays < 1) return '<1d';
+            if (diffDays < 30) return `${diffDays}d`;
+            const months = Math.floor(diffDays / 30);
+            if (months < 12) return `${months}mo`;
+            return `${Math.floor(months / 12)}y`;
         }
 
         function getActivityIcon(actionType) {
             const icons = {
-                'role_change': '🔄',
-                'order_completed': '✅',
-                'rating_received': '⭐',
-                'joined': '👋',
-                'left': '👋',
-                'promotion': '📈',
-                'demotion': '📉',
-                'warning': '⚠️',
-                'achievement': '🏆',
-                'application_submitted': '📝',
-                'menu_update': '📋'
+                completion: '✅',
+                order_completed: '✅',
+                rating_received: '⭐',
+                menu_update: '📋',
+                promotion: '📈',
+                demotion: '📉',
+                application_submitted: '📝'
             };
             return icons[actionType] || '📝';
         }
 
         function formatActivityText(activity) {
-            const userName = `<span class="activity-user">${activity.user_name}</span>`;
-            const action = `<span class="activity-action">${activity.action}</span>`;
-            
-            return activity.details
-                .replace(activity.user_name, userName)
-                .replace(new RegExp(activity.action, 'gi'), action);
-        }
-
-        function formatDuration(seconds) {
-            if (seconds < 3600) {
-                return `${Math.floor(seconds / 60)}m`;
-            } else if (seconds < 86400) {
-                return `${Math.floor(seconds / 3600)}h`;
-            } else {
-                return `${Math.floor(seconds / 86400)}d`;
+            if (activity.details) {
+                return activity.details;
             }
+            const chef = activity.chef || activity.user_name || 'Chef';
+            const action = activity.action || 'updated the kitchen';
+            return `<span class="activity-user">${chef}</span> <span class="activity-action">${action}</span>`;
         }
 
         function getTimeAgo(timestamp) {
             const now = new Date();
             const time = new Date(timestamp);
             const diff = Math.floor((now - time) / 1000);
-            
+            if (!Number.isFinite(diff) || diff < 0) return 'just now';
             if (diff < 60) return `${diff}s ago`;
             if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
             if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
             return `${Math.floor(diff / 86400)}d ago`;
         }
 
-        // Animation functions
-        function animateNumberUpdate(element, targetValue) {
-            const currentValue = parseInt(element.textContent) || 0;
-            if (currentValue === targetValue) return;
-            
-            const duration = 800;
-            const startTime = performance.now();
-            const diff = targetValue - currentValue;
-            
-            function animate(currentTime) {
-                const elapsed = currentTime - startTime;
-                const progress = Math.min(elapsed / duration, 1);
-                const easeProgress = 1 - Math.pow(1 - progress, 3); // Ease out cubic
-                
-                const value = Math.round(currentValue + (diff * easeProgress));
-                element.textContent = value;
-                
-                if (progress < 1) {
-                    requestAnimationFrame(animate);
-                } else {
-                    element.textContent = targetValue;
-                    highlightUpdate(element);
-                }
-            }
-            
-            requestAnimationFrame(animate);
-        }
-
-        function updateTextWithAnimation(element, newText) {
-            if (element.textContent === newText) return;
-            
-            element.style.opacity = '0.5';
-            setTimeout(() => {
-                element.textContent = newText;
-                element.style.opacity = '1';
-                highlightUpdate(element);
-            }, CONFIG.animationDuration / 2);
-        }
-
-        function highlightUpdate(element) {
-            element.classList.add('data-updated');
-            setTimeout(() => {
-                element.classList.remove('data-updated');
-            }, 1000);
-        }
-
-        function animateChefCards() {
-            // Animate podium cards
-            const podiumCards = document.querySelectorAll('.podium-card');
-            podiumCards.forEach((card, index) => {
-                setTimeout(() => {
-                    card.style.animation = 'slideIn 0.6s ease forwards';
-                }, index * 150);
-            });
-            
-            // Animate compact cards
-            const compactCards = document.querySelectorAll('.compact-chef-card');
-            compactCards.forEach((card, index) => {
-                setTimeout(() => {
-                    card.style.animation = 'slideIn 0.4s ease forwards';
-                }, (podiumCards.length * 150) + (index * 50));
-            });
-        }
-
-        function addActivityWithAnimation(activity) {
-            const timeAgo = getTimeAgo(activity.timestamp);
-            const icon = getActivityIcon(activity.action_type);
-            
-            const activityDiv = document.createElement('div');
-            activityDiv.className = 'activity-item new-activity';
-            activityDiv.setAttribute('data-id', activity.id);
-            activityDiv.innerHTML = `
-                <div class="activity-time">${icon} ${timeAgo}</div>
-                <div class="activity-text">${formatActivityText(activity)}</div>
-            `;
-            
-            // Insert at the top
-            elements.activityLog.insertBefore(activityDiv, elements.activityLog.firstChild);
-            
-            // Trigger slide-in animation
-            setTimeout(() => {
-                activityDiv.classList.remove('new-activity');
-                activityDiv.classList.add('slide-in');
-            }, 10);
-        }
-        
-        function updateActivityTimestamps() {
-            const activityItems = elements.activityLog.querySelectorAll('.activity-item');
-            activityItems.forEach(item => {
-                const timeElement = item.querySelector('.activity-time');
-                if (timeElement && !timeElement.textContent.includes('Loading')) {
-                    const activityId = item.getAttribute('data-id');
-                    if (activityId) {
-                        // Extract timestamp from ID and update
-                        const timestamp = activityId.split('-')[1];
-                        if (timestamp) {
-                            const timeAgo = getTimeAgo(timestamp);
-                            const icon = timeElement.textContent.split(' ')[0];
-                            timeElement.innerHTML = `${icon} ${timeAgo}`;
-                        }
-                    }
-                }
-            });
-        }
-        
-        function cleanupOldActivities() {
-            const activityItems = elements.activityLog.querySelectorAll('.activity-item');
-            if (activityItems.length > CONFIG.maxVisibleActivities) {
-                // Remove excess activities with fade out
-                for (let i = CONFIG.maxVisibleActivities; i < activityItems.length; i++) {
-                    const item = activityItems[i];
-                    item.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
-                    item.style.opacity = '0';
-                    item.style.transform = 'translateX(-20px)';
-                    
-                    setTimeout(() => {
-                        if (item.parentNode) {
-                            item.remove();
-                        }
-                    }, 300);
-                }
-            }
-        }
-
         function updateLastUpdateTime() {
             const now = new Date();
-            const timeString = now.toLocaleTimeString();
-            elements.lastUpdate.textContent = timeString;
-            elements.lastUpdate.className = 'updated';
-            
-            setTimeout(() => {
-                elements.lastUpdate.className = '';
-            }, 2000);
+            elements.lastUpdate.textContent = now.toLocaleTimeString();
         }
 
-        // Optimized real-time simulation
-        function simulateRealTimeUpdates() {
-            // Main updates every 20 seconds
-            setInterval(() => {
-                // Only occasionally update stats
-                if (Math.random() > 0.4) { // 60% chance to update
-                    const oldOrders = mockData.stats.total_orders;
-                    mockData.stats.total_orders += Math.floor(Math.random() * 2); // Smaller increments
-                    mockData.stats.active_chefs = 8 + Math.floor(Math.random() * 8);
-                    
-                    // Add new activity if orders changed
-                    if (mockData.stats.total_orders > oldOrders) {
-                        const randomChef = mockData.rankings[Math.floor(Math.random() * mockData.rankings.length)];
-                        const menuCategories = Object.keys(mockData.menuItems);
-                        const randomCategory = menuCategories[Math.floor(Math.random() * menuCategories.length)];
-                        const itemNames = Object.keys(mockData.menuItems[randomCategory]);
-                        const randomItem = itemNames[Math.floor(Math.random() * itemNames.length)];
-                        
-                        const newActivity = {
-                            user_name: randomChef.name,
-                            action_type: 'order_completed',
-                            action: 'completed order',
-                            details: `${randomChef.name} completed ${randomItem} order #${mockData.stats.total_orders} with ${Math.floor(Math.random() * 2) + 4}-star rating`,
-                            timestamp: new Date().toISOString()
-                        };
-                        
-                        mockData.activity.unshift(newActivity);
-                        if (mockData.activity.length > CONFIG.maxActivities * 2) {
-                            mockData.activity = mockData.activity.slice(0, CONFIG.maxActivities * 2);
-                        }
-                    }
-                    
-                    // Update display with smart refresh
-                    updateLiveStats(mockData.stats, true);
-                    updateActivityLog(mockData.activity, false); // Allow animations
-                    updateLastUpdateTime();
-                }
-            }, 20000); // Every 20 seconds
-
-            // Discord status updates every 45 seconds
-            setInterval(() => {
-                simulateDiscordStatus();
-                updateChefRankings(mockData.rankings, true);
-            }, 45000);
-
-            // Very occasional chef ranking changes every 2 minutes
-            setInterval(() => {
-                if (Math.random() > 0.8) { // Only 20% chance
-                    const randomChef = mockData.rankings[Math.floor(Math.random() * mockData.rankings.length)];
-                    randomChef.orders_completed += Math.floor(Math.random() * 2);
-                    randomChef.rating += (Math.random() - 0.5) * 0.03; // Very small changes
-                    randomChef.rating = Math.max(3.0, Math.min(5.0, randomChef.rating));
-                    
-                    updateChefRankings(mockData.rankings, true);
-                }
-            }, 120000); // Every 2 minutes
-        }
-
-        // Handle visibility change to optimize performance
-        document.addEventListener('visibilitychange', function() {
+        document.addEventListener('visibilitychange', () => {
             if (document.hidden) {
-                // Pause animations when tab is hidden
-                Object.values(appState.refreshTimers).forEach(timer => {
-                    if (timer) clearInterval(timer);
-                });
+                if (refreshTimer) clearInterval(refreshTimer);
             } else {
-                // Resume when tab becomes visible
-                startSmartRefresh();
                 loadDashboardData();
+                startRefresh();
             }
         });
-
-        // Global error handling
-        window.addEventListener('error', function(e) {
-            console.error('💥 Dashboard error:', e.error);
-        });
-
-        // Add missing glow animation for first place
-        const glowKeyframes = `
-            @keyframes glow {
-                from { box-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700, 0 0 15px #ffd700; }
-                to { box-shadow: 0 0 10px #ffd700, 0 0 15px #ffd700, 0 0 20px #ffd700; }
-            }
-        `;
-        const styleElement = document.createElement('style');
-        styleElement.textContent = glowKeyframes;
-        document.head.appendChild(styleElement);
-        
-        // Expose API for debugging
-        window.cookingDashboard = {
-            refresh: loadDashboardData,
-            state: appState,
-            data: mockData,
-            showProfile: showDiscordProfileModal
-        };
-
-        console.log('🍳 Enhanced Cooking Department Dashboard Ready!');
     </script>
 </body>
 </html>
