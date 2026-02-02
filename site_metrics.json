@@ -505,44 +505,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "Cuteee #roblox #bloxburg #mouse",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769991749.0,
+      "url": "https://www.youtube.com/watch?v=W8YwrEjF-a4",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "Arya\u2019s dream turns into a nightmare\u2026 #roblox #dresstoimpress #dti #robloxshorts #bloxburg #dtiroblox",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1769988783.0,
+      "url": "https://www.youtube.com/watch?v=zN2qjbrPPrs",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "I WANT SUMMER SO BADD #roblox #bloxburg",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769985258.0,
+      "url": "https://www.youtube.com/watch?v=cuDS0ibRqpw",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "4 DAYS LEFT! \ud83d\udea8 #roblox #bloxburg #bloxburgupdate #bloxburgleaks #lovelyjules",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769984824.0,
+      "url": "https://www.youtube.com/watch?v=eQiuMpoCkKc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "SHE STARTED A YOUTUBE CHANNEL! Bloxburg Roleplay ",
+      "description": "About Me Hey there! I'm Liv from Livxdivine \u2764\ufe0fI create Roblox Bloxburg family roleplay content inspi...",
+      "source": "YouTube",
+      "timestamp": 1769983241.0,
+      "url": "https://www.youtube.com/watch?v=djNvWYKK74I",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1770020992.712969,
+    "generated_at": 1770022192.7210014,
     "mode": "memory",
     "refresh_interval": 2000
   }
