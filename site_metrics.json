@@ -461,6 +461,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "jualan di bloxburg #bloxburg#roblox#jualandibloxburg#bismillahfyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1770017900.0,
+      "url": "https://www.youtube.com/watch?v=tQMxkGJ8Ph4",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "TRANSFORM\u00c9 un GARAGE en una MANSI\u00d3N LOFT en Bloxburg || Lleopatric",
       "description": "Tour por mi nuevo garage loft !!! Like si leiste esto !! \u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013\u2013 Discord !! /...",
       "source": "YouTube",
@@ -479,29 +488,20 @@
     },
     {
       "type": "trend",
+      "title": "#relatable #booktok #viralshort #4urpage #comedyfilms #comedy #viralvideo #funny #bloxburg #trends",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769998139.0,
+      "url": "https://www.youtube.com/watch?v=xgyVEyGo2nQ",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": ".",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1769993451.0,
       "url": "https://www.youtube.com/watch?v=TyGRyDY2Dj8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#roblox #morocco #bloxburg #memes #robloxfriends #humor #dahood #automobile #cute #robloxadventure",
-      "description": "roblox #morocco #bloxburg #memes #robloxfriends #humor #dahood #automobile #cute #robloxadventure....",
-      "source": "YouTube",
-      "timestamp": 1769992468.0,
-      "url": "https://www.youtube.com/watch?v=1LHiEcOflzc",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Cuteee #roblox #bloxburg #mouse",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769991749.0,
-      "url": "https://www.youtube.com/watch?v=W8YwrEjF-a4",
       "icon": "fa-youtube"
     },
     {
@@ -542,7 +542,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1770019192.986498,
+    "generated_at": 1770019792.7097838,
     "mode": "memory",
     "refresh_interval": 2000
   }
