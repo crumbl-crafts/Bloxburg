@@ -461,7 +461,7 @@
   "news": [
     {
       "type": "trend",
-      "title": "Cuteee#bloxburg#mouse",
+      "title": ".",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1769993451.0,
@@ -475,6 +475,15 @@
       "source": "YouTube",
       "timestamp": 1769992468.0,
       "url": "https://www.youtube.com/watch?v=1LHiEcOflzc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "Cuteee #roblox #bloxburg #mouse",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1769991749.0,
+      "url": "https://www.youtube.com/watch?v=W8YwrEjF-a4",
       "icon": "fa-youtube"
     },
     {
@@ -493,15 +502,6 @@
       "source": "YouTube",
       "timestamp": 1769985258.0,
       "url": "https://www.youtube.com/watch?v=cuDS0ibRqpw",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "SHE STARTED A YOUTUBE CHANNEL! Bloxburg Roleplay ",
-      "description": "About Me Hey there! I'm Liv from Livxdivine \u2764\ufe0fI create Roblox Bloxburg family roleplay content inspi...",
-      "source": "YouTube",
-      "timestamp": 1769983241.0,
-      "url": "https://www.youtube.com/watch?v=djNvWYKK74I",
       "icon": "fa-youtube"
     },
     {
@@ -542,7 +542,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1769997593.0008478,
+    "generated_at": 1769998192.708999,
     "mode": "memory",
     "refresh_interval": 2000
   }
