@@ -286,51 +286,6 @@
       100% { transform: rotate(360deg); }
     }
 
-    .header-cta {
-      font-family: 'M PLUS Rounded 1c', sans-serif;
-      text-decoration: none;
-      font-weight: 700;
-      padding: 16px 32px;
-      border-radius: 16px;
-      background: linear-gradient(45deg, var(--primary), var(--secondary));
-      color: white;
-      border: none;
-      font-size: 1.1rem;
-      box-shadow: 
-        0 8px 25px rgba(255, 51, 102, 0.4),
-        0 0 0 2px rgba(255, 255, 255, 0.1);
-      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      cursor: pointer;
-      position: relative;
-      overflow: hidden;
-      letter-spacing: 1px;
-      z-index: 1;
-    }
-
-    .header-cta::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: -100%;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(45deg, var(--secondary), var(--primary));
-      transition: left 0.5s;
-      z-index: -1;
-    }
-
-    .header-cta:hover {
-      transform: translateY(-3px);
-      box-shadow: 
-        0 12px 35px rgba(255, 51, 102, 0.6),
-        0 0 0 3px rgba(255, 255, 255, 0.2);
-      letter-spacing: 1.5px;
-    }
-
-    .header-cta:hover::before {
-      left: 0;
-    }
-
     /* ===== INTERACTIVE MASCOT SYSTEM ===== */
     .mascot-wrapper {
       position: fixed;
@@ -742,6 +697,45 @@
       color: var(--text-muted);
     }
 
+    /* ===== COOKING DEPARTMENT SPECIFIC STYLES ===== */
+    .cooking-glow {
+      background: linear-gradient(45deg, #ff6b35, #f7931e, #ffd700) !important;
+    }
+
+    .premium-card:nth-child(2) .card-icon {
+      background: linear-gradient(135deg, #ff6b35, #f7931e) !important;
+      box-shadow: 0 10px 30px rgba(255, 107, 53, 0.3);
+    }
+
+    .premium-card:nth-child(2):hover .card-icon {
+      background: linear-gradient(135deg, #f7931e, #ffd700) !important;
+      box-shadow: 0 15px 40px rgba(255, 107, 53, 0.5);
+    }
+
+    .cooking-status {
+      background: linear-gradient(45deg, rgba(255, 107, 53, 0.2), rgba(247, 147, 30, 0.1)) !important;
+      border: 1px solid rgba(255, 107, 53, 0.3) !important;
+      color: #ffd700 !important;
+      text-shadow: 0 0 10px rgba(255, 215, 0, 0.4) !important;
+    }
+
+    .cooking-status::before {
+      background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.3), transparent) !important;
+    }
+
+    .premium-card:nth-child(2):hover .cooking-status {
+      background: linear-gradient(45deg, rgba(247, 147, 30, 0.3), rgba(255, 215, 0, 0.2)) !important;
+      border-color: rgba(255, 215, 0, 0.5) !important;
+      color: #fff !important;
+      text-shadow: 0 0 15px rgba(255, 215, 0, 0.6) !important;
+    }
+
+    /* Cooking card hover glow effect */
+    .premium-card:nth-child(2):hover .cooking-glow {
+      opacity: 0.6 !important;
+      filter: blur(25px) !important;
+    }
+
     /* ===== FOOTER ===== */
     .footer-note {
       text-align: center;
@@ -884,11 +878,6 @@
         font-size: 1.9rem;
       }
       
-      .header-cta {
-        padding: 14px 28px;
-        font-size: 1rem;
-      }
-      
       .cards-grid {
         gap: 25px;
       }
@@ -942,14 +931,13 @@
     <header class="hero">
       <div class="logo-container">
         <div class="logo-icon" id="logoTrigger">
-          <div style="font-size: 36px;">🏗️</div>
+          <div style="font-size: 36px;">�</div>
         </div>
         <div class="logo-text">
           <h1>Crumbl Crafts</h1>
           <div class="tagline">Premium Bloxburg Network</div>
         </div>
       </div>
-      <a href="Building Dept.html" class="header-cta" id="buildingDeptBtn">Go to Building Dept</a>
     </header>
 
     <main class="cards-grid">
@@ -964,6 +952,19 @@
           <p>Premium workspace with advanced building tools, exclusive blueprints, and collaborative resources for creating incredible Bloxburg constructions.</p>
         </div>
         <div class="card-status">Active Now</div>
+      </div>
+
+      <div class="premium-card" data-target="https://crumbl-crafts.github.io/Bloxburg/cookingdept.html" 
+           data-message="Welcome to the Cooking Department! 🍳 Experience live chef rankings, real-time activity tracking, dynamic menu management, and Discord integration. Watch your culinary empire thrive with premium analytics and interactive features!">
+        <div class="card-glow cooking-glow"></div>
+        <div class="card-icon">
+          <i class="fas fa-utensils"></i>
+        </div>
+        <div class="card-content">
+          <h3>Cooking Dept</h3>
+          <p>Live dashboard with chef rankings, real-time activity, menu management, and Discord integration. Experience premium culinary analytics and interactive features.</p>
+        </div>
+        <div class="card-status cooking-status">Live Dashboard</div>
       </div>
 
       <div class="premium-card disabled" 
@@ -1134,38 +1135,6 @@
           this.createSparkleEffect();
           this.showMessage("Hey there! I'm your guide around here! Need anything? Just hover around! 😄", 8000);
         });
-        
-        // Hover + Click on building button (defensive)
-        let buildingBtn = document.getElementById('buildingDeptBtn');
-        if (!buildingBtn) {
-          // fallback selector
-          buildingBtn = document.querySelector('a.header-cta');
-        }
-
-        if (buildingBtn) {
-          buildingBtn.addEventListener('mouseenter', () => {
-            this.showMessage("This button takes you straight to the Building Department! That's where the magic happens! 🏗️", 7000);
-          });
-
-          // Click on building button — avoid throwing if element missing
-          buildingBtn.addEventListener('click', (e) => {
-            try {
-              console.log('Building Dept button clicked');
-              // Let default navigation happen for progressive enhancement
-              // but also trigger effects and explicit navigation for reliability
-              this.showMessage("Alright, let's go build something awesome! See you there! 🚀", 3600);
-              this.createSparkleEffect();
-              // small delay to allow the sparkle/message to start, then navigate
-              setTimeout(() => { window.location.href = buildingBtn.getAttribute('href') || 'index.html'; }, 150);
-            } catch (err) {
-              console.error('Error handling building button click', err);
-              // fallback navigation
-              window.location.href = 'index.html';
-            }
-          });
-        } else {
-          console.warn('Building Dept button not found: #buildingDeptBtn');
-        }
         
         // Click on mascot
         this.mascotImage.addEventListener('click', () => {
