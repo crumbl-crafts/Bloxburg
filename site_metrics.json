@@ -410,24 +410,6 @@
       "thread_id": null,
       "server_id": 1301988304279048275,
       "url": "https://discord.com/users/1455990404955639970"
-    },
-    {
-      "type": "member_leave",
-      "shop_name": "Server",
-      "message": "safi1ite left the server",
-      "timestamp": 1769388734,
-      "thread_id": null,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1004386861701136464"
-    },
-    {
-      "type": "member_join",
-      "shop_name": "Server",
-      "message": "safi1ite joined the server",
-      "timestamp": 1769388707,
-      "thread_id": null,
-      "server_id": 1301988304279048275,
-      "url": "https://discord.com/users/1004386861701136464"
     }
   ],
   "pipeline": [
@@ -479,6 +461,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #morocco #bloxburg #memes #robloxfriends #humor #dahood #automobile #cute #robloxadventure",
+      "description": "roblox #morocco #bloxburg #memes #robloxfriends #humor #dahood #automobile #cute #robloxadventure....",
+      "source": "YouTube",
+      "timestamp": 1769992468.0,
+      "url": "https://www.youtube.com/watch?v=1LHiEcOflzc",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Arya\u2019s dream turns into a nightmare\u2026 #roblox #dresstoimpress #dti #robloxshorts #bloxburg #dtiroblox",
       "description": "...",
       "source": "YouTube",
@@ -514,62 +505,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "GO STOCK UP!! \ud83d\udecb\ufe0f #roblox #bloxburg #bloxburgbuild #relateable #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769976438.0,
-      "url": "https://www.youtube.com/watch?v=TnAzdcL7G80",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "Fort Legoredo Lego Western - statisfying speed building animation  #lego #bricklink",
-      "description": "Fort LEGOREDO is a Western set released in 1996. It contains a fort, a horse drawn limber with a fie...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1769970008.0,
-      "url": "https://www.youtube.com/watch?v=A6dXsdclAEE",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "Tips para construir en bloxburg #bloxburg #tips #bloxburgbuilder #bloxburghouses #bloxburgroleplay",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769967433.0,
-      "url": "https://www.youtube.com/watch?v=LC79iUTO27g",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "Bloxburg: MEGA Mansion Modern House | House Build | PART two",
-      "description": "HEWOO EARLIESSS! Welcome to my MEGA BLOXBURG MANSION BUILD a massive modern house perfect for rolepl...",
-      "source": "YouTube",
-      "timestamp": 1769966123.0,
-      "url": "https://www.youtube.com/watch?v=VKIatH-8LY4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Bloxburg Money Hacks YOU Don&#39;t Know",
-      "description": "Money hacks that will help you become rich in Bloxburg! Join my neighborhood! Want your builds to be...",
-      "source": "YouTube",
-      "timestamp": 1769961829.0,
-      "url": "https://www.youtube.com/watch?v=4afvDs-zWc8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "HOW TO |CUSTOM MIRROR  IN BLOXBURG #bloxburg #roblox ",
-      "description": "1st song #roblox #tutorial #berryave #berry #howto Business INQUIRE! \u21aa\ufe0fleshaworld4@gmail.com HOW TO ...",
-      "source": "YouTube",
-      "timestamp": 1769960181.0,
-      "url": "https://www.youtube.com/watch?v=-MYK7wwC41E",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1769993392.7064369,
+    "generated_at": 1769994592.7090623,
     "mode": "memory",
     "refresh_interval": 2000
   }
