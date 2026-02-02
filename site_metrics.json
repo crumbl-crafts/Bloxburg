@@ -488,20 +488,20 @@
     },
     {
       "type": "trend",
-      "title": ".",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769993451.0,
-      "url": "https://www.youtube.com/watch?v=TyGRyDY2Dj8",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "I WANT SUMMER SO BADD #roblox #bloxburg",
       "description": "...",
       "source": "YouTube",
       "timestamp": 1769985258.0,
       "url": "https://www.youtube.com/watch?v=cuDS0ibRqpw",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "SHE STARTED A YOUTUBE CHANNEL! Bloxburg Roleplay ",
+      "description": "About Me Hey there! I'm Liv from Livxdivine \u2764\ufe0fI create Roblox Bloxburg family roleplay content inspi...",
+      "source": "YouTube",
+      "timestamp": 1769983241.0,
+      "url": "https://www.youtube.com/watch?v=djNvWYKK74I",
       "icon": "fa-youtube"
     },
     {
@@ -542,7 +542,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1770032992.7053504,
+    "generated_at": 1770034192.7069879,
     "mode": "memory",
     "refresh_interval": 2000
   }
