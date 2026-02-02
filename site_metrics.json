@@ -34,6 +34,15 @@
   ],
   "activityLog": [
     {
+      "type": "new_request_thread",
+      "shop_name": "LF Builder",
+      "message": "<@1236654127531036733> posted a new request titled: LF Builder",
+      "timestamp": 1770061452,
+      "thread_id": 1467968870290690148,
+      "server_id": 1301988304279048275,
+      "url": "https://discord.com/channels/1301988304279048275/1467968870290690148"
+    },
+    {
       "type": "member_join",
       "shop_name": "Server",
       "message": "supermario_9071 joined the server",
@@ -542,7 +551,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1770061121.7871637,
+    "generated_at": 1770061452.4561818,
     "mode": "memory",
     "refresh_interval": 2000
   }
