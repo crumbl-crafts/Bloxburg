@@ -478,44 +478,53 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "My top 4 favorite aesthetic mods in the sims 4",
+      "description": "My top 4 favorite aesthetic mods in the sims 4 | I have these mods on ROTATION in my save file #sims...",
+      "source": "YouTube",
+      "timestamp": 1770078628.0,
+      "url": "https://www.youtube.com/watch?v=pSySALNiZOU",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "Coffee in Bloxburg!!! #roblox #bloxburg #robloxrp #bloxburgrp #fyp",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1770077913.0,
+      "url": "https://www.youtube.com/watch?v=N3dwRHk1zgM",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
+      "type": "trend",
+      "title": "jax toy",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1770073994.0,
+      "url": "https://www.youtube.com/watch?v=Z3vpGEwCJJY",
+      "icon": "fa-youtube"
     },
     {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "STARTING NEW - Bloxburg Poor To Rich | Ep 1",
+      "description": "bloxburg #roblox #robloxbloxburg I gave up my rich bloxburg life to start again...how will I progres...",
+      "source": "YouTube",
+      "timestamp": 1770062405.0,
+      "url": "https://www.youtube.com/watch?v=anzkAzNnXDY",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "New Tropical House In Bloxburg #bloxburg #tropical #viral #bloxburgbuilder #roblox",
+      "description": "Sorry for the bad quality! It's hard to keep it up on different platforms....",
+      "source": "YouTube",
+      "timestamp": 1770047732.0,
+      "url": "https://www.youtube.com/watch?v=kICfCefyXbo",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1770125392.7101104,
+    "generated_at": 1770126592.7139318,
     "mode": "memory",
     "refresh_interval": 2000
   }
