@@ -434,6 +434,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "Working as a teacher in Bloxburg! BTW attending school gives you higher pay!",
+      "description": "roblox #bloxburg #bloxburgcontentcreator #foryou #trending #school #teacher #teaching #bloxburgrolep...",
+      "source": "YouTube",
+      "timestamp": 1770114027.0,
+      "url": "https://www.youtube.com/watch?v=l5BN5xehlX0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "#roblox #dahood #bloxburg #memes #robloxfriends #humor #automobile #cute #gaming #morocco",
       "description": "roblox #dahood #bloxburg #memes #robloxfriends #humor #automobile #cute #gaming #morocco....",
       "source": "YouTube",
@@ -466,15 +475,6 @@
       "source": "YouTube",
       "timestamp": 1770078897.0,
       "url": "https://www.youtube.com/watch?v=N732iptpYCI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "My top 4 favorite aesthetic mods in the sims 4",
-      "description": "My top 4 favorite aesthetic mods in the sims 4 | I have these mods on ROTATION in my save file #sims...",
-      "source": "YouTube",
-      "timestamp": 1770078628.0,
-      "url": "https://www.youtube.com/watch?v=pSySALNiZOU",
       "icon": "fa-youtube"
     },
     {
@@ -515,7 +515,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1770114592.7079115,
+    "generated_at": 1770115792.7094185,
     "mode": "memory",
     "refresh_interval": 2000
   }
