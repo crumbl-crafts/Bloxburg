@@ -434,15 +434,6 @@
   "news": [
     {
       "type": "trend",
-      "title": "DAISY&#39;S CAR BREAKS DOWN ON A ROAD TRIP! #shorts #roblox #roleplay #bloxburg #roadtrip #car",
-      "description": "DAISY'S CAR BREAKS DOWN ON A ROAD TRIP! Make sure to like and check out the full video in the link t...",
-      "source": "YouTube",
-      "timestamp": 1770134426.0,
-      "url": "https://www.youtube.com/watch?v=CNWhsH4pfoQ",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
       "title": "kt\u00f3re lego wybierasz? #roblox #robloxgamedesign #viral #bloxburg #robloxbloxburgspeedbuild #trending",
       "description": "...",
       "source": "YouTube",
@@ -521,10 +512,19 @@
       "timestamp": 1770047732.0,
       "url": "https://www.youtube.com/watch?v=kICfCefyXbo",
       "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "jualan di bloxburg #bloxburg#roblox#jualandibloxburg#bismillahfyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1770017900.0,
+      "url": "https://www.youtube.com/watch?v=tQMxkGJ8Ph4",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1770148793.0736706,
+    "generated_at": 1770149392.7063875,
     "mode": "memory",
     "refresh_interval": 2000
   }
