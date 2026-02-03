@@ -434,6 +434,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#roblox #dahood #bloxburg #memes #robloxfriends #humor #automobile #cute #gaming #morocco",
+      "description": "roblox #dahood #bloxburg #memes #robloxfriends #humor #automobile #cute #gaming #morocco....",
+      "source": "YouTube",
+      "timestamp": 1770110622.0,
+      "url": "https://www.youtube.com/watch?v=F4kkYpx0X4g",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Universal studios, bloxburg! #bloxburg #universalstudios #universal #roblox #welcometobloxburg #fyp",
       "description": "...",
       "source": "YouTube",
@@ -448,6 +457,15 @@
       "source": "YouTube",
       "timestamp": 1770085323.0,
       "url": "https://www.youtube.com/watch?v=6A48Df0OnD0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "got it",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1770078897.0,
+      "url": "https://www.youtube.com/watch?v=N732iptpYCI",
       "icon": "fa-youtube"
     },
     {
@@ -503,28 +521,10 @@
       "timestamp": 1769985258.0,
       "url": "https://www.youtube.com/watch?v=cuDS0ibRqpw",
       "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "SHE STARTED A YOUTUBE CHANNEL! Bloxburg Roleplay ",
-      "description": "About Me Hey there! I'm Liv from Livxdivine \u2764\ufe0fI create Roblox Bloxburg family roleplay content inspi...",
-      "source": "YouTube",
-      "timestamp": 1769983241.0,
-      "url": "https://www.youtube.com/watch?v=djNvWYKK74I",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "MY DAUGHTERS FAMILY SICK DAY ROUTINE! *SHE NEEDS CRUTCHES?* Roblox Bloxburg Voiced RP Roleplay",
-      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
-      "source": "YouTube",
-      "timestamp": 1769979606.0,
-      "url": "https://www.youtube.com/watch?v=GoIWHVzVe7A",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1770110993.0137389,
+    "generated_at": 1770112192.7157202,
     "mode": "memory",
     "refresh_interval": 2000
   }
