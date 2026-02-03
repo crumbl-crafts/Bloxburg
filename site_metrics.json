@@ -8,7 +8,7 @@
   },
   "server": {
     "total_members": 365,
-    "joined_today": 2,
+    "joined_today": 0,
     "active_shops": 2,
     "avg_response_time": 2627.7
   },
@@ -524,7 +524,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1770155392.7151923,
+    "generated_at": 1770156592.7061675,
     "mode": "memory",
     "refresh_interval": 2000
   }
