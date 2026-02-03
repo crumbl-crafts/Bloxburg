@@ -452,6 +452,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#music #roblox #haveitoldyoulatelythatiloveyou #bloxburg #bloxburg #minecraftparodies #minecraftsong",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1770085323.0,
+      "url": "https://www.youtube.com/watch?v=6A48Df0OnD0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Coffee in Bloxburg!!! #roblox #bloxburg #robloxrp #bloxburgrp #fyp",
       "description": "...",
       "source": "YouTube",
@@ -530,19 +539,10 @@
       "timestamp": 1769976438.0,
       "url": "https://www.youtube.com/watch?v=TnAzdcL7G80",
       "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Tips para construir en bloxburg #bloxburg #tips #bloxburgbuilder #bloxburghouses #bloxburgroleplay",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1769967433.0,
-      "url": "https://www.youtube.com/watch?v=LC79iUTO27g",
-      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1770085792.7244399,
+    "generated_at": 1770086992.7101107,
     "mode": "memory",
     "refresh_interval": 2000
   }
