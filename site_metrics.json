@@ -443,6 +443,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "FAMILY ROAD TRIP GONE WRONG! *OUR CAR BROKE DOWN* Roblox Bloxburg Voiced RP Roleplay",
+      "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
+      "source": "YouTube",
+      "timestamp": 1770152406.0,
+      "url": "https://www.youtube.com/watch?v=Vz9cFoQwUNU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "Roblox | BLOXBURG: Easy Modern Loft Apartment Interior | Speed build 35k \u2661",
       "description": "\u0f18\u2661 \u00b7\u02da \u2661 OPEN ME \u00b7\u02da \u0f18\u2661 \u00b7\u02da \u2661 Join my Roblox Group! https://www.roblox.com/groups/8948903/Daniellerys-T...",
       "source": "YouTube",
@@ -475,15 +484,6 @@
       "source": "YouTube",
       "timestamp": 1770087824.0,
       "url": "https://www.youtube.com/watch?v=R8XyfHxHEiI",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "#music #roblox #haveitoldyoulatelythatiloveyou #bloxburg #bloxburg #minecraftparodies #minecraftsong",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1770085323.0,
-      "url": "https://www.youtube.com/watch?v=6A48Df0OnD0",
       "icon": "fa-youtube"
     },
     {
@@ -524,7 +524,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1770154193.0822673,
+    "generated_at": 1770155392.7151923,
     "mode": "memory",
     "refresh_interval": 2000
   }
