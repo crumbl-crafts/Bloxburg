@@ -478,53 +478,44 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "trend",
-      "title": "Bloxburg Food decals \ud83e\udd6b #bloxburg #bloxburgdecals #bloxburgbuild",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1770149723.0,
-      "url": "https://www.youtube.com/watch?v=kzUuxnmpXL4",
-      "icon": "fa-youtube"
+      "type": "game_update",
+      "title": "New Winter Update Available!",
+      "description": "Explore new winter-themed furniture and decorations",
+      "source": "Bloxburg Official",
+      "timestamp": 1769351386.4599342,
+      "url": "https://twitter.com/BloxburgGame",
+      "icon": "fa-gamepad"
     },
     {
       "type": "trend",
-      "title": "NEW BLOXBURG VALENTINES ITEMS LEAKED!",
-      "description": "BUY MY MERCH: https://acggoods.com/store/glossbossboutique OPEN ME FOR SOCIALS, MERCH & MORE! \u0c68\u09ce hey...",
+      "title": "Modern Mansion Builds Trending",
+      "description": "Community showcasing stunning modern architecture",
       "source": "YouTube",
-      "timestamp": 1770134036.0,
-      "url": "https://www.youtube.com/watch?v=fzGWWhD0HPs",
-      "icon": "fa-youtube"
+      "timestamp": 1769347786.459936,
+      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
+      "icon": "fa-fire"
     },
     {
-      "type": "trend",
-      "title": "kt\u00f3re lego wybierasz? #roblox #robloxgamedesign #viral #bloxburg #robloxbloxburgspeedbuild #trending",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1770120535.0,
-      "url": "https://www.youtube.com/watch?v=w52aQC-MPBg",
-      "icon": "fa-youtube"
+      "type": "tip",
+      "title": "Money Making Guide 2024",
+      "description": "Best jobs and strategies to earn cash quickly",
+      "source": "Community Guide",
+      "timestamp": 1769344186.4599369,
+      "url": "#",
+      "icon": "fa-lightbulb"
     },
     {
-      "type": "trend",
-      "title": "Working as a teacher in Bloxburg! BTW attending school gives you higher pay!",
-      "description": "roblox #bloxburg #bloxburgcontentcreator #foryou #trending #school #teacher #teaching #bloxburgrolep...",
-      "source": "YouTube",
-      "timestamp": 1770114027.0,
-      "url": "https://www.youtube.com/watch?v=l5BN5xehlX0",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "Disclaimer he bought it #trending #roblox #stealabrainrot #fyp",
-      "description": "...",
-      "source": "YouTube",
-      "timestamp": 1770103329.0,
-      "url": "https://www.youtube.com/watch?v=AUCPN_iURpw",
-      "icon": "fa-youtube"
+      "type": "community",
+      "title": "Weekly Build Contest",
+      "description": "Submit your best holiday-themed builds to win prizes!",
+      "source": "Crumbl Crafts",
+      "timestamp": 1769340586.4599376,
+      "url": "#",
+      "icon": "fa-trophy"
     }
   ],
   "meta": {
-    "generated_at": 1770191993.0339077,
+    "generated_at": 1770192592.7109401,
     "mode": "memory",
     "refresh_interval": 2000
   }
