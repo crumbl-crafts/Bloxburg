@@ -443,6 +443,15 @@
   "news": [
     {
       "type": "trend",
+      "title": "#newmusic #music #roblox #minecraftparodies #bloxburg #bloxburg #theothersideofmakebelieve #minecraf",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1770166582.0,
+      "url": "https://www.youtube.com/watch?v=zjXPEuai01M",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "GLOW UP is real \u2728\ud83c\udfe1-Roblox",
       "description": "Finally done! \u2728 From plain to wow \u2014 sobrang sulit ng pagre-renovate ko sa Roblox. Ang saya makita na...",
       "source": "YouTube",
@@ -457,6 +466,15 @@
       "source": "YouTube",
       "timestamp": 1770152406.0,
       "url": "https://www.youtube.com/watch?v=Vz9cFoQwUNU",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
+      "title": "NEW BLOXBURG VALENTINES ITEMS LEAKED!",
+      "description": "BUY MY MERCH: https://acggoods.com/store/glossbossboutique OPEN ME FOR SOCIALS, MERCH & MORE! \u0c68\u09ce hey...",
+      "source": "YouTube",
+      "timestamp": 1770134036.0,
+      "url": "https://www.youtube.com/watch?v=fzGWWhD0HPs",
       "icon": "fa-youtube"
     },
     {
@@ -487,44 +505,35 @@
       "icon": "fa-youtube"
     },
     {
-      "type": "game_update",
-      "title": "New Winter Update Available!",
-      "description": "Explore new winter-themed furniture and decorations",
-      "source": "Bloxburg Official",
-      "timestamp": 1769351386.4599342,
-      "url": "https://twitter.com/BloxburgGame",
-      "icon": "fa-gamepad"
+      "type": "trend",
+      "title": "Universal studios, bloxburg! #bloxburg #universalstudios #universal #roblox #welcometobloxburg #fyp",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1770087824.0,
+      "url": "https://www.youtube.com/watch?v=R8XyfHxHEiI",
+      "icon": "fa-youtube"
     },
     {
       "type": "trend",
-      "title": "Modern Mansion Builds Trending",
-      "description": "Community showcasing stunning modern architecture",
+      "title": "#music #roblox #haveitoldyoulatelythatiloveyou #bloxburg #bloxburg #minecraftparodies #minecraftsong",
+      "description": "...",
       "source": "YouTube",
-      "timestamp": 1769347786.459936,
-      "url": "https://youtube.com/results?search_query=bloxburg+modern+mansion",
-      "icon": "fa-fire"
+      "timestamp": 1770085323.0,
+      "url": "https://www.youtube.com/watch?v=6A48Df0OnD0",
+      "icon": "fa-youtube"
     },
     {
-      "type": "tip",
-      "title": "Money Making Guide 2024",
-      "description": "Best jobs and strategies to earn cash quickly",
-      "source": "Community Guide",
-      "timestamp": 1769344186.4599369,
-      "url": "#",
-      "icon": "fa-lightbulb"
-    },
-    {
-      "type": "community",
-      "title": "Weekly Build Contest",
-      "description": "Submit your best holiday-themed builds to win prizes!",
-      "source": "Crumbl Crafts",
-      "timestamp": 1769340586.4599376,
-      "url": "#",
-      "icon": "fa-trophy"
+      "type": "trend",
+      "title": "got it",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1770078897.0,
+      "url": "https://www.youtube.com/watch?v=N732iptpYCI",
+      "icon": "fa-youtube"
     }
   ],
   "meta": {
-    "generated_at": 1770166192.707767,
+    "generated_at": 1770167392.7058718,
     "mode": "memory",
     "refresh_interval": 2000
   }
