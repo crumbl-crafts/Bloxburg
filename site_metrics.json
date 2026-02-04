@@ -461,6 +461,15 @@
     },
     {
       "type": "trend",
+      "title": "this friend group always left their friend out\u2026\ud83d\ude14 #roblox #berryave #bloxburg #robloxshorts #dti",
+      "description": "...",
+      "source": "YouTube",
+      "timestamp": 1770156407.0,
+      "url": "https://www.youtube.com/watch?v=X4JuceCMX-0",
+      "icon": "fa-youtube"
+    },
+    {
+      "type": "trend",
       "title": "FAMILY ROAD TRIP GONE WRONG! *OUR CAR BROKE DOWN* Roblox Bloxburg Voiced RP Roleplay",
       "description": "Description: \u2661\ufe0e. \u25dd \u2b50\ufe0fUSE STARCODE 'PEACH' WHEN BUYING ROBUX OR PREMIUM!\u2b50\ufe0f \u029a hey everyone!   Today it...",
       "source": "YouTube",
@@ -475,15 +484,6 @@
       "source": "YouTube",
       "timestamp": 1770149723.0,
       "url": "https://www.youtube.com/watch?v=kzUuxnmpXL4",
-      "icon": "fa-youtube"
-    },
-    {
-      "type": "trend",
-      "title": "NEW BLOXBURG VALENTINES ITEMS LEAKED!",
-      "description": "BUY MY MERCH: https://acggoods.com/store/glossbossboutique OPEN ME FOR SOCIALS, MERCH & MORE! \u0c68\u09ce hey...",
-      "source": "YouTube",
-      "timestamp": 1770134036.0,
-      "url": "https://www.youtube.com/watch?v=fzGWWhD0HPs",
       "icon": "fa-youtube"
     },
     {
@@ -524,7 +524,7 @@
     }
   ],
   "meta": {
-    "generated_at": 1770170393.0144305,
+    "generated_at": 1770170992.7044451,
     "mode": "memory",
     "refresh_interval": 2000
   }
